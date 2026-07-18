@@ -24,8 +24,8 @@ configuration:
         light: "#faf9fb"
         lightgray: "#e9e7ee"
         gray: "#a9a4b2"
-        darkgray: "#4a4553"
-        dark: "#1f1b26"
+        darkgray: "#6b5a85"
+        dark: "#3b2260"
         secondary: "#6d28d9"
         tertiary: "#7c3aed"
         highlight: rgba(109, 40, 217, 0.08)
@@ -34,8 +34,8 @@ configuration:
         light: "#121016"
         lightgray: "#1e1a24"
         gray: "#4a4553"
-        darkgray: "#b8b2c4"
-        dark: "#f1eef7"
+        darkgray: "#b8a9d4"
+        dark: "#ded1f5"
         secondary: "#a78bfa"
         tertiary: "#c4b5fd"
         highlight: rgba(167, 139, 250, 0.1)
