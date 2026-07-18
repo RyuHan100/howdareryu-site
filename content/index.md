@@ -1,6 +1,4 @@
 ---
-title: Welcome to Quartz
+title: 안녕하세요.
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+류_ryu_입니다. 
