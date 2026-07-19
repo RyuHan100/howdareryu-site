@@ -16,7 +16,7 @@ Quartz comes with a wide variety of features out of the box. Most features are p
 - [[Roam Research compatibility]] — Support for Roam Research syntax
 - [[features/Citations|Citations]] — Academic citation support
 - [[Canvas]] — Render Obsidian Canvas files as interactive pages
-- [[Bases]] — Database-like views for your notes (tables, cards, galleries, and more)
+- [[quartz/docs/features/Bases]] — Database-like views for your notes (tables, cards, galleries, and more)
 
 ## Navigation & Discovery
 
