@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - v5
-evn:
+env:
   THEME_NAME: hackthebox
 
 permissions:
