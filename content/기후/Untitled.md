@@ -1,5 +1,0 @@
----
-created:
-updated:
-tags:
----

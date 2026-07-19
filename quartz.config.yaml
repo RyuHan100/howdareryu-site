@@ -187,8 +187,8 @@ plugins:
       priority: 20
     options:
       displayDateType:
-        - updated
         - created
+        - modified
 
   - source: github:quartz-community/tag-list
     enabled: false
