@@ -1,8 +1,9 @@
 ---
 title: About
 created: 2026-07-19
-dateModified: 2026-07-19T13:07:00
+updated: 2026-07-19
 tags:
+  - hello
 ---
 
 안녕하세요, Ryu입니다.
