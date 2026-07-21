@@ -11,8 +11,8 @@ tags:
 
 ## 무엇이 있나요
 
-- [[기후]] : 기후 활동가의 노트 
-- [[단상]] : 정원에 들러 남기는 생각들 
+- [[기후]] : 기후 노트 
+- [[단상]] : only organic, 정원에 들러 남기는 생각의 조각들 
 
 
 ## 둘러보는 법
@@ -29,8 +29,12 @@ tags:
 
 ```dataview
 LIST
-FROM "quartz"
+FROM "quartz/content"
 SORT file.mtime DESC
 LIMIT 10
 ```
 
+## 연락
+
+- GitHub: [RyuHan100](https://github.com/RyuHan100)
+- insta: @howdareryu
