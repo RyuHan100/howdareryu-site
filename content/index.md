@@ -34,4 +34,4 @@ LIMIT 10
 ```
 
 ### 신호 보내기
-- Instagram | @howdareryu
+- Instagram | [@howdareryu](https://www.instagram.com/howdareryu)
