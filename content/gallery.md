@@ -97,8 +97,7 @@ title: Inspiration
   <figure><a href="/img/inspiration/20260328_092355.jpg"><img src="/img/inspiration/20260328_092355.jpg" alt="2026.03.28 09:23" loading="lazy"></a><figcaption>2026.03.28 09:23</figcaption></figure>
   <figure><a href="/img/inspiration/20260327_103008.jpg"><img src="/img/inspiration/20260327_103008.jpg" alt="2026.03.27 10:30" loading="lazy"></a><figcaption>2026.03.27 10:30</figcaption></figure>
   <figure><a href="/img/inspiration/20260326_105555.jpg"><img src="/img/inspiration/20260326_105555.jpg" alt="2026.03.26 10:55" loading="lazy"></a><figcaption>2026.03.26 10:55</figcaption></figure>
-  <figure><a href="/img/inspiration/20260325_095801.jpg"><img src="/img/inspiration/20260325_095801.jpg" alt="2026.03.25 09:58" loading="lazy"></a><figcaption>2026.03.25 09:58</figcaption></figure>
-  <figure><video src="/img/inspiration/20260324_125632.mp4" controls muted playsinline preload="metadata"></video><figcaption>2026.03.24 12:56</figcaption></figure>
+  <figure><a href="/img/inspiration/20260325_095801.jpg"><img src="/img/inspiration/20260325_095801.jpg" alt="2026.03.25 09:58" loading="lazy"></a>
   <figure><a href="/img/inspiration/20260324_101153.jpg"><img src="/img/inspiration/20260324_101153.jpg" alt="2026.03.24 10:11" loading="lazy"></a><figcaption>2026.03.24 10:11</figcaption></figure>
   <figure><a href="/img/inspiration/20260323_092020.jpg"><img src="/img/inspiration/20260323_092020.jpg" alt="2026.03.23 09:20" loading="lazy"></a><figcaption>2026.03.23 09:20</figcaption></figure>
   <figure><a href="/img/inspiration/20260322_091701.jpg"><img src="/img/inspiration/20260322_091701.jpg" alt="2026.03.22 09:17" loading="lazy"></a><figcaption>2026.03.22 09:17</figcaption></figure>
