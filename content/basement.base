@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.ext == "md"
+    - draft != true
+    - file.name != "index"
+views:
+  - type: table
+    name: 전체 노트
+    order:
+      - file.name
+      - title
+      - tags
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC

@@ -189,7 +189,6 @@ plugins:
       displayDateType:
         - created
         - modified
-
   - source: github:quartz-community/tag-list
     enabled: false
     layout:

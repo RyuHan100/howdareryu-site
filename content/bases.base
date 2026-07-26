@@ -1,6 +1,0 @@
-views:
-  - type: table
-    name: 테스트
-    order:
-      - file.name
-      - file.mtime
