@@ -1,4 +1,4 @@
 
-git 동기화:
+github 동기화:
 `npx quartz sync`
 
