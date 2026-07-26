@@ -1,12 +1,11 @@
 ---
-title: hi
+title: 반갑습니다
 created: 2026-07-19
-updated: 2026-07-19
+updated: 2026-07-27
 tags:
   - hello
 ---
 안녕하세요, Ryu입니다.
-
 이 사이트는 저의 관심사를  모아두는 **디지털  정원**입니다. 자유롭게 들러 여유롭게 산책하시기 바랍니다. 
 
 ### 정원 식물
@@ -23,15 +22,7 @@ tags:
 
 
 ### 최근 수정한 노트
-
 check the latest updates | [github](https://github.com/RyuHan100/howdareryu-site)
-
-```dataview
-LIST
-FROM "quartz/content"
-SORT file.mtime DESC
-LIMIT 10
-```
 
 ### 신호 보내기
 - Instagram | [@howdareryu](https://www.instagram.com/howdareryu)
