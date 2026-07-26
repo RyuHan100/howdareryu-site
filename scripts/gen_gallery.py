@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""content/img/insperation 폴더를 읽어 썸네일을 만들고 content/gallery.md 를 생성한다."""
+"""content/img/inspiration 폴더를 읽어 썸네일을 만들고 content/gallery.md 를 생성한다."""
 
 import html
 import re
@@ -10,8 +10,8 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent   # quartz/ 루트
 
-IMG_DIR = ROOT / "content" / "img" / "insperation"
-IMG_WEB = "/img/insperation"
+IMG_DIR = ROOT / "content" / "img" / "inspiration"
+IMG_WEB = "/img/inspiration"
 
 THUMB_DIR = ROOT / "content" / "img" / "thumbs"
 THUMB_WEB = "/img/thumbs"
