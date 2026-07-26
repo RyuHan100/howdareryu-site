@@ -1,8 +1,7 @@
 ---
 title: Inspiration
 ---
-
-총 100장.
+> 저의 아버지 ==여송== 의 습작을 모아둔 디지털 갤러리입니다. 아빠가 매일 보내주는 그림에서 가장 큰 위안과 영감을 받습니다. 
 
 <div class="gallery">
   <figure><a href="/img/inspiration/20260724_094811.jpg"><img src="/img/inspiration/20260724_094811.jpg" alt="2026.07.24 09:48" loading="lazy"></a><figcaption>2026.07.24 09:48</figcaption></figure>
