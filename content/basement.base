@@ -1,6 +1,7 @@
 filters:
   and:
     - file.ext == "md"
+    - publish == true
     - draft != true
     - file.name != "index"
 views:
@@ -14,3 +15,5 @@ views:
     sort:
       - property: file.mtime
         direction: DESC
+    columnSize:
+      file.name: 555
