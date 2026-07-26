@@ -9,11 +9,10 @@ views:
     name: 전체 노트
     order:
       - file.name
-      - title
       - tags
       - file.mtime
     sort:
       - property: file.mtime
         direction: DESC
     columnSize:
-      file.name: 555
+      file.name: 243
