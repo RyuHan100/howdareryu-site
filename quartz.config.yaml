@@ -154,6 +154,19 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
+    options:
+      # 폴더 먼저(이름순). 제목이 YYYY-MM-DD 로 시작하는 노트끼리는 최신순, 날짜 없는 노트는 그 위에 이름순.
+      # 플러그인이 문자열을 그대로 브라우저에 넘겨 실행하므로 JS 함수 식이어야 한다.
+      sortFn: |-
+        (a, b) => {
+          if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1;
+          const dated = /^\d{4}-\d{2}-\d{2}/;
+          const an = a.displayName || "", bn = b.displayName || "";
+          const ad = !a.isFolder && dated.test(an), bd = !b.isFolder && dated.test(bn);
+          if (ad && bd) return bn.localeCompare(an, undefined, { numeric: true });
+          if (ad !== bd) return ad ? 1 : -1;
+          return an.localeCompare(bn, undefined, { numeric: true, sensitivity: "base" });
+        }
     layout:
       position: left
       priority: 50
