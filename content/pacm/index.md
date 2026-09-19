@@ -1,5 +1,5 @@
 ---
-title: PACM(6.4조) 전환 승인 CDM 활동 모니터링
+title: PACM_radar
 description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 30일 변경 하이라이트.
 tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]
 date: 2026-09-20
