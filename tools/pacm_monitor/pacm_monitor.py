@@ -339,7 +339,12 @@ def teams_card(text: str) -> dict:
 def notify(webhook: str, text: str) -> None:
     try:
         host = urlparse(webhook).hostname or ""
-        payload = teams_card(text) if host.endswith(TEAMS_HOSTS) else {"text": text, "content": text}
+        if host.endswith(TEAMS_HOSTS):
+            payload = teams_card(text)
+        else:
+            if len(text) > 1900:  # Discord content 한도 2000자 — 넘으면 400 으로 알림 자체가 누락됨
+                text = text[:1850].rsplit("\n", 1)[0] + "\n… (전체: https://howdareryu.com/pacm)"
+            payload = {"text": text, "content": text}
         req = Request(webhook, data=json.dumps(payload).encode(),
                       headers={"Content-Type": "application/json"})
         urlopen(req, timeout=15).read()
