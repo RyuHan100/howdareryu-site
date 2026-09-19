@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - v5
+  workflow_dispatch:   # pacm-monitor 가 커밋 후 배포를 직접 실행
 
 env:
   THEME_NAME: hackthebox

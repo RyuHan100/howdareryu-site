@@ -1,0 +1,93 @@
+# PACM(6.4조) 전환 모니터 — 매일 07:30 KST 실행, 변경 시 커밋 → Quartz 재빌드
+# 이 파일과 tools/pacm_monitor/ 를 howdareryu.com Quartz 저장소에 넣어서 사용
+name: PACM transition monitor
+
+on:
+  schedule:
+    - cron: "30 22 * * *"     # 22:30 UTC = 07:30 KST
+  workflow_dispatch:
+    inputs:
+      highlight_days:
+        description: "최근 변경 하이라이트 기간(일)"
+        default: "30"
+
+permissions:
+  contents: write
+  actions: write              # 배포 워크플로 dispatch 용
+
+concurrency:
+  group: pacm-monitor
+  cancel-in-progress: false
+
+env:
+  SITE_BRANCH: v5             # RyuHan100/howdareryu-site 기본 브랜치
+  DEPLOY_WORKFLOW: deploy.yml # Quartz 배포 워크플로 파일명 (.github/workflows/ 아래)
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.SITE_BRANCH }}
+          # PUSH_TOKEN(PAT) 이 있으면 푸시가 배포 워크플로를 자연 트리거함. 없으면 아래 dispatch 단계가 대신 실행
+          token: ${{ secrets.PUSH_TOKEN || github.token }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: tools/pacm_monitor/requirements.txt
+
+      - name: Install deps (Playwright + Chromium + xvfb)
+        run: |
+          pip install -r tools/pacm_monitor/requirements.txt
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y -qq xvfb
+          google-chrome --version || true   # ubuntu-latest 에 실제 Chrome 사전설치 → channel=chrome 사용
+
+      - name: Run monitor (headful under xvfb — Incapsula 우회)
+        id: monitor
+        env:
+          PACM_HIGHLIGHT_DAYS: ${{ inputs.highlight_days || '30' }}
+          PACM_WEBHOOK: ${{ secrets.PACM_WEBHOOK }}   # (선택) Slack/Discord 웹훅
+        run: |
+          xvfb-run -a --server-args="-screen 0 1280x900x24" \
+            python tools/pacm_monitor/pacm_monitor.py --site-root . \
+              --page "content/pacm/index.md" --data-dir "content/pacm/data" --data-url-prefix "/pacm/data"
+
+      - name: Commit & push
+        id: push
+        run: |
+          git config user.name  "pacm-monitor[bot]"
+          git config user.email "pacm-monitor[bot]@users.noreply.github.com"
+          git add content/pacm
+          if git diff --cached --quiet; then
+            echo "no file changes"; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          if [ "${{ steps.monitor.outputs.changed }}" = "true" ]; then
+            MSG="pacm: 변경 감지 $(date -u +%F) — ${{ steps.monitor.outputs.summary }}"
+          else
+            MSG="pacm: 확인 $(date -u +%F) (변경 없음)"
+          fi
+          git commit -m "${MSG:0:200}"
+          git push origin HEAD:${SITE_BRANCH}
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # GITHUB_TOKEN 으로 푸시하면 다른 워크플로가 트리거되지 않으므로 명시적으로 배포 실행
+      - name: Trigger Quartz deploy
+        if: steps.push.outputs.pushed == 'true' && env.PUSH_TOKEN_SET != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PUSH_TOKEN_SET: ${{ secrets.PUSH_TOKEN != '' }}
+        run: gh workflow run "$DEPLOY_WORKFLOW" --ref "$SITE_BRANCH" || echo "::warning::deploy dispatch 실패 — DEPLOY_WORKFLOW 이름 확인"
+
+      - name: Summary
+        run: |
+          {
+            echo "### PACM 모니터 결과 (${{ steps.monitor.outputs.status }})"
+            echo
+            echo "${{ steps.monitor.outputs.summary }}" | tr '/' '\n'
+          } >> "$GITHUB_STEP_SUMMARY"
