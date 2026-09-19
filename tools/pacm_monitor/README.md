@@ -27,7 +27,8 @@ UNFCCC CDM의 [Activities transitioned to A6.4](https://cdm.unfccc.int/Programme
 - 하단 "변경 이력" 표에 전체 이력이 남습니다.
 - 첫 실행은 기준선으로만 저장하고 변경으로 취급하지 않습니다.
 - 기간은 `PACM_HIGHLIGHT_DAYS` 또는 `--highlight-days` 로 조정합니다.
-- `PACM_WEBHOOK` 시크릿을 넣으면 변경 시 Slack/Discord로 알림을 보냅니다.
+- `PACM_WEBHOOK` 시크릿을 넣으면 변경 시 Slack/Discord/Teams로 알림을 보냅니다.
+  - Teams: 채널 ⋯ → Workflows → "Post to a channel when a webhook request is received" 로 만든 URL을 넣습니다. URL 호스트(`logic.azure.com`, `powerplatform.com`)를 보고 Adaptive Card 형식으로 자동 전환합니다.
 
 ## 설치 A: GitHub Actions (권장)
 

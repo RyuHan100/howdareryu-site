@@ -52,7 +52,7 @@ jobs:
         id: monitor
         env:
           PACM_HIGHLIGHT_DAYS: ${{ inputs.highlight_days || '30' }}
-          PACM_WEBHOOK: ${{ secrets.PACM_WEBHOOK }}   # (선택) Slack/Discord 웹훅
+          PACM_WEBHOOK: ${{ secrets.PACM_WEBHOOK }}   # (선택) Slack/Discord/Teams(Workflows) 웹훅
         run: |
           xvfb-run -a --server-args="-screen 0 1280x900x24" \
             python tools/pacm_monitor/pacm_monitor.py --site-root . \

@@ -25,7 +25,7 @@ import re
 import sys
 import time
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
 URL = "https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html"
@@ -321,9 +321,26 @@ def write_csv(p: Path, records: list[dict]) -> None:
             w.writerow({c: ("; ".join(r[c]) if isinstance(r[c], list) else r[c]) for c in cols})
 
 
+TEAMS_HOSTS = ("logic.azure.com", "powerplatform.com", "webhook.office.com")
+
+
+def teams_card(text: str) -> dict:
+    """Teams Workflows(Power Automate) 웹훅은 {"text"} 가 아니라 Adaptive Card 첨부를 요구함."""
+    lines = [ln for ln in text.splitlines() if ln.strip()] or [text]
+    body = [{"type": "TextBlock", "text": lines[0], "weight": "Bolder", "size": "Medium", "wrap": True}]
+    body += [{"type": "TextBlock", "text": ln, "wrap": True, "spacing": "Small"} for ln in lines[1:]]
+    return {"type": "message", "attachments": [{
+        "contentType": "application/vnd.microsoft.card.adaptive", "contentUrl": None,
+        "content": {"$schema": "http://adaptivecards.io/schemas/adaptive-card.json", "type": "AdaptiveCard",
+                    "version": "1.4", "msteams": {"width": "Full"}, "body": body,
+                    "actions": [{"type": "Action.OpenUrl", "title": "UNFCCC 원본 페이지", "url": URL}]}}]}
+
+
 def notify(webhook: str, text: str) -> None:
     try:
-        req = Request(webhook, data=json.dumps({"text": text, "content": text}).encode(),
+        host = urlparse(webhook).hostname or ""
+        payload = teams_card(text) if host.endswith(TEAMS_HOSTS) else {"text": text, "content": text}
+        req = Request(webhook, data=json.dumps(payload).encode(),
                       headers={"Content-Type": "application/json"})
         urlopen(req, timeout=15).read()
     except Exception as e:
@@ -348,7 +365,7 @@ def main() -> int:
     ap.add_argument("--html-file", help="네트워크 대신 저장된 HTML 사용 (테스트용)")
     ap.add_argument("--headless-only", action="store_true", help="헤드풀 브라우저 전략 생략")
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않고 결과만 출력")
-    ap.add_argument("--webhook", default=os.environ.get("PACM_WEBHOOK", ""), help="변경 시 알림 웹훅(Slack/Discord 호환)")
+    ap.add_argument("--webhook", default=os.environ.get("PACM_WEBHOOK", ""), help="변경 시 알림 웹훅(Slack/Discord/Teams Workflows)")
     args = ap.parse_args()
 
     root = Path(args.site_root).resolve()
