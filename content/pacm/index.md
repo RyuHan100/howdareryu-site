@@ -1,18 +1,13 @@
 ---
 title: PACM_radar
 description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 30일 변경 하이라이트.
-tags:
-  - PACM
-  - Article6.4
-  - CDM
-  - 탄소시장
-  - 모니터링
-date: 2026-09-20
-modified: 2026-09-20T09:12+09:00
+tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]
+date: 2026-09-21
+modified: 2026-09-21T08:09+09:00
 ---
 
 > 출처: [UNFCCC CDM — Activities transitioned to A6.4](https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html) · [UNFCCC 전환 안내](https://unfccc.int/process-and-meetings/the-paris-agreement/paris-agreement-crediting-mechanism/CDM_transition)  
-> 마지막 확인: **2026-09-20 09:12 KST** · 마지막 변경: **2026-09-20** · 총 **36건** (PoA 15 · PA 21) · 연간 추정 감축량 합계 **14,435,656 tCO₂e**
+> 마지막 확인: **2026-09-21 08:09 KST** · 마지막 변경: **2026-09-20** · 총 **36건** (PoA 15 · PA 21) · 연간 추정 감축량 합계 **14,435,656 tCO₂e**
 
 > [!info]- 최근 30일 내 변경 없음
 > 표에서 🆕/🔄 및 ==하이라이트== 는 최근 30일 내 변경된 항목에만 표시됩니다.
