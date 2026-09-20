@@ -3,12 +3,12 @@ title: "News_radar"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-09-20
-modified: 2026-09-20T15:30+09:00
+modified: 2026-09-20T15:32+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **2026-09-20 15:30 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **2026-09-20 15:32 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition
 
-> [!example] [[news/2026/2026-09-20|2026-09-20 클리핑]] — 기사 **483건** (국내 276 · 해외 207)
+> [!example] [[news/2026/2026-09-20|2026-09-20 클리핑]] — 기사 **485건** (국내 277 · 해외 208)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -152,10 +152,11 @@ modified: 2026-09-20T15:30+09:00
 
 ## 자발적 탄소시장 / VCM
 
-### 국내 · 4건
+### 국내 · 5건
 
 - [스타트업에 문 활짝 연 제주···혁신 기술 '테스트베드' 자처](https://www.sisajournal-e.com/news/articleView.html?idxno=423818) — **sisajournal-e.com** · 09-20 12:00
   - 제주에서 생산된 재생에너지로 감귤을 생산하고 이를 인증하거나 탄소크레딧 거래까지 연결하는 방안도 제시했다. 전기차를 에너지저장장치처럼 활용하는 V2G(Vehicle to Grid) 기술을 활용하면…
+- [EU 탄소배출권 2030년 톤당 130유로 돌파 전망…한국 수출 제조업, MRV 역량 구축이 1순위 과제](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XR2VMWm5QeXR6a3dnUE01UlFtdFBQN1JNWlNjaG9yejd5QUsweVdXV2NJc0NrdkZ1cEg2R0hSLXZUVnVPdmdxVkNSNzlVUnhETzFB?oc=5) — **유스연합** · 09-20 06:14
 - [EU ETS 가격 130유로 전망 시대, 한국 수출기업의 탄소비용 전략 재편](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pYXdzMXpkallPREdtSXhhYlpCZ2NIcUVZSU9BWTRxalhaeGRQSnhDSXROM19mbmZwZHJfMkhhc1JRZWVfWVFtMFF3SW5CTFA2eWs0?oc=5) — **유스연합** · 09-20 06:09
 - [노후 경유차 저공해화, '교체'에서 '재제조'로 길 넓힌다](https://www.energy-news.co.kr/news/articleView.html?idxno=228406) — **에너지신문** · 09-19 14:00
   - 아울러 엔진 재제조와 차량 튜닝에서 끝나지 않고 OBD 운행자료를 활용한 AI-dMRV 시스템으로 탄소감축 실적을 관리하고 탄소크레딧 거래까지 연계한다는 구상이다. 노후 경유차의 저공해화는 결국 '…
@@ -354,7 +355,7 @@ modified: 2026-09-20T15:30+09:00
 - [에너지 전환과 AI 인프라가 바꾼 원자재 비용 지형—한국 제조업의 대응 전략](https://news.google.com/rss/articles/CBMiSkFVX3lxTFBCMGNPZkZZYVVaQjRsRGE1YXNsbDRORkhOTEh1V0I3OW9UaXRWUjBTSkdRR1huTFhaQUJ3dGxOT001NVdDX3NudFVn?oc=5) — **얼리어답터뉴스** · 09-20 03:46
 - …외 39건 생략
 
-### 해외 · 51건
+### 해외 · 52건
 
 - [Arunachal can power India’s clean energy transition: Dy CM Chowna Mein](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMzZXTEZEd3RMakdzRlR5WHpuN2VSUTBuc2xSbEdfWGZwVTdnRWdKVjFMYlRYd2l1RDBvR0hZdW1zMEhsRVBrQ3JuUmI4dnFTRUNoSUFxakgwNzJ1MlUydldhVTBmZ003SmVaOUp3dS00MkhhMXp0c3ZyNzE0QzE0eUN0MUJTSFFpZzhoYXFXZk1pTXlBZkpCbWVUZ1F2S3BpSzhHbGVEYjRkczdocDgyRnNXbUVZdkMtXzRqSWZQUmhITjdPRWlMbTVWM2Z4ZmRrcnJleHJFdzhHOVnSAdsBQVVfeXFMTTM2V0xGRHd0TGpHc0ZUeVh6bjdlUlEwbnNsUmxHX1hmcFU3Z0VnSlYxTGJUWHdpdUQwb0dIWXVtczBIbEVQa0NyblJiOHZxU0VDaElBcWpIMDcydTJVMnZXYVUwZmdNN0plWjlKd3UtNDJIYTF6dHN2cjcxNEMxNHlDdDFCU0hRaWc4aGFxV2ZNaU15QWZKQm1lVGdRdktwaUs4R2xlRGI0ZHM3aHA4MkZzV21FWXZDLV80aklmUFJoSE43T0VpTG01VjNmeGZka3JyZXhyRXc4RzlZ?oc=5) — **India Today NE** · 09-20 00:16
   - 관련 보도 2건: [The Economic Times](https://news.google.com/rss/articles/CBMi4wFBVV95cUxQU2FENG1FVk9Kd2Y1YVh2QnNGN3NrblluU0l5bmRLVC1ESFZWLV9NRTh1UFJqNWdjNU5Ga3puTGI2c3c3QklGd01wUXM2aTBWbVZUVm81NzVhUnhoQUZzT3I4MTA5clBkX0swOFlXcDZhNllBRlZkN0tvOWd1X2Jlcjh1RGpTX1RyMld4eGhYYm9Jb3dCZDY0c20yUmhSV2xPalJIQXc5eHNzbUJSazhuZEF3cU95Wi1ySWRfNmx5blhYMTZuVEJuWTBfZmFEcExlQ1I5RVY5NTd3Nk9QbG9ndnNZQdIB6AFBVV95cUxPOVJGbjJrZUl3Q0dzSzZMX240Tlc1cF9vcWhSNXprVG9oQ3UybGdEQ1J1NWhKTzBRdFJtXzNVN0liTVJpUm8tUk9OQ2RYY2RJb3VuQnFrU3lCVnpXTVdVR1JmZWpqUWJRdmJrcjdYc18wRjVhQXJnRWpIbS1obGhpMEZhMUU5dUJWcER0dVV5NWd5ME51ek9JSXMtRlA4a3M0RHBVS3N1Y2tRUUFNNmZQOFJUdFRhZnJRc09sbENfcEdIdW9pTjg4c2F5Y0txd1gzR2JwMkN6b0hCTDZlbWJ5bHJVbUtHUTZG?oc=5), [News On AIR](https://news.google.com/rss/articles/CBMitwFBVV95cUxPVU41dzdXRlNQSnZOR1FLUFNHWUtoWkx5cWVGTExhdjdHZER6cWNmMkY3dHdaZVFfREhBVzBHNF9jczdRY0ZVdWVxcmRQSUQzMHdjUDVOdEdIOFBpVWl0c2xGbUlrc09YVHk2QzZKQnIzamphMGZ3NnU1RnZ1a2kzSHROaG1pV1h3VDM4Q2l6VnRJWE5SUW45dXVDUnRCSnhtWnZzZWNnTVZ4VFVadkZzUVNfSUVpMFE?oc=5)
@@ -370,4 +371,4 @@ modified: 2026-09-20T15:30+09:00
 - [Landbank feted for clean energy financing](https://news.google.com/rss/articles/CBMimwFBVV95cUxNZm84cGtPclRHTkFEYldCQVpOQnJMTkxXcjNoZGc2LTRtUE1rLUxfUW91dW1vV19vekp4OFM1Q3lvSVkyV1owWi01WFNOSW9TcFdvUUZ4VWdNLXJPVHRBNV9udHJCS1dEWHJYOGI4OVFUeEtMMHB4S1JZVnNrMFJpcWxrSEY3NjFFYTdQNmRpVHpQeG41VUhIZXdGZ9IBmwFBVV95cUxNZm84cGtPclRHTkFEYldCQVpOQnJMTkxXcjNoZGc2LTRtUE1rLUxfUW91dW1vV19vekp4OFM1Q3lvSVkyV1owWi01WFNOSW9TcFdvUUZ4VWdNLXJPVHRBNV9udHJCS1dEWHJYOGI4OVFUeEtMMHB4S1JZVnNrMFJpcWxrSEY3NjFFYTdQNmRpVHpQeG41VUhIZXdGZw?oc=5) — **Philstar.com** · 09-20 01:00
 - [Nigeria’s Energy Transition Delivers Lifeline To Telecommunications Industry](https://news.google.com/rss/articles/CBMikgFBVV95cUxNYjgyd3JzMlB4SndIOVRjOGhCLURTYVdZdlY1MmdqNGdpNmI4RWhRUFVDdVVhX1FPdlQ4dHJhQVFfSng1dzhKMWgzdEpEX3FIaEZaN0d3RnQ4cDJjWkY3X1haTWwwUE50a3ZQZjVLeWdRenNWaThJaF9xYUtheDJrQ3htUE9pc3JaMHRNQUhLMGlkUQ?oc=5) — **ng.headtopics.com** · 09-19 17:17
 - [S&P Global Energy to Host Clean Energy Expansion India 2026](https://news.google.com/rss/articles/CBMinAFBVV95cUxQYjNoTjFmYVIzU2E5bGc3X3pGdjRCOWN4UTM5THRNRGxaYmx4SGVFeFIwVUVXMU9aS01VV24yVlJmMHZsQTJYQkRvSHR0Y3MyY0Y4QUxfa181TWFuanZHRWpUU0UtRkFYVUhHNE55YVJpdWRoRHJvbm8xQlFDaWRQbWFqUmdPRlpyWkxKYVM1c0l6ODZKVm1mOURQaFg?oc=5) — **Energetica India Magazine** · 09-19 15:48
-- …외 35건 생략
+- …외 36건 생략
