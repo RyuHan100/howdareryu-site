@@ -43,6 +43,8 @@ header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bot
 .tabs button[aria-selected="true"] { color: var(--accent); background: var(--accent-soft); font-weight: 600; }
 .filters input[type="search"] { flex: 1 1 180px; }
 .filters select { flex: 0 1 170px; }
+.range { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); }
+.range input { width: 9.2em; }
 main { max-width: 920px; margin: 0 auto; padding: 12px 16px 80px; }
 .status { color: var(--muted); font-size: 13px; padding: 6px 0; }
 .more { display: block; margin: 8px auto 16px; }
@@ -112,7 +114,7 @@ tr:last-child td { border-bottom: none; }
       <input id="q" type="search" placeholder="본문 검색" aria-label="본문 검색">
       <select id="speaker" aria-label="발언자"><option value="">모든 발언자</option></select>
       <select id="topic" aria-label="토픽" hidden><option value="">모든 토픽</option></select>
-      <input id="date" type="date" aria-label="날짜로 이동">
+      <span class="range"><input id="from" type="date" aria-label="기간 시작일" title="기간 시작일"><span>~</span><input id="to" type="date" aria-label="기간 종료일" title="기간 종료일"></span>
     </div>
   </header>
   <main>
@@ -153,10 +155,44 @@ async function fetchBytes(url, opts) {
   if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
   return r.arrayBuffer();
 }
+// 받은 암호문을 브라우저(IndexedDB)에 보관해 재방문 때 다시 내려받지 않는다.
+// 저장하는 것은 암호문뿐이다 — 평문과 키는 메모리에만 두므로, 이 PC 를 다른 사람이 써도 비밀번호 없이는 열 수 없다.
+let idb = null;
+function openCache() {
+  return new Promise((res) => {
+    try {
+      const r = indexedDB.open("t-archive-cache", 1);
+      r.onupgradeneeded = () => r.result.createObjectStore("blobs");
+      r.onsuccess = () => res(r.result);
+      r.onerror = r.onblocked = () => res(null);
+    } catch { res(null); }                       // 사생활 보호 모드 등 — 캐시 없이 동작
+  });
+}
+function cacheGet(k) {
+  if (!idb) return Promise.resolve(null);
+  return new Promise((res) => { try { const q = idb.transaction("blobs").objectStore("blobs").get(k); q.onsuccess = () => res(q.result || null); q.onerror = () => res(null); } catch { res(null); } });
+}
+function cachePut(k, v) { try { idb?.transaction("blobs", "readwrite").objectStore("blobs").put(v, k); } catch {} }
+function cachePrune() {                          // 더 이상 쓰이지 않는(내용이 바뀐) 암호문 정리
+  if (!idb) return;
+  const live = new Set(Object.values(manifest.entries).map(cacheKey));
+  try {
+    const st = idb.transaction("blobs", "readwrite").objectStore("blobs"), cur = st.openKeyCursor();
+    cur.onsuccess = () => { const c = cur.result; if (!c) return; if (!live.has(c.key)) st.delete(c.key); c.continue(); };
+  } catch {}
+}
+const cacheKey = (e) => `${e.file}:${e.sha256.slice(0, 16)}`;   // 내용이 바뀌면 sha 가 바뀌어 새로 받는다
+
 async function getBlob(logical) {
   const e = manifest.entries[logical];
   if (!e) throw new Error(`없는 항목: ${logical}`);
-  return decrypt(await fetchBytes(`blobs/${e.file}?h=${e.sha256.slice(0, 10)}`));  // 내용이 바뀌면 캐시 무효화
+  const k = cacheKey(e);
+  const cached = await cacheGet(k);
+  if (cached) { try { return await decrypt(cached); } catch {} }   // 손상된 캐시면 아래에서 새로 받는다
+  const buf = await fetchBytes(`blobs/${e.file}?h=${e.sha256.slice(0, 10)}`);
+  const plain = await decrypt(buf);
+  cachePut(k, buf);
+  return plain;
 }
 const getJson = async (logical) => JSON.parse(td.decode(await getBlob(logical)));
 async function blobUrl(logical, mime) {
@@ -176,7 +212,9 @@ $("lockForm").addEventListener("submit", async (ev) => {
     const raw = await fetchBytes("manifest.bin", { cache: "no-store" });
     try { manifest = JSON.parse(td.decode(await decrypt(raw))); }
     catch { key = null; throw new Error("비밀번호가 맞지 않습니다."); }
+    idb = await openCache();
     meta = await getJson("meta");
+    cachePrune();
     $("pw").value = "";
     start();
   } catch (e) { err.textContent = e.message || String(e); }
@@ -191,19 +229,41 @@ const fmtSize = (n) => n > 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max
 const hue = (id) => { let h = 7; for (const c of String(id)) h = (h * 31 + c.charCodeAt(0)) % 9973; return (h * 137) % 360; };  // 이웃한 id 도 색상이 멀어지게
 const dayList = () => Object.keys(meta.days).sort();
 
-async function loadDay(day) {
-  if (!days.has(day)) {
-    const msgs = await getJson(`day/${day}`);
-    days.set(day, msgs);
-    for (const m of msgs) byId.set(m.id, m);
-  }
-  return days.get(day);
+async function gunzip(buf) {
+  return new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"))).arrayBuffer();
 }
+const monthLoading = new Map();                 // 지난 달은 월 단위 묶음 하나에 그 달의 모든 날짜가 들어 있다
+function loadMonth(month) {
+  if (!monthLoading.has(month)) {
+    monthLoading.set(month, getBlob(`month/${month}`).then(gunzip).then((buf) => {
+      for (const [d, msgs] of Object.entries(JSON.parse(td.decode(buf)))) {
+        days.set(d, msgs);
+        for (const m of msgs) byId.set(m.id, m);
+      }
+    }).catch((e) => { monthLoading.delete(month); throw e; }));
+  }
+  return monthLoading.get(month);
+}
+const dayLoading = new Map();                   // 같은 날짜를 동시에 두 번 받지 않게
+function loadDay(day) {
+  if (days.has(day)) return Promise.resolve(days.get(day));
+  if ((meta.bundled_months || []).includes(day.slice(0, 7))) return loadMonth(day.slice(0, 7)).then(() => days.get(day) || []);
+  if (!dayLoading.has(day)) {
+    dayLoading.set(day, getJson(`day/${day}`).then((msgs) => {
+      days.set(day, msgs);
+      for (const m of msgs) byId.set(m.id, m);
+      return msgs;
+    }).finally(() => dayLoading.delete(day)));
+  }
+  return dayLoading.get(day);
+}
+const PARALLEL = 12;
 
 function filterState() {
-  return { q: $("q").value.trim().toLowerCase(), speaker: $("speaker").value, topic: $("topic").value };
+  return { q: $("q").value.trim().toLowerCase(), speaker: $("speaker").value, topic: $("topic").value, from: $("from").value, to: $("to").value };
 }
-const isFiltering = (f) => !!(f.q || f.speaker || f.topic);
+const isFiltering = (f) => !!(f.q || f.speaker || f.topic || f.from || f.to);
+const inRange = (d, f) => (!f.from || d >= f.from) && (!f.to || d <= f.to);   // 기간을 주면 그 기간의 파일만 불러온다
 function matches(m, f) {
   if (f.speaker && String(m.sender_id) !== f.speaker) return false;
   if (f.topic && String(m.topic_id) !== f.topic) return false;
@@ -214,12 +274,19 @@ function matches(m, f) {
 let renderSeq = 0;
 async function render() {
   const seq = ++renderSeq, f = filterState(), all = dayList();
-  const want = isFiltering(f) ? all : all.slice(-dayLimit);
+  const want = isFiltering(f) ? all.filter((d) => inRange(d, f)) : all.slice(-dayLimit);
   const status = $("status");
-  const missing = want.filter((d) => !days.has(d));  // 검색·필터는 전 기간을 복호화해야 한다
-  for (let i = 0; i < missing.length; i++) {
-    status.textContent = `복호화 중… ${i + 1}/${missing.length}일`;
-    await loadDay(missing[i]);
+  const missing = want.filter((d) => !days.has(d));  // 검색·필터는 전 기간을 복호화해야 한다 (탭을 닫기 전까지 한 번만)
+  if (missing.length) {
+    const queue = missing.slice().reverse();          // 최근 날짜부터
+    let done = 0;
+    const worker = async () => {
+      while (queue.length && seq === renderSeq) {
+        await loadDay(queue.shift());
+        if (seq === renderSeq) status.textContent = `불러오는 중… ${++done}/${missing.length}일`;
+      }
+    };
+    await Promise.all(Array.from({ length: Math.min(PARALLEL, missing.length) }, worker));
     if (seq !== renderSeq) return;
   }
   let rows = [];
@@ -237,7 +304,7 @@ async function render() {
   const hiddenMsgs = total - rows.length, hiddenDays = isFiltering(f) ? 0 : all.length - want.length;
   $("older").hidden = !(hiddenMsgs || hiddenDays);
   status.textContent = isFiltering(f)
-    ? `조건에 맞는 메시지 ${total.toLocaleString()}건` + (hiddenMsgs ? ` (최근 ${rows.length}건 표시)` : "")
+    ? `조건에 맞는 메시지 ${total.toLocaleString()}건` + ((f.from || f.to) ? ` · 기간 ${f.from || all[0]} ~ ${f.to || all[all.length - 1]}` : "") + (hiddenMsgs ? ` (최근 ${rows.length}건 표시)` : "")
     : `전체 ${all.length}일 중 최근 ${want.length}일 · ${total.toLocaleString()}건`;
   observeImages();
 }
@@ -301,7 +368,8 @@ function renderMedia(md) {
   const label = md.name || md.kind;
   if (!md.blob) {
     const f = el("span", "file", label + " ");
-    f.append(el("small", null, md.size ? `${fmtSize(md.size)} · 볼트에만 보관` : "볼트에만 보관"));
+    const where = md.skipped ? "수집 제외(영상·음성)" : "볼트에만 보관";
+    f.append(el("small", null, md.size ? `${fmtSize(md.size)} · ${where}` : where));
     wrap.append(f);
     return wrap;
   }
@@ -396,8 +464,24 @@ async function renderAnalysis() {
     { label: "메시지", num: true, get: (t) => num(t.messages) },
     { label: "비중", num: true, get: (t) => pct(t.share) },
     { label: "최근 1주", num: true, get: (t) => num(t.week_messages) },
+    { label: "공유 문서", num: true, get: (t) => num(t.documents) },
     { label: "주요 발언자", get: (t) => t.top_speakers.map((s) => `${s.name} ${s.messages}`).join(", ") },
   ], r.topics));
+
+  const fs = r.files;
+  if (fs && fs.total) {
+    root.append(el("h2", null, "공유 파일"));
+    root.append(el("p", "note", `전체 ${num(fs.total)}개 (${Object.entries(fs.by_category).map(([k, v]) => `${k} ${num(v)}`).join(", ")}) · 문서 ${num(fs.documents)}개 중 ${num(fs.text_extracted)}개는 본문을 읽어 주제를 붙였습니다.`));
+    const fileCols = [
+      { label: "날짜", get: (f) => f.date },
+      { label: "파일", get: (f) => { const d = el("div"); d.append(el("b", null, f.name)); if (f.key_terms.length) d.append(el("div", "ex", f.key_terms.join(" · "))); return d; } },
+      { label: "공유자", get: (f) => f.by },
+      { label: "주제", get: (f) => f.topic + (f.topic_source === "파일 본문" ? "" : " (대화 기준)") },
+      { label: "답글·반응", num: true, get: (f) => `${f.replies} · ${f.reactions}` },
+    ];
+    if (fs.week.length) { root.append(el("p", "note", "최근 1주에 공유된 문서")); root.append(table(fileCols, fs.week)); }
+    if (fs.top.length) { root.append(el("p", "note", "답글·반응이 많았던 문서")); root.append(table(fileCols, fs.top)); }
+  }
 
   root.append(el("h2", null, "발언자"));
   root.append(table([
@@ -407,7 +491,7 @@ async function renderAnalysis() {
     { label: "최근 1주", num: true, get: (s) => num(s.week_messages) },
     { label: "평균 글자", num: true, get: (s) => Math.round(s.chars_avg) },
     { label: "보낸/받은 답글", num: true, get: (s) => `${s.replies_sent} / ${s.replies_received}` },
-    { label: "첨부·링크", num: true, get: (s) => `${s.media} · ${s.links}` },
+    { label: "첨부(문서)·링크", num: true, get: (s) => `${s.media} (${s.documents ?? 0}) · ${s.links}` },
     { label: "주로 다룬 주제", get: (s) => (s.top_topics || []).join(", ") },
     { label: "특징어", get: (s) => (s.top_terms || []).join(" · ") },
   ], r.speakers));
@@ -427,7 +511,7 @@ function start() {
   const topics = Object.entries(meta.topics || {});
   if (topics.length) { $("topic").hidden = false; for (const [id, t] of topics) { const o = el("option", null, t); o.value = id; $("topic").append(o); } }
   const all = dayList();
-  if (all.length) { $("date").min = all[0]; $("date").max = all[all.length - 1]; }
+  if (all.length) for (const id of ["from", "to"]) { $(id).min = all[0]; $(id).max = all[all.length - 1]; }
   else $("status").textContent = "아직 수집된 메시지가 없습니다.";
 
   let timer;
@@ -436,13 +520,8 @@ function start() {
   $("speaker").addEventListener("change", refresh);
   $("topic").addEventListener("change", refresh);
   $("older").addEventListener("click", () => { if (isFiltering(filterState())) msgLimit += PAGE; else { dayLimit += 7; msgLimit += PAGE; } render(); });
-  $("date").addEventListener("change", async (ev) => {
-    const d = ev.target.value; if (!d) return;
-    const idx = all.findIndex((x) => x >= d); if (idx < 0) return;
-    dayLimit = Math.max(dayLimit, all.length - idx); msgLimit = Infinity;
-    await render();
-    document.getElementById("d-" + all[idx])?.scrollIntoView({ block: "start" });
-  });
+  $("from").addEventListener("change", refresh);
+  $("to").addEventListener("change", refresh);
   const tab = (chat) => {
     $("tabChat").setAttribute("aria-selected", chat); $("tabAnalysis").setAttribute("aria-selected", !chat);
     $("chat").hidden = !chat; $("filters").hidden = !chat; $("analysis").hidden = chat;

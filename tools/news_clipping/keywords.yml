@@ -1,0 +1,90 @@
+# 뉴스 클리핑 키워드 — 이 파일만 고치면 다음 실행부터 반영됩니다.
+#
+# 국내 기사는 네이버 뉴스 검색(NAVER API HUB) + Google News 국내판, 해외 기사는 Google News 해외판에서 찾습니다.
+# 가장 간단한 형태는 문자열 한 줄입니다.
+#   - 탄소시장            → 국내판(ko-KR)에서 검색
+#   - CBAM               → 한글이 없으면 국내판·해외판(en-US) 둘 다 검색
+#   - 탄소시장 / carbon market   → '국문 / 영문' 짝: 한 제목 아래 국내·해외로 같이 묶어 보여줌
+#                                  (국문은 국내판, 영문은 해외판에서 검색. 구분자는 ' / ')
+#
+# 국내/해외 검색어를 따로 주려면:
+#   - name: 파리협정 6조             # 페이지에 표시될 이름
+#     ko: '"파리협정 6조" OR 국제감축'   # Google 검색 문법 그대로: "구문", OR, -제외어
+#     en: '"Article 6" carbon'
+#     naver: [국제감축, '"파리협정 6조"']  # (선택) 네이버 검색어 목록. 없으면 ko 를 그대로 씀(OR → |). 검색어마다 1회 요청
+#     must: [6조, 국제감축, article 6]  # (선택) 제목에 이 중 하나는 있어야 실음 — 잡음이 많을 때
+#     must_in: text                     # (선택) 네이버 발췌문까지 보고 판단. 기사가 적은 키워드에만 (기본 title)
+#                                       영문·약어는 단어 단위로 비교(AI ≠ daily), 한글은 부분 일치
+
+keywords:
+  # 표시 이름(name)은 그대로 두고, 약어가 다른 뜻으로 잡히지 않게 검색어(ko/en)만 구체화했습니다.
+  # Google 문법: 공백 = AND, OR 는 양옆 단어끼리 먼저 묶임  →  NDC 온실가스 OR 감축목표 = NDC AND (온실가스 OR 감축목표)
+  - name: 탄소시장 / carbon market
+    must_in: text
+    ko: '"탄소시장" OR "탄소 시장"'
+    naver: ['"탄소시장"']                 # 따옴표 없이 쓰면 네이버가 '탄소'+'시장'으로 쪼개 찾음
+    must: [탄소시장, 탄소 시장, 배출권, 크레딧, carbon]
+    en: '"carbon market" OR "carbon markets"'
+  - name: 국제감축 / Article 6
+    must_in: text
+    ko: '국제감축 OR "파리협정 6조"'
+    naver: ['"국제감축"', '"파리협정 6조"']
+    en: '"Article 6" carbon OR ITMO OR ITMOs OR "Paris Agreement"'
+    must: [국제감축, 6조, 해외감축, 탄소, Article 6, ITMO, carbon, Paris]
+  - name: 배출권거래제 / ETS
+    ko: '배출권거래제 OR 탄소배출권'
+    naver: ['"배출권거래제"', '"탄소배출권"']
+    en: '"emissions trading" OR "EU ETS" OR "carbon allowances"'
+    must: [배출권, 탄소가격, ETS, emissions trading, allowance, carbon]
+  - name: NDC
+    ko: 'NDC 온실가스 OR 감축목표 OR 기후'          # 대만 국가발전위원회(NDC) 기사 제외
+    naver: [NDC 온실가스, 온실가스 감축목표]
+    en: 'NDC OR NDCs OR "nationally determined" climate OR emissions'   # 나이지리아 정당 NDC 제외
+    must: [NDC, 온실가스, 감축, 기후, climate, emission, nationally determined]
+  - name: CBAM
+    ko: CBAM
+    en: CBAM
+    naver: [CBAM, '"탄소국경조정"']
+    must: [CBAM, 탄소국경]
+  - name: 자발적 탄소시장 / VCM
+    must_in: text
+    ko: '"자발적 탄소시장" OR 탄소크레딧 OR "탄소 크레딧"'
+    naver: ['"자발적 탄소시장"', '"탄소크레딧"', '"탄소 크레딧"']
+    en: '"voluntary carbon market" OR "voluntary carbon markets" OR "carbon credits"'
+    must: [탄소, 크레딧, carbon, credit, offset, VCM]
+  - name: AI 온실가스
+    ko: 'AI OR 인공지능 OR 데이터센터 온실가스 OR 탄소배출'
+    naver: [AI 온실가스, 데이터센터 탄소배출]
+    must: [AI, 인공지능, 데이터센터]
+  - name: ESS
+    ko: 'ESS 에너지저장 OR 배터리 OR 전력'
+    naver: [ESS 에너지저장, ESS 배터리]
+    en: '"battery energy storage" OR BESS OR "energy storage system"'
+    must: [ESS, 에너지저장, 배터리, BESS, storage, battery]
+  - name: 전력망
+    ko: 전력망
+    naver: ['"전력망"']
+    must: [전력망, 송전, 송배전, 계통, 그리드, HVDC, 변전]
+  - name: 메가특구특별법
+    ko: '메가특구특별법 OR 메가특구'
+    naver: ['"메가특구"']
+    must: [메가특구, 특구]
+  - name: 탈석탄
+    ko: 탈석탄
+    naver: ['"탈석탄"', '"석탄발전 폐지"']
+    must: [석탄]
+  - name: 에너지 전환 / energy transition
+    ko: '"에너지 전환" OR 에너지전환'
+    naver: ['"에너지전환"', '"에너지 전환"']
+    en: '"energy transition"'
+    must: [에너지, 전환, 재생, energy, transition, renewable]
+
+settings:
+  page_title: News_radar
+  lookback_hours: 48        # 이 시간 안에 발행된 기사만
+  max_per_keyword: 12       # 키워드·국내/해외별 최대 표시 묶음 수
+  similarity: 0.4           # 제목 유사도(0~1)가 이 값 이상이면 같은 기사로 묶음
+  exclude_terms: [카지노, 바카라, 블랙잭, 블랙 잭, 슬롯]   # 제목에 들어 있으면 버릴 단어 (해킹된 사이트의 스팸)
+  exclude_sources: [Vietnam.vn, Histoire pour tous]   # 버릴 매체명 또는 도메인 (기계번역·스팸)
+  show_snippet: true        # 네이버가 주는 본문 발췌를 대표 기사 아래 한 줄로 표시
+  priority_sources: []      # 묶음의 대표로 우선할 매체명  예: [연합뉴스, Reuters]
