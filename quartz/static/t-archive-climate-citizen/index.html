@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src blob:; media-src blob:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<title>Archive</title>
+<style>
+:root {
+  --bg: #faf9fb; --panel: #ffffff; --line: #e9e7ee; --muted: #6f6a7a; --text: #241a35;
+  --accent: #6d28d9; --accent-soft: rgba(109, 40, 217, .08); --danger: #b42318; --name-l: 38%;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121016; --panel: #1a1720; --line: #2a2533; --muted: #9a93a8; --text: #e6def5;
+    --accent: #a78bfa; --accent-soft: rgba(167, 139, 250, .12); --danger: #f97066; --name-l: 72%;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--text); font: 15px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", sans-serif; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 6px 12px; }
+button:hover { border-color: var(--accent); }
+button.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; }
+input, select { border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 7px 10px; min-width: 0; }
+input:focus, select:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+[hidden] { display: none !important; }
+
+#lock { min-height: 100vh; display: grid; place-items: center; padding: 16px; }
+#lock form { width: 100%; max-width: 340px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 28px 24px; display: grid; gap: 12px; }
+#lock h1 { font-size: 17px; margin: 0; }
+#lock p { margin: 0; color: var(--muted); font-size: 13px; }
+#lock .err { color: var(--danger); min-height: 1.6em; }
+
+header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.bar { max-width: 920px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.bar h1 { font-size: 16px; margin: 0 8px 0 0; }
+.tabs { display: flex; gap: 4px; margin-right: auto; }
+.tabs button { border-color: transparent; background: none; color: var(--muted); }
+.tabs button[aria-selected="true"] { color: var(--accent); background: var(--accent-soft); font-weight: 600; }
+.filters input[type="search"] { flex: 1 1 180px; }
+.filters select { flex: 0 1 170px; }
+.range { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); }
+.range input { width: 9.2em; }
+main { max-width: 920px; margin: 0 auto; padding: 12px 16px 80px; }
+.status { color: var(--muted); font-size: 13px; padding: 6px 0; }
+.more { display: block; margin: 8px auto 16px; }
+
+.day { text-align: center; margin: 22px 0 10px; font-size: 12px; color: var(--muted); }
+.day span { background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 2px 12px; }
+.msg { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 9px 13px; margin: 6px 0; overflow-wrap: anywhere; }
+.msg.deleted { opacity: .6; border-style: dashed; }
+.msg.service { background: none; border: none; text-align: center; color: var(--muted); font-size: 13px; padding: 2px; }
+.head { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; font-size: 13px; }
+.name { font-weight: 700; color: hsl(var(--h), 55%, var(--name-l)); cursor: pointer; }
+.time, .tag { color: var(--muted); font-size: 12px; }
+.tag.del { color: var(--danger); }
+.quote { border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 3px 8px; margin: 5px 0; font-size: 13px; color: var(--muted); }
+.text { white-space: pre-wrap; }
+.text a { color: var(--accent); }
+.media { margin-top: 6px; }
+.media img { max-width: min(100%, 420px); max-height: 420px; border-radius: 8px; display: block; }
+.media video, .media audio { max-width: 100%; }
+.file { display: inline-flex; gap: 8px; align-items: center; border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px 5px 10px; font-size: 13px; }
+.file small { color: var(--muted); }
+.reactions { margin-top: 5px; display: flex; gap: 5px; flex-wrap: wrap; font-size: 12px; }
+.reactions span { background: var(--accent-soft); border-radius: 999px; padding: 0 8px; }
+details.hist { font-size: 13px; color: var(--muted); margin-top: 4px; }
+details.hist div { white-space: pre-wrap; border-left: 2px solid var(--line); padding-left: 8px; margin: 4px 0; }
+
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 12px 0 20px; }
+.tile { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.tile b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+.tile span { color: var(--muted); font-size: 12px; }
+h2 { font-size: 16px; margin: 28px 0 8px; }
+.note { color: var(--muted); font-size: 13px; }
+.scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 7px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:last-child td { border-bottom: none; }
+.fig { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 8px; margin: 10px 0; }
+.fig img { width: 100%; display: block; }
+.ex { color: var(--muted); margin-top: 3px; }
+</style>
+</head>
+<body>
+
+<div id="lock">
+  <form id="lockForm" autocomplete="off">
+    <h1>비공개 아카이브</h1>
+    <p>열람 비밀번호를 입력하세요. 복호화는 이 브라우저 안에서만 이뤄집니다.</p>
+    <input id="pw" type="password" aria-label="비밀번호" required autofocus>
+    <button class="primary" type="submit">열기</button>
+    <p class="err" id="lockErr" role="alert"></p>
+  </form>
+</div>
+
+<div id="app" hidden>
+  <header>
+    <div class="bar">
+      <h1 id="title"></h1>
+      <div class="tabs" role="tablist">
+        <button role="tab" id="tabChat" aria-selected="true">대화</button>
+        <button role="tab" id="tabAnalysis" aria-selected="false">분석</button>
+      </div>
+      <button id="lockBtn" title="잠그기">잠금</button>
+    </div>
+    <div class="bar filters" id="filters">
+      <input id="q" type="search" placeholder="본문 검색" aria-label="본문 검색">
+      <select id="speaker" aria-label="발언자"><option value="">모든 발언자</option></select>
+      <select id="topic" aria-label="토픽" hidden><option value="">모든 토픽</option></select>
+      <span class="range"><input id="from" type="date" aria-label="기간 시작일" title="기간 시작일"><span>~</span><input id="to" type="date" aria-label="기간 종료일" title="기간 종료일"></span>
+    </div>
+  </header>
+  <main>
+    <section id="chat">
+      <div class="status" id="status" role="status"></div>
+      <button class="more" id="older" hidden>이전 기록 더 보기</button>
+      <div id="list"></div>
+    </section>
+    <section id="analysis" hidden></section>
+  </main>
+</div>
+
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const te = new TextEncoder(), td = new TextDecoder();
+const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+const PAGE = 300;          // 한 번에 그리는 메시지 수
+const IMAGE = /^image\//;
+
+let key = null, manifest = null, meta = null;
+const days = new Map();    // day → messages
+const byId = new Map();    // id → message (답글 인용용)
+let dayLimit = 3, msgLimit = PAGE;
+const blobUrls = [];
+
+async function deriveKey(password, kdf) {
+  const km = await crypto.subtle.importKey("raw", te.encode(password), "PBKDF2", false, ["deriveBits"]);
+  const bits = await crypto.subtle.deriveBits({ name: "PBKDF2", hash: "SHA-256", salt: b64(kdf.salt), iterations: kdf.iterations }, km, 512);
+  return crypto.subtle.importKey("raw", bits.slice(0, 32), "AES-GCM", false, ["decrypt"]);  // 뒤 32바이트는 게시기의 파일명 키
+}
+async function decrypt(buf) {
+  return crypto.subtle.decrypt({ name: "AES-GCM", iv: buf.slice(0, 12) }, key, buf.slice(12));
+}
+async function fetchBytes(url, opts) {
+  const r = await fetch(url, opts);
+  if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
+  return r.arrayBuffer();
+}
+// 받은 암호문을 브라우저(IndexedDB)에 보관해 재방문 때 다시 내려받지 않는다.
+// 저장하는 것은 암호문뿐이다 — 평문과 키는 메모리에만 두므로, 이 PC 를 다른 사람이 써도 비밀번호 없이는 열 수 없다.
+let idb = null;
+function openCache() {
+  return new Promise((res) => {
+    try {
+      // 같은 도메인에 방(아카이브)이 여러 개 있으므로 경로별 DB — 안 그러면 한 방의 캐시 정리가 다른 방 캐시를 지운다
+      try { indexedDB.deleteDatabase("t-archive-cache"); } catch {}  // 경로 구분 전의 옛 캐시 정리
+      const r = indexedDB.open("t-archive-cache:" + location.pathname.replace(/\/index\.html$/, "/"), 1);
+      r.onupgradeneeded = () => r.result.createObjectStore("blobs");
+      r.onsuccess = () => res(r.result);
+      r.onerror = r.onblocked = () => res(null);
+    } catch { res(null); }                       // 사생활 보호 모드 등 — 캐시 없이 동작
+  });
+}
+function cacheGet(k) {
+  if (!idb) return Promise.resolve(null);
+  return new Promise((res) => { try { const q = idb.transaction("blobs").objectStore("blobs").get(k); q.onsuccess = () => res(q.result || null); q.onerror = () => res(null); } catch { res(null); } });
+}
+function cachePut(k, v) { try { idb?.transaction("blobs", "readwrite").objectStore("blobs").put(v, k); } catch {} }
+function cachePrune() {                          // 더 이상 쓰이지 않는(내용이 바뀐) 암호문 정리
+  if (!idb) return;
+  const live = new Set(Object.values(manifest.entries).map(cacheKey));
+  try {
+    const st = idb.transaction("blobs", "readwrite").objectStore("blobs"), cur = st.openKeyCursor();
+    cur.onsuccess = () => { const c = cur.result; if (!c) return; if (!live.has(c.key)) st.delete(c.key); c.continue(); };
+  } catch {}
+}
+const cacheKey = (e) => `${e.file}:${e.sha256.slice(0, 16)}`;   // 내용이 바뀌면 sha 가 바뀌어 새로 받는다
+
+async function getBlob(logical) {
+  const e = manifest.entries[logical];
+  if (!e) throw new Error(`없는 항목: ${logical}`);
+  const k = cacheKey(e);
+  const cached = await cacheGet(k);
+  if (cached) { try { return await decrypt(cached); } catch {} }   // 손상된 캐시면 아래에서 새로 받는다
+  const buf = await fetchBytes(`blobs/${e.file}?h=${e.sha256.slice(0, 10)}`);
+  const plain = await decrypt(buf);
+  cachePut(k, buf);
+  return plain;
+}
+const getJson = async (logical) => JSON.parse(td.decode(await getBlob(logical)));
+async function blobUrl(logical, mime) {
+  const url = URL.createObjectURL(new Blob([await getBlob(logical)], { type: mime || "application/octet-stream" }));
+  blobUrls.push(url);
+  return url;
+}
+
+// ---------------------------------------------------------------- 잠금
+$("lockForm").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  const err = $("lockErr"), btn = ev.target.querySelector("button");
+  err.textContent = ""; btn.disabled = true; btn.textContent = "확인 중…";
+  try {
+    const info = await (await fetch("meta.json", { cache: "no-store" })).json();
+    key = await deriveKey($("pw").value, info.kdf);
+    const raw = await fetchBytes("manifest.bin", { cache: "no-store" });
+    try { manifest = JSON.parse(td.decode(await decrypt(raw))); }
+    catch { key = null; throw new Error("비밀번호가 맞지 않습니다."); }
+    idb = await openCache();
+    meta = await getJson("meta");
+    cachePrune();
+    $("pw").value = "";
+    start();
+  } catch (e) { err.textContent = e.message || String(e); }
+  finally { btn.disabled = false; btn.textContent = "열기"; }
+});
+$("lockBtn").addEventListener("click", () => { blobUrls.forEach(URL.revokeObjectURL); location.reload(); });
+
+// ---------------------------------------------------------------- 대화
+const fmtTime = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", hour: "2-digit", minute: "2-digit", hour12: false });
+const fmtDay = new Intl.DateTimeFormat("ko-KR", { timeZone: "UTC", year: "numeric", month: "long", day: "numeric", weekday: "short" });
+const fmtSize = (n) => n > 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1024)) + " KB";
+const hue = (id) => { let h = 7; for (const c of String(id)) h = (h * 31 + c.charCodeAt(0)) % 9973; return (h * 137) % 360; };  // 이웃한 id 도 색상이 멀어지게
+const dayList = () => Object.keys(meta.days).sort();
+
+async function gunzip(buf) {
+  return new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"))).arrayBuffer();
+}
+const monthLoading = new Map();                 // 지난 달은 월 단위 묶음 하나에 그 달의 모든 날짜가 들어 있다
+function loadMonth(month) {
+  if (!monthLoading.has(month)) {
+    monthLoading.set(month, getBlob(`month/${month}`).then(gunzip).then((buf) => {
+      for (const [d, msgs] of Object.entries(JSON.parse(td.decode(buf)))) {
+        days.set(d, msgs);
+        for (const m of msgs) byId.set(m.id, m);
+      }
+    }).catch((e) => { monthLoading.delete(month); throw e; }));
+  }
+  return monthLoading.get(month);
+}
+const dayLoading = new Map();                   // 같은 날짜를 동시에 두 번 받지 않게
+function loadDay(day) {
+  if (days.has(day)) return Promise.resolve(days.get(day));
+  if ((meta.bundled_months || []).includes(day.slice(0, 7))) return loadMonth(day.slice(0, 7)).then(() => days.get(day) || []);
+  if (!dayLoading.has(day)) {
+    dayLoading.set(day, getJson(`day/${day}`).then((msgs) => {
+      days.set(day, msgs);
+      for (const m of msgs) byId.set(m.id, m);
+      return msgs;
+    }).finally(() => dayLoading.delete(day)));
+  }
+  return dayLoading.get(day);
+}
+const PARALLEL = 12;
+
+function filterState() {
+  return { q: $("q").value.trim().toLowerCase(), speaker: $("speaker").value, topic: $("topic").value, from: $("from").value, to: $("to").value };
+}
+const isFiltering = (f) => !!(f.q || f.speaker || f.topic || f.from || f.to);
+const inRange = (d, f) => (!f.from || d >= f.from) && (!f.to || d <= f.to);   // 기간을 주면 그 기간의 파일만 불러온다
+function matches(m, f) {
+  if (f.speaker && String(m.sender_id) !== f.speaker) return false;
+  if (f.topic && String(m.topic_id) !== f.topic) return false;
+  if (f.q && !((m.text || "").toLowerCase().includes(f.q) || (m.media && (m.media.name || "").toLowerCase().includes(f.q)))) return false;
+  return true;
+}
+
+let renderSeq = 0;
+async function render() {
+  const seq = ++renderSeq, f = filterState(), all = dayList();
+  const want = isFiltering(f) ? all.filter((d) => inRange(d, f)) : all.slice(-dayLimit);
+  const status = $("status");
+  const missing = want.filter((d) => !days.has(d));  // 검색·필터는 전 기간을 복호화해야 한다 (탭을 닫기 전까지 한 번만)
+  if (missing.length) {
+    const queue = missing.slice().reverse();          // 최근 날짜부터
+    let done = 0;
+    const worker = async () => {
+      while (queue.length && seq === renderSeq) {
+        await loadDay(queue.shift());
+        if (seq === renderSeq) status.textContent = `불러오는 중… ${++done}/${missing.length}일`;
+      }
+    };
+    await Promise.all(Array.from({ length: Math.min(PARALLEL, missing.length) }, worker));
+    if (seq !== renderSeq) return;
+  }
+  let rows = [];
+  for (const d of want) for (const m of days.get(d)) if (matches(m, f)) rows.push([d, m]);
+  const total = rows.length;
+  rows = rows.slice(-msgLimit);
+
+  const list = $("list");
+  list.replaceChildren();
+  let cur = null;
+  for (const [d, m] of rows) {
+    if (d !== cur) { cur = d; const h = el("div", "day"); h.id = "d-" + d; h.append(el("span", null, fmtDay.format(new Date(d + "T00:00:00Z")))); list.append(h); }
+    list.append(renderMsg(m));
+  }
+  const hiddenMsgs = total - rows.length, hiddenDays = isFiltering(f) ? 0 : all.length - want.length;
+  $("older").hidden = !(hiddenMsgs || hiddenDays);
+  status.textContent = isFiltering(f)
+    ? `조건에 맞는 메시지 ${total.toLocaleString()}건` + ((f.from || f.to) ? ` · 기간 ${f.from || all[0]} ~ ${f.to || all[all.length - 1]}` : "") + (hiddenMsgs ? ` (최근 ${rows.length}건 표시)` : "")
+    : `전체 ${all.length}일 중 최근 ${want.length}일 · ${total.toLocaleString()}건`;
+  observeImages();
+}
+
+function linkify(container, text) {
+  const re = /https?:\/\/[^\s<>"']+/g;
+  let last = 0, m;
+  while ((m = re.exec(text))) {
+    container.append(text.slice(last, m.index));
+    const a = el("a", null, m[0]);
+    a.href = m[0]; a.target = "_blank"; a.rel = "noopener noreferrer";
+    container.append(a);
+    last = m.index + m[0].length;
+  }
+  container.append(text.slice(last));
+}
+
+function renderMsg(m) {
+  if (m.service) return el("div", "msg service", `${m.sender_name || ""} · ${m.service}`);
+  const box = el("article", "msg" + (m.deleted_at ? " deleted" : ""));
+  const head = el("div", "head");
+  const name = el("span", "name", m.sender_name || "(알 수 없음)");
+  name.style.setProperty("--h", hue(m.sender_id));
+  name.title = "이 발언자만 보기";
+  name.addEventListener("click", () => { $("speaker").value = String(m.sender_id); msgLimit = PAGE; render(); });
+  head.append(name, el("span", "time", fmtTime.format(new Date(m.date))));
+  if (m.topic_id && meta.topics[m.topic_id]) head.append(el("span", "tag", "# " + meta.topics[m.topic_id]));
+  if (m.fwd) head.append(el("span", "tag", "전달: " + (m.fwd.from_name || "원문")));
+  if (m.pinned) head.append(el("span", "tag", "고정됨"));
+  if (m.edit_date) head.append(el("span", "tag", "수정됨"));
+  if (m.deleted_at) head.append(el("span", "tag del", "삭제됨"));
+  box.append(head);
+
+  if (m.reply_to_id) {
+    const r = byId.get(m.reply_to_id);
+    box.append(el("div", "quote", r ? `${r.sender_name || ""}: ${(r.text || (r.media ? "[첨부]" : "")).slice(0, 90)}` : `답글 → #${m.reply_to_id}`));
+  }
+  if (m.text) { const t = el("div", "text"); linkify(t, m.text); box.append(t); }
+  if (m.media) box.append(renderMedia(m.media));
+  if (m.edit_history) {
+    const d = el("details", "hist");
+    d.append(el("summary", null, `수정 전 내용 ${m.edit_history.length}건`));
+    for (const h of m.edit_history) d.append(el("div", null, h.text || ""));
+    box.append(d);
+  }
+  if (m.reactions) {
+    const r = el("div", "reactions");
+    for (const [k, v] of Object.entries(m.reactions)) r.append(el("span", null, `${k.startsWith("custom:") ? "★" : k} ${v}`));
+    box.append(r);
+  }
+  return box;
+}
+
+function renderMedia(md) {
+  const wrap = el("div", "media");
+  if (md.kind === "poll") {
+    wrap.append(el("div", "file", "투표: " + (md.question || "")));
+    for (const o of md.options || []) wrap.append(el("div", "ex", "· " + o));
+    return wrap;
+  }
+  const label = md.name || md.kind;
+  if (!md.blob) {
+    const f = el("span", "file", label + " ");
+    const where = md.skipped ? "수집 제외" : "볼트에만 보관";   // 영상·음성, 또는 텔레그램 서버 오류로 받지 못해 제외한 파일
+    f.append(el("small", null, md.size ? `${fmtSize(md.size)} · ${where}` : where));
+    wrap.append(f);
+    return wrap;
+  }
+  if (IMAGE.test(md.mime || "") && md.kind !== "document") {
+    const img = el("img");
+    img.alt = label; img.dataset.blob = md.blob; img.dataset.mime = md.mime;
+    img.width = 320; img.height = 200; img.style.background = "var(--line)";
+    wrap.append(img);
+    return wrap;
+  }
+  const f = el("span", "file", label + " ");
+  f.append(el("small", null, fmtSize(md.size || 0)));
+  const playable = /^(video|audio)\//.test(md.mime || "");
+  const btn = el("button", null, playable ? "재생" : "받기");
+  btn.addEventListener("click", async () => {
+    btn.disabled = true; btn.textContent = "복호화 중…";
+    try {
+      const url = await blobUrl(md.blob, md.mime);
+      if (playable) {
+        const p = el(md.mime.startsWith("video/") ? "video" : "audio");
+        p.controls = true; p.src = url; wrap.replaceChildren(p); p.play().catch(() => {});
+      } else {
+        const a = el("a"); a.href = url; a.download = label; a.click();
+        btn.disabled = false; btn.textContent = "받기";
+      }
+    } catch (e) { btn.disabled = false; btn.textContent = "실패 — 다시 시도"; }
+  });
+  f.append(btn);
+  wrap.append(f);
+  return wrap;
+}
+
+let imgObserver = null;
+function observeImages() {
+  imgObserver?.disconnect();
+  imgObserver = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) {
+      const img = e.target;
+      imgObserver.unobserve(img);
+      blobUrl(img.dataset.blob, img.dataset.mime).then((u) => { img.removeAttribute("width"); img.removeAttribute("height"); img.src = u; }).catch(() => { img.alt += " (불러오기 실패)"; });
+    }
+  }, { rootMargin: "400px" });
+  document.querySelectorAll("img[data-blob]:not([src])").forEach((i) => imgObserver.observe(i));
+}
+
+// ---------------------------------------------------------------- 분석
+let analysisLoaded = false;
+function table(cols, rows) {
+  const wrap = el("div", "scroll"), t = el("table"), hr = el("tr");
+  for (const c of cols) hr.append(el("th", c.num ? "num" : null, c.label));
+  t.append(hr);
+  for (const r of rows) {
+    const tr = el("tr");
+    for (const c of cols) {
+      const v = c.get(r), cell = el("td", c.num ? "num" : null);
+      if (v instanceof Node) cell.append(v); else cell.textContent = v ?? "";
+      tr.append(cell);
+    }
+    t.append(tr);
+  }
+  wrap.append(t);
+  return wrap;
+}
+const pct = (x) => (x * 100).toFixed(1) + "%";
+const num = (x) => (x ?? 0).toLocaleString();
+
+async function renderAnalysis() {
+  const root = $("analysis");
+  if (analysisLoaded) return;
+  if (!meta.has_analysis) { root.append(el("p", "note", "아직 분석 결과가 없습니다. 분석은 주 1회 실행됩니다.")); analysisLoaded = true; return; }
+  root.append(el("p", "status", "분석 결과 복호화 중…"));
+  const r = await getJson("analysis/report");
+  root.replaceChildren();
+  analysisLoaded = true;
+
+  root.append(el("p", "note", `분석 기간 ${r.period.from} ~ ${r.period.to} · 최근 1주 ${r.week.from} ~ ${r.week.to} · 생성 ${r.generated_at.slice(0, 10)}`));
+  const tiles = el("div", "tiles");
+  for (const [label, all, wk] of [["메시지", r.totals.messages, r.week_totals.messages], ["발언자", r.totals.speakers, r.week_totals.speakers], ["첨부", r.totals.media, r.week_totals.media], ["활동일", r.totals.days, r.week_totals.days]]) {
+    const t = el("div", "tile"); t.append(el("b", null, num(all)), el("span", null, `${label} · 최근 1주 ${num(wk)}`)); tiles.append(t);
+  }
+  root.append(tiles);
+
+  for (const name of r.figures || []) {
+    const fig = el("div", "fig"), img = el("img");
+    img.alt = name; img.dataset.blob = `analysis/fig/${name}`; img.dataset.mime = "image/png";
+    fig.append(img); root.append(fig);
+  }
+
+  root.append(el("h2", null, "주제"));
+  root.append(table([
+    { label: "주제", get: (t) => { const d = el("div"); d.append(el("b", null, t.label)); d.append(el("div", "ex", t.terms.join(" · "))); for (const x of t.examples.slice(0, 2)) d.append(el("div", "ex", `“${x.text}” — ${x.name}`)); return d; } },
+    { label: "메시지", num: true, get: (t) => num(t.messages) },
+    { label: "비중", num: true, get: (t) => pct(t.share) },
+    { label: "최근 1주", num: true, get: (t) => num(t.week_messages) },
+    { label: "공유 문서", num: true, get: (t) => num(t.documents) },
+    { label: "주요 발언자", get: (t) => t.top_speakers.map((s) => `${s.name} ${s.messages}`).join(", ") },
+  ], r.topics));
+
+  const fs = r.files;
+  if (fs && fs.total) {
+    root.append(el("h2", null, "공유 파일"));
+    root.append(el("p", "note", `전체 ${num(fs.total)}개 (${Object.entries(fs.by_category).map(([k, v]) => `${k} ${num(v)}`).join(", ")}) · 문서 ${num(fs.documents)}개 중 ${num(fs.text_extracted)}개는 본문을 읽어 주제를 붙였습니다.`));
+    const fileCols = [
+      { label: "날짜", get: (f) => f.date },
+      { label: "파일", get: (f) => { const d = el("div"); d.append(el("b", null, f.name)); if (f.key_terms.length) d.append(el("div", "ex", f.key_terms.join(" · "))); return d; } },
+      { label: "공유자", get: (f) => f.by },
+      { label: "주제", get: (f) => f.topic + (f.topic_source === "파일 본문" ? "" : " (대화 기준)") },
+      { label: "답글·반응", num: true, get: (f) => `${f.replies} · ${f.reactions}` },
+    ];
+    if (fs.week.length) { root.append(el("p", "note", "최근 1주에 공유된 문서")); root.append(table(fileCols, fs.week)); }
+    if (fs.top.length) { root.append(el("p", "note", "답글·반응이 많았던 문서")); root.append(table(fileCols, fs.top)); }
+  }
+
+  root.append(el("h2", null, "발언자"));
+  root.append(table([
+    { label: "발언자", get: (s) => s.name },
+    { label: "메시지", num: true, get: (s) => num(s.messages) },
+    { label: "비중", num: true, get: (s) => pct(s.share) },
+    { label: "최근 1주", num: true, get: (s) => num(s.week_messages) },
+    { label: "평균 글자", num: true, get: (s) => Math.round(s.chars_avg) },
+    { label: "보낸/받은 답글", num: true, get: (s) => `${s.replies_sent} / ${s.replies_received}` },
+    { label: "첨부(문서)·링크", num: true, get: (s) => `${s.media} (${s.documents ?? 0}) · ${s.links}` },
+    { label: "주로 다룬 주제", get: (s) => (s.top_topics || []).join(", ") },
+    { label: "특징어", get: (s) => (s.top_terms || []).join(" · ") },
+  ], r.speakers));
+
+  root.append(el("h2", null, "방법"));
+  root.append(el("p", "note", r.method));
+  observeImages();
+}
+
+// ---------------------------------------------------------------- 시작
+function start() {
+  $("lock").hidden = true; $("app").hidden = false;
+  $("title").textContent = meta.chat_title || "아카이브";
+  document.title = meta.chat_title || "Archive";
+  const sp = $("speaker");
+  for (const [id, name] of Object.entries(meta.users).sort((a, b) => (a[1] || "").localeCompare(b[1] || "", "ko"))) { const o = el("option", null, name || id); o.value = id; sp.append(o); }
+  const topics = Object.entries(meta.topics || {});
+  if (topics.length) { $("topic").hidden = false; for (const [id, t] of topics) { const o = el("option", null, t); o.value = id; $("topic").append(o); } }
+  const all = dayList();
+  if (all.length) for (const id of ["from", "to"]) { $(id).min = all[0]; $(id).max = all[all.length - 1]; }
+  else $("status").textContent = "아직 수집된 메시지가 없습니다.";
+
+  let timer;
+  const refresh = () => { msgLimit = PAGE; render(); };
+  $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(refresh, 300); });
+  $("speaker").addEventListener("change", refresh);
+  $("topic").addEventListener("change", refresh);
+  $("older").addEventListener("click", () => { if (isFiltering(filterState())) msgLimit += PAGE; else { dayLimit += 7; msgLimit += PAGE; } render(); });
+  $("from").addEventListener("change", refresh);
+  $("to").addEventListener("change", refresh);
+  const tab = (chat) => {
+    $("tabChat").setAttribute("aria-selected", chat); $("tabAnalysis").setAttribute("aria-selected", !chat);
+    $("chat").hidden = !chat; $("filters").hidden = !chat; $("analysis").hidden = chat;
+    if (!chat) renderAnalysis().catch((e) => { $("analysis").replaceChildren(el("p", "note", "분석 결과를 불러오지 못했습니다: " + e.message)); });
+  };
+  $("tabChat").addEventListener("click", () => tab(true));
+  $("tabAnalysis").addEventListener("click", () => tab(false));
+  if (all.length) render().then(() => window.scrollTo(0, document.body.scrollHeight));
+}
+</script>
+</body>
+</html>
