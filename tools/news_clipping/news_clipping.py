@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""키워드 뉴스 클리핑 — 네이버 뉴스 검색 API + Google News RSS → Quartz 마크다운 (howdareryu.com/news)
+"""키워드 뉴스 클리핑 — 네이버 뉴스 검색(NAVER API HUB) + Google News RSS → Quartz 마크다운 (howdareryu.com/news)
 
 매일 1회 실행:
   1. keywords.yml 의 키워드별로 네이버 뉴스(국내), Google News RSS(국내 ko-KR / 해외 en-US) 검색
@@ -36,7 +36,7 @@ import yaml
 KST = timezone(timedelta(hours=9))
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 RSS_BASE = "https://news.google.com/rss/search"
-NAVER_API = "https://openapi.naver.com/v1/search/news.json"
+NAVER_API = "https://naverapihub.apigw.ntruss.com/search/v1/news"   # 네이버 클라우드 플랫폼 NAVER API HUB (검색 > 뉴스)
 NAVER_ENV_FILE = Path.home() / ".config" / "news_clipping" / ".env"   # 로컬 실행용. 볼트 밖에 둔다
 EDITIONS = {
     "ko": {"hl": "ko", "gl": "KR", "ceid": "KR:ko"},
@@ -78,10 +78,10 @@ def normalize_keyword(k) -> dict:
     짝이 없는 문자열은 국내판에서 검색하고, 한글이 없으면 해외판에서도 검색한다."""
     if isinstance(k, str) and " / " in k:
         ko, en = (part.strip() for part in k.split(" / ", 1))
-        return {"name": f"{ko} / {en}", "ko": ko, "en": en, "naver": [ko], "must": []}
+        return {"name": f"{ko} / {en}", "ko": ko, "en": en, "naver": [ko], "must": [], "must_in": "title"}
     if isinstance(k, str):
         has_hangul = re.search(r"[가-힣]", k) is not None
-        return {"name": k, "ko": k, "en": None if has_hangul else k, "naver": [k], "must": []}
+        return {"name": k, "ko": k, "en": None if has_hangul else k, "naver": [k], "must": [], "must_in": "title"}
     name = k.get("name") or k.get("ko") or k.get("en")
     if not name:
         raise SystemExit(f"keywords 항목에 name/ko/en 중 하나는 있어야 합니다: {k}")
@@ -89,7 +89,7 @@ def normalize_keyword(k) -> dict:
     if isinstance(naver, str):
         naver = [naver.replace(" OR ", " | ")]
     return {"name": str(name), "ko": k.get("ko"), "en": k.get("en"), "naver": list(naver or []),
-            "must": list(k.get("must") or [])}
+            "must": list(k.get("must") or []), "must_in": k.get("must_in", "title")}
 
 
 # ---------------------------------------------------------------- 수집
@@ -211,8 +211,33 @@ def item_key(title: str, source: str, source_url: str = "") -> str:
     return hashlib.sha1(f"{norm_title(title)}|{outlet}".encode()).hexdigest()[:16]
 
 
-def title_key(title: str) -> str:
-    return "t:" + hashlib.sha1(norm_title(title).encode()).hexdigest()[:16]
+def title_sig(title: str) -> tuple[str, bool]:
+    """(정규화한 제목, 잘린 제목인지). 네이버는 긴 제목을 '...' 로 자른다."""
+    t = title.rstrip()
+    cut = t.endswith(("...", "…"))
+    return norm_title(t.rstrip(".…")), cut
+
+
+def same_title(a: tuple[str, bool], b: tuple[str, bool]) -> bool:
+    return a[0] == b[0] or (a[1] and b[0].startswith(a[0])) or (b[1] and a[0].startswith(b[0]))
+
+
+def merge_truncated(items: list[dict]) -> list[dict]:
+    """네이버의 잘린 제목과 같은 매체의 Google 기사를 합친다: 네이버 쪽(원문 링크·발췌)을 남기고 제목은 온전한 것으로."""
+    googles = [(title_sig(g["title"]), domain_of(g["source_url"]), g) for g in items if g["via"] == "google"]
+    dropped: set[int] = set()
+    for n in items:
+        sig = title_sig(n["title"])
+        if n["via"] != "naver" or not sig[1]:
+            continue
+        for g_sig, g_domain, g in googles:
+            if id(g) not in dropped and g_domain == domain_of(n["source_url"]) and same_title(sig, g_sig):
+                n["title"] = g["title"]
+                n["key"] = item_key(n["title"], n["source"], n["source_url"])
+                n["also"] += [k for k in [g["keyword"], *g["also"]] if k != n["keyword"] and k not in n["also"]]
+                dropped.add(id(g))
+                break
+    return [i for i in items if id(i) not in dropped]
 
 
 def collect(keywords: list[dict], settings: dict, now: datetime, fetcher=fetch,
@@ -243,7 +268,8 @@ def collect(keywords: list[dict], settings: dict, now: datetime, fetcher=fetch,
                 continue
             if any(has_term(item["title"], t) for t in exclude_terms) or item["source"].lower() in exclude_sources:
                 continue
-            if kw["must"] and not any(has_term(item["title"], m) for m in kw["must"]):
+            text = f"{item['title']} {item['description']}" if kw["must_in"] == "text" else item["title"]
+            if kw["must"] and not any(has_term(text, m) for m in kw["must"]):
                 continue
             first = by_key.get(item["key"])
             if first is None:
@@ -269,7 +295,7 @@ def collect(keywords: list[dict], settings: dict, now: datetime, fetcher=fetch,
                 add(parse_rss(get(build_url(query, lang, settings["lookback_hours"])), lang, kw["name"]), kw)
             except Exception as e:  # noqa: BLE001
                 errors.append(f"{kw['name']}(Google {LANG_LABEL[lang]}): {e}")
-    items = list(by_key.values())
+    items = merge_truncated(list(by_key.values()))
     for i in items:     # 네이버 기사의 매체명: Google 에서 배운 '도메인 → 매체명'(data/sources.json), 모르면 도메인 그대로
         if i["via"] == "naver":
             i["source"] = known.get(domain_of(i["source_url"]), i["source"])
@@ -277,26 +303,34 @@ def collect(keywords: list[dict], settings: dict, now: datetime, fetcher=fetch,
 
 
 def drop_same_outlet_dupes(items: list[dict], existing: list[dict]) -> list[dict]:
-    """도메인이 달라 키는 다르지만(모바일·섹션 도메인) 제목과 매체명이 같은 기사."""
-    taken = {(norm_title(i["title"]), i["source"].lower()) for i in existing}
+    """키는 다르지만(모바일·섹션 도메인, 잘린 제목) 같은 매체의 같은 제목인 기사."""
+    taken = [(title_sig(i["title"]), i["source"].lower()) for i in existing]
     out = []
     for i in items:
-        k = (norm_title(i["title"]), i["source"].lower())
-        if k not in taken:
-            taken.add(k)
+        sig, outlet = title_sig(i["title"]), i["source"].lower()
+        if not any(o == outlet and same_title(sig, t) for t, o in taken):
+            taken.append((sig, outlet))
             out.append(i)
     return out
 
 
-def load_seen(daily_dir: Path, today: str, keep_from: str) -> set[str]:
-    """지난 클리핑에 실린 기사 키 + 제목 키. 다른 매체가 다음 날 같은 제목으로 받아쓴 기사도 걸러진다."""
-    seen: set[str] = set()
+def load_seen(daily_dir: Path, today: str, keep_from: str) -> tuple[set[str], list[tuple[str, bool]]]:
+    """지난 클리핑에 실린 (기사 키, 제목). 다른 매체가 다음 날 같은 제목으로 받아쓴 기사도 걸러진다."""
+    keys: set[str] = set()
+    titles: dict[tuple[str, bool], None] = {}
     for p in daily_dir.glob("*.json"):
         if keep_from <= p.stem < today:
             for i in load_json(p, {"items": []})["items"]:
-                seen.add(item_key(i["title"], i["source"], i.get("source_url", "")))
-                seen.add(title_key(i["title"]))
-    return seen
+                keys.add(item_key(i["title"], i["source"], i.get("source_url", "")))
+                titles[title_sig(i["title"])] = None
+    return keys, list(titles)
+
+
+def is_seen(item: dict, keys: set[str], titles: list[tuple[str, bool]], exact: set[str]) -> bool:
+    sig = title_sig(item["title"])
+    if item["key"] in keys or sig[0] in exact:
+        return True
+    return any(same_title(sig, t) for t in titles if t[1] or sig[1])      # 잘린 제목이 낀 경우만 앞부분 비교
 
 
 # ---------------------------------------------------------------- 묶기
@@ -486,7 +520,7 @@ def naver_credentials() -> dict | None:
             if sep and not name.strip().startswith("#"):
                 env.setdefault(name.strip(), value.strip().strip("'\""))
     cid, secret = env.get("NAVER_CLIENT_ID"), env.get("NAVER_CLIENT_SECRET")
-    return {"X-Naver-Client-Id": cid, "X-Naver-Client-Secret": secret} if cid and secret else None
+    return {"X-NCP-APIGW-API-KEY-ID": cid, "X-NCP-APIGW-API-KEY": secret} if cid and secret else None
 
 
 def run(site_root: Path, page_dir: str, config: Path, now: datetime, dry_run: bool = False, fetcher=fetch,
@@ -505,13 +539,13 @@ def run(site_root: Path, page_dir: str, config: Path, now: datetime, dry_run: bo
         return 2
 
     keep_from = (now - timedelta(days=settings["seen_days"])).strftime("%Y-%m-%d")
-    seen = load_seen(daily_dir, today, keep_from)
+    seen_keys, seen_titles = load_seen(daily_dir, today, keep_from)
+    seen_exact = {t[0] for t in seen_titles}
     day = load_json(daily_dir / f"{today}.json", {"date": today, "items": []})
     for i in day["items"]:      # 예전 형식으로 저장된 항목도 지금 기준의 키로
         i["key"] = item_key(i["title"], i["source"], i.get("source_url", ""))
     day_keys = {i["key"] for i in day["items"]}
-    new = [i for i in fetched
-           if i["key"] not in day_keys and i["key"] not in seen and title_key(i["title"]) not in seen]
+    new = [i for i in fetched if i["key"] not in day_keys and not is_seen(i, seen_keys, seen_titles, seen_exact)]
     new = drop_same_outlet_dupes(new, day["items"])
     day["items"] += new
     day["generated_at"] = now.isoformat(timespec="seconds")

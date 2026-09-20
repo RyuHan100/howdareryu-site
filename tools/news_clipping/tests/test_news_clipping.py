@@ -28,7 +28,7 @@ def write_config(tmp_path: Path, keywords, **settings) -> Path:
     return p
 
 
-NAVER = {"X-Naver-Client-Id": "id", "X-Naver-Client-Secret": "secret"}
+NAVER = {"X-NCP-APIGW-API-KEY-ID": "id", "X-NCP-APIGW-API-KEY": "secret"}
 
 
 def naver(*entries) -> bytes:
@@ -55,7 +55,7 @@ def fake_fetcher(feeds: dict):
 
 def test_normalize_keyword_string():
     assert nc.normalize_keyword("탄소시장")["en"] is None
-    assert nc.normalize_keyword("CBAM") == {"name": "CBAM", "ko": "CBAM", "en": "CBAM", "naver": ["CBAM"], "must": []}
+    assert nc.normalize_keyword("CBAM") == {"name": "CBAM", "ko": "CBAM", "en": "CBAM", "naver": ["CBAM"], "must": [], "must_in": "title"}
     assert nc.normalize_keyword({"name": "x", "ko": '국제감축 OR "파리협정 6조"'})["naver"] == ['국제감축 | "파리협정 6조"']
     assert nc.normalize_keyword({"name": "x", "ko": "a", "naver": ["b", "c"]})["naver"] == ["b", "c"]
 
@@ -166,7 +166,7 @@ def test_has_term_matches_ascii_terms_as_words():
 
 def test_paired_keyword_is_one_section_with_both_editions(tmp_path):
     assert nc.normalize_keyword("탄소시장 / carbon market") == {
-        "name": "탄소시장 / carbon market", "ko": "탄소시장", "en": "carbon market", "naver": ["탄소시장"], "must": []}
+        "name": "탄소시장 / carbon market", "ko": "탄소시장", "en": "carbon market", "naver": ["탄소시장"], "must": [], "must_in": "title"}
     cfg = write_config(tmp_path, ["탄소시장 / carbon market"])
     feeds = {("탄소시장", "ko"): rss(("배출권 가격 급등", "연합뉴스", 3)),
              ("carbon market", "en"): rss(("Carbon market hits record", "Reuters", 6))}
@@ -216,3 +216,31 @@ def test_same_title_from_another_outlet_next_day_is_skipped(tmp_path):
     nc.run(tmp_path, "content/news", cfg, NOW + timedelta(days=1), fetcher=fake_fetcher(feeds))
     day2 = json.loads((tmp_path / "content/news/data/daily/2026-09-21.json").read_text())
     assert [i["title"] for i in day2["items"]] == ["정말 새 기사"]
+
+
+def test_truncated_naver_title_merges_with_google_and_stays_deduped_next_day(tmp_path):
+    cfg = write_config(tmp_path, ["탄소시장"])
+    long_title = "지난해 국가 온실가스 배출량 전년 대비 감소했지만 2030 목표까지 1억4900만톤 추가 감축 필요"
+    feeds = {("탄소시장", "naver"): naver((long_title[:30] + "...", "https://www.kuki.example/a/1", 3, "탄소시장 영향")),
+             ("탄소시장", "ko"): rss((long_title, "kuki", 3))}
+    feeds[("탄소시장", "ko")] = feeds[("탄소시장", "ko")].replace(b"https://kuki.example", b"https://www.kuki.example")
+    nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds), naver_headers=NAVER)
+    [item] = json.loads((tmp_path / "content/news/data/daily/2026-09-20.json").read_text())["items"]
+    assert (item["title"], item["via"], item["link"]) == (long_title, "naver", "https://www.kuki.example/a/1")
+
+    feeds[("탄소시장", "ko")] = rss()                  # 다음 날: 네이버에만 잘린 제목으로 다시 잡힘
+    nc.run(tmp_path, "content/news", cfg, NOW + timedelta(days=1), fetcher=fake_fetcher(feeds), naver_headers=NAVER)
+    assert not (tmp_path / "content/news/data/daily/2026-09-21.json").exists()
+
+
+def test_must_in_text_checks_naver_description_too(tmp_path):
+    cfg = write_config(tmp_path, [{"name": "ETS", "naver": ["배출권거래제"], "must": ["배출권"], "must_in": "text"}])
+    feeds = {("배출권거래제", "naver"): naver(("기후 법안이 밀려온다", "https://a.example/1", 2, "배출권거래제 개편안이 핵심"),
+                                         ("안동 가볼 만한 곳", "https://b.example/2", 2, "가을 여행지"))}
+    nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds), naver_headers=NAVER)
+    items = json.loads((tmp_path / "content/news/data/daily/2026-09-20.json").read_text())["items"]
+    assert [i["title"] for i in items] == ["기후 법안이 밀려온다"]
+
+    strict = write_config(tmp_path, [{"name": "ETS", "naver": ["배출권거래제"], "must": ["배출권"]}])   # 기본은 제목만
+    assert nc.run(tmp_path / "strict", "content/news", strict, NOW, fetcher=fake_fetcher(feeds), naver_headers=NAVER) == 0
+    assert not (tmp_path / "strict/content/news/data/daily").exists()

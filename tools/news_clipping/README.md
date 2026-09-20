@@ -4,7 +4,7 @@
 `pacm-monitor` 와 같은 방식입니다: 사이트 저장소 안의 GitHub Actions 가 매일 실행 → `content/news` 커밋 → Quartz 재배포.
 
 ```
-keywords.yml ─▶ 네이버 뉴스 검색 API (국내) + Google News RSS (국내 ko-KR / 해외 en-US)
+keywords.yml ─▶ 네이버 뉴스 검색(NAVER API HUB, 국내) + Google News RSS (국내 ko-KR / 해외 en-US)
                    │ 최근 48시간 · 이미 실은 기사·같은 제목 제외 · 제외어/매체 필터
                    ▼
               제목 유사도로 같은 기사 묶기 (보도 많은 순 → 최신순)
@@ -52,9 +52,11 @@ keywords:
 
 ## 네이버 API 키 (한 번만)
 
-1. <https://developers.naver.com/apps/#/register> → 애플리케이션 등록 → 사용 API **검색** 선택, 환경은 "WEB 설정"에 `https://howdareryu.com` (무료, 하루 25,000회).
-2. 발급된 Client ID / Client Secret 을 사이트 저장소 Settings → Secrets and variables → Actions 에
-   `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` 이름으로 등록.
+네이버 검색 API 는 **네이버 클라우드 플랫폼의 NAVER API HUB** 로 제공됩니다 (`naverapihub.apigw.ntruss.com/search/v1/news`, 하루 25,000회).
+
+1. <https://console.ncloud.com> → NAVER API HUB 이용 신청 → Application 등록(검색 API) → Client ID(10자) / Client Secret(40자).
+2. 사이트 저장소 Settings → Secrets and variables → Actions 에 `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` 이름으로 등록.
+   **워크플로 yml 에 값을 직접 쓰면 안 됩니다** (공개 저장소).
 3. 로컬에서 돌릴 때는 볼트 밖 `~/.config/news_clipping/.env` 에 같은 이름으로 두 줄.
 
 키가 없으면 경고만 남기고 Google News 만으로 동작합니다.
