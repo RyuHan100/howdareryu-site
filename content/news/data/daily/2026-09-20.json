@@ -5654,7 +5654,98 @@
    "also": [],
    "via": "google",
    "description": ""
+  },
+  {
+   "key": "9132deda6d8d0a15",
+   "title": "불황 여파로 온실가스 0.9% 줄었지만…산불로 순배출량 되레 증가",
+   "source": "경향신문",
+   "source_url": "https://www.khan.co.kr/article/202609201554001",
+   "link": "https://www.khan.co.kr/article/202609201554001",
+   "published": "2026-09-20T06:54:00+00:00",
+   "lang": "ko",
+   "keyword": "NDC",
+   "also": [],
+   "via": "naver",
+   "description": "이대로라면 2030년 국가 온실가스 감축목표(NDC) 달성은 불투명하다. 목표치를 달성하려면 앞으로 5년 동안 1억4900만t을 추가로 감축해야 한다. 2035년 목표까지 고려하면 2031~2035년에도 1억2700만~1억8200만t을 더..."
+  },
+  {
+   "key": "ad665bb3dee0f216",
+   "title": "석유 넘어 '전기의 시대'…AI 전력수요·에너지안보 대응 강조",
+   "source": "iusm.co.kr",
+   "source_url": "https://www.iusm.co.kr/news/articleView.html?idxno=1068188",
+   "link": "https://www.iusm.co.kr/news/articleView.html?idxno=1068188",
+   "published": "2026-09-20T06:36:00+00:00",
+   "lang": "ko",
+   "keyword": "AI 온실가스",
+   "also": [],
+   "via": "naver",
+   "description": "참석자들은 지정학적 위기와 기후변화, AI 확산에 따른 전력수요 증가에 동시에 대응할 에너지정책을... 한국의 전기화 정책은 에너지 주권 강화와 제조업 경쟁력 제고, 온실가스 감축에 기여할 수 있다고 평가했다...."
+  },
+  {
+   "key": "fb4300e13551f499",
+   "title": "화웨이 저우젠쥔: 와트당 토큰 수를 극대화하는 그리드 인터랙티브 AIDC 솔루션 구축",
+   "source": "이슈투데이",
+   "source_url": "https://www.issuetoday.co.kr",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CdTgwZUxyX1JsNVRpYmJmSk9GVlBsbVV5cEZKcy1nQlRxWWJBcnpzR2MyMndyM3FrU0VBaW5NT1lZeTdjemhINUNScUFfYzRVY2xLSEhlUWlMU04tcEVnemw5NF9Ydw?oc=5",
+   "published": "2026-09-18T22:30:52+00:00",
+   "lang": "ko",
+   "keyword": "전력망",
+   "also": [],
+   "via": "google",
+   "description": ""
+  },
+  {
+   "key": "ab7e188cb738b2e2",
+   "title": "메가특구 노동특례 논의… 주52시간 완화 법안 ‘줄발의’",
+   "source": "브릿지경제",
+   "source_url": "https://www.viva100.com/article/20260917501204",
+   "link": "https://www.viva100.com/article/20260917501204",
+   "published": "2026-09-20T06:44:00+00:00",
+   "lang": "ko",
+   "keyword": "메가특구특별법",
+   "also": [],
+   "via": "naver",
+   "description": "정부가 메가특구특별법에 연구개발(R&D) 인력의 주52시간 적용 제외 등 노동특례를 검토하는 가운데, 국회에서도 R&D·첨단산업의 근로시간 규제를 완화하려는 입법 움직임이 잇따르는 것으로 나타났다. 20일 국회..."
+  },
+  {
+   "key": "054ec787d3649722",
+   "title": "베일 벗은 ‘탈석탄 로드맵’... 안보전원·보상책은 ‘물음표’",
+   "source": "브릿지경제",
+   "source_url": "https://www.viva100.com/article/20260920500381",
+   "link": "https://www.viva100.com/article/20260920500381",
+   "published": "2026-09-20T06:44:00+00:00",
+   "lang": "ko",
+   "keyword": "탈석탄",
+   "also": [],
+   "via": "naver",
+   "description": "박시원 강원대 법학전문대학원 교수는 “현재 법체계 하에서는 전환 부문 내 온실가스를 빠르고 효과적으로 줄일 수 있는 법적 목표가 부재하다”며 “안보전원이 탈석탄의 안전장치 혹은 우회로가 될지 검토해..."
+  },
+  {
+   "key": "1cac193e7feebc15",
+   "title": "석탄 떠난 자리에 같은 화석연료인 LNG가?···“진정한 탄소중립 아냐...",
+   "source": "경향신문",
+   "source_url": "https://www.khan.co.kr/article/202609201509001",
+   "link": "https://www.khan.co.kr/article/202609201509001",
+   "published": "2026-09-20T06:09:00+00:00",
+   "lang": "ko",
+   "keyword": "탈석탄",
+   "also": [],
+   "via": "naver",
+   "description": "녹색연합은 “2040년 탈석탄이라는 목표에 부합하지 않는 계획”이라고 비판했고... 일각에선 ‘안보 전원’ 명목으로 석탄화력 발전소 일부를 존치하기로 한 결정에 2040년 탈석탄 목표를 포기했다는 비판이..."
+  },
+  {
+   "key": "68e6ec3cf39d8872",
+   "title": "석탄 떠난 자리, LNG가 채운다? “진정한 탄소중립 아냐” 거세지는 비판",
+   "source": "v.daum.net",
+   "source_url": "https://v.daum.net",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1MHg3aDZ6a2RQbGxaWmhYVVdkMkJtZjZ0RWx4U2gxeHZPRWVZNGc3dUpReGtEcUlHR2NwVlhmaGtYNWxGZktNcUpMOHh3WFU?oc=5",
+   "published": "2026-09-20T06:11:09+00:00",
+   "lang": "ko",
+   "keyword": "탈석탄",
+   "also": [],
+   "via": "google",
+   "description": ""
   }
  ],
- "generated_at": "2026-09-20T15:32:20+09:00"
+ "generated_at": "2026-09-20T16:08:11+09:00"
 }
