@@ -1,0 +1,75 @@
+# 키워드 뉴스 클리핑 — 매일 06:40 KST 실행, content/news 커밋 → Quartz 재빌드
+# 이 파일과 tools/news_clipping/ 을 howdareryu.com Quartz 저장소에 넣어서 사용
+name: News clipping
+
+on:
+  schedule:
+    - cron: "40 21 * * *"     # 21:40 UTC = 06:40 KST (pacm-monitor 21:07 UTC 가 끝난 뒤)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write              # 배포 워크플로 dispatch 용
+
+concurrency:
+  group: news-clipping
+  cancel-in-progress: false
+
+env:
+  SITE_BRANCH: v5             # RyuHan100/howdareryu-site 기본 브랜치
+  DEPLOY_WORKFLOW: deploy.yml # Quartz 배포 워크플로 파일명 (.github/workflows/ 아래)
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  clip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.SITE_BRANCH }}
+          # PUSH_TOKEN(PAT) 이 있으면 푸시가 배포 워크플로를 자연 트리거함. 없으면 아래 dispatch 단계가 대신 실행
+          token: ${{ secrets.PUSH_TOKEN || github.token }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: tools/news_clipping/requirements.txt
+
+      - name: Install deps
+        run: pip install -r tools/news_clipping/requirements.txt
+
+      - name: Run clipping
+        id: clip
+        run: python tools/news_clipping/news_clipping.py --site-root . --page-dir content/news
+
+      - name: Commit & push
+        id: push
+        env:
+          SUMMARY: ${{ steps.clip.outputs.summary }}
+        run: |
+          git config user.name  "news-clipping[bot]"
+          git config user.email "news-clipping[bot]@users.noreply.github.com"
+          git add content/news
+          if git diff --cached --quiet; then
+            echo "no file changes"; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          MSG="news: ${SUMMARY}"
+          git commit -m "${MSG:0:200}"
+          git pull --rebase origin "${SITE_BRANCH}"   # 다른 모니터가 그 사이 커밋했을 때
+          git push origin HEAD:${SITE_BRANCH}
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # GITHUB_TOKEN 으로 푸시하면 다른 워크플로가 트리거되지 않으므로 명시적으로 배포 실행
+      - name: Trigger Quartz deploy
+        if: steps.push.outputs.pushed == 'true' && env.PUSH_TOKEN_SET != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PUSH_TOKEN_SET: ${{ secrets.PUSH_TOKEN != '' }}
+        run: gh workflow run "$DEPLOY_WORKFLOW" --ref "$SITE_BRANCH" || echo "::warning::deploy dispatch 실패 — DEPLOY_WORKFLOW 이름 확인"
+
+      - name: Summary
+        env:
+          SUMMARY: ${{ steps.clip.outputs.summary }}
+        run: echo "### 뉴스 클리핑 — ${SUMMARY}" >> "$GITHUB_STEP_SUMMARY"
