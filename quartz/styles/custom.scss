@@ -24,3 +24,13 @@ strong, b {
   color: #9fef00;
   font-weight: 700;
 }
+
+// Explorer 폴더 이름 앞에 폴더 아이콘. 텍스트가 아니라 ::before 로 붙여
+// 링크 문구와 정렬 기준(displayName)은 건드리지 않는다.
+.explorer .folder-button .folder-title::before {
+  content: "📁";
+  content: "📁" / ""; // 지원 브라우저에서는 스크린리더가 읽지 않도록 대체 텍스트를 비움
+  margin-inline-end: 0.35em;
+  font-size: 0.9em;
+  line-height: 1;
+}
