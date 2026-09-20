@@ -437,9 +437,14 @@ def count_line(items: list[dict]) -> str:
     return f"기사 **{len(items)}건** (국내 {ko} · 해외 {len(items) - ko})"
 
 
-def source_line(items: list[dict]) -> str:
-    naver = "네이버 뉴스 검색 · " if any(i.get("via") == "naver" for i in items) else ""
+def source_line(naver_on: bool) -> str:
+    naver = "네이버 뉴스 검색 · " if naver_on else ""
     return f"{naver}Google News 검색(국내 ko-KR · 해외 en-US)"
+
+
+def via_counts(items: list[dict]) -> str:
+    naver = sum(1 for i in items if i.get("via") == "naver")
+    return f"네이버 {naver} · Google {len(items) - naver}"
 
 
 def front_matter(title: str, description: str, date: str, modified: datetime) -> str:
@@ -472,12 +477,13 @@ def render_errors(errors: list[str]) -> str:
 
 
 def render_index(latest_date: str | None, latest_items: list[dict], keywords: list[dict], settings: dict,
-                 now: datetime, slug_root: str, archive: list[tuple[str, int]], errors: list[str]) -> str:
+                 now: datetime, slug_root: str, archive: list[tuple[str, int]], errors: list[str],
+                 naver_on: bool = False) -> str:
     kw_names = " · ".join(esc(k["name"]) for k in keywords)
     head = front_matter(settings["page_title"],
                         "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신.",
                         now.strftime("%Y-%m-%d"), now)
-    head += (f"> 출처: {source_line(latest_items)} · 마지막 확인: **{now.strftime('%Y-%m-%d %H:%M')} KST**  \n"
+    head += (f"> 출처: {source_line(naver_on)} · 마지막 확인: **{now.strftime('%Y-%m-%d %H:%M')} KST**  \n"
              f"> 키워드: {kw_names}\n\n")
     if latest_date:
         head += (f"> [!example] [[{slug_root}/{latest_date[:4]}/{latest_date}|{latest_date} 클리핑]] — {count_line(latest_items)}\n"
@@ -550,7 +556,8 @@ def run(site_root: Path, page_dir: str, config: Path, now: datetime, dry_run: bo
     day["items"] += new
     day["generated_at"] = now.isoformat(timespec="seconds")
 
-    summary = f"{today} 신규 {len(new)}건 (당일 누계 {len(day['items'])}건)" + (f", 실패 {len(errors)}건" if errors else "")
+    summary = (f"{today} 신규 {len(new)}건 [{via_counts(new)}] (당일 누계 {len(day['items'])}건)"
+               + ("" if naver_headers else ", 네이버 키 없음") + (f", 실패 {len(errors)}건" if errors else ""))
     print(summary)
     for e in errors:
         print("  실패:", e, file=sys.stderr)
@@ -574,7 +581,8 @@ def run(site_root: Path, page_dir: str, config: Path, now: datetime, dry_run: bo
     archive = [(d, len(load_json(daily_dir / f"{d}.json", {"items": []})["items"])) for d in older]
     root.mkdir(parents=True, exist_ok=True)
     (root / "index.md").write_text(
-        render_index(latest, latest_items, keywords, settings, now, slug_root, archive, errors), encoding="utf-8")
+        render_index(latest, latest_items, keywords, settings, now, slug_root, archive, errors,
+                     naver_on=bool(naver_headers)), encoding="utf-8")
 
     set_output("status", "ok")
     set_output("changed", "true" if new else "false")

@@ -205,7 +205,8 @@ def test_without_naver_keys_only_google_is_used(tmp_path):
     cfg = write_config(tmp_path, ["탄소시장"])
     feeds = {("탄소시장", "naver"): RuntimeError("호출되면 안 됨"), ("탄소시장", "ko"): rss(("배출권 가격 급등", "연합뉴스", 3))}
     assert nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds)) == 0
-    assert "수집 실패" not in (tmp_path / "content/news/index.md").read_text()
+    index = (tmp_path / "content/news/index.md").read_text()
+    assert "수집 실패" not in index and "네이버 뉴스 검색" not in index
 
 
 def test_same_title_from_another_outlet_next_day_is_skipped(tmp_path):
