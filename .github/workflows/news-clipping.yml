@@ -42,6 +42,10 @@ jobs:
 
       - name: Run clipping
         id: clip
+        env:
+          # 네이버 개발자센터(검색 API) 키. 없으면 Google News 만으로 동작
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python tools/news_clipping/news_clipping.py --site-root . --page-dir content/news
 
       - name: Commit & push

@@ -28,11 +28,24 @@ def write_config(tmp_path: Path, keywords, **settings) -> Path:
     return p
 
 
+NAVER = {"X-Naver-Client-Id": "id", "X-Naver-Client-Secret": "secret"}
+
+
+def naver(*entries) -> bytes:
+    """entries: (title, originallink, hours_ago[, description])"""
+    return json.dumps({"items": [{
+        "title": e[0], "originallink": e[1], "link": "https://n.news.naver.com/x",
+        "description": e[3] if len(e) > 3 else "", "pubDate": format_datetime(NOW - timedelta(hours=e[2])),
+    } for e in entries]}, ensure_ascii=False).encode()
+
+
 def fake_fetcher(feeds: dict):
-    """URL 에 들어 있는 검색어·판(hl)으로 피드를 고른다."""
-    def fetcher(url):
+    """(검색어, 'ko'|'en') 는 Google 판, (검색어, 'naver') 는 네이버 1쪽."""
+    def fetcher(url, headers=None):
         for (query, lang), body in feeds.items():
-            if nc.build_url(query, lang, 48) == url:
+            if lang == "naver":
+                assert url != nc.build_naver_url(query) or headers == NAVER
+            if url == (nc.build_naver_url(query) if lang == "naver" else nc.build_url(query, lang, 48)):
                 if isinstance(body, Exception):
                     raise body
                 return body
@@ -42,7 +55,9 @@ def fake_fetcher(feeds: dict):
 
 def test_normalize_keyword_string():
     assert nc.normalize_keyword("탄소시장")["en"] is None
-    assert nc.normalize_keyword("CBAM") == {"name": "CBAM", "ko": "CBAM", "en": "CBAM", "must": []}
+    assert nc.normalize_keyword("CBAM") == {"name": "CBAM", "ko": "CBAM", "en": "CBAM", "naver": ["CBAM"], "must": []}
+    assert nc.normalize_keyword({"name": "x", "ko": '국제감축 OR "파리협정 6조"'})["naver"] == ['국제감축 | "파리협정 6조"']
+    assert nc.normalize_keyword({"name": "x", "ko": "a", "naver": ["b", "c"]})["naver"] == ["b", "c"]
 
 
 def test_parse_strips_source_suffix_and_keeps_source():
@@ -151,7 +166,7 @@ def test_has_term_matches_ascii_terms_as_words():
 
 def test_paired_keyword_is_one_section_with_both_editions(tmp_path):
     assert nc.normalize_keyword("탄소시장 / carbon market") == {
-        "name": "탄소시장 / carbon market", "ko": "탄소시장", "en": "carbon market", "must": []}
+        "name": "탄소시장 / carbon market", "ko": "탄소시장", "en": "carbon market", "naver": ["탄소시장"], "must": []}
     cfg = write_config(tmp_path, ["탄소시장 / carbon market"])
     feeds = {("탄소시장", "ko"): rss(("배출권 가격 급등", "연합뉴스", 3)),
              ("carbon market", "en"): rss(("Carbon market hits record", "Reuters", 6))}
@@ -159,3 +174,45 @@ def test_paired_keyword_is_one_section_with_both_editions(tmp_path):
     page = (tmp_path / "content/news/2026/2026-09-20.md").read_text()
     assert page.count("## 탄소시장 / carbon market") == 1
     assert page.index("### 국내 · 1건") < page.index("### 해외 · 1건")
+
+
+def test_naver_items_merge_with_google_and_get_outlet_names(tmp_path):
+    cfg = write_config(tmp_path, ["탄소시장"])
+    feeds = {
+        ("탄소시장", "naver"): naver(
+            ("<b>배출권</b> 가격 &quot;급등&quot;", "https://www.yna.example/view/1", 3, "정부가 <b>배출권</b> 시장 안정화 방안을 내놨다."),
+            ("네이버에만 있는 기사", "https://m.local.example/a/2", 2),
+            ("오래된 기사", "https://old.example/3", 72)),
+        ("탄소시장", "ko"): b'<?xml version="1.0"?><rss version="2.0"><channel>'
+            b'<item><title>\xeb\xb0\xb0\xec\xb6\x9c\xea\xb6\x8c \xea\xb0\x80\xea\xb2\xa9 "\xea\xb8\x89\xeb\x93\xb1" - \xec\x97\xb0\xed\x95\xa9\xeb\x89\xb4\xec\x8a\xa4</title>'
+            b'<link>https://news.google.com/rss/articles/1</link><pubDate>' + format_datetime(NOW - timedelta(hours=3)).encode() +
+            b'</pubDate><source url="https://www.yna.example">\xec\x97\xb0\xed\x95\xa9\xeb\x89\xb4\xec\x8a\xa4</source></item></channel></rss>',
+    }
+    assert nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds), naver_headers=NAVER) == 0
+    root = tmp_path / "content/news"
+    items = json.loads((root / "data/daily/2026-09-20.json").read_text())["items"]
+    assert len(items) == 2                                          # 양쪽에서 잡힌 기사는 1건으로
+    merged = next(i for i in items if "배출권" in i["title"])
+    assert merged["title"] == '배출권 가격 "급등"'
+    assert (merged["via"], merged["source"], merged["link"]) == ("naver", "연합뉴스", "https://www.yna.example/view/1")
+    assert next(i for i in items if "네이버에만" in i["title"])["source"] == "local.example"   # 모르는 도메인은 그대로
+    assert json.loads((root / "data/sources.json").read_text()) == {"yna.example": "연합뉴스"}
+    page = (root / "index.md").read_text()
+    assert "정부가 배출권 시장 안정화 방안을 내놨다." in page and "출처: 네이버 뉴스 검색 · Google News" in page
+
+
+def test_without_naver_keys_only_google_is_used(tmp_path):
+    cfg = write_config(tmp_path, ["탄소시장"])
+    feeds = {("탄소시장", "naver"): RuntimeError("호출되면 안 됨"), ("탄소시장", "ko"): rss(("배출권 가격 급등", "연합뉴스", 3))}
+    assert nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds)) == 0
+    assert "수집 실패" not in (tmp_path / "content/news/index.md").read_text()
+
+
+def test_same_title_from_another_outlet_next_day_is_skipped(tmp_path):
+    cfg = write_config(tmp_path, ["탄소시장"])
+    feeds = {("탄소시장", "ko"): rss(("배출권 가격 급등", "연합뉴스", 3))}
+    nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds))
+    feeds[("탄소시장", "ko")] = rss(("배출권 가격 급등", "받아쓴일보", 1), ("정말 새 기사", "한겨레", 1))
+    nc.run(tmp_path, "content/news", cfg, NOW + timedelta(days=1), fetcher=fake_fetcher(feeds))
+    day2 = json.loads((tmp_path / "content/news/data/daily/2026-09-21.json").read_text())
+    assert [i["title"] for i in day2["items"]] == ["정말 새 기사"]
