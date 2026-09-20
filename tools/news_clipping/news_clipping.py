@@ -404,8 +404,11 @@ def render_body(items: list[dict], keywords: list[dict], settings: dict) -> str:
     snip = settings["snippet_chars"] if settings["show_snippet"] else 0
     out: list[str] = []
 
+    def section(title: str) -> list[str]:       # 키워드 문단 사이에 구분선
+        return (["---", ""] if out else []) + [f"## {title}", ""]
+
     if reports:
-        out += ["## 📄 리포트·보고서", ""]
+        out += section("📄 리포트·보고서")
         for members in cluster(reports, settings["similarity"], settings["priority_sources"]):
             out += render_cluster(members, show_keyword=True, snippet_chars=snip)
         out.append("")
@@ -416,7 +419,7 @@ def render_body(items: list[dict], keywords: list[dict], settings: dict) -> str:
         mine = [i for i in rest if i["keyword"] == name]
         if not mine:
             continue
-        out += [f"## {esc(name)}", ""]
+        out += section(esc(name))
         for lang in ("ko", "en"):
             group = [i for i in mine if i["lang"] == lang]
             if not group:
