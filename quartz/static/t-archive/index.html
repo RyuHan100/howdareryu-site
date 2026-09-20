@@ -161,7 +161,9 @@ let idb = null;
 function openCache() {
   return new Promise((res) => {
     try {
-      const r = indexedDB.open("t-archive-cache", 1);
+      // 같은 도메인에 방(아카이브)이 여러 개 있으므로 경로별 DB — 안 그러면 한 방의 캐시 정리가 다른 방 캐시를 지운다
+      try { indexedDB.deleteDatabase("t-archive-cache"); } catch {}  // 경로 구분 전의 옛 캐시 정리
+      const r = indexedDB.open("t-archive-cache:" + location.pathname.replace(/\/index\.html$/, "/"), 1);
       r.onupgradeneeded = () => r.result.createObjectStore("blobs");
       r.onsuccess = () => res(r.result);
       r.onerror = r.onblocked = () => res(null);
@@ -368,7 +370,7 @@ function renderMedia(md) {
   const label = md.name || md.kind;
   if (!md.blob) {
     const f = el("span", "file", label + " ");
-    const where = md.skipped ? "수집 제외(영상·음성)" : "볼트에만 보관";
+    const where = md.skipped ? "수집 제외" : "볼트에만 보관";   // 영상·음성, 또는 텔레그램 서버 오류로 받지 못해 제외한 파일
     f.append(el("small", null, md.size ? `${fmtSize(md.size)} · ${where}` : where));
     wrap.append(f);
     return wrap;
