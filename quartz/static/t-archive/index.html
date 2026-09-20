@@ -43,6 +43,8 @@ header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bot
 .tabs button[aria-selected="true"] { color: var(--accent); background: var(--accent-soft); font-weight: 600; }
 .filters input[type="search"] { flex: 1 1 180px; }
 .filters select { flex: 0 1 170px; }
+.range { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); }
+.range input { width: 9.2em; }
 main { max-width: 920px; margin: 0 auto; padding: 12px 16px 80px; }
 .status { color: var(--muted); font-size: 13px; padding: 6px 0; }
 .more { display: block; margin: 8px auto 16px; }
@@ -112,7 +114,7 @@ tr:last-child td { border-bottom: none; }
       <input id="q" type="search" placeholder="본문 검색" aria-label="본문 검색">
       <select id="speaker" aria-label="발언자"><option value="">모든 발언자</option></select>
       <select id="topic" aria-label="토픽" hidden><option value="">모든 토픽</option></select>
-      <input id="date" type="date" aria-label="날짜로 이동">
+      <span class="range"><input id="from" type="date" aria-label="기간 시작일" title="기간 시작일"><span>~</span><input id="to" type="date" aria-label="기간 종료일" title="기간 종료일"></span>
     </div>
   </header>
   <main>
@@ -227,9 +229,25 @@ const fmtSize = (n) => n > 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max
 const hue = (id) => { let h = 7; for (const c of String(id)) h = (h * 31 + c.charCodeAt(0)) % 9973; return (h * 137) % 360; };  // 이웃한 id 도 색상이 멀어지게
 const dayList = () => Object.keys(meta.days).sort();
 
+async function gunzip(buf) {
+  return new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"))).arrayBuffer();
+}
+const monthLoading = new Map();                 // 지난 달은 월 단위 묶음 하나에 그 달의 모든 날짜가 들어 있다
+function loadMonth(month) {
+  if (!monthLoading.has(month)) {
+    monthLoading.set(month, getBlob(`month/${month}`).then(gunzip).then((buf) => {
+      for (const [d, msgs] of Object.entries(JSON.parse(td.decode(buf)))) {
+        days.set(d, msgs);
+        for (const m of msgs) byId.set(m.id, m);
+      }
+    }).catch((e) => { monthLoading.delete(month); throw e; }));
+  }
+  return monthLoading.get(month);
+}
 const dayLoading = new Map();                   // 같은 날짜를 동시에 두 번 받지 않게
 function loadDay(day) {
   if (days.has(day)) return Promise.resolve(days.get(day));
+  if ((meta.bundled_months || []).includes(day.slice(0, 7))) return loadMonth(day.slice(0, 7)).then(() => days.get(day) || []);
   if (!dayLoading.has(day)) {
     dayLoading.set(day, getJson(`day/${day}`).then((msgs) => {
       days.set(day, msgs);
@@ -242,9 +260,10 @@ function loadDay(day) {
 const PARALLEL = 12;
 
 function filterState() {
-  return { q: $("q").value.trim().toLowerCase(), speaker: $("speaker").value, topic: $("topic").value };
+  return { q: $("q").value.trim().toLowerCase(), speaker: $("speaker").value, topic: $("topic").value, from: $("from").value, to: $("to").value };
 }
-const isFiltering = (f) => !!(f.q || f.speaker || f.topic);
+const isFiltering = (f) => !!(f.q || f.speaker || f.topic || f.from || f.to);
+const inRange = (d, f) => (!f.from || d >= f.from) && (!f.to || d <= f.to);   // 기간을 주면 그 기간의 파일만 불러온다
 function matches(m, f) {
   if (f.speaker && String(m.sender_id) !== f.speaker) return false;
   if (f.topic && String(m.topic_id) !== f.topic) return false;
@@ -255,7 +274,7 @@ function matches(m, f) {
 let renderSeq = 0;
 async function render() {
   const seq = ++renderSeq, f = filterState(), all = dayList();
-  const want = isFiltering(f) ? all : all.slice(-dayLimit);
+  const want = isFiltering(f) ? all.filter((d) => inRange(d, f)) : all.slice(-dayLimit);
   const status = $("status");
   const missing = want.filter((d) => !days.has(d));  // 검색·필터는 전 기간을 복호화해야 한다 (탭을 닫기 전까지 한 번만)
   if (missing.length) {
@@ -285,7 +304,7 @@ async function render() {
   const hiddenMsgs = total - rows.length, hiddenDays = isFiltering(f) ? 0 : all.length - want.length;
   $("older").hidden = !(hiddenMsgs || hiddenDays);
   status.textContent = isFiltering(f)
-    ? `조건에 맞는 메시지 ${total.toLocaleString()}건` + (hiddenMsgs ? ` (최근 ${rows.length}건 표시)` : "")
+    ? `조건에 맞는 메시지 ${total.toLocaleString()}건` + ((f.from || f.to) ? ` · 기간 ${f.from || all[0]} ~ ${f.to || all[all.length - 1]}` : "") + (hiddenMsgs ? ` (최근 ${rows.length}건 표시)` : "")
     : `전체 ${all.length}일 중 최근 ${want.length}일 · ${total.toLocaleString()}건`;
   observeImages();
 }
@@ -492,7 +511,7 @@ function start() {
   const topics = Object.entries(meta.topics || {});
   if (topics.length) { $("topic").hidden = false; for (const [id, t] of topics) { const o = el("option", null, t); o.value = id; $("topic").append(o); } }
   const all = dayList();
-  if (all.length) { $("date").min = all[0]; $("date").max = all[all.length - 1]; }
+  if (all.length) for (const id of ["from", "to"]) { $(id).min = all[0]; $(id).max = all[all.length - 1]; }
   else $("status").textContent = "아직 수집된 메시지가 없습니다.";
 
   let timer;
@@ -501,13 +520,8 @@ function start() {
   $("speaker").addEventListener("change", refresh);
   $("topic").addEventListener("change", refresh);
   $("older").addEventListener("click", () => { if (isFiltering(filterState())) msgLimit += PAGE; else { dayLimit += 7; msgLimit += PAGE; } render(); });
-  $("date").addEventListener("change", async (ev) => {
-    const d = ev.target.value; if (!d) return;
-    const idx = all.findIndex((x) => x >= d); if (idx < 0) return;
-    dayLimit = Math.max(dayLimit, all.length - idx); msgLimit = Infinity;
-    await render();
-    document.getElementById("d-" + all[idx])?.scrollIntoView({ block: "start" });
-  });
+  $("from").addEventListener("change", refresh);
+  $("to").addEventListener("change", refresh);
   const tab = (chat) => {
     $("tabChat").setAttribute("aria-selected", chat); $("tabAnalysis").setAttribute("aria-selected", !chat);
     $("chat").hidden = !chat; $("filters").hidden = !chat; $("analysis").hidden = chat;
