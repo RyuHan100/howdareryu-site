@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "40 21 * * *"     # 21:40 UTC = 06:40 KST (pacm-monitor 21:07 UTC 가 끝난 뒤)
   workflow_dispatch:
+  push:                       # 키워드·코드를 고치면 바로 다시 수집 (content/news 커밋은 해당 없음 → 반복 실행 안 됨)
+    branches: [v5]
+    paths:
+      - "tools/news_clipping/**"
+      - ".github/workflows/news-clipping.yml"
 
 permissions:
   contents: write
@@ -44,8 +49,8 @@ jobs:
         id: clip
         env:
           # 네이버 개발자센터(검색 API) 키. 없으면 Google News 만으로 동작
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          NAVER_CLIENT_ID: ${{ zs2tj7zcdc }}
+          NAVER_CLIENT_SECRET: ${{ JvDOvcTFZnQyn4XzClrBw0nw1A3WghxXSP0ExvPc }}
         run: python tools/news_clipping/news_clipping.py --site-root . --page-dir content/news
 
       - name: Commit & push
