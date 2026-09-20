@@ -1,0 +1,8 @@
+{
+ "v": 1,
+ "kdf": {
+  "name": "PBKDF2-SHA256",
+  "salt": "V3uobkkDHvV4KgAoFDSdgA==",
+  "iterations": 600000
+ }
+}
