@@ -105,6 +105,7 @@ def test_run_writes_pages_dedupes_across_keywords_and_days(tmp_path):
     page = (root / "2026/2026-09-20.md").read_text()
     assert "## 📄 리포트·보고서" in page and "### 해외 · 1건" in page
     assert page.index("리포트·보고서") < page.index("## 탄소시장")
+    assert "\n---\n\n## 탄소시장" in page and "---\n\n## 📄" not in page      # 문단 사이에만 구분선
     index = (root / "index.md").read_text()
     assert "[[news/2026/2026-09-20|2026-09-20 클리핑]]" in index
 
