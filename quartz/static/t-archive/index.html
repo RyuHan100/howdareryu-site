@@ -301,7 +301,8 @@ function renderMedia(md) {
   const label = md.name || md.kind;
   if (!md.blob) {
     const f = el("span", "file", label + " ");
-    f.append(el("small", null, md.size ? `${fmtSize(md.size)} · 볼트에만 보관` : "볼트에만 보관"));
+    const where = md.skipped ? "수집 제외(영상·음성)" : "볼트에만 보관";
+    f.append(el("small", null, md.size ? `${fmtSize(md.size)} · ${where}` : where));
     wrap.append(f);
     return wrap;
   }
@@ -396,8 +397,24 @@ async function renderAnalysis() {
     { label: "메시지", num: true, get: (t) => num(t.messages) },
     { label: "비중", num: true, get: (t) => pct(t.share) },
     { label: "최근 1주", num: true, get: (t) => num(t.week_messages) },
+    { label: "공유 문서", num: true, get: (t) => num(t.documents) },
     { label: "주요 발언자", get: (t) => t.top_speakers.map((s) => `${s.name} ${s.messages}`).join(", ") },
   ], r.topics));
+
+  const fs = r.files;
+  if (fs && fs.total) {
+    root.append(el("h2", null, "공유 파일"));
+    root.append(el("p", "note", `전체 ${num(fs.total)}개 (${Object.entries(fs.by_category).map(([k, v]) => `${k} ${num(v)}`).join(", ")}) · 문서 ${num(fs.documents)}개 중 ${num(fs.text_extracted)}개는 본문을 읽어 주제를 붙였습니다.`));
+    const fileCols = [
+      { label: "날짜", get: (f) => f.date },
+      { label: "파일", get: (f) => { const d = el("div"); d.append(el("b", null, f.name)); if (f.key_terms.length) d.append(el("div", "ex", f.key_terms.join(" · "))); return d; } },
+      { label: "공유자", get: (f) => f.by },
+      { label: "주제", get: (f) => f.topic + (f.topic_source === "파일 본문" ? "" : " (대화 기준)") },
+      { label: "답글·반응", num: true, get: (f) => `${f.replies} · ${f.reactions}` },
+    ];
+    if (fs.week.length) { root.append(el("p", "note", "최근 1주에 공유된 문서")); root.append(table(fileCols, fs.week)); }
+    if (fs.top.length) { root.append(el("p", "note", "답글·반응이 많았던 문서")); root.append(table(fileCols, fs.top)); }
+  }
 
   root.append(el("h2", null, "발언자"));
   root.append(table([
@@ -407,7 +424,7 @@ async function renderAnalysis() {
     { label: "최근 1주", num: true, get: (s) => num(s.week_messages) },
     { label: "평균 글자", num: true, get: (s) => Math.round(s.chars_avg) },
     { label: "보낸/받은 답글", num: true, get: (s) => `${s.replies_sent} / ${s.replies_received}` },
-    { label: "첨부·링크", num: true, get: (s) => `${s.media} · ${s.links}` },
+    { label: "첨부(문서)·링크", num: true, get: (s) => `${s.media} (${s.documents ?? 0}) · ${s.links}` },
     { label: "주로 다룬 주제", get: (s) => (s.top_topics || []).join(", ") },
     { label: "특징어", get: (s) => (s.top_terms || []).join(" · ") },
   ], r.speakers));
