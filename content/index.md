@@ -1,16 +1,17 @@
 ---
 title: Ryu's Garden
-description: 기후위기에 대응하기 위한 모든 자료를 다루는 Ryu의 디지털 정원. 탄소시장·국제감축(파리협정 6조) 추적 노트와 국회 기노위 회의 아카이브.
+description: 기후위기에 대응하기 위한 모든 자료를 다루는 Ryu의 디지털 정원
 created: 2026-07-19
 updated: 2026-09-20
 tags:
   - hello
 ---
-안녕하세요, Ryu입니다.
-**기후위기에 대응하기 위한 모든 자료를 다룹니다.** 그중에서도 탄소시장과 국제감축 프로젝트는 매일 들여다봅니다.
+안녕하세요, Ryu입니다. 
+이곳은 저의 디지털 정원으로, 
+기후위기에 대응하기 위한 모든 자료를 심고 가꿉니다.
 
 
-### 지금 추적하는 것
+### 레이더를 돌리고 있는 것
 
 > [!example] [[pacm/index|PACM_radar]] — 36건 · 매일 갱신
 > UNFCCC CDM에서 파리협정 6.4조 메커니즘(PACM)으로 전환·등록된 활동 목록입니다. 연간 추정 감축량 합계 약 1,440만 tCO₂e, 최근 30일 내 변경은 하이라이트로 표시됩니다.
@@ -22,21 +23,12 @@ tags:
 ---
 
 
-### 최근 업데이트
-- check the latest updates | [github](https://github.com/RyuHan100/howdareryu-site)
-
-
----
-
-
 ### 산책 가이드
-이 사이트는 저의 관심사를 모아두는 **디지털 정원**입니다. 자유롭게 들러 여유롭게 산책하시기 바랍니다.
+자유롭게 들러 여유롭게 산책하시기 바랍니다.
 
 - 왼쪽 **Explorer**로 폴더 구조를 훑어보거나
 - 우측 **Graph**로 노트들이 어떻게 연결되어 있는지 살펴보거나
 - 상단 **Search**로 원하는 키워드를 바로 찾아보세요
-
-노트 하나하나가 완결된 글이 아닐 수 있습니다. 진행 중인 생각도, 정리가 덜 된 메모도 그대로 올라와 있습니다.
 
 
 ---
@@ -44,3 +36,5 @@ tags:
 
 ### 신호 보내기
 - Instagram | [@howdareryu](https://www.instagram.com/howdareryu)
+- Email | [dare2do.everything@gmail.com](mailto:dare2do.everything@gmail.com)
+- GitHub | [howdareryu-site](https://github.com/RyuHan100/howdareryu-site)

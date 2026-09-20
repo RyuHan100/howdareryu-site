@@ -4,6 +4,7 @@ filters:
     - publish == true
     - draft != true
     - file.name != "index"
+    - '!file.inFolder("국회 기노위")'
 views:
   - type: table
     name: 전체 노트
@@ -11,8 +12,6 @@ views:
       - file.name
       - tags
       - file.mtime
-    sort:
-      - property: file.mtime
-        direction: DESC
+    sort: []
     columnSize:
       file.name: 243

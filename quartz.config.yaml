@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ko-KR
   baseUrl: howdareryu.com
   ignorePatterns:
     - private
@@ -172,6 +172,20 @@ plugins:
       priority: 50
   - source: github:quartz-community/graph
     enabled: true
+    options:
+      # 국회/기노위/전체회의/소위원회는 거의 모든 노트에 붙어 있어 정보량이 없다.
+      # 빼고 나면 남는 태그는 주제 키워드뿐이라 그래프가 주제 지도가 된다.
+      localGraph:
+        depth: 2 # 1이면 태그 노드까지만 보인다. 2라야 같은 주제의 다른 회의가 보인다.
+        removeTags: [국회, 기노위, 전체회의, 소위원회]
+        focusOnHover: true
+        linkDistance: 45
+        fontSize: 0.5
+      globalGraph:
+        depth: -1
+        removeTags: [국회, 기노위]
+        repelForce: 0.7
+        enableRadial: true
     layout:
       position: right
       priority: 10
@@ -242,10 +256,22 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/RyuHan100/howdareryu-site
+        Instagram: https://www.instagram.com/howdareryu
+        Email: mailto:dare2do.everything@gmail.com
+        RSS: https://howdareryu.com/index.xml
   - source: github:quartz-community/recent-notes
     enabled: true
+    options:
+      title: 최근 업데이트
+      limit: 5
+      showTags: false
+      hideTagPages: true
+      hideFolderPages: true
+    layout:
+      position: right
+      priority: 5
+      condition: index
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
