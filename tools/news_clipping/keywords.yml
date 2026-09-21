@@ -79,9 +79,10 @@ keywords:
     en: '"energy transition"'
     must: [에너지, 전환, 재생, energy, transition, renewable]
   - name: 냉매
-    ko: '냉매 OR 수소불화탄소'
-    naver: ['"냉매"', '"수소불화탄소"']
-    must: [냉매, 수소불화탄소, HFC, HFCs, 불화가스]
+    ko: '냉매 OR 수소불화탄소 OR "키갈리 개정서"'
+    naver: ['"냉매"', '"수소불화탄소"', '"키갈리 개정서"']
+    en: '"HFC phase-down" OR "HFC phasedown" OR "HFC phase down" OR "Kigali Amendment" OR hydrofluorocarbons'   # refrigerant 단독은 시장조사 스팸·제품 기사가 많아 제외
+    must: [냉매, 수소불화탄소, 불화가스, 키갈리, HFC, HFCs, Kigali, refrigerant, refrigerants, hydrofluorocarbon, hydrofluorocarbons]
 
 settings:
   page_title: News_radar
