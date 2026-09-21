@@ -1,0 +1,230 @@
+.hdr-comments {
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+.hdr-comments-title {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+}
+
+.hdr-comments-count {
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.hdr-comments-list {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.hdr-comments-empty {
+  color: var(--gray);
+  font-size: 0.95rem;
+}
+
+.hdr-comment {
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  background: var(--light);
+}
+
+/* 테마에 따라 --highlight 가 불투명한 원색이라(hackthebox) 배경으로 쓰면 글자가 묻힌다 */
+.hdr-comment.is-private {
+  border-style: dashed;
+  border-color: var(--tertiary);
+  background: transparent;
+  background: color-mix(in srgb, var(--tertiary) 7%, transparent);
+}
+
+.hdr-comment.is-hidden {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.6rem;
+  align-items: baseline;
+  color: var(--gray);
+  font-size: 0.9rem;
+  border-style: dashed;
+}
+
+.hdr-comment-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.6rem;
+}
+
+.hdr-comment-name {
+  color: var(--dark);
+  overflow-wrap: anywhere;
+}
+
+.hdr-comment-badge {
+  font-size: 0.72rem;
+  line-height: 1.5;
+  padding: 0 0.5rem;
+  border: 1px solid var(--tertiary);
+  border-radius: 999px;
+  color: var(--tertiary);
+}
+
+.hdr-comment-date {
+  color: var(--gray);
+  font-size: 0.82rem;
+}
+
+.hdr-comment-body {
+  margin: 0.45rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+}
+
+.hdr-comment-delete {
+  margin-left: auto;
+  padding: 0.35rem 0.6rem;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--gray);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.hdr-comment-delete:hover,
+.hdr-comment-delete:focus-visible {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+.hdr-comments-form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+/* 16px 미만이면 iOS(인앱 브라우저 포함)가 입력 칸에 초점을 줄 때 화면을 확대한다 */
+.hdr-comments .hdr-comments-name,
+.hdr-comments .hdr-comments-content {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  background: var(--light);
+  color: var(--dark);
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.hdr-comments-name {
+  max-width: 20rem;
+}
+
+.hdr-comments-content {
+  min-height: 6.5rem;
+  resize: vertical;
+}
+
+.hdr-comments-name:focus,
+.hdr-comments-content:focus {
+  outline: 2px solid var(--secondary);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+.hdr-comments-trap {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.hdr-comments-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 1rem;
+}
+
+.hdr-comments-private {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  color: var(--darkgray);
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.hdr-comments-private input {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin: 0;
+  accent-color: var(--secondary);
+}
+
+.hdr-comments-submit {
+  min-height: 44px;
+  padding: 0 1.2rem;
+  border: 0;
+  border-radius: 8px;
+  background: var(--secondary);
+  color: var(--light);
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hdr-comments-submit:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.hdr-comments-hint,
+.hdr-comments-status {
+  margin: 0;
+  color: var(--gray);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.hdr-comments-hint[hidden] {
+  display: none;
+}
+
+.hdr-comments-status:empty {
+  display: none;
+}
+
+.hdr-comments-status.is-error {
+  color: #d14343;
+}
+
+@media (max-width: 600px) {
+  .hdr-comments-name {
+    max-width: none;
+  }
+
+  .hdr-comments-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hdr-comments-submit {
+    width: 100%;
+  }
+}

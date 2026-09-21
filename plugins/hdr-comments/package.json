@@ -1,0 +1,45 @@
+{
+  "name": "hdr-comments",
+  "version": "1.0.0",
+  "description": "howdareryu.com 댓글 위젯 (Cloudflare Workers + D1 백엔드)",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "import": "./dist/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "quartz": {
+    "name": "hdr-comments",
+    "displayName": "HDR Comments",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "apiBase": "",
+      "exclude": []
+    },
+    "optionSchema": {
+      "apiBase": { "type": "string" },
+      "exclude": { "type": "array", "items": { "type": "string" } }
+    },
+    "components": {
+      "HdrComments": {
+        "displayName": "HDR Comments",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 10
+      }
+    }
+  }
+}

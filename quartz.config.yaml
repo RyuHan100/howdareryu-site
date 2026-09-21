@@ -271,6 +271,16 @@ plugins:
     layout:
       position: afterBody
       priority: 10
+  # 댓글 (Cloudflare Workers + D1). 노트에서 끄려면 frontmatter 에 comments: false
+  - source: ./plugins/hdr-comments
+    enabled: true
+    options:
+      apiBase: https://hdr-comments.hdr-comments-worker.workers.dev
+      # 댓글을 달지 않을 경로(슬러그 앞부분). 예: [news, t-archive]
+      exclude: []
+    layout:
+      position: afterBody
+      priority: 10
   - source: github:quartz-community/footer
     enabled: true
     options:
@@ -349,11 +359,13 @@ layout:
     content: {}
     folder:
       exclude:
+        - hdr-comments
         - reader-mode
       positions:
         right: []
     tag:
       exclude:
+        - hdr-comments
         - reader-mode
       positions:
         right: []
