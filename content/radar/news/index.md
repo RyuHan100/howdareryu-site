@@ -1,14 +1,14 @@
 ---
-title: "News_radar"
+title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-09-22
-modified: 2026-09-22T14:06+09:00
+modified: 2026-09-22T14:26+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **2026-09-22 14:06 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **2026-09-22 14:26 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/2026-09-22|2026-09-22 클리핑]] — 기사 **829건** (국내 603 · 해외 226)
+> [!example] [[radar/news/2026/2026-09-22|2026-09-22 클리핑]] — 기사 **842건** (국내 614 · 해외 228)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -57,8 +57,9 @@ modified: 2026-09-22T14:06+09:00
 
 ## 국제감축 / Article 6
 
-### 국내 · 7건
+### 국내 · 8건
 
+- [한아세안포럼, 10월 6일 ‘온실가스 국제감축 정책토론회’ 연다](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RVmRrMVVYSzJjeUxXOFF4RjVTWHlXLVZrS21zYm5IcUhQTnBQTGVCOV84SE5aRmFmbU81eFVLOHcyQ2ZRQXpQSE9lWWhORU5NRjdmc0hmQXVsVi1NYkpkclpJTVhOSm8?oc=5) — **아세안익스프레스** · 09-22 14:24
 - [사막화 방지 넘어 기후·생태·경제 연결… ‘미래 가치’ 창출 \[지방기...](https://www.segye.com/newsView/20260921515473?OutUrl=naver) — **세계일보** · 09-22 06:03 · NDC
   - 이를 국가 간 협력을 통해 국가온실가스감축목표(NDC) 달성을 지원하고 기후협력을 촉진하는 ‘파리협정 제6조’와 연계해 국제 감축 협력으로 확장한다. 이번 포럼은 한국의 기술과 UNCCD의 토지황폐…
 - [산림청, 韓·파라과이 산림분야 탄소협력 첫걸음 내딛어](https://news.google.com/rss/articles/CBMickFVX3lxTE5fd3IzaWNnM1VyZnFVQmxJNUJpcE5zQ3RZSGl4VWUwVnlmYkVIU25aOVF0Ql95ZzZhMnNSWndCZlJCVWZic2xtRG1rZktlU2F3SGtvTF83Q3ZsQ0tTR0FJMTZLS3gzYXRFX0Q3aGlzLWdLZw?oc=5) — **한양경제** · 09-21 16:42
@@ -182,10 +183,10 @@ modified: 2026-09-22T14:06+09:00
 
 ## AI 온실가스
 
-### 국내 · 62건
+### 국내 · 63건
 
 - [카카오, 데이터센터 에너지 효율화 확대](https://news.google.com/rss/articles/CBMiVkFVX3lxTE96a0xrQzZnXzhsbmV2U3hNM2ZEM0xON3FGRVItWWJOY3pkY2JaWEtRZ1VaVTZkeUZMX0ZkTHB4eFNzYWpfdVRnRm9GaWJqLXdSb1VKQi1R?oc=5) — **카카오** · 09-22 03:36
-  - 관련 보도 22건: [아주경제](https://www.ajunews.com/view/20260922092643137), [biz.newdaily.co.kr](https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200045.html), [디지털투데이](https://www.digitaltoday.co.kr/news/articleView.html?idxno=702264), [메트로신문](http://www.metroseoul.co.kr/article/20260922500059), [뉴스1](https://www.news1.kr/it-science/internet-platform/6298411), [브릿지경제](https://www.viva100.com/article/20260922500378), [뉴스드림](http://www.newsdream.kr/news/articleView.html?idxno=118692), [kdfnews.com](http://www.kdfnews.com/news/articleView.html?idxno=188350), [데일리안](https://www.dailian.co.kr/news/view/1693398/?sc=Naver), [뉴스;트리](https://www.newstree.kr/newsView/ntr202609220003), [서울경제TV](https://www.sentv.co.kr/article/view/sentv202609220073), [thebigdata.co.kr](https://www.thebigdata.co.kr/view.php?ud=2026092210053744980a47484cf8_23), [lcnews.co.kr](https://www.lcnews.co.kr/news/articleView.html?idxno=208719), [워크투데이](http://www.worktoday.co.kr/news/articleView.html?idxno=89602), [dealsite.co.kr](https://dealsite.co.kr/articles/169481), [서울경제](https://www.sedaily.com/article/20093887?ref=naver), [글로벌이코노믹](https://www.g-enews.com/view.php?ud=2026092210281127243d7a510102_1), [itdaily.kr](https://www.itdaily.kr/news/articleView.html?idxno=241784), [techm.kr](https://www.techm.kr/news/articleView.html?idxno=155470), [포인트데일리](https://www.pointdaily.co.kr/news/articleView.html?idxno=320221), [BBS불교방송](https://news.bbsi.co.kr/news/articleView.html?idxno=4108155), [aitimes.kr](https://www.aitimes.kr/news/articleView.html?idxno=42041)
+  - 관련 보도 23건: [아주경제](https://www.ajunews.com/view/20260922092643137), [biz.newdaily.co.kr](https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200045.html), [디지털투데이](https://www.digitaltoday.co.kr/news/articleView.html?idxno=702264), [메트로신문](http://www.metroseoul.co.kr/article/20260922500059), [뉴스1](https://www.news1.kr/it-science/internet-platform/6298411), [브릿지경제](https://www.viva100.com/article/20260922500378), [뉴스드림](http://www.newsdream.kr/news/articleView.html?idxno=118692), [kdfnews.com](http://www.kdfnews.com/news/articleView.html?idxno=188350), [데일리안](https://www.dailian.co.kr/news/view/1693398/?sc=Naver), [뉴스;트리](https://www.newstree.kr/newsView/ntr202609220003), [서울경제TV](https://www.sentv.co.kr/article/view/sentv202609220073), [thebigdata.co.kr](https://www.thebigdata.co.kr/view.php?ud=2026092210053744980a47484cf8_23), [lcnews.co.kr](https://www.lcnews.co.kr/news/articleView.html?idxno=208719), [워크투데이](http://www.worktoday.co.kr/news/articleView.html?idxno=89602), [dealsite.co.kr](https://dealsite.co.kr/articles/169481), [서울경제](https://www.sedaily.com/article/20093887?ref=naver), [글로벌이코노믹](https://www.g-enews.com/view.php?ud=2026092210281127243d7a510102_1), [itdaily.kr](https://www.itdaily.kr/news/articleView.html?idxno=241784), [techm.kr](https://www.techm.kr/news/articleView.html?idxno=155470), [포인트데일리](https://www.pointdaily.co.kr/news/articleView.html?idxno=320221), [BBS불교방송](https://news.bbsi.co.kr/news/articleView.html?idxno=4108155), [aitimes.kr](https://www.aitimes.kr/news/articleView.html?idxno=42041), [SR타임스](http://www.srtimes.kr/news/articleView.html?idxno=213126)
 - [설비 안 바꾸고 냉방비 23% 줄였다…카카오, 임차 데이터센터 효율 개선](https://www.thepowernews.co.kr/view.php?ud=202609221021378291de3f0aa1be_7) — **thepowernews.co.kr** · 09-22 10:24
   - 자체 데이터센터에서 쌓은 열관리 노하우에 LG CNS의 운영 경험과 인공지능(AI) 기반 냉방 제어 기술을 결합한... 이를 통해 지난해 총 4753tCO₂eq의 온실가스를 감축했다고 밝혔다. 카카…
   - 관련 보도 1건: [thefairnews.co.kr](https://www.thefairnews.co.kr/news/articleView.html?idxno=88822)
@@ -217,11 +218,11 @@ modified: 2026-09-22T14:06+09:00
 
 ## ESS
 
-### 국내 · 218건
+### 국내 · 221건
 
 - ["국내 배터리 기업 유일"..LG엔솔, 엔비디아 'DSX 레디' 파트너 합류](https://kpenews.com/View.aspx?No=4237532) — **kpenews.com** · 09-22 08:10
   - 에너지저장장치 생산능력을 확보하고 100% 현지 생산 체제를 구축한다. 자체 시스템 통합 법인 '버테크'를 통해 배터리 설계부터 유지보수까지 일괄 지원한다. 강창범 LG에너지솔루션 ESS전지사업부…
-  - 관련 보도 52건: [gpkorea.com](https://www.gpkorea.com/news/articleView.html?idxno=146931), [머니투데이](https://www.mt.co.kr/industry/2026/09/22/2026092208085443959), [서울경제TV](https://www.sentv.co.kr/article/view/sentv202609220007), [뉴시스](https://www.newsis.com/view/NISX20260922_0003799422), [sports.donga.com](https://sports.donga.com/economy/article/all/20260922/134716096/1), [글로벌이코노믹](https://www.g-enews.com/view.php?ud=202609220828038282139bf6e4b2_1), [이투데이](https://www.etoday.co.kr/news/view/2628297), [ebn.co.kr](https://www.ebn.co.kr/news/articleView.html?idxno=1725231), [뉴스1](https://www.news1.kr/industry/general-industry/6298227), [view.asiae.co.kr](https://view.asiae.co.kr/article/2026092208465748015), [데일리안](https://www.dailian.co.kr/news/view/1693280/?sc=Naver), [seoulfn.com](https://www.seoulfn.com/news/articleView.html?idxno=638491), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1408695), [경향신문](https://www.khan.co.kr/article/202609220910001), [news.einfomax.co.kr](https://news.einfomax.co.kr/news/articleView.html?idxno=4436036), [더테크](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iVEdadHRRZk1xbDdCeEZyVWtfeFQwRjZoQXI3aFhWY00zMTlWVlFkeTJtaDEzVTJmcC1rX3BmVktBLVJpNW5KYlFQbmZTcnJrbTJRdUxYTS16Slhwc0IyQ0ZGWQ?oc=5), [datanews.co.kr](http://www.datanews.co.kr/news/article.html?no=146613), [디지털투데이](https://www.digitaltoday.co.kr/news/articleView.html?idxno=702239), [뉴스락](http://www.newslock.co.kr/news/articleView.html?idxno=136756), [우먼타임스](https://www.womentimes.co.kr/news/articleView.html?idxno=106391), [이뉴스투데이](http://www.enewstoday.co.kr/news/articleView.html?idxno=2473249), [lcnews.co.kr](https://www.lcnews.co.kr/news/articleView.html?idxno=208687), [seoultimes.news](https://www.seoultimes.news/news/article.html?no=2000100154), [뉴스웍스](https://www.newsworks.co.kr/news/articleView.html?idxno=854542), [news2day.co.kr](https://www.news2day.co.kr/article/20260922500031), [pointe.co.kr](https://www.pointe.co.kr/news/articleView.html?idxno=85056), [엠투데이](https://www.autodaily.co.kr/news/articleView.html?idxno=600630), [팝콘뉴스](http://www.popcornnews.net/news/articleView.html?idxno=133807), [비즈니스플러스](https://www.businessplus.kr/news/articleView.html?idxno=117212), [wowtv.co.kr](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609220025&t=NN), [쿠키뉴스](https://www.kukinews.com/article/view/kuk202609220038), [updownnews.co.kr](https://www.updownnews.co.kr/news/articleView.html?idxno=318880), [서울신문](https://www.seoul.co.kr/news/economy/industry/2026/09/22/20260922500060?wlog_tag3=naver), [전자신문](https://www.etnews.com/20260922000175), [비즈니스포스트](https://www.businesspost.co.kr/BP?command=article_view&num=447776), [IT조선](https://news.google.com/rss/articles/CBMidEFVX3lxTE1MOHFOd2owOW8xUlpLMmVjamNZVVVDdm81YlpFbV9MQlh3VC12R0VweGdETjQtRFBjTHZnRG5SRmk2WndHbFVxdVBzQ3Z3QUVXc3BTVkZWZjVBaGduTFE5c0J2SEhyMFZ4TTJVSUU5UlVNMU1N0gF0QVVfeXFMTUw4cU53ajA5bzFSWksyZWNqY1lVVUN2bzViWkVtX0xCWHdULXZHRXB4Z0RONC1EUGNMdmdEblJGaTZad0dsVXF1UHNDdndBRVdzcFNWRlZmNUFoZ25MUTlzQnZISHIwVnhNMlVJRTlSVU0xTU0?oc=5), [워크투데이](http://www.worktoday.co.kr/news/articleView.html?idxno=89599), [whitepaper.co.kr](http://www.whitepaper.co.kr/news/articleView.html?idxno=267126), [SR타임스](http://www.srtimes.kr/news/articleView.html?idxno=213106), [joongang.co.kr](https://www.joongang.co.kr/article/25463995), [미주중앙일보](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpMUkxQ3BvYUJudkplMHkyWUhxV2RadHpqcFFvTkZzbVIxTmdkSUJpMUZiZ2ZLQlV3U1JPdVlNajRGbU1GNDZrWVFkVW9Od0RlMllUQ1pidlZ3aUpPQl92d0hn?oc=5), [전기신문](https://news.google.com/rss/articles/CBMibEFVX3lxTFB0czRnM25ZcGFNUV9rRFk0cUZKaWpwTGhiYi1yeXRTd2cyOTZ4UTFOVDZDbWxPdXJCbEpWVjZTak00NU4zclVTbl9DQ0xuempNR25CTkMwVlQyOTFCMmREYUhfWmVsT29tQWY4dNIBcEFVX3lxTE5iOEtPcFY5clhZZnlfUGxETk5xcWJ6RmVsbF9ORWVycEZsS0VucGhVb3pPbXFLdnhwVHBUdERHaU84TTdISjRhZ181aGl6Qm1tWDBFLXg4U1p6enJqYTJFNWhKVUF3cy10VkFPa2pjZS0?oc=5), [carmgz.kr](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwMF8wYzZPUHN1dVUxZ2FGaDVMTVZTY2FJYmt1eTllbDRINXpJbENmXzVJaVliRDVZcElRTFRlQ1hHWWJlVmp1eVAwRlpDLTI4d2hydVhrZUMyRFpkZWRpS3V5V2Q0QQ?oc=5), [위키리크스한국](http://www.wikileaks-kr.org/news/articleView.html?idxno=192343), [Korea IT Times](https://www.koreaittimes.com/news/articleView.html?idxno=157439), [techholic.co.kr](http://www.techholic.co.kr/news/articleView.html?idxno=223009), [뷰어스](https://theviewers.co.kr/View.aspx?No=4238294), [테크월드](https://www.epnc.co.kr/news/articleView.html?idxno=407286), [cnbizm.com](https://www.cnbizm.com/news/articleView.html?idxno=315928), [디지털데일리](https://www.ddaily.co.kr/page/view/2026092210113923761), [kangso.co.kr](https://news.google.com/rss/articles/CBMiVEFVX3lxTE42U0NNSEFITFhlTF93UW5XR3UwTGlBNGRYUmFfY0dxNndNcmZYbDZ5NTNHRFFTWWVJZmkxYTJ0el96UDZBdV8tNy1yVUk1anZ4OTcwbQ?oc=5), [폴리뉴스 Polinews](https://www.polinews.co.kr/news/articleView.html?idxno=743800)
+  - 관련 보도 55건: [gpkorea.com](https://www.gpkorea.com/news/articleView.html?idxno=146931), [머니투데이](https://www.mt.co.kr/industry/2026/09/22/2026092208085443959), [서울경제TV](https://www.sentv.co.kr/article/view/sentv202609220007), [뉴시스](https://www.newsis.com/view/NISX20260922_0003799422), [sports.donga.com](https://sports.donga.com/economy/article/all/20260922/134716096/1), [글로벌이코노믹](https://www.g-enews.com/view.php?ud=202609220828038282139bf6e4b2_1), [이투데이](https://www.etoday.co.kr/news/view/2628297), [ebn.co.kr](https://www.ebn.co.kr/news/articleView.html?idxno=1725231), [뉴스1](https://www.news1.kr/industry/general-industry/6298227), [view.asiae.co.kr](https://view.asiae.co.kr/article/2026092208465748015), [데일리안](https://www.dailian.co.kr/news/view/1693280/?sc=Naver), [seoulfn.com](https://www.seoulfn.com/news/articleView.html?idxno=638491), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1408695), [경향신문](https://www.khan.co.kr/article/202609220910001), [news.einfomax.co.kr](https://news.einfomax.co.kr/news/articleView.html?idxno=4436036), [더테크](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iVEdadHRRZk1xbDdCeEZyVWtfeFQwRjZoQXI3aFhWY00zMTlWVlFkeTJtaDEzVTJmcC1rX3BmVktBLVJpNW5KYlFQbmZTcnJrbTJRdUxYTS16Slhwc0IyQ0ZGWQ?oc=5), [datanews.co.kr](http://www.datanews.co.kr/news/article.html?no=146613), [디지털투데이](https://www.digitaltoday.co.kr/news/articleView.html?idxno=702239), [뉴스락](http://www.newslock.co.kr/news/articleView.html?idxno=136756), [우먼타임스](https://www.womentimes.co.kr/news/articleView.html?idxno=106391), [이뉴스투데이](http://www.enewstoday.co.kr/news/articleView.html?idxno=2473249), [lcnews.co.kr](https://www.lcnews.co.kr/news/articleView.html?idxno=208687), [seoultimes.news](https://www.seoultimes.news/news/article.html?no=2000100154), [뉴스웍스](https://www.newsworks.co.kr/news/articleView.html?idxno=854542), [news2day.co.kr](https://www.news2day.co.kr/article/20260922500031), [pointe.co.kr](https://www.pointe.co.kr/news/articleView.html?idxno=85056), [엠투데이](https://www.autodaily.co.kr/news/articleView.html?idxno=600630), [팝콘뉴스](http://www.popcornnews.net/news/articleView.html?idxno=133807), [비즈니스플러스](https://www.businessplus.kr/news/articleView.html?idxno=117212), [wowtv.co.kr](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609220025&t=NN), [쿠키뉴스](https://www.kukinews.com/article/view/kuk202609220038), [updownnews.co.kr](https://www.updownnews.co.kr/news/articleView.html?idxno=318880), [서울신문](https://www.seoul.co.kr/news/economy/industry/2026/09/22/20260922500060?wlog_tag3=naver), [전자신문](https://www.etnews.com/20260922000175), [비즈니스포스트](https://www.businesspost.co.kr/BP?command=article_view&num=447776), [IT조선](https://news.google.com/rss/articles/CBMidEFVX3lxTE1MOHFOd2owOW8xUlpLMmVjamNZVVVDdm81YlpFbV9MQlh3VC12R0VweGdETjQtRFBjTHZnRG5SRmk2WndHbFVxdVBzQ3Z3QUVXc3BTVkZWZjVBaGduTFE5c0J2SEhyMFZ4TTJVSUU5UlVNMU1N0gF0QVVfeXFMTUw4cU53ajA5bzFSWksyZWNqY1lVVUN2bzViWkVtX0xCWHdULXZHRXB4Z0RONC1EUGNMdmdEblJGaTZad0dsVXF1UHNDdndBRVdzcFNWRlZmNUFoZ25MUTlzQnZISHIwVnhNMlVJRTlSVU0xTU0?oc=5), [워크투데이](http://www.worktoday.co.kr/news/articleView.html?idxno=89599), [whitepaper.co.kr](http://www.whitepaper.co.kr/news/articleView.html?idxno=267126), [SR타임스](http://www.srtimes.kr/news/articleView.html?idxno=213106), [joongang.co.kr](https://www.joongang.co.kr/article/25463995), [미주중앙일보](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpMUkxQ3BvYUJudkplMHkyWUhxV2RadHpqcFFvTkZzbVIxTmdkSUJpMUZiZ2ZLQlV3U1JPdVlNajRGbU1GNDZrWVFkVW9Od0RlMllUQ1pidlZ3aUpPQl92d0hn?oc=5), [전기신문](https://news.google.com/rss/articles/CBMibEFVX3lxTFB0czRnM25ZcGFNUV9rRFk0cUZKaWpwTGhiYi1yeXRTd2cyOTZ4UTFOVDZDbWxPdXJCbEpWVjZTak00NU4zclVTbl9DQ0xuempNR25CTkMwVlQyOTFCMmREYUhfWmVsT29tQWY4dNIBcEFVX3lxTE5iOEtPcFY5clhZZnlfUGxETk5xcWJ6RmVsbF9ORWVycEZsS0VucGhVb3pPbXFLdnhwVHBUdERHaU84TTdISjRhZ181aGl6Qm1tWDBFLXg4U1p6enJqYTJFNWhKVUF3cy10VkFPa2pjZS0?oc=5), [carmgz.kr](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwMF8wYzZPUHN1dVUxZ2FGaDVMTVZTY2FJYmt1eTllbDRINXpJbENmXzVJaVliRDVZcElRTFRlQ1hHWWJlVmp1eVAwRlpDLTI4d2hydVhrZUMyRFpkZWRpS3V5V2Q0QQ?oc=5), [위키리크스한국](http://www.wikileaks-kr.org/news/articleView.html?idxno=192343), [Korea IT Times](https://www.koreaittimes.com/news/articleView.html?idxno=157439), [techholic.co.kr](http://www.techholic.co.kr/news/articleView.html?idxno=223009), [뷰어스](https://theviewers.co.kr/View.aspx?No=4238294), [테크월드](https://www.epnc.co.kr/news/articleView.html?idxno=407286), [cnbizm.com](https://www.cnbizm.com/news/articleView.html?idxno=315928), [디지털데일리](https://www.ddaily.co.kr/page/view/2026092210113923761), [kangso.co.kr](https://news.google.com/rss/articles/CBMiVEFVX3lxTE42U0NNSEFITFhlTF93UW5XR3UwTGlBNGRYUmFfY0dxNndNcmZYbDZ5NTNHRFFTWWVJZmkxYTJ0el96UDZBdV8tNy1yVUk1anZ4OTcwbQ?oc=5), [폴리뉴스 Polinews](https://www.polinews.co.kr/news/articleView.html?idxno=743800), [kpinews.kr](https://www.kpinews.kr/newsView/1065587405935626), [이코리아](https://www.ekoreanews.co.kr/news/articleView.html?idxno=88257), [메트로신문](http://www.metroseoul.co.kr/article/20260922500265)
 - [대전 한전 전력연구원 ESS 화재…배터리팩 28개 전소](https://www.joongdo.co.kr/web/view.php?key=20260921010006701) — **중도일보** · 09-21 08:54
   - 이번 화재로 ESS 배터리 랙 2대에 설치된 배터리팩 28개가 전소됐다. 소방당국은 배터리를 컨테이너 밖으로 반출한 뒤 침수조에 넣어 냉각하는 작업을 진행하고 있다. 이는 2025년 9월 26일 발…
   - 관련 보도 9건: [v.daum.net](https://news.google.com/rss/articles/CBMiS0FVX3lxTE82NkRUeVByV09UNUxkbUtXdGVvZlhXdkVzazFNNXczMTdtTnpkZVNERDcwVEhYZUxmUVlGanNUYkxmVkI1a3AyX19JZw?oc=5), [소방방재신문](http://fpn119.co.kr/256894), [연합뉴스TV](http://www.yonhapnewstv.co.kr/news/AKR20260921105358AXn), [news.tvchosun.com](https://news.tvchosun.com/site/data/html_dir/2026/09/21/2026092190103.html), [연합뉴스](https://www.yna.co.kr/view/AKR20260921032051063?input=1195m), [충남일보](http://www.chungnamilbo.co.kr/news/articleView.html?idxno=911094), [주간한국](https://weekly.hankooki.com/news/articleView.html?idxno=7185378), [충청신문](https://news.google.com/rss/articles/CBMibkFVX3lxTE9Ha0ZXemhoWFZqMnIwbkNqcWRTRFYxRTh2blFiM0lBWEhmNUFRRVdNeFROU25obVhRS01hcGpzUkd6ZlJYTWlQNjBERGNrRnBOdFEzRXl2QXk4VDBuN0lwd1N1VzhNRU1TOTNzcjZ30gFuQVVfeXFMT0drRld6aGhYVmoycjBuQ2pxZFNEVjFFOHZuUWIzSUFYSGY1QVFFV014VE5TbmhtWFFLTWFwanNSR3pmUlhNaVA2MEREY2tGcE50UTNFeXZBeThUMG43SXB3U3VXOE1FTVM5M3NyNnc?oc=5), [금강일보](https://www.ggilbo.com/news/articleView.html?idxno=1183132)
@@ -256,7 +257,7 @@ modified: 2026-09-22T14:06+09:00
   - 관련 보도 1건: [v.daum.net](https://news.google.com/rss/articles/CBMiRkFVX3lxTFBOV243cVNnU1dmc3loZVk2dDVpSmpmWi1aaEdVVmpZdEt2N0VUQUJHbDR5cDA3OExpWHJYVmszQllzNGVEZXc?oc=5)
 - …외 125건 생략
 
-### 해외 · 100건
+### 해외 · 102건
 
 - [GK Energy secures 150 MW / 300 MWh BESS project from MSEDCL](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDE2RHBEYWc5VUtyeDFCR1ZqdzRhT0J5SXRjTzhRUkRxbjJJZ3dHOWdlNk1LRnhPSmd5UFRXQmVGNl85aTdlLXNXNU1vaERBOFRyUlhZWlhRS29kM2JPTjdhQjFQcDA2U3BZSWpLb00tWTQ1bUpvZ1pJMjhVcXFiX2FfSzdXaXlEa0lLMG01N250YkM2Vy01Wm5lTzI3M2M1ZDN3NlAxQUZER2ZheUlkZktZdkk0ZkdGelIwaTAtZnJ0amVVeEI0c0FpSFhzWkJvcG1nRlN30gHbAUFVX3lxTE15c3dERUg4TjRyaWIzUzZnbDdKcWt4eXJnWUFnRlRza3pxend4V3NqeE15WVlRRmFzNnIxUHpaeGppZnZLS2RiVF8yd3plRXB2QVgyVkVTcEYxWkNrRkM4QjNMckVyMEFObmdyTl83eHIyM1FocnJUd1U5ZHRhN25KVTRYa3NJZEtEaE5tRjJBQ2FiazY2VTBocGJZa3J1OU5OMGpFQWpCWXBoUUI4WVpWcTF6ZTFGVFpselA4X3J6ZXJIRDJEb1NLMHdhTUVYcDRtRDVjaXRyUW1Icw?oc=5) — **Business Standard** · 09-21 18:01
   - 관련 보도 4건: [Kalkine India](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUHBSMWN0VW9pdEMybGVHNnZ6UHlqU0VrZzdMajlkcjY4XzVHUFV3N3Z2NXh3Ym1vOUlTLWROMEZ3X2tFWVI2dDlEX0dwOC12WU9LQW1US01zT2xCelU0eDVRMEJObUdkZFczSTRINUs4V01sQng5QWdqMEFsTVlTQnlLRzlUeFJyRWEyemRYck9UYVViOUZDZThJNXRXa190N0M2bFltUFJ3NTl3QjMwaXhQeFE0Y2hLX0ZfZTdnTU0?oc=5), [TradingView](https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVFI0aWY2X1p2OEN2a1psNW16MUxFVVh4MHB3R01fbDBzbXFocjNlSWx2X0JrUFdoVjliVlA1SWVDV2FBZzNjSTlCYzMzY1VNWHJrZ3Roa3ZqV0d5YnhIRVVLM3ZSUVFCUXBmTXZCMV9LQkFyZmp0bGlvYXA3SHE1enljWmRkbGF3Y21nM29YdzQ2eTQ5M2ctbkZsYWM2dFpiaTdxYzRYUDJwY2hoZnMyVVBqWTBDVU0tbjBqUl9ZdXNUVGM0V2FLVnZsb0ZJQy1rejZ1Z1Q1c3RxZlo3aFJoN3FIZFg0VTBmeWdJWWdvdE1xcUltNWdDbA?oc=5), [EquityBulls](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HNXhvSWhSSFYtLTdocW1iUS1zXzNENHc1Z29NazJ1bnpKQXV4N3dEMlctVVc2S0J2Sk0xYXFLNnBpTzBxRFNWb1lkbGRQUm9TMjdsU08wQ3RmcE55TVJV?oc=5), [SolarQuarter](https://news.google.com/rss/articles/CBMivAFBVV95cUxNa1VETGZucElRdU81SVV5V2VlbG5FUUFzY2FWUmhVSm9tbDN0SE9RN1M2VTNJSTh1aVpOY0FQODRjSHRJbEFWbFNOY3hGZk9MaU9HLXJ6d0Vpc25yRVY4UlBuN1dSWWxaRGdMOGpiRkJyN0F2U2g1dG9zSEFsWkZBblEtN29WLUNod2tfaEhrVzhYUDlnQ2VTMmVkaTN0Zmh3aHpyQ2N4SHVJQTJFNzFLSmxMVjV0VDdob0RLZA?oc=5)
@@ -280,18 +281,20 @@ modified: 2026-09-22T14:06+09:00
   - 관련 보도 1건: [Yahoo Finance](https://news.google.com/rss/articles/CBMinAFBVV95cUxOeTBnT1NNaG5uRjNjSjNPZC10YjR2NEJVOUpVV1VBT0VmWWplcEt0VnF1Sng3ZXJlRlhMYnNJb09ibzhFbDcxQ1hsWUZjNEV0bzNoZjdyQnRTblpCWVkteTJkam9raS13ZGZ0Z1FwcmtjVUc1VXR3UEh4MjU1dVlmM0RadTZ5RllYTzRrQ0tBbkZtdGFfUzVPS1hiakE?oc=5)
 - [CEA’s BESS Mandate Could Accelerate Battery Makers’ Shift Beyond EVs](https://news.google.com/rss/articles/CBMisAFBVV95cUxQZnlTdVhTaEZPT2hjLUgtSVgzbzJtdmFVM1h1NzRubWNYTDdsX0VXYWxodkk0cWI2cXNjby1ldTRiWDhGYVZOVm9heU9ZZktIR00yMXFoaWFyWlYzUEFBWWdtY0xIX2dVMXNwUXZaNDhvNG8wTUZIOThQdG5jTWJBUnE2dHZwVGh0YzVkZmszcENjS3c4Wm1PdWpyTm91RlhaSm9BT1ZJOUNpWVpNSUU5Mg?oc=5) — **BW Businessworld** · 09-21 10:30
   - 관련 보도 1건: [TradingView](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEhlR1JDRWFnNktCbm1MM0RRdzgtSTBQQ3F1Uk1OckV2ekRjb1NFWE9fbWtCLVN0bWVKUHVJMDJXaGJMcG5ZdngwS0dCNkJMVGRjSWVVdmh0TWczTGZpNmJ2dGhQMGsxaGRuYWg5ZkVyWnBDb2FqWThmYUJ3WkFMWnpyMVVCN1BZVFNJOVlZVjF4OXNCaDhjWk83d1V3R0FmeG5kQ1laN0liWW03eDFseUhKYS1tS2xzcjRiUWwxREVydw?oc=5)
-- [Pace Digitek shares surge 13% as arm bags ₹488-crore BESS supply order](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT1M4a1M3TmNIaXBsdEh6R0VyUjhadDBDV1RlOVNBN3FJT3k5SS1UdlRwdktUamVKY1BkdU5WejM4dzJTUElfUWktNHo5S1lkUndhamJCOUZuVzZyVDNRWGFaNjg2NXphbFFaN3RnREdrUS1EcFFtNGVPRng3eXVIYUpGaUdPQTMzUE5oR21FX2Rxa21xc0FuLVVudkItcFF5cXF3OTBlaVdmdERWRmszeGFLczExSkphOHBHZEt3bkV5RjBSR05ZMkxpWm90bW1w0gHWAUFVX3lxTFAxb3pTckJxZTZqNDdmSEFtTUdXb1JnbGxiZklGamEyMkZaRTlZX29HYTRRRzZjb2VyTS1PMFlQdWFXNDJWV0FaMUx2bHFISnVKQmJHNGlnZ3hTa29aZDN4aF80OThEdFY2YUNxN1Y4ak1HTFJOSDA1Nlk1dGwwUnNvcG1Tam1EMHhxTXBNUFNJSXBKMnBRY09lcDMzX0lSeGhuZ3JJMzJYUEgzalRidVZSTnVMMWpYa0s3dGdFVkU5bGhlV0lxdzRkb09OUFJaNkRuNlZRbUE?oc=5) — **Business Standard** · 09-22 13:26
-- …외 71건 생략
+- [GK Energy makes foray in BESS sector, wins project in Maharashtra](https://news.google.com/rss/articles/CBMilAFBVV95cUxQSVpSYkRocWZDTlhYNlY3NEpDbFJZYWR2OTVoZl9EU18wNWZoV0pHMlVrZXktLUlCZG5hVmtjb1l6RkJkNG5aczhlLTFDU2dGTlpuOVhIRzZYZ3ViR2JnYWtTcVA1a3lHaVVzdnpZbnI4dDAwaGhNRzBYZVhXYzNRNi1rOHlmcVBEU1REYTVESzd0STF00gGaAUFVX3lxTE5Eblg1c2NTQ3JSMHZGVWV2TEFXUVZlUDA4WEFYN0FmRTY5eW1KRDdCM3E4MkJ5eV9Teko5V2pBM1VjYjU2Y2FtWFRMYkdTQUhiZjllRmJGMzdmOFR4cVBTZHZYQnVaVGRMRVlZajJ6bVU2ZmJ3TXNBUVNGTExLTGhhRk1SNGp3YnlzcHhoYUt1cGdhNTBkcG1ZUlE?oc=5) — **T&D India** · 09-22 14:12
+- …외 73건 생략
 
 ---
 
 ## 전력망
 
-### 국내 · 78건
+### 국내 · 80건
 
 - [이철규 "전력망 '알박기' 정리 속도… 회수 용량 적기 배분해야"](https://www.kado.net/news/articleView.html?idxno=2074258) — **강원도민일보** · 09-22 00:07
   - 전력망을 장기간 선점한 뒤 실제 발전사업을 추진하지 않는 이른바 '알박기' 사업 정리를 목표로 관련 규정이 강화된 가운데 한 달 만에 점검 대상 사업의 80% 이상이 전력망 이용신청을 하지 않아 계…
   - 관련 보도 1건: [v.daum.net](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9famk5ZlVTTGlqRklDRjhHWXl3Y21aNmFkNWxTaG1vZW1CVFRSZk1MREdDa1F0RURQNGdlMXF6ejdjX2cySDJwMVVSNA?oc=5)
+- [전력망 ‘알박기’ 규정 강화 한 달…사업 81% 신청 안 해 ‘효력 상실’](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZLUVwV1hGd3JfWUQ2WXNTa1BVMXlqd0xmZXJQME5TYTVRbHAzdlU3eXlTbG1OdlRBSmpveHlncXZpNUhkLVpNb2RmN2dtblU?oc=5) — **v.daum.net** · 09-21 18:45
+  - 관련 보도 1건: [강원일보](https://www.kwnews.co.kr/article/20260921501890)
 - [장밋빛 AI 정책, 이면엔 멈춰 선 고용과 전력망 안전망 \[전환의 그늘①\]](https://news.google.com/rss/articles/CBMi-AFBVV95cUxOb1NIWDFFYThvMlNiV2s4bmVHc1BCUDF3R2hZLWVoTk41LW5qTjJoVXFkM3hYeF9mSll2ZktKMFFDNUoyTFhHc0dHNGtiV3pmOE9UWVctNXNsQm1LdWd0SnFfRUV5Qi1ISEJYM3VkbWJid3V6TEpaSU1mVjBnbGtPcUdVLUFudEVzY2hzVmtoWWNYUFRJMHRiMklPZy1YSGl1YTF4YXpGc2dNdHNYRVdBSXRnUjRkeWhHaGRWY0VSdWRwRDdRdzNFZUxjaHhVa2hDd3Z0TEVtckxQUVVXbGZhdlItNm1qbGxXSTJWbVgteFNuM2Vfb2FGZw?oc=5) — **데일리안** · 09-21 18:01
   - 관련 보도 1건: [데일리안](https://www.dailian.co.kr/news/view/1693133/?sc=Naver)
 - [AI 전력망 73조 필요한데…한전 '돈줄' 한계, 민간 부담 커진다 \[fn마켓워치\]](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tQ1BNWTF1T0RNWmNaZ2ttenRFZGpjYVJuM1czRG5SaUJfTmRfUmNjeUlJZjMyVnpYTjZnQ2w3MERvQkliXzJFeFRjNS10Rko3SXhRN294cUdJUQ?oc=5) — **파이낸셜뉴스** · 09-21 17:10
@@ -311,16 +314,15 @@ modified: 2026-09-22T14:06+09:00
   - 관련 보도 1건: [v.daum.net](https://news.google.com/rss/articles/CBMiS0FVX3lxTE45aUJ5cndYc1hpYkJFZndPemkzYkx0b25pMTlHMEdBNHhZc2ItbndzNFVQSWROdHpkYnpMSHhRdFRaRmZKdWRNWnJWMA?oc=5)
 - [삼성SDI, 북미 전력망용 ESS 성장 기대에 목표주가 상승](https://news.google.com/rss/articles/CBMiakFVX3lxTE9HOUt1NDZ3SjU1a2hBMWVtbS1NRUZpV3lUbXZpR1NaOEMzemMwVDAzbDVzOVlBRnJySU9VcXVza3VSMWlHM3dTT3QtR1lXdE1iS1VaNktPMUd3X3RaeTFBdW5hazNGY3VtVXc?oc=5) — **뉴스웨이** · 09-21 08:26
   - 관련 보도 1건: [v.daum.net](https://news.google.com/rss/articles/CBMiRkFVX3lxTE05MmtiempzV05qQllZa21MQ0t0elQ3V3JXQlFBOWhaeXEzR09aaUxQd3V1ZlVTVjA0VmlTcFdXbHQ5RklheFE?oc=5)
-- [박길선 의장 “햇빛소득마을 만든다는데 전력망이 없다”](https://news.google.com/rss/articles/CBMic0FVX3lxTFBjOW1pMFpRUDZVR1N4bGE0aGZaa0NXOVkzdWVHODdSejVaNmFwOGhodVdGQU56U0FvQ3dOVWpkak5GTGtFN1VzWDMwV2tuTGhTZkllWVl6cVg4eVRiUTJYbEhCNFVhZm43SzE4eDNFeFN2elU?oc=5) — **동방일보** · 09-22 13:15
-- [북미·유럽 전력망 싹 바뀐다… 일진전기, 초고압 중전기기 특수 기대](https://www.pinpointnews.co.kr/news/articleView.html?idxno=489560) — **핀포인트뉴스** · 09-22 13:06
-  - 해상풍력 발전과 국가 간 전력망 연계에 필수적인 초고압 직류 송전(HVDC) 해저 케이블 수요가 빠르게... 글로벌 전력망 연계 프로젝트 확대와 HVDC 케이블 수주 잔고 증가 모멘텀이 강력한 호재…
-- …외 56건 생략
+- [전력망 새로 안 깔고 330GW 더 쓴다…IEA, 디지털 전환 강조](https://www.esgeconomy.com/news/articleView.html?idxno=16811) — **ESG경제** · 09-22 14:16
+  - 기존 전력망의 활용도를 높이면 전 세계적으로 최대 330GW의 추가 접속 여력을 확보할 수 있다고 분석했다. 사진\=픽사베이 인공지능(AI)과 디지털 기술을 활용해 기존 전력망의 효율을 높이면 전 세…
+- …외 57건 생략
 
 ---
 
 ## 메가특구특별법
 
-### 국내 · 82건
+### 국내 · 84건
 
 - [메가특구 사회적 대화, 상견례 완료…추석전 본격 실무협의 추진](https://www.yna.co.kr/view/AKR20260921089400530?input=1195m) — **연합뉴스** · 09-21 11:49
   - 주 52시간 예외 '화이트칼라 이그젬션'·'기간제 2+2' 의제 거론 노사정이 메가특구특별법 내 노동 특례 논의를 위한 '원포인트 사회적 대화'의 첫 만남을 가진 데 이어, 이번 주 본격적인 실무협…
@@ -356,7 +358,7 @@ modified: 2026-09-22T14:06+09:00
 - [주52시간 예외 논의할 ‘메가특구 노사정 대화’ 22일 첫발](https://biz.heraldcorp.com/article/10881160?ref=naver) — **헤럴드경제** · 09-21 18:56
   - 주 52시간제 적용 예외 등 메가특구 특별법의 노동특례를 논의하기 위한 노사정 사회적 대화가 22일 시작된다. 전국민주노동조합총연맹(민주노총)이 정부 주도의 노사정 대화에 참여하는 것은 2020년…
   - 관련 보도 1건: [v.daum.net](https://news.google.com/rss/articles/CBMiS0FVX3lxTFA5OXVHNGlQT1ZuVTQ4V0dkWllKOFEybE5LazV5R3JFV2dzUThHdnNBX1UwdHdTeE9JdEtRQTV2aWtMTWx3ekFXTmZZQQ?oc=5)
-- …외 22건 생략
+- …외 24건 생략
 
 ---
 
@@ -382,7 +384,7 @@ modified: 2026-09-22T14:06+09:00
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 94건
+### 국내 · 96건
 
 - [금호건설, 국내 첫 석탄→LNG 전환 '구미 천연가스발전소' 준공](https://www.pointdaily.co.kr/news/articleView.html?idxno=319993) — **포인트데일리** · 09-21 09:12
   - 금호건설 관계자는 "국내 최초 연료 전환 사업에 참여해 국가 에너지 전환과 구미 지역의 안정적인 전력 공급 기반 마련에 기여했다"며 "앞으로도 에너지 시설 시공 경험과 기술력을 토대로 관련 인프라…
@@ -402,6 +404,7 @@ modified: 2026-09-22T14:06+09:00
   - 관련 보도 1건: [hansbiz.co.kr](http://www.hansbiz.co.kr/news/articleView.html?idxno=867311)
 - [서부발전, AI·에너지전환 혁신성과 10건 선정](https://news.google.com/rss/articles/CBMickFVX3lxTFBicWZHUTdwcWliX3JjSnFNckI1R1Q4bGwwZmlPV09kQWY5SjYzM1pSQWRTVnlBWGFQRGZGcFA5SFpLQUI2LVN0TjJBWmhpVXpIR0lhY2dKN0h3d241NWN4Y3RpblcwQzROZTlDdENlYzlLQQ?oc=5) — **투데이충남** · 09-21 14:20
   - 관련 보도 1건: [뉴스세상](https://news.google.com/rss/articles/CBMib0FVX3lxTE5tbWd3anEyUTNzU1NCVm52TnVPNVVjNDBQNVJ6Z2FpQk92djBGZ3B4NFUxVFVVMTQxSUg0Z3RYalplcG9RR3FwMDBRWkp2UC1jVUdYcGtMLWdVc0wwXzNXVS1fRl9jd0pvYUlDTks1UdIBb0FVX3lxTE5tbWd3anEyUTNzU1NCVm52TnVPNVVjNDBQNVJ6Z2FpQk92djBGZ3B4NFUxVFVVMTQxSUg0Z3RYalplcG9RR3FwMDBRWkp2UC1jVUdYcGtMLWdVc0wwXzNXVS1fRl9jd0pvYUlDTks1UQ?oc=5)
+- [발전소 문 닫으면 일자리는?…보령시, 에너지 전환 ‘지역경제 충격’ 대비 나섰다.](https://news.google.com/rss/articles/CBMia0FVX3lxTE9MYXc3RzRxNXhQMEhxckRzT2FwNEZDQkszTDRFNmRCRWlBZVZBT292Rm1HeUhQd0F4WjRVZTRhNlF5OGdhbGVXbHBXanlpRkwtZ0xjZWJkbDhVdFcyRFMxOV9aYUVwNmxTRVNV?oc=5) — **충청시사신문** · 09-22 14:07
 - [사우디 스마트시티 관료단 울산 방문… 수소·에너지 협력 타진](https://www.seoul.co.kr/news/publicnews/2026/09/22/20260922500134?wlog_tag3=naver) — **서울신문** · 09-22 13:44
   - 사우디아라비아 정부의 스마트시티 정책을 이끄는 고위 공무원단과 미스크재단(Misk Foundation) 관계자들이 한국의 수소경제와 에너지 전환 현장을 직접 확인하기 위해 울산을 찾았다. 울산시는…
 - [\[에너지 다변화 전략\] 에너지 전환 가속... 공급망 ‘탈중동’은 숙제](http://www.segyebiz.com/newsView/20260922510349?OutUrl=naver) — **segyebiz.com** · 09-22 13:42
@@ -410,9 +413,7 @@ modified: 2026-09-22T14:06+09:00
   - 보령시는 지난 21일 엄승용 시장이 지역 주요 에너지시설을 잇달아 방문해 에너지산업 현황과 주요 현안을 점검하고, 에너지전환 과정에서 지역경제와 일자리로 연결할 수 있는 협력 방안을 논의했다고 밝혔…
 - [엄승용 보령시장 "에너지시설 현장 점검…미래 산업 전환 모색"](https://weekly.hankooki.com/news/articleView.html?idxno=7185460) — **주간한국** · 09-22 10:50
   - 엄승용 시장은 최근 충남도지사와의 면담에서 태양광과 해상풍력 집적화단지 등 보령시가 추진 중인 에너지전환 사업에 대해 충남도의 행정적·재정적 지원을 요청했다. 또 석탄화력발전소 폐지에 따른 지역 산…
-- [보령, 석탄화력 넘어 미래 에너지 전환 해법 찾는다](https://www.dynews.co.kr/news/articleView.html?idxno=866985) — **동양일보** · 09-22 10:32
-  - 보령시는 석탄화력발전 폐지에 따른 산업·고용 충격에 대응하기 위해 태양광과 해상풍력 집적화단지 등 에너지전환 사업을 추진하고 있다. 최근 충남도에 행정·재정적 지원을 요청하는 한편 발전공기업 통합…
-- …외 50건 생략
+- …외 52건 생략
 
 ### 해외 · 75건
 
