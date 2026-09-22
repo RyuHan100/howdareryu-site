@@ -2,7 +2,7 @@
  "v": 1,
  "kdf": {
   "name": "PBKDF2-SHA256",
-  "salt": "bCwbKvy///+on/TmDfbWPg==",
+  "salt": "en3vzSl/S1nSSHdIDNnIoA==",
   "iterations": 600000
  }
 }
