@@ -1,4 +1,4 @@
-# 키워드 뉴스 클리핑 — 매일 06:40 KST 실행, content/news 커밋 → Quartz 재빌드
+# 키워드 뉴스 클리핑 — 매일 06:40 KST 실행, content/radar/news 커밋 → Quartz 재빌드
 # 이 파일과 tools/news_clipping/ 을 howdareryu.com Quartz 저장소에 넣어서 사용
 name: News clipping
 
@@ -52,7 +52,7 @@ jobs:
           # 없으면 Google News 만으로 동작
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-        run: python tools/news_clipping/news_clipping.py --site-root . --page-dir content/news
+        run: python tools/news_clipping/news_clipping.py --site-root . --page-dir content/radar/news
 
       - name: Commit & push
         id: push
@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.name  "news-clipping[bot]"
           git config user.email "news-clipping[bot]@users.noreply.github.com"
-          git add content/news
+          git add content/radar/news
           if git diff --cached --quiet; then
             echo "no file changes"; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0
           fi

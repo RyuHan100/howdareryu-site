@@ -6,7 +6,7 @@
      네이버는 NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 이 있을 때만 (없으면 Google 만으로 동작)
   2. 최근 N시간 기사만 남기고, 지난 14일 클리핑(data/daily/*.json)에 이미 실린 기사·같은 제목은 제외
   3. 같은 기사를 다룬 여러 매체 보도는 제목 유사도로 묶어 "관련 보도"로 접음
-  4. content/news/YYYY/YYYY-MM-DD.md (그날 클리핑) + content/news/index.md (최신 + 목록) 생성
+    4. content/radar/news/YYYY/YYYY-MM-DD.md (그날 클리핑) + content/radar/news/index.md (최신 + 목록) 생성
   5. 결과를 GITHUB_OUTPUT(changed, count, summary)에 기록
 
 같은 날 다시 실행하면 그날 파일에 새 기사만 덧붙여 다시 렌더링한다(멱등).
@@ -45,7 +45,7 @@ EDITIONS = {
 LANG_LABEL = {"ko": "국내", "en": "해외"}
 
 DEFAULT_SETTINGS = {
-    "page_title": "News_radar",
+    "page_title": "News",
     "lookback_hours": 48,       # 이 시간 안에 발행된 기사만
     "max_per_keyword": 12,      # 키워드·언어별 최대 묶음 수
     "similarity": 0.4,          # 제목 유사도(0~1)가 이 값 이상이면 같은 기사로 묶음
@@ -598,7 +598,7 @@ def main() -> int:
     here = Path(__file__).resolve().parent
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--site-root", default=".", help="Quartz 저장소 루트 (기본: 현재 디렉터리)")
-    ap.add_argument("--page-dir", default="content/news", help="클리핑을 쓸 폴더 (site-root 기준)")
+    ap.add_argument("--page-dir", default="content/radar/news", help="클리핑을 쓸 폴더 (site-root 기준)")
     ap.add_argument("--config", default=str(here / "keywords.yml"), help="키워드 설정 파일")
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않고 결과만 출력")
     args = ap.parse_args()

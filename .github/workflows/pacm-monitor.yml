@@ -56,14 +56,14 @@ jobs:
         run: |
           xvfb-run -a --server-args="-screen 0 1280x900x24" \
             python tools/pacm_monitor/pacm_monitor.py --site-root . \
-              --page "content/pacm/index.md" --data-dir "content/pacm/data" --data-url-prefix "/pacm/data"
+              --page "content/radar/pacm/index.md" --data-dir "content/radar/pacm/data" --data-url-prefix "/radar/pacm/data"
 
       - name: Commit & push
         id: push
         run: |
           git config user.name  "pacm-monitor[bot]"
           git config user.email "pacm-monitor[bot]@users.noreply.github.com"
-          git add content/pacm
+          git add content/radar/pacm
           if git diff --cached --quiet; then
             echo "no file changes"; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0
           fi

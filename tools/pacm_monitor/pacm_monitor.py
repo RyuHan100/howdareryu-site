@@ -368,9 +368,9 @@ def set_output(name: str, value: str) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--site-root", default=".", help="Quartz 저장소 루트 (기본: 현재 디렉터리)")
-    ap.add_argument("--page", default="content/pacm/index.md", help="생성할 마크다운 경로 (site-root 기준)")
-    ap.add_argument("--data-dir", default="content/pacm/data", help="JSON/CSV 저장 경로 (site-root 기준)")
-    ap.add_argument("--data-url-prefix", default="/pacm/data", help="페이지 내 데이터 링크 prefix")
+    ap.add_argument("--page", default="content/radar/pacm/index.md", help="생성할 마크다운 경로 (site-root 기준)")
+    ap.add_argument("--data-dir", default="content/radar/pacm/data", help="JSON/CSV 저장 경로 (site-root 기준)")
+    ap.add_argument("--data-url-prefix", default="/radar/pacm/data", help="페이지 내 데이터 링크 prefix")
     ap.add_argument("--highlight-days", type=int, default=int(os.environ.get("PACM_HIGHLIGHT_DAYS", 30)))
     ap.add_argument("--html-file", help="네트워크 대신 저장된 HTML 사용 (테스트용)")
     ap.add_argument("--headless-only", action="store_true", help="헤드풀 브라우저 전략 생략")
