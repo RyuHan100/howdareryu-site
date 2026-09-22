@@ -1,10 +1,10 @@
-# PACM(6.4조) 전환 모니터 — 매일 06:07 KST 실행, 변경 시 커밋 → Quartz 재빌드
+# PACM(6.4조) 전환 모니터 — 매일 03:07 KST 실행, 변경 시 커밋 → Quartz 재빌드
 # 이 파일과 tools/pacm_monitor/ 를 howdareryu.com Quartz 저장소에 넣어서 사용
 name: PACM transition monitor
 
 on:
   schedule:
-    - cron: "7 21 * * *"      # 21:07 UTC = 06:07 KST. 정각·30분은 GitHub 스케줄 큐가 몰려 1~2시간 밀리므로 피함 (07:30 전 완료 목표)
+    - cron: "7 18 * * *"      # 18:07 UTC = 03:07 KST. 정각·30분은 GitHub 스케줄 큐가 몰려 1~2시간 밀리므로 피함 (04:30 전 완료 목표)
   workflow_dispatch:
     inputs:
       highlight_days:
