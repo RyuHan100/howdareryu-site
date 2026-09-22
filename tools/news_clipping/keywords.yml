@@ -85,7 +85,7 @@ keywords:
     must: [냉매, 수소불화탄소, 불화가스, 키갈리, HFC, HFCs, Kigali, refrigerant, refrigerants, hydrofluorocarbon, hydrofluorocarbons]
 
 settings:
-  page_title: News_radar
+  page_title: News
   lookback_hours: 48        # 이 시간 안에 발행된 기사만
   max_per_keyword: 12       # 키워드·국내/해외별 최대 표시 묶음 수
   similarity: 0.4           # 제목 유사도(0~1)가 이 값 이상이면 같은 기사로 묶음
