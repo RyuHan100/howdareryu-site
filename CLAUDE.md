@@ -11,10 +11,10 @@
   사용자에게 의도한 변경인지 확인할 것 — 이 삭제는 사이트 빌드에도 실제로 영향을 준다
   (그 페이지를 가리키던 backlink/graph 가 있던 페이지들이 같이 바뀜).
 - **탐색기(§5, 식물 이모지 포함), 정원 데이터 수집기(§8.1), radar 이력 단위 수집(§8.2),
-  홈 5구역+garden-home 뼈대(§8), Properties 표시 이름(§7), ② 정원 모양+상호작용+움직임(§8)
-  전부 완료·배포됨** (`v5`, 최신 배포 커밋 `7d4cc1d3`, `home.garden: true`).
-- **③ radar 구현 완료(§8), `home.radar: true`로 켬, 아직 커밋 안 함** — 사용자 확인 대기 중.
-  ④ 아빠의 화단은 아직 착수 전.
+  홈 5구역+garden-home 뼈대(§8), Properties 표시 이름(§7), ② 정원, ③ radar 전부 완료·배포됨**
+  (`v5`, 최신 배포 커밋 `dc8f0869`, `home.garden`/`home.radar: true`).
+- **④ 아빠의 화단(홈 슬라이드쇼 + 전체 그림 페이지, §8) 구현 완료, `home.gallery: true`로 켬,
+  아직 커밋 안 함** — 사용자 확인 대기 중. 홈 5구역(①~⑤) 전부 완성.
 
 ## 1. 저장소와 클론
 
@@ -60,10 +60,10 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 | 무엇 | 어디 |
 |---|---|
 | 사이트 설정, 플러그인 목록, 옵션, 배치 | `quartz.config.yaml` (`quartz.config.default.yaml`은 업스트림 기본값 — 안 건드림) |
-| 커스텀 조건(`index`) 등록, 빌드 전 훅 | `quartz.ts` |
+| 커스텀 조건(`index`/`gallery`) 등록, 빌드 전 훅 | `quartz.ts` |
 | 전역 CSS 덮어쓰기 | `quartz/styles/custom.scss` |
 | `<head>` (TTS 스크립트 포함) | `quartz/components/Head.tsx` |
-| 로컬 플러그인 | `plugins/<name>/` (예: `plugins/hdr-comments`) |
+| 로컬 플러그인 | `plugins/<name>/` (예: `plugins/hdr-comments`, `plugins/garden-home`, `plugins/gallery-page`) |
 | 정원 설정 | `garden.yaml` (탐색기 §5, 홈 데이터 §8.1) — 모든 정원 설정은 여기에 |
 | 정원 코드 | `quartz/garden/` (탐색기 sync, 데이터 수집기) |
 
@@ -145,11 +145,20 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
   → Python 3.12 + Pillow → `python scripts/gen_gallery.py` → `npx quartz build` → Pages 업로드·배포.
 - **checkout에 `fetch-depth: 0` 있음 (확인함).** git 기록으로 수정일을 읽을 수 있다.
   `created-modified-date` 플러그인이 `priority: [frontmatter, git, filesystem]`, `defaultDateType: modified`로 켜져 있다.
-- **`gen_gallery.py` 주의:** CI에서만 돌면서
-  - `content/img/thumbs/*.webp`(긴 변 800px 썸네일)를 만든다 — 저장소엔 없고 CI 빌드에만 있다.
-  - `content/gallery.md`를 **통째로 다시 쓴다**. 커밋된 파일의 소개글("저의 아버지 여송…")이 배포본에서는
-    "총 N장."으로 바뀐다. 의도한 건지 확인이 필요하다.
-  - 로컬에서 돌리면 gallery.md가 바뀌고 썸네일이 생긴다(커밋하지 않게 주의).
+- **`gen_gallery.py` (2026-09-23 재작성):** CI에서만 돌면서 `content/img/thumbs/*.webp`(긴 변
+  800px 썸네일) + `content/img/thumbs/meta.json`(그림별 원본 width/height, 레이아웃 흔들림
+  방지용)을 만든다 — 저장소엔 없고 CI 빌드에만 있다. **더 이상 `content/gallery.md`를 다시
+  쓰지 않는다**(예전엔 소개글이 "총 N장."으로 덮어써지는 문제가 있었다 — 이제 gallery.md는
+  사람이 관리하는 평범한 파일이고, 그림 격자는 `plugins/gallery-page` 컴포넌트가 그린다, §8).
+  - **함정: `content/img/thumbs/`를 `.gitignore`에 넣으면 안 된다.** `quartz/plugins/emitters/
+    assets.ts`(content/ 의 이미지 등을 public/ 으로 복사하는 이모터)도 Static 이모터처럼
+    `glob(..., gitignore:true)`라, 로컬이든 CI든 그 순간 막 만들어진 썸네일이라도 `.gitignore`에
+    걸리면 복사에서 빠져 사이트에서 이미지가 전부 깨진다(garden-properties-data.js 때와 같은
+    함정, §7). 로컬에서 생겼을 때 커밋에 안 들어가게 하는 건 `.gitignore`가 아니라 손으로
+    주의해야 한다(아래).
+  - 로컬에서 돌리면 (Python 3.9 는 `from __future__ import annotations` 를 추가해 둬서 돌아간다)
+    `content/img/thumbs/`가 생긴다 — **커밋하지 않게 주의**(위 함정 때문에 `.gitignore`로 막을
+    수 없으니 `git add` 할 때 특히 조심).
 - 다른 워크플로(`news-clipping.yml`, `pacm-monitor.yml` 등)는 정원 작업에서 건드리지 않는다.
 
 ## 7. 노트 상단 Properties 표 — 표시 이름 ✅ 완료(2026-09-23)
@@ -362,9 +371,53 @@ frontmatter 는 절대 안 바꾼다(→ 다른 기능·git 기록·created-modi
       fill-box` → `view-box`로 수정). 둘 다 고친 뒤 헤드리스 크롬으로 여러 회전각(0/45/90/
       135/200/300도)에서 스크린샷을 찍어 부채꼴 꼭지점이 원 중앙(160,160)에 고정된 채로만
       도는 것을 확인했다.
-  - ④ 아빠의 화단: `gallery.images`. 원본이 483MB라 **반드시 `/img/thumbs/<파일명>.webp` 썸네일**을
-    쓴다(CI에서 gen_gallery가 먼저 만든다). 클릭하면 원본(`src`)이나 gallery 페이지로.
-    로컬에는 썸네일이 없으니 로컬 확인용 대체 경로(원본 또는 gen_gallery.py 로컬 실행)가 필요하다.
+  - ④ 아빠의 화단 ✅ 완료(2026-09-23) — 홈 슬라이드쇼는 `plugins/garden-home`(gallerySection,
+    `gallery-svg.js`+`gallery-interactive.js`), 전체 그림 페이지는 새 로컬 플러그인
+    `plugins/gallery-page`(컴포넌트 `GalleryGrid`, `layout.condition: gallery` —
+    `quartz.ts`에 `registerCondition("gallery", slug==="gallery")` 추가, `content/gallery.md`
+    에서만 나온다). 원본이 483MB라 **반드시 `/img/thumbs/<파일명>.webp` 썸네일**(긴 변 800px)을
+    쓰고, 라이트박스로 크게 볼 때만 원본(`src`)을 쓴다. `content/img/thumbs/meta.json`(원본
+    width/height, `gen_gallery.py`가 씀)으로 `aspect-ratio`를 미리 잡아 로딩 중 레이아웃이
+    안 흔들리게 한다 — 로컬에는 이 파일이 없을 수도 있어 그때는 기본 4:3 상자 + `object-fit:
+    contain`으로 안전하게(잘리지 않게) 대체한다.
+    - **정렬**: `quartz/garden/collect.ts`가 `gallery.images[]`를 만들 때 이미 정렬해 둔다
+      (`sortYear = gallery.yaml 의 year ?? added 의 연도`, 내림차순 — "연도가 있으면 연도순,
+      없으면 git 추가일순, 최신 먼저"). 홈 슬라이드쇼(`gallery.home_count`, 기본 10)와 전체
+      페이지 둘 다 이 순서를 그대로 쓴다.
+    - **홈 슬라이드쇼**: 제목 + `gallery.intro`(한 줄 소개, garden.yaml) 아래, 최근
+      `home_count`개를 겹쳐서(opacity 크로스페이드, `prefers-reduced-motion`이면 트랜지션만
+      끔) `interval_seconds`(기본 4)마다 자동 전환한다. 자동 전환 자체는 모션 최소화에서도
+      켜 둔다(제자리 부드러운 페이드가 아니라 "콘텐츠가 넘어가는" 것뿐이라 어지러움을 유발하는
+      종류가 아니라고 판단 — CSS 트랜지션만 없앰). 그림/트랙을 클릭하거나 별도 버튼으로
+      일시정지·재생, 좌우 버튼으로 수동 넘기기, 그림 수만큼 그린 꽃봉오리(`gallery-svg.js`의
+      `bud()`/`bloom()`) 중 지금 보는 것만 활짝 핀 꽃 — 눌러서 바로 그 그림으로 이동. 화면
+      밖이면(`IntersectionObserver`) 자동 전환 타이머를 멈춘다. 캡션은 제목·연도·재료·작가
+      이름을 있는 것만 이어 붙이고(전부 없으면 칸 자체를 안 만듦 — 지금은 작가 이름
+      `gallery.artist`("여송")가 항상 있어서 실제로는 늘 뜬다), "전체 보기" 링크로
+      `content/gallery.md`로.
+    - **전체 그림 페이지(격자)**: CSS `column-count`로 모바일 2열/640px+ 3열/1000px+ 4열 —
+      각 항목이 자기 원본 비율대로 `aspect-ratio`를 갖고 `break-inside:avoid`라 그림마다
+      비율이 달라도 안 잘리고 엇갈려 쌓인다(masonry). 흙색 두꺼운 테두리(6px, 테마 색을
+      `color-mix`로), 맨 아래에 장식용 작은 꽃 화단 가장자리(`gallery-page-svg.js`의
+      `renderFlowerBedFooter`, 데이터와 무관한 순수 장식). 그림을 누르면 라이트박스(원본 크기,
+      `object-fit:contain`)로 크게 보고, 좌우 버튼·화살표 키로 넘기고, 닫기 버튼·배경 클릭·
+      Escape 로 닫는다(연 동안 `body` 스크롤 잠금).
+    - **함정**: 그림 격자 항목을 처음엔 `<figure>`로 만들었는데, 이 사이트 테마(`obsidian-theme`
+      CSS 레이어)가 `html body figure { border-width: 0; ... }`를 코드 블록 캡션용으로 너무
+      넓게 걸어 둬서, `.gg-item`의 `border: 6px`가 specificity 와 무관하게 항상 눌렸다(CSS
+      cascade layer 는 specificity 보다 레이어 순서가 우선이라, `quartz-base` 레이어의 내
+      규칙이 `obsidian-theme` 레이어의 규칙을 이길 수 없다). `<figcaption>`을 안 쓰는 항목이라
+      그냥 `<div>`로 바꿔서 피했다 — **앞으로도 `<figure>` 에 테두리·배경 같은 시각 스타일을
+      입혀야 하면 이 사이트 테마 탓에 안 먹을 수 있다는 걸 기억할 것.**
+    - **검증(2026-09-23)**: 실제 101장으로 헤드리스 크롬 CDP 로 확인 — 슬라이드쇼(자동 전환,
+      그림 클릭/버튼 일시정지, 좌우 넘기기 래핑, 꽃봉오리 클릭 이동, 화면 밖 정지 전부 동작),
+      전체 페이지(101개 항목, 라이트박스가 항상 `/img/inspiration/...`(원본)을 씀, 좌우/
+      화살표/Escape/배경클릭 전부 동작, 격자 2/3/4열 반응형, 테두리 정상). 이전 배포 커밋
+      대비 **홈 `index.html` +6,639바이트, 사이트 전체 공유 스크립트 번들 +6,625바이트, 공유
+      CSS 번들 +4,540바이트**(전체 그림 페이지의 라이트박스 코드도 이 공유 번들에 같이 들어가
+      다른 모든 페이지가 조금씩 커진다 — §7·§8 의 다른 컴포넌트들과 같은 구조적 특징).
+      슬라이드쇼가 쓰는 썸네일 10장은 총 약 1.16MB(그림마다 70~160KB) — 이게 실제 홈 페이지
+      무게 증가의 대부분을 차지한다(그림 자체는 CI에서만 생기므로 로컬 diff 로는 안 보임).
 - 움직임(레이더 스윕, 슬라이드)은 `afterDOMLoaded` 스크립트로. SPA라 `nav` 이벤트마다 다시 붙이고
   `window.addCleanup`으로 타이머를 정리한다. `prefers-reduced-motion` 필수(§9) — 지금 자리 표시는
   움직이는 게 없어서 해당 없음, 다음 단계에서 실제로 채울 때 지킬 것.
@@ -496,8 +549,8 @@ radar 의 하위 폴더는 기본적으로 "노트 하나 = 점 하나"(§8.1)�
 ## 10. 단계별 구현 계획
 
 - [ ] **0. 남은 결정** — 식물 판정 기준 조정(수정 횟수가 "Quartz sync 묶음 커밋" 기준이라
-      너무 쉽게 채워짐, §8.1 참고) / 레이더 점 좌표 규칙(최근 며칠? 폴더별 방향?) /
-      Properties 한글 이름 목록(§7, 아직 미착수) / gallery.md 소개글이 CI에서 덮어써지는 문제.
+      너무 쉽게 채워짐, §8.1 참고) / 레이더 점 좌표 규칙(최근 며칠? 폴더별 방향?).
+      (Properties 한글 이름·gallery.md 덮어쓰기 문제는 §7·§8/§6 에서 해결됨.)
 - [x] **1. 탐색기** — 완료·배포(§5, 커밋 e048a83c). 제목 "오솔길", garden.yaml `explorer` → mapFn
       (폴더 🪴, radar 폴더·하위 폴더 📡, radar 노트 📍, 비공개 아카이브 🔒).
 - [x] **1.5 정원 데이터 수집기** — 완료·배포(§8.1, 커밋 47faf0ae). `.garden-cache/garden-data.json`,
@@ -509,8 +562,10 @@ radar 의 하위 폴더는 기본적으로 "노트 하나 = 점 하나"(§8.1)�
       `plugins/garden-home`이 ②③④⑤를 그린다. 홈 듣기·댓글·Properties는 숨김(§9).
 - [x] **4. 구역 채우기 — ② 정원** — 모양+상호작용+움직임 완료·배포(§8, 커밋 `7d4cc1d3`),
       `home.garden: true`.
-- [x] **4. 구역 채우기 — ③ radar** — 완료(§8), 아직 push 안 함. `home.radar`를 **true**로 켬
-      (사용자 지시, 2026-09-23). 남은 것: ④ 아빠의 화단(⑤ 연락처는 이미 완성).
+- [x] **4. 구역 채우기 — ③ radar** — 완료·배포(§8, 커밋 `dc8f0869`), `home.radar: true`.
+- [x] **4. 구역 채우기 — ④ 아빠의 화단** — 완료(§8), 아직 push 안 함. 홈 슬라이드쇼 +
+      전체 그림 페이지(`plugins/gallery-page`, 신규). `home.gallery`를 **true**로 켬
+      (사용자 지시, 2026-09-23). **홈 5구역(①~⑤) 전부 완성.**
 - [ ] **5. 확인·배포** — 다음 작업분도 `npx quartz build`로 로컬 확인 → 이전 배포본과 `public/`
       비교(§8 방식) → diff 검토(비밀값 없는지) → 사용자 확인 후 `v5`에 push → Actions 배포 확인.
 

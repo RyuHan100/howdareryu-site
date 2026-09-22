@@ -1,0 +1,153 @@
+/* 색은 전부 테마 CSS 변수를 쓴다(하드코딩 금지 — CLAUDE.md §9). --lightgray 는 이 다크 테마에서
+   배경과 거의 같은 색이라 선·테두리에 쓰지 않는다(§4 함정 2, garden-home 에서 발견). */
+
+.gallery-page {
+  margin-top: 1rem;
+}
+
+/* 격자: 모바일 2열, 태블릿 3열, 데스크톱 4열. column 레이아웃이라 그림마다 비율이 달라도
+   자연스럽게 엇갈려 쌓인다(masonry). */
+.gg-grid {
+  column-count: 2;
+  column-gap: 0.6rem;
+}
+@media (min-width: 640px) {
+  .gg-grid {
+    column-count: 3;
+  }
+}
+@media (min-width: 1000px) {
+  .gg-grid {
+    column-count: 4;
+  }
+}
+
+.gg-item {
+  display: block;
+  margin: 0 0 0.6rem;
+  break-inside: avoid;
+  border: 6px solid color-mix(in srgb, var(--color-orange, var(--darkgray)) 55%, var(--light));
+  border-radius: 0.25rem;
+  overflow: hidden;
+  cursor: pointer;
+  background: color-mix(in srgb, var(--color-orange, var(--darkgray)) 12%, var(--light));
+}
+.gg-item:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
+.gg-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* aspect-ratio 를 원본 그림 비율로 맞춰 두므로(component.js) cover 든 contain 이든 결과가
+     같지만, width/height 정보가 없는(로컬 등) 기본 4:3 상자에서는 contain 이 안전하다 —
+     "그림 비율이 제각각이니 잘리지 않게" 요구사항. */
+  object-fit: contain;
+}
+.gg-item:hover img {
+  filter: brightness(1.08);
+}
+
+/* 맨 아래 장식 화단 가장자리 */
+.gg-footer {
+  margin-top: 1rem;
+  line-height: 0;
+}
+.gg-footer-bed {
+  display: block;
+  width: 100%;
+  height: 42px;
+}
+.gg-footer-soil {
+  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 45%, var(--light));
+}
+.gg-footer-soil-line {
+  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 70%, var(--light));
+  stroke-width: 1;
+}
+.gg-stem {
+  fill: none;
+  stroke: color-mix(in srgb, var(--color-green, var(--secondary)) 70%, var(--light));
+  stroke-width: 1.4;
+}
+.gg-petal-0 {
+  fill: var(--color-pink, var(--tertiary));
+}
+.gg-petal-1 {
+  fill: var(--color-yellow, var(--tertiary));
+}
+.gg-petal-2 {
+  fill: var(--color-purple, var(--secondary));
+}
+.gg-heart {
+  fill: var(--color-orange, var(--secondary));
+}
+
+/* 라이트박스: 원본 크기로 크게 보기 */
+.gg-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: color-mix(in srgb, var(--dark) 88%, transparent);
+}
+.gg-lightbox[hidden] {
+  display: none;
+}
+.gg-lb-img {
+  max-width: 92vw;
+  max-height: 82vh;
+  object-fit: contain;
+  display: block;
+}
+.gg-lb-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  margin: 0;
+  text-align: center;
+  padding: 0 3rem;
+  color: var(--light);
+  font-size: 0.9rem;
+}
+.gg-lb-close,
+.gg-lb-prev,
+.gg-lb-next {
+  position: absolute;
+  font: inherit;
+  cursor: pointer;
+  color: var(--light);
+  background: color-mix(in srgb, var(--dark) 45%, transparent);
+  border: none;
+  border-radius: 999px;
+}
+.gg-lb-close:hover,
+.gg-lb-prev:hover,
+.gg-lb-next:hover {
+  background: color-mix(in srgb, var(--dark) 65%, transparent);
+}
+.gg-lb-close {
+  top: 1rem;
+  right: 1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1.1rem;
+}
+.gg-lb-prev,
+.gg-lb-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.6rem;
+  height: 2.6rem;
+  font-size: 1.6rem;
+}
+.gg-lb-prev {
+  left: 1rem;
+}
+.gg-lb-next {
+  right: 1rem;
+}

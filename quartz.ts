@@ -8,6 +8,9 @@ import { collectGardenData } from "./quartz/garden/collect"
 // 홈에서만 렌더링할 컴포넌트용 (quartz.config.yaml 의 layout.condition: index)
 registerCondition("index", (props) => props.fileData.slug === "index")
 
+// 아빠의 화단 전체 그림 페이지에서만 렌더링할 컴포넌트용 (layout.condition: gallery)
+registerCondition("gallery", (props) => props.fileData.slug === "gallery")
+
 // 홈 컴포넌트 + 오솔길(탐색기) 식물 이모지가 같은 판정 결과를 쓰도록, 탐색기 설정을
 // 만들기 전에 먼저 수집한다(.garden-cache/garden-data.json). 실패해도 빌드는 계속한다.
 try {

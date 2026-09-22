@@ -14,3 +14,9 @@ quartz/cli/tui/dist/
 
 # 정원 데이터 수집 결과(빌드할 때마다 다시 만든다)
 .garden-cache/
+
+# 갤러리 썸네일(scripts/gen_gallery.py, CI에서만 만든다)은 여기 안 넣는다 — Assets 이모터
+# (quartz/plugins/emitters/assets.ts)도 Static 이모터처럼 glob(..., gitignore:true) 라, 여기
+# 적으면 CI에서 방금 만든 썸네일까지 public/ 복사에서 빠져 사이트에서 이미지가 다 깨진다
+# (garden-properties-data.js 때와 같은 함정, CLAUDE.md §7/§8). 로컬에서 생겼을 때 커밋에
+# 안 들어가게 하는 건 손으로 주의(§8) — .gitignore 로 막을 수 없다.

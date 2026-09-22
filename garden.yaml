@@ -92,7 +92,7 @@ properties:
 home:
   garden: true
   radar: true
-  gallery: false
+  gallery: true
 
 # 정원 데이터에서 뺄 폴더 이름. 경로 어디에 있든 이 이름의 폴더 안은 모두 제외
 # (radar/news/data, radar/pacm/data 처럼 "모든 data 폴더").
@@ -163,7 +163,15 @@ radar:
 #     title: 봄 산책
 #     year: 2026
 #     material: 수채
+# 정렬: meta_file 에 year 가 있으면 연도순(최신 먼저), 없으면 git 기준 파일 추가일순(최신 먼저) —
+# quartz/garden/collect.ts 가 계산해서 gallery.images 에 이미 그 순서로 담아 둔다.
+#   intro            : 홈 "아빠의 화단" 슬라이드쇼 제목 아래 한 줄 소개.
+#   home_count       : 홈 슬라이드쇼에 보여줄 최근 그림 수.
+#   interval_seconds : 홈 슬라이드쇼 자동 전환 간격(초).
 gallery:
   folder: img/inspiration
   artist: 여송
   meta_file: gallery.yaml
+  intro: 아버지 여송의 그림들입니다.
+  home_count: 10
+  interval_seconds: 4

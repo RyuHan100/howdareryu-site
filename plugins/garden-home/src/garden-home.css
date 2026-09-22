@@ -371,3 +371,150 @@
 .radar-panel-title {
   margin-top: 0.1rem;
 }
+
+/* ---------- ④ 아빠의 화단 ---------- */
+
+.gallery-intro {
+  margin-top: 0;
+}
+
+.gallery-slideshow {
+  position: relative;
+}
+
+.gallery-slide-track {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--gray) 30%, var(--light));
+  background: color-mix(in srgb, var(--color-orange, var(--darkgray)) 6%, var(--light));
+}
+
+.gallery-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+}
+.gallery-slide.is-active {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .gallery-slide {
+    transition: opacity 0.9s ease;
+  }
+}
+.gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+.gallery-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.85rem;
+  color: var(--light);
+  background: color-mix(in srgb, var(--dark) 55%, transparent);
+}
+
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  font: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  color: var(--light);
+  background: color-mix(in srgb, var(--dark) 45%, transparent);
+}
+.gallery-nav:hover {
+  background: color-mix(in srgb, var(--dark) 65%, transparent);
+}
+.gallery-prev {
+  left: 0.5rem;
+}
+.gallery-next {
+  right: 0.5rem;
+}
+
+.gallery-play {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 2;
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--light);
+  background: color-mix(in srgb, var(--dark) 45%, transparent);
+  border: none;
+  border-radius: 999px;
+  padding: 0.25rem 0.55rem;
+}
+.gallery-play:hover {
+  background: color-mix(in srgb, var(--dark) 65%, transparent);
+}
+
+.gallery-buds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+  margin-top: 0.5rem;
+}
+.gallery-bud {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.1rem;
+  line-height: 0;
+}
+.gallery-bud-svg {
+  width: 20px;
+  height: 22px;
+  display: block;
+}
+.gb-stem {
+  fill: none;
+  stroke: color-mix(in srgb, var(--color-green, var(--secondary)) 70%, var(--light));
+  stroke-width: 1.4;
+}
+.gb-bud {
+  fill: color-mix(in srgb, var(--color-green, var(--secondary)) 60%, var(--light));
+}
+.gallery-bud.is-active .gb-bud {
+  fill: var(--color-green, var(--secondary));
+}
+.gb-petal-0 {
+  fill: var(--color-pink, var(--tertiary));
+}
+.gb-petal-1 {
+  fill: var(--color-yellow, var(--tertiary));
+}
+.gb-petal-2 {
+  fill: var(--color-purple, var(--secondary));
+}
+.gb-heart {
+  fill: var(--color-orange, var(--secondary));
+}
+
+.gallery-view-all {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+}

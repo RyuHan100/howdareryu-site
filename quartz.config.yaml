@@ -311,11 +311,18 @@ plugins:
       # === garden.yaml 자동 생성 시작 (직접 고치지 말고 garden.yaml 을 고치세요) ===
       garden: true
       radar: true
-      gallery: false
+      gallery: true
       # === garden.yaml 자동 생성 끝 ===
     layout:
       position: afterBody
       condition: index
+      priority: 5
+  # 아빠의 화단 전체 그림 페이지(격자 + 라이트박스) — content/gallery.md 에서만 나온다
+  - source: ./plugins/gallery-page
+    enabled: true
+    layout:
+      position: afterBody
+      condition: gallery
       priority: 5
   # 댓글 (Cloudflare Workers + D1). 노트에서 끄려면 frontmatter 에 comments: false
   - source: ./plugins/hdr-comments

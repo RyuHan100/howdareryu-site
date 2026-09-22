@@ -58,6 +58,12 @@ export interface GardenDataConfig {
     folder: string
     artist: string
     meta_file: string
+    /** 홈 "아빠의 화단" 슬라이드쇼 제목 아래 한 줄 소개. */
+    intro: string
+    /** 홈 슬라이드쇼에 보여줄 최근 그림 수. */
+    home_count: number
+    /** 홈 슬라이드쇼 자동 전환 간격(초). */
+    interval_seconds: number
   }
 }
 
@@ -86,6 +92,9 @@ export const DEFAULT_GARDEN_CONFIG: GardenDataConfig = {
     folder: "img/inspiration",
     artist: "",
     meta_file: "gallery.yaml",
+    intro: "",
+    home_count: 10,
+    interval_seconds: 4,
   },
 }
 

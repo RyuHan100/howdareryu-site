@@ -497,6 +497,19 @@ export function collectGardenData(now = new Date()): GardenDataSummary {
       console.warn(`[garden] ${cfg.gallery.meta_file} 을 읽지 못했다: ${e}`)
     }
   }
+  // 이미지 원본 크기: scripts/gen_gallery.py 가 썸네일을 만들 때 같이 적어 두는
+  // content/img/thumbs/meta.json (없으면 — 로컬처럼 아직 썸네일을 안 만들었으면 — 그냥 없이
+  // 간다, 레이아웃 흔들림 방지용 aspect-ratio 만 못 쓸 뿐 나머지는 그대로 동작).
+  let dims: Record<string, { width: number; height: number }> = {}
+  const dimsPath = path.join(CONTENT_DIR, "img", "thumbs", "meta.json")
+  if (fs.existsSync(dimsPath)) {
+    try {
+      dims = JSON.parse(fs.readFileSync(dimsPath, "utf-8"))
+    } catch (e) {
+      console.warn(`[garden] img/thumbs/meta.json 을 읽지 못했다: ${e}`)
+    }
+  }
+
   const images = allRels
     .filter((r) => under(r, galleryDir) && IMAGE_EXT.has(path.posix.extname(r).toLowerCase()))
     .sort()
@@ -505,17 +518,28 @@ export function collectGardenData(now = new Date()): GardenDataSummary {
       const m = meta[name] ?? meta[stem(rel)] ?? {}
       const h = historyOf(git, `${CONTENT}/${rel}`)
       const drawn = stem(rel).match(/^(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})(\d{2})/)
+      const added = h?.created ?? fileTimes(rel).created
+      const year = typeof m.year === "number" ? m.year : m.year ? Number(m.year) : null
+      const d = dims[name] ?? dims[stem(rel)]
       return {
         file: rel,
         src: "/" + slugifyFilePath(rel as FilePath),
-        added: h?.created ?? fileTimes(rel).created,
+        thumb: `/img/thumbs/${stem(rel)}.webp`,
+        width: d?.width ?? null,
+        height: d?.height ?? null,
+        added,
         addedFrom: h ? ("git" as const) : ("file" as const),
         takenAt: drawn ? `${drawn[1]}-${drawn[2]}-${drawn[3]}T${drawn[4]}:${drawn[5]}:${drawn[6]}` : null,
         title: m.title ?? null,
-        year: m.year ?? null,
+        year,
         material: m.material ?? null,
+        // 정렬용: year 가 있으면 그 해, 없으면 added 의 해 — garden.yaml 설명 그대로("연도가
+        // 있으면 연도순, 없으면 git 기준 파일 추가일순"). 최신이 먼저 오도록 내림차순으로 쓴다.
+        sortYear: year ?? new Date(added).getFullYear(),
       }
     })
+    .sort((a, b) => b.sortYear - a.sortYear || b.added.localeCompare(a.added))
+    .map(({ sortYear: _sortYear, ...rest }) => rest)
 
   const data = {
     generatedAt: now.toISOString(),
@@ -526,7 +550,12 @@ export function collectGardenData(now = new Date()): GardenDataSummary {
         default: cfg.plants.default,
         wither_after_days: cfg.plants.wither_after_days,
       },
-      gallery: { artist: cfg.gallery.artist },
+      gallery: {
+        artist: cfg.gallery.artist,
+        intro: cfg.gallery.intro,
+        home_count: cfg.gallery.home_count,
+        interval_seconds: cfg.gallery.interval_seconds,
+      },
     },
     garden: { folder: cfg.garden.folder, notes: gardenNotes },
     radar: { folder: radarRoot, subfolders: radarSubfolders, notes: radarNotes },

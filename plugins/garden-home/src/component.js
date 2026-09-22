@@ -136,6 +136,81 @@ function radarSection() {
   })
 }
 
+/** 캡션: 제목·연도·재료·작가. 있는 것만 이어 붙이고, 하나도 없으면 null(칸 자체를 안 만든다). */
+function galleryCaption(img, artist) {
+  const parts = [img.title, img.year ? `${img.year}년` : null, img.material, artist].filter(Boolean)
+  return parts.length > 0 ? parts.join(" · ") : null
+}
+
+// ④ 아빠의 화단 — 최근 그림을 4초마다 겹쳐지며 넘기는 슬라이드쇼. 실제 넘기기·일시정지·재생·
+// 화면 밖 정지는 gallery-interactive.js(afterDOMLoaded)가 한다. 그림 정보(썸네일·크기·연도 등)는
+// 여기서 data-* 로 각 슬라이드에 미리 심어 둔다.
+function gallerySection() {
+  const data = readGardenData()
+  const images = data?.gallery?.images ?? []
+  const cfg = data?.config?.gallery ?? {}
+  const artist = cfg.artist || ""
+  if (images.length === 0) {
+    return placeholder("아빠의 화단", "아직 올린 그림이 없어요.")
+  }
+  const count = Math.max(1, Number(cfg.home_count) || 10)
+  const intervalMs = Math.max(1, Number(cfg.interval_seconds) || 4) * 1000
+  const recent = images.slice(0, count)
+
+  // 슬라이드 상자 비율: 첫 그림 기준(없으면 4:3) — 그림마다 비율이 달라도 object-fit:contain 이라
+  // 안 잘리고, 상자 크기는 고정이라 로딩 중에도 안 흔들린다.
+  const first = recent.find((img) => img.width && img.height)
+  const ratio = first ? `${first.width} / ${first.height}` : "4 / 3"
+
+  const slides = recent.map((img, i) => {
+    const alt = galleryCaption(img, artist) ?? "작품 이미지"
+    const caption = galleryCaption(img, artist)
+    return h("figure", {
+      class: `gallery-slide${i === 0 ? " is-active" : ""}`,
+      "data-index": String(i),
+      children: [
+        h("img", {
+          src: img.thumb,
+          alt,
+          width: img.width || undefined,
+          height: img.height || undefined,
+          loading: i === 0 ? "eager" : "lazy",
+        }),
+        caption ? h("figcaption", { class: "gallery-caption", children: caption }) : null,
+      ].filter(Boolean),
+    })
+  })
+
+  return h("section", {
+    class: "garden-home-section garden-home-gallery",
+    "data-interval-ms": String(intervalMs),
+    children: [
+      h("h3", { children: "아빠의 화단" }),
+      cfg.intro ? h("p", { class: "gp-legend gallery-intro", children: cfg.intro }) : null,
+      h("div", {
+        class: "gallery-slideshow",
+        children: [
+          h("div", {
+            class: "gallery-slide-track",
+            style: `aspect-ratio:${ratio}`,
+            children: slides,
+          }),
+          h("button", { type: "button", class: "gallery-nav gallery-prev", "aria-label": "이전 그림", children: "‹" }),
+          h("button", { type: "button", class: "gallery-nav gallery-next", "aria-label": "다음 그림", children: "›" }),
+          h("button", { type: "button", class: "gallery-play", "aria-label": "일시정지", children: "❙❙" }),
+        ],
+      }),
+      h("div", {
+        class: "gallery-buds",
+        role: "tablist",
+        "aria-label": "그림 목록",
+        dangerouslySetInnerHTML: { __html: renderGalleryBuds(recent.length, 0) },
+      }),
+      h("a", { class: "gallery-view-all", href: "./gallery", children: "전체 보기 →" }),
+    ].filter(Boolean),
+  })
+}
+
 function link(href, children, opts) {
   return h("a", { href, target: opts?.external ? "_blank" : undefined, rel: opts?.external ? "noopener noreferrer" : undefined, children })
 }
@@ -171,7 +246,7 @@ export const GardenHome = (opts) => {
     const sections = []
     if (show.garden) sections.push(gardenSection())
     if (show.radar) sections.push(radarSection())
-    if (show.gallery) sections.push(placeholder("아빠의 화단", "content/img/inspiration 의 그림 슬라이드쇼 — 다음 단계에서 채울 예정."))
+    if (show.gallery) sections.push(gallerySection())
     sections.push(contactSection())
 
     return h("div", {
