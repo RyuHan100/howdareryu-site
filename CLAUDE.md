@@ -5,13 +5,15 @@
 
 ## 0. 현재 상태 (먼저 확인)
 
-- **탐색기 아이콘·제목 완료·배포됨(§5, 커밋 e048a83c).** `garden.yaml`의 `explorer`를
-  `quartz.ts`가 빌드 시작 시 읽어 `quartz.config.yaml`의 explorer `options`(마커 구간)를 다시 쓴다.
-  폴더 기본 🪴, radar 폴더와 그 하위 폴더 전부 📡, radar 안 노트 📍, 비공개 아카이브 🔒(중복 방지).
-- **정원 데이터 수집기 완료(§8.1), 아직 커밋 안 함.** 빌드 때 `.garden-cache/garden-data.json`을
-  만든다. 사이트 출력은 바뀌지 않는다(빌드 결과를 커밋 전 상태와 비교해 확인 — sitemap/RSS의
-  빌드 시각만 다름).
-- 홈 전용 컴포넌트(§8) 자체는 아직 착수 전.
+- **⚠️ `content/canvases.canvas`가 작업 트리에서 삭제돼 있고 `docs/Canvas.canvas`도 내용이
+  줄어든 상태(2026-09-23 발견).** 이 세션이 건드린 적 없는 파일이라 원인 불명 — Obsidian에서
+  캔버스를 열람/편집 중이었을 가능성. **커밋에서 계속 빼두고 있다.** 다음 작업 시작 전에
+  사용자에게 의도한 변경인지 확인할 것 — 이 삭제는 사이트 빌드에도 실제로 영향을 준다
+  (그 페이지를 가리키던 backlink/graph 가 있던 페이지들이 같이 바뀜).
+- **탐색기(§5), 정원 데이터 수집기(§8.1), 홈 5구역+garden-home 뼈대(§8), ② 정원 SVG(§8)
+  전부 완료·배포됨** (`v5`, 최신 배포 커밋 `ab748041`).
+- **③ radar 의 PACM 이력(revision) 단위 수집(§8.2) 구현 완료, 아직 커밋 안 함** — 사용자
+  확인 대기 중. radar 컴포넌트 자체(5단계)는 아직 착수 전.
 
 ## 1. 저장소와 클론
 
@@ -237,6 +239,47 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 - 링크 해석은 Quartz `markdownLinkResolution: shortest`와 비슷하게: 경로가 있으면 경로(끝부분 일치),
   없으면 파일 이름(같은 폴더 우선, 그다음 가장 짧은 경로), 대소문자 무시, `./`·`../` 상대 경로,
   폴더 이름은 그 폴더 index로. 이미지 등 첨부 파일 링크·임베드와 `[[#제목]]`, 코드 블록 안 링크는 뺀다.
+
+### 8.2 radar 이력(revision) 단위 수집 — PACM ✅ (2026-09-23)
+
+radar 의 하위 폴더는 기본적으로 "노트 하나 = 점 하나"(§8.1)지만, PACM처럼 노트 하나가 계속
+갱신되는 폴더는 "이력 하나(=변경 하나) = 점 하나"가 더 맞다. `garden.yaml`의
+`radar.subfolders.<name>.granularity: revision`로 폴더별로 켠다(기본은 `note`, 안 적으면
+전과 동일) — **지금은 pacm 만 켜져 있고, news·국회 기노위는 그대로 노트 단위**.
+
+- **원본 데이터**: `tools/pacm_monitor/pacm_monitor.py`(매일 06:07 KST, `.github/workflows/pacm-monitor.yml`)가
+  `content/radar/pacm/data/`에 쓰는 파일들:
+  - `changelog.json` — **진짜 이력 로그**. 배열, 각 항목 `{date, event: added|removed|modified, key(="TYPE:ref"),
+    record(현재 레코드), changes?(modified 일 때만, {field: {before, after}})}`. 이게 이번에 쓰는 데이터다.
+  - `history/<날짜>.json` — 그날 전체 스냅숏(변경이 있었던 날만 생김). 이력이 아니라 전체 목록이라 안 씀.
+  - `state.json`, `latest.json/csv` — 현재 상태·최신 스냅숏. 이력 아님.
+  - 지금 실제로는 `changelog.json`에 항목이 1개뿐(2026-09-22, PA:6560 신규)이라 실제 밀집도는
+    확인 못 함 — 아래 "확인" 항목처럼 가짜 changelog로 시험했다.
+- **수집기**: `quartz/garden/collect.ts`의 `revisionRecordsFor(note, subfolder)` +
+  `readChangelog`/`summarizeEvent`/`summarizeGroup`. radar 노트를 만들 때 그 하위 폴더의
+  `granularity`가 `revision`이면 노트 옆(`path.dirname(note)/data/changelog.json`)을 읽어서,
+  **노트 하나 대신 이력마다 레코드 하나**를 만든다(changelog.json이 없거나 비어 있으면 그냥
+  기존 노트 단위 레코드로 대신 — 안전하게 폴백).
+- **같은 날 여러 건은 한 점으로 합침**(요청사항): `changelog.json`을 노트+날짜로 묶어서, 같은
+  날짜에 이력이 여러 개면 하나의 레코드로 합치고 `revision.count`/`revision.events[]`에 전부 담는다.
+  제목은 `"이 날 변경 N건"`, `summary`는 신규/삭제/수정 건수 + 각 이력 한 줄씩. 날짜가 다르면
+  당연히 점이 따로따로 찍힌다(합치는 건 "같은 날"일 때만).
+- **레코드 모양** — 기존 `radar.notes[]`와 **같은 배열, 같은 필드**(`subfolder, title, path, slug,
+  date, dateFrom, isIndex`)에 `revision` 필드만 추가된다(없으면 노트 단위, 있으면 이력 단위) —
+  **5단계 radar 컴포넌트는 이 배열을 그대로 쓰면 되고, `revision` 유무로 분기할 필요도 없다**
+  (나이 계산은 항상 `date`를 보면 되고, 이력 단위 레코드의 `date`는 이력 자체의 날짜라 "중심=오늘,
+  가장자리=30일" 계산이 노트 날짜가 아니라 이력 날짜 기준이 된다).
+  - `path`/`slug`는 항상 그 이력이 속한 노트(PACM은 하나뿐이라 전부 `radar/pacm/index`) —
+    이게 "원본 노트로 가는 링크"다. 같은 노트를 가리키는 레코드가 여러 개(이력이 여러 개)일 수 있다.
+  - `revision.events[]`: `{event, key, summary}`. `revision.summary`: 점에 붙일 한 줄 요약
+    (added `🆕 신규 등록 — [PA 6560] Patrind Hydropower Project`, modified는 바뀐 필드를
+    `before→after`로, removed는 `❌ 목록에서 삭제 — …`).
+- **확인(2026-09-23)**: 실제 `changelog.json`(PA:6560 1건)으로 빌드해 레코드 1개 생성을 확인.
+  진짜 밀집도를 보려고 임시로(제출 전 원본으로 되돌림) 가짜 5건(같은 날 3건 + 다른 날 2건)을
+  넣어봤더니 예상대로 **레코드 3개**(9/20 합쳐진 1개 "이 날 변경 3건", 9/21 1개, 9/22 1개)로
+  나왔다 — 병합이 의도대로 동작. 원본 `changelog.json`은 그대로 복원해 두었다(diff 없음).
+- **다른 구역으로 확장하려면**: 그 폴더의 노트 옆에 같은 형식(`data/changelog.json`)을 만들고
+  `garden.yaml`에 `granularity: revision`만 추가하면 된다 — 수집기 코드는 폴더 이름을 안 가린다.
 
 ## 9. 보존해야 할 기능
 

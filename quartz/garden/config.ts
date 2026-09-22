@@ -22,6 +22,12 @@ export interface PlantRule {
 export interface RadarSubfolderConfig {
   label?: string
   color?: string
+  /**
+   * "note"(기본) = 노트 하나가 점 하나. "revision" = 그 폴더의 노트가 가리키는
+   * data/changelog.json 의 변경 이력 하나하나가 점 하나(§8.2, PACM에 처음 적용).
+   * 나중에 다른 구역도 이 값만 바꾸면 이력 단위로 전환된다.
+   */
+  granularity?: "note" | "revision"
 }
 
 export interface HomeToggles {

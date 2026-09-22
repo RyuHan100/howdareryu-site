@@ -229,6 +229,115 @@ function datesOf(rel: string, fm: Frontmatter, git: GitHistory) {
   }
 }
 
+// ---------- radar 이력(revision) 단위 — 지금은 PACM 전용, garden.yaml 의
+// radar.subfolders.<name>.granularity: revision 로 켠다 (§8.2) ----------
+
+type RadarDateSource = DateSource | "filename" | "changelog"
+
+/** tools/pacm_monitor/pacm_monitor.py 가 쓰는 changelog.json 한 줄. */
+interface ChangelogEntry {
+  date: string
+  event: "added" | "removed" | "modified"
+  key: string
+  record?: { type?: string; ref?: string; title?: string; [k: string]: unknown }
+  changes?: Record<string, { before: unknown; after: unknown }>
+}
+
+const EVENT_LABEL: Record<ChangelogEntry["event"], string> = {
+  added: "신규",
+  removed: "삭제",
+  modified: "수정",
+}
+
+function shortValue(v: unknown): string {
+  if (Array.isArray(v)) return v.length ? v.join(", ") : "-"
+  if (v === undefined || v === null || v === "") return "-"
+  return String(v)
+}
+
+function recordLabel(r?: ChangelogEntry["record"]): string {
+  if (!r) return ""
+  const tag = r.type && r.ref ? `[${r.type} ${r.ref}] ` : ""
+  return `${tag}${r.title ?? ""}`.trim()
+}
+
+/** 이력 하나(added/removed/modified)를 한 줄 요약으로. */
+function summarizeEvent(e: ChangelogEntry): string {
+  const label = recordLabel(e.record)
+  if (e.event === "added") return `🆕 신규 등록 — ${label}`
+  if (e.event === "removed") return `❌ 목록에서 삭제 — ${label}`
+  const fields = Object.entries(e.changes ?? {}).map(([field, c]) => {
+    if (Array.isArray(c.before) || Array.isArray(c.after)) return `${field} 변경`
+    return `${field} ${shortValue(c.before)}→${shortValue(c.after)}`
+  })
+  return `🔄 정보 변경 — ${label}${fields.length ? ` (${fields.join(", ")})` : ""}`
+}
+
+/** 같은 노트·같은 날짜의 이력 여러 개를 한 점으로 합칠 때 쓰는 요약(너무 빼곡해지지 않게). */
+function summarizeGroup(events: ChangelogEntry[]): { title: string; summary: string } {
+  if (events.length === 1) {
+    return { title: recordLabel(events[0].record) || "PACM 변경", summary: summarizeEvent(events[0]) }
+  }
+  const counts = { added: 0, removed: 0, modified: 0 }
+  for (const e of events) counts[e.event]++
+  const parts = (["added", "removed", "modified"] as const)
+    .filter((k) => counts[k] > 0)
+    .map((k) => `${EVENT_LABEL[k]} ${counts[k]}`)
+  return {
+    title: `이 날 변경 ${events.length}건`,
+    summary: `이 날 변경 ${events.length}건 (${parts.join(" · ")}) — ${events.map(summarizeEvent).join(" / ")}`,
+  }
+}
+
+function readChangelog(noteRel: string): ChangelogEntry[] | null {
+  const changelogPath = path.join(CONTENT_DIR, path.posix.dirname(noteRel), "data", "changelog.json")
+  if (!fs.existsSync(changelogPath)) return null
+  try {
+    const parsed = JSON.parse(fs.readFileSync(changelogPath, "utf-8"))
+    return Array.isArray(parsed) ? parsed : null
+  } catch (e) {
+    console.warn(`[garden] ${path.relative(process.cwd(), changelogPath)} 을 읽지 못했다: ${e}`)
+    return null
+  }
+}
+
+/**
+ * 노트 옆 data/changelog.json 을 읽어 이력 하나당 레코드 하나로 만든다. 같은 날짜의 이력은
+ * 한 점으로 합친다(요청: "하루에 여러 번이면 하나로"). 반환하는 배열의 모양은 일반 radar.notes[]
+ * 항목과 같고(subfolder/title/path/slug/date/dateFrom/isIndex), `revision` 필드만 추가로 붙는다
+ * — 5단계의 radar 컴포넌트는 이 구분 없이 같은 배열로 쓸 수 있다. changelog.json 이 없으면(아직
+ * 한 번도 변경이 없었던 폴더 등) null 을 돌려줘서 호출부가 노트 단위 기본 동작으로 대신하게 한다.
+ */
+function revisionRecordsFor(note: SourceNote, subfolder: string) {
+  const changelog = readChangelog(note.rel)
+  if (!changelog || changelog.length === 0) return null
+
+  const byDate = new Map<string, ChangelogEntry[]>()
+  for (const e of changelog) {
+    if (!byDate.has(e.date)) byDate.set(e.date, [])
+    byDate.get(e.date)!.push(e)
+  }
+
+  const isIndex = stem(note.rel) === "index"
+  return [...byDate.entries()].map(([date, events]) => {
+    const { title, summary } = summarizeGroup(events)
+    return {
+      subfolder,
+      title,
+      path: note.rel,
+      slug: note.slug,
+      date,
+      dateFrom: "changelog" as RadarDateSource,
+      isIndex,
+      revision: {
+        count: events.length,
+        events: events.map((e) => ({ event: e.event, key: e.key, summary: summarizeEvent(e) })),
+        summary,
+      },
+    }
+  })
+}
+
 // ---------- 식물 ----------
 
 function decidePlant(
@@ -341,20 +450,25 @@ export function collectGardenData(now = new Date()): GardenDataSummary {
   const radarRoot = cfg.radar.folder.replace(/\/+$/, "")
   const radarNotes = [...notes.values()]
     .filter((n) => under(n.rel, radarRoot) && !isExcluded(n.rel, cfg))
-    .map((n) => {
+    .flatMap((n) => {
       const segs = n.rel.split("/")
       const subfolder = segs.length > 2 ? segs[1] : ""
+      const granularity = cfg.radar.subfolders[subfolder]?.granularity ?? "note"
+      if (granularity === "revision") {
+        const revisions = revisionRecordsFor(n, subfolder)
+        if (revisions) return revisions // changelog.json 이 있으면 이력 단위로 — 없으면 노트 그대로(아래)
+      }
       const fromFm = fmDate(n.fm, ["date"])
       const fromName = path.posix.basename(n.rel).match(/(\d{4}-\d{2}-\d{2})/)?.[1] ?? null
       let date: string
-      let dateFrom: "frontmatter" | "filename" | "git" | "file"
+      let dateFrom: RadarDateSource
       if (fromFm) [date, dateFrom] = [fromFm, "frontmatter"]
       else if (fromName) [date, dateFrom] = [fromName, "filename"]
       else {
         const d = datesOf(n.rel, n.fm, git)
         ;[date, dateFrom] = [d.modified, d.modifiedFrom === "frontmatter" ? "frontmatter" : d.modifiedFrom]
       }
-      return { subfolder, title: n.title, path: n.rel, slug: n.slug, date, dateFrom, isIndex: stem(n.rel) === "index" }
+      return [{ subfolder, title: n.title, path: n.rel, slug: n.slug, date, dateFrom, isIndex: stem(n.rel) === "index" }]
     })
     .sort((a, b) => b.date.localeCompare(a.date))
 
