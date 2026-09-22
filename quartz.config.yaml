@@ -161,17 +161,26 @@ plugins:
         (node) => {
           const folderIcons = {"radar":"📡"};
           const itemIcons = {"radar":"📍","archive":"🔒"};
+          const plantIcons = {"scribbled-notes/2026-08-04-오빠가-냉장고를-사줬다":"🌱","scribbled-notes/2026-08-24-노동의-우울과-자율성의-훼손":"🌱","scribbled-notes/2026-09-01-토끼풀":"🌱","scribbled-notes/2026-09-20-ai":"🌼","scribbled-notes/그-목소리는-왜":"🌿"};
           const defaultFolderIcon = "🪴";
-          const name = node.displayName || node.slugSegment || "";
           if (node.isFolder) {
+            const name = node.displayName || node.slugSegment || "";
             const top = (node.slugSegments && node.slugSegments[0]) || node.slugSegment;
             const icon = folderIcons[node.slugSegment] || folderIcons[top] || defaultFolderIcon;
             if (icon && !name.includes(icon)) node.displayName = icon + " " + name;
             return;
           }
           const top = (node.slugSegments && node.slugSegments[0]) || "";
-          const icon = itemIcons[top];
-          if (icon && !name.includes(icon)) node.displayName = icon + " " + name;
+          const itemIcon = itemIcons[top];
+          if (itemIcon) {
+            const name = node.displayName || node.slugSegment || "";
+            if (!name.includes(itemIcon)) node.displayName = itemIcon + " " + name;
+          }
+          const plantIcon = plantIcons[node.data && node.data.slug];
+          if (plantIcon) {
+            const name = node.displayName || node.slugSegment || "";
+            if (!name.includes(plantIcon)) node.displayName = plantIcon + " " + name;
+          }
         }
       # === garden.yaml 자동 생성 끝 ===
       # 폴더 먼저(scribbled notes 를 맨 위에, 나머지는 이름순). 날짜가 붙은 노트끼리는 최신순.

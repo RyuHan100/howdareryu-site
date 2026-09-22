@@ -91,8 +91,9 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 **구현: `garden.yaml`(설정) + `quartz/garden/syncExplorerFromGarden.ts`(빌드 시점 반영).**
 - `garden.yaml`의 `explorer:` 키에 `title`, `folder_icon`(매핑에 없는 폴더의 기본 아이콘),
   `folders`(폴더 자기 이름 → 아이콘), `items`(노트가 속한 최상위 조상 폴더/파일 이름 → 아이콘,
-  깊이 무관) 4개로 관리. 지금 값: title `오솔길`, folder_icon `🪴`, folders `{radar: 📡}`,
-  items `{radar: 📍, archive: 🔒}`.
+  깊이 무관), `plants`(scribbled notes 노트 앞 식물 이모지, 아래 참고) 5개로 관리. 지금 값:
+  title `오솔길`, folder_icon `🪴`, folders `{radar: 📡}`, items `{radar: 📍, archive: 🔒}`,
+  plants `{grass: 🌱, flower: 🌼, vine: 🌿, tree: 🌳, wilted: 🍂}`.
 - `quartz.ts`가 `loadQuartzConfig()`를 부르기 **전에** `syncExplorerConfigFromGarden()`을 호출해서
   `garden.yaml`을 읽고, `quartz.config.yaml`의 explorer `options` 안 마커
   (`# === garden.yaml 자동 생성 시작/끝 ===`) 구간만 `title`/`mapFn`으로 재생성한다. 마커 바깥의
@@ -104,13 +105,32 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
   아카이브는 frontmatter title에 이미 "🔒 비공개 아카이브"가 있어서 중복 없이 그대로 나온다.
 - 결과(실제 콘텐츠로 시뮬레이션 검증함): 폴더는 기본 🪴, radar 폴더만 📡, radar 아래 모든 노트
   (news/pacm/국회 기노위 등 하위 폴더 깊이 무관)는 📍, 비공개 아카이브는 🔒 중복 없음.
-  scribbled notes 노트들은 아직 아무 아이콘도 안 붙음(§8에서 식물 이모지로 다룰 예정, 이번엔 범위 밖).
 - **한 번 CSS(`::before`, `quartz/styles/custom.scss`) 방식으로 바꿔본 적이 있다.** 표시 이름·정렬에
   전혀 영향이 없어서 이론적으론 더 안전하지만, `folders`처럼 폴더별 예외까지 `garden.yaml` 하나로
   관리하려면 CSS 셀렉터를 매번 손으로 추가해야 해서 "설정에 없는 새 폴더는 자동으로 기본 아이콘"이
   안 됐다 → 다시 지금의 mapFn/garden.yaml 방식으로 되돌렸다. CSS 규칙은 `custom.scss`에서
   전부 제거했다(더 필요해지면 폴더 컨테이너의 `data-folderpath`, 파일은 `a[href^="/prefix/"]`
   셀렉터를 쓸 수 있다는 건 기록해 둔다).
+
+**식물 이모지(`explorer.plants`) ✅ 완료(2026-09-23) — 정원 그림과 반드시 같은 데이터를 쓴다.**
+- `quartz.ts`의 실행 순서를 바꿨다: `collectGardenData()`(§8.1)를 `syncExplorerConfigFromGarden()`
+  **보다 먼저** 부른다. 그래서 오솔길의 `mapFn`을 만들 때 이미 `.garden-cache/garden-data.json`
+  이 존재하고, `syncExplorerFromGarden.ts`가 그 안의 `garden.notes[].plant`/`wilted`를 그대로
+  읽어(판정 로직을 여기서 다시 만들지 않음) `{slug: 이모지}` 표를 만들어 `mapFn`에 `plantIcons`로
+  박아 넣는다. → **정원 그림(§8)과 오솔길이 항상 같은 판정 결과를 보고, 둘이 어긋날 수가 없다**
+  (판정 기준을 바꾸면 `garden.yaml`의 최상위 `plants.rules`만 고치면 둘 다 같이 바뀐다).
+  `garden-data.json`이 없거나 못 읽으면(빌드 실패 등) `plantIcons`가 빈 객체가 돼서 조용히
+  아이콘 없이 넘어간다 — 탐색기 자체가 깨지지는 않는다.
+  wilted는 종류보다 우선(시든 덩굴도 종류 이모지 대신 🍂).
+  - 구현: `quartz/garden/syncExplorerFromGarden.ts`에 `readGardenNotes()`/`buildPlantIconsBySlug()`
+    추가, `mapFn`에 파일 분기 마지막에 `plantIcons[node.data.slug]` 검사 한 단락 추가(폴더/`itemIcons`
+    로직은 그대로).
+  - 검증: 실제 5개 노트로 시뮬레이션(풀 3·꽃 1·덩굴 1, garden-data.json과 정확히 일치),
+    wilted 우선순위는 단위 테스트로 확인(시든 덩굴 → 🍂, 안 시든 나무 → 🌳 그대로).
+    사이트 전체 747개 페이지의 `<body>`를 배포본과 비교하면 **전부 다르게 나오는데**, 이유는
+    오솔길이 모든 페이지에 있는 공용 사이드바라 `mapFn` 문자열이 담긴 `data-data-fns` 속성이
+    모든 페이지 HTML에 박혀 있기 때문 — 그 속성만 빼고 비교하면 완전히 동일함을 확인했다
+    (=다른 페이지의 실제 렌더링·기능은 안 바뀜, 예상된 정상 동작).
 
 ## 6. 배포 워크플로 (`.github/workflows/deploy.yml`)
 

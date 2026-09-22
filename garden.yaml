@@ -18,11 +18,18 @@
 #                 일치하면 그 노트 제목 앞에 이 아이콘을 붙인다. radar 아래 몇 단계든
 #                 들어있는 노트는 전부 이 규칙 하나로 잡힌다. 최상위 파일도 자기 자신의
 #                 슬러그로 매칭된다(예: archive).
+#   plants      : scribbled notes 노트 앞에 식물 판정 결과대로 붙이는 아이콘. 키는 아래
+#                 최상위 plants.kinds 와 같은 종류(grass/flower/vine/tree) + wilted(시듦).
+#                 판정은 홈의 정원 그림과 완전히 같은 데이터(.garden-cache/garden-data.json,
+#                 quartz/garden/collect.ts 의 결과)를 그대로 읽어서 쓴다 — 규칙을 여기 따로
+#                 두지 않는다. 그래서 이 값을 늘리면(예: grass 판정 기준을 바꾸면) 정원 그림과
+#                 오솔길 둘 다 같이 바뀌고, 둘이 어긋날 일이 없다. wilted 는 종류와 무관하게
+#                 우선 적용(시든 덩굴도 🍂).
 #   표시 제목에 해당 아이콘이 이미 들어있으면 중복해서 붙이지 않는다(예: 비공개
 #   아카이브는 frontmatter title 에 이미 🔒 가 있어서 그대로 유지됨).
 #
-# 나머지 항목(exclude_folders, garden, plants, radar, gallery)은 홈 컴포넌트용 데이터
-# 설정이다 — 아래 구분선 참고. 앞으로 정원 설정은 모두 이 파일에 추가한다.
+# 나머지 항목(exclude_folders, garden, plants, radar, gallery — explorer.plants 와는
+# 다른, 홈 컴포넌트용 데이터 설정)은 아래 구분선 참고. 앞으로 정원 설정은 모두 이 파일에 추가한다.
 explorer:
   title: 오솔길
   folder_icon: 🪴
@@ -31,6 +38,12 @@ explorer:
   items:
     radar: 📍
     archive: 🔒
+  plants:
+    grass: 🌱
+    flower: 🌼
+    vine: 🌿
+    tree: 🌳
+    wilted: 🍂
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 아래는 홈 컴포넌트(정원·radar·아빠의 화단)가 쓸 데이터 설정.
