@@ -96,6 +96,46 @@ function gardenSection() {
   })
 }
 
+// ③ radar — radar-svg.js 의 renderRadar 가 만든 SVG 를 그대로 넣는다. 점 클릭 패널·화면 밖
+// 정지는 radar-interactive.js(afterDOMLoaded)가 한다.
+function radarSection() {
+  const data = readGardenData()
+  const subfolders = data?.radar?.subfolders ?? []
+  const notes = data?.radar?.notes ?? []
+  if (subfolders.length === 0) {
+    return placeholder("radar", "radar 폴더가 아직 없어요.")
+  }
+  const r = renderRadar(subfolders, notes, new Date())
+  const legend = subfolders
+    .map((s) => `${s.label} ${s.count}`)
+    .join(" · ")
+  return h("section", {
+    class: "garden-home-section garden-home-radar",
+    children: [
+      h("h3", { children: "radar" }),
+      h("div", { class: "radar-face-wrap", dangerouslySetInnerHTML: { __html: r.html } }),
+      h("p", { class: "gp-legend", children: `최근 30일 ${r.count}건 · ${legend}` }),
+      h("div", {
+        class: "gp-panel radar-panel",
+        role: "status",
+        children: [
+          h("button", { type: "button", class: "gp-panel-close", "aria-label": "닫기", children: "✕" }),
+          h("p", {
+            class: "gp-panel-meta",
+            children: [
+              h("span", { class: "radar-panel-subfolder" }),
+              text(" · "),
+              h("span", { class: "radar-panel-date" }),
+            ],
+          }),
+          h("p", { class: "gp-panel-title radar-panel-title" }),
+          h("a", { class: "gp-panel-link radar-panel-link", children: "노트로 가기 →" }),
+        ],
+      }),
+    ],
+  })
+}
+
 function link(href, children, opts) {
   return h("a", { href, target: opts?.external ? "_blank" : undefined, rel: opts?.external ? "noopener noreferrer" : undefined, children })
 }
@@ -130,7 +170,7 @@ export const GardenHome = (opts) => {
   const Component = ({ displayClass }) => {
     const sections = []
     if (show.garden) sections.push(gardenSection())
-    if (show.radar) sections.push(placeholder("radar", "radar 폴더의 최근 기록이 레이더 화면에 점으로 뜨는 그림 — 다음 단계에서 채울 예정."))
+    if (show.radar) sections.push(radarSection())
     if (show.gallery) sections.push(placeholder("아빠의 화단", "content/img/inspiration 의 그림 슬라이드쇼 — 다음 단계에서 채울 예정."))
     sections.push(contactSection())
 

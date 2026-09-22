@@ -4,10 +4,13 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
 
 const read = (name) => readFileSync(new URL(`./src/${name}`, import.meta.url), "utf-8")
 
-// garden-svg.js(순수 함수)를 component.js 앞에 붙인다. import 문은 ESM 에서 어디 있든 끌어올려진다.
-const out = (read("garden-svg.js") + "\n" + read("component.js"))
+// garden-svg.js/radar-svg.js(순수 함수)를 component.js 앞에 붙인다. import 문은 ESM 에서 어디
+// 있든 끌어올려진다. 클라이언트 스크립트(afterDOMLoaded)는 garden-interactive.js 뒤에
+// radar-interactive.js 를 이어 붙여 하나의 문자열로 만든다 — 둘 다 "nav" 리스너를 각자 걸고
+// 서로 다른 섹션(.garden-home-garden/.garden-home-radar)만 찾으므로 순서는 안 중요하다.
+const out = (read("garden-svg.js") + "\n" + read("radar-svg.js") + "\n" + read("component.js"))
   .replace("__STYLES__", () => JSON.stringify(read("garden-home.css")))
-  .replace("__SCRIPT__", () => JSON.stringify(read("garden-interactive.js")))
+  .replace("__SCRIPT__", () => JSON.stringify(read("garden-interactive.js") + "\n" + read("radar-interactive.js")))
 
 const banner = "// 자동 생성 파일. src/ 를 고친 뒤 `node build.mjs` 로 다시 만든다.\n"
 const types =

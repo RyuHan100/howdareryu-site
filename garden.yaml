@@ -91,7 +91,7 @@ properties:
 # options 에 반영한다(explorer 와 같은 마커 방식).
 home:
   garden: true
-  radar: false
+  radar: true
   gallery: false
 
 # 정원 데이터에서 뺄 폴더 이름. 경로 어디에 있든 이 이름의 폴더 안은 모두 제외

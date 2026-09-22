@@ -266,6 +266,163 @@ function renderGarden(notes, labels) {
   return { html: beds("narrow") + beds("wide"), rows: rows.length, counts, wilted, seeds }
 }
 
+// ③ radar — content/radar/ 하위 폴더 수만큼 부채꼴 구역을 나누고, 각 기록(radar.notes)을
+// 점으로 찍는다. 중심 = 오늘, 가장자리(RADAR_R) = 30일 전. 30일보다 오래된 기록은 아예 안 그린다.
+// 회전하는 빛줄기(잔상 몇 겹)와 "빛줄기가 지나가면 점이 밝아졌다가 흐려짐"은 CSS 애니메이션으로
+// 하고(garden-home.css 의 --radar-sweep-duration 과 반드시 같은 값을 SWEEP_DURATION 에 써야
+// 싱크가 맞다), 이 파일은 그 타이밍(각 점의 animation-delay)만 미리 계산해 심어 둔다. 화면
+// 밖일 때 멈추는 것·점 클릭 패널은 radar-interactive.js(클라이언트)가 한다.
+//
+// 각도 규칙: 0°=12시 방향, 시계방향으로 증가(CSS `rotate(deg)`와 같은 방향) — 빛줄기 회전과
+// 점의 위치가 같은 좌표계를 써야 "지나갈 때" 계산이 맞는다.
+
+// f/esc/fnv1a/rnd 는 garden-svg.js 에 이미 있다(build.mjs 가 그 파일을 이 파일보다 먼저
+// 이어 붙인다 — 같은 스코프에 두 번 선언하면 안 되므로 여기서 다시 만들지 않는다).
+
+const RADAR_SIZE = 320
+const RADAR_CENTER = RADAR_SIZE / 2
+const RADAR_R = 118
+const RADAR_MAX_AGE_DAYS = 30
+const RING_STEPS = [10, 20, 30]
+// garden-home.css 의 .radar-sweep 애니메이션 duration 과 반드시 같아야 한다(점 반짝임 동기화).
+const SWEEP_DURATION_S = 10
+const DAY_MS = 24 * 60 * 60 * 1000
+
+/** 컴퍼스 각도(0=12시, 시계방향) → SVG 좌표. */
+function polar(cx, cy, r, deg) {
+  const rad = (deg * Math.PI) / 180
+  return { x: cx + r * Math.sin(rad), y: cy - r * Math.cos(rad) }
+}
+
+/** 중심에서 뻗어나가는 부채꼴(원점~반지름 r, deg0~deg1, <180°) 경로. */
+function wedgePath(cx, cy, r, deg0, deg1) {
+  const p0 = polar(cx, cy, r, deg0)
+  const p1 = polar(cx, cy, r, deg1)
+  return `M${f(cx)} ${f(cy)}L${f(p0.x)} ${f(p0.y)}A${f(r)} ${f(r)} 0 0 1 ${f(p1.x)} ${f(p1.y)}Z`
+}
+
+function ageDays(dateStr, now) {
+  const t = new Date(dateStr).getTime()
+  if (Number.isNaN(t)) return null
+  return (now.getTime() - t) / DAY_MS
+}
+
+/** 기록 하나가 이 정원(radar)의 다른 구역과 구분 없이 항상 같은 자리에 찍히도록 해시로 고정. */
+function jitterWithinSector(seed, width) {
+  return width * (0.15 + rnd(seed, 1) * 0.7)
+}
+
+function renderBeam() {
+  // "잔상은 몇 겹의 반투명 부채꼴" — 그라디언트가 아니라 진짜 여러 겹을 겹쳐서 만든다.
+  const layers = [
+    { width: 24, opacity: 0.34, offset: 0 },
+    { width: 24, opacity: 0.2, offset: -20 },
+    { width: 24, opacity: 0.11, offset: -38 },
+    { width: 24, opacity: 0.05, offset: -55 },
+  ]
+  const wedges = layers
+    .map(
+      (l) =>
+        `<path class="radar-beam-wedge" style="opacity:${l.opacity}" d="${wedgePath(RADAR_CENTER, RADAR_CENTER, RADAR_R, l.offset, l.offset + l.width)}"/>`,
+    )
+    .join("")
+  return `<g class="radar-beam">${wedges}</g>`
+}
+
+function renderGrid(sectorCount) {
+  const rings = RING_STEPS.map((day) => {
+    const r = RADAR_R * (day / RADAR_MAX_AGE_DAYS)
+    return `<circle class="radar-ring" cx="${f(RADAR_CENTER)}" cy="${f(RADAR_CENTER)}" r="${f(r)}"/>`
+  }).join("")
+  const ringLabels = RING_STEPS.map((day) => {
+    const r = RADAR_R * (day / RADAR_MAX_AGE_DAYS)
+    return `<text class="radar-ring-label" x="${f(RADAR_CENTER + 3)}" y="${f(RADAR_CENTER - r + 9)}">${day}일</text>`
+  }).join("")
+  const dividers =
+    sectorCount > 1
+      ? Array.from({ length: sectorCount }, (_, i) => {
+          const deg = (i * 360) / sectorCount
+          const p = polar(RADAR_CENTER, RADAR_CENTER, RADAR_R, deg)
+          return `<line class="radar-divider" x1="${f(RADAR_CENTER)}" y1="${f(RADAR_CENTER)}" x2="${f(p.x)}" y2="${f(p.y)}"/>`
+        }).join("")
+      : ""
+  return (
+    `<circle class="radar-face" cx="${f(RADAR_CENTER)}" cy="${f(RADAR_CENTER)}" r="${f(RADAR_R)}"/>` +
+    rings +
+    dividers +
+    ringLabels
+  )
+}
+
+function renderSectorLabels(subfolders) {
+  const n = subfolders.length
+  return subfolders
+    .map((s, i) => {
+      const mid = ((i + 0.5) * 360) / n
+      const p = polar(RADAR_CENTER, RADAR_CENTER, RADAR_R + 14, mid)
+      const rad = (mid * Math.PI) / 180
+      const sin = Math.sin(rad)
+      const anchor = sin > 0.2 ? "start" : sin < -0.2 ? "end" : "middle"
+      return (
+        `<text class="radar-sector-label" style="--sector-color:${esc(s.color)}" x="${f(p.x)}" y="${f(p.y)}" text-anchor="${anchor}">` +
+        `${esc(s.label)}</text>`
+      )
+    })
+    .join("")
+}
+
+function renderDots(notes, subfolders, now) {
+  const n = subfolders.length
+  const indexOf = new Map(subfolders.map((s, i) => [s.name, i]))
+  const dots = []
+  for (const note of notes) {
+    // isIndex(폴더 자기 자신의 index.md)는 보통 기록이 아니라 안내 페이지라 빼지만, revision
+    // 단위(§8.2, 예: PACM)는 노트 하나가 index.md 라도 이력 자체가 진짜 기록이라 남긴다.
+    if (note.isIndex && !note.revision) continue
+    const age = ageDays(note.date, now)
+    if (age === null || age < 0 || age > RADAR_MAX_AGE_DAYS) continue
+    const i = indexOf.get(note.subfolder) ?? 0
+    const sector = subfolders[i] ?? { color: "var(--secondary)" }
+    const sectorStart = (i * 360) / n
+    const sectorWidth = 360 / n
+    const seed = `${note.subfolder}|${note.slug}|${note.date}`
+    const deg = sectorStart + jitterWithinSector(seed, sectorWidth)
+    const r = RADAR_R * (age / RADAR_MAX_AGE_DAYS)
+    const p = polar(RADAR_CENTER, RADAR_CENTER, r, deg)
+    // 빛줄기가 이 각도를 지날 때(전체 회전 중 deg/360 지점) 점이 반짝이도록, 같은 주기(SWEEP_DURATION_S)
+    // 안에서 그 시점에 맞춰 딜레이를 준다 — 회전(garden-home.css)과 반드시 같은 duration 을 써야 맞는다.
+    const delay = f((deg / 360) * SWEEP_DURATION_S)
+    const label = note.revision ? note.revision.summary || note.title : note.title
+    dots.push(
+      `<circle class="radar-dot" style="--sector-color:${esc(sector.color)};animation-delay:${delay}s"` +
+        ` cx="${f(p.x)}" cy="${f(p.y)}" r="3.2"` +
+        ` data-subfolder="${esc(sector.label)}" data-date="${esc(note.date)}" data-title="${esc(label)}"` +
+        ` data-slug="${esc(note.slug)}" tabindex="0" role="button"` +
+        ` aria-label="${esc(`${sector.label} · ${note.date} · ${label}`)}"><title>${esc(label)}</title></circle>`,
+    )
+  }
+  return dots.join("")
+}
+
+/**
+ * radar 전체 SVG 문자열과 요약. subfolders/notes 는 garden-data.json 의 radar.subfolders/notes.
+ * now 는 collectGardenData 가 쓴 시각이 아니라 렌더링 시점(빌드 시점) — 클라이언트 빛줄기와
+ * 점의 상대적 배치만 미리 계산해 두는 것이라, 실제 "오늘"은 어차피 매 빌드마다 다시 계산된다.
+ */
+function renderRadar(subfolders, notes, now) {
+  const list = subfolders.length > 0 ? subfolders : [{ name: "", label: "radar", color: "var(--secondary)" }]
+  const dotsSvg = renderDots(notes, list, now)
+  const dotCount = (dotsSvg.match(/<circle class="radar-dot"/g) ?? []).length
+  const svg =
+    `<svg class="radar-dial" viewBox="0 0 ${RADAR_SIZE} ${RADAR_SIZE}" role="group" aria-label="radar — 최근 30일 기록 ${dotCount}개" xmlns="http://www.w3.org/2000/svg">` +
+    renderGrid(list.length) +
+    renderSectorLabels(list) +
+    renderBeam() +
+    dotsSvg +
+    `</svg>`
+  return { html: svg, count: dotCount }
+}
+
 // 서버(빌드) 쪽 컴포넌트. hdr-comments 와 같은 방식으로 preact vnode 를 직접 만든다
 // (Quartz 는 플러그인 dist 의 npm 의존성을 허용하지 않는다 — node: 내장 모듈만 쓴다). 맨 아래
 // Component.css/afterDOMLoaded 의 자리표시자는 build.mjs 가 채우고(문자열 그대로 두 번 나오면
@@ -364,6 +521,46 @@ function gardenSection() {
   })
 }
 
+// ③ radar — radar-svg.js 의 renderRadar 가 만든 SVG 를 그대로 넣는다. 점 클릭 패널·화면 밖
+// 정지는 radar-interactive.js(afterDOMLoaded)가 한다.
+function radarSection() {
+  const data = readGardenData()
+  const subfolders = data?.radar?.subfolders ?? []
+  const notes = data?.radar?.notes ?? []
+  if (subfolders.length === 0) {
+    return placeholder("radar", "radar 폴더가 아직 없어요.")
+  }
+  const r = renderRadar(subfolders, notes, new Date())
+  const legend = subfolders
+    .map((s) => `${s.label} ${s.count}`)
+    .join(" · ")
+  return h("section", {
+    class: "garden-home-section garden-home-radar",
+    children: [
+      h("h3", { children: "radar" }),
+      h("div", { class: "radar-face-wrap", dangerouslySetInnerHTML: { __html: r.html } }),
+      h("p", { class: "gp-legend", children: `최근 30일 ${r.count}건 · ${legend}` }),
+      h("div", {
+        class: "gp-panel radar-panel",
+        role: "status",
+        children: [
+          h("button", { type: "button", class: "gp-panel-close", "aria-label": "닫기", children: "✕" }),
+          h("p", {
+            class: "gp-panel-meta",
+            children: [
+              h("span", { class: "radar-panel-subfolder" }),
+              text(" · "),
+              h("span", { class: "radar-panel-date" }),
+            ],
+          }),
+          h("p", { class: "gp-panel-title radar-panel-title" }),
+          h("a", { class: "gp-panel-link radar-panel-link", children: "노트로 가기 →" }),
+        ],
+      }),
+    ],
+  })
+}
+
 function link(href, children, opts) {
   return h("a", { href, target: opts?.external ? "_blank" : undefined, rel: opts?.external ? "noopener noreferrer" : undefined, children })
 }
@@ -398,7 +595,7 @@ export const GardenHome = (opts) => {
   const Component = ({ displayClass }) => {
     const sections = []
     if (show.garden) sections.push(gardenSection())
-    if (show.radar) sections.push(placeholder("radar", "radar 폴더의 최근 기록이 레이더 화면에 점으로 뜨는 그림 — 다음 단계에서 채울 예정."))
+    if (show.radar) sections.push(radarSection())
     if (show.gallery) sections.push(placeholder("아빠의 화단", "content/img/inspiration 의 그림 슬라이드쇼 — 다음 단계에서 채울 예정."))
     sections.push(contactSection())
 
@@ -408,7 +605,7 @@ export const GardenHome = (opts) => {
     })
   }
 
-  Component.css = "/* 색은 전부 테마 CSS 변수를 쓴다(하드코딩 금지 — CLAUDE.md §9). 라이트/다크 모드 자동 대응.\n   --color-* 는 hackthebox 테마가 주는 변수라, 없을 때를 대비해 Quartz 기본 변수를 대체값으로 둔다. */\n.garden-home {\n  display: flex;\n  flex-direction: column;\n  gap: 1.5rem;\n  margin-top: 1.5rem;\n}\n\n.garden-home-section h3 {\n  margin-bottom: 0.5rem;\n}\n\n.garden-home-placeholder .garden-home-note {\n  color: var(--gray);\n  font-style: italic;\n}\n\n.garden-home-contact ul {\n  margin: 0;\n  padding-left: 1.2rem;\n}\n\n/* ---------- ② 정원 ---------- */\n\n/* 모바일(≤800px, Quartz 의 mobile 기준)은 좁은 이랑, 그보다 넓으면 넓은 이랑. 식물 크기는 같고\n   칸 간격만 넓어진다. 보이지 않는 쪽은 display:none 이라 스크린리더·탭 순서에서도 빠진다. */\n.gp-beds {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n}\n.gp-beds-wide {\n  display: none;\n}\n@media (min-width: 801px) {\n  .gp-beds-narrow {\n    display: none;\n  }\n  .gp-beds-wide {\n    display: flex;\n  }\n}\n\n.gp-row {\n  display: block;\n  width: 100%;\n  height: auto;\n  overflow: visible;\n}\n\n.gp-legend {\n  margin: 0.5rem 0 0;\n  font-size: 0.85rem;\n  color: var(--gray);\n}\n\n/* 흙 단면 */\n.gp-soil {\n  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 32%, var(--light));\n}\n.gp-soil-deep {\n  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 20%, var(--light));\n}\n.gp-soil-line {\n  fill: none;\n  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 60%, var(--light));\n  stroke-width: 1.2;\n}\n.gp-pebble {\n  fill: color-mix(in srgb, var(--gray) 70%, var(--light));\n}\n\n/* 씨앗: 아직 없는 노트를 가리키는 링크 */\n.gp-seed ellipse {\n  fill: color-mix(in srgb, var(--color-yellow, var(--tertiary)) 75%, var(--light));\n  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 70%, var(--light));\n  stroke-width: 0.6;\n}\n\n/* 식물 */\n.gp-stroke {\n  fill: none;\n  stroke: var(--color-green, var(--secondary));\n  stroke-width: 1.6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n.gp-vine {\n  stroke-width: 1.8;\n}\n.gp-leaf {\n  fill: var(--color-green, var(--secondary));\n}\n.gp-petal-a {\n  fill: var(--color-pink, var(--tertiary));\n}\n.gp-petal-b {\n  fill: var(--color-yellow, var(--tertiary));\n}\n.gp-petal-c {\n  fill: var(--color-purple, var(--secondary));\n}\n.gp-flower-heart {\n  fill: var(--color-orange, var(--secondary));\n}\n.gp-trunk {\n  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 60%, var(--light));\n}\n.gp-canopy {\n  fill: color-mix(in srgb, var(--color-green, var(--secondary)) 72%, var(--light));\n}\n.gp-canopy-top {\n  fill: var(--color-green, var(--secondary));\n}\n\n/* 시든 식물(마지막 수정 후 wither_after_days 가 지남)은 회색 */\n.gp-plant.is-wilted .gp-stroke {\n  stroke: var(--gray);\n}\n.gp-plant.is-wilted :is(.gp-leaf, .gp-petal-a, .gp-petal-b, .gp-petal-c, .gp-flower-heart, .gp-canopy) {\n  fill: var(--gray);\n}\n.gp-plant.is-wilted .gp-trunk {\n  fill: color-mix(in srgb, var(--gray) 70%, var(--light));\n}\n\n/* 가리키거나 키보드로 고르면 조금 밝게(움직임 없음) */\n.gp-plant {\n  cursor: pointer;\n}\n.gp-plant:hover > g,\n.gp-plant:focus-visible > g,\n.gp-plant[aria-expanded=\"true\"] > g {\n  filter: brightness(1.25);\n}\n.gp-plant:focus-visible {\n  outline: 2px solid var(--tertiary);\n  outline-offset: 2px;\n}\n\n/* 바람에 흔들림: 화면에 보이는 이랑(.gp-row.is-visible)만, 모션 최소화 선호 시 완전히 끔\n   (관찰기 자체를 안 붙이지만, CSS 로도 한 번 더 막아 둔다 — CLAUDE.md §9). */\n@media (prefers-reduced-motion: no-preference) {\n  .gp-row.is-visible .gp-sway {\n    animation-name: gp-sway;\n    animation-timing-function: ease-in-out;\n    animation-iteration-count: infinite;\n  }\n}\n@keyframes gp-sway {\n  0%,\n  100% {\n    transform: rotate(0deg);\n  }\n  50% {\n    transform: rotate(0.8deg);\n  }\n}\n.gp-sway {\n  transform-box: fill-box;\n  transform-origin: bottom center;\n}\n\n/* 뿌리: 고른 식물의 링크·백링크만, 평소엔 비어 있다(garden-interactive.js 가 채운다) */\n.gp-beds {\n  position: relative;\n}\n.gp-roots {\n  position: absolute;\n  inset: 0;\n  width: 100%;\n  height: 100%;\n  overflow: visible;\n  pointer-events: none;\n}\n.gp-root-line {\n  fill: none;\n  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 65%, var(--light));\n  stroke-width: 1.5;\n  stroke-dasharray: 2 3;\n  stroke-linecap: round;\n  opacity: 0.9;\n}\n\n/* 타임랩스: 아직 심기지 않은 식물 */\n.gp-plant.gp-future {\n  opacity: 0;\n  pointer-events: none;\n}\n@media (prefers-reduced-motion: no-preference) {\n  .gp-plant {\n    transition: opacity 0.3s ease;\n  }\n}\n\n.gp-controls {\n  display: flex;\n  align-items: center;\n  gap: 0.6rem;\n  flex-wrap: wrap;\n  margin-bottom: 0.4rem;\n}\n.gp-play {\n  font: inherit;\n  cursor: pointer;\n  color: inherit;\n  background: color-mix(in srgb, var(--color-green, var(--secondary)) 16%, transparent);\n  border: 1px solid var(--color-green, var(--secondary));\n  border-radius: 999px;\n  padding: 0.2rem 0.85rem;\n}\n.gp-play:hover {\n  background: color-mix(in srgb, var(--color-green, var(--secondary)) 28%, transparent);\n}\n.gp-timelapse-date {\n  font-size: 0.85rem;\n  color: var(--gray);\n}\n\n/* 고른 식물 정보 패널 */\n.gp-panel {\n  display: none;\n  position: relative;\n  margin-top: 0.6rem;\n  padding: 0.6rem 2rem 0.6rem 0.9rem;\n  border: 1px solid var(--lightgray);\n  border-radius: 0.5rem;\n  background: color-mix(in srgb, var(--color-green, var(--secondary)) 8%, var(--light));\n}\n.gp-panel.is-open {\n  display: block;\n}\n.gp-panel-title {\n  margin: 0 0 0.15rem;\n  font-weight: 600;\n}\n.gp-panel-meta {\n  margin: 0 0 0.35rem;\n  font-size: 0.85rem;\n  color: var(--gray);\n}\n.gp-panel-link {\n  font-size: 0.9rem;\n}\n.gp-panel-close {\n  position: absolute;\n  top: 0.4rem;\n  right: 0.5rem;\n  cursor: pointer;\n  background: none;\n  border: none;\n  color: var(--gray);\n  font-size: 0.9rem;\n  line-height: 1;\n}\n"
-  Component.afterDOMLoaded = "// 정원의 상호작용·움직임. component.js 가 Component.afterDOMLoaded 로 붙인다(build.mjs 가\n// 이 파일을 문자열로 넣는다). 홈(index)에서만 존재하는 .garden-home-garden 섹션을 다룬다.\n// SPA 라 nav 이벤트마다 다시 찾아서 건다(quartz/components/scripts/spa.inline.ts 패턴).\n//\n// - 식물을 클릭/키보드로 고르면: 패널에 제목·종류·물 준 날 + 노트로 가는 링크, 그 식물의\n//   뿌리(이 정원 안의 다른 식물로 가는 링크·백링크)만 곡선으로 표시.\n// - 화면에 보이는 이랑(.gp-row)만 살짝 흔들리게(prefers-reduced-motion 이면 아예 안 붙인다).\n// - 재생 버튼: 가장 오래된 식물의 심은 날부터 오늘까지 1주 단위로 식물이 하나씩 나타난다.\n;(function () {\n  function cssEscape(s) {\n    return String(s).replace(/[\"\\\\]/g, \"\\\\$&\")\n  }\n\n  function initGarden(section) {\n    if (!section || section.dataset.gpInit === \"true\") return\n    section.dataset.gpInit = \"true\"\n\n    var plants = Array.prototype.slice.call(section.querySelectorAll(\".gp-plant\"))\n    var panel = section.querySelector(\".gp-panel\")\n    var panelTitle = panel && panel.querySelector(\".gp-panel-title\")\n    var panelMeta = panel && panel.querySelector(\".gp-panel-meta\")\n    var panelLink = panel && panel.querySelector(\".gp-panel-link\")\n    var panelClose = panel && panel.querySelector(\".gp-panel-close\")\n\n    function overlaysOf() {\n      return Array.prototype.slice.call(section.querySelectorAll(\".gp-roots\"))\n    }\n\n    function clearRoots() {\n      overlaysOf().forEach(function (svg) {\n        svg.textContent = \"\"\n      })\n    }\n\n    function drawRoots(plant) {\n      clearRoots()\n      var links = (plant.dataset.links || \"\").split(\",\").filter(Boolean)\n      if (!links.length) return\n      var bed = plant.closest(\".gp-beds\")\n      var overlay = bed && bed.querySelector(\".gp-roots\")\n      if (!bed || !overlay) return\n      var bedRect = bed.getBoundingClientRect()\n      var fromRect = plant.getBoundingClientRect()\n      var fromX = fromRect.left + fromRect.width / 2 - bedRect.left\n      var fromY = fromRect.bottom - bedRect.top - 2\n      var d = \"\"\n      links.forEach(function (slug) {\n        var target = bed.querySelector('.gp-plant[data-slug=\"' + cssEscape(slug) + '\"]')\n        if (!target) return\n        var r = target.getBoundingClientRect()\n        var toX = r.left + r.width / 2 - bedRect.left\n        var toY = r.bottom - bedRect.top - 2\n        var dipY = Math.max(fromY, toY) + 18\n        d += \"M\" + fromX + \" \" + fromY + \"Q\" + (fromX + toX) / 2 + \" \" + dipY + \" \" + toX + \" \" + toY + \" \"\n      })\n      if (d) overlay.innerHTML = '<path class=\"gp-root-line\" d=\"' + d + '\"></path>'\n    }\n\n    function showPanel(plant) {\n      if (!panel) return\n      if (panelTitle) panelTitle.textContent = plant.dataset.title || \"\"\n      var kind = plant.dataset.kind || \"\"\n      var modified = plant.dataset.modified || \"\"\n      if (panelMeta) panelMeta.textContent = [kind, modified ? \"물 준 날 \" + modified : \"\"].filter(Boolean).join(\" · \")\n      if (panelLink) panelLink.setAttribute(\"href\", \"./\" + (plant.dataset.slug || \"\"))\n      panel.classList.add(\"is-open\")\n    }\n\n    function hidePanel() {\n      if (panel) panel.classList.remove(\"is-open\")\n    }\n\n    var selected = null\n\n    function deselect() {\n      selected = null\n      plants.forEach(function (p) {\n        p.setAttribute(\"aria-expanded\", \"false\")\n      })\n      hidePanel()\n      clearRoots()\n    }\n\n    function select(plant) {\n      if (selected === plant) {\n        deselect()\n        return\n      }\n      selected = plant\n      plants.forEach(function (p) {\n        p.setAttribute(\"aria-expanded\", p === plant ? \"true\" : \"false\")\n      })\n      showPanel(plant)\n      drawRoots(plant)\n    }\n\n    plants.forEach(function (p) {\n      p.addEventListener(\"click\", function (e) {\n        e.preventDefault()\n        select(p)\n      })\n      p.addEventListener(\"keydown\", function (e) {\n        if (e.key === \"Enter\" || e.key === \" \" || e.key === \"Spacebar\") {\n          e.preventDefault()\n          select(p)\n        } else if (e.key === \"Escape\") {\n          deselect()\n        }\n      })\n    })\n    if (panelClose) panelClose.addEventListener(\"click\", deselect)\n\n    // 화면에 보이는 이랑만 흔들리게. 모션 최소화를 선호하면 관찰기 자체를 안 붙인다\n    // (CSS 도 같은 media query 로 한 번 더 막아 둔다 — CLAUDE.md §9).\n    if (window.IntersectionObserver && !window.matchMedia(\"(prefers-reduced-motion: reduce)\").matches) {\n      var io = new IntersectionObserver(\n        function (entries) {\n          entries.forEach(function (entry) {\n            entry.target.classList.toggle(\"is-visible\", entry.isIntersecting)\n          })\n        },\n        { rootMargin: \"80px\" },\n      )\n      section.querySelectorAll(\".gp-row\").forEach(function (row) {\n        io.observe(row)\n      })\n      if (window.addCleanup) window.addCleanup(io.disconnect.bind(io))\n    }\n\n    // 타임랩스\n    var playBtn = section.querySelector(\".gp-play\")\n    var dateLabel = section.querySelector(\".gp-timelapse-date\")\n    var timer = null\n\n    function stopTimelapse(reveal) {\n      if (timer) {\n        clearInterval(timer)\n        timer = null\n      }\n      if (playBtn) playBtn.textContent = \"▶ 타임랩스로 보기\"\n      if (reveal) {\n        plants.forEach(function (p) {\n          p.classList.remove(\"gp-future\")\n        })\n        if (dateLabel) dateLabel.textContent = \"\"\n      }\n    }\n\n    function weeklySteps(startMs, todayMs) {\n      var steps = []\n      var t = startMs\n      var week = 7 * 24 * 60 * 60 * 1000\n      while (t < todayMs) {\n        steps.push(t)\n        t += week\n      }\n      steps.push(todayMs)\n      return steps\n    }\n\n    function startTimelapse() {\n      var created = plants\n        .map(function (p) {\n          var t = p.dataset.created ? new Date(p.dataset.created).getTime() : NaN\n          return isNaN(t) ? null : t\n        })\n        .filter(function (t) {\n          return t !== null\n        })\n      if (!created.length) return\n      var steps = weeklySteps(Math.min.apply(null, created), Date.now())\n\n      if (playBtn) playBtn.textContent = \"■ 멈추기\"\n      var i = 0\n\n      function frame() {\n        var cur = steps[i]\n        plants.forEach(function (p) {\n          var t = p.dataset.created ? new Date(p.dataset.created).getTime() : NaN\n          var show = isNaN(t) || t <= cur\n          p.classList.toggle(\"gp-future\", !show)\n        })\n        if (dateLabel) dateLabel.textContent = new Date(cur).toISOString().slice(0, 10)\n        i++\n        if (i >= steps.length) stopTimelapse(false)\n      }\n\n      frame()\n      timer = setInterval(frame, 260)\n      if (window.addCleanup) window.addCleanup(function () { stopTimelapse(true) })\n    }\n\n    if (playBtn) {\n      playBtn.addEventListener(\"click\", function () {\n        if (timer) {\n          stopTimelapse(true)\n        } else {\n          startTimelapse()\n        }\n      })\n    }\n\n    if (window.addCleanup) {\n      window.addCleanup(function () {\n        section.dataset.gpInit = \"false\"\n      })\n    }\n  }\n\n  function init() {\n    initGarden(document.querySelector(\".garden-home-garden\"))\n  }\n\n  document.addEventListener(\"nav\", init)\n  init()\n})()\n"
+  Component.css = "/* 색은 전부 테마 CSS 변수를 쓴다(하드코딩 금지 — CLAUDE.md §9). 라이트/다크 모드 자동 대응.\n   --color-* 는 hackthebox 테마가 주는 변수라, 없을 때를 대비해 Quartz 기본 변수를 대체값으로 둔다. */\n.garden-home {\n  display: flex;\n  flex-direction: column;\n  gap: 1.5rem;\n  margin-top: 1.5rem;\n}\n\n.garden-home-section h3 {\n  margin-bottom: 0.5rem;\n}\n\n.garden-home-placeholder .garden-home-note {\n  color: var(--gray);\n  font-style: italic;\n}\n\n.garden-home-contact ul {\n  margin: 0;\n  padding-left: 1.2rem;\n}\n\n/* ---------- ② 정원 ---------- */\n\n/* 모바일(≤800px, Quartz 의 mobile 기준)은 좁은 이랑, 그보다 넓으면 넓은 이랑. 식물 크기는 같고\n   칸 간격만 넓어진다. 보이지 않는 쪽은 display:none 이라 스크린리더·탭 순서에서도 빠진다. */\n.gp-beds {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n}\n.gp-beds-wide {\n  display: none;\n}\n@media (min-width: 801px) {\n  .gp-beds-narrow {\n    display: none;\n  }\n  .gp-beds-wide {\n    display: flex;\n  }\n}\n\n.gp-row {\n  display: block;\n  width: 100%;\n  height: auto;\n  overflow: visible;\n}\n\n.gp-legend {\n  margin: 0.5rem 0 0;\n  font-size: 0.85rem;\n  color: var(--gray);\n}\n\n/* 흙 단면 */\n.gp-soil {\n  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 32%, var(--light));\n}\n.gp-soil-deep {\n  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 20%, var(--light));\n}\n.gp-soil-line {\n  fill: none;\n  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 60%, var(--light));\n  stroke-width: 1.2;\n}\n.gp-pebble {\n  fill: color-mix(in srgb, var(--gray) 70%, var(--light));\n}\n\n/* 씨앗: 아직 없는 노트를 가리키는 링크 */\n.gp-seed ellipse {\n  fill: color-mix(in srgb, var(--color-yellow, var(--tertiary)) 75%, var(--light));\n  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 70%, var(--light));\n  stroke-width: 0.6;\n}\n\n/* 식물 */\n.gp-stroke {\n  fill: none;\n  stroke: var(--color-green, var(--secondary));\n  stroke-width: 1.6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n.gp-vine {\n  stroke-width: 1.8;\n}\n.gp-leaf {\n  fill: var(--color-green, var(--secondary));\n}\n.gp-petal-a {\n  fill: var(--color-pink, var(--tertiary));\n}\n.gp-petal-b {\n  fill: var(--color-yellow, var(--tertiary));\n}\n.gp-petal-c {\n  fill: var(--color-purple, var(--secondary));\n}\n.gp-flower-heart {\n  fill: var(--color-orange, var(--secondary));\n}\n.gp-trunk {\n  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 60%, var(--light));\n}\n.gp-canopy {\n  fill: color-mix(in srgb, var(--color-green, var(--secondary)) 72%, var(--light));\n}\n.gp-canopy-top {\n  fill: var(--color-green, var(--secondary));\n}\n\n/* 시든 식물(마지막 수정 후 wither_after_days 가 지남)은 회색 */\n.gp-plant.is-wilted .gp-stroke {\n  stroke: var(--gray);\n}\n.gp-plant.is-wilted :is(.gp-leaf, .gp-petal-a, .gp-petal-b, .gp-petal-c, .gp-flower-heart, .gp-canopy) {\n  fill: var(--gray);\n}\n.gp-plant.is-wilted .gp-trunk {\n  fill: color-mix(in srgb, var(--gray) 70%, var(--light));\n}\n\n/* 가리키거나 키보드로 고르면 조금 밝게(움직임 없음) */\n.gp-plant {\n  cursor: pointer;\n}\n.gp-plant:hover > g,\n.gp-plant:focus-visible > g,\n.gp-plant[aria-expanded=\"true\"] > g {\n  filter: brightness(1.25);\n}\n.gp-plant:focus-visible {\n  outline: 2px solid var(--tertiary);\n  outline-offset: 2px;\n}\n\n/* 바람에 흔들림: 화면에 보이는 이랑(.gp-row.is-visible)만, 모션 최소화 선호 시 완전히 끔\n   (관찰기 자체를 안 붙이지만, CSS 로도 한 번 더 막아 둔다 — CLAUDE.md §9). */\n@media (prefers-reduced-motion: no-preference) {\n  .gp-row.is-visible .gp-sway {\n    animation-name: gp-sway;\n    animation-timing-function: ease-in-out;\n    animation-iteration-count: infinite;\n  }\n}\n@keyframes gp-sway {\n  0%,\n  100% {\n    transform: rotate(0deg);\n  }\n  50% {\n    transform: rotate(0.8deg);\n  }\n}\n.gp-sway {\n  transform-box: fill-box;\n  transform-origin: bottom center;\n}\n\n/* 뿌리: 고른 식물의 링크·백링크만, 평소엔 비어 있다(garden-interactive.js 가 채운다) */\n.gp-beds {\n  position: relative;\n}\n.gp-roots {\n  position: absolute;\n  inset: 0;\n  width: 100%;\n  height: 100%;\n  overflow: visible;\n  pointer-events: none;\n}\n.gp-root-line {\n  fill: none;\n  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 65%, var(--light));\n  stroke-width: 1.5;\n  stroke-dasharray: 2 3;\n  stroke-linecap: round;\n  opacity: 0.9;\n}\n\n/* 타임랩스: 아직 심기지 않은 식물 */\n.gp-plant.gp-future {\n  opacity: 0;\n  pointer-events: none;\n}\n@media (prefers-reduced-motion: no-preference) {\n  .gp-plant {\n    transition: opacity 0.3s ease;\n  }\n}\n\n.gp-controls {\n  display: flex;\n  align-items: center;\n  gap: 0.6rem;\n  flex-wrap: wrap;\n  margin-bottom: 0.4rem;\n}\n.gp-play {\n  font: inherit;\n  cursor: pointer;\n  color: inherit;\n  background: color-mix(in srgb, var(--color-green, var(--secondary)) 16%, transparent);\n  border: 1px solid var(--color-green, var(--secondary));\n  border-radius: 999px;\n  padding: 0.2rem 0.85rem;\n}\n.gp-play:hover {\n  background: color-mix(in srgb, var(--color-green, var(--secondary)) 28%, transparent);\n}\n.gp-timelapse-date {\n  font-size: 0.85rem;\n  color: var(--gray);\n}\n\n/* 고른 식물 정보 패널 */\n.gp-panel {\n  display: none;\n  position: relative;\n  margin-top: 0.6rem;\n  padding: 0.6rem 2rem 0.6rem 0.9rem;\n  /* --lightgray 는 이 다크 테마에서 배경과 거의 같은 색이라 안 보인다(위 .radar-face 주석과 같은\n     함정) — --gray 를 옅게 섞어 실제로 보이는 경계선을 만든다. */\n  border: 1px solid color-mix(in srgb, var(--gray) 40%, var(--light));\n  border-radius: 0.5rem;\n  background: color-mix(in srgb, var(--color-green, var(--secondary)) 8%, var(--light));\n}\n.gp-panel.is-open {\n  display: block;\n}\n.gp-panel-title {\n  margin: 0 0 0.15rem;\n  font-weight: 600;\n}\n.gp-panel-meta {\n  margin: 0 0 0.35rem;\n  font-size: 0.85rem;\n  color: var(--gray);\n}\n.gp-panel-link {\n  font-size: 0.9rem;\n}\n.gp-panel-close {\n  position: absolute;\n  top: 0.4rem;\n  right: 0.5rem;\n  cursor: pointer;\n  background: none;\n  border: none;\n  color: var(--gray);\n  font-size: 0.9rem;\n  line-height: 1;\n}\n\n/* ---------- ③ radar ---------- */\n\n.radar-face-wrap {\n  display: flex;\n  justify-content: center;\n}\n.radar-dial {\n  width: 100%;\n  max-width: 320px;\n  height: auto;\n  overflow: visible;\n}\n\n.radar-face {\n  fill: color-mix(in srgb, var(--color-green, var(--secondary)) 5%, var(--light));\n  /* hackthebox 테마에서 --lightgray 는 배경(--light)과 거의 같은 어두운 남색이라 안 보인다\n     (다크 테마라 밝은/어두운 회색의 이름과 실제 밝기가 뒤집혀 있음 — CLAUDE.md §4 함정).\n     --gray 가 실제로 밝은, 눈에 보이는 회색이라 격자선은 전부 이걸로 옅게 섞어 쓴다. */\n  stroke: color-mix(in srgb, var(--gray) 55%, var(--light));\n  stroke-width: 1;\n}\n.radar-ring {\n  fill: none;\n  stroke: color-mix(in srgb, var(--gray) 45%, var(--light));\n  stroke-width: 0.75;\n  stroke-dasharray: 2 3;\n}\n.radar-ring-label {\n  fill: var(--gray);\n  font-size: 7px;\n}\n.radar-divider {\n  stroke: color-mix(in srgb, var(--gray) 45%, var(--light));\n  stroke-width: 0.75;\n}\n.radar-sector-label {\n  fill: var(--sector-color, var(--gray));\n  font-size: 9px;\n}\n\n/* 빛줄기: 몇 겹의 반투명 부채꼴이 같은 <g> 안에서 함께 돈다. 기본은 정지(멈춰 있는 부채꼴) —\n   화면 안에 있고(.radar-is-visible) 모션 최소화를 선호하지 않을 때만 돈다. */\n.radar-beam-wedge {\n  fill: var(--color-green, var(--secondary));\n}\n.radar-beam {\n  /* fill-box 를 쓰면 부채꼴(자기 자신)의 바운딩 박스 중심을 기준으로 돌아서, 부채꼴이 원 중앙이\n     아닌 자기 박스 중심을 축으로 삥 돈다(실제로 그렇게 어긋나는 걸 확인함) — view-box 로 SVG\n     좌표계 자체의 (160,160)을 기준으로 삼아야 원 중앙과 정확히 맞는다. 160 은 radar-svg.js 의\n     RADAR_CENTER(=RADAR_SIZE/2)와 반드시 같아야 한다. */\n  transform-box: view-box;\n  transform-origin: 160px 160px;\n}\n@media (prefers-reduced-motion: no-preference) {\n  .radar-beam {\n    /* garden-svg.js 의 SWEEP_DURATION_S 와 반드시 같은 값(점 반짝임 딜레이가 이 값으로 계산됨) */\n    animation: radar-sweep 10s linear infinite;\n    animation-play-state: paused;\n  }\n  .garden-home-radar.radar-is-visible .radar-beam {\n    animation-play-state: running;\n  }\n}\n@keyframes radar-sweep {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n/* 점: 평소엔 옅게, 빛줄기가 지나가는 순간(딜레이로 미리 맞춰 둠) 밝아졌다가 서서히 흐려진다. */\n.radar-dot {\n  fill: var(--sector-color, var(--secondary));\n  opacity: 0.3;\n  cursor: pointer;\n}\n.radar-dot:focus-visible {\n  outline: 2px solid var(--tertiary);\n  outline-offset: 1px;\n}\n.radar-dot[aria-pressed=\"true\"] {\n  opacity: 1;\n  filter: brightness(1.3);\n}\n@media (prefers-reduced-motion: no-preference) {\n  .radar-dot {\n    animation: radar-ping 10s linear infinite;\n    animation-play-state: paused;\n  }\n  .garden-home-radar.radar-is-visible .radar-dot {\n    animation-play-state: running;\n  }\n}\n@keyframes radar-ping {\n  0% {\n    opacity: 1;\n  }\n  8% {\n    opacity: 0.85;\n  }\n  35% {\n    opacity: 0.5;\n  }\n  70%,\n  100% {\n    opacity: 0.3;\n  }\n}\n\n.radar-panel-title {\n  margin-top: 0.1rem;\n}\n"
+  Component.afterDOMLoaded = "// 정원의 상호작용·움직임. component.js 가 Component.afterDOMLoaded 로 붙인다(build.mjs 가\n// 이 파일을 문자열로 넣는다). 홈(index)에서만 존재하는 .garden-home-garden 섹션을 다룬다.\n// SPA 라 nav 이벤트마다 다시 찾아서 건다(quartz/components/scripts/spa.inline.ts 패턴).\n//\n// - 식물을 클릭/키보드로 고르면: 패널에 제목·종류·물 준 날 + 노트로 가는 링크, 그 식물의\n//   뿌리(이 정원 안의 다른 식물로 가는 링크·백링크)만 곡선으로 표시.\n// - 화면에 보이는 이랑(.gp-row)만 살짝 흔들리게(prefers-reduced-motion 이면 아예 안 붙인다).\n// - 재생 버튼: 가장 오래된 식물의 심은 날부터 오늘까지 1주 단위로 식물이 하나씩 나타난다.\n;(function () {\n  function cssEscape(s) {\n    return String(s).replace(/[\"\\\\]/g, \"\\\\$&\")\n  }\n\n  function initGarden(section) {\n    if (!section || section.dataset.gpInit === \"true\") return\n    section.dataset.gpInit = \"true\"\n\n    var plants = Array.prototype.slice.call(section.querySelectorAll(\".gp-plant\"))\n    var panel = section.querySelector(\".gp-panel\")\n    var panelTitle = panel && panel.querySelector(\".gp-panel-title\")\n    var panelMeta = panel && panel.querySelector(\".gp-panel-meta\")\n    var panelLink = panel && panel.querySelector(\".gp-panel-link\")\n    var panelClose = panel && panel.querySelector(\".gp-panel-close\")\n\n    function overlaysOf() {\n      return Array.prototype.slice.call(section.querySelectorAll(\".gp-roots\"))\n    }\n\n    function clearRoots() {\n      overlaysOf().forEach(function (svg) {\n        svg.textContent = \"\"\n      })\n    }\n\n    function drawRoots(plant) {\n      clearRoots()\n      var links = (plant.dataset.links || \"\").split(\",\").filter(Boolean)\n      if (!links.length) return\n      var bed = plant.closest(\".gp-beds\")\n      var overlay = bed && bed.querySelector(\".gp-roots\")\n      if (!bed || !overlay) return\n      var bedRect = bed.getBoundingClientRect()\n      var fromRect = plant.getBoundingClientRect()\n      var fromX = fromRect.left + fromRect.width / 2 - bedRect.left\n      var fromY = fromRect.bottom - bedRect.top - 2\n      var d = \"\"\n      links.forEach(function (slug) {\n        var target = bed.querySelector('.gp-plant[data-slug=\"' + cssEscape(slug) + '\"]')\n        if (!target) return\n        var r = target.getBoundingClientRect()\n        var toX = r.left + r.width / 2 - bedRect.left\n        var toY = r.bottom - bedRect.top - 2\n        var dipY = Math.max(fromY, toY) + 18\n        d += \"M\" + fromX + \" \" + fromY + \"Q\" + (fromX + toX) / 2 + \" \" + dipY + \" \" + toX + \" \" + toY + \" \"\n      })\n      if (d) overlay.innerHTML = '<path class=\"gp-root-line\" d=\"' + d + '\"></path>'\n    }\n\n    function showPanel(plant) {\n      if (!panel) return\n      if (panelTitle) panelTitle.textContent = plant.dataset.title || \"\"\n      var kind = plant.dataset.kind || \"\"\n      var modified = plant.dataset.modified || \"\"\n      if (panelMeta) panelMeta.textContent = [kind, modified ? \"물 준 날 \" + modified : \"\"].filter(Boolean).join(\" · \")\n      if (panelLink) panelLink.setAttribute(\"href\", \"./\" + (plant.dataset.slug || \"\"))\n      panel.classList.add(\"is-open\")\n    }\n\n    function hidePanel() {\n      if (panel) panel.classList.remove(\"is-open\")\n    }\n\n    var selected = null\n\n    function deselect() {\n      selected = null\n      plants.forEach(function (p) {\n        p.setAttribute(\"aria-expanded\", \"false\")\n      })\n      hidePanel()\n      clearRoots()\n    }\n\n    function select(plant) {\n      if (selected === plant) {\n        deselect()\n        return\n      }\n      selected = plant\n      plants.forEach(function (p) {\n        p.setAttribute(\"aria-expanded\", p === plant ? \"true\" : \"false\")\n      })\n      showPanel(plant)\n      drawRoots(plant)\n    }\n\n    plants.forEach(function (p) {\n      p.addEventListener(\"click\", function (e) {\n        e.preventDefault()\n        select(p)\n      })\n      p.addEventListener(\"keydown\", function (e) {\n        if (e.key === \"Enter\" || e.key === \" \" || e.key === \"Spacebar\") {\n          e.preventDefault()\n          select(p)\n        } else if (e.key === \"Escape\") {\n          deselect()\n        }\n      })\n    })\n    if (panelClose) panelClose.addEventListener(\"click\", deselect)\n\n    // 화면에 보이는 이랑만 흔들리게. 모션 최소화를 선호하면 관찰기 자체를 안 붙인다\n    // (CSS 도 같은 media query 로 한 번 더 막아 둔다 — CLAUDE.md §9).\n    if (window.IntersectionObserver && !window.matchMedia(\"(prefers-reduced-motion: reduce)\").matches) {\n      var io = new IntersectionObserver(\n        function (entries) {\n          entries.forEach(function (entry) {\n            entry.target.classList.toggle(\"is-visible\", entry.isIntersecting)\n          })\n        },\n        { rootMargin: \"80px\" },\n      )\n      section.querySelectorAll(\".gp-row\").forEach(function (row) {\n        io.observe(row)\n      })\n      if (window.addCleanup) window.addCleanup(io.disconnect.bind(io))\n    }\n\n    // 타임랩스\n    var playBtn = section.querySelector(\".gp-play\")\n    var dateLabel = section.querySelector(\".gp-timelapse-date\")\n    var timer = null\n\n    function stopTimelapse(reveal) {\n      if (timer) {\n        clearInterval(timer)\n        timer = null\n      }\n      if (playBtn) playBtn.textContent = \"▶ 타임랩스로 보기\"\n      if (reveal) {\n        plants.forEach(function (p) {\n          p.classList.remove(\"gp-future\")\n        })\n        if (dateLabel) dateLabel.textContent = \"\"\n      }\n    }\n\n    function weeklySteps(startMs, todayMs) {\n      var steps = []\n      var t = startMs\n      var week = 7 * 24 * 60 * 60 * 1000\n      while (t < todayMs) {\n        steps.push(t)\n        t += week\n      }\n      steps.push(todayMs)\n      return steps\n    }\n\n    function startTimelapse() {\n      var created = plants\n        .map(function (p) {\n          var t = p.dataset.created ? new Date(p.dataset.created).getTime() : NaN\n          return isNaN(t) ? null : t\n        })\n        .filter(function (t) {\n          return t !== null\n        })\n      if (!created.length) return\n      var steps = weeklySteps(Math.min.apply(null, created), Date.now())\n\n      if (playBtn) playBtn.textContent = \"■ 멈추기\"\n      var i = 0\n\n      function frame() {\n        var cur = steps[i]\n        plants.forEach(function (p) {\n          var t = p.dataset.created ? new Date(p.dataset.created).getTime() : NaN\n          var show = isNaN(t) || t <= cur\n          p.classList.toggle(\"gp-future\", !show)\n        })\n        if (dateLabel) dateLabel.textContent = new Date(cur).toISOString().slice(0, 10)\n        i++\n        if (i >= steps.length) stopTimelapse(false)\n      }\n\n      frame()\n      timer = setInterval(frame, 260)\n      if (window.addCleanup) window.addCleanup(function () { stopTimelapse(true) })\n    }\n\n    if (playBtn) {\n      playBtn.addEventListener(\"click\", function () {\n        if (timer) {\n          stopTimelapse(true)\n        } else {\n          startTimelapse()\n        }\n      })\n    }\n\n    if (window.addCleanup) {\n      window.addCleanup(function () {\n        section.dataset.gpInit = \"false\"\n      })\n    }\n  }\n\n  function init() {\n    initGarden(document.querySelector(\".garden-home-garden\"))\n  }\n\n  document.addEventListener(\"nav\", init)\n  init()\n})()\n\n// radar 구역의 상호작용·움직임. 회전·반짝임 자체는 CSS 애니메이션(garden-home.css)이 하고,\n// 이 스크립트는: 점을 클릭/키보드로 고르면 패널에 정보 채우기, 화면 밖이면 애니메이션 멈추기만\n// 한다. component.js 가 Component.afterDOMLoaded 로 garden-interactive.js 뒤에 붙인다(build.mjs).\n;(function () {\n  function initRadar(section) {\n    if (!section || section.dataset.radarInit === \"true\") return\n    section.dataset.radarInit = \"true\"\n\n    var dots = Array.prototype.slice.call(section.querySelectorAll(\".radar-dot\"))\n    var panel = section.querySelector(\".radar-panel\")\n    var panelSub = panel && panel.querySelector(\".radar-panel-subfolder\")\n    var panelDate = panel && panel.querySelector(\".radar-panel-date\")\n    var panelTitle = panel && panel.querySelector(\".radar-panel-title\")\n    var panelLink = panel && panel.querySelector(\".radar-panel-link\")\n    var panelClose = panel && panel.querySelector(\".gp-panel-close\")\n    var selected = null\n\n    function hidePanel() {\n      if (panel) panel.classList.remove(\"is-open\")\n    }\n\n    function select(dot) {\n      if (selected === dot) {\n        deselect()\n        return\n      }\n      selected = dot\n      dots.forEach(function (d) {\n        d.setAttribute(\"aria-pressed\", d === dot ? \"true\" : \"false\")\n        d.style.animationPlayState = d === dot ? \"paused\" : \"\"\n      })\n      if (panel) {\n        if (panelSub) panelSub.textContent = dot.dataset.subfolder || \"\"\n        if (panelDate) panelDate.textContent = dot.dataset.date || \"\"\n        if (panelTitle) panelTitle.textContent = dot.dataset.title || \"\"\n        if (panelLink) panelLink.setAttribute(\"href\", \"./\" + (dot.dataset.slug || \"\"))\n        panel.classList.add(\"is-open\")\n      }\n    }\n\n    function deselect() {\n      selected = null\n      dots.forEach(function (d) {\n        d.setAttribute(\"aria-pressed\", \"false\")\n        d.style.animationPlayState = \"\"\n      })\n      hidePanel()\n    }\n\n    dots.forEach(function (d) {\n      d.setAttribute(\"aria-pressed\", \"false\")\n      d.addEventListener(\"click\", function () {\n        select(d)\n      })\n      d.addEventListener(\"keydown\", function (e) {\n        if (e.key === \"Enter\" || e.key === \" \" || e.key === \"Spacebar\") {\n          e.preventDefault()\n          select(d)\n        } else if (e.key === \"Escape\") {\n          deselect()\n        }\n      })\n    })\n    if (panelClose) panelClose.addEventListener(\"click\", deselect)\n\n    // 화면 밖이면 회전·반짝임 멈춤(움직이는 게 안 보이는데 계속 도는 건 낭비고, 다시 보일 때\n    // 느닷없이 위상이 튀는 것도 자연스럽다 — CSS 애니메이션은 멈췄다 다시 켜면 그 지점부터 이어진다).\n    if (window.IntersectionObserver) {\n      var io = new IntersectionObserver(\n        function (entries) {\n          entries.forEach(function (entry) {\n            section.classList.toggle(\"radar-is-visible\", entry.isIntersecting)\n          })\n        },\n        { rootMargin: \"60px\" },\n      )\n      var dial = section.querySelector(\".radar-dial\")\n      if (dial) io.observe(dial)\n      if (window.addCleanup) window.addCleanup(io.disconnect.bind(io))\n    } else {\n      section.classList.add(\"radar-is-visible\")\n    }\n\n    if (window.addCleanup) {\n      window.addCleanup(function () {\n        section.dataset.radarInit = \"false\"\n      })\n    }\n  }\n\n  function init() {\n    initRadar(document.querySelector(\".garden-home-radar\"))\n  }\n\n  document.addEventListener(\"nav\", init)\n  init()\n})()\n"
   return Component
 }

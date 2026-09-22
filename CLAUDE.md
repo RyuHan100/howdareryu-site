@@ -11,10 +11,10 @@
   사용자에게 의도한 변경인지 확인할 것 — 이 삭제는 사이트 빌드에도 실제로 영향을 준다
   (그 페이지를 가리키던 backlink/graph 가 있던 페이지들이 같이 바뀜).
 - **탐색기(§5, 식물 이모지 포함), 정원 데이터 수집기(§8.1), radar 이력 단위 수집(§8.2),
-  홈 5구역+garden-home 뼈대(§8), Properties 표시 이름(§7) 전부 완료·배포됨** (`v5`, 최신 배포
-  커밋 `9797f9e9`).
-- **② 정원 모양+상호작용+움직임(§8) 구현 완료, `home.garden: true`로 켬, 아직 커밋 안 함** —
-  사용자 확인 대기 중. radar 컴포넌트 자체(③, §10 4단계)·④ 아빠의 화단은 아직 착수 전.
+  홈 5구역+garden-home 뼈대(§8), Properties 표시 이름(§7), ② 정원 모양+상호작용+움직임(§8)
+  전부 완료·배포됨** (`v5`, 최신 배포 커밋 `7d4cc1d3`, `home.garden: true`).
+- **③ radar 구현 완료(§8), `home.radar: true`로 켬, 아직 커밋 안 함** — 사용자 확인 대기 중.
+  ④ 아빠의 화단은 아직 착수 전.
 
 ## 1. 저장소와 클론
 
@@ -74,6 +74,11 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
   **함정:** `--highlight`/`--textHighlight`가 불투명 형광 연두 → 커스텀 UI 배경으로 쓰지 말 것.
   반투명 색은 `color-mix(in srgb, var(--secondary) N%, transparent)`로 직접 만든다.
   `custom.scss`에서 `strong`을 `#9fef00`으로 칠하고 있다.
+  **함정 2(2026-09-23 발견):** `--lightgray`(`#1a2331`)가 배경 `--light`(`#141d2b`)와 거의 같은
+  어두운 남색이다 — 다크 전용 테마라 "light-"로 시작하는 이름과 실제 밝기가 맞물리지 않는다
+  (radar 격자선/패널 테두리에 썼다가 안 보여서 발견, §8). 선·테두리처럼 배경과 대비돼야 하는
+  요소는 실제로 밝은 `--gray`(`#a4b1cd`)를 `color-mix`로 옅게 섞어 쓴다. 새 UI 를 만들 때
+  변수 이름만 보고 밝기를 짐작하지 말고 헤드리스 브라우저로 실제 렌더링을 확인할 것.
 - **배치**: 컴포넌트 플러그인마다 `layout: { position, priority, group?, condition?, display? }`.
   position은 `left / right / beforeBody / afterBody` 배열. `pageBody`(마크다운 본문)는 단일 슬롯이라
   본문 중간에 컴포넌트를 끼울 수 없다. `layout.byPageType`으로 페이지 타입별 제외/비우기
@@ -301,7 +306,62 @@ frontmatter 는 절대 안 바꾼다(→ 다른 기능·git 기록·created-modi
     사이트 전체 공유 번들이라 이 컴포넌트가 홈에서만 나와도 번들 해시는 항상 바뀐다 — §7의
     Head.tsx 스크립트 추가와 같은 종류의 불가피한 부작용). index.html 자체는 정원 자리표시자가
     실제 내용으로 바뀐 만큼만 달라짐(의도된 변화).
-  - ③ radar: `radar.notes`(날짜 내림차순) + `radar.subfolders`(표시 이름·색).
+  - ③ radar ✅ 완료(2026-09-23) — `plugins/garden-home/src/radar-svg.js`(서버 렌더링) +
+    `radar-interactive.js`(클라이언트, garden-interactive.js 뒤에 이어 붙어 같은
+    `Component.afterDOMLoaded` 문자열을 이룬다 — build.mjs 참고). 표시 이름은 "radar"(고정).
+    - **구역**: `garden-data.json`의 `radar.subfolders[]`(이미 garden.yaml 표시 이름·색이
+      반영된 배열, 판정을 다시 안 함)로 원을 그 개수만큼 등분한다. 새 하위 폴더가 생기면
+      `config.ts` 기본값으로 자동으로 구역이 하나 늘어난다(설정 안 해도 동작, 다른 정원 데이터와
+      같은 철학). 구역 이름은 원 밖에 텍스트로, 각도에 따라 `text-anchor`를 start/middle/end로
+      바꿔 겹치지 않게 한다.
+    - **점**: `radar.notes[]`에서 `isIndex`(폴더 자기 자신의 index.md)는 보통 빼지만, PACM처럼
+      `revision`(§8.2) 단위 기록은 노트 자체가 index.md 라도 이력은 진짜 기록이라 남긴다
+      (`!isIndex || revision`). 나이(오늘 기준 일수)가 30을 넘으면 그리지 않는다. 각도는
+      그 기록이 속한 구역 안에서 해시로 살짝 흔들어 겹침을 줄이고, 반지름은 `나이/30 × 반지름`
+      (중심=오늘, 가장자리=30일). 점 색은 구역 색(`--sector-color`, garden.yaml 값 그대로).
+    - **빛줄기**: "몇 겹의 반투명 부채꼴"을 그라디언트가 아니라 **진짜 4겹의 `<path>` 부채꼴**로
+      겹쳐서(뒤로 갈수록 옅어짐) 만들고, 그 4겹을 통째로 담은 `<g class="radar-beam">`을 CSS
+      `@keyframes radar-sweep`(`rotate(0→360deg)`, 10초, `linear infinite`)로 돌린다. 각도 규칙은
+      0°=12시, 시계방향(CSS `rotate()`와 같은 방향)으로 통일해서 점의 위치 계산과 어긋나지 않게
+      했다.
+      **함정(2026-09-23 발견·수정)**: `transform-box: fill-box`를 쓰면 부채꼴 자기 자신의
+      바운딩 박스 중심을 기준으로 돈다 — 부채꼴은 원 전체가 아니라 한쪽으로 치우친 조각이라
+      그 박스 중심이 원의 진짜 중심과 다르고, 결과적으로 회전축이 원 중앙이 아니라 부채꼴이
+      자기 박스 중심을 축으로 삥 도는 것처럼 보인다(사용자가 스크린샷으로 확인). `transform-box:
+      view-box; transform-origin: 160px 160px`(SVG 좌표계 자체의 중심, `radar-svg.js`의
+      `RADAR_CENTER`와 반드시 같은 값)로 고쳐서 해결 — 회전 중심을 원의 진짜 중심으로 못박아야
+      하는 애니메이션(자기 자신이 원 전체를 덮지 않는 모양)은 `fill-box`가 아니라 `view-box` +
+      절대 좌표를 써야 한다(반대로 §8의 `gp-sway`는 각 식물이 "자기 자신의 밑동" 기준으로
+      흔들려야 해서 `fill-box`가 맞다 — 언제 어떤 걸 쓸지는 회전축이 "자기 자신 기준"인지
+      "공유된 절대 좌표" 인지로 구분).
+    - **점이 반짝임**: "빛줄기가 지나가면 밝아졌다 서서히 흐려짐"은 JS 로 실시간 계산하지 않고,
+      모든 점에 **같은** `@keyframes radar-ping`(0%에 확 밝아졌다가 70%까지 서서히 옅어지고
+      유지)을 걸되, 각 점의 `animation-delay`를 `(그 점의 각도/360) × 10초`로 **미리 빌드 시점에
+      계산해 심어 둔다**(`radar-svg.js`의 `SWEEP_DURATION_S`가 CSS 의 10초와 반드시 같아야
+      한다 — 값이 하나라도 안 맞으면 반짝임이 빛줄기와 어긋난다, 주석으로 양쪽에 표시해 둠).
+      빛줄기와 점이 같은 시각(0초)에 함께 시작해서 위상이 맞다.
+    - **화면 밖이면 멈춤**: `IntersectionObserver`가 `.radar-dial`을 보고 `.garden-home-radar`에
+      `radar-is-visible`을 붙였다 뗀다. 빛줄기·점 애니메이션은 기본 `animation-play-state:paused`
+      이고 그 클래스가 있을 때만 `running`으로 바뀐다(멈췄다 다시 보이면 그 지점부터 이어짐 —
+      리셋이 아니라 진짜 "일시정지"). `prefers-reduced-motion: reduce`면 두 애니메이션 다
+      `@media (prefers-reduced-motion: no-preference)` 바깥이라 처음부터 안 걸린다.
+    - **점 클릭 패널**: 클릭/포커스+Enter·Space 로 고르면 그 점의 `aria-pressed`가 `true`가 되고
+      (다른 점은 `false`), 정원 패널(`.gp-panel`)과 같은 모양의 패널에 구역·날짜·제목 + 노트로
+      가는 링크가 뜬다. 고른 점은 인라인 `animationPlayState:paused`로 깜빡임을 멈춰 또렷하게
+      유지한다(선택 해제하면 다시 CSS 애니메이션대로).
+    - **검증(2026-09-23)**: 실제 데이터로 8개 점 확인(뉴스 4·PACM 1·국회 기노위 3, 30일 넘는
+      기록은 실제로 빠짐). PACM 이 index.md 뿐인데 `revision` 예외로 살아남는 것도 확인. CDP로
+      클릭→패널, Enter→선택/Escape→해제, `scrollIntoView` 전/후 `radar-is-visible`·
+      `animationPlayState`(paused→running) 전환, `prefers-reduced-motion: reduce`에서
+      `animationName: none`(애니메이션 자체가 안 걸림)을 전부 확인. 이전 배포 커밋(`7d4cc1d3`)과
+      `public/` 전체 비교 결과 홈 외 페이지는 공유 번들 파일명만 다르고(§7·§8 과 같은 이유),
+      그 번들 내용은 기존 정원 스크립트/CSS는 그대로 두고 radar 부분만 순수 추가됐음을 확인.
+    - **스크린샷으로 잡은 버그 2개(2026-09-23, 사용자 피드백)**: (1) 위 §4 함정 2 —
+      `--lightgray`가 안 보여서 원·구역선·패널 테두리가 전부 안 보였다. (2) 빛줄기가 원 중앙이
+      아니라 부채꼴 자기 박스 중심을 축으로 돎(위 "빛줄기" 항목의 함정 참고, `transform-box:
+      fill-box` → `view-box`로 수정). 둘 다 고친 뒤 헤드리스 크롬으로 여러 회전각(0/45/90/
+      135/200/300도)에서 스크린샷을 찍어 부채꼴 꼭지점이 원 중앙(160,160)에 고정된 채로만
+      도는 것을 확인했다.
   - ④ 아빠의 화단: `gallery.images`. 원본이 483MB라 **반드시 `/img/thumbs/<파일명>.webp` 썸네일**을
     쓴다(CI에서 gen_gallery가 먼저 만든다). 클릭하면 원본(`src`)이나 gallery 페이지로.
     로컬에는 썸네일이 없으니 로컬 확인용 대체 경로(원본 또는 gen_gallery.py 로컬 실행)가 필요하다.
@@ -447,9 +507,10 @@ radar 의 하위 폴더는 기본적으로 "노트 하나 = 점 하나"(§8.1)�
       `garden-properties-data.js`. scribbled notes 전용 식물/뿌리/씨앗 칸, radar 전용 수신일.
 - [x] **3. 홈 5구역 재구성 + garden-home 뼈대** — 완료·배포. index.md는 소개 3줄만 남기고
       `plugins/garden-home`이 ②③④⑤를 그린다. 홈 듣기·댓글·Properties는 숨김(§9).
-- [x] **4. 구역 채우기 — ② 정원** — 모양+상호작용+움직임 전부 완료(§8), 아직 push 안 함.
-      `home.garden`을 **true**로 켬(사용자 지시, 2026-09-23). 남은 것: ④ 아빠의 화단, ③ radar
-      (⑤ 연락처는 이미 완성).
+- [x] **4. 구역 채우기 — ② 정원** — 모양+상호작용+움직임 완료·배포(§8, 커밋 `7d4cc1d3`),
+      `home.garden: true`.
+- [x] **4. 구역 채우기 — ③ radar** — 완료(§8), 아직 push 안 함. `home.radar`를 **true**로 켬
+      (사용자 지시, 2026-09-23). 남은 것: ④ 아빠의 화단(⑤ 연락처는 이미 완성).
 - [ ] **5. 확인·배포** — 다음 작업분도 `npx quartz build`로 로컬 확인 → 이전 배포본과 `public/`
       비교(§8 방식) → diff 검토(비밀값 없는지) → 사용자 확인 후 `v5`에 push → Actions 배포 확인.
 

@@ -224,7 +224,9 @@
   position: relative;
   margin-top: 0.6rem;
   padding: 0.6rem 2rem 0.6rem 0.9rem;
-  border: 1px solid var(--lightgray);
+  /* --lightgray 는 이 다크 테마에서 배경과 거의 같은 색이라 안 보인다(위 .radar-face 주석과 같은
+     함정) — --gray 를 옅게 섞어 실제로 보이는 경계선을 만든다. */
+  border: 1px solid color-mix(in srgb, var(--gray) 40%, var(--light));
   border-radius: 0.5rem;
   background: color-mix(in srgb, var(--color-green, var(--secondary)) 8%, var(--light));
 }
@@ -253,4 +255,119 @@
   color: var(--gray);
   font-size: 0.9rem;
   line-height: 1;
+}
+
+/* ---------- ③ radar ---------- */
+
+.radar-face-wrap {
+  display: flex;
+  justify-content: center;
+}
+.radar-dial {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  overflow: visible;
+}
+
+.radar-face {
+  fill: color-mix(in srgb, var(--color-green, var(--secondary)) 5%, var(--light));
+  /* hackthebox 테마에서 --lightgray 는 배경(--light)과 거의 같은 어두운 남색이라 안 보인다
+     (다크 테마라 밝은/어두운 회색의 이름과 실제 밝기가 뒤집혀 있음 — CLAUDE.md §4 함정).
+     --gray 가 실제로 밝은, 눈에 보이는 회색이라 격자선은 전부 이걸로 옅게 섞어 쓴다. */
+  stroke: color-mix(in srgb, var(--gray) 55%, var(--light));
+  stroke-width: 1;
+}
+.radar-ring {
+  fill: none;
+  stroke: color-mix(in srgb, var(--gray) 45%, var(--light));
+  stroke-width: 0.75;
+  stroke-dasharray: 2 3;
+}
+.radar-ring-label {
+  fill: var(--gray);
+  font-size: 7px;
+}
+.radar-divider {
+  stroke: color-mix(in srgb, var(--gray) 45%, var(--light));
+  stroke-width: 0.75;
+}
+.radar-sector-label {
+  fill: var(--sector-color, var(--gray));
+  font-size: 9px;
+}
+
+/* 빛줄기: 몇 겹의 반투명 부채꼴이 같은 <g> 안에서 함께 돈다. 기본은 정지(멈춰 있는 부채꼴) —
+   화면 안에 있고(.radar-is-visible) 모션 최소화를 선호하지 않을 때만 돈다. */
+.radar-beam-wedge {
+  fill: var(--color-green, var(--secondary));
+}
+.radar-beam {
+  /* fill-box 를 쓰면 부채꼴(자기 자신)의 바운딩 박스 중심을 기준으로 돌아서, 부채꼴이 원 중앙이
+     아닌 자기 박스 중심을 축으로 삥 돈다(실제로 그렇게 어긋나는 걸 확인함) — view-box 로 SVG
+     좌표계 자체의 (160,160)을 기준으로 삼아야 원 중앙과 정확히 맞는다. 160 은 radar-svg.js 의
+     RADAR_CENTER(=RADAR_SIZE/2)와 반드시 같아야 한다. */
+  transform-box: view-box;
+  transform-origin: 160px 160px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .radar-beam {
+    /* garden-svg.js 의 SWEEP_DURATION_S 와 반드시 같은 값(점 반짝임 딜레이가 이 값으로 계산됨) */
+    animation: radar-sweep 10s linear infinite;
+    animation-play-state: paused;
+  }
+  .garden-home-radar.radar-is-visible .radar-beam {
+    animation-play-state: running;
+  }
+}
+@keyframes radar-sweep {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 점: 평소엔 옅게, 빛줄기가 지나가는 순간(딜레이로 미리 맞춰 둠) 밝아졌다가 서서히 흐려진다. */
+.radar-dot {
+  fill: var(--sector-color, var(--secondary));
+  opacity: 0.3;
+  cursor: pointer;
+}
+.radar-dot:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 1px;
+}
+.radar-dot[aria-pressed="true"] {
+  opacity: 1;
+  filter: brightness(1.3);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .radar-dot {
+    animation: radar-ping 10s linear infinite;
+    animation-play-state: paused;
+  }
+  .garden-home-radar.radar-is-visible .radar-dot {
+    animation-play-state: running;
+  }
+}
+@keyframes radar-ping {
+  0% {
+    opacity: 1;
+  }
+  8% {
+    opacity: 0.85;
+  }
+  35% {
+    opacity: 0.5;
+  }
+  70%,
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.radar-panel-title {
+  margin-top: 0.1rem;
 }
