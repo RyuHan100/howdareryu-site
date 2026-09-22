@@ -1,5 +1,5 @@
 ---
-title: "News_radar"
+title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-09-22
