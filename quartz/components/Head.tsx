@@ -116,6 +116,23 @@ export default (() => {
             ></script>
           </>
         )}
+        {/* 노트 상단 Properties 표를 정원 콘셉트 이름으로 갈아 끼운다(§7, garden.yaml 의
+            properties 항목). 데이터 스크립트가 먼저 로드돼야 하므로 순서를 지킨다.
+            홈(index)에는 Properties 표 자체가 없어 의미가 없으므로 같이 숨긴다. */}
+        {fileData.slug !== "index" && (
+          <>
+            <script
+              defer
+              data-persist="true"
+              src={joinSegments(baseDir, "static/garden-properties-data.js")}
+            ></script>
+            <script
+              defer
+              data-persist="true"
+              src={joinSegments(baseDir, "static/garden-properties.js")}
+            ></script>
+          </>
+        )}
         {additionalHead.map((resource) => {
           if (typeof resource === "function") {
             return resource(fileData)

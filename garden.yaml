@@ -45,6 +45,39 @@ explorer:
     tree: 🌳
     wilted: 🍂
 
+# properties: 노트 상단 Properties 표의 표시 이름(정원 콘셉트). frontmatter 의 실제 키는
+# 절대 안 바꾼다 — 표에 보일 때만 이 이름으로 갈아 낀다. quartz/garden/syncPropertiesFromGarden.ts
+# 가 빌드 시점에 이 항목과 .garden-cache/garden-data.json(위 explorer.plants 와 같은 데이터,
+# quartz/garden/collect.ts 의 결과)을 읽어 quartz/static/garden-properties-data.js 를 만들고,
+# quartz/static/garden-properties.js(손으로 쓴 스크립트, nav 이벤트마다 재적용)가 노트 페이지에서
+# 이 이름표대로 갈아 낀다.
+#   table_title      : 표 제목("Properties", 플러그인이 en-US 밖에 없어서 영어로 고정돼 있던 것).
+#   labels           : frontmatter 키 → 표시 이름. 모든 노트 공통 기본값. updated/modified 는
+#                      같은 표시 이름으로 합쳐 보인다(둘 중 하나만 있어도, 있는 쪽이 이 이름으로 보임).
+#   radar_overrides  : radar(아래 radar.folder) 노트에서만 labels 를 덮어쓴다.
+#   scribbled_extra  : scribbled notes(아래 garden.folder)에만 붙는 칸의 표시 이름. 값은
+#                      frontmatter 에 없는, .garden-cache/garden-data.json 에서 계산해 붙이는
+#                      칸이다 — plant: 식물 판정(이모지+종류, 시들었으면 종류 앞에 "시든"),
+#                      roots: 백링크(이 노트를 링크한 다른 노트) 수, seeds: 아직 없는 노트로
+#                      가는 링크 수.
+properties:
+  table_title: 식물 이름표
+  labels:
+    created: 심은 날
+    modified: 물 준 날
+    # dateModified: note-properties 가 인식하는 별칭 목록(modified/lastmod/updated/
+    # last-modified)에 없는 표기라 canonical modified 로 안 합쳐지고 따로 남는다(AI.md에서
+    # 실제로 발견됨, 2026-09-23). frontmatter 는 안 고치고 표시만 물 준 날로 맞춘다.
+    dateModified: 물 준 날
+    tags: 품종
+    description: 한 줄 소개
+  radar_overrides:
+    created: 수신일
+  scribbled_extra:
+    plant: 식물
+    roots: 뿌리
+    seeds: 씨앗
+
 # ─────────────────────────────────────────────────────────────────────────────
 # 아래는 홈 컴포넌트(정원·radar·아빠의 화단)가 쓸 데이터 설정.
 # 빌드할 때 quartz/garden/collect.ts 가 읽어 .garden-cache/garden-data.json 을 만든다.

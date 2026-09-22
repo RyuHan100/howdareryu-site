@@ -2,6 +2,7 @@ import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/conf
 import { registerCondition } from "./quartz/plugins/loader/conditions"
 import { syncExplorerConfigFromGarden } from "./quartz/garden/syncExplorerFromGarden"
 import { syncGardenHomeConfigFromGarden } from "./quartz/garden/syncGardenHomeFromGarden"
+import { syncPropertiesConfigFromGarden } from "./quartz/garden/syncPropertiesFromGarden"
 import { collectGardenData } from "./quartz/garden/collect"
 
 // 홈에서만 렌더링할 컴포넌트용 (quartz.config.yaml 의 layout.condition: index)
@@ -27,6 +28,11 @@ syncExplorerConfigFromGarden()
 
 // garden.yaml 의 home 항목(정원/radar/아빠의 화단 on·off)을 quartz.config.yaml 에 반영
 syncGardenHomeConfigFromGarden()
+
+// garden.yaml 의 properties 항목(노트 상단 Properties 표 표시 이름)을
+// quartz/static/garden-properties-data.js 로 반영 (§7 — 방금 만든 garden-data.json 을
+// 그대로 읽어 오솔길·정원 그림과 같은 식물 판정을 쓴다)
+syncPropertiesConfigFromGarden()
 
 const config = await loadQuartzConfig()
 export default config

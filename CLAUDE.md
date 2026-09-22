@@ -10,10 +10,11 @@
   캔버스를 열람/편집 중이었을 가능성. **커밋에서 계속 빼두고 있다.** 다음 작업 시작 전에
   사용자에게 의도한 변경인지 확인할 것 — 이 삭제는 사이트 빌드에도 실제로 영향을 준다
   (그 페이지를 가리키던 backlink/graph 가 있던 페이지들이 같이 바뀜).
-- **탐색기(§5), 정원 데이터 수집기(§8.1), 홈 5구역+garden-home 뼈대(§8), ② 정원 SVG(§8)
-  전부 완료·배포됨** (`v5`, 최신 배포 커밋 `ab748041`).
-- **③ radar 의 PACM 이력(revision) 단위 수집(§8.2) 구현 완료, 아직 커밋 안 함** — 사용자
-  확인 대기 중. radar 컴포넌트 자체(5단계)는 아직 착수 전.
+- **탐색기(§5, 식물 이모지 포함), 정원 데이터 수집기(§8.1), radar 이력 단위 수집(§8.2),
+  홈 5구역+garden-home 뼈대(§8), ② 정원 SVG(§8) 전부 완료·배포됨** (`v5`, 최신 배포 커밋
+  `1cc52afe`).
+- **Properties 표시 이름(§7) 구현 완료, 아직 커밋 안 함** — 사용자 확인 대기 중.
+  radar 컴포넌트 자체(§10 4단계)는 아직 착수 전.
 
 ## 1. 저장소와 클론
 
@@ -146,20 +147,65 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
   - 로컬에서 돌리면 gallery.md가 바뀌고 썸네일이 생긴다(커밋하지 않게 주의).
 - 다른 워크플로(`news-clipping.yml`, `pacm-monitor.yml` 등)는 정원 작업에서 건드리지 않는다.
 
-## 7. 노트 상단 Properties 표 — 표시 이름
+## 7. 노트 상단 Properties 표 — 표시 이름 ✅ 완료(2026-09-23)
 
-플러그인 `github:quartz-community/note-properties` (`includeAll: true`, beforeBody).
+플러그인 `github:quartz-community/note-properties` (`includeAll: true`, beforeBody). 옵션은
+`includeAll`/`includedProperties`/`excludedProperties`/`hidePropertiesView`/`delimiters`/`language`뿐이라
+**키 이름을 바꾸는 옵션이 없다** — 표의 왼쪽 칸은 frontmatter 키를 그대로 출력하고, 표 제목
+"Properties"는 플러그인 i18n에 en-US만 있어서 locale이 ko-KR이어도 그대로 "Properties"다.
+frontmatter 는 절대 안 바꾼다(→ 다른 기능·git 기록·created-modified-date 플러그인에 영향 없음) —
+**표시만** 클라이언트에서 갈아 끼운다.
 
-- 옵션은 `includeAll`, `includedProperties`, `excludedProperties`, `hidePropertiesView`, `delimiters`, `language`뿐이다.
-  **키 이름을 바꾸는 옵션은 없다.** 표의 왼쪽 칸은 frontmatter 키를 그대로 출력한다(`title`, `created`,
-  `aliases`, `tags`, `publish`, `modified` …).
-- 표 제목 "Properties"는 플러그인 i18n에서 오는데 **en-US만 있다** → locale이 ko-KR이어도 "Properties".
-- 노트별로 표 보이기/숨기기: frontmatter `quartz-properties: false`, 접기: `quartz-properties-collapse: true`.
-- 키 칸 `<td class="note-properties-key">`에는 키를 구분하는 속성이 없어서 CSS만으로는 특정 키 이름을 바꿀 수 없다.
-- **권장**: 작은 클라이언트 스크립트로 `.note-properties-key` 텍스트와 `.note-properties-title`을 매핑표대로 바꾼다.
-  매핑은 `garden.yaml`에 둔다(예: `properties.labels: { created: 심은 날, modified: 마지막 손질 }`).
-  SPA 이동 때마다 다시 적용해야 하므로 `nav` 이벤트에 건다. 원래 키(`title` 등)는 그대로라 다른 기능은 영향 없음.
-  대안으로 `excludedProperties`로 빼고 싶은 키(`aliases`, `publish` 등)는 옵션만으로 숨길 수 있다.
+**구현: `garden.yaml`(설정) + `quartz/garden/syncPropertiesFromGarden.ts`(빌드 시점 생성) +
+`quartz/static/garden-properties.js`(손으로 쓴 동작 스크립트).**
+- `garden.yaml`의 `properties:` 키로 관리: `table_title`(표 제목), `labels`(frontmatter 키 →
+  표시 이름, 모든 노트 공통 기본값), `radar_overrides`(radar 폴더 노트에서만 `labels`를
+  덮어씀), `scribbled_extra`(scribbled notes 전용 칸 3개의 표시 이름: `plant`/`roots`/`seeds`).
+  지금 값: 제목 `식물 이름표`, labels `{created: 심은 날, modified: 물 준 날, dateModified: 물 준 날,
+  tags: 품종, description: 한 줄 소개}`, radar_overrides `{created: 수신일}`, scribbled_extra
+  `{plant: 식물, roots: 뿌리, seeds: 씨앗}`.
+- `quartz.ts`가 `collectGardenData()`(§8.1) **다음에** `syncPropertiesConfigFromGarden()`을 불러서
+  `garden.yaml`의 `properties`와 방금 만든 `.garden-cache/garden-data.json`(오솔길 식물 이모지·
+  정원 그림과 같은 데이터, §5)을 읽어 `quartz/static/garden-properties-data.js`를 만든다
+  (`window.__GARDEN_PROPERTIES__ = {...}` 하나, `notes` 항목에 scribbled notes 각 슬러그별
+  식물/뿌리/씨앗 값이 이미 계산돼 들어있다 — 판정을 다시 하지 않음).
+  - **이 생성 파일은 다른 마커-동기화 결과(quartz.config.yaml)와 달리 반드시 커밋해야 한다.**
+    `quartz/static/`은 Static 이모터가 `public/static/`으로 그대로 복사하는데 그 글롭이
+    `gitignore: true`라 gitignore된 파일은 조용히 빠진다(처음에 이걸로 실패해서 확인함) —
+    `.garden-cache/garden-data.json`과 달리 브라우저로 나가야 하므로 커밋 대상이다.
+    `garden.yaml`을 고치면 다시 빌드해서 diff를 같이 커밋한다.
+- `quartz/static/garden-properties.js`(커밋된, 손으로 쓴 파일)가 `Head.tsx`에서 `data-persist`
+  스크립트 태그 2개(데이터 파일 먼저, 이 파일 다음 — `defer`가 문서 순서를 지킴)로 모든 노트
+  페이지(홈 제외, TTS/댓글과 같은 조건)에 실린다. `nav` 이벤트마다(+최초 로드) 다시 적용:
+  1. `.note-properties-title` 텍스트를 `tableTitle`로.
+  2. `document.body.dataset.slug`의 첫 세그먼트가 `radarFolder`("radar")와 같으면
+     `labels`에 `radarLabelOverrides`를 덮어씌운 걸 쓴다.
+  3. `.note-properties-key` 각 칸의 원문 텍스트가 `dropKeys`에 있으면 그 행을 통째로 지우고,
+     `labels`에 있으면 텍스트만 바꾼다. `dropKeys`(`date`/`published`/`lastmod`/`updated`/
+     `last-modified`)는 `garden.yaml`에 없는 고정값 — note-properties 플러그인이 자체적으로
+     이 값들을 `created`/`modified`/`published` 캐노니컬 키로 복사해 넣기 때문에(원본
+     transformer 코드, §7 조사 당시 확인), 그대로 두면 같은 날짜가 영어 키로 중복 표시된다.
+     frontmatter 는 안 건드리고 표시 스냅숏에서만 지운다.
+  4. 현재 슬러그가 `notes`(scribbled notes 전용)에 있으면 `<tbody>` 끝에 행을 추가한다
+     (`data-garden-extra="true"`로 중복 추가 방지). `.note-properties-count` 배지도 지우고
+     더한 만큼 다시 계산한다.
+- **알려진 예외**: `scribbled notes/2026-09-20 AI.md`는 frontmatter 키로 `dateModified`를 쓰는데
+  이건 note-properties 플러그인의 별칭 목록(`modified`/`lastmod`/`updated`/`last-modified`)에
+  없어서 캐노니컬 `modified`로 안 합쳐지고 따로 남는다 → 검증 중 발견, `labels.dateModified`도
+  `물 준 날`로 매핑해 표시는 맞지만, `modified`(값은 created 로 대체된 값)와 `dateModified`
+  (진짜 값) 두 행이 둘 다 "물 준 날"로 남아 값이 두 번 보인다(빈도 낮은 케이스, frontmatter 를
+  안 건드려서 고치지 않고 기록만 해둠 — 나중에 그 노트의 키를 `modified`로 바꾸면 사라진다).
+- **검증(2026-09-23)**: 로컬 빌드 후 headless Chrome으로 스크립트 실행 뒤 DOM을 떠서 확인—
+  scribbled notes(AI.md): 제목 식물 이름표, 심은 날/물 준 날/품종 라벨 정상, 식물 🌼 꽃·뿌리 0·
+  씨앗 0 행 추가(칸 수 7→10, garden-data.json과 일치). radar(PACM): 제목 식물 이름표, 수신일·
+  물 준 날·품종·한 줄 소개 라벨 정상, 중복 `date`/`published` 행 삭제(칸 수 5), 식물 칸 없음.
+  plain 노트(archive.md, basic terminal command…): 라벨만 바뀌고 추가 칸 없음. 이전 배포 커밋
+  (`1cc52afe`)과 `public/` 748개 파일을 통째로 비교해서, **차이가 난 147개 페이지 전부 `<head>`의
+  새 `<script>` 태그 2개(garden-properties-data.js/garden-properties.js) 그 자체뿐**임을 정규식으로
+  확인했다(그 두 태그를 지우면 baseline과 100% 동일) — 표 내용 변화는 정적 HTML이 아니라 클라이언트
+  스크립트가 만드는 것이라 서버 렌더링 diff에는 안 나타난다(예상된 동작). 홈(index.html)은 스크립트
+  자체가 없어(§9와 같은 조건) baseline과 완전히 동일. `index.xml`/`sitemap.xml`의 차이는 빌드
+  시각(`lastmod`/`pubDate`)뿐이라 무관.
 
 ## 8. 홈 전용 컴포넌트 — `plugins/garden-home` ✅ 뼈대 완료(2026-09-22)
 
@@ -353,7 +399,9 @@ radar 의 하위 폴더는 기본적으로 "노트 하나 = 점 하나"(§8.1)�
       (폴더 🪴, radar 폴더·하위 폴더 📡, radar 노트 📍, 비공개 아카이브 🔒).
 - [x] **1.5 정원 데이터 수집기** — 완료·배포(§8.1, 커밋 47faf0ae). `.garden-cache/garden-data.json`,
       사이트 출력 변화 없음. created/modified는 frontmatter 우선.
-- [ ] **2. Properties 표시 이름** — `garden.yaml`의 매핑 + nav마다 적용되는 작은 스크립트. 아직 미착수.
+- [x] **2. Properties 표시 이름** — 완료(§7), 아직 push 안 함. `garden.yaml`의 `properties` 매핑 +
+      `quartz/static/garden-properties.js`(nav마다 재적용) + 빌드 시점 생성되는(커밋 필요)
+      `garden-properties-data.js`. scribbled notes 전용 식물/뿌리/씨앗 칸, radar 전용 수신일.
 - [x] **3. 홈 5구역 재구성 + garden-home 뼈대** — 완료(§8), 아직 push 안 함. index.md는 소개
       3줄만 남기고 `plugins/garden-home`이 ②③④(자리 표시, 기본 꺼짐)⑤(항상 켜짐)를 그린다.
       홈 듣기·댓글·Properties는 숨김(§9). 다른 페이지 `<body>` 무변화 확인함.
