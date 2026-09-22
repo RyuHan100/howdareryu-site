@@ -309,7 +309,7 @@ plugins:
     enabled: true
     options:
       # === garden.yaml 자동 생성 시작 (직접 고치지 말고 garden.yaml 을 고치세요) ===
-      garden: false
+      garden: true
       radar: false
       gallery: false
       # === garden.yaml 자동 생성 끝 ===

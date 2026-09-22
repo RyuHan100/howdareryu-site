@@ -90,7 +90,7 @@ properties:
 # 무관하게 항상 나온다. quartz.ts 가 이 값을 quartz.config.yaml 의 garden-home 플러그인
 # options 에 반영한다(explorer 와 같은 마커 방식).
 home:
-  garden: false
+  garden: true
   radar: false
   gallery: false
 

@@ -11,10 +11,10 @@
   사용자에게 의도한 변경인지 확인할 것 — 이 삭제는 사이트 빌드에도 실제로 영향을 준다
   (그 페이지를 가리키던 backlink/graph 가 있던 페이지들이 같이 바뀜).
 - **탐색기(§5, 식물 이모지 포함), 정원 데이터 수집기(§8.1), radar 이력 단위 수집(§8.2),
-  홈 5구역+garden-home 뼈대(§8), ② 정원 SVG(§8) 전부 완료·배포됨** (`v5`, 최신 배포 커밋
-  `1cc52afe`).
-- **Properties 표시 이름(§7) 구현 완료, 아직 커밋 안 함** — 사용자 확인 대기 중.
-  radar 컴포넌트 자체(§10 4단계)는 아직 착수 전.
+  홈 5구역+garden-home 뼈대(§8), Properties 표시 이름(§7) 전부 완료·배포됨** (`v5`, 최신 배포
+  커밋 `9797f9e9`).
+- **② 정원 모양+상호작용+움직임(§8) 구현 완료, `home.garden: true`로 켬, 아직 커밋 안 함** —
+  사용자 확인 대기 중. radar 컴포넌트 자체(③, §10 4단계)·④ 아빠의 화단은 아직 착수 전.
 
 ## 1. 저장소와 클론
 
@@ -237,7 +237,9 @@ frontmatter 는 절대 안 바꾼다(→ 다른 기능·git 기록·created-modi
 - 데이터는 §8.1의 `.garden-cache/garden-data.json`을 컴포넌트가 빌드 시점에 `node:fs`로 읽는다
   (`allFiles` props로 다시 계산하지 않는다 — git 기록·링크 그래프·판정은 수집기가 이미 함).
   플러그인 dist 에 npm 의존성은 안 되지만 `node:` 내장 모듈 import 는 된다(Node 가 dist 를 직접 import).
-  - ② 정원 ✅ 모양 완료(2026-09-22, 움직임 없음) — `plugins/garden-home/src/garden-svg.js`.
+  - ② 정원 ✅ 모양 + 상호작용·움직임 완료(2026-09-22 모양, 2026-09-23 상호작용/움직임) —
+    `plugins/garden-home/src/garden-svg.js`(서버 렌더링) + `garden-interactive.js`
+    (`Component.afterDOMLoaded`, 클라이언트).
     - 빌드 때 SVG 문자열을 만들어 `dangerouslySetInnerHTML`로 넣는다. 식물 = 노트 하나,
       `plant`(grass 풀·flower 꽃·vine 덩굴·tree 나무, 모르는 값은 풀)대로 그린다. 덩굴 끝은 "?"처럼
       말리고 좌우는 해시로 뒤집힌다. 글자 수로 크기 0.85~1.2배.
@@ -257,7 +259,48 @@ frontmatter 는 절대 안 바꾼다(→ 다른 기능·git 기록·created-modi
       1400px 화면을 headless Chrome 스크린샷으로 봤다. 확인 뒤 가짜 노트는 지웠다.
       ※ headless Chrome 의 `--window-size=380` 스크린샷은 오른쪽이 잘려 보이는데 실제 overflow 가 아니다
       (380px iframe 안에서 scrollWidth=380 확인). 모바일 확인은 iframe 으로 할 것.
-    - `garden.yaml`의 `home.garden`은 커밋할 때 **false**(로컬 확인할 때만 켠다).
+    - `garden.yaml`의 `home.garden`은 2026-09-23부터 **true**(상호작용·움직임까지 확인 후
+      사용자가 직접 켜라고 지시함 — 이전에는 "확인만 하고 false로" 였다).
+
+  **상호작용·움직임(2026-09-23) — `plugins/garden-home/src/garden-interactive.js`.**
+  - garden-svg.js 가 각 `<a class="gp-plant">`에 data-* 속성을 미리 심어 둔다(`data-slug`/
+    `title`/`kind`/`wilted`/`modified`/`created`/`links`) — 클라이언트는 이 속성만 읽고, 판정·
+    날짜·링크 계산을 다시 하지 않는다(정원 그림·오솔길과 항상 같은 값).
+  - **선택 패널**: 식물을 클릭(또는 포커스 후 Enter/Space)하면 그 식물의 `aria-expanded`를
+    `true`로 하고(다른 식물은 `false`), `.gp-panel`에 제목·종류·물 준 날 + 노트로 가는 실제
+    링크(`<a href>`)를 채운다. 같은 식물을 다시 누르거나 Escape 를 누르면 선택 해제. 클릭 시
+    `preventDefault`로 즉시 이동을 막는다 — 예전엔 클릭하면 바로 노트로 이동했는데, 이제는
+    패널을 먼저 보여주고 패널의 링크로 이동하는 방식으로 **동작이 바뀌었다**(요청사항).
+  - **뿌리**: 고른 식물의 `data-links`(이 정원 안의 다른 식물로 가는 링크·백링크 교집합, 정원
+    밖 노트는 포함 안 함)에 있는 슬러그만, 같은 `.gp-beds`(좁은/넓은 이랑) 안에서
+    `getBoundingClientRect()`로 두 식물의 위치를 구해 `.gp-roots`(이랑 전체를 덮는 빈 SVG,
+    `pointer-events:none`)에 곡선(`<path>`)을 그린다. 평소엔 비어 있다. 이랑을 나눠 그리는
+    `<svg class="gp-row">`와는 별도 좌표계라 여러 줄에 걸친 뿌리도 그릴 수 있다.
+  - **흔들림**: 식물 모양은 바깥 `<g transform="translate(x y)">`(자리, SVG 속성) 안에 다시
+    `<g class="gp-sway">`(흔들림, CSS `transform`)로 감싼다 — 같은 요소에 SVG 속성 transform 과
+    CSS transform 을 같이 쓰면 CSS 가 자리 이동을 덮어써서 자리가 흐트러지므로 반드시 나눈다.
+    `IntersectionObserver`가 화면에 보이는 `.gp-row`에만 `.is-visible`을 붙이고, CSS
+    `@media (prefers-reduced-motion: no-preference)` 안에서만 `.gp-row.is-visible .gp-sway`에
+    `animation`을 건다 — 모션 최소화를 선호하면 관찰기 자체를 안 붙이고, CSS 도 한 번 더 막는다
+    (이중 방어, CLAUDE.md §9).
+  - **타임랩스**: 재생 버튼을 누르면 모든 식물의 `data-created` 중 가장 이른 날부터
+    "오늘"(클라이언트의 실제 현재 시각 — 빌드 시각이 아니다)까지 1주 간격으로 날짜를 밟으며,
+    그 날짜보다 나중에 생긴 식물엔 `.gp-future`(`opacity:0`)를 붙인다. 버튼이 "멈추기"로
+    바뀌고, 다 돌거나 버튼을 다시 누르면 전부 다시 보이는 상태로 돌아온다. 모션 최소화여도
+    버튼은 그대로 제공(사용자가 직접 누르는 동작이라 자동재생과 다름), 다만 `.gp-future` 전환에
+    쓰는 `opacity` 트랜지션은 같은 media query 로 막아 즉시 나타나고 사라진다.
+  - **검증(2026-09-23)**: Node 22 내장 WebSocket/fetch 로 헤드리스 크롬을 CDP 로 직접 조작해
+    실제 클릭·키보드 이벤트를 실행해 확인(스크린샷이 아니라 DOM 상태 assert) — 클릭 시
+    패널·`aria-expanded` 정상, 가짜 `data-links`로 뿌리 곡선이 옳은 두 식물 사이에 그려짐,
+    같은 식물 재클릭/Escape 로 해제됨, Enter 키로도 선택됨, 재생 버튼으로 미래 식물이 숨겨지고
+    날짜 배지가 올라가다 멈추기를 누르면 즉시 전부 복원됨, `prefers-reduced-motion: reduce`
+    에뮬레이션 시 흔들림 관찰기가 전혀 안 붙음(`is-visible` 0개)을 확인. 이전 배포 커밋
+    (`9797f9e9`)과 `public/` 전체를 비교해서 **홈(index.html) 외 147개 페이지는 전부 공유
+    번들 파일명(콘텐츠 해시)만 다르고 그 파일 내용까지 대조하면 우리 스크립트/CSS가 그대로
+    추가된 것 말고는 전혀 안 바뀜**을 확인했다(afterDOMLoaded 스크립트·컴포넌트 CSS 가
+    사이트 전체 공유 번들이라 이 컴포넌트가 홈에서만 나와도 번들 해시는 항상 바뀐다 — §7의
+    Head.tsx 스크립트 추가와 같은 종류의 불가피한 부작용). index.html 자체는 정원 자리표시자가
+    실제 내용으로 바뀐 만큼만 달라짐(의도된 변화).
   - ③ radar: `radar.notes`(날짜 내림차순) + `radar.subfolders`(표시 이름·색).
   - ④ 아빠의 화단: `gallery.images`. 원본이 483MB라 **반드시 `/img/thumbs/<파일명>.webp` 썸네일**을
     쓴다(CI에서 gen_gallery가 먼저 만든다). 클릭하면 원본(`src`)이나 gallery 페이지로.
@@ -399,15 +442,14 @@ radar 의 하위 폴더는 기본적으로 "노트 하나 = 점 하나"(§8.1)�
       (폴더 🪴, radar 폴더·하위 폴더 📡, radar 노트 📍, 비공개 아카이브 🔒).
 - [x] **1.5 정원 데이터 수집기** — 완료·배포(§8.1, 커밋 47faf0ae). `.garden-cache/garden-data.json`,
       사이트 출력 변화 없음. created/modified는 frontmatter 우선.
-- [x] **2. Properties 표시 이름** — 완료(§7), 아직 push 안 함. `garden.yaml`의 `properties` 매핑 +
-      `quartz/static/garden-properties.js`(nav마다 재적용) + 빌드 시점 생성되는(커밋 필요)
+- [x] **2. Properties 표시 이름** — 완료·배포(§7, 커밋 `9797f9e9`). `garden.yaml`의 `properties`
+      매핑 + `quartz/static/garden-properties.js`(nav마다 재적용) + 빌드 시점 생성·커밋되는
       `garden-properties-data.js`. scribbled notes 전용 식물/뿌리/씨앗 칸, radar 전용 수신일.
-- [x] **3. 홈 5구역 재구성 + garden-home 뼈대** — 완료(§8), 아직 push 안 함. index.md는 소개
-      3줄만 남기고 `plugins/garden-home`이 ②③④(자리 표시, 기본 꺼짐)⑤(항상 켜짐)를 그린다.
-      홈 듣기·댓글·Properties는 숨김(§9). 다른 페이지 `<body>` 무변화 확인함.
-- [~] **4. 구역 채우기** — ⑤ 연락처 완료, ② 정원 모양 완료(움직임 없음, §8, 기본 꺼짐).
-      남은 것: ② 정원 움직임, ④ 아빠의 화단, ③ radar.
-      ⑤는 이미 완성(고정 링크라 더 할 일 없음) — 사실상 ④부터.
+- [x] **3. 홈 5구역 재구성 + garden-home 뼈대** — 완료·배포. index.md는 소개 3줄만 남기고
+      `plugins/garden-home`이 ②③④⑤를 그린다. 홈 듣기·댓글·Properties는 숨김(§9).
+- [x] **4. 구역 채우기 — ② 정원** — 모양+상호작용+움직임 전부 완료(§8), 아직 push 안 함.
+      `home.garden`을 **true**로 켬(사용자 지시, 2026-09-23). 남은 것: ④ 아빠의 화단, ③ radar
+      (⑤ 연락처는 이미 완성).
 - [ ] **5. 확인·배포** — 다음 작업분도 `npx quartz build`로 로컬 확인 → 이전 배포본과 `public/`
       비교(§8 방식) → diff 검토(비밀값 없는지) → 사용자 확인 후 `v5`에 push → Actions 배포 확인.
 

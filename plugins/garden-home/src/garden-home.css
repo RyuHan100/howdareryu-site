@@ -130,10 +130,127 @@
   cursor: pointer;
 }
 .gp-plant:hover > g,
-.gp-plant:focus-visible > g {
+.gp-plant:focus-visible > g,
+.gp-plant[aria-expanded="true"] > g {
   filter: brightness(1.25);
 }
 .gp-plant:focus-visible {
   outline: 2px solid var(--tertiary);
   outline-offset: 2px;
+}
+
+/* 바람에 흔들림: 화면에 보이는 이랑(.gp-row.is-visible)만, 모션 최소화 선호 시 완전히 끔
+   (관찰기 자체를 안 붙이지만, CSS 로도 한 번 더 막아 둔다 — CLAUDE.md §9). */
+@media (prefers-reduced-motion: no-preference) {
+  .gp-row.is-visible .gp-sway {
+    animation-name: gp-sway;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+}
+@keyframes gp-sway {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0.8deg);
+  }
+}
+.gp-sway {
+  transform-box: fill-box;
+  transform-origin: bottom center;
+}
+
+/* 뿌리: 고른 식물의 링크·백링크만, 평소엔 비어 있다(garden-interactive.js 가 채운다) */
+.gp-beds {
+  position: relative;
+}
+.gp-roots {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+.gp-root-line {
+  fill: none;
+  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 65%, var(--light));
+  stroke-width: 1.5;
+  stroke-dasharray: 2 3;
+  stroke-linecap: round;
+  opacity: 0.9;
+}
+
+/* 타임랩스: 아직 심기지 않은 식물 */
+.gp-plant.gp-future {
+  opacity: 0;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .gp-plant {
+    transition: opacity 0.3s ease;
+  }
+}
+
+.gp-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+.gp-play {
+  font: inherit;
+  cursor: pointer;
+  color: inherit;
+  background: color-mix(in srgb, var(--color-green, var(--secondary)) 16%, transparent);
+  border: 1px solid var(--color-green, var(--secondary));
+  border-radius: 999px;
+  padding: 0.2rem 0.85rem;
+}
+.gp-play:hover {
+  background: color-mix(in srgb, var(--color-green, var(--secondary)) 28%, transparent);
+}
+.gp-timelapse-date {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+
+/* 고른 식물 정보 패널 */
+.gp-panel {
+  display: none;
+  position: relative;
+  margin-top: 0.6rem;
+  padding: 0.6rem 2rem 0.6rem 0.9rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, var(--color-green, var(--secondary)) 8%, var(--light));
+}
+.gp-panel.is-open {
+  display: block;
+}
+.gp-panel-title {
+  margin: 0 0 0.15rem;
+  font-weight: 600;
+}
+.gp-panel-meta {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+.gp-panel-link {
+  font-size: 0.9rem;
+}
+.gp-panel-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.5rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: var(--gray);
+  font-size: 0.9rem;
+  line-height: 1;
 }

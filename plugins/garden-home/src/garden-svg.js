@@ -1,4 +1,6 @@
-// ② 정원 — scribbled notes 의 노트 하나가 식물 하나. 빌드할 때 SVG 문자열로 만든다(움직임 없음).
+// ② 정원 — scribbled notes 의 노트 하나가 식물 하나. 빌드할 때 SVG 문자열로 만든다.
+// 상호작용·움직임(선택 패널, 뿌리, 흔들림, 타임랩스)은 이 파일이 만든 data-* 속성을
+// garden-interactive.js(afterDOMLoaded)가 읽어서 한다 — 이 파일은 순수 서버 렌더링만.
 //
 // - 종류는 수집기(quartz/garden/collect.ts)가 판정한 plant 를 따른다: grass 풀, flower 꽃,
 //   vine 덩굴(끝이 물음표처럼 말림), tree 나무. 모르는 종류는 풀로 그린다.
@@ -46,6 +48,19 @@ function esc(s) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
+}
+
+/** note 의 링크·백링크 중 "이 정원(scribbled notes)의 다른 식물"만 남긴다 — 뿌리는 정원
+ * 안에서만 그린다(정원 밖 노트로 가는 화살은 이미 씨앗/일반 링크로 따로 있다). */
+function relatedGardenSlugs(note, slugSet) {
+  const set = new Set()
+  for (const l of note.links ?? []) {
+    if (l.slug !== note.slug && slugSet.has(l.slug)) set.add(l.slug)
+  }
+  for (const s of note.backlinkFrom ?? []) {
+    if (s !== note.slug && slugSet.has(s)) set.add(s)
+  }
+  return [...set]
 }
 
 /** 노트를 이랑·칸에 배치한다. 반환: [[note|null × 12], …] */
@@ -166,7 +181,7 @@ function soil(width, rowIndex) {
 
 // ---------- 이랑 하나 ----------
 
-function renderRow(row, rowIndex, layout, labels) {
+function renderRow(row, rowIndex, layout, labels, slugSet) {
   const width = PAD_X * 2 + GARDEN_COLS * layout.slot
   const plants = []
   const seeds = []
@@ -179,12 +194,25 @@ function renderRow(row, rowIndex, layout, labels) {
     const label = labels[note.plant] ?? note.label ?? note.plant
     const wilted = note.wilted === true
     const name = `${note.title} · ${label}${wilted ? " · 시듦" : ""}`
+    // 바람에 흔들리는 정도(각도·주기)는 위치 배치와 같은 방식(해시 시드)으로 정해서, 다시
+    // 빌드해도 같은 식물이 같은 흔들림을 갖는다. 흔들림은 내부 <g>(gp-sway)에서만 CSS
+    // transform 으로 하고, 바깥 <g> 의 translate(위치)는 SVG 속성 그대로 둔다 — 같은 요소에
+    // CSS transform 을 쓰면 이 속성이 무시돼 자리가 흐트러진다.
+    const swayDelay = f(rnd(seed, 300) * 4)
+    const swayDur = f(3.2 + rnd(seed, 301) * 1.6)
+    const related = relatedGardenSlugs(note, slugSet)
     plants.push({
       kind,
       svg:
-        `<a href="./${esc(note.slug)}" data-router-ignore class="gp-plant gp-kind-${kind}${wilted ? " is-wilted" : ""}" aria-label="${esc(name)}">` +
+        `<a href="./${esc(note.slug)}" data-router-ignore class="gp-plant gp-kind-${kind}${wilted ? " is-wilted" : ""}"` +
+        ` aria-label="${esc(name)}" aria-expanded="false"` +
+        ` data-slug="${esc(note.slug)}" data-title="${esc(note.title)}" data-kind="${esc(label)}"` +
+        ` data-wilted="${wilted ? "true" : "false"}" data-modified="${esc(note.modified ?? "")}"` +
+        ` data-created="${esc(note.created ?? "")}" data-links="${esc(related.join(","))}">` +
         `<title>${esc(name)}</title>` +
-        `<g transform="translate(${f(x)} ${f(y)})">${SHAPES[kind](seed, sizeOf(note))}</g></a>`,
+        `<g transform="translate(${f(x)} ${f(y)})">` +
+        `<g class="gp-sway" style="animation-delay:${swayDelay}s;animation-duration:${swayDur}s">${SHAPES[kind](seed, sizeOf(note))}</g>` +
+        `</g></a>`,
     })
     const missing = [...new Set(note.missingLinks ?? [])].slice(0, MAX_SEEDS_PER_PLANT)
     missing.forEach((target, i) => {
@@ -216,10 +244,13 @@ function renderRow(row, rowIndex, layout, labels) {
  */
 function renderGarden(notes, labels) {
   const rows = placePlants(notes)
+  const slugSet = new Set(notes.map((n) => n.slug))
   // 둘 중 하나는 CSS 에서 display:none 이라 화면·스크린리더·탭 순서에서 모두 빠진다.
+  // gp-roots 는 처음엔 빈 SVG — 식물을 고르면 클라이언트 스크립트가 뿌리 곡선을 채운다.
   const beds = (name) =>
     `<div class="gp-beds gp-beds-${name}">` +
-    rows.map((row, i) => renderRow(row, i, LAYOUTS[name], labels)).join("") +
+    rows.map((row, i) => renderRow(row, i, LAYOUTS[name], labels, slugSet)).join("") +
+    `<svg class="gp-roots" aria-hidden="true"></svg>` +
     `</div>`
 
   const counts = {}

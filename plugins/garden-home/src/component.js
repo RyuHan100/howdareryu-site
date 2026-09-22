@@ -1,9 +1,10 @@
 // 서버(빌드) 쪽 컴포넌트. hdr-comments 와 같은 방식으로 preact vnode 를 직접 만든다
-// (Quartz 는 플러그인 dist 의 npm 의존성을 허용하지 않는다 — node: 내장 모듈만 쓴다). 아래 CSS
-// 자리표시자는 build.mjs 가 채우고, garden-svg.js 는 build.mjs 가 이 파일 앞에 붙인다.
-// 클라이언트 스크립트는 아직 없다(정원은 움직임 없는 SVG). radar/슬라이드쇼처럼 움직이는 걸
-// 채울 때는 prefers-reduced-motion 을 지켜야 한다(CLAUDE.md §9). 이 컴포넌트는
-// quartz.config.yaml 에서 layout.condition: "index" 로 등록해 홈에서만 나오게 한다.
+// (Quartz 는 플러그인 dist 의 npm 의존성을 허용하지 않는다 — node: 내장 모듈만 쓴다). 맨 아래
+// Component.css/afterDOMLoaded 의 자리표시자는 build.mjs 가 채우고(문자열 그대로 두 번 나오면
+// build.mjs 의 string.replace 가 첫 번째 것만 바꾸므로, 이 이름을 다른 주석에 다시 적지 않는다),
+// garden-svg.js 는 build.mjs 가 이 파일 앞에 붙인다. 정원의 상호작용·움직임(garden-interactive.js)
+// 은 prefers-reduced-motion 을 지킨다(CLAUDE.md §9). 이 컴포넌트는 quartz.config.yaml 에서
+// layout.condition: "index" 로 등록해 홈에서만 나오게 한다.
 import { readFileSync } from "node:fs"
 import { join } from "node:path"
 
@@ -52,7 +53,9 @@ function placeholder(title, note) {
   })
 }
 
-// ② 정원 — garden-svg.js 의 renderGarden 이 만든 SVG 를 그대로 넣는다.
+// ② 정원 — garden-svg.js 의 renderGarden 이 만든 SVG 를 그대로 넣는다. 클릭/키보드로 식물을
+// 고르는 패널과 타임랩스 재생 버튼은 마크업만 여기서 만들고(빈 자리), 실제 동작은
+// garden-interactive.js(afterDOMLoaded, §8)가 한다.
 function gardenSection() {
   const data = readGardenData()
   const notes = data?.garden?.notes ?? []
@@ -70,8 +73,25 @@ function gardenSection() {
     class: "garden-home-section garden-home-garden",
     children: [
       h("h3", { children: "정원" }),
+      h("div", {
+        class: "gp-controls",
+        children: [
+          h("button", { type: "button", class: "gp-play", children: "▶ 타임랩스로 보기" }),
+          h("span", { class: "gp-timelapse-date", "aria-live": "polite" }),
+        ],
+      }),
       h("div", { class: "gp-garden", dangerouslySetInnerHTML: { __html: g.html } }),
       h("p", { class: "gp-legend", children: parts.join(" · ") }),
+      h("div", {
+        class: "gp-panel",
+        role: "status",
+        children: [
+          h("button", { type: "button", class: "gp-panel-close", "aria-label": "닫기", children: "✕" }),
+          h("p", { class: "gp-panel-title" }),
+          h("p", { class: "gp-panel-meta" }),
+          h("a", { class: "gp-panel-link", children: "노트로 가기 →" }),
+        ],
+      }),
     ],
   })
 }
@@ -121,5 +141,6 @@ export const GardenHome = (opts) => {
   }
 
   Component.css = __STYLES__
+  Component.afterDOMLoaded = __SCRIPT__
   return Component
 }
