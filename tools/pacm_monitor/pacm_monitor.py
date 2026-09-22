@@ -345,11 +345,16 @@ def notify(webhook: str, text: str) -> None:
             if len(text) > 1900:  # Discord content 한도 2000자 — 넘으면 400 으로 알림 자체가 누락됨
                 text = text[:1850].rsplit("\n", 1)[0] + "\n… (전체: https://howdareryu.com/pacm)"
             payload = {"text": text, "content": text}
+        # Discord(Cloudflare)는 기본 UA "Python-urllib/x" 를 403(error 1010)으로 차단함 — UA 명시 필수
         req = Request(webhook, data=json.dumps(payload).encode(),
-                      headers={"Content-Type": "application/json"})
+                      headers={"Content-Type": "application/json",
+                               "User-Agent": "pacm-monitor/1.0 (+https://howdareryu.com/pacm)"})
         urlopen(req, timeout=15).read()
     except Exception as e:
-        print(f"[notify] failed: {e}", file=sys.stderr)
+        detail = e.read()[:200].decode(errors="replace") if hasattr(e, "read") else ""
+        print(f"[notify] failed: {e} {detail}", file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS"):
+            print(f"::warning::웹훅 알림 실패: {e} {detail}")  # 실행 요약에 노출되도록
 
 
 def set_output(name: str, value: str) -> None:
