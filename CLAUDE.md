@@ -5,16 +5,13 @@
 
 ## 0. 현재 상태 (먼저 확인)
 
-- **탐색기 아이콘·제목은 완료했다(§5), 아직 커밋·push는 안 했다.** `garden.yaml`을 만들고,
-  `quartz.ts`가 빌드 시작 시 그 내용을 읽어서 `quartz.config.yaml`의 explorer `options`(마커
-  구간)를 자동으로 다시 쓰는 방식(mapFn)으로 구현했다. 아이콘은 폴더 기본값(🪴) + 예외
-  (radar 폴더 📡, radar 안 노트 📍, 비공개 아카이브 🔒 — 중복 방지) 구조.
-  (이전에 CSS(`::before`) 방식으로 한 번 바꿔봤었는데, garden.yaml 로 폴더별 예외까지 관리하려면
-  이쪽이 다시 더 맞아서 mapFn 방식으로 되돌렸다 — 아래 §5 참고.)
-- 바뀐 파일: `garden.yaml`(explorer 설정), `quartz/garden/syncExplorerFromGarden.ts`(신규),
-  `quartz.ts`(sync 호출 추가), `quartz.config.yaml`(explorer 옵션에 자동 생성 블록 + sortFn 한 줄),
-  `quartz/styles/custom.scss`(이전 CSS 아이콘 규칙 제거, 원래 상태로).
-- 홈 전용 컴포넌트(§8)는 아직 착수 전.
+- **탐색기 아이콘·제목 완료·배포됨(§5, 커밋 e048a83c).** `garden.yaml`의 `explorer`를
+  `quartz.ts`가 빌드 시작 시 읽어 `quartz.config.yaml`의 explorer `options`(마커 구간)를 다시 쓴다.
+  폴더 기본 🪴, radar 폴더와 그 하위 폴더 전부 📡, radar 안 노트 📍, 비공개 아카이브 🔒(중복 방지).
+- **정원 데이터 수집기 완료(§8.1), 아직 커밋 안 함.** 빌드 때 `.garden-cache/garden-data.json`을
+  만든다. 사이트 출력은 바뀌지 않는다(빌드 결과를 커밋 전 상태와 비교해 확인 — sitemap/RSS의
+  빌드 시각만 다름).
+- 홈 전용 컴포넌트(§8) 자체는 아직 착수 전.
 
 ## 1. 저장소와 클론
 
@@ -64,7 +61,8 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 | 전역 CSS 덮어쓰기 | `quartz/styles/custom.scss` |
 | `<head>` (TTS 스크립트 포함) | `quartz/components/Head.tsx` |
 | 로컬 플러그인 | `plugins/<name>/` (예: `plugins/hdr-comments`) |
-| 정원 설정 | `garden.yaml` (현재 탐색기만, §0) |
+| 정원 설정 | `garden.yaml` (탐색기 §5, 홈 데이터 §8.1) — 모든 정원 설정은 여기에 |
+| 정원 코드 | `quartz/garden/` (탐색기 sync, 데이터 수집기) |
 
 - **테마**: `quartz-themes`(saberzero1) 플러그인, `options.theme: hackthebox`. 배포 워크플로도
   `THEME_NAME: hackthebox`로 테마를 받아온다. 다크 모드 전용(빌드 로그에 경고가 뜨는 게 정상).
@@ -153,15 +151,56 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
   섹션 순서를 정하면 순서가 한 곳에서 관리되고 CSS/스크립트도 한 번만 실린다.
 - 구조는 `plugins/hdr-comments`를 따른다: `package.json`의 `quartz` 필드(category `component`,
   `components`), `src/` → `node build.mjs` → `dist/` 커밋. dist에 외부 import가 없어야 한다.
-- 데이터는 빌드 시점에 컴포넌트 props의 `allFiles`에서 얻는다(slug, frontmatter, dates).
-  - ② 정원: `scribbled-notes/*`. 식물 판정 규칙은 `garden.yaml`의 `plants`에.
-  - ③ radar: `radar/*` 최근 기록. 점 위치 규칙은 `garden.yaml`의 `radar`에.
-  - ④ 아빠의 화단: `content/img/inspiration` 목록을 빌드 때 읽는다. 원본이 483MB라 **반드시
-    `/img/thumbs/*.webp` 썸네일**을 쓴다(CI에서 gen_gallery가 먼저 만든다). 클릭하면 원본이나 gallery 페이지로.
-    로컬에는 썸네일이 없으니 로컬 확인용 대체 경로(원본 또는 gallery.py 로컬 실행)가 필요하다.
+- 데이터는 §8.1의 `.garden-cache/garden-data.json`을 컴포넌트가 빌드 시점에 `fs`로 읽어 쓴다
+  (`allFiles` props로 다시 계산하지 않는다 — git 기록·링크 그래프·판정은 수집기가 한 번에 한다).
+  - ② 정원: `garden.notes` — 식물(`plant`/`label`)과 시듦(`wilted`)까지 이미 판정돼 있다.
+  - ③ radar: `radar.notes`(날짜 내림차순) + `radar.subfolders`(표시 이름·색).
+  - ④ 아빠의 화단: `gallery.images`. 원본이 483MB라 **반드시 `/img/thumbs/<파일명>.webp` 썸네일**을
+    쓴다(CI에서 gen_gallery가 먼저 만든다). 클릭하면 원본(`src`)이나 gallery 페이지로.
+    로컬에는 썸네일이 없으니 로컬 확인용 대체 경로(원본 또는 gen_gallery.py 로컬 실행)가 필요하다.
   - ⑤ 연락처: 지금 index.md의 "신호 보내기" 내용(Instagram/Email/GitHub). footer 링크와 같은 값.
 - 움직임(레이더 스윕, 슬라이드)은 `afterDOMLoaded` 스크립트로. SPA라 `nav` 이벤트마다 다시 붙이고
-  `window.addCleanup`으로 타이머를 정리한다.
+  `window.addCleanup`으로 타이머를 정리한다. `prefers-reduced-motion` 필수(§9).
+
+### 8.1 정원 데이터 수집기 ✅ (2026-09-22)
+
+- 코드: `quartz/garden/collect.ts`(수집), `gitHistory.ts`(git 기록), `config.ts`(garden.yaml + 기본값).
+  `quartz.ts`가 빌드 시작 때 `collectGardenData()`를 부르고, 실패해도 경고만 찍고 빌드는 계속한다.
+  빌드 로그에 `[garden] 정원 5(grass 3, vine 1, flower 1, 시듦 0) · radar 105 · 갤러리 101 · git full` 같은 한 줄.
+- 출력: `.garden-cache/garden-data.json` (gitignore됨, 빌드마다 새로 만듦). `public/`에는 아무것도 안 더한다.
+  `npx quartz build --serve` 중에는 시작할 때 한 번만 만들어지므로 데이터를 바꾸면 서버를 다시 켠다.
+- 설정: `garden.yaml`의 `exclude_folders`, `garden`, `plants`, `radar`, `gallery`. 빠진 항목은
+  `config.ts`의 `DEFAULT_GARDEN_CONFIG`로 채운다(객체는 합치고 배열은 통째로 바꿈). 새 radar 하위 폴더는
+  폴더 이름 + `radar.default.color`로 자동 처리. `quartz.config.yaml`의 `ignorePatterns`(이름 단위)와
+  `draft: true` 노트, 점(.)으로 시작하는 폴더는 모두 뺀다.
+- 스키마(요약):
+  - `garden.notes[]`: `title, path(content 기준), slug, chars(공백 포함·줄바꿈 제외), charsNoSpaces,
+    created, createdFrom(frontmatter|git|file), modified, modifiedFrom(같음), commits, edits(=commits-1),
+    isQuestion, links[{target,slug}], missingLinks[target], backlinks, backlinkFrom[slug],
+    frontmatterPlant, plant(kinds 키), label, plantFrom(frontmatter|rule|default), daysSinceModified,
+    wilted`. created/modified 는 **frontmatter 를 먼저 본다**(2026-09-22 사용자 요청으로 우선순위를
+    뒤집음 — 처음엔 git 우선이었다가 바꿨다): created 는 frontmatter `created`/`date`, modified 는
+    `modified`/`dateModified`/`updated`/`lastmod`. 둘 중 하나만 있어도 그 필드만 frontmatter를 쓰고
+    나머지는 git → 파일 시각 순으로 내려간다. `commits`(수정 횟수 계산용)는 frontmatter로 셀 수
+    없어서 항상 git 기준이다(기록 없으면 0). 폴더의 index.md는 뺀다. 생성일 오름차순.
+  - `radar.notes[]`: `subfolder, title, path, slug, date, dateFrom(frontmatter|filename|git|file), isIndex`.
+    날짜는 frontmatter `date` → 파일명의 YYYY-MM-DD → git 마지막 수정 순. 형식이 날짜만/ISO로 섞여 있다.
+    `radar.subfolders[]`: `name, label, color, count, latest`.
+  - `gallery.images[]`: `file, src, added(git 첫 추가), addedFrom, takenAt(파일명 YYYYMMDD_HHMMSS),
+    title, year, material`(같은 폴더 `gallery.yaml`이 있을 때만, 지금은 없음).
+  - `config`: 컴포넌트가 쓸 `plants.kinds/default/wither_after_days`, `gallery.artist`.
+- git 기록 주의:
+  - `git log -M --name-status -- content` 한 번으로 읽고, 이름 변경(R)을 따라가 옛 이름의 기록도 합친다
+    (scribbled/ → scribbled notes/ 폴더 이름 변경 전 커밋도 센다). 이름을 바꾸면서 내용을 많이 고치면
+    git이 변경으로 못 알아보고 새 파일로 보기도 한다(예: 토끼풀).
+  - 이 저장소의 커밋은 대부분 "Quartz sync" 묶음 커밋이라 **수정 횟수 = 그 노트가 포함된 동기화 횟수**다.
+    Obsidian에서 고친 횟수와는 다르다. 식물 기준(수정 5·30회)은 이걸 감안해 조정할 것.
+  - frontmatter 에 없는 필드만 git → 파일 시각 순으로 대신한다(§8.1 스키마 참고). git 기록이 없는
+    파일(아직 커밋 안 한 새 노트)은 frontmatter → 파일 시각(`commits: 0`).
+  - 배포 워크플로 checkout에 `fetch-depth: 0` 있음(§6) → CI에서도 전체 기록.
+- 링크 해석은 Quartz `markdownLinkResolution: shortest`와 비슷하게: 경로가 있으면 경로(끝부분 일치),
+  없으면 파일 이름(같은 폴더 우선, 그다음 가장 짧은 경로), 대소문자 무시, `./`·`../` 상대 경로,
+  폴더 이름은 그 폴더 index로. 이미지 등 첨부 파일 링크·임베드와 `[[#제목]]`, 코드 블록 안 링크는 뺀다.
 
 ## 9. 보존해야 할 기능
 
@@ -207,7 +246,9 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 - [ ] **0. 결정받기** — 홈에서 TTS·댓글 표시 여부 / 식물 판정 기준(글 길이? 나이? 태그?) /
       레이더 점 규칙(최근 며칠? 폴더별 방향?) / Properties 한글 이름 목록 /
       gallery.md 소개글이 CI에서 덮어써지는 문제 처리.
-- [x] **1. 탐색기** — 완료(§5). 제목 "오솔길", 아이콘은 `custom.scss`에 CSS로(폴더 🪴, radar 노트 📍).
+- [x] **1. 탐색기** — 완료·배포(§5). 제목 "오솔길", garden.yaml `explorer` → mapFn
+      (폴더 🪴, radar 폴더·하위 폴더 📡, radar 노트 📍, 비공개 아카이브 🔒).
+- [x] **1.5 정원 데이터 수집기** — 완료(§8.1). `.garden-cache/garden-data.json`, 사이트 출력 변화 없음.
 - [ ] **2. Properties 표시 이름** — `garden.yaml`의 매핑 + nav마다 적용되는 작은 스크립트.
 - [ ] **3. garden-home 뼈대** — `plugins/garden-home` 생성, config에 `afterBody / condition: index / priority 5`로 등록,
       빈 섹션 4개가 홈에만 나오는지 확인(다른 페이지·댓글·TTS 그대로인지 확인).
