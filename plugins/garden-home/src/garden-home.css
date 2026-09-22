@@ -1,4 +1,5 @@
-/* 색은 전부 테마 CSS 변수를 쓴다(하드코딩 금지 — CLAUDE.md §9). 라이트/다크 모드 자동 대응. */
+/* 색은 전부 테마 CSS 변수를 쓴다(하드코딩 금지 — CLAUDE.md §9). 라이트/다크 모드 자동 대응.
+   --color-* 는 hackthebox 테마가 주는 변수라, 없을 때를 대비해 Quartz 기본 변수를 대체값으로 둔다. */
 .garden-home {
   display: flex;
   flex-direction: column;
@@ -18,4 +19,121 @@
 .garden-home-contact ul {
   margin: 0;
   padding-left: 1.2rem;
+}
+
+/* ---------- ② 정원 ---------- */
+
+/* 모바일(≤800px, Quartz 의 mobile 기준)은 좁은 이랑, 그보다 넓으면 넓은 이랑. 식물 크기는 같고
+   칸 간격만 넓어진다. 보이지 않는 쪽은 display:none 이라 스크린리더·탭 순서에서도 빠진다. */
+.gp-beds {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.gp-beds-wide {
+  display: none;
+}
+@media (min-width: 801px) {
+  .gp-beds-narrow {
+    display: none;
+  }
+  .gp-beds-wide {
+    display: flex;
+  }
+}
+
+.gp-row {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.gp-legend {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+
+/* 흙 단면 */
+.gp-soil {
+  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 32%, var(--light));
+}
+.gp-soil-deep {
+  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 20%, var(--light));
+}
+.gp-soil-line {
+  fill: none;
+  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 60%, var(--light));
+  stroke-width: 1.2;
+}
+.gp-pebble {
+  fill: color-mix(in srgb, var(--gray) 70%, var(--light));
+}
+
+/* 씨앗: 아직 없는 노트를 가리키는 링크 */
+.gp-seed ellipse {
+  fill: color-mix(in srgb, var(--color-yellow, var(--tertiary)) 75%, var(--light));
+  stroke: color-mix(in srgb, var(--color-orange, var(--darkgray)) 70%, var(--light));
+  stroke-width: 0.6;
+}
+
+/* 식물 */
+.gp-stroke {
+  fill: none;
+  stroke: var(--color-green, var(--secondary));
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.gp-vine {
+  stroke-width: 1.8;
+}
+.gp-leaf {
+  fill: var(--color-green, var(--secondary));
+}
+.gp-petal-a {
+  fill: var(--color-pink, var(--tertiary));
+}
+.gp-petal-b {
+  fill: var(--color-yellow, var(--tertiary));
+}
+.gp-petal-c {
+  fill: var(--color-purple, var(--secondary));
+}
+.gp-flower-heart {
+  fill: var(--color-orange, var(--secondary));
+}
+.gp-trunk {
+  fill: color-mix(in srgb, var(--color-orange, var(--darkgray)) 60%, var(--light));
+}
+.gp-canopy {
+  fill: color-mix(in srgb, var(--color-green, var(--secondary)) 72%, var(--light));
+}
+.gp-canopy-top {
+  fill: var(--color-green, var(--secondary));
+}
+
+/* 시든 식물(마지막 수정 후 wither_after_days 가 지남)은 회색 */
+.gp-plant.is-wilted .gp-stroke {
+  stroke: var(--gray);
+}
+.gp-plant.is-wilted :is(.gp-leaf, .gp-petal-a, .gp-petal-b, .gp-petal-c, .gp-flower-heart, .gp-canopy) {
+  fill: var(--gray);
+}
+.gp-plant.is-wilted .gp-trunk {
+  fill: color-mix(in srgb, var(--gray) 70%, var(--light));
+}
+
+/* 가리키거나 키보드로 고르면 조금 밝게(움직임 없음) */
+.gp-plant {
+  cursor: pointer;
+}
+.gp-plant:hover > g,
+.gp-plant:focus-visible > g {
+  filter: brightness(1.25);
+}
+.gp-plant:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
 }

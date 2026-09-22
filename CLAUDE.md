@@ -166,9 +166,30 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
   **홈 페이지의 `<body>` 만 바뀌었고 다른 모든 페이지의 `<body>`는 바이트 단위로 동일**함을
   확인했다(`<head>`의 공유 CSS 청크 링크 하나만 늘어남 — 새 컴포넌트의 CSS가 전체 번들에
   들어가서 생기는 불가피한 차이, 다른 페이지에 실제로 적용되는 규칙은 없음).
-- 다음 단계에서 데이터는 §8.1의 `.garden-cache/garden-data.json`을 컴포넌트가 빌드 시점에 `fs`로
-  읽어 채운다(`allFiles` props로 다시 계산하지 않는다 — git 기록·링크 그래프·판정은 수집기가 이미 함).
-  - ② 정원: `garden.notes` — 식물(`plant`/`label`)과 시듦(`wilted`)까지 이미 판정돼 있다.
+- 데이터는 §8.1의 `.garden-cache/garden-data.json`을 컴포넌트가 빌드 시점에 `node:fs`로 읽는다
+  (`allFiles` props로 다시 계산하지 않는다 — git 기록·링크 그래프·판정은 수집기가 이미 함).
+  플러그인 dist 에 npm 의존성은 안 되지만 `node:` 내장 모듈 import 는 된다(Node 가 dist 를 직접 import).
+  - ② 정원 ✅ 모양 완료(2026-09-22, 움직임 없음) — `plugins/garden-home/src/garden-svg.js`.
+    - 빌드 때 SVG 문자열을 만들어 `dangerouslySetInnerHTML`로 넣는다. 식물 = 노트 하나,
+      `plant`(grass 풀·flower 꽃·vine 덩굴·tree 나무, 모르는 값은 풀)대로 그린다. 덩굴 끝은 "?"처럼
+      말리고 좌우는 해시로 뒤집힌다. 글자 수로 크기 0.85~1.2배.
+    - 흙 단면(표토·심토·자갈) + `missingLinks`는 흙 속 씨앗(식물당 최대 4개, `<title>`에 대상 이름).
+    - `wilted`는 `.is-wilted` 클래스 → CSS 에서 회색.
+    - 배치: 생성일(같으면 경로) 순으로 심고, 칸은 경로 FNV-1a 해시 % 12, 차 있으면 오른쪽 빈칸,
+      이랑이 12개 다 차면 아래 새 이랑. 새 노트는 늘 마지막에 심겨 **기존 식물이 안 움직인다**(시험함).
+      노트를 지우거나 과거 날짜로 새 노트를 만들면 뒤쪽 몇 개가 옮길 수는 있다.
+    - 반응형: 좁은 이랑(칸 30, viewBox 376)과 넓은 이랑(칸 58, viewBox 712)을 둘 다 만들고
+      `@media (min-width: 801px)`(Quartz mobile 기준)로 하나만 보인다. 식물 크기는 같고 간격만 넓어진다.
+      안 보이는 쪽은 display:none 이라 스크린리더·탭 순서에서 빠진다.
+    - 각 식물은 `<a href="./slug" data-router-ignore aria-label="제목 · 종류[ · 시듦]">`.
+      SVG `<a>`의 `href`가 문자열이 아니라 Quartz SPA 라우터가 못 다루므로 `data-router-ignore`로
+      일반 이동을 쓴다. 색은 전부 클래스 + 테마 CSS 변수(`--color-green/pink/yellow/orange` 등, 대체값 포함).
+    - 확인 방법: 가짜 노트 150개(`content/scribbled notes/zz-…` 임시 폴더, frontmatter 의 plant/modified/
+      없는 링크로 종류·시듦·씨앗을 섞음)로 13이랑이 12개씩 차는지, 380px(iframe 으로 실제 뷰포트)와
+      1400px 화면을 headless Chrome 스크린샷으로 봤다. 확인 뒤 가짜 노트는 지웠다.
+      ※ headless Chrome 의 `--window-size=380` 스크린샷은 오른쪽이 잘려 보이는데 실제 overflow 가 아니다
+      (380px iframe 안에서 scrollWidth=380 확인). 모바일 확인은 iframe 으로 할 것.
+    - `garden.yaml`의 `home.garden`은 커밋할 때 **false**(로컬 확인할 때만 켠다).
   - ③ radar: `radar.notes`(날짜 내림차순) + `radar.subfolders`(표시 이름·색).
   - ④ 아빠의 화단: `gallery.images`. 원본이 483MB라 **반드시 `/img/thumbs/<파일명>.webp` 썸네일**을
     쓴다(CI에서 gen_gallery가 먼저 만든다). 클릭하면 원본(`src`)이나 gallery 페이지로.
@@ -273,7 +294,8 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 - [x] **3. 홈 5구역 재구성 + garden-home 뼈대** — 완료(§8), 아직 push 안 함. index.md는 소개
       3줄만 남기고 `plugins/garden-home`이 ②③④(자리 표시, 기본 꺼짐)⑤(항상 켜짐)를 그린다.
       홈 듣기·댓글·Properties는 숨김(§9). 다른 페이지 `<body>` 무변화 확인함.
-- [ ] **4. ⑤ 연락처 → ④ 아빠의 화단 → ③ radar → ② 정원** 순으로 실제 내용을 채운다(데이터가 단순한 것부터).
+- [~] **4. 구역 채우기** — ⑤ 연락처 완료, ② 정원 모양 완료(움직임 없음, §8, 기본 꺼짐).
+      남은 것: ② 정원 움직임, ④ 아빠의 화단, ③ radar.
       ⑤는 이미 완성(고정 링크라 더 할 일 없음) — 사실상 ④부터.
 - [ ] **5. 확인·배포** — 다음 작업분도 `npx quartz build`로 로컬 확인 → 이전 배포본과 `public/`
       비교(§8 방식) → diff 검토(비밀값 없는지) → 사용자 확인 후 `v5`에 push → Actions 배포 확인.
@@ -284,3 +306,10 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 - `project_text2speech` — TTS 원본과 배포, hackthebox 색 함정.
 - `feedback_diff_before_deploy_secrets` — push 전 diff 확인.
 - `feedback_no_destructive_bugfix_deletes` — 지우는 작업은 먼저 확인.
+
+## 다음 계획
+
+- histography.io를 참고한 기후 관련 사건 연표 페이지 (별도 신규 기능, 지금 단계에 포함하지 않음)
+- 데이터 후보: radar의 PACM 이력, 국회 기노위 기록, scribbled notes에 날짜가 있는 사건
+- 10단계(마무리 점검)까지 마친 뒤 별도로 진행 예정
+코드는 건드리지 마.

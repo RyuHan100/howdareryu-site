@@ -4,7 +4,10 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
 
 const read = (name) => readFileSync(new URL(`./src/${name}`, import.meta.url), "utf-8")
 
-const out = read("component.js").replace("__STYLES__", () => JSON.stringify(read("garden-home.css")))
+// garden-svg.js(순수 함수)를 component.js 앞에 붙인다. import 문은 ESM 에서 어디 있든 끌어올려진다.
+const out = (read("garden-svg.js") + "\n" + read("component.js")).replace("__STYLES__", () =>
+  JSON.stringify(read("garden-home.css")),
+)
 
 const banner = "// 자동 생성 파일. src/ 를 고친 뒤 `node build.mjs` 로 다시 만든다.\n"
 const types =
