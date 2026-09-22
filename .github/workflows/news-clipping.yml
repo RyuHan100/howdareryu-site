@@ -1,10 +1,10 @@
-# 키워드 뉴스 클리핑 — 매일 06:40 KST 실행, content/radar/news 커밋 → Quartz 재빌드
+# 키워드 뉴스 클리핑 — 매일 05:47 KST 실행, content/radar/news 커밋 → Quartz 재빌드
 # 이 파일과 tools/news_clipping/ 을 howdareryu.com Quartz 저장소에 넣어서 사용
 name: News clipping
 
 on:
   schedule:
-    - cron: "40 21 * * *"     # 21:40 UTC = 06:40 KST (pacm-monitor 21:07 UTC 가 끝난 뒤)
+    - cron: "47 20 * * *"     # 20:47 UTC = 05:47 KST
   workflow_dispatch:
   push:                       # 키워드·코드를 고치면 바로 다시 수집 (content/news 커밋은 해당 없음 → 반복 실행 안 됨)
     branches: [v5]
