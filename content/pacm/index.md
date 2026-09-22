@@ -2,15 +2,15 @@
 title: PACM_radar
 description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 30일 변경 하이라이트.
 tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]
-date: 2026-09-21
-modified: 2026-09-21T08:09+09:00
+date: 2026-09-22
+modified: 2026-09-22T09:00+09:00
 ---
 
 > 출처: [UNFCCC CDM — Activities transitioned to A6.4](https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html) · [UNFCCC 전환 안내](https://unfccc.int/process-and-meetings/the-paris-agreement/paris-agreement-crediting-mechanism/CDM_transition)  
-> 마지막 확인: **2026-09-21 08:09 KST** · 마지막 변경: **2026-09-20** · 총 **36건** (PoA 15 · PA 21) · 연간 추정 감축량 합계 **14,435,656 tCO₂e**
+> 마지막 확인: **2026-09-22 09:00 KST** · 마지막 변경: **2026-09-22** · 총 **37건** (PoA 15 · PA 22) · 연간 추정 감축량 합계 **14,704,934 tCO₂e**
 
-> [!info]- 최근 30일 내 변경 없음
-> 표에서 🆕/🔄 및 ==하이라이트== 는 최근 30일 내 변경된 항목에만 표시됩니다.
+> [!success]+ 최근 30일 내 변경 1건 (신규 1 · 삭제 0 · 수정 0)
+> - **2026-09-22** 🆕 신규 전환 승인 — [PA 6560] [Patrind Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=KEMCO1340946734.9) (Pakistan)
 
 ## PoA (프로그램 활동) — Article 6.4 전환·등록
 
@@ -47,6 +47,7 @@ modified: 2026-09-21T08:09+09:00
 | 10330 | 2016-10-28 | [Fauji Cement Company Limited Waste Heat Recovery Project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1476851159.75) | Pakistan | Germany | AMS-III.Q. ver. 6 | 28,648 | 기준선 |
 | 10077 | 2015-03-17 | [Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh](https://cdm.unfccc.int/Projects/gotoProj?id=TUEV-RHEIN1418008670.0) | Bangladesh | Denmark | AM0023 ver. 4 | 4,378,506 | 기준선 |
 | 7100 | 2013-01-23 | [Los Cocos II Wind Farm Project](https://cdm.unfccc.int/Projects/gotoProj?id=RWTUV1346067874.54) | Dominican Republic | - | ACM0002 ver. 12 | 112,489 | 기준선 |
+| 🆕 ==6560== | 2012-12-24 | ==[Patrind Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=KEMCO1340946734.9)== | Pakistan | - | ACM0002 ver. 12 | 269,278 | 2026-09-22 |
 | 7093 | 2012-08-27 | [Los Cocos Wind Farm Project](https://cdm.unfccc.int/Projects/gotoProj?id=RWTUV1346059974.32) | Dominican Republic | - | ACM0002 ver. 12 | 54,183 | 기준선 |
 | 3370 | 2012-05-11 | [Amman Ghabawi Landfill Gas to Energy Project](https://cdm.unfccc.int/Projects/gotoProj?id=TUEV-SUED1265645036.88) | Jordan | Portugal | ACM0001 ver. 11 | 212,064 | 기준선 |
 | 5416 | 2011-12-13 | [Biogas Support Program - Nepal Activity-4](https://cdm.unfccc.int/Projects/gotoProj?id=RWTUV1321020993.82) | Nepal | Netherlands, Italy, Denmark, Finland, Sweden, Luxembourg, Switzerland, Austria, Germany, Belgium, Japan, Norway, Spain | AMS-I.E. ver. 4 | 56,487 | 기준선 |
@@ -60,7 +61,9 @@ modified: 2026-09-21T08:09+09:00
 
 ## 변경 이력
 
-_기준선 스냅샷 생성일: 2026-09-20. 이후 변경 없음._
+| 일자 | 구분 | 유형 | Ref | 사업명 | 상세 |
+|---|---|---|---|---|---|
+| 2026-09-22 | 신규 | PA | 6560 | [Patrind Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=KEMCO1340946734.9) |  |
 
 ## 데이터
 

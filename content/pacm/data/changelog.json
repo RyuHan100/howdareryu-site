@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "date": "2026-09-22",
+    "event": "added",
+    "key": "PA:6560",
+    "record": {
+      "type": "PA",
+      "ref": "6560",
+      "registered": "2012-12-24",
+      "title": "Patrind Hydropower Project",
+      "url": "https://cdm.unfccc.int/Projects/gotoProj?id=KEMCO1340946734.9",
+      "host_parties": [
+        "Pakistan"
+      ],
+      "other_parties": [],
+      "methodologies": [
+        "ACM0002 ver. 12"
+      ],
+      "reductions": 269278
+    }
+  }
+]
