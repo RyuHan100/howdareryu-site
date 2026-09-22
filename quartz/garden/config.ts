@@ -24,8 +24,16 @@ export interface RadarSubfolderConfig {
   color?: string
 }
 
+export interface HomeToggles {
+  garden: boolean
+  radar: boolean
+  gallery: boolean
+}
+
 export interface GardenDataConfig {
   exclude_folders: string[]
+  /** 홈 화면의 정원/radar/아빠의 화단 구역을 켜고 끈다. "정원사에게 연락하기"는 항상 나온다. */
+  home: HomeToggles
   garden: { folder: string }
   plants: {
     frontmatter_key: string
@@ -49,6 +57,7 @@ export interface GardenDataConfig {
 
 export const DEFAULT_GARDEN_CONFIG: GardenDataConfig = {
   exclude_folders: ["img", "data"],
+  home: { garden: false, radar: false, gallery: false },
   garden: { folder: "scribbled notes" },
   plants: {
     frontmatter_key: "plant",

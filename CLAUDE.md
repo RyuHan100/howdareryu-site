@@ -139,28 +139,43 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
   SPA 이동 때마다 다시 적용해야 하므로 `nav` 이벤트에 건다. 원래 키(`title` 등)는 그대로라 다른 기능은 영향 없음.
   대안으로 `excludedProperties`로 빼고 싶은 키(`aliases`, `publish` 등)는 옵션만으로 숨길 수 있다.
 
-## 8. 홈 전용 컴포넌트 — 제안
+## 8. 홈 전용 컴포넌트 — `plugins/garden-home` ✅ 뼈대 완료(2026-09-22)
 
-홈 순서: ① 소개 ② 정원 ③ radar ④ 아빠의 화단 ⑤ 정원사와 연결되기.
+홈 순서: ① 소개 ② 정원 ③ radar ④ 아빠의 화단 ⑤ 정원사에게 연락하기.
 
-**제안: 로컬 플러그인 하나(`plugins/garden-home`)에 컴포넌트 하나(`GardenHome`)가 ②~⑤를 순서대로 그린다.**
-- ① 소개는 `content/index.md` 본문(마크다운)에 남긴다 → `pageBody`. 산책 가이드·신호 보내기는 본문에서 뺀다.
-- `GardenHome`은 `layout: { position: afterBody, condition: index, priority: 5 }`.
-  afterBody에 `hdr-comments`(priority 10)도 있으니 priority를 더 작게 해 댓글보다 위에 둔다.
-- 섹션을 컴포넌트 여러 개로 나누면 플러그인 항목·priority 관리가 늘어난다. 한 컴포넌트 안에서
-  섹션 순서를 정하면 순서가 한 곳에서 관리되고 CSS/스크립트도 한 번만 실린다.
-- 구조는 `plugins/hdr-comments`를 따른다: `package.json`의 `quartz` 필드(category `component`,
-  `components`), `src/` → `node build.mjs` → `dist/` 커밋. dist에 외부 import가 없어야 한다.
-- 데이터는 §8.1의 `.garden-cache/garden-data.json`을 컴포넌트가 빌드 시점에 `fs`로 읽어 쓴다
-  (`allFiles` props로 다시 계산하지 않는다 — git 기록·링크 그래프·판정은 수집기가 한 번에 한다).
+**구현: 로컬 플러그인 `plugins/garden-home`, 컴포넌트 하나(`GardenHome`)가 ②~⑤를 순서대로 그린다.**
+- ① 소개는 `content/index.md` 본문 그대로(`pageBody`) — 정확히 이 3줄만:
+  "안녕하세요, Ryu입니다. / 이곳은 저의 디지털 정원으로, / 주로 기후위기에 대응하기 위한 자료와
+  생각을 심고 가꿉니다." 기존 "산책 가이드"·"신호 보내기"는 본문에서 뺐다.
+- `GardenHome`은 `quartz.config.yaml`에 `layout: { position: afterBody, condition: index, priority: 5 }`
+  로 등록(`hdr-comments`priority 10 보다 위). 한 컴포넌트 안에서 섹션을 배열로 쌓아 순서를 한 곳에서
+  관리한다(②③④는 각자 `garden.yaml`의 `home.garden/radar/gallery`가 true 일 때만, ⑤는 항상).
+  구조는 `plugins/hdr-comments`를 그대로 따름: `package.json`의 `quartz` 필드, `src/component.js`
+  (preact vnode 직접 생성, 외부 import 없음) → `node build.mjs` → `dist/` 커밋.
+- **②③④는 지금 자리 표시만 나온다("다음 단계에서 채울 예정")** — 실제 시각화는 다음 단계.
+  - ⑤ 연락처는 항상 나온다: "정원사에게 연락하기" + Instagram(`@howdareryu`, 외부 링크)/
+    Email(`mailto:`)/GitHub(`howdareryu-site`, 외부 링크) — 기존 "신호 보내기"와 같은 값.
+- **켜고 끄기**: `garden.yaml`의 `home: { garden, radar, gallery }`(각각 boolean, **기본값 전부
+  false**). `quartz/garden/syncGardenHomeFromGarden.ts`가 빌드 시작 때 이 값을
+  `quartz.config.yaml`의 `garden-home` 플러그인 `options`(마커 구간)에 반영한다 —
+  `syncExplorerConfigFromGarden.ts`와 같은 방식, 다만 브라우저용 JS 문자열이 아니라 그냥
+  boolean 값이라 더 단순하다. **새 폴더가 생겨도 이 세 스위치와 무관하게 동작**(스위치는 섹션
+  전체를 켜고 끄는 것이고, 폴더별 세부 동작은 §8.1의 `config.ts` 기본값이 처리).
+- 검증(2026-09-22): 로컬 빌드 후 세 스위치를 모두 켜서 ②③④⑤ 순서로 자리 표시가 나오는지
+  확인하고, 다시 기본값(전부 false)으로 되돌렸다. 이전 배포 커밋과 `public/` 을 통째로 비교해서
+  **홈 페이지의 `<body>` 만 바뀌었고 다른 모든 페이지의 `<body>`는 바이트 단위로 동일**함을
+  확인했다(`<head>`의 공유 CSS 청크 링크 하나만 늘어남 — 새 컴포넌트의 CSS가 전체 번들에
+  들어가서 생기는 불가피한 차이, 다른 페이지에 실제로 적용되는 규칙은 없음).
+- 다음 단계에서 데이터는 §8.1의 `.garden-cache/garden-data.json`을 컴포넌트가 빌드 시점에 `fs`로
+  읽어 채운다(`allFiles` props로 다시 계산하지 않는다 — git 기록·링크 그래프·판정은 수집기가 이미 함).
   - ② 정원: `garden.notes` — 식물(`plant`/`label`)과 시듦(`wilted`)까지 이미 판정돼 있다.
   - ③ radar: `radar.notes`(날짜 내림차순) + `radar.subfolders`(표시 이름·색).
   - ④ 아빠의 화단: `gallery.images`. 원본이 483MB라 **반드시 `/img/thumbs/<파일명>.webp` 썸네일**을
     쓴다(CI에서 gen_gallery가 먼저 만든다). 클릭하면 원본(`src`)이나 gallery 페이지로.
     로컬에는 썸네일이 없으니 로컬 확인용 대체 경로(원본 또는 gen_gallery.py 로컬 실행)가 필요하다.
-  - ⑤ 연락처: 지금 index.md의 "신호 보내기" 내용(Instagram/Email/GitHub). footer 링크와 같은 값.
 - 움직임(레이더 스윕, 슬라이드)은 `afterDOMLoaded` 스크립트로. SPA라 `nav` 이벤트마다 다시 붙이고
-  `window.addCleanup`으로 타이머를 정리한다. `prefers-reduced-motion` 필수(§9).
+  `window.addCleanup`으로 타이머를 정리한다. `prefers-reduced-motion` 필수(§9) — 지금 자리 표시는
+  움직이는 게 없어서 해당 없음, 다음 단계에서 실제로 채울 때 지킬 것.
 
 ### 8.1 정원 데이터 수집기 ✅ (2026-09-22)
 
@@ -225,8 +240,12 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
   절대 바꾸지 않는다.** 표시 이름을 바꿔야 하면 탐색기(`mapFn`/`displayName`)나 CSS(`::before`)에서만
   하고, 실제 파일 경로·slug는 그대로 둔다.
 - **홈 화면에서 듣기·댓글·Properties(노트 상단 속성 표) 표시 여부는 작업 전에 반드시 사용자에게
-  먼저 물어본다.** 지금은 셋 다 전역 설정이라 홈에도 자동으로 나온다 — §8의 `garden-home`
-  컴포넌트를 만들 때 이 상태를 유지할지, 홈만 빼고 싶은지 미리 확인.
+  먼저 물어본다.** → 2026-09-22 결정 및 구현 완료: **셋 다 홈에서만 숨김**, 다른 모든 노트
+  페이지는 그대로.
+  - 듣기(TTS): `Head.tsx`에서 `fileData.slug !== "index"` 조건으로 스크립트 두 줄을 감쌌다.
+  - 댓글: `hdr-comments` 옵션 `exclude: [index]`.
+  - Properties: `content/index.md` frontmatter에 `quartz-properties: false`(기존에 지원되던
+    노트별 끄기 기능을 그대로 씀 — 코드 변경 없음).
 - **이번 작업 범위 밖의 컴포넌트는 건드리지 않는다.** 탐색기·홈 전용 컴포넌트·Properties 표시 이름
   작업을 하면서 그래프·검색·백링크·태그 페이지·footer 같은 다른 컴포넌트의 설정을 같이 고치지 않는다.
 - **색은 하드코딩하지 않고 현재 테마(hackthebox)의 CSS 변수를 쓴다.** `quartz.config.yaml`의
@@ -243,18 +262,21 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 
 ## 10. 단계별 구현 계획
 
-- [ ] **0. 결정받기** — 홈에서 TTS·댓글 표시 여부 / 식물 판정 기준(글 길이? 나이? 태그?) /
-      레이더 점 규칙(최근 며칠? 폴더별 방향?) / Properties 한글 이름 목록 /
-      gallery.md 소개글이 CI에서 덮어써지는 문제 처리.
-- [x] **1. 탐색기** — 완료·배포(§5). 제목 "오솔길", garden.yaml `explorer` → mapFn
+- [ ] **0. 남은 결정** — 식물 판정 기준 조정(수정 횟수가 "Quartz sync 묶음 커밋" 기준이라
+      너무 쉽게 채워짐, §8.1 참고) / 레이더 점 좌표 규칙(최근 며칠? 폴더별 방향?) /
+      Properties 한글 이름 목록(§7, 아직 미착수) / gallery.md 소개글이 CI에서 덮어써지는 문제.
+- [x] **1. 탐색기** — 완료·배포(§5, 커밋 e048a83c). 제목 "오솔길", garden.yaml `explorer` → mapFn
       (폴더 🪴, radar 폴더·하위 폴더 📡, radar 노트 📍, 비공개 아카이브 🔒).
-- [x] **1.5 정원 데이터 수집기** — 완료(§8.1). `.garden-cache/garden-data.json`, 사이트 출력 변화 없음.
-- [ ] **2. Properties 표시 이름** — `garden.yaml`의 매핑 + nav마다 적용되는 작은 스크립트.
-- [ ] **3. garden-home 뼈대** — `plugins/garden-home` 생성, config에 `afterBody / condition: index / priority 5`로 등록,
-      빈 섹션 4개가 홈에만 나오는지 확인(다른 페이지·댓글·TTS 그대로인지 확인).
-- [ ] **4. ⑤ 연락처 → ④ 아빠의 화단 → ③ radar → ② 정원** 순으로 채운다(데이터가 단순한 것부터).
-- [ ] **5. index.md 정리** — 소개만 남긴다.
-- [ ] **6. 확인·배포** — `npx quartz build`로 로컬 확인 → diff 검토(비밀값 없는지) → 사용자 확인 후 `v5`에 push.
+- [x] **1.5 정원 데이터 수집기** — 완료·배포(§8.1, 커밋 47faf0ae). `.garden-cache/garden-data.json`,
+      사이트 출력 변화 없음. created/modified는 frontmatter 우선.
+- [ ] **2. Properties 표시 이름** — `garden.yaml`의 매핑 + nav마다 적용되는 작은 스크립트. 아직 미착수.
+- [x] **3. 홈 5구역 재구성 + garden-home 뼈대** — 완료(§8), 아직 push 안 함. index.md는 소개
+      3줄만 남기고 `plugins/garden-home`이 ②③④(자리 표시, 기본 꺼짐)⑤(항상 켜짐)를 그린다.
+      홈 듣기·댓글·Properties는 숨김(§9). 다른 페이지 `<body>` 무변화 확인함.
+- [ ] **4. ⑤ 연락처 → ④ 아빠의 화단 → ③ radar → ② 정원** 순으로 실제 내용을 채운다(데이터가 단순한 것부터).
+      ⑤는 이미 완성(고정 링크라 더 할 일 없음) — 사실상 ④부터.
+- [ ] **5. 확인·배포** — 다음 작업분도 `npx quartz build`로 로컬 확인 → 이전 배포본과 `public/`
+      비교(§8 방식) → diff 검토(비밀값 없는지) → 사용자 확인 후 `v5`에 push → Actions 배포 확인.
 
 ## 참고 메모
 

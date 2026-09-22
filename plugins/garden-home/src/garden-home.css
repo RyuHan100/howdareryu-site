@@ -1,0 +1,21 @@
+/* 색은 전부 테마 CSS 변수를 쓴다(하드코딩 금지 — CLAUDE.md §9). 라이트/다크 모드 자동 대응. */
+.garden-home {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.garden-home-section h3 {
+  margin-bottom: 0.5rem;
+}
+
+.garden-home-placeholder .garden-home-note {
+  color: var(--gray);
+  font-style: italic;
+}
+
+.garden-home-contact ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}

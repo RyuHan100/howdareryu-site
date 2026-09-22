@@ -100,17 +100,22 @@ export default (() => {
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
         {/* 텍스트 읽어주기(TTS): 제목 아래 버튼 + 하단 플로팅 버튼. 원본은 Scripts/Text2Speech.
-            data-persist 가 있어야 SPA 이동 때 head 에서 지워지지 않는다. */}
-        <script
-          defer
-          data-persist="true"
-          src={joinSegments(baseDir, "static/tts/tts-core.js")}
-        ></script>
-        <script
-          defer
-          data-persist="true"
-          src={joinSegments(baseDir, "static/tts/tts-site.js")}
-        ></script>
+            data-persist 가 있어야 SPA 이동 때 head 에서 지워지지 않는다.
+            홈(index)에서만 숨긴다 — 2026-09-22 사용자 결정, CLAUDE.md §9. 다른 모든 노트 페이지는 그대로. */}
+        {fileData.slug !== "index" && (
+          <>
+            <script
+              defer
+              data-persist="true"
+              src={joinSegments(baseDir, "static/tts/tts-core.js")}
+            ></script>
+            <script
+              defer
+              data-persist="true"
+              src={joinSegments(baseDir, "static/tts/tts-site.js")}
+            ></script>
+          </>
+        )}
         {additionalHead.map((resource) => {
           if (typeof resource === "function") {
             return resource(fileData)

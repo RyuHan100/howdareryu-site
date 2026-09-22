@@ -39,6 +39,15 @@ explorer:
 # 새 폴더가 생겨도 설정 없이 기본값이 적용된다(radar 새 하위 폴더는 폴더 이름 + default 색).
 # ─────────────────────────────────────────────────────────────────────────────
 
+# 홈 화면의 ②정원 ③radar ④아빠의 화단 구역을 켜고 끈다. 기본값은 모두 꺼짐(false) —
+# 아직 실제로 그리는 코드가 없어서 켜도 자리 표시만 나온다. ⑤정원사에게 연락하기는 이 설정과
+# 무관하게 항상 나온다. quartz.ts 가 이 값을 quartz.config.yaml 의 garden-home 플러그인
+# options 에 반영한다(explorer 와 같은 마커 방식).
+home:
+  garden: false
+  radar: false
+  gallery: false
+
 # 정원 데이터에서 뺄 폴더 이름. 경로 어디에 있든 이 이름의 폴더 안은 모두 제외
 # (radar/news/data, radar/pacm/data 처럼 "모든 data 폴더").
 exclude_folders:

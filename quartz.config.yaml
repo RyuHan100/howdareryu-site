@@ -293,13 +293,29 @@ plugins:
     layout:
       position: afterBody
       priority: 10
+  # 홈 전용 — ②정원 ③radar ④아빠의 화단(켜고 끌 수 있음, garden.yaml 의 home) +
+  # ⑤정원사에게 연락하기(항상 나옴). condition: index 라 홈이 아니면 전혀 안 그려진다.
+  # afterBody 안에서 hdr-comments(priority 10)보다 위(priority 5)에 오도록.
+  - source: ./plugins/garden-home
+    enabled: true
+    options:
+      # === garden.yaml 자동 생성 시작 (직접 고치지 말고 garden.yaml 을 고치세요) ===
+      garden: false
+      radar: false
+      gallery: false
+      # === garden.yaml 자동 생성 끝 ===
+    layout:
+      position: afterBody
+      condition: index
+      priority: 5
   # 댓글 (Cloudflare Workers + D1). 노트에서 끄려면 frontmatter 에 comments: false
   - source: ./plugins/hdr-comments
     enabled: true
     options:
       apiBase: https://hdr-comments.hdr-comments-worker.workers.dev
-      # 댓글을 달지 않을 경로(슬러그 앞부분). 예: [news, t-archive]
-      exclude: []
+      # 댓글을 달지 않을 경로(슬러그 앞부분). 홈은 계속 바뀌는 정원/radar 요약이라
+      # 댓글 스레드가 안 맞아서 뺐다(2026-09-22 사용자 결정, CLAUDE.md §9).
+      exclude: [index]
     layout:
       position: afterBody
       priority: 10

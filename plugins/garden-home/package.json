@@ -1,0 +1,48 @@
+{
+  "name": "garden-home",
+  "version": "1.0.0",
+  "description": "howdareryu.com 홈 화면 — 정원/radar/아빠의 화단 구역(모두 켜고 끌 수 있음) + 정원사에게 연락하기",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "import": "./dist/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "quartz": {
+    "name": "garden-home",
+    "displayName": "Garden Home",
+    "description": "홈 전용 — 정원/radar/아빠의 화단(켜고 끌 수 있음) + 정원사에게 연락하기",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "garden": false,
+      "radar": false,
+      "gallery": false
+    },
+    "optionSchema": {
+      "garden": { "type": "boolean" },
+      "radar": { "type": "boolean" },
+      "gallery": { "type": "boolean" }
+    },
+    "components": {
+      "GardenHome": {
+        "displayName": "Garden Home",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 5
+      }
+    }
+  }
+}
