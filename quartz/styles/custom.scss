@@ -24,3 +24,64 @@ strong, b {
   color: #9fef00;
   font-weight: 700;
 }
+
+// 언어 스위처(quartz-multilanguage) — 제목 아래 '듣기' 버튼 옆에 같은 모양으로 둔다.
+// 값은 quartz/static/tts/tts-site.js 의 .ryu-tts-inline 규칙을 그대로 옮겼다. 저쪽을 바꾸면 여기도 같이.
+.popover-hint > .ryu-tts-inline,
+.popover-hint > .multilanguage-switcher {
+  display: inline-flex;
+  vertical-align: middle;
+}
+.popover-hint > .multilanguage-switcher {
+  margin: 0.5rem 0 0.9rem;
+  font-size: inherit;
+  line-height: 1;
+
+  ul {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  a,
+  .disabled {
+    font: inherit;
+    font-size: 0.9rem;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.35rem 0.85rem 0.35rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid var(--gray);
+    background: color-mix(in srgb, var(--secondary, #6d28d9) 12%, transparent);
+    color: var(--dark);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a::before,
+  .disabled::before {
+    content: "🌐";
+    font-size: 1.2rem;
+  }
+  a:hover {
+    border-color: var(--secondary);
+  }
+  .disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+}
+.popover-hint > .ryu-tts-inline + .multilanguage-switcher {
+  margin-left: 0.5rem;
+}
+@media print {
+  .multilanguage-switcher {
+    display: none;
+  }
+}

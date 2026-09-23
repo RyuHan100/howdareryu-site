@@ -40,15 +40,22 @@
   }
 
   // Worker 의 normalizePage() 와 같은 규칙이어야 한다
-  function pageKey() {
-    var p = window.location.pathname
-    try {
-      p = decodeURIComponent(p)
-    } catch (e) {}
+  function normalizeKey(p) {
     p = p.normalize("NFC")
     p = p.replace(/\/index(\.html)?$/, "/").replace(/\.html$/, "")
     if (p.length > 1) p = p.replace(/\/+$/, "")
     return p
+  }
+
+  // 번역본은 서버 컴포넌트가 원본 주소를 data-page 로 넣어 준다
+  function pageKey(root) {
+    var given = root && root.getAttribute("data-page")
+    if (given) return normalizeKey(given)
+    var p = window.location.pathname
+    try {
+      p = decodeURIComponent(p)
+    } catch (e) {}
+    return normalizeKey(p)
   }
 
   function el(tag, cls, text) {
@@ -92,7 +99,7 @@
 
   function mount(root) {
     var api = (root.getAttribute("data-api") || "").replace(/\/+$/, "")
-    var page = pageKey()
+    var page = pageKey(root)
     root.textContent = ""
 
     var title = el("h2", "hdr-comments-title", "댓글")
@@ -236,7 +243,7 @@
       return request(api, "GET", "/api/comments?page=" + encodeURIComponent(page))
         .then(function (data) {
           // 응답을 기다리는 사이 다른 페이지로 옮겨 갔으면 버린다
-          if (!root.isConnected || page !== pageKey()) return
+          if (!root.isConnected || page !== pageKey(root)) return
           render(data.comments || [])
         })
         .catch(function () {

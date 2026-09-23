@@ -28,12 +28,17 @@ export const HdrComments = (opts) => {
   const Component = ({ displayClass, fileData }) => {
     const override = fileData.frontmatter?.comments
     const slug = fileData.slug ?? ""
-    const excluded = exclude.some((prefix) => slug === prefix || slug.startsWith(prefix + "/"))
+    // 번역본(quartz-multilanguage 의 "노트.en")은 원본과 같은 댓글 스레드를 쓴다
+    const baseSlug = fileData.multilanguage?.baseSlug || slug
+    const excluded = exclude.some(
+      (prefix) => baseSlug === prefix || baseSlug.startsWith(prefix + "/"),
+    )
     if (override === false || override === "false" || excluded) return null
 
     return h("section", {
       class: [displayClass, "hdr-comments"].filter(Boolean).join(" "),
       "data-api": apiBase,
+      "data-page": baseSlug !== slug ? "/" + baseSlug : undefined,
       children: h("noscript", { children: "댓글을 보려면 자바스크립트가 필요합니다." }),
     })
   }

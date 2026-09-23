@@ -199,6 +199,12 @@
       "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
       "installedAt": "2026-07-18T08:01:29.284Z"
     },
+    "quartz-multilanguage": {
+      "source": "github:boxi-os/quartz-multilanguage",
+      "resolved": "https://github.com/boxi-os/quartz-multilanguage.git",
+      "commit": "7da4665515fc80dbd0d3c99653f0b44efc19dd2c",
+      "installedAt": "2026-09-23T12:27:15.423Z"
+    },
     "quartz-themes": {
       "source": {
         "name": "quartz-themes",

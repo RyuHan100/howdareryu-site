@@ -15,6 +15,9 @@
   (`v5`, 최신 배포 커밋 `dc8f0869`, `home.garden`/`home.radar: true`).
 - **④ 아빠의 화단(홈 슬라이드쇼 + 전체 그림 페이지, §8) 구현 완료, `home.gallery: true`로 켬,
   아직 커밋 안 함** — 사용자 확인 대기 중. 홈 5구역(①~⑤) 전부 완성.
+- **다국어(§13) 구현·로컬 확인 완료, 아직 커밋 안 함(2026-09-23).** ⚠️ **pre-commit 훅이 이미
+  켜져 있다**(`core.hooksPath=.husky/_`) — 이 저장소에서 커밋하면(`npx quartz sync` 포함)
+  `translate: true` 노트와 `content/index.md`가 스테이징돼 있을 때 Opus 로 영문본을 만든다.
 
 ## 1. 저장소와 클론
 
@@ -680,6 +683,64 @@ radar 의 하위 폴더는 기본적으로 "노트 하나 = 점 하나"(§8.1)�
   읽는 진짜 경로)가 2026-09-22 자로 멈춰 있어서, 새 위치에 계속 쓰인다면 radar 의 PACM
   점이 점점 낡은 데이터를 보여주게 된다.** 다음에 pacm_monitor 를 만질 때(또는 사용자가
   확인해 줄 때) 짚어볼 것.
+
+## 13. 다국어(한/영) — quartz-multilanguage + 번역 pre-commit 훅 (2026-09-23)
+
+계획서: https://claude.ai/artifact/3x973zhj91rmq7XnszFPbp (범위 결정·대안 비교). 요약:
+
+- **번역본은 원본 옆 `노트.en.md`**(파일 이름 접미사). 한국어가 기본 언어라 기존 slug·URL·댓글은
+  그대로이고, 영문본은 `…/노트.en` 주소가 된다. **번역 대상은 frontmatter `translate: true`**인
+  노트 + 홈(`content/index.md`, 플래그 없이 항상). `content/radar/**`는 훅이 건너뛴다.
+- **플러그인**: `github:boxi-os/quartz-multilanguage`(lock 커밋 `7da4665`), `quartz.config.yaml`
+  crawl-links 다음. `detection: [suffix]`, `linking: [path]`, `seo.hreflang/ogLocale`,
+  스위처 `style: links`·`showCurrent: false`·`missing: disabled`(번역 없으면 흐린 알약),
+  `beforeBody` priority 12(제목 10 ↔ 속성 표 15 사이). 페이지마다 `<html lang>`(emitter 가 빌드
+  후 고쳐 씀), `og:locale(:alternate)`, hreflang en/ko/x-default(transformer 의 `additionalHead`)
+  가 자동으로 들어간다.
+- **스위처 모양**: `custom.scss` 끝. '듣기' 버튼(`tts-site.js`의 `.ryu-tts-inline`, 런타임 `<style>`)
+  값을 그대로 옮겼고 두 요소를 `inline-flex`로 한 줄에 둔다 — **tts-site.js 의 버튼 스타일을
+  바꾸면 custom.scss 도 같이.** 헤드리스 크롬으로 계산된 스타일(폰트·크기·padding·radius·테두리·
+  배경·글자색)이 같음을 확인. 플러그인 기본 드롭다운 CSS 는 §4 함정 두 개(`--lightgray` 테두리,
+  `--highlight` 배경)에 다 걸려서 안 쓴다.
+- **정원 데이터**: `collect.ts`가 `quartz.config.yaml`의 multilanguage `languages`에서 기본 언어가
+  아닌 코드를 읽어 `*.en.md`를 노트 목록에서 뺀다(식물·링크 그래프 중복 방지 — 언어 목록은 거기
+  한 곳).
+- **오솔길**: explorer `filterFn`(손으로 쓴 부분, 마커 밖)으로 `.en` 노드를 숨긴다(기본 필터의
+  `tags` 제외도 같이 옮김). 영문본은 스위처로만 오간다. **검색·그래프·백링크·최근 업데이트에는
+  영문본이 그대로 보인다**(§9 "범위 밖 컴포넌트는 안 건드림" — 필요하면 따로 결정).
+- **속성 표**: note-properties `excludedProperties: [translate]`.
+- **댓글 공유**: 댓글 키는 `fileData.slug`가 아니라 **브라우저 주소(pathname)**다(`comments.client.js`
+  `pageKey()`, Worker `normalizePage()`와 같은 규칙 — §9 설명보다 정확한 사실). 번역본일 때만
+  서버 컴포넌트가 `data-page="/<baseSlug>"`(플러그인이 넣어 주는 `fileData.multilanguage.baseSlug`)
+  를 심고, 클라이언트는 그 값이 있으면 키로 쓴다. 한국어 페이지는 `data-page`가 없어 예전과 똑같다.
+  `exclude` 도 baseSlug 로 맞춰서 `index.en`에도 댓글이 없다.
+- **홈 영문본**: `registerCondition("index")`가 slug 정확 일치라 `index.en`에는 ②~⑤(garden-home)가
+  안 나온다 — 의도된 기본값(홈 UI 문자열 다국어화는 별도 프로젝트, 그때 조건도 같이 바꾼다).
+- **번역 훅**: `.husky/pre-commit` → `scripts/translate/pre-commit.mjs`(+ `prompt.md` 문체·마크다운
+  규칙, `glossary.yaml` UNFCCC 표기 — 둘 다 고치면 다음 번역부터 반영). 스테이징된 **내용**
+  (`git show :경로`)을 `claude -p --model claude-opus-5-5 --tools ""`로 통째 번역(매번 전체 재번역),
+  frontmatter 는 원본 값을 쓰고 `title`/`description`만 번역값, `translate`·`aliases`는 뺀다
+  (aliases 는 옛 주소 리다이렉트라 복사하면 충돌). 전부 성공한 뒤에만 쓰고 `git add` — 하나라도
+  실패하면 아무것도 안 쓰고 exit 1. `CI` 환경이면 건너뜀. 급하면 `git commit --no-verify`.
+  글 하나 약 15~20초.
+- **함정들(이번에 밟음)**:
+  - `npx quartz plugin add`는 설치 후 **`quartz.config.yaml`을 `YAML.stringify`로 통째로 다시 써서
+    주석 30줄과 garden.yaml 마커를 전부 지운다**(`quartz/cli/plugin-data.js`). 반드시 백업 →
+    add → 백업으로 복원 → 블록은 손으로 추가.
+  - `.quartz/plugins/timeline-pin`(지워진 `plugins/timeline-pin`을 가리키던 끊어진 심볼릭 링크)
+    때문에 `plugin add`가 lock 을 쓰기 직전에 ENOENT 로 죽었다 → scratchpad 로 옮겨 해결.
+    첫 시도에서 받아진 폴더가 남아 있으면 "already exists"로 lock 에 안 들어가니 지우고 다시.
+  - nvm 의 `claude` CLI 2.1.215 는 `claude-opus-5-5`를 거부했다(2.1.280 이상 필요) → `claude update`.
+    훅은 node·claude 를 못 찾으면 `~/.nvm/nvm.sh`를 불러온다(GUI 커밋 대비).
+  - `claude -p --bare`는 API 키 전용이라 못 쓴다. 저장소 CLAUDE.md 를 번역 맥락에 안 넣으려고
+    임시 폴더를 cwd 로 실행한다.
+  - `npx quartz sync`는 커밋 실패를 확인하지 않고 push 로 넘어가 "Done!"을 찍는다 — 번역이
+    실패하면 새 변경은 안 올라갔는데 끝난 것처럼 보인다(빨간 `[translate] 실패` 줄을 볼 것).
+- **검증(로컬)**: 임시 git 저장소에서 훅 시험(실패 시 파일 0개·exit 1, 플래그 없는 커밋 0.5초 통과,
+  플래그 노트 수정 커밋에 영문본 포함, radar 제외, 원본 무변경). 실제 번역본 2개(AI, 홈)를 임시로
+  넣고 빌드 → 헤드리스 크롬(CDP)으로 스위처 양방향 이동·`html lang` 전환·hreflang 3개·오솔길 중복
+  없음·영문본 댓글 요청 `page=/scribbled-notes/2026-09-20-ai`·모바일 390px 가로 넘침 없음 확인 후
+  번역본은 뺐다. 정원은 번역본이 있어도 5개 그대로.
 
 ## 참고 메모
 

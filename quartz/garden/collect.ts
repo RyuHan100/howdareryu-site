@@ -51,6 +51,31 @@ function readIgnoreNames(): Set<string> {
   }
 }
 
+/**
+ * quartz-multilanguage 의 기본 언어가 아닌 언어 코드들. `노트.en.md` 같은 번역본을 정원 데이터에서
+ * 빼는 데 쓴다 — 번역본이 식물·링크 그래프에 따로 잡히면 같은 글이 두 번 자란다.
+ */
+function readTranslationCodes(): string[] {
+  try {
+    const cfg = YAML.parse(fs.readFileSync(path.join(process.cwd(), "quartz.config.yaml"), "utf-8"))
+    const entry = (cfg?.plugins ?? []).find(
+      (p: { source?: unknown; enabled?: unknown }) =>
+        typeof p?.source === "string" && p.source.endsWith("quartz-multilanguage") && p.enabled !== false,
+    )
+    const langs: unknown[] = entry?.options?.languages ?? []
+    const codes = langs
+      .map((l) => (typeof l === "string" ? l : (l as { code?: unknown })?.code))
+      .filter((c): c is string => typeof c === "string" && c.length > 0)
+    const def = entry?.options?.defaultLanguage ?? codes[0]
+    return codes.filter((c) => c !== def)
+  } catch {
+    return []
+  }
+}
+
+const isTranslation = (rel: string, codes: string[]) =>
+  codes.some((c) => rel.toLowerCase().endsWith(`.${c.toLowerCase()}.md`))
+
 function walk(root: string, ignore: Set<string>, rel = ""): string[] {
   const dir = rel ? path.join(root, rel) : root
   if (!fs.existsSync(dir)) return []
@@ -384,7 +409,10 @@ export function collectGardenData(now = new Date()): GardenDataSummary {
   const cfg = loadGardenDataConfig()
   const ignore = readIgnoreNames()
   const allRels = walk(CONTENT_DIR, ignore)
-  const noteRels = allRels.filter((r) => r.toLowerCase().endsWith(".md"))
+  const translationCodes = readTranslationCodes()
+  const noteRels = allRels.filter(
+    (r) => r.toLowerCase().endsWith(".md") && !isTranslation(r, translationCodes),
+  )
   const git = loadGitHistory(process.cwd(), CONTENT)
 
   const notes = new Map<string, SourceNote>()
