@@ -243,10 +243,19 @@
       "category": "disaster",
       "description": "2024년이 산업화 이전 대비 평균 1.5도를 넘어선 첫 해이자, 관측 사상 가장 더운 해로 확인됐다."
     },
-
+        {
+      "id": "korea-2035-ndc",
+      "date": "2025-11",
+      "exactDate": "2025-1-10",
+      "title": "한국 정부 2035 NDC 발표",
+      "category": "korea", 
+      "description" : "한국 정부가 2035년까지 2018년 대비 온실가스를 53~61% 감축하는 2035 "
+    
+    },
         {
       "id": "disaster-2026-nepal-flood",
-      "date": "2026-08-26",
+      "date": "2026-08",
+      "exactDate": "2026-08-26",
       "title": "2026년 네팔 대홍수",
       "category": "disaster",
       "image": "/static/images/timeline/2026_nepal.jpeg",
