@@ -6,7 +6,7 @@
      네이버는 NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 이 있을 때만 (없으면 Google 만으로 동작)
   2. 최근 N시간 기사만 남기고, 지난 14일 클리핑(data/daily/*.json)에 이미 실린 기사·같은 제목은 제외
   3. 같은 기사를 다룬 여러 매체 보도는 제목 유사도로 묶어 "관련 보도"로 접음
-    4. content/radar/news/YYYY/YYYY-MM-DD.md (그날 클리핑) + content/radar/news/index.md (최신 + 목록) 생성
+  4. content/radar/news/YYYY/YYYY-MM-DD.md (그날 클리핑) + content/radar/news/index.md (최신 + 목록) 생성
   5. 결과를 GITHUB_OUTPUT(changed, count, summary)에 기록
 
 같은 날 다시 실행하면 그날 파일에 새 기사만 덧붙여 다시 렌더링한다(멱등).
@@ -73,6 +73,15 @@ def load_config(path: Path) -> tuple[dict, list[dict]]:
     return settings, keywords
 
 
+def normalize_must(raw) -> list[list[str]]:
+    """must: [a, b] (a 또는 b 아무거나) 또는 must: [[a, b], [c, d]] (그룹 간 AND, 그룹 안은 OR).
+    평평한 리스트는 그룹 하나로 감싼다 — 기존 설정과 그대로 호환."""
+    groups = list(raw or [])
+    if groups and not isinstance(groups[0], list):
+        groups = [groups]
+    return groups
+
+
 def normalize_keyword(k) -> dict:
     """'국문 / 영문' 은 한 키워드로 묶어 국내판·해외판을 각각 검색한다.
     짝이 없는 문자열은 국내판에서 검색하고, 한글이 없으면 해외판에서도 검색한다."""
@@ -89,7 +98,7 @@ def normalize_keyword(k) -> dict:
     if isinstance(naver, str):
         naver = [naver.replace(" OR ", " | ")]
     return {"name": str(name), "ko": k.get("ko"), "en": k.get("en"), "naver": list(naver or []),
-            "must": list(k.get("must") or []), "must_in": k.get("must_in", "title")}
+            "must": normalize_must(k.get("must")), "must_in": k.get("must_in", "title")}
 
 
 # ---------------------------------------------------------------- 수집
@@ -269,7 +278,7 @@ def collect(keywords: list[dict], settings: dict, now: datetime, fetcher=fetch,
             if any(has_term(item["title"], t) for t in exclude_terms) or item["source"].lower() in exclude_sources:
                 continue
             text = f"{item['title']} {item['description']}" if kw["must_in"] == "text" else item["title"]
-            if kw["must"] and not any(has_term(text, m) for m in kw["must"]):
+            if kw["must"] and not all(any(has_term(text, m) for m in group) for group in kw["must"]):
                 continue
             first = by_key.get(item["key"])
             if first is None:
@@ -315,12 +324,14 @@ def drop_same_outlet_dupes(items: list[dict], existing: list[dict]) -> list[dict
 
 
 def load_seen(daily_dir: Path, today: str, keep_from: str) -> tuple[set[str], list[tuple[str, bool]]]:
-    """지난 클리핑에 실린 (기사 키, 제목). 다른 매체가 다음 날 같은 제목으로 받아쓴 기사도 걸러진다."""
+    """지난 클리핑에 실린 (기사 키, 제목). 다른 매체가 다음 날 같은 제목으로 받아쓴 기사도 걸러진다.
+    저장 상한을 넘겨 걸러낸(skipped) 기사도 포함 — 다음 날 다시 '새 기사'로 올라오지 않게."""
     keys: set[str] = set()
     titles: dict[tuple[str, bool], None] = {}
     for p in daily_dir.glob("*.json"):
         if keep_from <= p.stem < today:
-            for i in load_json(p, {"items": []})["items"]:
+            day = load_json(p, {"items": [], "skipped": []})
+            for i in day["items"] + day.get("skipped", []):
                 keys.add(item_key(i["title"], i["source"], i.get("source_url", "")))
                 titles[title_sig(i["title"])] = None
     return keys, list(titles)
@@ -367,6 +378,30 @@ def cluster(items: list[dict], threshold: float, priority_sources: list[str]) ->
 
 def is_report(item: dict, terms: list[str]) -> bool:
     return any(has_term(item["title"], t) for t in terms)
+
+
+# ---------------------------------------------------------------- 저장 상한
+
+def cap_stored_items(items: list[dict], settings: dict) -> tuple[list[dict], list[dict]]:
+    """리포트는 상한 없이 모두 남기고, 나머지는 키워드·국내/해외별로 cluster() 상위
+    max_per_keyword 묶음(관련 보도 포함)만 저장한다 — 화면(render_body)에 실제로 보이는
+    분량과 저장량을 맞춰 파일을 가볍게 유지한다. → (남길 항목, 상한을 넘겨 걸러낸 항목)"""
+    reports = [i for i in items if is_report(i, settings["report_terms"])]
+    report_keys = {i["key"] for i in reports}
+    rest = [i for i in items if i["key"] not in report_keys]
+    kept = list(reports)
+    skipped: list[dict] = []
+    for name in {i["keyword"] for i in rest}:
+        for lang in ("ko", "en"):
+            group = [i for i in rest if i["keyword"] == name and i["lang"] == lang]
+            if not group:
+                continue
+            clusters = cluster(group, settings["similarity"], settings["priority_sources"])
+            for members in clusters[: settings["max_per_keyword"]]:
+                kept += members
+            for members in clusters[settings["max_per_keyword"]:]:
+                skipped += members
+    return kept, skipped
 
 
 # ---------------------------------------------------------------- 렌더링
@@ -550,16 +585,26 @@ def run(site_root: Path, page_dir: str, config: Path, now: datetime, dry_run: bo
     keep_from = (now - timedelta(days=settings["seen_days"])).strftime("%Y-%m-%d")
     seen_keys, seen_titles = load_seen(daily_dir, today, keep_from)
     seen_exact = {t[0] for t in seen_titles}
-    day = load_json(daily_dir / f"{today}.json", {"date": today, "items": []})
-    for i in day["items"]:      # 예전 형식으로 저장된 항목도 지금 기준의 키로
+    day = load_json(daily_dir / f"{today}.json", {"date": today, "items": [], "skipped": []})
+    for i in day["items"] + day.get("skipped", []):      # 예전 형식으로 저장된 항목도 지금 기준의 키로
         i["key"] = item_key(i["title"], i["source"], i.get("source_url", ""))
-    day_keys = {i["key"] for i in day["items"]}
-    new = [i for i in fetched if i["key"] not in day_keys and not is_seen(i, seen_keys, seen_titles, seen_exact)]
+    before_item_keys = {i["key"] for i in day["items"]}
+    before_skipped_keys = {i["key"] for i in day.get("skipped", [])}
+    new = [i for i in fetched if i["key"] not in before_item_keys and i["key"] not in before_skipped_keys
+           and not is_seen(i, seen_keys, seen_titles, seen_exact)]
     new = drop_same_outlet_dupes(new, day["items"])
     day["items"] += new
+    day["items"], overflow = cap_stored_items(day["items"], settings)   # 상한 재적용(새 기사가 기존 묶음을 밀어낼 수 있음)
+    day["skipped"] = day.get("skipped", []) + [i for i in overflow if i["key"] not in before_skipped_keys]
     day["generated_at"] = now.isoformat(timespec="seconds")
 
-    summary = (f"{today} 신규 {len(new)}건 [{via_counts(new)}] (당일 누계 {len(day['items'])}건)"
+    after_item_keys = {i["key"] for i in day["items"]}
+    after_skipped_keys = {i["key"] for i in day["skipped"]}
+    added = len(after_item_keys - before_item_keys)
+    changed = after_item_keys != before_item_keys or after_skipped_keys != before_skipped_keys
+
+    summary = (f"{today} 신규 {len(new)}건 발견 · 저장 {added}건 [{via_counts(new)}] (당일 누계 {len(day['items'])}건"
+               + (f", 상한 초과 {len(overflow)}건 제외" if overflow else "") + ")"
                + ("" if naver_headers else ", 네이버 키 없음") + (f", 실패 {len(errors)}건" if errors else ""))
     print(summary)
     for e in errors:
@@ -588,8 +633,8 @@ def run(site_root: Path, page_dir: str, config: Path, now: datetime, dry_run: bo
                      naver_on=bool(naver_headers)), encoding="utf-8")
 
     set_output("status", "ok")
-    set_output("changed", "true" if new else "false")
-    set_output("count", str(len(new)))
+    set_output("changed", "true" if changed else "false")
+    set_output("count", str(added))
     set_output("summary", summary)
     return 0
 

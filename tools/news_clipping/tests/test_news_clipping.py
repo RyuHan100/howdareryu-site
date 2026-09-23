@@ -235,6 +235,59 @@ def test_truncated_naver_title_merges_with_google_and_stays_deduped_next_day(tmp
     assert not (tmp_path / "content/news/data/daily/2026-09-21.json").exists()
 
 
+def test_cap_stored_items_keeps_top_clusters_and_all_reports():
+    items = [
+        {"key": f"k{i}", "title": f"토픽{i} 관련 기사", "source": "S", "keyword": "kw", "lang": "ko",
+         "published": (NOW - timedelta(hours=i)).isoformat()}
+        for i in range(5)
+    ]
+    report = {"key": "r1", "title": "탄소시장 전망 보고서 발간", "source": "S", "keyword": "kw", "lang": "ko",
+              "published": NOW.isoformat()}
+    settings = {**nc.DEFAULT_SETTINGS, "max_per_keyword": 2, "similarity": 0.99}
+
+    kept, skipped = nc.cap_stored_items(items + [report], settings)
+
+    assert report in kept                                 # 리포트는 상한 없이 유지
+    assert [i["key"] for i in kept if i["key"] != "r1"] == ["k0", "k1"]   # 최신순 상위 2개만
+    assert [i["key"] for i in skipped] == ["k2", "k3", "k4"]
+
+
+def test_run_caps_stored_items_and_skipped_stay_hidden(tmp_path):
+    cfg = write_config(tmp_path, ["탄소시장"], max_per_keyword=2, similarity=0.99)
+    entries = [(f"토픽{i} 관련 기사", f"매체{i}", i) for i in range(5)]   # 서로 안 겹치는 제목 5개
+    feeds = {("탄소시장", "ko"): rss(*entries)}
+    assert nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds)) == 0
+
+    root = tmp_path / "content/news"
+    day = json.loads((root / "data/daily/2026-09-20.json").read_text())
+    assert len(day["items"]) == 2                          # 상한(2)만큼만 저장
+    assert len(day["skipped"]) == 3                         # 나머지는 skipped 로 남음
+
+    page = (root / "2026/2026-09-20.md").read_text()
+    assert sum(1 for l in page.splitlines() if l.startswith("- [")) == 2   # 화면 노출도 상한만큼
+
+    # 같은 날 재실행(멱등): 이미 skipped 된 기사는 다시 집지 않고, 상태도 그대로
+    nc.run(tmp_path, "content/news", cfg, NOW + timedelta(hours=1), fetcher=fake_fetcher(feeds))
+    day2 = json.loads((root / "data/daily/2026-09-20.json").read_text())
+    assert len(day2["items"]) == 2 and len(day2["skipped"]) == 3
+
+    # 다음 날: skipped 로 걸러졌던 기사도 '새 기사'로 다시 올라오지 않는다
+    nc.run(tmp_path, "content/news", cfg, NOW + timedelta(days=1), fetcher=fake_fetcher(feeds))
+    assert not (root / "data/daily/2026-09-21.json").exists()
+
+
+def test_must_groups_require_one_term_from_each_group(tmp_path):
+    cfg = write_config(tmp_path, [{"name": "에너지전환", "ko": "에너지", "must": [["에너지", "재생"], ["전환", "transition"]]}])
+    feeds = {("에너지", "ko"): rss(
+        ("에너지 안보의 답은 자립", "A", 1),          # '에너지'는 있지만 '전환'류는 없음 → 제외
+        ("에너지 대전환 시대 개막", "B", 1),           # 두 그룹 다 충족 → 포함
+        ("재생에너지 전환 가속", "C", 1),              # 두 그룹 다 충족 → 포함
+    )}
+    nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds))
+    day = json.loads((tmp_path / "content/news/data/daily/2026-09-20.json").read_text())
+    assert {i["title"] for i in day["items"]} == {"에너지 대전환 시대 개막", "재생에너지 전환 가속"}
+
+
 def test_must_in_text_checks_naver_description_too(tmp_path):
     cfg = write_config(tmp_path, [{"name": "ETS", "naver": ["배출권거래제"], "must": ["배출권"], "must_in": "text"}])
     feeds = {("배출권거래제", "naver"): naver(("기후 법안이 밀려온다", "https://a.example/1", 2, "배출권거래제 개편안이 핵심"),
