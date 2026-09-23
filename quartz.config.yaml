@@ -89,6 +89,40 @@ plugins:
     options:
       markdownLinkResolution: shortest
     order: 60
+  # 다국어: 번역본은 원본 옆에 "노트.en.md" 로 둔다(파일 이름 접미사 방식).
+  # languages 는 quartz/garden/collect.ts 도 읽는다(번역본을 정원 데이터에서 빼는 데).
+  - source: github:boxi-os/quartz-multilanguage
+    enabled: true
+    options:
+      languages:
+        - code: ko
+          label: Korean
+          native: 한국어
+          locale: ko-KR
+        - code: en
+          label: English
+          native: English
+          locale: en-US
+      defaultLanguage: ko
+      detection:
+        - suffix
+      linking:
+        - path
+      rewriteCrossLanguageLinks: true
+      rootRedirect: none
+      rememberChoice: true
+      seo:
+        hreflang: true
+        ogLocale: true
+      switcher:
+        style: links
+        label: native
+        showCurrent: false
+        missing: disabled
+    order: 65
+    layout:
+      position: beforeBody
+      priority: 12
   - source: github:quartz-community/description
     enabled: true
     order: 70
@@ -184,6 +218,10 @@ plugins:
           }
         }
       # === garden.yaml 자동 생성 끝 ===
+      # 오솔길에는 한국어 원본만 보인다. 영문본(노트.en.md, quartz-multilanguage)은 제목 아래
+      # 언어 스위처로만 오간다. "tags" 제외는 explorer 플러그인의 기본 필터를 그대로 옮긴 것.
+      filterFn: |-
+        (node) => node.slugSegment !== "tags" && !/\.en$/.test(node.slugSegment)
       # 최상단 순서는 사용자가 지정한 고정 목록(TOP_ORDER, 2026-09-23)을 먼저 따른다 —
       # scribbled notes → radar → climate histography → 아빠의 화단 → basement → 터미널
       # 명령어 노트. 목록에 없는 항목(archive 등)은 그 뒤에 기존 규칙대로 붙는다.
@@ -396,7 +434,8 @@ plugins:
         - description
         - tags
         - aliases
-      excludedProperties: []
+      excludedProperties:
+        - translate
       hidePropertiesView: false
       delimiters: ---
       language: yaml
