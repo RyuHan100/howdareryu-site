@@ -218,7 +218,7 @@ def render_markdown(records: list[dict], state: dict, changelog: list[dict], met
 
     L: list[str] = []
     L.append("---")
-    L.append("title: PACM_radar")
+    L.append("title: PACM")
     L.append(f"description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 {highlight_days}일 변경 하이라이트.")
     L.append("tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]")
     L.append(f"date: {today.isoformat()}")
