@@ -5,7 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: google
+    tagId: G-1KH1VVQ7SJ
   locale: ko-KR
   baseUrl: howdareryu.com
   ignorePatterns:
