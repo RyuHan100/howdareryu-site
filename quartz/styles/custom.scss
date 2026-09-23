@@ -88,6 +88,21 @@ article {
     letter-spacing: normal;
   }
 
+  // 양쪽 맞춤 — td(Properties 표 칸)는 제외한다: 표 값은 대부분 한 줄짜리
+  // 짧은 문구(날짜·품종 등)라 justify 가 아무 효과도 없거나, 드물게 두 줄이
+  // 되면 어색하게 벌어져 보일 뿐이라 굳이 걸 이유가 없다.
+  p,
+  li,
+  blockquote {
+    text-align: justify;
+    text-align-last: left; // 마지막 줄이 억지로 안 늘어나게
+    // 한글은 띄어쓰기(어절 경계)가 영어보다 적어서 기본 inter-word 방식은
+    // 좁은 화면에서 한두 군데 공백만 크게 벌어져 보인다 — 글자 사이사이로
+    // 여백을 고르게 나누는 inter-character 로 CJK 균등 양쪽 맞춤(신문·워드
+    // 프로세서의 동아시아 조판 방식)을 흉내낸다.
+    text-justify: inter-character;
+  }
+
   h1,
   h2,
   h3 {
