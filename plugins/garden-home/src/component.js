@@ -268,7 +268,7 @@ function timelineFullSection() {
           "1824년부터 지금까지 기후 관련 사건을 월 단위로 배치한 가로 타임라인입니다. 위 카테고리 버튼으로 필터링할 수 있고, 타임라인 영역만 가로로 스크롤됩니다.",
       }),
       h("div", { dangerouslySetInnerHTML: { __html: html } }),
-      h("a", { class: "garden-home-timeline-link", href: "/timeline/", children: "전체 화면으로 보기 →" }),
+      h("a", { class: "garden-home-timeline-link", href: "./timeline", children: "전체 화면으로 보기 →" }),
     ],
   })
 }
