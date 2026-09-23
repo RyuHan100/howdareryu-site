@@ -257,25 +257,16 @@
       "category": "ryu",
       "description": "예시 항목입니다 — 실제 내용으로 교체해 주세요."
     },
-    {
-      "id": "ryu-placeholder-3",
-      "date": "2025-09",
-      "title": "[예시] 세 번째 활동",
-      "category": "ryu",
-      "image": "/static/images/timeline/2026_nepal.jpeg",
-      "imageAlt": "2026년 네팔 대홍수 사진",
-      "description": "기후변화로 인해 히말라야의 빙하와 영구동토가 녹아내리며 네팔에서 대홍수가 발생했다. 네팔은 온실가스 배출 책임이 큰 미국, 중국, 인도를 거론했고 '손실과 피해' 기금에 대한 국제적 관심이 높아지고 있다.",
-      "links": [{ "title": "2026년 네팔 대홍수", "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EB%84%A4%ED%8C%94_%ED%99%8D%EC%88%98" }]
-    },
         {
       "id": "disaster-2026-nepal-flood",
       "date": "2026-08-26",
       "title": "2026년 네팔 대홍수",
       "category": "disaster",
-      "image": "/static/images/timeline/ryu-placeholder-3.svg",
-      "imageAlt": "테스트용 자리표시 이미지",
-      "description": "예시 항목입니다 — 실제 내용으로 교체해 주세요. 이 항목은 상세 카드에 사진·설명·링크가 모두 제대로 나오는지 확인하기 위한 테스트용입니다.",
-      "links": [{ "title": "howdareryu.com", "url": "https://howdareryu.com/" }]
+      "image": "/static/images/timeline/2026_nepal.jpeg",
+      "imageAlt": "2026년 네팔 대홍수 사진",
+      "description": "기후변화로 인해 히말라야의 빙하와 영구동토가 녹아내리며 네팔에서 대홍수가 발생했다. 네팔은 온실가스 배출 책임이 큰 미국, 중국, 인도를 거론했고 '손실과 피해' 기금에 대한 국제적 관심이 높아지고 있다.",
+      "links": [{ "title": "2026년 네팔 대홍수", "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EB%84%A4%ED%8C%94_%ED%99%8D%EC%88%98" }]
     }
+    
   ]
 }
