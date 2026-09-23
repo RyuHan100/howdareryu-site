@@ -60,6 +60,9 @@ export default (() => {
           </>
         )}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+        {/* 본문 타이포그래피용 MaruBuri 웹폰트(custom.scss의 @font-face) — 네이버가 배포하는
+            공개 한글 폰트 CDN, otterletter.com 도 같은 방식으로 직접 호스팅한다. */}
+        <link rel="preconnect" href="https://hangeul.pstatic.net" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>

@@ -25,6 +25,102 @@ strong, b {
   font-weight: 700;
 }
 
+// ============================================================================
+// 본문 타이포그래피 — otterletter.com 분석 기반 업그레이드 (2026-09-23)
+// MaruBuri(네이버 한글박물관 배포 웹폰트, hangeul.pstatic.net 자체 호스팅)를
+// 본문/제목에 적용. 크기·줄간격·자간은 오터레터 실측값(본문 16px/26px, 제목 자간
+// -0.5px)을 따르되, 제목 크기 체계는 이 정원의 기존 스케일을 그대로 둔다 — 오터레터는
+// 매거진형 단일 글이라 제목이 크지만, 이 사이트는 노트마다 소제목이 잦은 위키라 그대로
+// 키우면 과해 보인다(판단 근거, §CLAUDE.md 없음 — 이 커밋의 판단).
+// 코드 블록(pre/code)은 손대지 않는다 — base.scss가 그 요소들에 font-family를 직접
+// 지정해 두어서 article 상속만으로는 안 건드려진다.
+// 함정(빌드 후 헤드리스 크롬으로 실제 확인해서 찾음): hackthebox 테마(obsidian-theme 레이어)가
+// `html body p`/`html strong`/`html em`처럼 p·strong·em·b·i·del 각각에 font-family 를
+// *직접* 지정해 둔다 — 이건 article 에 font-family 를 상속만 시켜서는 안 이긴다(상속은 그
+// 요소 자신에게 지정된 규칙보다 항상 밀린다, custom.scss 가 레이어 밖이라도 마찬가지).
+// 그래서 아래는 p/li/td/blockquote/a/strong/em 등 실제 요소마다 font-family 를 직접 준다.
+// 색은 하드코딩하지 않고 기존 var(--darkgray) 등 테마 변수를 그대로 쓴다.
+@font-face {
+  font-family: "MaruBuri";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MaruBuri";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MaruBuri";
+  src: url("https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+$maruBuriStack: "MaruBuri", -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+
+article {
+  font-family: $maruBuriStack; // 위 요소들에 해당 안 되는 나머지(span 등)를 위한 기본값
+
+  p,
+  li,
+  td,
+  blockquote,
+  a,
+  strong,
+  b,
+  em,
+  i,
+  del {
+    font-family: $maruBuriStack;
+  }
+
+  p,
+  li,
+  td {
+    font-size: 1rem; // 16px, 오터레터 본문과 동일
+    line-height: 1.625; // 26px, 오터레터 본문과 동일
+    letter-spacing: normal;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: $maruBuriStack;
+    letter-spacing: -0.5px; // 오터레터 제목 자간
+  }
+
+  // 사이트 내부 위키링크(.internal, 배경 필로 구분)는 그대로 두고
+  // 본문 속 일반 링크만 오터레터처럼 밑줄 + 보통 굵기로. 색은 오터레터의 검정 대신
+  // 이 정원이 이미 내부 링크에 쓰는 강조색(--secondary/--tertiary)을 그대로 맞춘다 —
+  // hackthebox 테마가 외부 링크에 자체 파란색(--link-external-color)을 따로 박아 둬서
+  // 기존 링크 색 체계와 어긋나 있었다(이번에 발견, 손대는 김에 통일).
+  a:not(.internal) {
+    font-weight: $normalWeight;
+    color: var(--secondary);
+    // 함정: hackthebox 테마가 `& a.external-link{text-decoration:none}`를 @layer 밖에
+    // (custom.scss와 같은 "레이어 없음" 취급) 자간 계산 없이 박아 둬서, 레이어 우선순위로는
+    // 못 이긴다 — 헤드리스 크롬 CSS.getMatchedStylesForNode로 확인. 이 한 줄만 !important.
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+
+    &:hover {
+      color: var(--tertiary);
+    }
+  }
+}
+
+.article-title {
+  font-family: $maruBuriStack;
+  line-height: 1.25; // 40px / 32px, 오터레터 h1과 동일 비율
+  letter-spacing: -0.5px;
+}
+
 // 언어 스위처(quartz-multilanguage) — 제목 아래 '듣기' 버튼 옆에 같은 모양으로 둔다.
 // 값은 quartz/static/tts/tts-site.js 의 .ryu-tts-inline 규칙을 그대로 옮겼다. 저쪽을 바꾸면 여기도 같이.
 .popover-hint > .ryu-tts-inline,
