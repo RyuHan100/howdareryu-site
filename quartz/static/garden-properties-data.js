@@ -21,6 +21,10 @@ window.__GARDEN_PROPERTIES__ = {
     "updated",
     "last-modified"
   ],
+  "scribbledDropKeys": [
+    "aliases",
+    "publish"
+  ],
   "notes": {
     "scribbled-notes/2026-08-04-오빠가-냉장고를-사줬다": {
       "식물": "🌱 풀",

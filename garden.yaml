@@ -60,6 +60,10 @@ explorer:
 #                      칸이다 — plant: 식물 판정(이모지+종류, 시들었으면 종류 앞에 "시든"),
 #                      roots: 백링크(이 노트를 링크한 다른 노트) 수, seeds: 아직 없는 노트로
 #                      가는 링크 수.
+#   scribbled_drop   : scribbled notes 표에서만 통째로 숨기는 frontmatter 키 목록(값은
+#                      그대로 두고 표시만 안 함). 어떤 노트가 scribbled notes 인지는
+#                      scribbled_extra 와 같은 판정(.garden-cache/garden-data.json)을 그대로
+#                      써서 고른다 — 다른 폴더(radar 등)의 같은 이름 키에는 영향 없음.
 properties:
   table_title: 식물 이름표
   labels:
@@ -77,6 +81,9 @@ properties:
     plant: 식물
     roots: 뿌리
     seeds: 씨앗
+  scribbled_drop:
+    - aliases
+    - publish
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 아래는 홈 컴포넌트(정원·radar·아빠의 화단)가 쓸 데이터 설정.

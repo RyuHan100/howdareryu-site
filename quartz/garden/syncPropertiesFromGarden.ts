@@ -32,6 +32,7 @@ interface GardenPropertiesConfig {
   labels?: Record<string, string>
   radar_overrides?: Record<string, string>
   scribbled_extra?: { plant?: string; roots?: string; seeds?: string }
+  scribbled_drop?: string[]
 }
 
 interface GardenExplorerConfig {
@@ -100,6 +101,7 @@ export function syncPropertiesConfigFromGarden(): void {
     radarFolder: garden.radar?.folder ?? "radar",
     radarLabelOverrides: propsCfg.radar_overrides ?? {},
     dropKeys: DROP_KEYS,
+    scribbledDropKeys: propsCfg.scribbled_drop ?? ["aliases", "publish"],
     notes: buildScribbledExtras(extraLabels, garden.explorer?.plants ?? {}),
   }
 

@@ -23,10 +23,18 @@
       labels = Object.assign({}, labels, cfg.radarLabelOverrides)
     }
 
+    var extra = cfg.notes && cfg.notes[slug]
+    var isScribbled = !!extra
+
     var dropKeys = {}
     ;(cfg.dropKeys || []).forEach(function (k) {
       dropKeys[k] = true
     })
+    if (isScribbled) {
+      ;(cfg.scribbledDropKeys || []).forEach(function (k) {
+        dropKeys[k] = true
+      })
+    }
 
     var removed = 0
     var rows = box.querySelectorAll(".note-properties-row")
@@ -42,7 +50,6 @@
       if (labels[rawKey]) keyEl.textContent = labels[rawKey]
     })
 
-    var extra = cfg.notes && cfg.notes[slug]
     var added = 0
     if (extra) {
       var tbody = box.querySelector(".note-properties-table tbody")
