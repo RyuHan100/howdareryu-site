@@ -524,7 +524,10 @@ export function collectGardenData(now = new Date()): GardenDataSummary {
       return {
         file: rel,
         src: "/" + slugifyFilePath(rel as FilePath),
-        thumb: `/img/thumbs/${stem(rel)}.webp`,
+        // 파일 이름 그대로(확장자 포함) + .webp — gen_gallery.py 와 맞춤. stem 만 쓰면
+        // 이름은 같고 확장자만 다른 두 그림(20260727.jpg 와 20260727.png)이 같은 썸네일을
+        // 놓고 다툰다(둘 중 하나가 나중에 실려서 덮어씀).
+        thumb: `/img/thumbs/${name}.webp`,
         width: d?.width ?? null,
         height: d?.height ?? null,
         added,

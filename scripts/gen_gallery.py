@@ -32,7 +32,9 @@ IMAGE_EXT = {".jpg", ".jpeg", ".png", ".gif", ".webp", ".avif"}
 def make_thumb(src: Path) -> tuple[int, int] | None:
     """썸네일을 만들고 원본 (width, height) 를 반환. 실패하면 None."""
     THUMB_DIR.mkdir(parents=True, exist_ok=True)
-    dst = THUMB_DIR / (src.stem + ".webp")
+    # src.stem 이 아니라 src.name(확장자 포함) — 같은 이름에 확장자만 다른 파일이 나중에
+    # 생겨도(예: 20260727.jpg 와 20260727.png) 썸네일이 서로 덮어쓰지 않는다.
+    dst = THUMB_DIR / (src.name + ".webp")
 
     try:
         with Image.open(src) as im:
@@ -40,7 +42,15 @@ def make_thumb(src: Path) -> tuple[int, int] | None:
             size = im.size                        # thumbnail() 이 제자리에서 줄이기 전에 저장
             if not (dst.exists() and dst.stat().st_mtime >= src.stat().st_mtime):
                 im.thumbnail((THUMB_MAX, THUMB_MAX))
-                im.convert("RGB").save(dst, "WEBP", quality=THUMB_QUALITY, method=6)
+                # 투명 배경(PNG 등)을 그냥 RGB로 바꾸면 배경이 검게 나온다 — 흰 배경에
+                # 합성해서 그림처럼 보이게 한다. 투명도가 없는 그림(대부분의 사진)은 그대로.
+                if im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info):
+                    bg = Image.new("RGB", im.size, (255, 255, 255))
+                    bg.paste(im, mask=im.convert("RGBA").split()[-1])
+                    im = bg
+                else:
+                    im = im.convert("RGB")
+                im.save(dst, "WEBP", quality=THUMB_QUALITY, method=6)
                 print(f"  thumb: {dst.name}")
     except Exception as e:
         print(f"  ! 썸네일 실패 ({src.name}): {e}")

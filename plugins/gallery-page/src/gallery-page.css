@@ -1,6 +1,24 @@
 /* 색은 전부 테마 CSS 변수를 쓴다(하드코딩 금지 — CLAUDE.md §9). --lightgray 는 이 다크 테마에서
    배경과 거의 같은 색이라 선·테두리에 쓰지 않는다(§4 함정 2, garden-home 에서 발견). */
 
+.gallery-page-note {
+  color: var(--gray);
+  font-style: italic;
+}
+
+/* 화면에는 안 보이고 스크린리더에만 읽히는 설명. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .gallery-page {
   margin-top: 1rem;
 }

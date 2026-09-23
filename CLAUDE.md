@@ -98,7 +98,9 @@ frontmatter `title: Ryu's Garden`, `description`, `created`, `updated`, `tags: [
 - `garden.yaml`의 `explorer:` 키에 `title`, `folder_icon`(매핑에 없는 폴더의 기본 아이콘),
   `folders`(폴더 자기 이름 → 아이콘), `items`(노트가 속한 최상위 조상 폴더/파일 이름 → 아이콘,
   깊이 무관), `plants`(scribbled notes 노트 앞 식물 이모지, 아래 참고) 5개로 관리. 지금 값:
-  title `오솔길`, folder_icon `🪴`, folders `{radar: 📡}`, items `{radar: 📍, archive: 🔒}`,
+  title `오솔길`, folder_icon `🪴`, folders `{radar: 📡}`, items `{radar: 📍, archive: 🔒,
+  timeline: 🕰️, gallery: 🌼}`(`gallery`=`content/gallery.md`="아빠의 화단", 2026-09-23 추가 —
+  frontmatter title 은 그대로 두고 오솔길 표시에만 붙인다, 기존 archive 방식과 같음),
   plants `{grass: 🌱, flower: 🌼, vine: 🌿, tree: 🌳, wilted: 🍂}`.
 - `quartz.ts`가 `loadQuartzConfig()`를 부르기 **전에** `syncExplorerConfigFromGarden()`을 호출해서
   `garden.yaml`을 읽고, `quartz.config.yaml`의 explorer `options` 안 마커
@@ -409,6 +411,17 @@ frontmatter 는 절대 안 바꾼다(→ 다른 기능·git 기록·created-modi
       규칙이 `obsidian-theme` 레이어의 규칙을 이길 수 없다). `<figcaption>`을 안 쓰는 항목이라
       그냥 `<div>`로 바꿔서 피했다 — **앞으로도 `<figure>` 에 테두리·배경 같은 시각 스타일을
       입혀야 하면 이 사이트 테마 탓에 안 먹을 수 있다는 걸 기억할 것.**
+    - **앞으로 그림을 더 추가해도 문제없는지 점검(2026-09-23)** — `scripts/gen_gallery.py`
+      에서 두 가지를 미리 손봤다: (1) 썸네일 파일명이 `src.stem`(확장자 뺀 이름)이었어서, 이름은
+      같고 확장자만 다른 두 그림(`20260727.jpg`와 `20260727.png`)이 생기면 썸네일을 서로
+      덮어쓸 뻔했다 — `src.name`(확장자 포함) + `.webp`로 바꿔서 안 겹치게 했다(`collect.ts`의
+      `thumb:` 경로도 같이 맞춤, `.garden-cache`처럼 매 빌드 새로 만드는 값이라 기존 배포
+      URL 이 깨질 일은 없다). (2) 투명 배경이 있는 그림(PNG 등)을 그냥 RGB 로 바꾸면 투명한
+      자리가 검게 나왔다 — 흰 배경에 합성한 뒤 RGB 로 바꾸도록 고쳤다. 투명 PNG + 이름이 같고
+      확장자만 다른 그림 2장을 실제로 만들어서 로컬에서 검증(썸네일이 안 겹치고, 투명한 자리가
+      흰색으로 나옴)한 뒤 지웠다. **여전히 처리 안 되는 것**: 동영상(예전엔 `<video>` 로 넣어
+      줬는데 이번 재작성으로 빠졌다 — `IMAGE_EXT`에 없는 파일은 조용히 아무 데도 안 나온다,
+      아버지가 사진이 아니라 동영상을 보내면 다시 넣어야 함).
     - **검증(2026-09-23)**: 실제 101장으로 헤드리스 크롬 CDP 로 확인 — 슬라이드쇼(자동 전환,
       그림 클릭/버튼 일시정지, 좌우 넘기기 래핑, 꽃봉오리 클릭 이동, 화면 밖 정지 전부 동작),
       전체 페이지(101개 항목, 라이트박스가 항상 `/img/inspiration/...`(원본)을 씀, 좌우/
@@ -568,6 +581,105 @@ radar 의 하위 폴더는 기본적으로 "노트 하나 = 점 하나"(§8.1)�
       (사용자 지시, 2026-09-23). **홈 5구역(①~⑤) 전부 완성.**
 - [ ] **5. 확인·배포** — 다음 작업분도 `npx quartz build`로 로컬 확인 → 이전 배포본과 `public/`
       비교(§8 방식) → diff 검토(비밀값 없는지) → 사용자 확인 후 `v5`에 push → Actions 배포 확인.
+
+## 11. garden.yaml 전체 참고 (2026-09-23)
+
+`garden.yaml` 자체에도 각 항목 위에 같은 설명이 주석으로 있다 — 여기는 한눈에 보는 색인.
+전부 없어도(파일 자체가 없어도) `quartz/garden/config.ts` 의 `DEFAULT_GARDEN_CONFIG` 로 동작한다
+(객체는 깊이 합치고 배열은 통째로 바꾼다, §8.1). 어디서 읽는지도 같이 적는다.
+
+| 키 | 뜻 | 기본값 | 읽는 곳 |
+|---|---|---|---|
+| `explorer.title` | 오솔길(탐색기) 제목 | `"탐색기"` | `syncExplorerFromGarden.ts` → `quartz.config.yaml` |
+| `explorer.folder_icon` | 매핑에 없는 폴더의 기본 아이콘 | (없음) | 〃 |
+| `explorer.folders.<이름>` | 그 이름의 폴더(+하위 전부)에 붙는 아이콘 | `{}` | 〃 |
+| `explorer.items.<이름>` | 그 최상위 폴더/파일 아래 노트 제목에 붙는 아이콘 | `{}` | 〃 |
+| `explorer.plants.<종류\|wilted>` | scribbled notes 노트 앞 식물 이모지(§5) — **판정은 `.garden-cache/garden-data.json` 그대로 사용, 여기서 다시 안 함** | `{}` | 〃 |
+| `properties.table_title` | 노트 상단 Properties 표 제목(§7) | `"Properties"` | `syncPropertiesFromGarden.ts` → `garden-properties-data.js` |
+| `properties.labels.<frontmatter 키>` | 그 키의 표시 이름(모든 노트 공통) | `{}` | 〃 |
+| `properties.radar_overrides.<키>` | radar 노트에서만 `labels` 를 덮어씀 | `{}` | 〃 |
+| `properties.scribbled_extra.{plant,roots,seeds}` | scribbled notes 전용 3칸의 표시 이름 | `식물`/`뿌리`/`씨앗` | 〃 |
+| `home.garden` / `home.radar` / `home.gallery` | 홈 ②③④ 구역 켜고 끄기(⑤는 항상 나옴, §8) | 전부 `false` | `syncGardenHomeFromGarden.ts` → `garden-home` 플러그인 options |
+| `exclude_folders` | 이 이름의 폴더는 어디 있든 정원 데이터에서 제외 | `[img, data]` | `collect.ts` (전체) |
+| `garden.folder` | 정원(식물)으로 자랄 노트가 있는 폴더(content/ 기준, index.md 는 뺀다) | `"scribbled notes"` | `collect.ts` |
+| `plants.frontmatter_key` | frontmatter 에서 식물 종류를 직접 지정하는 키 | `"plant"` | `collect.ts`(`decidePlant`) |
+| `plants.kinds.<grass\|flower\|vine\|tree>` | 종류 코드 → 한글 이름(정원 그림 범례·씨앗/캡션 등에도 씀) | `{grass:풀, flower:꽃, vine:덩굴, tree:나무}` | `collect.ts`, `garden-svg.js`, `gallery-svg.js`(뿌리/식물 칸) |
+| `plants.question_endings` | 제목이 이 목록 중 하나로 끝나면 "질문형" | `["?","？","왜","어떻게"]` | `collect.ts`(`isQuestionTitle`) |
+| `plants.rules[].{plant, any[]}` | 위에서부터 순서대로 검사, 처음 맞는 규칙의 식물이 됨(frontmatter `plant` 값이 있으면 규칙보다 우선) | 3개 규칙(vine/tree/flower) | `collect.ts`(`decidePlant`) |
+| `plants.default` | 어떤 규칙에도 안 맞을 때의 식물 | `"grass"` | 〃 |
+| `plants.wither_after_days` | 마지막 수정 후 이 날수가 지나면 시든 것으로 봄 | `90` | `collect.ts` |
+| `radar.folder` | radar 데이터가 있는 폴더(content/ 기준) | `"radar"` | `collect.ts` |
+| `radar.default.color` | 하위 폴더에 색을 안 정했을 때 쓰는 기본 색(테마 CSS 변수) | `var(--secondary)` | 〃 |
+| `radar.subfolders.<이름>.label` | 그 하위 폴더의 표시 이름(radar 원 구역 이름, §8) | 폴더 이름 그대로 | 〃 |
+| `radar.subfolders.<이름>.color` | 그 하위 폴더의 점·구역 이름 색(테마 CSS 변수) | `radar.default.color` | 〃 |
+| `radar.subfolders.<이름>.granularity` | `"note"`(노트 하나=점 하나, 기본) 또는 `"revision"`(그 노트 옆 `data/changelog.json` 의 이력 하나하나=점 하나, §8.2 — 같은 날 여러 건은 하나로 합침) | `"note"` | 〃 |
+| `gallery.folder` | 아빠의 화단 원본 그림이 있는 폴더(content/ 기준) | `"img/inspiration"` | `collect.ts` |
+| `gallery.artist` | 작가 이름(캡션에 붙음, §8) | `""` | 〃 |
+| `gallery.meta_file` | 그 폴더 안에서 그림별 제목·연도·재료를 읽을 YAML 파일 이름 | `"gallery.yaml"` | 〃 |
+| `gallery.intro` | 홈 "아빠의 화단" 슬라이드쇼 제목 아래 한 줄 소개 | `""` | 〃 → `gallerySection()` |
+| `gallery.home_count` | 홈 슬라이드쇼에 보여줄 최근 그림 수 | `10` | 〃 |
+| `gallery.interval_seconds` | 홈 슬라이드쇼 자동 전환 간격(초) — **radar 의 `SWEEP_DURATION_S`(CSS 애니메이션 시간과 미리 맞춰야 해서 코드에 고정된 상수)와 달리, 이 값은 매번 JS 로 그대로 넘어가므로 CSS 를 안 고쳐도 바로 반영된다** | `4` | 〃 → `gallery-interactive.js` |
+
+**정렬·표시가 "이미 계산돼 들어있는" 값들**(garden.yaml 에 설정이 없다): `garden.notes[]`는 생성일
+오름차순, `radar.notes[]`는 날짜 내림차순, `gallery.images[]`는 연도(있으면) 또는 git 추가일
+내림차순(§8) — 전부 `collect.ts` 가 `.garden-cache/garden-data.json` 에 쓸 때 이미 정렬해 둔다.
+
+## 12. 전체 점검 (2026-09-23, 홈 5구역 완성 직후)
+
+`v5` 최신 배포 커밋 `a9a9e0ec`(홈 5구역 전부 켜진 상태)를 실제 `https://howdareryu.com`과
+헤드리스 크롬으로 점검. 발견한 건 전부 그 자리에서 고침(다음 배포에 포함).
+
+- **다크/라이트 × 모바일/데스크톱**: 4가지 조합 모두 스크린샷 확인. hackthebox 테마가
+  다크 전용이라(§4) 라이트는 다크와 완전히 같다 — 의도된 동작, 버그 아님. 모바일 420px·
+  데스크톱 1400px 둘 다 다섯 구역이 깨지지 않고 순서대로 나옴.
+- **TTS·댓글**: 실제 배포본에서 `scribbled-notes/2026-09-20-ai` 확인 — TTS 스크립트 2개
+  그대로, `hdr-comments` 위젯이 그 노트의 기존 댓글(`id:4, "Test", 2026-09-22`)을 정상적으로
+  불러옴("댓글 1"로 표시). **로컬(`localhost`)에서는 Worker CORS 때문에 "댓글을 불러오지
+  못했습니다"로 보인다 — 로컬 검증 시 착각하지 않도록 기록.** 홈에서는 여전히 TTS·댓글·
+  Properties 전부 숨겨짐(§9 그대로).
+- **오솔길 ↔ 정원 판정 일치**: 실제 배포본에서 정원 그림의 5개 식물(class `gp-kind-*`/
+  `is-wilted`)과 오솔길에 뜨는 이모지를 전부 대조 — 5개 전부 일치(AI 🌼, 토끼풀/노동의 우울과
+  자율성의 훼손/오빠가 냉장고를 사줬다 🌱, 그 목소리는 왜 🌿). §5 에서 설계한 "같은 데이터를
+  쓴다"가 실제로도 어긋나지 않음을 재확인.
+- **스크린리더 설명 — 함정 발견·수정**: 정원/radar/아빠의 화단 SVG 는 `aria-label`이
+  개수만 말했다("이랑 1 — 식물 5개", "radar — 최근 30일 기록 8개") — 이 구역이 **무엇을**
+  보여주는지는 안 읽어 줬다. `garden-home/src/component.js`·`gallery-page/src/component.js`
+  의 각 `<h3>` 바로 뒤에 `.sr-only`(화면엔 안 보이고 스크린리더만 읽는) 문단을 추가해서
+  정원(식물=노트, 종류·시듦의 뜻), radar(구역=폴더, 거리=나이), 슬라이드쇼/전체 그림 페이지
+  (넘기는 방법·크게 보기)를 설명한다. `.sr-only` 유틸리티 클래스를 `garden-home.css`/
+  `gallery-page.css` 양�지에 추가(각자 번들이라 공유 안 됨).
+- **`prefers-reduced-motion`**: 헤드리스 크롬 에뮬레이션으로 다섯 개(정원 흔들림, 정원
+  타임랩스 전환, radar 빛줄기, radar 반짝임, 갤러리 크로스페이드)를 전부 확인 —
+  `getComputedStyle().animationName`이 다섯 다 `"none"`, 전환(transition)도 `opacity`가
+  전혀 안 잡힘(남는 `transition: color 0.2s`는 링크 기본 스타일이라 무관). 정원 타임랩스와
+  갤러리 자동 전환은 **기능 자체는 그대로 동작**함도 같이 확인(디자인대로 — 화면이 갑자기
+  훅 움직이는 게 아니라 콘텐츠가 순간적으로 바뀌는 것뿐이라 모션 최소화 대상이 아니라고 판단,
+  §8 정원/아빠의 화단 항목 참고).
+- **빌드 시간·홈 페이지 용량**: 로컬 클린 빌드(117개 파일) `time npx quartz build` 로
+  **약 37.5초**(CI는 `gen_gallery.py`가 그림 101장을 처리하는 시간이 따로 더 붙는다, §6).
+  홈 페이지(`index.html` + 공유 코어 CSS/JS + 컴포넌트 CSS/JS, 이미지 제외) 총합 **약
+  323KB**(`index.html` 49,165B + `prescript` 1,664B + 코어 CSS 25,289B + `postscript` 900B +
+  컴포넌트 스크립트 185,251B + 컴포넌트 CSS 60,577B) + 슬라이드쇼가 실제로 불러오는 썸네일
+  10장 **약 1.16MB** = 첫 방문 실질 총량 **약 1.5MB**.
+- **사용하지 않는 코드**: Explore 서브에이전트로 `quartz/garden/*.ts`·`plugins/garden-home/
+  src/*`·`plugins/gallery-page/src/*`·`quartz/static/garden-properties*.js`를 훑음 — 죽은
+  함수·CSS 선택자·미사용 import 는 없음(모든 헬퍼가 concatenate 된 번들 안에서 실제로 호출됨,
+  `placeholder()`도 정원/radar/갤러리 각각의 "아직 없음" 상태로 여전히 쓰임). **딱 하나 발견**:
+  `plugins/gallery-page/src/component.js`의 "아직 올린 그림이 없어요" 빈 상태가
+  `garden-home`에만 있는 `.garden-home-note` 클래스를 썼는데 그 CSS는 gallery-page 번들에
+  안 들어간다(서로 다른 플러그인이라 CSS 를 공유 안 함) — 이미지가 101장이라 실제로 이 경로를
+  탈 일은 없었지만, `.gallery-page-note`를 새로 만들어 고쳤다.
+- **찾았지만 정원 작업 범위 밖 — 사용자에게 별도 확인 필요**: `content/pacm/`(제목
+  "PACM_radar")가 `a64a7ad3` 커밋(2026-09-23, pacm-monitor 자동 커밋)으로 새로 생겼다.
+  `.github/workflows/pacm-monitor.yml`은 여전히 `content/radar/pacm`을 대상으로 하는데
+  (`--page`/`--data-dir` 그대로), 실제로는 `content/pacm/`에 새 파일이 생겼다 — `tools/
+  pacm_monitor/pacm_monitor.py` 쪽에서 뭔가 달라진 것으로 보이나, 이 도구는 §6 규칙("다른
+  워크플로는 정원 작업에서 안 건드림")대로 이 세션에서 조사·수정하지 않았다. 부작용 2개:
+  (1) 오솔길에 "PACM_radar"라는 새 최상위 폴더가 생겨 방문자가 볼 수 있다(폴더라 기본 🪴
+  아이콘, 버그는 아니고 그냥 새 콘텐츠). (2) **`content/radar/pacm/`(§8.2 radar PACM 구역이
+  읽는 진짜 경로)가 2026-09-22 자로 멈춰 있어서, 새 위치에 계속 쓰인다면 radar 의 PACM
+  점이 점점 낡은 데이터를 보여주게 된다.** 다음에 pacm_monitor 를 만질 때(또는 사용자가
+  확인해 줄 때) 짚어볼 것.
 
 ## 참고 메모
 

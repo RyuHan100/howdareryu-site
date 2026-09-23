@@ -94,13 +94,17 @@ export const GalleryGrid = () => {
     if (images.length === 0) {
       return h("section", {
         class: [displayClass, "gallery-page"].filter(Boolean).join(" "),
-        children: [h("p", { class: "garden-home-note", children: "아직 올린 그림이 없어요." })],
+        children: [h("p", { class: "gallery-page-note", children: "아직 올린 그림이 없어요." })],
       })
     }
 
     return h("section", {
       class: [displayClass, "gallery-page"].filter(Boolean).join(" "),
       children: [
+        h("p", {
+          class: "sr-only",
+          children: "아버지의 그림을 모두 모은 격자입니다. 그림을 선택하면 원본 크기로 크게 볼 수 있습니다.",
+        }),
         h("div", {
           class: "gg-grid",
           children: images.map((img, i) => gridItem(img, i, artist)),
