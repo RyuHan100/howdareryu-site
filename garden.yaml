@@ -38,6 +38,8 @@ explorer:
   items:
     radar: 📍
     archive: 🔒
+    timeline: 🕰️
+    gallery: 🌼
   plants:
     grass: 🌱
     flower: 🌼

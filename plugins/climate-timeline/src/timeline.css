@@ -1,0 +1,321 @@
+/* 색은 전부 테마 CSS 변수를 쓴다(하드코딩 금지 — CLAUDE.md §9). --lightgray 는 이 다크 테마에서
+   배경과 거의 같은 색이라 선·테두리에 쓰지 않는다(§4 함정 2). ryu 카테고리만 전용 변수
+   --timeline-ryu 를 새로 둔다(기존 --color-purple 은 이미 정원 줄기/덩굴에 쓰이는 중이라,
+   나중에 이 타임라인만 색을 바꾸고 싶을 때 정원 쪽과 얽히지 않도록 분리했다).
+   요구사항: 색상만으로 카테고리를 구분하지 않는다 — 범례 버튼에 항상 이름 텍스트가 같이
+   나오고, 각 점의 aria-label/title(네이티브 툴팁)에도 분류 이름이 같이 들어간다. */
+:root {
+  --timeline-ryu: var(--color-purple, #a882ff);
+}
+
+.climate-timeline {
+  margin-top: 1.5rem;
+  /* PC — 요구사항: 타임라인 영역(특히 축 위/아래)을 훨씬 넉넉하게. */
+  --month-width: 8px;
+  --stack-gap: 100px;
+  --edge-pad: 64px;
+  --dot-size: 7px;
+}
+@media (max-width: 800px) {
+  .climate-timeline {
+    --month-width: 4px;
+    --stack-gap: 70px;
+    --edge-pad: 44px;
+    --dot-size: 6px;
+  }
+}
+
+.climate-timeline-note {
+  color: var(--gray);
+  font-style: italic;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- 카테고리 색(범례 버튼 + 이벤트 점이 같은 규칙을 쓴다) ---------- */
+.tl-filter[data-category="science"],
+.tl-event[data-category="science"] {
+  --cat-color: var(--color-blue, var(--secondary));
+}
+.tl-filter[data-category="international"],
+.tl-event[data-category="international"] {
+  --cat-color: var(--color-cyan, var(--tertiary));
+}
+.tl-filter[data-category="korea"],
+.tl-event[data-category="korea"] {
+  --cat-color: var(--color-green, var(--secondary));
+}
+.tl-filter[data-category="disaster"],
+.tl-event[data-category="disaster"] {
+  --cat-color: var(--color-orange, var(--darkgray));
+}
+.tl-filter[data-category="ryu"],
+.tl-event[data-category="ryu"] {
+  --cat-color: var(--timeline-ryu);
+}
+
+/* ---------- 범례 · 필터 ---------- */
+.tl-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+.tl-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--dark);
+  background: color-mix(in srgb, var(--gray) 14%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--gray) 40%, var(--light));
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+}
+.tl-filter:hover {
+  border-color: var(--gray);
+}
+.tl-filter:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
+.tl-filter[aria-checked="true"] {
+  color: var(--light);
+  background: color-mix(in srgb, var(--cat-color, var(--secondary)) 75%, var(--dark));
+  border-color: color-mix(in srgb, var(--cat-color, var(--secondary)) 75%, var(--dark));
+}
+.tl-legend-swatch {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 999px;
+  background: var(--cat-color, var(--gray));
+  flex: none;
+}
+.tl-legend-all {
+  background: var(--gray);
+}
+.tl-filter[aria-checked="true"] .tl-legend-swatch {
+  background: var(--light);
+}
+
+/* ---------- 가로 스크롤 영역 ----------
+   요구사항: 모바일에서 가로 스크롤이 페이지 전체로 새지 않게, timeline 내부 overflow 와
+   body overflow 를 분리한다. overflow-x:auto 인 이 래퍼 하나만 가로로 넓어지고(.tl-track 이
+   수천 px 폭이어도), overscroll-behavior-x:contain 이 스크롤이 끝에 닿았을 때 상위(body/뒤로
+   가기 제스처)로 새는 것을 막는다. 세로는 clip 하지 않는다(.tl-track 자체 높이가 콘텐츠에
+   맞게 계산되고, 상세 모달은 position:fixed 라 어차피 이 overflow 와 무관하다). */
+.tl-scroll {
+  overflow-x: auto;
+  overflow-y: visible;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.tl-track {
+  position: relative;
+  width: calc(var(--month-width) * var(--total-months));
+  height: calc(var(--stack-gap) * (var(--stack-up) + var(--stack-down)) + var(--edge-pad) * 2);
+  min-width: 100%;
+  /* 축의 세로 위치(위쪽에서부터). 이벤트/연도 눈금이 전부 이 값을 기준으로 배치된다. */
+  --axis-top: calc(var(--stack-gap) * var(--stack-up) + var(--edge-pad));
+}
+
+.tl-axis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: var(--axis-top);
+  height: 2px;
+  background: color-mix(in srgb, var(--gray) 55%, var(--light));
+}
+
+/* ---------- 연도 눈금 — 요구사항: 매년 표시 ---------- */
+.tl-year {
+  position: absolute;
+  left: calc(var(--month-width) * var(--x));
+  top: var(--axis-top);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tl-year-tick {
+  width: 1px;
+  height: 12px;
+  background: color-mix(in srgb, var(--gray) 55%, var(--light));
+}
+.tl-year-label {
+  margin-top: 2px;
+  font-size: 0.72rem;
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+/* ---------- 이벤트 점 ----------
+   축에서 위/아래로 번갈아 쌓는다(timeline-render.js 의 data-dir/--depth). 이벤트 박스는
+   항상 축(--axis-top)에 한쪽 끝이 붙고, 반대쪽으로 stem 길이(--stack-gap * --depth)만큼
+   뻗어나간 끝에 점이 있다 — 그래서 이벤트 자체의 top 은 위/아래 공통으로 축 위치 하나뿐이고
+   방향은 flex-direction 과 transform 만으로 결정된다. */
+.tl-event {
+  position: absolute;
+  left: calc(var(--month-width) * var(--x));
+  top: var(--axis-top);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(-50%, 0);
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  z-index: 1;
+}
+.tl-event[data-dir="up"] {
+  flex-direction: column-reverse;
+  transform: translate(-50%, -100%);
+}
+.tl-event .tl-stem {
+  width: 1px;
+  height: calc(var(--stack-gap) * var(--depth) - var(--dot-size));
+  background: color-mix(in srgb, var(--cat-color, var(--gray)) 45%, var(--light));
+}
+.tl-event .tl-dot {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  border-radius: 999px;
+  background: var(--cat-color, var(--secondary));
+  border: 2px solid var(--light);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--cat-color, var(--secondary)) 70%, transparent);
+  flex: none;
+}
+.tl-event:hover .tl-dot,
+.tl-event:focus-visible .tl-dot {
+  filter: brightness(1.3);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .tl-event .tl-dot {
+    transition: filter 0.12s;
+  }
+}
+.tl-event:focus-visible {
+  outline: none;
+}
+.tl-event:focus-visible .tl-dot {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
+.tl-event[hidden] {
+  display: none;
+}
+
+/* ---------- 상세 모달 ----------
+   요구사항: 창을 키우고, 잘리지 않게. gallery-page 라이트박스와 같은 position:fixed 패턴이라
+   .tl-scroll 의 overflow 와 완전히 무관하다(이전 hover 라벨이 overflow 에 잘리던 문제의
+   근본 해결). 내용이 화면보다 길면 패널 안에서 세로 스크롤(넘치는 걸 숨기지 않고 스크롤로
+   전부 보여준다). PC/모바일 모두 vw/vh 기준이라 별도 미디어쿼리 없이 반응형이다. */
+.tl-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh 4vw;
+}
+.tl-modal[hidden] {
+  display: none;
+}
+.tl-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: color-mix(in srgb, var(--dark) 88%, transparent);
+}
+.tl-modal-panel {
+  position: relative;
+  width: min(760px, 100%);
+  max-height: 100%;
+  overflow-y: auto;
+  background: var(--light);
+  border: 1px solid color-mix(in srgb, var(--gray) 45%, var(--light));
+  border-radius: 0.6rem;
+  box-shadow: 0 12px 48px color-mix(in srgb, var(--dark) 55%, transparent);
+}
+.tl-modal-image {
+  display: block;
+  width: 100%;
+  max-height: 46vh;
+  object-fit: cover;
+  border-radius: 0.6rem 0.6rem 0 0;
+}
+.tl-modal-image[hidden] {
+  display: none;
+}
+.tl-modal-body {
+  padding: 1.5rem 1.75rem 1.75rem;
+}
+.tl-modal-meta {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+.tl-modal-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+.tl-modal-desc {
+  margin: 0 0 1rem;
+  line-height: 1.6;
+  color: var(--dark);
+}
+.tl-modal-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.tl-modal-links:empty {
+  display: none;
+}
+.tl-modal-links a {
+  color: var(--secondary);
+}
+.tl-modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 999px;
+  border: none;
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--light);
+  background: color-mix(in srgb, var(--dark) 55%, transparent);
+  z-index: 1;
+}
+.tl-modal-close:hover {
+  background: color-mix(in srgb, var(--dark) 75%, transparent);
+}
+.tl-modal-close:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}

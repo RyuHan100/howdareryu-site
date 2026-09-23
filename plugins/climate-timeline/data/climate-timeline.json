@@ -1,0 +1,271 @@
+{
+  "categories": [
+    { "key": "science", "label": "기후과학" },
+    { "key": "international", "label": "국제협약" },
+    { "key": "korea", "label": "한국" },
+    { "key": "disaster", "label": "기후재난" },
+    { "key": "ryu", "label": "Ryu" }
+  ],
+  "events": [
+    {
+      "id": "science-1824-fourier",
+      "date": "1824-01",
+      "title": "Fourier, 온실효과 원리 제시",
+      "category": "science",
+      "description": "조제프 푸리에가 지구 대기가 태양열을 가둬 지표를 데운다는 온실효과의 기본 원리를 처음 제시했다.",
+      "links": [{ "title": "Wikipedia — Joseph Fourier", "url": "https://en.wikipedia.org/wiki/Joseph_Fourier" }]
+    },
+    {
+      "id": "science-1856-foote",
+      "date": "1856-08",
+      "title": "Eunice Foote, CO2의 태양열 흡수 실험",
+      "category": "science",
+      "description": "유니스 푸트가 이산화탄소가 다른 기체보다 태양열을 더 많이 흡수한다는 사실을 실험으로 보였다. 이산화탄소와 온난화를 실험으로 연결한 최초의 기록 중 하나다.",
+      "links": [{ "title": "Wikipedia — Eunice Newton Foote", "url": "https://en.wikipedia.org/wiki/Eunice_Newton_Foote" }]
+    },
+    {
+      "id": "science-1896-arrhenius",
+      "date": "1896-04",
+      "title": "Arrhenius, CO2 농도-기온 정량 분석",
+      "category": "science",
+      "description": "스반테 아레니우스가 대기 중 이산화탄소 농도 변화가 지표 기온에 미치는 영향을 처음으로 정량적으로 계산해 발표했다.",
+      "links": [{ "title": "Wikipedia — Svante Arrhenius", "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius" }]
+    },
+    {
+      "id": "science-1958-keeling",
+      "date": "1958-03",
+      "title": "Keeling Curve 관측 시작",
+      "category": "science",
+      "description": "찰스 킬링이 하와이 마우나로아 관측소에서 대기 중 CO2 농도를 연속 측정하기 시작했다. 이후 이어진 관측 기록이 '킬링 곡선'이다.",
+      "links": [{ "title": "Wikipedia — Keeling Curve", "url": "https://en.wikipedia.org/wiki/Keeling_Curve" }]
+    },
+    {
+      "id": "science-1988-ipcc",
+      "date": "1988-11",
+      "title": "IPCC 설립",
+      "category": "science",
+      "description": "세계기상기구(WMO)와 유엔환경계획(UNEP)이 기후변화의 과학적 근거를 평가하기 위해 IPCC(기후변화에 관한 정부간 협의체)를 설립했다.",
+      "links": [{ "title": "IPCC 공식 사이트", "url": "https://www.ipcc.ch/" }]
+    },
+    {
+      "id": "science-2018-sr15",
+      "date": "2018-10",
+      "exactDate": "2018-10-08",
+      "title": "IPCC 1.5도 특별보고서",
+      "category": "science",
+      "description": "인천 송도에서 열린 IPCC 총회에서 지구 평균기온 상승을 1.5도로 억제해야 하는 이유와 경로를 담은 특별보고서가 채택됐다.",
+      "links": [{ "title": "IPCC SR1.5", "url": "https://www.ipcc.ch/sr15/" }]
+    },
+    {
+      "id": "intl-1992-unfccc",
+      "date": "1992-06",
+      "exactDate": "1992-06-04",
+      "title": "UNFCCC 채택",
+      "category": "international",
+      "description": "리우 지구정상회의에서 기후변화 대응을 위한 국제 협력의 기본 틀인 유엔기후변화협약(UNFCCC)이 채택됐다.",
+      "links": [{ "title": "UNFCCC 공식 사이트", "url": "https://unfccc.int/" }]
+    },
+    {
+      "id": "intl-1995-cop1",
+      "date": "1995-03",
+      "exactDate": "1995-03-28",
+      "title": "제1차 당사국총회(COP1)",
+      "category": "international",
+      "description": "독일 베를린에서 UNFCCC의 첫 당사국총회가 열려 이후 매년 이어지는 COP 체제가 시작됐다."
+    },
+    {
+      "id": "intl-1997-kyoto-adopted",
+      "date": "1997-12",
+      "exactDate": "1997-12-11",
+      "title": "교토의정서 채택",
+      "category": "international",
+      "description": "일본 교토에서 선진국의 온실가스 감축 목표를 법적으로 규정한 교토의정서가 채택됐다.",
+      "links": [{ "title": "Wikipedia — Kyoto Protocol", "url": "https://en.wikipedia.org/wiki/Kyoto_Protocol" }]
+    },
+    {
+      "id": "intl-2005-kyoto-enforced",
+      "date": "2005-02",
+      "exactDate": "2005-02-16",
+      "title": "교토의정서 발효",
+      "category": "international",
+      "description": "채택된 지 약 7년 만에 교토의정서가 국제법으로서 효력을 갖기 시작했다."
+    },
+    {
+      "id": "intl-2009-copenhagen",
+      "date": "2009-12",
+      "exactDate": "2009-12-18",
+      "title": "코펜하겐 COP15",
+      "category": "international",
+      "description": "법적 구속력 있는 후속 합의를 목표로 했으나, 정치적 선언인 '코펜하겐 합의(Copenhagen Accord)'에 그쳤다."
+    },
+    {
+      "id": "intl-2015-paris",
+      "date": "2015-12",
+      "exactDate": "2015-12-12",
+      "title": "파리협정 채택",
+      "category": "international",
+      "description": "모든 당사국이 참여하는 보편적 기후체제인 파리협정이 채택됐다. 산업화 이전 대비 기온 상승을 2도, 가능하면 1.5도로 억제하는 것이 목표다.",
+      "links": [{ "title": "Wikipedia — Paris Agreement", "url": "https://en.wikipedia.org/wiki/Paris_Agreement" }]
+    },
+    {
+      "id": "intl-2021-cop26-article6",
+      "date": "2021-11",
+      "exactDate": "2021-11-13",
+      "title": "COP26, 6조(탄소시장) 세부규칙 합의",
+      "category": "international",
+      "description": "글래스고 COP26에서 국가 간 탄소시장 거래를 규정하는 파리협정 6조의 세부 이행규칙이 6년 만에 타결됐다."
+    },
+    {
+      "id": "intl-2023-first-gst",
+      "date": "2023-12",
+      "exactDate": "2023-12-13",
+      "title": "첫 전지구 이행점검(Global Stocktake)",
+      "category": "international",
+      "description": "두바이 COP28에서 파리협정 이행 상황을 처음으로 종합 점검하고, 화석연료로부터의 전환을 언급한 합의문이 채택됐다."
+    },
+    {
+      "id": "korea-1993-unfccc-ratify",
+      "date": "1993-12",
+      "title": "한국, UNFCCC 비준",
+      "category": "korea",
+      "description": "대한민국이 유엔기후변화협약을 비준하며 국제 기후체제에 공식 참여했다."
+    },
+    {
+      "id": "korea-2002-kyoto-ratify",
+      "date": "2002-11",
+      "title": "한국, 교토의정서 비준",
+      "category": "korea",
+      "description": "한국이 교토의정서를 비준했다. 당시 개발도상국 지위였던 한국은 의무감축국에서는 제외됐다."
+    },
+    {
+      "id": "korea-2009-bau30",
+      "date": "2009-11",
+      "title": "2020 BAU 대비 30% 감축 목표",
+      "category": "korea",
+      "description": "정부가 2020년 온실가스 배출전망치(BAU) 대비 30%를 감축하겠다는 자발적 목표를 제시했다."
+    },
+    {
+      "id": "korea-2015-kets",
+      "date": "2015-01",
+      "exactDate": "2015-01-01",
+      "title": "배출권거래제(K-ETS) 시행",
+      "category": "korea",
+      "description": "한국이 국가 단위 배출권거래제를 아시아 최초로 시행하며 온실가스 총량 규제를 시작했다."
+    },
+    {
+      "id": "korea-2018-heatwave",
+      "date": "2018-08",
+      "exactDate": "2018-08-01",
+      "title": "기록적 폭염",
+      "category": "korea",
+      "description": "강원 홍천이 41.0도를 기록하는 등 관측 이래 최악의 폭염이 한반도를 덮쳤다."
+    },
+    {
+      "id": "korea-2020-carbon-neutral",
+      "date": "2020-10",
+      "exactDate": "2020-10-28",
+      "title": "2050 탄소중립 선언",
+      "category": "korea",
+      "description": "정부가 국회 시정연설에서 2050년까지 탄소중립을 달성하겠다고 공식 선언했다."
+    },
+    {
+      "id": "korea-2021-ndc40",
+      "date": "2021-10",
+      "exactDate": "2021-10-18",
+      "title": "2030 NDC 상향(40% 감축) 확정",
+      "category": "korea",
+      "description": "2030년까지 온실가스를 2018년 대비 40% 감축하는 상향된 국가온실가스감축목표(NDC)가 확정됐다."
+    },
+    {
+      "id": "korea-2022-framework-act",
+      "date": "2022-03",
+      "exactDate": "2022-03-25",
+      "title": "탄소중립기본법 시행",
+      "category": "korea",
+      "description": "탄소중립 목표를 법제화한 '기후위기 대응을 위한 탄소중립·녹색성장 기본법'이 시행됐다."
+    },
+    {
+      "id": "korea-2024-constitutional-ruling",
+      "date": "2024-08",
+      "exactDate": "2024-08-29",
+      "title": "헌재, 탄소중립기본법 헌법불합치 결정",
+      "category": "korea",
+      "description": "헌법재판소가 2031년 이후 감축목표를 법률에 정하지 않은 탄소중립기본법 조항에 헌법불합치를 결정했다. 아시아 최초의 기후소송 인용 사례로 꼽힌다."
+    },
+    {
+      "id": "disaster-2003-europe-heatwave",
+      "date": "2003-08",
+      "title": "2003년 유럽 폭염",
+      "category": "disaster",
+      "description": "유럽을 덮친 기록적 폭염으로 수만 명이 목숨을 잃었다. 이후 유럽 각국의 폭염 대응 체계를 바꾼 계기가 됐다."
+    },
+    {
+      "id": "disaster-2005-katrina",
+      "date": "2005-08",
+      "exactDate": "2005-08-29",
+      "title": "허리케인 카트리나",
+      "category": "disaster",
+      "description": "미국 뉴올리언스를 강타한 허리케인 카트리나로 1800명 이상이 숨지고 대규모 도시 침수가 발생했다."
+    },
+    {
+      "id": "disaster-2021-nw-heat-dome",
+      "date": "2021-06",
+      "exactDate": "2021-06-29",
+      "title": "북미 서부 폭염(열돔)",
+      "category": "disaster",
+      "description": "캐나다 리튼이 49.6도를 기록하는 등 북미 서부에 유례없는 폭염이 발생했다."
+    },
+    {
+      "id": "disaster-2022-pakistan-flood",
+      "date": "2022-08",
+      "title": "파키스탄 대홍수",
+      "category": "disaster",
+      "description": "국토의 3분의 1이 물에 잠기고 3300만 명의 이재민이 발생한 기록적 몬순 홍수가 파키스탄을 강타했다."
+    },
+    {
+      "id": "disaster-2023-canada-wildfire",
+      "date": "2023-06",
+      "title": "캐나다 역대 최악 산불",
+      "category": "disaster",
+      "description": "한 해 동안 남한 면적의 약 1.8배에 달하는 산림이 불에 타며 캐나다 역사상 최악의 산불 시즌을 기록했다."
+    },
+    {
+      "id": "disaster-2023-med-heatwave",
+      "date": "2023-07",
+      "title": "지중해·남유럽 폭염",
+      "category": "disaster",
+      "description": "'케르베로스', '카론'으로 불린 폭염이 남유럽을 덮치며 체감온도 48도를 넘는 지역이 속출했다."
+    },
+    {
+      "id": "disaster-2024-hottest-year",
+      "date": "2024-12",
+      "title": "관측 이래 가장 더운 해",
+      "category": "disaster",
+      "description": "2024년이 산업화 이전 대비 평균 1.5도를 넘어선 첫 해이자, 관측 사상 가장 더운 해로 확인됐다."
+    },
+    {
+      "id": "ryu-placeholder-1",
+      "date": "2024-05",
+      "title": "[예시] Plan 1.5 활동 참여",
+      "category": "ryu",
+      "description": "예시 항목입니다 — 실제 내용으로 교체해 주세요."
+    },
+    {
+      "id": "ryu-placeholder-2",
+      "date": "2025-02",
+      "title": "[예시] Article 6 연구",
+      "category": "ryu",
+      "description": "예시 항목입니다 — 실제 내용으로 교체해 주세요."
+    },
+    {
+      "id": "ryu-placeholder-3",
+      "date": "2025-09",
+      "title": "[예시] 세 번째 활동",
+      "category": "ryu",
+      "image": "/static/images/timeline/ryu-placeholder-3.svg",
+      "imageAlt": "테스트용 자리표시 이미지",
+      "description": "예시 항목입니다 — 실제 내용으로 교체해 주세요. 이 항목은 상세 카드에 사진·설명·링크가 모두 제대로 나오는지 확인하기 위한 테스트용입니다.",
+      "links": [{ "title": "howdareryu.com", "url": "https://howdareryu.com/" }]
+    }
+  ]
+}

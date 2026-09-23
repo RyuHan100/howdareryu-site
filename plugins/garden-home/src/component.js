@@ -19,6 +19,22 @@ function readGardenData() {
   }
 }
 
+// climate histography 를 홈에도 통째로 넣는다(radar 아래, 아빠의 화단 위 — 사용자 지시,
+// 2026-09-23). 렌더 함수(renderTimeline)는 plugins/climate-timeline/src/timeline-render.js
+// 그 파일 그대로다 — build.mjs 가 이 파일 바로 앞에 이어 붙인다(아래 참고). 그래서 이벤트를
+// climate-timeline.json 에 추가하면 /timeline/ 페이지와 홈이 같은 함수·같은 데이터를 쓰므로
+// 둘 다 같이 바뀐다(따로 맞춰줄 필요 없음). 데이터 파일 경로만 여기서 다시 적는다(다른 plugin
+// 소스라 import 는 안 되지만, node:fs 로 읽는 경로 상수는 새로 선언해야 한다).
+const TIMELINE_DATA_PATH = join(process.cwd(), "plugins/climate-timeline/data/climate-timeline.json")
+
+function readTimelineData() {
+  try {
+    return JSON.parse(readFileSync(TIMELINE_DATA_PATH, "utf-8"))
+  } catch {
+    return null
+  }
+}
+
 let vnodeId = 0
 function h(type, props) {
   return {
@@ -73,6 +89,11 @@ function gardenSection() {
     class: "garden-home-section garden-home-garden",
     children: [
       h("h3", { children: "정원" }),
+      h("p", {
+        class: "sr-only",
+        children:
+          "최근 쓴 글을 식물로 표현합니다. 식물 하나가 노트 하나이고 모양은 풀·꽃·덩굴·나무 중 그 글의 성격을 나타내며, 시든(흙빛) 식물은 오래 손보지 않은 글입니다. 식물을 선택하면 제목·물 준 날·노트로 가는 링크가 나옵니다.",
+      }),
       h("div", {
         class: "gp-controls",
         children: [
@@ -113,6 +134,11 @@ function radarSection() {
     class: "garden-home-section garden-home-radar",
     children: [
       h("h3", { children: "radar" }),
+      h("p", {
+        class: "sr-only",
+        children:
+          "감시 중인 폴더별로 부채꼴 구역을 나누고, 최근 30일 안의 기록을 점으로 표시합니다. 중심에 가까울수록 최근 기록이고 가장자리는 30일 전입니다. 점을 선택하면 구역·날짜·제목과 노트로 가는 링크가 나옵니다.",
+      }),
       h("div", { class: "radar-face-wrap", dangerouslySetInnerHTML: { __html: r.html } }),
       h("p", { class: "gp-legend", children: `최근 30일 ${r.count}건 · ${legend}` }),
       h("div", {
@@ -186,6 +212,11 @@ function gallerySection() {
     "data-interval-ms": String(intervalMs),
     children: [
       h("h3", { children: "아빠의 화단" }),
+      h("p", {
+        class: "sr-only",
+        children:
+          "아버지의 그림을 최근 순서로 보여주는 슬라이드쇼입니다. 자동으로 넘어가며, 좌우 버튼이나 아래 꽃봉오리 목록으로 그림을 고를 수 있습니다.",
+      }),
       cfg.intro ? h("p", { class: "gp-legend gallery-intro", children: cfg.intro }) : null,
       h("div", {
         class: "gallery-slideshow",
@@ -208,6 +239,37 @@ function gallerySection() {
       }),
       h("a", { class: "gallery-view-all", href: "./gallery", children: "전체 보기 →" }),
     ].filter(Boolean),
+  })
+}
+
+// ③.5 climate histography — radar 아래, 아빠의 화단 위(사용자 지시, 2026-09-23). 미리보기가
+// 아니라 /timeline/ 과 똑같은 전체 타임라인을 그대로 넣는다 — renderTimeline() 은
+// climate-timeline 플러그인의 timeline-render.js 그 함수이고(build.mjs 가 이어 붙임), CSS도
+// climate-timeline 플러그인이 전역 번들에 실어 두므로(모든 페이지가 모든 컴포넌트 CSS 청크를
+// 불러온다) 여기서 따로 만들 필요가 없다. 상호작용(필터·클릭 상세 모달)도 timeline-interactive.js
+// 가 ".climate-timeline" 클래스를 그대로 찾으므로 클래스 이름을 /timeline/ 페이지와 동일하게 둔다.
+function timelineFullSection() {
+  const data = readTimelineData()
+  const events = data?.events ?? []
+  const categories = data?.categories ?? []
+  const html = events.length > 0 ? renderTimeline(events, categories) : null
+
+  if (!html) {
+    return placeholder("climate histography", "아직 연표에 채운 사건이 없어요.")
+  }
+
+  return h("section", {
+    class: "garden-home-section climate-timeline",
+    children: [
+      h("h3", { children: "climate histography" }),
+      h("p", {
+        class: "sr-only",
+        children:
+          "1824년부터 지금까지 기후 관련 사건을 월 단위로 배치한 가로 타임라인입니다. 위 카테고리 버튼으로 필터링할 수 있고, 타임라인 영역만 가로로 스크롤됩니다.",
+      }),
+      h("div", { dangerouslySetInnerHTML: { __html: html } }),
+      h("a", { class: "garden-home-timeline-link", href: "/timeline/", children: "전체 화면으로 보기 →" }),
+    ],
   })
 }
 
@@ -246,6 +308,7 @@ export const GardenHome = (opts) => {
     const sections = []
     if (show.garden) sections.push(gardenSection())
     if (show.radar) sections.push(radarSection())
+    sections.push(timelineFullSection())
     if (show.gallery) sections.push(gallerySection())
     sections.push(contactSection())
 
