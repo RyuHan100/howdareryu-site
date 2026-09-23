@@ -2,12 +2,12 @@
 title: PACM
 description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 30일 변경 하이라이트.
 tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]
-date: 2026-09-22
-modified: 2026-09-22T09:00+09:00
+date: 2026-09-23
+modified: 2026-09-23T09:35+09:00
 ---
 
 > 출처: [UNFCCC CDM — Activities transitioned to A6.4](https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html) · [UNFCCC 전환 안내](https://unfccc.int/process-and-meetings/the-paris-agreement/paris-agreement-crediting-mechanism/CDM_transition)  
-> 마지막 확인: **2026-09-22 09:00 KST** · 마지막 변경: **2026-09-22** · 총 **37건** (PoA 15 · PA 22) · 연간 추정 감축량 합계 **14,704,934 tCO₂e**
+> 마지막 확인: **2026-09-23 09:35 KST** · 마지막 변경: **2026-09-22** · 총 **37건** (PoA 15 · PA 22) · 연간 추정 감축량 합계 **14,704,934 tCO₂e**
 
 > [!success]+ 최근 30일 내 변경 1건 (신규 1 · 삭제 0 · 수정 0)
 > - **2026-09-22** 🆕 신규 전환 승인 — [PA 6560] [Patrind Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=KEMCO1340946734.9) (Pakistan)
@@ -67,6 +67,6 @@ modified: 2026-09-22T09:00+09:00
 
 ## 데이터
 
-- [latest.json](/pacm/data/latest.json) · [latest.csv](/pacm/data/latest.csv) · [changelog.json](/pacm/data/changelog.json)
+- [latest.json](/radar/pacm/data/latest.json) · [latest.csv](/radar/pacm/data/latest.csv) · [changelog.json](/radar/pacm/data/changelog.json)
 - 등록일은 CDM 등록일. '전환 최초 확인'은 이 모니터가 해당 항목을 처음 관측한 날(기준선 = 모니터 시작 시 이미 존재).
 - 감축량: 사업참여자 추정 연간 감축량(tCO₂e/yr). 방법론 표기: AM 대규모 · ACM 통합 · AMS 소규모.
