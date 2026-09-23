@@ -243,20 +243,7 @@
       "category": "disaster",
       "description": "2024년이 산업화 이전 대비 평균 1.5도를 넘어선 첫 해이자, 관측 사상 가장 더운 해로 확인됐다."
     },
-    {
-      "id": "ryu-placeholder-1",
-      "date": "2024-05",
-      "title": "[예시] Plan 1.5 활동 참여",
-      "category": "ryu",
-      "description": "예시 항목입니다 — 실제 내용으로 교체해 주세요."
-    },
-    {
-      "id": "ryu-placeholder-2",
-      "date": "2025-02",
-      "title": "[예시] Article 6 연구",
-      "category": "ryu",
-      "description": "예시 항목입니다 — 실제 내용으로 교체해 주세요."
-    },
+
         {
       "id": "disaster-2026-nepal-flood",
       "date": "2026-08-26",
