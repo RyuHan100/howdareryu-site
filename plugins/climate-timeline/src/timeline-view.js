@@ -70,7 +70,10 @@ function tlCreateView(section) {
     return val
   }
 
-  var view = { timelineStart: timelineStart, pxPerMonth: cssDefaultPx() }
+  // cssDefaultPx() 는 인라인 값을 지웠다 되돌리며 타임라인 전체의 스타일 재계산을 강제하므로
+  // 줌 프레임마다 부르지 않는다 — 값이 바뀔 수 있는 때(처음, 레이아웃 변화)에만 다시 읽는다.
+  var cssDefault = cssDefaultPx()
+  var view = { timelineStart: timelineStart, pxPerMonth: cssDefault }
   var userZoomed = false // Reset 전까지는 "자동 기준폭"을 계속 따라간다(아래 autoBasePx 참고)
 
   function containerWidth() {
@@ -91,13 +94,13 @@ function tlCreateView(section) {
   function autoBasePx() {
     var isMobile = window.innerWidth <= TL_MOBILE_BREAKPOINT
     var focusModeOn = document.documentElement.getAttribute("data-focus-mode") === "on"
-    var base = cssDefaultPx()
+    var base = cssDefault
     if (isMobile || !focusModeOn) return base
     var fitToFull = containerWidth() / (timelineEnd - timelineStart)
     return Math.max(base, Math.min(fitToFull, base * 3))
   }
   function clampPx(px) {
-    var base = cssDefaultPx()
+    var base = cssDefault
     var min = Math.min(fitAllPxPerMonth(), base)
     if (!isFinite(px)) return base
     return Math.max(min, Math.min(TL_MAX_PX_PER_MONTH, px))
@@ -145,10 +148,22 @@ function tlCreateView(section) {
   }
 
   // ---------- 눈금(보이는 구간 + 여유분만 그린다 — 요구사항: 성능) ----------
+  // 눈금 위치는 --x(월 수)라 줌 배율이 바뀌어도 CSS 가 옮긴다 — 그려야 할 눈금 집합(첫·끝
+  // 눈금과 개수, 개수로 간격도 정해짐)이 같으면 DOM 을 다시 만들지 않는다. 가로 스크롤
+  // 프레임마다 버튼 수십 개를 지웠다 만드는 일을 막는다.
+  var lastTickKey = ""
   function renderTicks() {
     var range = visibleRange()
     var margin = (range.t1 - range.t0) * 0.5
     var ticks = tlTicks(range.t0 - margin, range.t1 + margin, view.pxPerMonth, minLabelPx())
+    var key = ticks.length ? ticks[0].t + ":" + ticks[ticks.length - 1].t + ":" + ticks.length : ""
+    if (key === lastTickKey) return
+    lastTickKey = key
+
+    // 키보드로 눈금에 머물러 있던 경우, 다시 그린 뒤 같은(없으면 가장 가까운) 눈금에 포커스를
+    // 돌려준다 — 안 그러면 눈금을 눌러 확대하는 순간 포커스가 body 로 사라진다.
+    var active = document.activeElement
+    var focusedT = active && ticksLayer.contains(active) ? Number(active.dataset.t) : null
     var html = ""
     for (var i = 0; i < ticks.length; i++) {
       var tk = ticks[i]
@@ -161,26 +176,33 @@ function tlCreateView(section) {
         (tk.t - timelineStart) +
         '" aria-label="' +
         tk.label +
-        (tk.major ? "년" : "") +
-        '으로 확대·이동">' +
+        (tk.major ? "년으로" : "로") +
+        ' 확대·이동">' +
         '<span class="tl-tick-mark" aria-hidden="true"></span>' +
         '<span class="tl-tick-label">' +
         tk.label +
         "</span></button>"
     }
     ticksLayer.innerHTML = html
-    var buttons = ticksLayer.querySelectorAll(".tl-tick")
-    for (var j = 0; j < buttons.length; j++) {
-      buttons[j].addEventListener("click", onTickClick)
+
+    if (focusedT !== null) {
+      var buttons = ticksLayer.querySelectorAll(".tl-tick")
+      var best = null
+      for (var j = 0; j < buttons.length; j++) {
+        if (!best || Math.abs(buttons[j].dataset.t - focusedT) < Math.abs(best.dataset.t - focusedT)) best = buttons[j]
+      }
+      if (best) best.focus({ preventScroll: true })
     }
   }
 
-  function onTickClick(e) {
-    var btn = e.currentTarget
+  // 눈금 버튼은 수시로 다시 만들어지므로 버튼마다 리스너를 달지 않고 레이어에 하나만 단다.
+  ticksLayer.addEventListener("click", function (e) {
+    var btn = e.target.closest(".tl-tick")
+    if (!btn || !ticksLayer.contains(btn)) return
     var t = Number(btn.dataset.t)
     var step = tlPickTickStep(view.pxPerMonth, minLabelPx())
     fitRange(t, t + step)
-  }
+  })
 
   // ---------- "오늘" 표시선(요구사항: 2026년을 쉽게 찾을 수 있어야 한다) ----------
   function renderNow() {
@@ -199,7 +221,8 @@ function tlCreateView(section) {
   function updateToolbar() {
     var step = tlPickTickStep(view.pxPerMonth, minLabelPx())
     var label = step >= 600 ? "전체" : step >= 120 ? "수십 년" : step >= 12 ? "연도" : "월"
-    if (levelEl) levelEl.textContent = label
+    // aria-live 영역이라 같은 값을 매 프레임 다시 쓰면 스크린리더가 반복해 읽을 수 있다.
+    if (levelEl && levelEl.textContent !== label) levelEl.textContent = label
     if (zoomOutBtn) zoomOutBtn.disabled = view.pxPerMonth <= clampPx(0) + 0.01
     if (zoomInBtn) zoomInBtn.disabled = view.pxPerMonth >= TL_MAX_PX_PER_MONTH - 0.01
   }
@@ -320,6 +343,8 @@ function tlCreateView(section) {
   })
 
   function onLayoutChange() {
+    // 창 크기 변화로 모바일 분기점을 넘었을 수 있으니 CSS 기본 폭을 여기서만 다시 읽는다.
+    cssDefault = cssDefaultPx()
     // 아직 직접 줌하지 않았으면(userZoomed === false) 집중 모드/창 크기에 맞춘 자동 기준폭을
     // 계속 따라간다. 이미 줌했다면 그 배율은 그대로 두고 허용 범위(clampPx)만 다시 맞춘다.
     applyPx(userZoomed ? view.pxPerMonth : autoBasePx())

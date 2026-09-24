@@ -68,7 +68,25 @@
     var closeEls = Array.prototype.slice.call(modal.querySelectorAll("[data-tl-close]"))
     var lastFocused = null
     var currentId = null
-    var closeTimer = null
+    // 닫기(애니메이션)를 시작할 때마다 1씩 올린다. 닫히는 도중 다시 열면 open() 도 올려서,
+    // 이전 닫기의 뒤늦은 마무리(타이머·transitionend)가 새로 연 카드를 닫지 못하게 한다.
+    var closeToken = 0
+    var buttonById = {}
+    events.forEach(function (btn) {
+      buttonById[btn.dataset.id] = btn
+    })
+
+    // 이전/다음 사건: 시간순 이웃(prevId/nextId) 중 지금 필터로 숨겨지지 않은 첫 사건.
+    // 필터 상태에서 카드가 타임라인에 안 보이는 사건으로 넘어가지 않게 한다.
+    function neighbor(id, dir) {
+      var key = dir === "prev" ? "prevId" : "nextId"
+      var d = detailById[id]
+      var next = d ? d[key] : null
+      while (next && buttonById[next] && buttonById[next].hidden) {
+        next = detailById[next] ? detailById[next][key] : null
+      }
+      return next || null
+    }
 
     // 존재하지 않는 필드는 빈 칸으로 안 남기고 그 요소 자체를 hidden 처리한다(요구사항).
     // 지금 데이터에는 location/tags 가 없어 항상 hidden 이지만, 나중에 이벤트에 추가되면
@@ -163,8 +181,8 @@
         tagsEl.appendChild(li)
       })
 
-      prevBtn.hidden = !d.prevId
-      nextBtn.hidden = !d.nextId
+      prevBtn.hidden = !neighbor(currentId, "prev")
+      nextBtn.hidden = !neighbor(currentId, "next")
     }
 
     function open(id) {
@@ -174,10 +192,7 @@
       currentId = id
       render(d)
 
-      if (closeTimer) {
-        clearTimeout(closeTimer)
-        closeTimer = null
-      }
+      closeToken++
       modal.hidden = false
       // hidden 을 떼자마자 클래스를 붙이면 브라우저가 시작 상태를 못 그리고 바로 최종
       // 상태로 뛰어버려 슬라이드 트랜지션이 재생되지 않는다 — 한 프레임 쉬고 붙인다.
@@ -190,9 +205,7 @@
     }
 
     function navigate(dir) {
-      var d = detailById[currentId]
-      if (!d) return
-      var targetId = dir === "prev" ? d.prevId : d.nextId
+      var targetId = neighbor(currentId, dir)
       if (!targetId) return
       var target = detailById[targetId]
       if (!target) return
@@ -211,11 +224,12 @@
       var reduced =
         typeof window.matchMedia === "function" &&
         window.matchMedia("(prefers-reduced-motion: reduce)").matches
-      var finished = false
+      var token = ++closeToken
+      // transitionend 와 안전장치 타이머 중 먼저 오는 쪽만 실행된다. 그 사이 다시 열리면
+      // (open() 이 closeToken 을 올림) 둘 다 아무것도 안 한다.
       function finish() {
-        if (finished) return // 트랜지션 종료(transitionend)와 안전장치 타이머가 둘 다
-        finished = true // 걸려 있어, 먼저 끝나는 쪽이 실행된 뒤 나머지는 조용히 무시한다.
-        closeTimer = null
+        if (token !== closeToken) return
+        closeToken++
         modal.hidden = true
         currentId = null
         if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus()
@@ -224,24 +238,44 @@
         finish()
         return
       }
-      closeTimer = setTimeout(finish, 250)
+      setTimeout(finish, 250)
       if (panel) {
-        panel.addEventListener(
-          "transitionend",
-          function once() {
-            panel.removeEventListener("transitionend", once)
-            if (closeTimer) clearTimeout(closeTimer)
-            finish()
-          },
-          { once: true },
-        )
+        panel.addEventListener("transitionend", function onEnd(e) {
+          if (e.target !== panel) return
+          panel.removeEventListener("transitionend", onEnd)
+          finish()
+        })
+      }
+    }
+
+    // aria-modal 카드: Tab 이 카드 밖(뒤의 타임라인)으로 빠져나가지 않게 처음/끝에서 돈다.
+    function trapTab(e) {
+      var focusables = Array.prototype.filter.call(panel.querySelectorAll("a[href], button"), function (el) {
+        return !el.hidden && !el.disabled
+      })
+      if (focusables.length === 0) return
+      var first = focusables[0]
+      var last = focusables[focusables.length - 1]
+      var active = document.activeElement
+      if (e.shiftKey && (active === first || !panel.contains(active))) {
+        e.preventDefault()
+        last.focus()
+      } else if (!e.shiftKey && (active === last || !panel.contains(active))) {
+        e.preventDefault()
+        first.focus()
       }
     }
 
     function onKeydown(e) {
       if (e.key === "Escape") close()
+      else if (e.key === "Tab") trapTab(e)
       else if (e.key === "ArrowLeft") navigate("prev")
       else if (e.key === "ArrowRight") navigate("next")
+    }
+    if (window.addCleanup) {
+      window.addCleanup(function () {
+        document.removeEventListener("keydown", onKeydown)
+      })
     }
 
     events.forEach(function (btn) {

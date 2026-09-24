@@ -397,6 +397,8 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  /* 카드 안 스크롤이 끝에 닿아도 뒤의 페이지가 이어서 스크롤되지 않게 */
+  overscroll-behavior: contain;
   background: var(--light);
   border-left: 1px solid color-mix(in srgb, var(--gray) 45%, var(--light));
   box-shadow: -12px 0 48px color-mix(in srgb, var(--dark) 45%, transparent);
@@ -413,6 +415,8 @@
     bottom: 0;
     width: auto;
     max-height: min(82vh, 720px);
+    /* 모바일 브라우저 주소창이 보일 때 vh 는 그보다 커서 아래 이동 버튼이 가려진다 */
+    max-height: min(82dvh, 720px);
     border-left: none;
     border-top: 1px solid color-mix(in srgb, var(--gray) 45%, var(--light));
     border-radius: 1rem 1rem 0 0;
