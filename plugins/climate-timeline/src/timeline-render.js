@@ -30,6 +30,38 @@ function escJsonForScript(json) {
 
 const PAD_MONTHS = 6 // 첫/마지막 이벤트가 축 끝에 바짝 붙지 않도록 좌우 여백(반 년)
 
+// 출처 종류(source.type) 표시 이름. 자유 문자열이라 이 다섯 개 말고 다른 값이 와도 깨지지
+// 않는다 — 매핑에 없으면 원래 문자열을 그대로 보여준다(라벨만 없을 뿐, 기능은 그대로).
+const SOURCE_TYPE_LABELS = {
+  primary: "1차 자료",
+  scientific: "과학 논문",
+  institutional: "기관",
+  news: "뉴스",
+  secondary: "2차 자료",
+}
+
+/**
+ * 이벤트의 출처 목록을 통일된 모양으로 만든다. 새 스키마(`sources: [{title,url,type?,
+ * publisher?,date?}]`)를 우선 읽고, 옛 스키마(`links: [{title,url}]`)도 그대로 인식한다 —
+ * climate-timeline.json 의 기존 이벤트를 안 건드려도(또는 다른 도구가 여전히 links 로 써도)
+ * 깨지지 않는다(하위 호환). type/publisher/date 처럼 데이터에 없는 필드는 null 로 둬서,
+ * 클라이언트가 "없으면 그 칸 자체를 안 만든다" 는 규칙을 그대로 적용할 수 있게 한다 —
+ * 실제로 없는 정보를 여기서 추측해 채우지 않는다.
+ */
+function normalizeSources(ev) {
+  const raw = Array.isArray(ev.sources) ? ev.sources : Array.isArray(ev.links) ? ev.links : []
+  return raw
+    .filter((s) => s && s.url)
+    .map((s) => ({
+      title: s.title || s.url,
+      url: s.url,
+      type: s.type || null,
+      typeLabel: s.type ? SOURCE_TYPE_LABELS[s.type] || s.type : null,
+      publisher: s.publisher || null,
+      date: s.date || null,
+    }))
+}
+
 function formatDateLabel(ev) {
   const src = ev.exactDate || ev.date
   const parts = src.split("-").map(Number)
@@ -161,7 +193,7 @@ export function renderTimeline(events, categories) {
       description: ev.description || "",
       image: ev.image || null,
       imageAlt: ev.imageAlt || ev.title,
-      links: Array.isArray(ev.links) ? ev.links : [],
+      sources: normalizeSources(ev),
       location: ev.location || null,
       tags: Array.isArray(ev.tags) ? ev.tags : [],
       prevId: i > 0 ? dated[i - 1].id : null,
@@ -181,7 +213,10 @@ export function renderTimeline(events, categories) {
     `<h3 class="tl-modal-title" id="tl-modal-title" tabindex="-1"></h3>` +
     `<p class="tl-modal-location" hidden></p>` +
     `<p class="tl-modal-desc"></p>` +
-    `<ul class="tl-modal-links"></ul>` +
+    `<div class="tl-modal-sources" hidden>` +
+    `<h4 class="tl-modal-sources-title">Sources</h4>` +
+    `<ul class="tl-modal-sources-list"></ul>` +
+    `</div>` +
     `<ul class="tl-modal-tags" hidden></ul>` +
     `</div>` +
     `<div class="tl-modal-nav">` +

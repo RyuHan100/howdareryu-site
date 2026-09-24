@@ -58,7 +58,8 @@
     var title = modal.querySelector(".tl-modal-title")
     var locationEl = modal.querySelector(".tl-modal-location")
     var desc = modal.querySelector(".tl-modal-desc")
-    var links = modal.querySelector(".tl-modal-links")
+    var sourcesWrap = modal.querySelector(".tl-modal-sources")
+    var sourcesList = modal.querySelector(".tl-modal-sources-list")
     var tagsEl = modal.querySelector(".tl-modal-tags")
     var status = modal.querySelector(".tl-modal-status")
     var prevBtn = modal.querySelector(".tl-modal-prev")
@@ -82,6 +83,60 @@
       }
     }
 
+    // 출처 목록 렌더링을 카드 본문 렌더링(render)과 분리해 둔다 — source type 배지, 인용
+    // 횟수, 1차 자료 표시, 외부 링크 아이콘 같은 걸 나중에 추가할 때 이 함수만 고치면 되고,
+    // render() 나 다른 필드 처리 로직을 건드릴 필요가 없다. sources 는 timeline-render.js 의
+    // normalizeSources() 가 이미 title/url/type/typeLabel/publisher/date 로 통일해 둔 배열이라
+    // (옛 links 스키마여도 여기 도착할 땐 같은 모양) 여기서 스키마 분기를 할 필요가 없다.
+    function renderSources(sources) {
+      sourcesList.innerHTML = ""
+      sourcesWrap.hidden = sources.length === 0
+      sources.forEach(function (source) {
+        var li = document.createElement("li")
+        li.className = "tl-source"
+
+        var a = document.createElement("a")
+        a.className = "tl-source-link"
+        a.href = source.url
+        a.target = "_blank"
+        a.rel = "noopener noreferrer"
+
+        var icon = document.createElement("span")
+        icon.className = "tl-source-icon"
+        icon.setAttribute("aria-hidden", "true")
+        icon.textContent = "↗"
+
+        var name = document.createElement("span")
+        name.className = "tl-source-name"
+        name.textContent = source.title
+
+        a.appendChild(icon)
+        a.appendChild(name)
+        li.appendChild(a)
+
+        // type/publisher/date 는 실제 데이터에 있을 때만 만든다 — 없는 값을 빈 칸으로
+        // 남기지 않는다(요구사항).
+        if (source.typeLabel) {
+          var badge = document.createElement("span")
+          badge.className = "tl-source-type"
+          badge.textContent = source.typeLabel
+          li.appendChild(badge)
+        }
+
+        var metaParts = []
+        if (source.publisher) metaParts.push(source.publisher)
+        if (source.date) metaParts.push(source.date)
+        if (metaParts.length > 0) {
+          var metaEl = document.createElement("span")
+          metaEl.className = "tl-source-meta"
+          metaEl.textContent = metaParts.join(" · ")
+          li.appendChild(metaEl)
+        }
+
+        sourcesList.appendChild(li)
+      })
+    }
+
     function render(d) {
       meta.textContent = d.category + " · " + d.date
       title.textContent = d.title
@@ -97,17 +152,7 @@
         img.hidden = true
       }
 
-      links.innerHTML = ""
-      ;(d.links || []).forEach(function (link) {
-        var li = document.createElement("li")
-        var a = document.createElement("a")
-        a.href = link.url
-        a.target = "_blank"
-        a.rel = "noopener noreferrer"
-        a.textContent = link.title || link.url
-        li.appendChild(a)
-        links.appendChild(li)
-      })
+      renderSources(d.sources || [])
 
       tagsEl.innerHTML = ""
       var tags = d.tags || []

@@ -13,7 +13,7 @@
       "title": "Fourier, 온실효과 원리 제시",
       "category": "science",
       "description": "조제프 푸리에가 지구 대기가 태양열을 가둬 지표를 데운다는 온실효과의 기본 원리를 처음 제시했다.",
-      "links": [{ "title": "Wikipedia — Joseph Fourier", "url": "https://en.wikipedia.org/wiki/Joseph_Fourier" }]
+      "sources": [{ "title": "Wikipedia — Joseph Fourier", "url": "https://en.wikipedia.org/wiki/Joseph_Fourier" }]
     },
     {
       "id": "science-1856-foote",
@@ -21,7 +21,7 @@
       "title": "Eunice Foote, CO2의 태양열 흡수 실험",
       "category": "science",
       "description": "유니스 푸트가 이산화탄소가 다른 기체보다 태양열을 더 많이 흡수한다는 사실을 실험으로 보였다. 이산화탄소와 온난화를 실험으로 연결한 최초의 기록 중 하나다.",
-      "links": [{ "title": "Wikipedia — Eunice Newton Foote", "url": "https://en.wikipedia.org/wiki/Eunice_Newton_Foote" }]
+      "sources": [{ "title": "Wikipedia — Eunice Newton Foote", "url": "https://en.wikipedia.org/wiki/Eunice_Newton_Foote" }]
     },
     {
       "id": "science-1896-arrhenius",
@@ -29,7 +29,7 @@
       "title": "Arrhenius, CO2 농도-기온 정량 분석",
       "category": "science",
       "description": "스반테 아레니우스가 대기 중 이산화탄소 농도 변화가 지표 기온에 미치는 영향을 처음으로 정량적으로 계산해 발표했다.",
-      "links": [{ "title": "Wikipedia — Svante Arrhenius", "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius" }]
+      "sources": [{ "title": "Wikipedia — Svante Arrhenius", "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius" }]
     },
     {
       "id": "science-1958-keeling",
@@ -37,7 +37,7 @@
       "title": "Keeling Curve 관측 시작",
       "category": "science",
       "description": "찰스 킬링이 하와이 마우나로아 관측소에서 대기 중 CO2 농도를 연속 측정하기 시작했다. 이후 이어진 관측 기록이 '킬링 곡선'이다.",
-      "links": [{ "title": "Wikipedia — Keeling Curve", "url": "https://en.wikipedia.org/wiki/Keeling_Curve" }]
+      "sources": [{ "title": "Wikipedia — Keeling Curve", "url": "https://en.wikipedia.org/wiki/Keeling_Curve" }]
     },
     {
       "id": "science-1988-ipcc",
@@ -45,7 +45,7 @@
       "title": "IPCC 설립",
       "category": "science",
       "description": "세계기상기구(WMO)와 유엔환경계획(UNEP)이 기후변화의 과학적 근거를 평가하기 위해 IPCC(기후변화에 관한 정부간 협의체)를 설립했다.",
-      "links": [{ "title": "IPCC 공식 사이트", "url": "https://www.ipcc.ch/" }]
+      "sources": [{ "title": "IPCC 공식 사이트", "url": "https://www.ipcc.ch/" }]
     },
     {
       "id": "science-2018-sr15",
@@ -54,7 +54,7 @@
       "title": "IPCC 1.5도 특별보고서",
       "category": "science",
       "description": "인천 송도에서 열린 IPCC 총회에서 지구 평균기온 상승을 1.5도로 억제해야 하는 이유와 경로를 담은 특별보고서가 채택됐다.",
-      "links": [{ "title": "IPCC SR1.5", "url": "https://www.ipcc.ch/sr15/" }]
+      "sources": [{ "title": "IPCC SR1.5", "url": "https://www.ipcc.ch/sr15/" }]
     },
     {
       "id": "intl-1992-unfccc",
@@ -63,7 +63,7 @@
       "title": "UNFCCC 채택",
       "category": "international",
       "description": "리우 지구정상회의에서 기후변화 대응을 위한 국제 협력의 기본 틀인 유엔기후변화협약(UNFCCC)이 채택됐다.",
-      "links": [{ "title": "UNFCCC 공식 사이트", "url": "https://unfccc.int/" }]
+      "sources": [{ "title": "UNFCCC 공식 사이트", "url": "https://unfccc.int/" }]
     },
     {
       "id": "intl-1995-cop1",
@@ -80,7 +80,7 @@
       "title": "교토의정서 채택",
       "category": "international",
       "description": "일본 교토에서 선진국의 온실가스 감축 목표를 법적으로 규정한 교토의정서가 채택됐다.",
-      "links": [{ "title": "Wikipedia — Kyoto Protocol", "url": "https://en.wikipedia.org/wiki/Kyoto_Protocol" }]
+      "sources": [{ "title": "Wikipedia — Kyoto Protocol", "url": "https://en.wikipedia.org/wiki/Kyoto_Protocol" }]
     },
     {
       "id": "intl-2005-kyoto-enforced",
@@ -105,7 +105,7 @@
       "title": "파리협정 채택",
       "category": "international",
       "description": "모든 당사국이 참여하는 보편적 기후체제인 파리협정이 채택됐다. 산업화 이전 대비 기온 상승을 2도, 가능하면 1.5도로 억제하는 것이 목표다.",
-      "links": [{ "title": "Wikipedia — Paris Agreement", "url": "https://en.wikipedia.org/wiki/Paris_Agreement" }]
+      "sources": [{ "title": "Wikipedia — Paris Agreement", "url": "https://en.wikipedia.org/wiki/Paris_Agreement" }]
     },
     {
       "id": "intl-2021-cop26-article6",
@@ -261,7 +261,7 @@
       "image": "/static/images/timeline/2026_nepal.jpeg",
       "imageAlt": "2026년 네팔 대홍수 사진",
       "description": "기후변화로 인해 히말라야의 빙하와 영구동토가 녹아내리며 네팔에서 대홍수가 발생했다. 네팔은 온실가스 배출 책임이 큰 미국, 중국, 인도를 거론했고 '손실과 피해' 기금에 대한 국제적 관심이 높아지고 있다.",
-      "links": [{ "title": "2026년 네팔 대홍수", "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EB%84%A4%ED%8C%94_%ED%99%8D%EC%88%98" }]
+      "sources": [{ "title": "2026년 네팔 대홍수", "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EB%84%A4%ED%8C%94_%ED%99%8D%EC%88%98" }]
     }
     
   ]
