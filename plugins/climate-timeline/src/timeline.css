@@ -64,12 +64,19 @@
   --cat-color: var(--timeline-ryu);
 }
 
-/* ---------- 범례 · 필터 ---------- */
+/* ---------- 범례 · 줌 컨트롤(둘 다 "타임라인 근처의 controls") ---------- */
+.tl-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.75rem;
+}
 .tl-legend {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin-bottom: 0.75rem;
 }
 .tl-filter {
   display: inline-flex;
@@ -110,17 +117,67 @@
   background: var(--light);
 }
 
+/* ---------- 줌 컨트롤(−/레벨/+/Reset) — .tl-filter 와 같은 알약 스타일을 재사용한다 ---------- */
+.tl-toolbar {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex: none;
+}
+.tl-zoom-btn {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--dark);
+  background: color-mix(in srgb, var(--gray) 14%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--gray) 40%, var(--light));
+  border-radius: 999px;
+  cursor: pointer;
+}
+.tl-zoom-out,
+.tl-zoom-in {
+  width: 1.8rem;
+  height: 1.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+}
+.tl-zoom-reset {
+  padding: 0.25rem 0.7rem;
+}
+.tl-zoom-btn:hover {
+  border-color: var(--gray);
+}
+.tl-zoom-btn:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
+.tl-zoom-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.tl-zoom-level {
+  font-size: 0.78rem;
+  color: var(--gray);
+  min-width: 2.6rem;
+  text-align: center;
+}
+
 /* ---------- 가로 스크롤 영역 ----------
    요구사항: 모바일에서 가로 스크롤이 페이지 전체로 새지 않게, timeline 내부 overflow 와
    body overflow 를 분리한다. overflow-x:auto 인 이 래퍼 하나만 가로로 넓어지고(.tl-track 이
    수천 px 폭이어도), overscroll-behavior-x:contain 이 스크롤이 끝에 닿았을 때 상위(body/뒤로
    가기 제스처)로 새는 것을 막는다. 세로는 clip 하지 않는다(.tl-track 자체 높이가 콘텐츠에
-   맞게 계산되고, 상세 모달은 position:fixed 라 어차피 이 overflow 와 무관하다). */
+   맞게 계산되고, 상세 모달은 position:fixed 라 어차피 이 overflow 와 무관하다).
+   touch-action: 두 손가락 핀치를 timeline-view.js 가 직접 처리하므로(줌), 브라우저 기본
+   핀치줌/더블탭줌은 이 영역에서만 꺼둔다(pan-x pan-y = 한 손가락 스크롤은 그대로 허용). */
 .tl-scroll {
   overflow-x: auto;
   overflow-y: visible;
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
   max-width: 100%;
   padding-bottom: 0.5rem;
 }
@@ -163,6 +220,86 @@
   font-size: 0.72rem;
   color: var(--gray);
   white-space: nowrap;
+}
+/* JS 가 켜지면(timeline-view.js) 정적 연도 눈금 대신 화면 밀도에 맞는 .tl-ticks 를 쓴다 —
+   JS 가 없으면 이 규칙 자체가 적용 안 되니 위 매년 표시가 그대로 남는다(요구사항: JS 없이도
+   기존 화면 유지). */
+.climate-timeline.is-enhanced .tl-year {
+  display: none;
+}
+
+/* ---------- 줌 눈금(timeline-view.js 가 보이는 구간만 채운다) ---------- */
+.tl-ticks {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  pointer-events: none;
+}
+.tl-tick {
+  position: absolute;
+  top: var(--axis-top);
+  left: calc(var(--month-width) * var(--x));
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: auto;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--gray);
+  cursor: pointer;
+}
+.tl-tick-mark {
+  width: 1px;
+  height: 12px;
+  background: color-mix(in srgb, var(--gray) 55%, var(--light));
+}
+.tl-tick-label {
+  margin-top: 2px;
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+.tl-tick[data-major="true"] .tl-tick-label {
+  color: var(--dark);
+  font-weight: 600;
+}
+.tl-tick:hover .tl-tick-label,
+.tl-tick:focus-visible .tl-tick-label {
+  color: var(--secondary);
+}
+.tl-tick:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
+
+/* ---------- "오늘" 표시선 — 요구사항: 현재 연도를 쉽게 찾을 수 있어야 한다 ---------- */
+.tl-now-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.tl-now {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--month-width) * var(--x));
+  width: 1px;
+  background: color-mix(in srgb, var(--secondary) 65%, var(--light));
+}
+.tl-now-label {
+  position: absolute;
+  top: calc(var(--axis-top) - 30px);
+  left: calc(var(--month-width) * var(--x));
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: var(--secondary);
+  white-space: nowrap;
+  background: var(--light);
+  padding: 0 0.3rem;
 }
 
 /* ---------- 이벤트 점 ----------

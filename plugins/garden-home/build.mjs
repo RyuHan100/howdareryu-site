@@ -16,6 +16,8 @@ const readShared = (relPath) => readFileSync(new URL(relPath, import.meta.url), 
 // (afterDOMLoaded)는 네 개를 이어 붙여 하나의 문자열로 만든다 — 각자 "nav" 리스너를 걸고
 // 서로 다른 섹션(.garden-home-garden/.garden-home-radar/.garden-home-gallery/.climate-timeline)
 // 만 찾으므로 순서는 안 중요하다.
+// timeline-scale.js(날짜<->px 순수 함수)도 timeline-render.js 와 함께 그대로 가져온다 —
+// /timeline/ 페이지와 정확히 같은 위치 계산을 쓰기 위해서다(climate-timeline/build.mjs 참고).
 const out = (
   read("garden-svg.js") +
   "\n" +
@@ -23,22 +25,30 @@ const out = (
   "\n" +
   read("gallery-svg.js") +
   "\n" +
+  readShared("../climate-timeline/src/timeline-scale.js") +
+  "\n" +
   readShared("../climate-timeline/src/timeline-render.js") +
   "\n" +
   read("component.js")
 )
   .replace("__STYLES__", () => JSON.stringify(read("garden-home.css")))
-  .replace("__SCRIPT__", () =>
-    JSON.stringify(
-      read("garden-interactive.js") +
-        "\n" +
-        read("radar-interactive.js") +
-        "\n" +
-        read("gallery-interactive.js") +
-        "\n" +
-        readShared("../climate-timeline/src/timeline-interactive.js"),
-    ),
-  )
+  .replace("__SCRIPT__", () => {
+    // timeline-interactive.js 는 자기 IIFE 안에 timeline-scale.js + timeline-view.js(줌
+    // 컨트롤러)를 이어붙인 채로 들어가야 한다(climate-timeline/build.mjs 와 같은 이유 —
+    // 이 파일들의 최상위 함수 선언이 garden/radar/gallery 인터랙티브 코드와 이름이 안
+    // 겹치려면 timeline-interactive.js 자신의 IIFE 안에서만 존재해야 한다).
+    const timelineClientCore =
+      readShared("../climate-timeline/src/timeline-scale.js") +
+      "\n" +
+      readShared("../climate-timeline/src/timeline-view.js")
+    const timelineScript = readShared("../climate-timeline/src/timeline-interactive.js").replace(
+      "// __TL_SCALE_AND_VIEW__",
+      () => timelineClientCore,
+    )
+    return JSON.stringify(
+      read("garden-interactive.js") + "\n" + read("radar-interactive.js") + "\n" + read("gallery-interactive.js") + "\n" + timelineScript,
+    )
+  })
 
 const banner = "// 자동 생성 파일. src/ 를 고친 뒤 `node build.mjs` 로 다시 만든다.\n"
 const types =
