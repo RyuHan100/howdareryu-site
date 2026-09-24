@@ -59,6 +59,10 @@
 .tl-event[data-category="disaster"] {
   --cat-color: var(--color-orange, var(--darkgray));
 }
+.tl-filter[data-category="abroad"],
+.tl-event[data-category="abroad"] {
+  --cat-color: var(--color-yellow, var(--tertiary));
+}
 .tl-filter[data-category="ryu"],
 .tl-event[data-category="ryu"] {
   --cat-color: var(--timeline-ryu);

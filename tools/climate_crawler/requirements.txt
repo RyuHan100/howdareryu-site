@@ -1,0 +1,3 @@
+requests>=2.31.0
+# extract_events.py --backend api (CI). 로컬 --backend cli 는 필요 없음
+anthropic>=1.0,<2; python_version >= "3.10"

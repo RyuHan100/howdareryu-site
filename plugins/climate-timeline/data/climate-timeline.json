@@ -1,10 +1,29 @@
 {
   "categories": [
-    { "key": "science", "label": "기후과학" },
-    { "key": "international", "label": "국제협약" },
-    { "key": "korea", "label": "한국" },
-    { "key": "disaster", "label": "기후재난" },
-    { "key": "ryu", "label": "Ryu" }
+    {
+      "key": "science",
+      "label": "기후과학"
+    },
+    {
+      "key": "international",
+      "label": "국제협약"
+    },
+    {
+      "key": "korea",
+      "label": "한국"
+    },
+    {
+      "key": "disaster",
+      "label": "기후재난"
+    },
+    {
+      "key": "abroad",
+      "label": "해외"
+    },
+    {
+      "key": "ryu",
+      "label": "Ryu"
+    }
   ],
   "events": [
     {
@@ -13,7 +32,12 @@
       "title": "Fourier, 온실효과 원리 제시",
       "category": "science",
       "description": "조제프 푸리에가 지구 대기가 태양열을 가둬 지표를 데운다는 온실효과의 기본 원리를 처음 제시했다.",
-      "sources": [{ "title": "Wikipedia — Joseph Fourier", "url": "https://en.wikipedia.org/wiki/Joseph_Fourier" }]
+      "sources": [
+        {
+          "title": "Wikipedia — Joseph Fourier",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Fourier"
+        }
+      ]
     },
     {
       "id": "science-1856-foote",
@@ -21,7 +45,26 @@
       "title": "Eunice Foote, CO2의 태양열 흡수 실험",
       "category": "science",
       "description": "유니스 푸트가 이산화탄소가 다른 기체보다 태양열을 더 많이 흡수한다는 사실을 실험으로 보였다. 이산화탄소와 온난화를 실험으로 연결한 최초의 기록 중 하나다.",
-      "sources": [{ "title": "Wikipedia — Eunice Newton Foote", "url": "https://en.wikipedia.org/wiki/Eunice_Newton_Foote" }]
+      "sources": [
+        {
+          "title": "Wikipedia — Eunice Newton Foote",
+          "url": "https://en.wikipedia.org/wiki/Eunice_Newton_Foote"
+        }
+      ]
+    },
+    {
+      "id": "science-1859-tyndall-infrared-absorption",
+      "date": "1859-06",
+      "exactDate": "1859-06-10",
+      "title": "Tyndall, 기체의 적외선 흡수 실험 발표",
+      "category": "science",
+      "description": "존 틴들이 영국 왕립연구소 강연에서 석탄가스와 에테르가 적외선 복사열을 강하게 흡수한다는 실험 결과를 발표했다. 대기는 태양열을 통과시키지만 행성에서 방출되는 열이 우주로 빠져나가는 것은 막아 지표에 열이 쌓이는 경향이 있다고 설명했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — John Tyndall",
+          "url": "https://en.wikipedia.org/wiki/John_Tyndall"
+        }
+      ]
     },
     {
       "id": "science-1896-arrhenius",
@@ -29,7 +72,12 @@
       "title": "Arrhenius, CO2 농도-기온 정량 분석",
       "category": "science",
       "description": "스반테 아레니우스가 대기 중 이산화탄소 농도 변화가 지표 기온에 미치는 영향을 처음으로 정량적으로 계산해 발표했다.",
-      "sources": [{ "title": "Wikipedia — Svante Arrhenius", "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius" }]
+      "sources": [
+        {
+          "title": "Wikipedia — Svante Arrhenius",
+          "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius"
+        }
+      ]
     },
     {
       "id": "science-1958-keeling",
@@ -37,7 +85,107 @@
       "title": "Keeling Curve 관측 시작",
       "category": "science",
       "description": "찰스 킬링이 하와이 마우나로아 관측소에서 대기 중 CO2 농도를 연속 측정하기 시작했다. 이후 이어진 관측 기록이 '킬링 곡선'이다.",
-      "sources": [{ "title": "Wikipedia — Keeling Curve", "url": "https://en.wikipedia.org/wiki/Keeling_Curve" }]
+      "sources": [
+        {
+          "title": "Wikipedia — Keeling Curve",
+          "url": "https://en.wikipedia.org/wiki/Keeling_Curve"
+        }
+      ]
+    },
+    {
+      "id": "intl-1972-stockholm-human-environment",
+      "date": "1972-06",
+      "exactDate": "1972-06-05",
+      "title": "스톡홀름 유엔인간환경회의 개최",
+      "category": "international",
+      "description": "환경 문제를 다룬 첫 세계회의인 유엔인간환경회의(UNCHE)가 1972년 6월 5일부터 16일까지 스웨덴 스톡홀름에서 열렸다.",
+      "sources": [
+        {
+          "title": "Wikipedia — Earth Summit",
+          "url": "https://en.wikipedia.org/wiki/Earth_Summit"
+        }
+      ]
+    },
+    {
+      "id": "science-1978-satellite-msu-temperature",
+      "date": "1978-12",
+      "title": "인공위성 마이크로파 대류권 온도 관측 시작",
+      "category": "science",
+      "description": "인공위성에 실린 마이크로파 탐측 장치로 대류권 온도를 추정한 자료를 얻을 수 있게 됐다. 이 자료를 분석한 앨라배마 헌츠빌 대학(UAH) 데이터셋은 1978년부터 2019년까지 하부 대류권 기온이 10년당 0.130°C씩 올랐다고 추정했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 세계 온도 기록",
+          "url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84_%EC%98%A8%EB%8F%84_%EA%B8%B0%EB%A1%9D"
+        }
+      ]
+    },
+    {
+      "id": "science-1979-press-requests-nas-study",
+      "date": "1979-05",
+      "exactDate": "1979-05-22",
+      "title": "백악관, 미국 과학아카데미에 기후모델 검증 요청",
+      "category": "science",
+      "description": "지미 카터 대통령의 과학보좌관 프랭크 프레스가 미국 국립과학아카데미(NAS) 필립 핸들러 회장에게 서한을 보내 기후모델의 과학적 신뢰성을 평가해 달라고 요청했다. 이 요청으로 쥘 차니가 이끄는 연구단이 꾸려졌다.",
+      "sources": [
+        {
+          "title": "Wikipedia — Charney Report",
+          "url": "https://en.wikipedia.org/wiki/Charney_Report"
+        }
+      ]
+    },
+    {
+      "id": "science-1979-charney-woods-hole-assessment",
+      "date": "1979-07",
+      "title": "차니 연구단, 우즈홀 회의서 기후민감도 3±1.5도 평가",
+      "category": "science",
+      "description": "쥘 차니와 과학자 8명이 매사추세츠주 우즈홀에 모여 마나베 슈쿠로와 제임스 핸슨의 모델 등 기후모델을 검토했다. 이 작업을 바탕으로 나온 보고서 'Carbon Dioxide and Climate: A Scientific Assessment'는 CO2 농도가 두 배가 될 때의 평형 기후민감도를 3도(±1.5도)로 추정했고, 상당한 온난화가 일어날 것이라고 결론지었다.",
+      "sources": [
+        {
+          "title": "Wikipedia — Charney Report",
+          "url": "https://en.wikipedia.org/wiki/Charney_Report"
+        }
+      ]
+    },
+    {
+      "id": "korea-1984-central-region-flood",
+      "date": "1984-08",
+      "exactDate": "1984-08-31",
+      "title": "1984년 중부·남부 집중호우와 한강 대홍수",
+      "category": "korea",
+      "description": "1984년 8월 31일부터 9월 4일까지 수도권·강원 등 중부 지방에서 시작해 남부 지방으로 이어진 집중호우로 사망·실종자 189명이 발생했다. 9월 2일 한강 인도교 지점 수위가 11.03m에 이르렀고, 서울 망원동에서는 유수지 펌프장 수문이 붕괴해 약 1만 8,000가구가 침수됐다.",
+      "sources": [
+        {
+          "title": "위키백과 — 1984년 한반도 홍수",
+          "url": "https://ko.wikipedia.org/wiki/1984%EB%85%84_%ED%95%9C%EB%B0%98%EB%8F%84_%ED%99%8D%EC%88%98"
+        }
+      ]
+    },
+    {
+      "id": "intl-1988-toronto-changing-atmosphere",
+      "date": "1988-06",
+      "title": "토론토 '변화하는 대기' 회의 개최",
+      "category": "international",
+      "description": "토론토에서 '변화하는 대기에 관한 회의'가 열렸다. 회의는 기후변화를 중대한 지구적 위험으로 규정하고, 2005년까지 온실가스 배출을 20% 줄일 것을 촉구했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — Senate Hearing of James E. Hansen (1988)",
+          "url": "https://en.wikipedia.org/wiki/Senate_Hearing_of_James_E._Hansen_%281988%29"
+        }
+      ]
+    },
+    {
+      "id": "science-1988-hansen-senate-testimony",
+      "date": "1988-06",
+      "exactDate": "1988-06-23",
+      "title": "제임스 핸슨, 미 상원서 지구온난화 증언",
+      "category": "science",
+      "description": "NASA 고다드 우주연구소(GISS) 소장 제임스 핸슨이 미국 상원 에너지·천연자원위원회 청문회에서 증언했다. 1988년 기온이 관측 이래 가장 높으며, 온난화와 온실효과의 인과관계를 높은 신뢰도로 말할 수 있다고 밝혔다. 이 증언으로 인위적 기후변화가 미국 정치와 언론의 주요 의제가 됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — Senate Hearing of James E. Hansen (1988)",
+          "url": "https://en.wikipedia.org/wiki/Senate_Hearing_of_James_E._Hansen_%281988%29"
+        }
+      ]
     },
     {
       "id": "science-1988-ipcc",
@@ -45,16 +193,40 @@
       "title": "IPCC 설립",
       "category": "science",
       "description": "세계기상기구(WMO)와 유엔환경계획(UNEP)이 기후변화의 과학적 근거를 평가하기 위해 IPCC(기후변화에 관한 정부간 협의체)를 설립했다.",
-      "sources": [{ "title": "IPCC 공식 사이트", "url": "https://www.ipcc.ch/" }]
+      "sources": [
+        {
+          "title": "IPCC 공식 사이트",
+          "url": "https://www.ipcc.ch/"
+        }
+      ]
     },
     {
-      "id": "science-2018-sr15",
-      "date": "2018-10",
-      "exactDate": "2018-10-08",
-      "title": "IPCC 1.5도 특별보고서",
-      "category": "science",
-      "description": "인천 송도에서 열린 IPCC 총회에서 지구 평균기온 상승을 1.5도로 억제해야 하는 이유와 경로를 담은 특별보고서가 채택됐다.",
-      "sources": [{ "title": "IPCC SR1.5", "url": "https://www.ipcc.ch/sr15/" }]
+      "id": "korea-1990-han-river-great-flood",
+      "date": "1990-09",
+      "exactDate": "1990-09-09",
+      "title": "1990년 한강 대홍수",
+      "category": "korea",
+      "description": "9월 9일부터 12일까지 한강 유역에 집중호우가 내려 중부지방 평균 강우량이 452mm에 달했다. 12일 새벽 행주대교 부근 일산제가 무너져 고양군 일대가 침수됐다. 사망 126명, 실종 37명, 이재민 187,265명이 발생했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 1990년 한강 대홍수",
+          "url": "https://ko.wikipedia.org/wiki/1990%EB%85%84_%ED%95%9C%EA%B0%95_%EB%8C%80%ED%99%8D%EC%88%98"
+        }
+      ]
+    },
+    {
+      "id": "korea-1991-disaster-admin-transfer",
+      "date": "1991-04",
+      "exactDate": "1991-04-23",
+      "title": "재해대책 업무, 건설부에서 내무부로 이관",
+      "category": "korea",
+      "description": "1990년 한강 대홍수 때 일산제가 무너진 뒤 재해관리체계가 논란이 됐다. 정부조직법 개정에 따른 후속 조직개편으로 재해대책 업무가 건설부에서 내무부로 이관됐다.",
+      "sources": [
+        {
+          "title": "위키백과 — 1990년 한강 대홍수",
+          "url": "https://ko.wikipedia.org/wiki/1990%EB%85%84_%ED%95%9C%EA%B0%95_%EB%8C%80%ED%99%8D%EC%88%98"
+        }
+      ]
     },
     {
       "id": "intl-1992-unfccc",
@@ -63,7 +235,19 @@
       "title": "UNFCCC 채택",
       "category": "international",
       "description": "리우 지구정상회의에서 기후변화 대응을 위한 국제 협력의 기본 틀인 유엔기후변화협약(UNFCCC)이 채택됐다.",
-      "sources": [{ "title": "UNFCCC 공식 사이트", "url": "https://unfccc.int/" }]
+      "sources": [
+        {
+          "title": "UNFCCC 공식 사이트",
+          "url": "https://unfccc.int/"
+        }
+      ]
+    },
+    {
+      "id": "korea-1993-unfccc-ratify",
+      "date": "1993-12",
+      "title": "한국, UNFCCC 비준",
+      "category": "korea",
+      "description": "대한민국이 유엔기후변화협약을 비준하며 국제 기후체제에 공식 참여했다."
     },
     {
       "id": "intl-1995-cop1",
@@ -74,13 +258,86 @@
       "description": "독일 베를린에서 UNFCCC의 첫 당사국총회가 열려 이후 매년 이어지는 COP 체제가 시작됐다."
     },
     {
+      "id": "abroad-1997-us-senate-resolution-98",
+      "date": "1997-07",
+      "title": "미국 상원, 결의안 98호 통과",
+      "category": "abroad",
+      "description": "미국 상원이 결의안 98호를 통과시켰다. 다른 선진국이 같은 의무를 지지 않거나 경제에 심각한 피해를 주는 온실가스 의무 감축 조약은 비준하지 않는다는 내용이다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2008 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2008_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
       "id": "intl-1997-kyoto-adopted",
       "date": "1997-12",
       "exactDate": "1997-12-11",
       "title": "교토의정서 채택",
       "category": "international",
       "description": "일본 교토에서 선진국의 온실가스 감축 목표를 법적으로 규정한 교토의정서가 채택됐다.",
-      "sources": [{ "title": "Wikipedia — Kyoto Protocol", "url": "https://en.wikipedia.org/wiki/Kyoto_Protocol" }]
+      "sources": [
+        {
+          "title": "Wikipedia — Kyoto Protocol",
+          "url": "https://en.wikipedia.org/wiki/Kyoto_Protocol"
+        }
+      ]
+    },
+    {
+      "id": "intl-2001-cop7-marrakesh-accords",
+      "date": "2001-11",
+      "exactDate": "2001-11-10",
+      "title": "COP7, 마라케시 합의 채택",
+      "category": "international",
+      "description": "모로코 마라케시에서 열린 제7차 당사국총회(COP7)에서 교토의정서의 세부 운영규칙을 담은 결정문 묶음인 '마라케시 합의'가 마련됐다. 배출권거래·청정개발체제(CDM)·공동이행의 운영규칙과 의무 준수 체제가 포함됐다. 이 합의로 각국이 교토의정서를 비준할 수 있는 여건이 갖춰졌다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2001 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2001_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2002-kyoto-ratify",
+      "date": "2002-11",
+      "title": "한국, 교토의정서 비준",
+      "category": "korea",
+      "description": "한국이 교토의정서를 비준했다. 당시 개발도상국 지위였던 한국은 의무감축국에서는 제외됐다."
+    },
+    {
+      "id": "intl-2002-cop8-delhi-declaration",
+      "date": "2002-11",
+      "exactDate": "2002-11-01",
+      "title": "COP8 뉴델리, 델리 각료선언 채택",
+      "category": "international",
+      "description": "2002년 10월 23일부터 11월 1일까지 인도 뉴델리에서 제8차 당사국총회(COP8)가 열렸다. 총회는 선진국의 기술 이전과 개발도상국의 기후변화 피해 최소화 노력을 촉구하는 델리 각료선언을 채택했고, 협약 제6조에 관한 뉴델리 작업계획도 승인했다. 교토의정서 발효 요건을 채우려면 러시아의 비준이 필요했지만 러시아는 결정을 미뤘다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2002 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2002_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "disaster-2003-europe-heatwave",
+      "date": "2003-08",
+      "title": "2003년 유럽 폭염",
+      "category": "disaster",
+      "description": "유럽을 덮친 기록적 폭염으로 수만 명이 목숨을 잃었다. 이후 유럽 각국의 폭염 대응 체계를 바꾼 계기가 됐다."
+    },
+    {
+      "id": "intl-2004-cop10-buenos-aires-plan",
+      "date": "2004-12",
+      "title": "COP10, 부에노스아이레스 행동계획 채택",
+      "category": "international",
+      "description": "아르헨티나 부에노스아이레스에서 열린 제10차 UNFCCC 당사국총회(COP10)에서 개발도상국의 기후변화 적응을 돕기 위한 부에노스아이레스 행동계획이 채택됐다. 당사국들은 교토의정서 1차 공약기간이 끝나는 2012년 이후의 감축 의무 배분 방식에 대한 논의도 시작했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2004 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2004_United_Nations_Climate_Change_Conference"
+        }
+      ]
     },
     {
       "id": "intl-2005-kyoto-enforced",
@@ -91,113 +348,18 @@
       "description": "채택된 지 약 7년 만에 교토의정서가 국제법으로서 효력을 갖기 시작했다."
     },
     {
-      "id": "intl-2009-copenhagen",
-      "date": "2009-12",
-      "exactDate": "2009-12-18",
-      "title": "코펜하겐 COP15",
-      "category": "international",
-      "description": "법적 구속력 있는 후속 합의를 목표로 했으나, 정치적 선언인 '코펜하겐 합의(Copenhagen Accord)'에 그쳤다."
-    },
-    {
-      "id": "intl-2015-paris",
-      "date": "2015-12",
-      "exactDate": "2015-12-12",
-      "title": "파리협정 채택",
-      "category": "international",
-      "description": "모든 당사국이 참여하는 보편적 기후체제인 파리협정이 채택됐다. 산업화 이전 대비 기온 상승을 2도, 가능하면 1.5도로 억제하는 것이 목표다.",
-      "sources": [{ "title": "Wikipedia — Paris Agreement", "url": "https://en.wikipedia.org/wiki/Paris_Agreement" }]
-    },
-    {
-      "id": "intl-2021-cop26-article6",
-      "date": "2021-11",
-      "exactDate": "2021-11-13",
-      "title": "COP26, 6조(탄소시장) 세부규칙 합의",
-      "category": "international",
-      "description": "글래스고 COP26에서 국가 간 탄소시장 거래를 규정하는 파리협정 6조의 세부 이행규칙이 6년 만에 타결됐다."
-    },
-    {
-      "id": "intl-2023-first-gst",
-      "date": "2023-12",
-      "exactDate": "2023-12-13",
-      "title": "첫 전지구 이행점검(Global Stocktake)",
-      "category": "international",
-      "description": "두바이 COP28에서 파리협정 이행 상황을 처음으로 종합 점검하고, 화석연료로부터의 전환을 언급한 합의문이 채택됐다."
-    },
-    {
-      "id": "korea-1993-unfccc-ratify",
-      "date": "1993-12",
-      "title": "한국, UNFCCC 비준",
+      "id": "korea-2005-yangyang-wildfire",
+      "date": "2005-04",
+      "exactDate": "2005-04-04",
+      "title": "강원 양양 산불, 낙산사 전소",
       "category": "korea",
-      "description": "대한민국이 유엔기후변화협약을 비준하며 국제 기후체제에 공식 참여했다."
-    },
-    {
-      "id": "korea-2002-kyoto-ratify",
-      "date": "2002-11",
-      "title": "한국, 교토의정서 비준",
-      "category": "korea",
-      "description": "한국이 교토의정서를 비준했다. 당시 개발도상국 지위였던 한국은 의무감축국에서는 제외됐다."
-    },
-    {
-      "id": "korea-2009-bau30",
-      "date": "2009-11",
-      "title": "2020 BAU 대비 30% 감축 목표",
-      "category": "korea",
-      "description": "정부가 2020년 온실가스 배출전망치(BAU) 대비 30%를 감축하겠다는 자발적 목표를 제시했다."
-    },
-    {
-      "id": "korea-2015-kets",
-      "date": "2015-01",
-      "exactDate": "2015-01-01",
-      "title": "배출권거래제(K-ETS) 시행",
-      "category": "korea",
-      "description": "한국이 국가 단위 배출권거래제를 아시아 최초로 시행하며 온실가스 총량 규제를 시작했다."
-    },
-    {
-      "id": "korea-2018-heatwave",
-      "date": "2018-08",
-      "exactDate": "2018-08-01",
-      "title": "기록적 폭염",
-      "category": "korea",
-      "description": "강원 홍천이 41.0도를 기록하는 등 관측 이래 최악의 폭염이 한반도를 덮쳤다."
-    },
-    {
-      "id": "korea-2020-carbon-neutral",
-      "date": "2020-10",
-      "exactDate": "2020-10-28",
-      "title": "2050 탄소중립 선언",
-      "category": "korea",
-      "description": "정부가 국회 시정연설에서 2050년까지 탄소중립을 달성하겠다고 공식 선언했다."
-    },
-    {
-      "id": "korea-2021-ndc40",
-      "date": "2021-10",
-      "exactDate": "2021-10-18",
-      "title": "2030 NDC 상향(40% 감축) 확정",
-      "category": "korea",
-      "description": "2030년까지 온실가스를 2018년 대비 40% 감축하는 상향된 국가온실가스감축목표(NDC)가 확정됐다."
-    },
-    {
-      "id": "korea-2022-framework-act",
-      "date": "2022-03",
-      "exactDate": "2022-03-25",
-      "title": "탄소중립기본법 시행",
-      "category": "korea",
-      "description": "탄소중립 목표를 법제화한 '기후위기 대응을 위한 탄소중립·녹색성장 기본법'이 시행됐다."
-    },
-    {
-      "id": "korea-2024-constitutional-ruling",
-      "date": "2024-08",
-      "exactDate": "2024-08-29",
-      "title": "헌재, 탄소중립기본법 헌법불합치 결정",
-      "category": "korea",
-      "description": "헌법재판소가 2031년 이후 감축목표를 법률에 정하지 않은 탄소중립기본법 조항에 헌법불합치를 결정했다. 아시아 최초의 기후소송 인용 사례로 꼽힌다."
-    },
-    {
-      "id": "disaster-2003-europe-heatwave",
-      "date": "2003-08",
-      "title": "2003년 유럽 폭염",
-      "category": "disaster",
-      "description": "유럽을 덮친 기록적 폭염으로 수만 명이 목숨을 잃었다. 이후 유럽 각국의 폭염 대응 체계를 바꾼 계기가 됐다."
+      "description": "2005년 4월 4일 밤 강원도 양양군에서 난 산불이 4월 6일까지 이어지며 강현면·양양읍 일대 산림 973헥타르를 태웠다. 이재민이 800명 넘게 나왔고, 국가사적 낙산사가 전소되면서 보물이던 낙산사 동종도 소실됐다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2005년 양양 산불",
+          "url": "https://ko.wikipedia.org/wiki/2005%EB%85%84_%EC%96%91%EC%96%91_%EC%82%B0%EB%B6%88"
+        }
+      ]
     },
     {
       "id": "disaster-2005-katrina",
@@ -208,6 +370,599 @@
       "description": "미국 뉴올리언스를 강타한 허리케인 카트리나로 1800명 이상이 숨지고 대규모 도시 침수가 발생했다."
     },
     {
+      "id": "intl-2005-cop11-montreal-action-plan",
+      "date": "2005-12",
+      "title": "몬트리올 COP11, 교토의정서 연장 협상 개시 합의",
+      "category": "international",
+      "description": "캐나다 몬트리올에서 제11차 UNFCCC 당사국총회(COP11)와 제1차 교토의정서 당사국회의(MOP1)가 열렸다. 참가국들은 2012년 만료되는 교토의정서를 연장하고 더 깊은 온실가스 감축을 협상하는 '몬트리올 행동계획'에 합의했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2005 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2005_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2006-cop12-nairobi-adaptation",
+      "date": "2006-11",
+      "title": "나이로비 COP12, 적응 5개년 작업계획 채택",
+      "category": "international",
+      "description": "2006년 11월 6~17일 케냐 나이로비에서 제12차 당사국총회(COP12)와 교토의정서 제2차 당사국회의(MOP2)가 열렸다. 당사국들은 개발도상국의 기후변화 적응을 지원하는 5개년 작업계획을 채택하고, 적응기금의 절차와 운영 방식에 합의했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2006 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2006_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "science-2008-srren-scoping-approved",
+      "date": "2008-04",
+      "title": "IPCC, 재생에너지 특별보고서(SRREN) 작성 승인",
+      "category": "science",
+      "description": "IPCC가 부다페스트 본회의에서 '재생가능한 에너지 자원과 기후변화 완화' 특별보고서(SRREN) 작성을 승인했다. 이 보고서는 제3실무그룹 보고서를 심층적으로 다루는 특별보고서로 기획됐다.",
+      "sources": [
+        {
+          "title": "위키백과 — SRREN",
+          "url": "https://ko.wikipedia.org/wiki/SRREN"
+        }
+      ]
+    },
+    {
+      "id": "intl-2008-cop14-poznan",
+      "date": "2008-12",
+      "exactDate": "2008-12-12",
+      "title": "포즈난 COP14 폐막",
+      "category": "international",
+      "description": "폴란드 포즈난에서 제14차 UNFCCC 당사국총회(COP14)와 제4차 교토의정서 당사국회의(CMP4)가 열렸고, 180여 개국이 참석했다. 교토의정서 후속 체제 협상이 핵심 의제였으며, 적응기금에 더 쉽게 접근할 수 있게 하는 결정이 내려졌다. 당사국들은 2020년 감축 목표와 조치를 2009년 2월 중순까지 제출하기로 합의했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2008 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2008_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2009-mongolia-afforestation-mou",
+      "date": "2009-04",
+      "title": "한국광해관리공단, 몽골 조림사업 MOU 체결",
+      "category": "korea",
+      "description": "한국광해관리공단이 몽골 투브 주 정부와 광해 복구를 위한 조림사업 양해각서를 체결했다. 공단은 1만ha 규모의 조림지를 무상으로 제공받아 50년간 쓸 수 있게 됐고, 사업 결과에 따라 50만ha까지 넓히기로 했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 황사",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%82%AC"
+        }
+      ]
+    },
+    {
+      "id": "science-2009-hansen-mountaintop-arrest",
+      "date": "2009-06",
+      "exactDate": "2009-06-23",
+      "title": "핸슨, 산정제거 채광 반대 시위 중 체포",
+      "category": "science",
+      "description": "제임스 핸슨이 웨스트버지니아주 롤리 카운티에서 열린 산정제거(mountaintop removal) 석탄 채광 반대 시위에서 시위대 30명과 함께 체포됐다. 그는 오바마 대통령에게 산정제거 채광 폐지를 요구했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — James Hansen",
+          "url": "https://en.wikipedia.org/wiki/James_Hansen"
+        }
+      ]
+    },
+    {
+      "id": "korea-2009-bau30",
+      "date": "2009-11",
+      "title": "2020 BAU 대비 30% 감축 목표",
+      "category": "korea",
+      "description": "정부가 2020년 온실가스 배출전망치(BAU) 대비 30%를 감축하겠다는 자발적 목표를 제시했다."
+    },
+    {
+      "id": "intl-2009-copenhagen",
+      "date": "2009-12",
+      "exactDate": "2009-12-18",
+      "title": "코펜하겐 COP15",
+      "category": "international",
+      "description": "법적 구속력 있는 후속 합의를 목표로 했으나, 정치적 선언인 '코펜하겐 합의(Copenhagen Accord)'에 그쳤다."
+    },
+    {
+      "id": "intl-2010-cop16-cancun-agreements",
+      "date": "2010-12",
+      "title": "COP16 칸쿤 합의 채택",
+      "category": "international",
+      "description": "멕시코 칸쿤에서 열린 제16차 당사국총회(COP16)에서 칸쿤 합의가 채택됐다. 산업화 이전 대비 기온 상승을 2°C 아래로 억제하는 장기 목표를 인정하고 1.5°C 강화 검토 필요성을 명시했으며, 녹색기후기금(GCF)과 기술 메커니즘, 칸쿤 적응 프레임워크 설립을 결정했다. 선진국은 2020년까지 연간 1000억 달러를 공동 조성한다는 목표를 약속했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2010 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2010_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2011-chuncheon-landslide",
+      "date": "2011-07",
+      "exactDate": "2011-07-27",
+      "title": "춘천 신북읍 천전리 산사태",
+      "category": "korea",
+      "description": "강원 춘천시 신북읍 천전리에서 산사태가 일어나 13명이 사망하고 26명이 부상했다. 펜션에 머물던 인하대학교 발명 캠프 참가 학생 10명과 관광객 2명, 주민 1명이 숨졌다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2011년 춘천 산사태",
+          "url": "https://ko.wikipedia.org/wiki/2011%EB%85%84_%EC%B6%98%EC%B2%9C_%EC%82%B0%EC%82%AC%ED%83%9C"
+        }
+      ]
+    },
+    {
+      "id": "science-2011-keystone-white-house-protest",
+      "date": "2011-08",
+      "title": "키스톤 송유관 반대 백악관 시위, 1,252명 체포",
+      "category": "science",
+      "description": "2011년 8~9월 2주간 백악관 앞에서 키스톤 송유관 확장에 반대하는 시위가 열려 제임스 핸슨을 포함해 1,252명이 체포됐다. 이 송유관은 캐나다 애서배스카 오일샌드의 합성원유를 멕시코만으로 운송하려는 것이었다.",
+      "sources": [
+        {
+          "title": "Wikipedia — James Hansen",
+          "url": "https://en.wikipedia.org/wiki/James_Hansen"
+        }
+      ]
+    },
+    {
+      "id": "intl-2011-cop17-durban-platform",
+      "date": "2011-12",
+      "exactDate": "2011-12-11",
+      "title": "COP17 더반 플랫폼 합의",
+      "category": "international",
+      "description": "남아프리카공화국 더반에서 열린 제17차 당사국총회(COP17)가 '강화된 행동을 위한 더반 플랫폼'에 합의했다. 모든 국가가 참여하는 법적 구속력 있는 새 협정의 조건을 2015년까지 정하고 2020년에 발효하기로 했다. 중국·인도 같은 개발도상국과 교토의정서를 비준하지 않은 미국이 처음으로 포함됐고, 그 사이에는 교토의정서를 연장하기로 했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2011 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2011_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2012-cop18-doha",
+      "date": "2012-11",
+      "exactDate": "2012-11-26",
+      "title": "카타르 도하 COP18 개최",
+      "category": "international",
+      "description": "기후변화에 관한 유엔 기본협약 제18차 당사국총회(COP18)가 카타르 도하에서 열렸다. 교토의정서 제8차 당사국회의도 함께 열렸고, 회의는 2012년 12월 8일까지 이어졌다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2012년 유엔 기후 변화 회의",
+          "url": "https://ko.wikipedia.org/wiki/2012%EB%85%84_%EC%9C%A0%EC%97%94_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94_%ED%9A%8C%EC%9D%98"
+        }
+      ]
+    },
+    {
+      "id": "science-2013-hansen-keystone-arrest-2013",
+      "date": "2013-02",
+      "exactDate": "2013-02-13",
+      "title": "핸슨, 키스톤 송유관 반대 시위로 재차 체포",
+      "category": "science",
+      "description": "제임스 핸슨이 백악관 앞 키스톤 송유관 확장 반대 시위에서 대릴 해나, 로버트 F. 케네디 주니어와 함께 다시 체포됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — James Hansen",
+          "url": "https://en.wikipedia.org/wiki/James_Hansen"
+        }
+      ]
+    },
+    {
+      "id": "science-2013-nuclear-prevented-mortality-study",
+      "date": "2013-03",
+      "title": "원자력의 사망·배출 회피 효과 논문 발표",
+      "category": "science",
+      "description": "카레차와 핸슨이 'Environmental Science & Technology'에 원자력 발전의 사망·온실가스 회피 효과를 분석한 논문을 발표했다. 1971~2009년 화석연료 대신 원자력을 써서 대기오염 사망 180만 명과 이산화탄소 환산 640억 톤의 배출을 피했다고 추정했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — James Hansen",
+          "url": "https://en.wikipedia.org/wiki/James_Hansen"
+        }
+      ]
+    },
+    {
+      "id": "intl-2013-cop19-warsaw",
+      "date": "2013-11",
+      "exactDate": "2013-11-11",
+      "title": "바르샤바 제19차 당사국총회(COP19) 개최",
+      "category": "international",
+      "description": "유엔기후변화협약 제19차 당사국총회(COP19)가 2013년 11월 11일부터 22일까지 폴란드 바르샤바에서 열렸다. 교토의정서 제9차 당사국회의를 겸했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2013년 유엔 기후 변화 회의",
+          "url": "https://ko.wikipedia.org/wiki/2013%EB%85%84_%EC%9C%A0%EC%97%94_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94_%ED%9A%8C%EC%9D%98"
+        }
+      ]
+    },
+    {
+      "id": "korea-2014-kori-2-rain-shutdown",
+      "date": "2014-08",
+      "exactDate": "2014-08-25",
+      "title": "폭우로 고리원전 2호기 가동 중단",
+      "category": "korea",
+      "description": "한국수력원자력이 폭우로 고리원전 2호기의 가동을 중단했다고 밝혔다. 폭우로 원전이 멈춘 것은 국내 원전 사상 처음이었다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2014년 8월 한국 남부 집중호우",
+          "url": "https://ko.wikipedia.org/wiki/2014%EB%85%84_8%EC%9B%94_%ED%95%9C%EA%B5%AD_%EB%82%A8%EB%B6%80_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0"
+        }
+      ]
+    },
+    {
+      "id": "intl-2014-cop20-lima",
+      "date": "2014-12",
+      "title": "페루 리마 COP20 개최",
+      "category": "international",
+      "description": "페루 리마에서 제20차 유엔기후변화협약 당사국총회(COP20)와 제10차 교토의정서 당사국회의(CMP10)가 열렸다. 각국 대표단은 2015년 파리 회의를 앞두고 전 지구적 기후 합의를 위한 협상을 벌였다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2014 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2014_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2015-kets",
+      "date": "2015-01",
+      "exactDate": "2015-01-01",
+      "title": "배출권거래제(K-ETS) 시행",
+      "category": "korea",
+      "description": "한국이 국가 단위 배출권거래제를 아시아 최초로 시행하며 온실가스 총량 규제를 시작했다."
+    },
+    {
+      "id": "korea-2015-indc-bau37",
+      "date": "2015-06",
+      "exactDate": "2015-06-30",
+      "title": "한국, 2030 BAU 대비 37% 감축 목표(INDC) 결정",
+      "category": "korea",
+      "description": "한국 정부가 COP21을 앞두고 2030년 배출전망(BAU) 8억 5060만 톤 CO2 대비 37%를 감축하는 국가 온실가스 감축목표(INDC)를 결정했다. 원전 증설이 감축 방안에 포함돼 논란이 됐다. 2020년 목표였던 BAU 대비 30% 감축안보다 후퇴했다는 비판도 받았다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2015년 유엔 기후 변화 회의",
+          "url": "https://ko.wikipedia.org/wiki/2015%EB%85%84_%EC%9C%A0%EC%97%94_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94_%ED%9A%8C%EC%9D%98"
+        }
+      ]
+    },
+    {
+      "id": "intl-2015-paris",
+      "date": "2015-12",
+      "exactDate": "2015-12-12",
+      "title": "파리협정 채택",
+      "category": "international",
+      "description": "모든 당사국이 참여하는 보편적 기후체제인 파리협정이 채택됐다. 산업화 이전 대비 기온 상승을 2도, 가능하면 1.5도로 억제하는 것이 목표다.",
+      "sources": [
+        {
+          "title": "Wikipedia — Paris Agreement",
+          "url": "https://en.wikipedia.org/wiki/Paris_Agreement"
+        }
+      ]
+    },
+    {
+      "id": "intl-2016-paris-agreement-in-force",
+      "date": "2016-11",
+      "exactDate": "2016-11-04",
+      "title": "파리협정 발효",
+      "category": "international",
+      "description": "2015년 채택된 파리협정이 발효됐다. 당사국은 국가결정기여(NDC)로 각자의 감축 노력을 정하고 이행 보고서를 제출한다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2016 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2016_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2016-cop22-african-summit",
+      "date": "2016-11",
+      "exactDate": "2016-11-16",
+      "title": "COP22 계기 아프리카 정상회의 개최",
+      "category": "international",
+      "description": "COP22 기간 중 마라케시에서 아프리카 정상 약 30명이 참석한 정상회의가 열렸다. 지구온난화에 가장 취약한 지역인 아프리카의 입장에서 기후 협상을 주로 논의했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2016 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2016_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "abroad-2016-first-climate-emergency-declaration",
+      "date": "2016-12",
+      "title": "지방정부의 첫 기후 비상 선언",
+      "category": "abroad",
+      "description": "한 지방정부가 처음으로 기후 비상사태를 선언했다. 2022년 5월 기준 39개국 2,100개 이상의 지방정부가 기후 비상사태를 선포했으며, 이들 관할 구역의 인구는 10억 명이 넘는다.",
+      "sources": [
+        {
+          "title": "위키백과 — 기후 비상 선언",
+          "url": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%9B%84_%EB%B9%84%EC%83%81_%EC%84%A0%EC%96%B8"
+        }
+      ]
+    },
+    {
+      "id": "disaster-2017-sekisei-lagoon-coral-death",
+      "date": "2017-01",
+      "title": "일본 최대 산호초 세키세이 라군 70% 폐사 발표",
+      "category": "disaster",
+      "description": "일본 환경성이 오키나와 세키세이 라군 산호의 70%가 백화로 죽었다고 발표했다. 류큐 제도 산호초는 2016년 여름 해수 온도 상승으로 극심한 열 스트레스와 광범위한 백화를 겪었다.",
+      "sources": [
+        {
+          "title": "위키백과 — 일본의 기후 변화",
+          "url": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8%EC%9D%98_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94"
+        }
+      ]
+    },
+    {
+      "id": "korea-2017-cheongju-record-rainfall",
+      "date": "2017-07",
+      "exactDate": "2017-07-16",
+      "title": "청주 하루 290mm 집중호우",
+      "category": "korea",
+      "description": "충청북도 청주시에 하루 새 최고 290mm의 장맛비가 내려 곳곳에서 침수 피해가 발생했다. 1995년 이후 22년 만의 최대 폭우로 기록됐다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2017년 한국 중부 집중호우",
+          "url": "https://ko.wikipedia.org/wiki/2017%EB%85%84_%ED%95%9C%EA%B5%AD_%EC%A4%91%EB%B6%80_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0"
+        }
+      ]
+    },
+    {
+      "id": "korea-2017-incheon-flash-flood",
+      "date": "2017-07",
+      "exactDate": "2017-07-23",
+      "title": "인천 등 수도권 집중호우 침수",
+      "category": "korea",
+      "description": "수도권에 폭우가 내려 인천 일대에 시간당 최대 92mm의 비가 쏟아졌다. 선로 침수로 경인선 인천~부평역 구간 전동차 운행이 중단됐고, 제2외곽순환도로 일부 구간 통행이 차단됐다. 인천의 한 주택 지하에서 90대 노인이 고립돼 숨졌다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2017년 한국 중부 집중호우",
+          "url": "https://ko.wikipedia.org/wiki/2017%EB%85%84_%ED%95%9C%EA%B5%AD_%EC%A4%91%EB%B6%80_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0"
+        }
+      ]
+    },
+    {
+      "id": "abroad-2017-americas-pledge-cop23",
+      "date": "2017-11",
+      "title": "미국 지방정부, COP23서 '아메리카의 약속' 발표",
+      "category": "abroad",
+      "description": "제리 브라운 캘리포니아 주지사와 마이클 블룸버그 전 뉴욕시장이 이끄는 미국 지방정부 대표단이 COP23에서 '아메리카의 약속(America's Pledge)'을 발표했다. 트럼프 대통령의 파리협정 탈퇴 의사 표명 이후에도 미국의 감축 목표 이행 노력이 이어지고 있음을 보고하는 내용이다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2017 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2017_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "abroad-2017-syria-joins-paris",
+      "date": "2017-11",
+      "title": "시리아, 파리협정 서명 발표",
+      "category": "abroad",
+      "description": "COP23 기간 중 시리아가 파리협정에 서명하겠다고 발표했다. 이로써 협정을 거부한 국가는 미국만 남게 됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2017 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2017_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2017-cop23-gender-action-plan",
+      "date": "2017-11",
+      "title": "COP23, 성평등 행동계획·지역공동체·원주민 플랫폼 확정",
+      "category": "international",
+      "description": "COP23 당사국들이 성평등 행동계획(Gender Action Plan)과 지역공동체·원주민 플랫폼을 확정했다. 기후협상에서 소외돼 온 집단의 참여를 늘리기 위한 장치다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2017 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2017_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2017-insuresilience-global-partnership",
+      "date": "2017-11",
+      "title": "인슈레질리언스 글로벌 파트너십 출범",
+      "category": "international",
+      "description": "COP23 기간 중 독일 연방경제협력개발부(BMZ)가 1억 2500만 달러를 출연해 기후·재난 위험 금융·보험 파트너십인 '인슈레질리언스 글로벌 파트너십'을 출범시켰다. 취약계층에 저렴한 보험과 금융 보호를 제공하는 것이 목적이다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2017 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2017_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2017-koronivia-agriculture-work",
+      "date": "2017-11",
+      "title": "COP23, 코로니비아 농업 공동작업 합의",
+      "category": "international",
+      "description": "COP23 당사국들이 6년간의 교착 끝에 농업 부문 결정에 합의했다. 농업 부문의 감축·적응 전략을 마련하는 '코로니비아 농업 공동작업'이 설립됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2017 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2017_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2017-powering-past-coal-alliance",
+      "date": "2017-11",
+      "title": "탈석탄동맹(PPCA) 출범",
+      "category": "international",
+      "description": "COP23 기간 중 영국·캐나다·뉴질랜드 등 30개국이 탈석탄동맹(Powering Past Coal Alliance)을 출범시켰다. 2030년까지 발전 부문에서 석탄을 퇴출하는 것이 목표다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2017 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2017_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2017-cop23-talanoa-dialogue",
+      "date": "2017-11",
+      "exactDate": "2017-11-17",
+      "title": "COP23, 피지 이행 모멘텀·탈라노아 대화 출범",
+      "category": "international",
+      "description": "독일 본에서 열린 COP23이 '피지 이행 모멘텀(Fiji Momentum for Implementation)'을 채택하고 폐막했다. 2018년까지 파리협정을 운영하기 위한 단계를 정리했고, 2020년까지 각국 NDC 상향을 돕는 탈라노아 대화를 출범시켰다. 군소도서개발국(피지)이 처음으로 의장국을 맡은 총회였다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2017 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2017_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2018-heatwave",
+      "date": "2018-08",
+      "exactDate": "2018-08-01",
+      "title": "기록적 폭염",
+      "category": "korea",
+      "description": "강원 홍천이 41.0도를 기록하는 등 관측 이래 최악의 폭염이 한반도를 덮쳤다."
+    },
+    {
+      "id": "science-2018-sr15",
+      "date": "2018-10",
+      "exactDate": "2018-10-08",
+      "title": "IPCC 1.5도 특별보고서",
+      "category": "science",
+      "description": "인천 송도에서 열린 IPCC 총회에서 지구 평균기온 상승을 1.5도로 억제해야 하는 이유와 경로를 담은 특별보고서가 채택됐다.",
+      "sources": [
+        {
+          "title": "IPCC SR1.5",
+          "url": "https://www.ipcc.ch/sr15/"
+        }
+      ]
+    },
+    {
+      "id": "science-2018-wmo-co2-405ppm",
+      "date": "2018-11",
+      "title": "WMO, 2017년 대기 CO2 405ppm 발표",
+      "category": "science",
+      "description": "세계기상기구(WMO)가 2017년 대기 중 이산화탄소 농도가 405ppm에 이르렀다는 보고서를 냈다. 300만~500만 년 동안 나타나지 않았던 수준이다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2018 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2018_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "abroad-2018-japan-adaptation-act",
+      "date": "2018-12",
+      "title": "일본 기후변화적응법 시행",
+      "category": "abroad",
+      "description": "일본에서 기후변화적응법이 시행됐다. 도도부현과 기초자치단체 등 지방정부가 각자의 기후 변화 적응 계획을 수립하고 지역 기후 변화 적응 센터를 설립하도록 했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 일본의 기후 변화",
+          "url": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8%EC%9D%98_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94"
+        }
+      ]
+    },
+    {
+      "id": "science-2018-thunberg-cop24-speech",
+      "date": "2018-12",
+      "exactDate": "2018-12-04",
+      "title": "그레타 툰베리, COP24 연설",
+      "category": "science",
+      "description": "15세 기후활동가 그레타 툰베리가 COP24 총회에서 연설했다. 기후변화를 인류가 겪은 가장 큰 위기라고 규정하고 배출을 최대한 빨리 멈춰야 한다고 말했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2018 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2018_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2018-cop24-paris-rulebook",
+      "date": "2018-12",
+      "exactDate": "2018-12-15",
+      "title": "COP24, 파리협정 세부이행규칙 합의",
+      "category": "international",
+      "description": "폴란드 카토비체에서 열린 제24차 당사국총회(COP24)에서 파리협정 이행 규칙이 합의됐다. 각국이 온실가스 감축 노력을 측정하고 보고하는 방식을 담았다. 기존 감축 약속 상향, 개도국 재정 지원, 이중계산 방지 문구 같은 쟁점은 다음 회의로 넘어갔다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2018 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2018_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2019-goseong-sokcho-wildfire",
+      "date": "2019-04",
+      "title": "고성·속초 산불 발생",
+      "category": "korea",
+      "description": "2019년 4월 강원도 고성·속초 일대에서 산불이 났다. 봄철 영동 지방에 부는 강하고 건조한 바람인 양간지풍을 타고 불이 빠르게 번졌다.",
+      "sources": [
+        {
+          "title": "위키백과 — 양간지풍",
+          "url": "https://ko.wikipedia.org/wiki/%EC%96%91%EA%B0%84%EC%A7%80%ED%92%8D"
+        }
+      ]
+    },
+    {
+      "id": "abroad-2019-wales-climate-emergency",
+      "date": "2019-04",
+      "exactDate": "2019-04-29",
+      "title": "웨일스 정부, 기후 비상사태 선포",
+      "category": "abroad",
+      "description": "웨일스 정부가 기후 비상사태를 선포했다. 이 선언은 2019년 5월 1일 웨일스 의회에서 통과됐고, 원문은 이를 세계 최초의 공식 기후 비상사태 선포로 기록한다.",
+      "sources": [
+        {
+          "title": "위키백과 — 기후 비상 선언",
+          "url": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%9B%84_%EB%B9%84%EC%83%81_%EC%84%A0%EC%96%B8"
+        }
+      ]
+    },
+    {
+      "id": "intl-2020-cop26-covid-postponement",
+      "date": "2020-04",
+      "title": "COP26, 코로나19로 1년 연기",
+      "category": "international",
+      "description": "2020년 11월 글래스고에서 열릴 예정이던 COP26이 코로나19 대유행으로 2021년으로 연기됐다. 개최 예정지였던 SEC 센터는 2020년 5월 코로나19 임시 병원으로 전환됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2021 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2021_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2020-goseong-wildfire",
+      "date": "2020-05",
+      "exactDate": "2020-05-01",
+      "title": "강원도 고성 산불 발생",
+      "category": "korea",
+      "description": "강원도 고성군 토성면 도원리의 한 주택에서 난 불이 동해안 양간지풍을 타고 인근 야산으로 옮겨붙었다. 불은 다음 날 오전에 진화됐다. 인명피해는 없었으나 주택과 시설물 6개 동이 전소되고 산림 85ha가 소실됐다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2020년 고성 산불",
+          "url": "https://ko.wikipedia.org/wiki/2020%EB%85%84_%EA%B3%A0%EC%84%B1_%EC%82%B0%EB%B6%88"
+        }
+      ]
+    },
+    {
+      "id": "korea-2020-climate-flood-task-force",
+      "date": "2020-08",
+      "exactDate": "2020-08-18",
+      "title": "환경부 기후위기 대응 홍수대책기획단 출범",
+      "category": "korea",
+      "description": "정부가 2020년 집중호우를 기후위기로 인한 재난으로 보고 홍수관리기준을 강화하기로 했다. 환경부는 기후위기 대응 홍수대책기획단을 출범시켜 댐·하수도·홍수예보체계·물관리계획이 미래 홍수 규모에 맞는지 점검하도록 했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2020년 한국 집중호우",
+          "url": "https://ko.wikipedia.org/wiki/2020%EB%85%84_%ED%95%9C%EA%B5%AD_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0"
+        }
+      ]
+    },
+    {
+      "id": "korea-2020-carbon-neutral",
+      "date": "2020-10",
+      "exactDate": "2020-10-28",
+      "title": "2050 탄소중립 선언",
+      "category": "korea",
+      "description": "정부가 국회 시정연설에서 2050년까지 탄소중립을 달성하겠다고 공식 선언했다."
+    },
+    {
       "id": "disaster-2021-nw-heat-dome",
       "date": "2021-06",
       "exactDate": "2021-06-29",
@@ -216,11 +971,146 @@
       "description": "캐나다 리튼이 49.6도를 기록하는 등 북미 서부에 유례없는 폭염이 발생했다."
     },
     {
+      "id": "korea-2021-ndc40",
+      "date": "2021-10",
+      "exactDate": "2021-10-18",
+      "title": "2030 NDC 상향(40% 감축) 확정",
+      "category": "korea",
+      "description": "2030년까지 온실가스를 2018년 대비 40% 감축하는 상향된 국가온실가스감축목표(NDC)가 확정됐다."
+    },
+    {
+      "id": "intl-2021-cop26-coal-phaseout-pledge",
+      "date": "2021-11",
+      "title": "COP26, 40여 개국 탈석탄 서약",
+      "category": "international",
+      "description": "COP26에서 40개 이상 국가가 석탄에서 벗어나겠다고 서약했다. 한국·칠레·폴란드·우크라이나·인도네시아·베트남 등은 주요 경제국은 2030년대, 빈곤국은 2040년대에 석탄을 단계적으로 퇴출하기로 했다. 최대 석탄 사용국인 중국·인도·미국은 참여하지 않았다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2021 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2021_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "science-2021-glasgow-climate-justice-march",
+      "date": "2021-11",
+      "exactDate": "2021-11-06",
+      "title": "COP26 기후정의 행동의 날 대규모 행진",
+      "category": "science",
+      "description": "COP26 기간 중 '기후정의를 위한 세계 행동의 날'에 글래스고에서 약 10만 명이 행진했다. 2003년 이라크전 반대 시위 이후 글래스고 최대 규모 시위였으며, 100개국에서 300건의 시위가 열렸다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2021 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2021_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "science-2021-cat-cop26-warming-projection",
+      "date": "2021-11",
+      "exactDate": "2021-11-09",
+      "title": "기후행동추적, 현 정책으로 2.7도 상승 전망",
+      "category": "science",
+      "description": "기후행동추적(Climate Action Tracker)이 COP26 기간에 현 정책대로라면 금세기 말 지구 기온이 2.7도 오른다고 발표했다. 2030년 서약만 이행하면 2.4도, 장기 목표까지 이행하면 2.1도, 발표된 모든 목표를 완전히 이행하면 1.8도로 추산했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2021 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2021_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2021-us-china-glasgow-declaration",
+      "date": "2021-11",
+      "exactDate": "2021-11-10",
+      "title": "미·중, COP26 기후협력 합의",
+      "category": "international",
+      "description": "미국과 중국이 COP26에서 탄소 배출을 줄이기 위한 협력 틀에 합의했다. 메탄 배출 감축, 석탄 사용의 단계적 퇴출, 산림 보호 강화에 협력하는 내용이다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2021 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2021_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2021-cop26-article6",
+      "date": "2021-11",
+      "exactDate": "2021-11-13",
+      "title": "COP26, 6조(탄소시장) 세부규칙 합의",
+      "category": "international",
+      "description": "글래스고 COP26에서 국가 간 탄소시장 거래를 규정하는 파리협정 6조의 세부 이행규칙이 6년 만에 타결됐다."
+    },
+    {
+      "id": "intl-2021-glasgow-climate-pact",
+      "date": "2021-11",
+      "exactDate": "2021-11-13",
+      "title": "COP26 글래스고 기후합의 채택",
+      "category": "international",
+      "description": "영국 글래스고에서 열린 COP26에서 197개 당사국이 글래스고 기후합의에 합의했다. 1.5도 억제를 위해 2030년까지 CO2 배출을 2010년 대비 45% 줄여야 한다고 명시했다. 감축 없는 석탄발전의 '단계적 감축(phase down)'을 담아, 석탄 사용 감축을 명시한 첫 기후 합의가 됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2021 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2021_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2022-east-coast-wildfire",
+      "date": "2022-03",
+      "exactDate": "2022-03-04",
+      "title": "울진·삼척 등 동해안 대형 산불 발생",
+      "category": "korea",
+      "description": "2022년 3월 4일 경북 울진에서 난 산불이 강풍을 타고 강원 삼척까지 번졌다. 같은 시기 강릉·동해 등 동해안 여러 곳에서도 산불이 잇따랐다. 산림 14,022헥타르가 탔고, 정부는 울진·삼척을 특별재난지역으로 선포했다. 불은 3월 13일 213시간여 만에 모두 꺼졌다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2022년 동해안 산불",
+          "url": "https://ko.wikipedia.org/wiki/2022%EB%85%84_%EB%8F%99%ED%95%B4%EC%95%88_%EC%82%B0%EB%B6%88"
+        }
+      ]
+    },
+    {
+      "id": "korea-2022-framework-act",
+      "date": "2022-03",
+      "exactDate": "2022-03-25",
+      "title": "탄소중립기본법 시행",
+      "category": "korea",
+      "description": "탄소중립 목표를 법제화한 '기후위기 대응을 위한 탄소중립·녹색성장 기본법'이 시행됐다."
+    },
+    {
       "id": "disaster-2022-pakistan-flood",
       "date": "2022-08",
       "title": "파키스탄 대홍수",
       "category": "disaster",
       "description": "국토의 3분의 1이 물에 잠기고 3300만 명의 이재민이 발생한 기록적 몬순 홍수가 파키스탄을 강타했다."
+    },
+    {
+      "id": "korea-2022-seoul-semi-basement-phaseout",
+      "date": "2022-08",
+      "exactDate": "2022-08-10",
+      "title": "서울시, 반지하 주택 일몰제 추진 발표",
+      "category": "korea",
+      "description": "집중호우로 반지하 주택 거주자가 숨진 뒤 서울시가 지하·반지하 거주를 금지하는 건축법 개정을 추진하기로 했다. 서울 시내 지하·반지하 주택 20만 호를 장기적으로 모두 없애는 '반지하 주택 일몰제'도 함께 추진하기로 했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2022년 한국 중부 집중호우",
+          "url": "https://ko.wikipedia.org/wiki/2022%EB%85%84_%ED%95%9C%EA%B5%AD_%EC%A4%91%EB%B6%80_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0"
+        }
+      ]
+    },
+    {
+      "id": "intl-2022-cop27-loss-damage-fund",
+      "date": "2022-11",
+      "exactDate": "2022-11-20",
+      "title": "COP27, 손실과 피해 기금 설립 합의",
+      "category": "international",
+      "description": "이집트 샤름 엘 셰이크에서 2022년 11월 6일부터 20일까지 제27차 유엔 기후변화 당사국총회(COP27)가 열렸다. 190개국에서 대표단 약 35,000명이 참석했다. 이 회의에서 최초의 손실과 피해 기금을 만들기로 했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2022년 유엔 기후변화 회의",
+          "url": "https://ko.wikipedia.org/wiki/2022%EB%85%84_%EC%9C%A0%EC%97%94_%EA%B8%B0%ED%9B%84%EB%B3%80%ED%99%94_%ED%9A%8C%EC%9D%98"
+        }
+      ]
     },
     {
       "id": "disaster-2023-canada-wildfire",
@@ -237,22 +1127,442 @@
       "description": "'케르베로스', '카론'으로 불린 폭염이 남유럽을 덮치며 체감온도 48도를 넘는 지역이 속출했다."
     },
     {
+      "id": "intl-2023-eu-china-climate-dialogue",
+      "date": "2023-07",
+      "title": "제4차 EU-중국 고위급 환경·기후 대화 개최",
+      "category": "international",
+      "description": "중국과 유럽연합이 제4차 EU-중국 고위급 환경·기후 대화를 열고 기후변화, 생물다양성 감소, 오염 대응에서 협력을 이어가기로 했다. 양측은 쿤밍-몬트리올 세계 생물다양성 프레임워크를 이행하고, 2024년까지 플라스틱 오염에 관한 국제 합의를 이루기로 했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 중국의 기후 변화",
+          "url": "https://ko.wikipedia.org/wiki/%EC%A4%91%EA%B5%AD%EC%9D%98_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94"
+        }
+      ]
+    },
+    {
+      "id": "intl-2023-kerry-china-visit",
+      "date": "2023-07",
+      "title": "존 케리, 미중 기후협력 위해 중국 방문",
+      "category": "international",
+      "description": "존 케리가 미국과 중국의 기후 협력을 위해 중국을 방문했다. 메탄 감축 약속, 중국의 석탄 의존도 감소, 기후 금융 등의 분야에서 일부 진전이 있었다.",
+      "sources": [
+        {
+          "title": "위키백과 — 중국의 기후 변화",
+          "url": "https://ko.wikipedia.org/wiki/%EC%A4%91%EA%B5%AD%EC%9D%98_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94"
+        }
+      ]
+    },
+    {
+      "id": "korea-2023-goesan-dam-overflow",
+      "date": "2023-07",
+      "exactDate": "2023-07-15",
+      "title": "괴산댐 43년 만의 월류",
+      "category": "korea",
+      "description": "집중호우로 유입량이 최대 방류량을 넘어서면서 충북 괴산댐에서 물이 댐 위로 넘치는 월류가 3시간가량 이어졌다. 1980년 7월 이후 43년 만에 국내 댐에서 폭우로 월류가 일어난 두 번째 사례다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2023년 여름 한반도 집중호우",
+          "url": "https://ko.wikipedia.org/wiki/2023%EB%85%84_%EC%97%AC%EB%A6%84_%ED%95%9C%EB%B0%98%EB%8F%84_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0"
+        }
+      ]
+    },
+    {
+      "id": "korea-2023-osong-underpass-flood",
+      "date": "2023-07",
+      "exactDate": "2023-07-15",
+      "title": "오송 궁평2지하차도 침수 사고",
+      "category": "korea",
+      "description": "충북 청주시 오송읍에서 미호강이 범람하고 제방이 무너지면서 궁평2지하차도가 침수됐다. 차량 17대가 물에 잠겨 14명이 사망했다. 부실한 임시 둑과 사전 교통 통제가 이뤄지지 않은 점이 원인으로 지적됐다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2023년 여름 한반도 집중호우",
+          "url": "https://ko.wikipedia.org/wiki/2023%EB%85%84_%EC%97%AC%EB%A6%84_%ED%95%9C%EB%B0%98%EB%8F%84_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0"
+        }
+      ]
+    },
+    {
+      "id": "korea-2023-special-disaster-zone",
+      "date": "2023-07",
+      "exactDate": "2023-07-19",
+      "title": "집중호우 피해 13개 지자체 특별재난지역 선포",
+      "category": "korea",
+      "description": "윤석열 대통령이 집중호우 피해를 입은 경북 예천군, 충남 공주시·논산시, 충북 청주시, 전북 익산시 등 13개 지자체를 특별재난지역으로 선포했다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2023년 여름 한반도 집중호우",
+          "url": "https://ko.wikipedia.org/wiki/2023%EB%85%84_%EC%97%AC%EB%A6%84_%ED%95%9C%EB%B0%98%EB%8F%84_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0"
+        }
+      ]
+    },
+    {
+      "id": "science-2023-gst-synthesis-report",
+      "date": "2023-09",
+      "title": "첫 전지구 이행점검 종합보고서 공개",
+      "category": "science",
+      "description": "COP28 개막을 앞두고 유엔이 첫 전지구 이행점검(Global Stocktake) 보고서를 공개했다. 보고서는 세계가 파리협정 목표를 달성할 경로에 있지 않으며 화석연료 단계적 퇴출이 필요하다고 결론지었다. 1.5도 억제를 위해서는 전 세계 배출량이 2025년까지 정점에 도달해야 한다고 밝혔다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2023 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "abroad-2023-japan-carbon-credit-market",
+      "date": "2023-10",
+      "exactDate": "2023-10-11",
+      "title": "일본 탄소 크레딧 시장 출범",
+      "category": "abroad",
+      "description": "일본이 탄소 크레딧 시장을 출범시켰다.",
+      "sources": [
+        {
+          "title": "위키백과 — 일본의 기후 변화",
+          "url": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8%EC%9D%98_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94"
+        }
+      ]
+    },
+    {
+      "id": "intl-2023-us-china-renewables-tripling",
+      "date": "2023-11",
+      "exactDate": "2023-11-15",
+      "title": "미·중, 2030년 재생에너지 3배 확대 합의",
+      "category": "international",
+      "description": "미국과 중국이 2030년까지 전 세계 재생에너지 사용을 3배로 늘리는 데 합의했다고 발표했다. 합의에는 온실가스 대응 약속이 포함됐으나 중국의 석탄발전 퇴출 약속은 빠졌다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2023 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2023-cop28-loss-damage-fund",
+      "date": "2023-11",
+      "exactDate": "2023-11-30",
+      "title": "COP28, 손실과 피해 기금 운영 합의",
+      "category": "international",
+      "description": "COP28 개막 첫날, 기후변화 피해를 입은 가난한 나라를 지원하는 '손실과 피해' 기금 운영에 합의했다. 기금은 세계은행이 관리하며, 첫날 아랍에미리트·독일 각 1억 달러 등 총 4억 3천만 달러가 약정됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2023 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2023-azerbaijan-cop29-host",
+      "date": "2023-12",
+      "title": "아제르바이잔, COP29 개최국 선정",
+      "category": "international",
+      "description": "주요 석유·가스 생산국인 아제르바이잔이 COP29 개최국으로 발표됐다. 인권 상황과 화석연료 산업 의존을 이유로 개최지 선정에 대한 비판이 제기됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2024 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2024_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "abroad-2023-tropical-forest-forever-facility",
+      "date": "2023-12",
+      "exactDate": "2023-12-01",
+      "title": "브라질, 열대림 영구 보전기금(TFFF) 제안",
+      "category": "abroad",
+      "description": "COP28에서 브라질 환경·재무장관이 열대림 보전 재원을 마련하기 위한 국제 투자기구인 '열대림 영구 보전기금(Tropical Forest Forever Facility)'을 제안했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2023 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2023-cop28-nuclear-tripling",
+      "date": "2023-12",
+      "exactDate": "2023-12-03",
+      "title": "COP28, 원자력 3배 확대 선언",
+      "category": "international",
+      "description": "COP28에서 2050년까지 원자력 발전 용량을 2020년 대비 3배로 늘리는 선언이 발표됐다. 25개국이 서명했으며, 서명국은 원자력 용량 확대 정책을 추진하기로 했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2023 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "science-2023-al-jaber-no-science",
+      "date": "2023-12",
+      "exactDate": "2023-12-03",
+      "title": "COP28 의장 '화석연료 퇴출 과학적 근거 없음' 발언 보도",
+      "category": "science",
+      "description": "가디언이 석유회사 ADNOC CEO인 술탄 알자베르 COP28 의장이 11월 21일 온라인 행사에서 1.5도 달성을 위한 화석연료 퇴출에 과학적 근거가 없다고 발언한 사실을 보도했다. 알자베르는 다음 날 기자회견에서 과학을 존중하며 화석연료 퇴출은 불가피하다고 해명했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2023 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2023-first-gst",
+      "date": "2023-12",
+      "exactDate": "2023-12-13",
+      "title": "첫 전지구 이행점검(Global Stocktake)",
+      "category": "international",
+      "description": "두바이 COP28에서 파리협정 이행 상황을 처음으로 종합 점검하고, 화석연료로부터의 전환을 언급한 합의문이 채택됐다."
+    },
+    {
+      "id": "abroad-2024-climate-finance-action-fund",
+      "date": "2024-07",
+      "title": "아제르바이잔, 기후재원행동기금(CFAF) 설립 발표",
+      "category": "abroad",
+      "description": "아제르바이잔이 화석연료 생산국과 기업으로부터 연 10억 달러 출연을 받아 재생에너지와 개발도상국 기후 사업에 투자하는 기후재원행동기금(CFAF) 설립을 발표했다. 수입의 20%는 재난 지원용 신속대응기금에 배정하기로 했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2024 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2024_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "korea-2024-constitutional-ruling",
+      "date": "2024-08",
+      "exactDate": "2024-08-29",
+      "title": "헌재, 탄소중립기본법 헌법불합치 결정",
+      "category": "korea",
+      "description": "헌법재판소가 2031년 이후 감축목표를 법률에 정하지 않은 탄소중립기본법 조항에 헌법불합치를 결정했다. 아시아 최초의 기후소송 인용 사례로 꼽힌다."
+    },
+    {
+      "id": "abroad-2024-png-boycotts-cop29",
+      "date": "2024-10",
+      "exactDate": "2024-10-31",
+      "title": "파푸아뉴기니, COP29 불참 선언",
+      "category": "abroad",
+      "description": "파푸아뉴기니 외무장관 저스틴 트카첸코가 COP29를 \"완전한 시간 낭비\"라고 부르며 회의 전면 불참을 발표했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2024 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2024_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2024-cop29-article6-4-carbon-market",
+      "date": "2024-11",
+      "title": "COP29, 파리협정 6.4조 탄소시장 체계 채택",
+      "category": "international",
+      "description": "COP29에서 파리협정 6.4조에 따른 체계가 채택돼 국제 탄소배출권 거래를 규율하는 유엔 기구가 설립됐다. 배출권 거래를 기록하는 유엔 등록부와 관련 규칙도 합의됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2024 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2024_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2024-cop29-ncqg-300bn",
+      "date": "2024-11",
+      "title": "COP29, 연 3천억 달러 신규 기후재원 목표 합의",
+      "category": "international",
+      "description": "아제르바이잔 바쿠에서 열린 COP29에서 선진국이 2035년까지 매년 3,000억 달러의 기후재원을 마련하는 신규 집단 정량 목표(NCQG)에 합의했다. 기존 연 1,000억 달러 목표를 대체하는 것이다. 개발도상국들은 최소 5,000억 달러를 요구하며 액수가 부족하다고 비판했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2024 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2024_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "science-2024-cop29-fossil-lobbyists-report",
+      "date": "2024-11",
+      "exactDate": "2024-11-15",
+      "title": "COP29 화석연료 로비스트 1,773명 참석 보고서 발표",
+      "category": "science",
+      "description": "시민단체 연합 KBPO가 COP29에 화석연료 업계 로비스트 최소 1,773명이 출입 허가를 받았다고 발표했다. 이는 아제르바이잔·브라질·튀르키예를 제외한 모든 국가 대표단보다 많은 규모이며, 기후 취약 10개국 대표단 합계 1,033명을 웃돌았다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2024 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2024_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
       "id": "disaster-2024-hottest-year",
       "date": "2024-12",
       "title": "관측 이래 가장 더운 해",
       "category": "disaster",
       "description": "2024년이 산업화 이전 대비 평균 1.5도를 넘어선 첫 해이자, 관측 사상 가장 더운 해로 확인됐다."
     },
+    {
+      "id": "abroad-2025-japan-2035-2040-targets",
+      "date": "2025-02",
+      "exactDate": "2025-02-18",
+      "title": "일본, 2035·2040 온실가스 감축 목표 설정",
+      "category": "abroad",
+      "description": "일본이 온실가스 배출을 2035년까지 60%, 2040년까지 73% 감축하는 새 목표를 설정했다. 2040년까지 전력의 50%를 재생에너지로 공급한다는 목표도 함께 발표했다.",
+      "sources": [
         {
+          "title": "위키백과 — 일본의 기후 변화",
+          "url": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8%EC%9D%98_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94"
+        }
+      ]
+    },
+    {
+      "id": "korea-2025-daegu-buk-gu-wildfire",
+      "date": "2025-04",
+      "exactDate": "2025-04-28",
+      "title": "대구 북구 함지산 산불",
+      "category": "korea",
+      "description": "대구광역시 북구 노곡동 함지산에서 산불이 발생해 산림청이 대응 3단계를 발령했다. 주민 2200여 명이 대피했고, 이튿날인 4월 29일 주불이 진화됐다. 인명피해는 없었지만 약 260헥타르가 산불 영향을 받았다.",
+      "sources": [
+        {
+          "title": "위키백과 — 2025년 대구 북구 산불",
+          "url": "https://ko.wikipedia.org/wiki/2025%EB%85%84_%EB%8C%80%EA%B5%AC_%EB%B6%81%EA%B5%AC_%EC%82%B0%EB%B6%88"
+        }
+      ]
+    },
+    {
       "id": "korea-2035-ndc",
       "date": "2025-11",
       "exactDate": "2025-1-10",
       "title": "한국 정부 2035 NDC 발표",
-      "category": "korea", 
-      "description" : "한국 정부가 2035년까지 2018년 대비 온실가스를 53~61% 감축하는 2035 "
-    
+      "category": "korea",
+      "description": "한국 정부가 2035년까지 2018년 대비 온실가스를 53~61% 감축하는 2035 "
     },
+    {
+      "id": "abroad-2025-us-absent-cop30",
+      "date": "2025-11",
+      "title": "미국, COP 사상 처음으로 대표단 불참",
+      "category": "abroad",
+      "description": "트럼프 행정부가 기후외교 담당 부서를 폐쇄한 뒤, 미국이 COP 역사상 처음으로 COP30에 대표단을 보내지 않았다. 개빈 뉴섬 캘리포니아 주지사가 선출직 공직자 100여 명으로 꾸린 별도 대표단을 이끌었다.",
+      "sources": [
         {
+          "title": "Wikipedia — 2025 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2025-climate-information-integrity-declaration",
+      "date": "2025-11",
+      "title": "기후변화 정보 무결성 선언 발표",
+      "category": "international",
+      "description": "기후 허위정보 문제가 처음으로 COP 의제에 올랐고, COP30에서 '기후변화 정보 무결성 선언'이 발표됐다. 서명국은 기후변화 관련 허위·오도 정보에 대응하기로 했으며, 처음에는 브라질·캐나다·프랑스·독일 등 12개국이 서명했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2025 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2025-compliance-carbon-markets-coalition",
+      "date": "2025-11",
+      "title": "규제 탄소시장 개방 연합 출범",
+      "category": "international",
+      "description": "브라질이 COP30에서 중국, EU 등과 함께 '규제 탄소시장 개방 연합(Open Coalition on Compliance Carbon Markets)'을 출범시켰다. 여러 나라의 탄소시장을 통합하고 비회원국에 국경탄소조정을 적용하자는 브라질 제안을 추진하기 위한 연합이며, 11월 15일까지 18개국이 가입했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2025 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2025-cop30-belem-outcome",
+      "date": "2025-11",
+      "title": "COP30 벨렝 합의 채택",
+      "category": "international",
+      "description": "브라질 벨렝에서 열린 제30차 당사국총회(COP30)가 일정을 넘겨 타협안을 채택하고 폐막했다. 2035년까지 적응 재원 3배 확대, 정의로운 전환 메커니즘(JTM) 출범, 적응 진척을 추적하는 59개 전지구 지표 채택이 담겼다. 80여 개국이 요구한 화석연료 퇴출 약속은 공식 문서에 들어가지 않았다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2025 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2025-cop30-fossil-roadmaps",
+      "date": "2025-11",
+      "title": "COP30 의장, 화석연료 전환 자발적 로드맵 발표",
+      "category": "international",
+      "description": "사우디아라비아·UAE 등 산유국이 구속력 있는 화석연료 퇴출 문구를 막자, 앙드레 코헤아 두 라구 COP30 의장이 유엔 공식 절차 밖에서 자발적 로드맵 두 개를 발표했다. 하나는 화석연료 전환, 다른 하나는 산림 파괴 중단과 복원을 다룬다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2025 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2025-cop31-host-compromise",
+      "date": "2025-11",
+      "title": "COP31 개최국 튀르키예로 합의",
+      "category": "international",
+      "description": "COP30 기간 중 일주일간 협상한 끝에 튀르키예와 호주가 COP31 개최국 문제에 합의했다. 튀르키예가 개최국을 맡고, 호주 기후변화에너지부 장관 크리스 보언이 협상 의장을 맡기로 했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2026 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2025-cop31-turkey-australia",
+      "date": "2025-11",
+      "title": "COP31 튀르키예 개최·호주 협상 주재 합의",
+      "category": "international",
+      "description": "COP31 유치를 두고 경쟁하던 호주와 튀르키예가 타협했다. 튀르키예가 COP31을 개최하고, 호주가 정부 간 협상을 이끌기로 했다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2025 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "intl-2025-tropical-forest-forever-facility",
+      "date": "2025-11",
+      "title": "열대림 영구보전기금(TFFF) 출범",
+      "category": "international",
+      "description": "COP30 의장국 브라질이 벨렝에서 1,250억 달러 규모의 혼합금융 투자기금인 열대림 영구보전기금(TFFF)을 출범시켰다. 열대 국가의 산림 보전에 대한 보상금을 2026년부터 지급하는 것이 목표다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2025 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "science-2025-un-ndc-estimate-revised",
+      "date": "2025-11",
+      "exactDate": "2025-11-11",
+      "title": "유엔, 2035년 배출 감축 전망 12%로 수정",
+      "category": "science",
+      "description": "유엔이 113개 당사국의 국가결정기여(NDC)를 받은 뒤, 2035년까지 전 세계 배출량 감축 전망치를 2019년 대비 12%로 수정했다. 앞서 9월까지 제출된 NDC를 분석했을 때의 전망치는 10%였다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2025 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
+      "id": "science-2026-oecd-100bn-goal-met",
+      "date": "2026-05",
+      "exactDate": "2026-05-21",
+      "title": "OECD, 선진국 연 1천억 달러 기후재원 3년 연속 달성 발표",
+      "category": "science",
+      "description": "OECD는 보고서에서 선진국이 개발도상국에 제공·동원한 기후재원이 2023년 1,328억 달러, 2024년 1,367억 달러였다고 밝혔다. 이로써 연 1,000억 달러 목표가 3년 연속 달성됐다.",
+      "sources": [
+        {
+          "title": "Wikipedia — 2024 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2024_United_Nations_Climate_Change_Conference"
+        }
+      ]
+    },
+    {
       "id": "disaster-2026-nepal-flood",
       "date": "2026-08",
       "exactDate": "2026-08-26",
@@ -261,8 +1571,12 @@
       "image": "/static/images/timeline/2026_nepal.jpeg",
       "imageAlt": "2026년 네팔 대홍수 사진",
       "description": "기후변화로 인해 히말라야의 빙하와 영구동토가 녹아내리며 네팔에서 대홍수가 발생했다. 네팔은 온실가스 배출 책임이 큰 미국, 중국, 인도를 거론했고 '손실과 피해' 기금에 대한 국제적 관심이 높아지고 있다.",
-      "sources": [{ "title": "2026년 네팔 대홍수", "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EB%84%A4%ED%8C%94_%ED%99%8D%EC%88%98" }]
+      "sources": [
+        {
+          "title": "2026년 네팔 대홍수",
+          "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EB%84%A4%ED%8C%94_%ED%99%8D%EC%88%98"
+        }
+      ]
     }
-    
   ]
 }
