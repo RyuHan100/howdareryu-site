@@ -56,18 +56,36 @@
     var img = modal.querySelector(".tl-modal-image")
     var meta = modal.querySelector(".tl-modal-meta")
     var title = modal.querySelector(".tl-modal-title")
+    var locationEl = modal.querySelector(".tl-modal-location")
     var desc = modal.querySelector(".tl-modal-desc")
     var links = modal.querySelector(".tl-modal-links")
+    var tagsEl = modal.querySelector(".tl-modal-tags")
+    var status = modal.querySelector(".tl-modal-status")
+    var prevBtn = modal.querySelector(".tl-modal-prev")
+    var nextBtn = modal.querySelector(".tl-modal-next")
+    var panel = modal.querySelector(".tl-modal-panel")
     var closeEls = Array.prototype.slice.call(modal.querySelectorAll("[data-tl-close]"))
     var lastFocused = null
+    var currentId = null
+    var closeTimer = null
 
-    function open(id) {
-      var d = detailById[id]
-      if (!d) return
-      lastFocused = document.activeElement
+    // 존재하지 않는 필드는 빈 칸으로 안 남기고 그 요소 자체를 hidden 처리한다(요구사항).
+    // 지금 데이터에는 location/tags 가 없어 항상 hidden 이지만, 나중에 이벤트에 추가되면
+    // 이 함수는 고칠 필요 없이 그대로 표시한다.
+    function fillOrHide(el, text) {
+      if (text) {
+        el.textContent = text
+        el.hidden = false
+      } else {
+        el.textContent = ""
+        el.hidden = true
+      }
+    }
 
+    function render(d) {
       meta.textContent = d.category + " · " + d.date
       title.textContent = d.title
+      fillOrHide(locationEl, d.location)
       desc.textContent = d.description || ""
 
       if (d.image) {
@@ -91,20 +109,94 @@
         links.appendChild(li)
       })
 
+      tagsEl.innerHTML = ""
+      var tags = d.tags || []
+      tagsEl.hidden = tags.length === 0
+      tags.forEach(function (tag) {
+        var li = document.createElement("li")
+        li.textContent = tag
+        tagsEl.appendChild(li)
+      })
+
+      prevBtn.hidden = !d.prevId
+      nextBtn.hidden = !d.nextId
+    }
+
+    function open(id) {
+      var d = detailById[id]
+      if (!d) return
+      lastFocused = document.activeElement
+      currentId = id
+      render(d)
+
+      if (closeTimer) {
+        clearTimeout(closeTimer)
+        closeTimer = null
+      }
       modal.hidden = false
+      // hidden 을 떼자마자 클래스를 붙이면 브라우저가 시작 상태를 못 그리고 바로 최종
+      // 상태로 뛰어버려 슬라이드 트랜지션이 재생되지 않는다 — 한 프레임 쉬고 붙인다.
+      requestAnimationFrame(function () {
+        modal.classList.add("is-open")
+      })
       var closeBtn = modal.querySelector(".tl-modal-close")
       if (closeBtn) closeBtn.focus()
       document.addEventListener("keydown", onKeydown)
     }
 
+    function navigate(dir) {
+      var d = detailById[currentId]
+      if (!d) return
+      var targetId = dir === "prev" ? d.prevId : d.nextId
+      if (!targetId) return
+      var target = detailById[targetId]
+      if (!target) return
+      currentId = targetId
+      render(target)
+      // 화면이 갑자기 안 바뀐 것처럼 보이지 않도록, 이전/다음 사건으로 넘어가면 초점을
+      // 제목으로 옮긴다(스크린리더가 새 사건 제목을 바로 읽는다) — 처음 열 때는 그대로
+      // 닫기 버튼에 초점을 준다(위 open() 참고, 서로 다른 상황이라 다르게 처리한다).
+      title.focus()
+      status.textContent = target.date + " · " + target.title
+    }
+
     function close() {
-      modal.hidden = true
+      modal.classList.remove("is-open")
       document.removeEventListener("keydown", onKeydown)
-      if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus()
+      var reduced =
+        typeof window.matchMedia === "function" &&
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      var finished = false
+      function finish() {
+        if (finished) return // 트랜지션 종료(transitionend)와 안전장치 타이머가 둘 다
+        finished = true // 걸려 있어, 먼저 끝나는 쪽이 실행된 뒤 나머지는 조용히 무시한다.
+        closeTimer = null
+        modal.hidden = true
+        currentId = null
+        if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus()
+      }
+      if (reduced) {
+        finish()
+        return
+      }
+      closeTimer = setTimeout(finish, 250)
+      if (panel) {
+        panel.addEventListener(
+          "transitionend",
+          function once() {
+            panel.removeEventListener("transitionend", once)
+            if (closeTimer) clearTimeout(closeTimer)
+            finish()
+          },
+          { once: true },
+        )
+      }
     }
 
     function onKeydown(e) {
       if (e.key === "Escape") close()
+      else if (e.key === "ArrowLeft") navigate("prev")
+      else if (e.key === "ArrowRight") navigate("next")
     }
 
     events.forEach(function (btn) {
@@ -114,6 +206,12 @@
     })
     closeEls.forEach(function (el) {
       el.addEventListener("click", close)
+    })
+    prevBtn.addEventListener("click", function () {
+      navigate("prev")
+    })
+    nextBtn.addEventListener("click", function () {
+      navigate("next")
     })
   }
 

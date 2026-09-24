@@ -360,50 +360,90 @@
   display: none;
 }
 
-/* ---------- 상세 모달 ----------
-   요구사항: 창을 키우고, 잘리지 않게. gallery-page 라이트박스와 같은 position:fixed 패턴이라
-   .tl-scroll 의 overflow 와 완전히 무관하다(이전 hover 라벨이 overflow 에 잘리던 문제의
-   근본 해결). 내용이 화면보다 길면 패널 안에서 세로 스크롤(넘치는 걸 숨기지 않고 스크롤로
-   전부 보여준다). PC/모바일 모두 vw/vh 기준이라 별도 미디어쿼리 없이 반응형이다. */
+/* ---------- 상세 카드(패널) ----------
+   요구사항: 패널이 타임라인 자체를 밀거나 layout 을 깨면 안 된다 — gallery-page 라이트박스와
+   같은 position:fixed 오버레이라 .tl-scroll 의 overflow·문서 흐름과 완전히 무관하다. 데스크톱은
+   화면 오른쪽에서 슬라이드해 들어오는 드로어(타임라인을 가리지 않고 나란히 볼 수 있다), 모바일은
+   화면 아래에서 올라오는 바텀시트(모바일에서 익숙한 패턴) — 같은 마크업, 같은 열기/닫기 로직을
+   미디어쿼리로만 다르게 배치한다(timeline-interactive.js 참고). 트랜지션은
+   prefers-reduced-motion 이면 아예 안 걸어서 즉시 나타나고 사라진다. */
 .tl-modal {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4vh 4vw;
+  pointer-events: none;
 }
 .tl-modal[hidden] {
   display: none;
+}
+.tl-modal.is-open {
+  pointer-events: auto;
 }
 .tl-modal-backdrop {
   position: absolute;
   inset: 0;
   background: color-mix(in srgb, var(--dark) 88%, transparent);
+  opacity: 0;
+}
+.tl-modal.is-open .tl-modal-backdrop {
+  opacity: 1;
 }
 .tl-modal-panel {
-  position: relative;
-  width: min(760px, 100%);
-  max-height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(420px, 92vw);
+  display: flex;
+  flex-direction: column;
   overflow-y: auto;
   background: var(--light);
-  border: 1px solid color-mix(in srgb, var(--gray) 45%, var(--light));
-  border-radius: 0.6rem;
-  box-shadow: 0 12px 48px color-mix(in srgb, var(--dark) 55%, transparent);
+  border-left: 1px solid color-mix(in srgb, var(--gray) 45%, var(--light));
+  box-shadow: -12px 0 48px color-mix(in srgb, var(--dark) 45%, transparent);
+  transform: translateX(100%);
+}
+.tl-modal.is-open .tl-modal-panel {
+  transform: translateX(0);
+}
+@media (max-width: 800px) {
+  .tl-modal-panel {
+    top: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    max-height: min(82vh, 720px);
+    border-left: none;
+    border-top: 1px solid color-mix(in srgb, var(--gray) 45%, var(--light));
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 0 -12px 48px color-mix(in srgb, var(--dark) 45%, transparent);
+    transform: translateY(100%);
+  }
+  .tl-modal.is-open .tl-modal-panel {
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .tl-modal-backdrop {
+    transition: opacity 0.22s ease;
+  }
+  .tl-modal-panel {
+    transition: transform 0.28s ease;
+  }
 }
 .tl-modal-image {
   display: block;
   width: 100%;
-  max-height: 46vh;
+  max-height: 40vh;
   object-fit: cover;
-  border-radius: 0.6rem 0.6rem 0 0;
+  flex: none;
 }
 .tl-modal-image[hidden] {
   display: none;
 }
 .tl-modal-body {
-  padding: 1.5rem 1.75rem 1.75rem;
+  padding: 3rem 1.5rem 1.5rem;
+  flex: 1 1 auto;
 }
 .tl-modal-meta {
   margin: 0 0 0.35rem;
@@ -411,9 +451,21 @@
   color: var(--gray);
 }
 .tl-modal-title {
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.5rem;
   font-size: 1.4rem;
   line-height: 1.3;
+}
+.tl-modal-title:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 4px;
+}
+.tl-modal-location {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+.tl-modal-location::before {
+  content: "📍 ";
 }
 .tl-modal-desc {
   margin: 0 0 1rem;
@@ -422,7 +474,7 @@
 }
 .tl-modal-links {
   list-style: none;
-  margin: 0;
+  margin: 0 0 1rem;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -430,9 +482,25 @@
 }
 .tl-modal-links:empty {
   display: none;
+  margin: 0;
 }
 .tl-modal-links a {
   color: var(--secondary);
+}
+.tl-modal-tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.tl-modal-tags li {
+  font-size: 0.78rem;
+  color: var(--gray);
+  background: color-mix(in srgb, var(--gray) 14%, var(--light));
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
 }
 .tl-modal-close {
   position: absolute;
@@ -455,4 +523,36 @@
 .tl-modal-close:focus-visible {
   outline: 2px solid var(--tertiary);
   outline-offset: 2px;
+}
+/* ---------- 이전/다음 사건 이동 ---------- */
+.tl-modal-nav {
+  flex: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-top: 1px solid color-mix(in srgb, var(--gray) 30%, var(--light));
+  background: var(--light);
+  position: sticky;
+  bottom: 0;
+}
+.tl-modal-nav button {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--dark);
+  background: none;
+  border: 1px solid color-mix(in srgb, var(--gray) 40%, var(--light));
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+}
+.tl-modal-nav button:hover {
+  border-color: var(--gray);
+}
+.tl-modal-nav button:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
+.tl-modal-nav button[hidden] {
+  visibility: hidden;
 }

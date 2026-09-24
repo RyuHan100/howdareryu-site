@@ -145,10 +145,15 @@ export function renderTimeline(events, categories) {
       )
       .join("")
 
-  // 점 클릭 시 여는 상세 카드용 데이터. 고정(position:fixed) 모달이 읽어서 채우므로
+  // 점 클릭 시 여는 상세 카드용 데이터. 고정(position:fixed) 패널이 읽어서 채우므로
   // 타임라인의 가로 스크롤 영역(overflow) 과 무관하게 항상 화면 안에 꽉 차게 뜬다.
+  // prevId/nextId: dated 가 이미 시간순으로 정렬돼 있으므로(위 sort 참고), 그 순서 그대로
+  // 이전/다음 사건이 된다 — 따로 "관련 사건" 판정 로직을 만들지 않는다. 양 끝은 null.
+  // location/tags: 지금 데이터에는 없는 필드지만, 나중에 이벤트에 추가되면(예: `location:
+  // "파리"`, `tags: ["COP"]`) 별도 코드 수정 없이 그대로 표시되도록 있는 그대로 넘긴다 —
+  // 없으면 null/빈 배열이라 클라이언트가 그 칸을 만들지 않는다(빈 영역을 안 남기는 요구사항).
   const detailById = {}
-  for (const ev of dated) {
+  dated.forEach((ev, i) => {
     detailById[ev.id] = {
       title: ev.title,
       category: labelByKey.get(ev.category) || ev.category,
@@ -157,20 +162,31 @@ export function renderTimeline(events, categories) {
       image: ev.image || null,
       imageAlt: ev.imageAlt || ev.title,
       links: Array.isArray(ev.links) ? ev.links : [],
+      location: ev.location || null,
+      tags: Array.isArray(ev.tags) ? ev.tags : [],
+      prevId: i > 0 ? dated[i - 1].id : null,
+      nextId: i < dated.length - 1 ? dated[i + 1].id : null,
     }
-  }
+  })
 
   const modalHtml =
     `<div class="tl-modal" hidden role="dialog" aria-modal="true" aria-labelledby="tl-modal-title">` +
     `<div class="tl-modal-backdrop" data-tl-close="true"></div>` +
     `<div class="tl-modal-panel">` +
     `<button type="button" class="tl-modal-close" aria-label="닫기" data-tl-close="true">✕</button>` +
+    `<p class="sr-only tl-modal-status" aria-live="polite"></p>` +
     `<img class="tl-modal-image" alt="" hidden>` +
     `<div class="tl-modal-body">` +
     `<p class="tl-modal-meta"></p>` +
-    `<h3 class="tl-modal-title" id="tl-modal-title"></h3>` +
+    `<h3 class="tl-modal-title" id="tl-modal-title" tabindex="-1"></h3>` +
+    `<p class="tl-modal-location" hidden></p>` +
     `<p class="tl-modal-desc"></p>` +
     `<ul class="tl-modal-links"></ul>` +
+    `<ul class="tl-modal-tags" hidden></ul>` +
+    `</div>` +
+    `<div class="tl-modal-nav">` +
+    `<button type="button" class="tl-modal-prev" data-tl-nav="prev">← 이전 사건</button>` +
+    `<button type="button" class="tl-modal-next" data-tl-nav="next">다음 사건 →</button>` +
     `</div>` +
     `</div>` +
     `</div>`
