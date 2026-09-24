@@ -1,0 +1,38 @@
+{
+  "name": "reading-progress",
+  "version": "1.0.0",
+  "description": "본문(article) 기준 읽기 진행률을 화면 맨 위에 얇은 바로 보여준다",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "import": "./dist/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "quartz": {
+    "name": "reading-progress",
+    "displayName": "Reading Progress",
+    "description": "본문(article) 기준 읽기 진행률을 화면 맨 위에 얇은 바로 보여준다",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "components": {
+      "ReadingProgress": {
+        "displayName": "Reading Progress",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 0
+      }
+    }
+  }
+}

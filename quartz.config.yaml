@@ -196,7 +196,7 @@ plugins:
         (node) => {
           const folderIcons = {"radar":"📡"};
           const itemIcons = {"radar":"📍","archive":"🔒","timeline":"🕰️","gallery":"🌼"};
-          const plantIcons = {"scribbled-notes/2026-08-04-오빠가-냉장고를-사줬다":"🌱","scribbled-notes/2026-08-24-노동의-우울과-자율성의-훼손":"🌱","scribbled-notes/2026-09-01-토끼풀":"🌱","scribbled-notes/2026-09-20-ai":"🌼","scribbled-notes/그-목소리는-왜":"🌿"};
+          const plantIcons = {"scribbled-notes/2026-08-04-오빠가-냉장고를-사줬다":"🌱","scribbled-notes/2026-09-20-ai":"🌼","scribbled-notes/attachments/2026-09-24-우울과-자율성":"🌱"};
           const defaultFolderIcon = "🪴";
           if (node.isFolder) {
             const name = node.displayName || node.slugSegment || "";
@@ -340,6 +340,24 @@ plugins:
       position: left
       priority: 35
       group: toolbar
+  # 읽기 진행률 바 — 화면 맨 위 얇은 바, <article> 기준 스크롤 진행률. 홈은 긴 글을 "읽는"
+  # 페이지가 아니라서 condition: not-index 로 뺀다(climate histography 처럼 세로 스크롤이
+  # 아닌 시각화 페이지는 존재만 감지해 스크립트에서 숨김 — quartz.config.yaml 에서는 손댈
+  # 필요 없음, plugins/reading-progress/src 주석 참고).
+  - source: ./plugins/reading-progress
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 0
+      condition: not-index
+  # 집중 모드(Focus Mode) 토글 — 좌우 sidebar 숨기고 본문만 넓게. beforeBody 에 두는 이유는
+  # plugins/focus-mode/src/component.js 주석 참고(sidebar 안에 두면 토글이 자기 자신을
+  # 숨겨버려서 다시 못 끈다).
+  - source: ./plugins/focus-mode
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 1
   - source: github:quartz-community/breadcrumbs
     enabled: true
     layout:

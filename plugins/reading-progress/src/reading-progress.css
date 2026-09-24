@@ -1,0 +1,32 @@
+/* 화면 맨 위, 아주 얇게(3px — 요구사항: 미니멀). Quartz 자체의 SPA 이동 로딩 바
+   (quartz/styles/base.scss 의 .navigation-progress, z-index:9999)와 같은 자리(top:0,
+   height:3px)를 쓰지만, z-index 는 그보다 낮게 둔다 — 페이지 이동 중 잠깐 겹치는 순간에는
+   "지금 로딩 중"이라는 신호가 더 중요하므로 로딩 바가 자연스럽게 위에 그려지게 한다. 색은
+   그 로딩 바와 같은 var(--secondary) 를 재사용해서(요구사항: 새 디자인 시스템 금지) 같은
+   시각 언어로 보이게 했다. */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  z-index: 40;
+  pointer-events: none;
+}
+.reading-progress[hidden] {
+  display: none;
+}
+.reading-progress-bar {
+  height: 100%;
+  width: 100%;
+  background: var(--secondary);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+/* scroll 마다 값이 바뀌므로 transform 만 쓴다(레이아웃을 건드리는 width 대신 — 성능 요구사항).
+   부드럽게 따라가는 정도의 짧은 tween 만 reduced-motion 이 아닐 때만 켠다. */
+@media (prefers-reduced-motion: no-preference) {
+  .reading-progress-bar {
+    transition: transform 0.1s linear;
+  }
+}
