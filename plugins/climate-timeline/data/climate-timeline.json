@@ -668,7 +668,7 @@
       "id": "abroad-2016-first-climate-emergency-declaration",
       "date": "2016-12",
       "title": "지방정부의 첫 기후 비상 선언",
-      "category": "abroad",
+      "category": "korea",
       "description": "한 지방정부가 처음으로 기후 비상사태를 선언했다. 2022년 5월 기준 39개국 2,100개 이상의 지방정부가 기후 비상사태를 선포했으며, 이들 관할 구역의 인구는 10억 명이 넘는다.",
       "sources": [
         {
@@ -1263,20 +1263,6 @@
       ]
     },
     {
-      "id": "abroad-2023-tropical-forest-forever-facility",
-      "date": "2023-12",
-      "exactDate": "2023-12-01",
-      "title": "브라질, 열대림 영구 보전기금(TFFF) 제안",
-      "category": "abroad",
-      "description": "COP28에서 브라질 환경·재무장관이 열대림 보전 재원을 마련하기 위한 국제 투자기구인 '열대림 영구 보전기금(Tropical Forest Forever Facility)'을 제안했다.",
-      "sources": [
-        {
-          "title": "Wikipedia — 2023 United Nations Climate Change Conference",
-          "url": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference"
-        }
-      ]
-    },
-    {
       "id": "intl-2023-cop28-nuclear-tripling",
       "date": "2023-12",
       "exactDate": "2023-12-03",
@@ -1492,19 +1478,6 @@
         {
           "title": "Wikipedia — 2025 United Nations Climate Change Conference",
           "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
-        }
-      ]
-    },
-    {
-      "id": "intl-2025-cop31-host-compromise",
-      "date": "2025-11",
-      "title": "COP31 개최국 튀르키예로 합의",
-      "category": "international",
-      "description": "COP30 기간 중 일주일간 협상한 끝에 튀르키예와 호주가 COP31 개최국 문제에 합의했다. 튀르키예가 개최국을 맡고, 호주 기후변화에너지부 장관 크리스 보언이 협상 의장을 맡기로 했다.",
-      "sources": [
-        {
-          "title": "Wikipedia — 2026 United Nations Climate Change Conference",
-          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
         }
       ]
     },
