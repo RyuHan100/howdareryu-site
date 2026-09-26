@@ -84,6 +84,35 @@ async function joinScripts(scripts: string[]): Promise<string> {
 function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentResources) {
   const cfg = ctx.cfg.configuration
 
+  // internal traffic exclusion: visiting with ?internal=1 persists a localStorage flag
+  // that suppresses analytics (currently only the "google" provider below checks it)
+  componentResources.beforeDOMLoaded.push(`
+    try {
+      const params = new URLSearchParams(location.search);
+      if (params.get('internal') === '1') {
+        localStorage.setItem('howdareryu_internal', 'true');
+      }
+      window.__HDR_INTERNAL_TRAFFIC__ = localStorage.getItem('howdareryu_internal') === 'true';
+      ${
+        ctx.argv.serve
+          ? `
+      if (params.get('internal') === '1') {
+        console.info('[howdareryu] Internal traffic exclusion enabled');
+        document.addEventListener('DOMContentLoaded', () => {
+          const banner = document.createElement('div');
+          banner.textContent = 'Internal traffic exclusion enabled';
+          banner.style.cssText = 'position:fixed;bottom:0;left:0;right:0;z-index:99999;background:#111;color:#0f0;font:12px monospace;padding:4px 8px;text-align:center;';
+          document.body.appendChild(banner);
+        });
+      }
+      `
+          : ""
+      }
+    } catch (e) {
+      window.__HDR_INTERNAL_TRAFFIC__ = false;
+    }
+  `)
+
   // popovers
   if (cfg.enablePopovers) {
     componentResources.afterDOMLoaded.push(popoverScript)
@@ -93,23 +122,25 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
   if (cfg.analytics?.provider === "google") {
     const tagId = cfg.analytics.tagId
     componentResources.afterDOMLoaded.push(`
-      const gtagScript = document.createElement('script');
-      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=${tagId}';
-      gtagScript.defer = true;
-      gtagScript.onload = () => {
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-          dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', '${tagId}', { send_page_view: false });
-        gtag('event', 'page_view', { page_title: document.title, page_location: location.href });
-        document.addEventListener('nav', () => {
+      if (!window.__HDR_INTERNAL_TRAFFIC__) {
+        const gtagScript = document.createElement('script');
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=${tagId}';
+        gtagScript.defer = true;
+        gtagScript.onload = () => {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', '${tagId}', { send_page_view: false });
           gtag('event', 'page_view', { page_title: document.title, page_location: location.href });
-        });
-      };
-      
-      document.head.appendChild(gtagScript);
+          document.addEventListener('nav', () => {
+            gtag('event', 'page_view', { page_title: document.title, page_location: location.href });
+          });
+        };
+
+        document.head.appendChild(gtagScript);
+      }
     `)
   } else if (cfg.analytics?.provider === "plausible") {
     const plausibleHost = cfg.analytics.host ?? "https://plausible.io"
