@@ -196,7 +196,7 @@ plugins:
         (node) => {
           const folderIcons = {"radar":"📡"};
           const itemIcons = {"radar":"📍","archive":"🔒","timeline":"🕰️","glossary":"📖","gallery":"🌼"};
-          const plantIcons = {"scribbled-notes/2026-08-04-오빠가-냉장고를-사줬다":"🌱","scribbled-notes/2026-09-20-ai":"🌼","scribbled-notes/attachments/2026-09-24-우울과-자율성":"🌱"};
+          const plantIcons = {"scribbled-notes/2026-08-04-오빠가-냉장고를-사줬다":"🌱","scribbled-notes/2026-08-24-노동의-우울과-자율성의-훼손":"🌱","scribbled-notes/2026-09-20-ai":"🌼"};
           const defaultFolderIcon = "🪴";
           if (node.isFolder) {
             const name = node.displayName || node.slugSegment || "";
