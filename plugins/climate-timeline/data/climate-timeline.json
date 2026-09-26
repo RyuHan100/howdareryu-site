@@ -1550,6 +1550,32 @@
           "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EB%84%A4%ED%8C%94_%ED%99%8D%EC%88%98"
         }
       ]
-    }
+    },
+    {
+        "id": "abroad-germany-2045-coal-phaseout",
+        "date": "2026-09",
+        "exactDate": "2026-09-23",
+        "title": "독일, 2045 '탈화석연료 로드맵' 발표",
+        "category": "abroad",
+        "image": "/static/images/timeline/2026_germany.jpeg",
+        "imageAlt": "2026년 독일 기후 정책 사진",
+        "description": "독일 정부는 늦어도 2045년까지 석탄, 석유, 천연가스 등 화석연료 사용을 중단하기 위한 전략을 담은 '탈화석연료 로드맵(Roadmap for Transitioning Away from Fossil Fuels)'을 발표했다.이번 발표로 독일은 프랑스와 네덜란드에 이어 화석 연료 사용 중단 로드맵을 수립한 세 번째 국가가 됐다.",
+        "sources": [
+          {
+            "title": "강찬수의 에코파일", 
+            "url": "https://ecofile.kr/17/?idx=174754252&bmode=view"}
+        ]
+      },
+    {
+        "id": "korea-2028-총선",
+        "date": "2028-04",
+        "exactDate": "2028-04-12",
+        "title": "제23회 국회의원 총선",
+        "category": "korea",
+        "image": "",
+        "imageAlt": "",
+        "description": "2028년 4월 12일 제23회 국회의원 총선이 치러질 예정이다. '기후 정치'는 얼마나 중요하게 다뤄질까?",
+        "sources": []
+      }
   ]
 }
