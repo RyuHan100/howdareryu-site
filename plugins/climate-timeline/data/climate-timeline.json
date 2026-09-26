@@ -1552,6 +1552,22 @@
       ]
     },
     {
+      "id": "international-2026-unep-limiting-overshoot",
+      "date": "2026-09",
+      "exactDate": "2026-09-02",
+      "title": "유엔환경계획(UNEP) '초과 억제' 보고서 발간",
+      "category": "international",
+      "image": "/static/images/timeline/2026_unep_limiting_overshoot.jpeg",
+      "imageAlt": "2026년 UNEP 초과 억제 보고서 사진",
+      "description": "UNEP가 1.5도 목표 달성이 사실상 불가능하다고 인정하며, '각국의 온실가스 순배출량을 -로 전환하자'는 새로운 전략을 제시했다. 보고서에 따르면, 가장 낙관적인 시나리오상으로도 이번 세기 중반에 1.8도, 현재 각국의 정책이 유지되는 시나리오에선 2.6도로 정점을 찍을 전망이다. ",
+      "sources": [
+        {
+          "title": "UNEP limiting overshoot report",
+          "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance"
+        }
+      ]
+    },
+    {
         "id": "abroad-germany-2045-coal-phaseout",
         "date": "2026-09",
         "exactDate": "2026-09-23",
