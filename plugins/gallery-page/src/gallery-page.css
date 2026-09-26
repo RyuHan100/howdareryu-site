@@ -102,7 +102,8 @@
   fill: var(--color-orange, var(--secondary));
 }
 
-/* 라이트박스: 원본 크기로 크게 보기 */
+/* 라이트박스: 원본 크기로 크게 보기. 그림에만 집중하도록 뒤를 완전히 검게(사용자 요청,
+   2026-09-26 — 테마 변수로는 순수한 검정이 없어서 #000 을 직접 쓴다). */
 .gg-lightbox {
   position: fixed;
   inset: 0;
@@ -110,7 +111,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: color-mix(in srgb, var(--dark) 88%, transparent);
+  background: #000;
+  touch-action: pan-y;
 }
 .gg-lightbox[hidden] {
   display: none;
@@ -129,24 +131,25 @@
   margin: 0;
   text-align: center;
   padding: 0 3rem;
-  color: var(--light);
+  color: #ddd;
   font-size: 0.9rem;
 }
 .gg-lb-close,
 .gg-lb-prev,
 .gg-lb-next {
   position: absolute;
+  z-index: 1;
   font: inherit;
   cursor: pointer;
-  color: var(--light);
-  background: color-mix(in srgb, var(--dark) 45%, transparent);
+  color: #eee;
+  background: rgba(30, 30, 30, 0.7);
   border: none;
   border-radius: 999px;
 }
 .gg-lb-close:hover,
 .gg-lb-prev:hover,
 .gg-lb-next:hover {
-  background: color-mix(in srgb, var(--dark) 65%, transparent);
+  background: rgba(60, 60, 60, 0.9);
 }
 .gg-lb-close {
   top: 1rem;

@@ -395,31 +395,70 @@
   position: relative;
 }
 
+/* 필름스트립: 가운데 한 장 + 양옆에 작고 흐린 그림. 각 슬라이드는 트랙 가운데에 겹쳐 두고
+   gallery-interactive.js 가 붙이는 --pos(가운데로부터 몇 칸, 음수=왼쪽) × --step(한 칸 간격,
+   슬라이드 폭의 배수 — 옆 그림은 작아지므로 1 보다 조금 작게)만큼 옆으로 민다. --slide-w 는 모바일에서 넓게(옆 그림은 가장자리만 보임), PC 에서 좁게(양옆 두 장씩 보임). */
 .gallery-slide-track {
+  --slide-w: 62%;
+  --step: 0.92;
   position: relative;
   width: 100%;
+  height: clamp(220px, 68vw, 320px);
   overflow: hidden;
   border-radius: 0.5rem;
   border: 1px solid color-mix(in srgb, var(--gray) 30%, var(--light));
   background: color-mix(in srgb, var(--color-orange, var(--darkgray)) 6%, var(--light));
+  touch-action: pan-y;
+}
+@media (min-width: 801px) {
+  .gallery-slide-track {
+    --slide-w: 34%;
+    --step: 0.95;
+    height: 340px;
+  }
 }
 
 .gallery-slide {
+  --pos: 0;
   position: absolute;
-  inset: 0;
+  top: 6%;
+  bottom: 6%;
+  left: 50%;
+  width: var(--slide-w);
+  margin: 0;
   display: flex;
   opacity: 0;
   pointer-events: none;
   cursor: pointer;
+  transform: translateX(calc(-50% + var(--pos) * var(--step) * 100%))
+    scale(0.62);
 }
-.gallery-slide.is-active {
+.gallery-slide[data-dist="0"] {
   opacity: 1;
   pointer-events: auto;
+  z-index: 2;
+  transform: translateX(-50%) scale(1);
+}
+.gallery-slide[data-dist="1"] {
+  opacity: 0.5;
+  pointer-events: auto;
   z-index: 1;
+  transform: translateX(calc(-50% + var(--pos) * var(--step) * 100%))
+    scale(0.78);
+}
+.gallery-slide[data-dist="2"] {
+  opacity: 0.22;
+  pointer-events: auto;
+}
+.gallery-slide[data-dist="1"]:hover,
+.gallery-slide[data-dist="2"]:hover {
+  opacity: 0.8;
 }
 @media (prefers-reduced-motion: no-preference) {
   .gallery-slide {
-    transition: opacity 0.9s ease;
+    transition:
+      transform 0.7s ease,
+      opacity 0.7s ease;
   }
 }
 .gallery-slide img {
@@ -427,17 +466,102 @@
   height: 100%;
   object-fit: contain;
   margin: 0;
+  user-select: none;
+}
+.gallery-slide.is-active {
+  cursor: zoom-in;
 }
 .gallery-caption {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: 50%;
+  bottom: 0.4rem;
+  transform: translateX(-50%);
+  max-width: 100%;
   margin: 0;
-  padding: 0.4rem 0.7rem;
-  font-size: 0.85rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.8rem;
   color: var(--light);
   background: color-mix(in srgb, var(--dark) 55%, transparent);
+}
+.gallery-slide:not(.is-active) .gallery-caption {
+  display: none;
+}
+
+/* 크게 보기: 그림에만 집중하도록 뒤를 완전히 검게(사용자 요청, 2026-09-26 — 테마 변수로는
+   순수한 검정이 없어서 #000 을 직접 쓴다). */
+.gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  touch-action: pan-y;
+}
+.gallery-lightbox[hidden] {
+  display: none;
+}
+.gallery-lb-img {
+  max-width: 92vw;
+  max-height: 84vh;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+  user-select: none;
+}
+.gallery-lb-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  margin: 0;
+  text-align: center;
+  padding: 0 3rem;
+  color: #ddd;
+  font-size: 0.9rem;
+}
+.gallery-lb-close,
+.gallery-lb-prev,
+.gallery-lb-next {
+  position: absolute;
+  z-index: 1;
+  font: inherit;
+  cursor: pointer;
+  color: #eee;
+  background: rgba(30, 30, 30, 0.7);
+  border: none;
+  border-radius: 999px;
+}
+.gallery-lb-close:hover,
+.gallery-lb-prev:hover,
+.gallery-lb-next:hover {
+  background: rgba(60, 60, 60, 0.9);
+}
+.gallery-lb-close {
+  top: 1rem;
+  right: 1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1.1rem;
+}
+.gallery-lb-prev,
+.gallery-lb-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.6rem;
+  height: 2.6rem;
+  font-size: 1.6rem;
+}
+.gallery-lb-prev {
+  left: 1rem;
+}
+.gallery-lb-next {
+  right: 1rem;
 }
 
 .gallery-nav {

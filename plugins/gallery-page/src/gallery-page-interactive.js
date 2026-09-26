@@ -49,7 +49,32 @@
     if (nextBtn) nextBtn.addEventListener("click", function () { show(current + 1) })
 
     lb.addEventListener("click", function (e) {
-      if (e.target === lb) close()
+      if (e.target === lb && lb.dataset.swiped !== "true") close()
+    })
+
+    // 휴대폰: 좌우로 밀어서 넘기기
+    var startX = null
+    var startY = null
+    lb.addEventListener(
+      "touchstart",
+      function (e) {
+        if (e.touches.length !== 1) return
+        startX = e.touches[0].clientX
+        startY = e.touches[0].clientY
+      },
+      { passive: true },
+    )
+    lb.addEventListener("touchend", function (e) {
+      if (startX === null) return
+      var dx = e.changedTouches[0].clientX - startX
+      var dy = e.changedTouches[0].clientY - startY
+      startX = null
+      if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy)) return
+      lb.dataset.swiped = "true"
+      setTimeout(function () {
+        lb.dataset.swiped = ""
+      }, 350)
+      show(dx < 0 ? current + 1 : current - 1)
     })
     lb.addEventListener("keydown", function (e) {
       if (e.key === "Escape") close()

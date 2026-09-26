@@ -168,9 +168,8 @@ function galleryCaption(img, artist) {
   return parts.length > 0 ? parts.join(" · ") : null
 }
 
-// ④ 아빠의 화단 — 최근 그림을 4초마다 겹쳐지며 넘기는 슬라이드쇼. 실제 넘기기·일시정지·재생·
-// 화면 밖 정지는 gallery-interactive.js(afterDOMLoaded)가 한다. 그림 정보(썸네일·크기·연도 등)는
-// 여기서 data-* 로 각 슬라이드에 미리 심어 둔다.
+// ④ 아빠의 화단 — 최근 그림을 가운데 한 장 + 양옆 작은 그림으로 늘어놓은 필름스트립.
+// 넘기기·자리 계산·일시정지·라이트박스는 gallery-interactive.js(afterDOMLoaded)가 한다.
 function gallerySection() {
   const data = readGardenData()
   const images = data?.gallery?.images ?? []
@@ -183,24 +182,22 @@ function gallerySection() {
   const intervalMs = Math.max(1, Number(cfg.interval_seconds) || 4) * 1000
   const recent = images.slice(0, count)
 
-  // 슬라이드 상자 비율: 첫 그림 기준(없으면 4:3) — 그림마다 비율이 달라도 object-fit:contain 이라
-  // 안 잘리고, 상자 크기는 고정이라 로딩 중에도 안 흔들린다.
-  const first = recent.find((img) => img.width && img.height)
-  const ratio = first ? `${first.width} / ${first.height}` : "4 / 3"
-
   const slides = recent.map((img, i) => {
     const alt = galleryCaption(img, artist) ?? "작품 이미지"
     const caption = galleryCaption(img, artist)
     return h("figure", {
       class: `gallery-slide${i === 0 ? " is-active" : ""}`,
       "data-index": String(i),
+      "data-full": img.src,
+      "data-caption": caption ?? "",
       children: [
         h("img", {
           src: img.thumb,
           alt,
           width: img.width || undefined,
           height: img.height || undefined,
-          loading: i === 0 ? "eager" : "lazy",
+          loading: i < 3 || i === recent.length - 1 ? "eager" : "lazy",
+          draggable: "false",
         }),
         caption ? h("figcaption", { class: "gallery-caption", children: caption }) : null,
       ].filter(Boolean),
@@ -215,7 +212,7 @@ function gallerySection() {
       h("p", {
         class: "sr-only",
         children:
-          "아버지의 그림을 최근 순서로 보여주는 슬라이드쇼입니다. 자동으로 넘어가며, 좌우 버튼이나 아래 꽃봉오리 목록으로 그림을 고를 수 있습니다.",
+          "아버지의 그림을 최근 순서로 늘어놓은 슬라이드쇼입니다. 자동으로 넘어가며, 좌우 버튼·옆 그림·아래 꽃봉오리 목록으로 그림을 고를 수 있고, 가운데 그림을 선택하면 검은 화면에서 크게 볼 수 있습니다.",
       }),
       cfg.intro ? h("p", { class: "gp-legend gallery-intro", children: cfg.intro }) : null,
       h("div", {
@@ -223,7 +220,6 @@ function gallerySection() {
         children: [
           h("div", {
             class: "gallery-slide-track",
-            style: `aspect-ratio:${ratio}`,
             children: slides,
           }),
           h("button", { type: "button", class: "gallery-nav gallery-prev", "aria-label": "이전 그림", children: "‹" }),
@@ -238,6 +234,20 @@ function gallerySection() {
         dangerouslySetInnerHTML: { __html: renderGalleryBuds(recent.length, 0) },
       }),
       h("a", { class: "gallery-view-all", href: "./gallery", children: "전체 보기 →" }),
+      h("div", {
+        class: "gallery-lightbox",
+        hidden: true,
+        role: "dialog",
+        "aria-modal": "true",
+        "aria-label": "그림 크게 보기",
+        children: [
+          h("button", { type: "button", class: "gallery-lb-close", "aria-label": "닫기", children: "✕" }),
+          h("button", { type: "button", class: "gallery-lb-prev", "aria-label": "이전 그림", children: "‹" }),
+          h("img", { class: "gallery-lb-img", alt: "" }),
+          h("p", { class: "gallery-lb-caption" }),
+          h("button", { type: "button", class: "gallery-lb-next", "aria-label": "다음 그림", children: "›" }),
+        ],
+      }),
     ].filter(Boolean),
   })
 }

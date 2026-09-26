@@ -79,7 +79,7 @@ function lightbox() {
       h("button", { type: "button", class: "gg-lb-close", "aria-label": "닫기", children: "✕" }),
       h("button", { type: "button", class: "gg-lb-prev", "aria-label": "이전 그림", children: "‹" }),
       h("img", { class: "gg-lb-img", alt: "" }),
-      h("figcaption", { class: "gg-lb-caption" }),
+      h("p", { class: "gg-lb-caption" }),
       h("button", { type: "button", class: "gg-lb-next", "aria-label": "다음 그림", children: "›" }),
     ],
   })
