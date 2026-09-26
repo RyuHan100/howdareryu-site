@@ -1,0 +1,406 @@
+{
+	"nodes": [
+		{
+			"id": "title",
+			"type": "text",
+			"x": 40,
+			"y": 0,
+			"width": 1780,
+			"height": 190,
+			"text": "# 정원 전체 구조도\n\nhowdareryu.com(\"정원\")의 페이지 구조와 전역 기능을 한눈에 보는 지도입니다. 옅은 테두리의 파일 상자를 누르면 실제 노트로 이동합니다. 2026-09-26 기준, 홈 5구역(①~⑤)이 전부 켜진 상태를 반영합니다.",
+			"color": "5"
+		},
+		{
+			"id": "grp-explorer",
+			"type": "group",
+			"x": -520,
+			"y": 220,
+			"width": 440,
+			"height": 1180,
+			"color": "6",
+			"label": "오솔길 — 전역 탐색기(모든 페이지 사이드바)"
+		},
+		{
+			"id": "txt-explorer",
+			"type": "text",
+			"x": -480,
+			"y": 260,
+			"width": 360,
+			"height": 1100,
+			"text": "표시 이름만 바꾸고 실제 slug/URL 은 그대로(댓글이 주소 기준이라 절대 안 바꿈).\n\n**아이콘**\n- 🪴 폴더 기본\n- 📡 radar 및 하위 폴더 전부\n- 📍 radar 노트\n- 🔒 archive · 🕰️ timeline · 📖 glossary · 🌼 gallery (표시 제목 앞)\n- 🌱🌼🌿🌳 정원 식물 · 🍂 시듦(우선)\n\n`garden.yaml` 의 `explorer` 값 + `syncExplorerFromGarden.ts` 가 빌드 시점에 `quartz.config.yaml` 의 마커 구간만 다시 씁니다. 식물 아이콘은 정원 그림과 같은 `.garden-cache/garden-data.json` 을 그대로 읽어서 둘이 절대 어긋나지 않습니다."
+		},
+		{
+			"id": "grp-home",
+			"type": "group",
+			"x": 40,
+			"y": 220,
+			"width": 1780,
+			"height": 300,
+			"color": "2",
+			"label": "① 홈 — index.md ( Ryu's Garden )"
+		},
+		{
+			"id": "txt-home",
+			"type": "text",
+			"x": 80,
+			"y": 260,
+			"width": 1200,
+			"height": 220,
+			"text": "① 소개(본문 3줄) → ② 정원 → ③ radar → ④ 아빠의 화단 → ⑤ 정원사에게 연락하기.\n\n②③④는 `plugins/garden-home` 컴포넌트가 `.garden-cache/garden-data.json` 을 읽어 그리고, `garden.yaml` 의 `home.garden/radar/gallery` 스위치로 켜고 끕니다. ⑤는 항상 나옵니다.\n\n홈에서는 듣기(TTS)·댓글·Properties 표를 숨깁니다(전역 기능 참고)."
+		},
+		{
+			"id": "file-home",
+			"type": "file",
+			"x": 1340,
+			"y": 260,
+			"width": 420,
+			"height": 60,
+			"file": "index.md"
+		},
+		{
+			"id": "file-home-en",
+			"type": "file",
+			"x": 1340,
+			"y": 340,
+			"width": 420,
+			"height": 60,
+			"file": "index.en.md"
+		},
+		{
+			"id": "txt-home-i18n",
+			"type": "text",
+			"x": 1340,
+			"y": 410,
+			"width": 420,
+			"height": 90,
+			"text": "홈도 번역 대상 — `translate:true` 없이도 항상 번역됨."
+		},
+		{
+			"id": "grp-garden",
+			"type": "group",
+			"x": 40,
+			"y": 620,
+			"width": 520,
+			"height": 460,
+			"color": "4",
+			"label": "② 정원 — scribbled notes/"
+		},
+		{
+			"id": "txt-garden",
+			"type": "text",
+			"x": 80,
+			"y": 660,
+			"width": 440,
+			"height": 300,
+			"text": "식물 = 노트 하나. 🌱 grass · 🌼 flower · 🌿 vine · 🌳 tree, 판정 기준은 `garden.yaml` 의 `plants.rules`.\n\n90일 넘게 안 고치면 시듦(🍂). 흙 속 씨앗 = 아직 없는 노트로의 링크.\n\n클릭 → 선택 패널, 노트 사이 링크는 뿌리로 표시. 오솔길의 식물 이모지와 항상 같은 데이터를 씁니다."
+		},
+		{
+			"id": "file-garden",
+			"type": "file",
+			"x": 80,
+			"y": 980,
+			"width": 440,
+			"height": 60,
+			"file": "scribbled notes/index.md"
+		},
+		{
+			"id": "grp-radar",
+			"type": "group",
+			"x": 620,
+			"y": 620,
+			"width": 620,
+			"height": 460,
+			"color": "1",
+			"label": "③ radar — radar/"
+		},
+		{
+			"id": "txt-radar",
+			"type": "text",
+			"x": 660,
+			"y": 660,
+			"width": 560,
+			"height": 220,
+			"text": "점 = radar 노트(또는 이력) 하나. 구역 = 하위 폴더, 거리 = 나이(최근 30일만 표시).\n\n`pacm` 은 `granularity: revision` 이라 노트가 아니라 `changelog.json` 이력 하나하나가 점이 됩니다(같은 날은 하나로 합침).\n\n빛줄기가 10초에 한 바퀴 돌며 점을 반짝이게 합니다."
+		},
+		{
+			"id": "file-radar-news",
+			"type": "file",
+			"x": 660,
+			"y": 900,
+			"width": 270,
+			"height": 60,
+			"file": "radar/news/index.md"
+		},
+		{
+			"id": "file-radar-pacm",
+			"type": "file",
+			"x": 950,
+			"y": 900,
+			"width": 270,
+			"height": 60,
+			"file": "radar/pacm/index.md"
+		},
+		{
+			"id": "file-radar-assembly",
+			"type": "file",
+			"x": 660,
+			"y": 980,
+			"width": 560,
+			"height": 60,
+			"file": "radar/국회 기노위/index.md"
+		},
+		{
+			"id": "grp-gallery",
+			"type": "group",
+			"x": 1300,
+			"y": 620,
+			"width": 520,
+			"height": 460,
+			"color": "3",
+			"label": "④ 아빠의 화단 — gallery.md"
+		},
+		{
+			"id": "txt-gallery",
+			"type": "text",
+			"x": 1340,
+			"y": 660,
+			"width": 440,
+			"height": 300,
+			"text": "아빠(여송)의 그림 갤러리.\n\n홈: 최근 10장 슬라이드쇼(자동 전환, 꽃봉오리 눌러서 이동).\n`gallery.md`: 전체 101장 masonry 격자 + 라이트박스.\n\n원본이 483MB라 항상 `/img/thumbs/*.webp` 썸네일을 씀(CI가 그림마다 생성)."
+		},
+		{
+			"id": "file-gallery",
+			"type": "file",
+			"x": 1340,
+			"y": 980,
+			"width": 440,
+			"height": 60,
+			"file": "gallery.md"
+		},
+		{
+			"id": "grp-timeline",
+			"type": "group",
+			"x": 40,
+			"y": 1140,
+			"width": 420,
+			"height": 260,
+			"color": "6",
+			"label": "🕰️ climate histography — timeline.md"
+		},
+		{
+			"id": "file-timeline",
+			"type": "file",
+			"x": 80,
+			"y": 1180,
+			"width": 340,
+			"height": 60,
+			"file": "timeline.md"
+		},
+		{
+			"id": "txt-timeline",
+			"type": "text",
+			"x": 80,
+			"y": 1250,
+			"width": 340,
+			"height": 130,
+			"text": "기후 사건 연표(월 단위 가로 스크롤), `plugins/climate-timeline`. 점 클릭 → 이벤트 카드."
+		},
+		{
+			"id": "grp-glossary",
+			"type": "group",
+			"x": 500,
+			"y": 1140,
+			"width": 420,
+			"height": 260,
+			"color": "6",
+			"label": "📖 climate glossary — glossary.md"
+		},
+		{
+			"id": "file-glossary",
+			"type": "file",
+			"x": 540,
+			"y": 1180,
+			"width": 340,
+			"height": 60,
+			"file": "glossary.md"
+		},
+		{
+			"id": "txt-glossary",
+			"type": "text",
+			"x": 540,
+			"y": 1250,
+			"width": 340,
+			"height": 130,
+			"text": "정원 기록에 실제로 쓰인 기후·에너지·탄소시장 용어집. 검색·카테고리 필터, `plugins/climate-glossary`."
+		},
+		{
+			"id": "grp-archive",
+			"type": "group",
+			"x": 960,
+			"y": 1140,
+			"width": 420,
+			"height": 260,
+			"color": "2",
+			"label": "🔒 비공개 아카이브 — archive.md"
+		},
+		{
+			"id": "file-archive",
+			"type": "file",
+			"x": 1000,
+			"y": 1180,
+			"width": 340,
+			"height": 60,
+			"file": "archive.md"
+		},
+		{
+			"id": "txt-archive",
+			"type": "text",
+			"x": 1000,
+			"y": 1250,
+			"width": 340,
+			"height": 130,
+			"text": "비밀번호 필요, 복호화는 방문자 브라우저 안에서만. 실제 콘텐츠는 외부 정적 페이지 `/static/t-archive/`."
+		},
+		{
+			"id": "grp-misc",
+			"type": "group",
+			"x": 1420,
+			"y": 1140,
+			"width": 400,
+			"height": 260,
+			"color": null,
+			"label": "기타 노트"
+		},
+		{
+			"id": "file-basement",
+			"type": "file",
+			"x": 1460,
+			"y": 1180,
+			"width": 320,
+			"height": 60,
+			"file": "basement.base"
+		},
+		{
+			"id": "file-terminal",
+			"type": "file",
+			"x": 1460,
+			"y": 1250,
+			"width": 320,
+			"height": 60,
+			"file": "basic terminal command for quartz.md"
+		},
+		{
+			"id": "grp-global",
+			"type": "group",
+			"x": -520,
+			"y": 1460,
+			"width": 2340,
+			"height": 300,
+			"color": "5",
+			"label": "전역 기능 — 모든 노트 페이지 공통 (홈은 예외)"
+		},
+		{
+			"id": "txt-global",
+			"type": "text",
+			"x": -480,
+			"y": 1500,
+			"width": 2260,
+			"height": 220,
+			"text": "**듣기(TTS)** — `Head.tsx`, Web Speech API. 페이지 프레임 자체에 있어 노트별로 끄는 옵션이 없음.\n**댓글** — `plugins/hdr-comments`, Cloudflare Worker+D1, 페이지 주소(pathname) 기준으로 저장(그래서 노트·폴더의 파일 이름과 URL을 절대 안 바꿈). frontmatter `comments: false` 로 개별 노트에서 끌 수 있음.\n**Properties(식물 이름표)** — 노트 상단 속성 표. `garden.yaml` 의 `properties` 매핑 + `garden-properties.js` 가 표시만 갈아 끼움(frontmatter는 그대로). scribbled notes 는 식물/뿌리/씨앗 칸이 추가로 붙음.\n**다국어** — `quartz-multilanguage`. frontmatter `translate: true` 노트 + 홈을 pre-commit 훅이 `노트.en.md` 로 자동 번역. 댓글은 원본과 baseSlug 를 공유."
+		}
+	],
+	"edges": [
+		{
+			"id": "e-home-garden",
+			"fromNode": "grp-home",
+			"fromSide": "bottom",
+			"toNode": "grp-garden",
+			"toSide": "top",
+			"label": "②"
+		},
+		{
+			"id": "e-home-radar",
+			"fromNode": "grp-home",
+			"fromSide": "bottom",
+			"toNode": "grp-radar",
+			"toSide": "top",
+			"label": "③"
+		},
+		{
+			"id": "e-home-gallery",
+			"fromNode": "grp-home",
+			"fromSide": "bottom",
+			"toNode": "grp-gallery",
+			"toSide": "top",
+			"label": "④"
+		},
+		{
+			"id": "e-explorer-0",
+			"fromNode": "grp-explorer",
+			"fromSide": "right",
+			"toNode": "grp-home",
+			"toSide": "left"
+		},
+		{
+			"id": "e-explorer-1",
+			"fromNode": "grp-explorer",
+			"fromSide": "right",
+			"toNode": "grp-garden",
+			"toSide": "left"
+		},
+		{
+			"id": "e-explorer-2",
+			"fromNode": "grp-explorer",
+			"fromSide": "right",
+			"toNode": "grp-radar",
+			"toSide": "left"
+		},
+		{
+			"id": "e-explorer-3",
+			"fromNode": "grp-explorer",
+			"fromSide": "right",
+			"toNode": "grp-gallery",
+			"toSide": "left"
+		},
+		{
+			"id": "e-explorer-4",
+			"fromNode": "grp-explorer",
+			"fromSide": "right",
+			"toNode": "grp-timeline",
+			"toSide": "left"
+		},
+		{
+			"id": "e-explorer-5",
+			"fromNode": "grp-explorer",
+			"fromSide": "right",
+			"toNode": "grp-glossary",
+			"toSide": "left"
+		},
+		{
+			"id": "e-explorer-6",
+			"fromNode": "grp-explorer",
+			"fromSide": "right",
+			"toNode": "grp-archive",
+			"toSide": "left"
+		},
+		{
+			"id": "e-explorer-7",
+			"fromNode": "grp-explorer",
+			"fromSide": "right",
+			"toNode": "grp-misc",
+			"toSide": "left"
+		},
+		{
+			"id": "e-global-home",
+			"fromNode": "grp-global",
+			"fromSide": "top",
+			"toNode": "grp-home",
+			"toSide": "bottom",
+			"label": "홈은 예외 (TTS·댓글·Properties 숨김)"
+		}
+	],
+	"metadata": {
+		"version": "1.0-1.0",
+		"frontmatter": {}
+	}
+}
