@@ -15,6 +15,9 @@ var TL_MIN_LABEL_PX_MOBILE = 44
 var TL_MOBILE_BREAKPOINT = 800 // timeline.css 의 @media (max-width: 800px) 와 같은 값
 var TL_MAX_PX_PER_MONTH = 200 // 1년 ≈ 2400px — 월 라벨이 넉넉히 들어가는 수준을 상한으로 둔다
 var TL_NOW_PAD_MONTHS = 6
+// 초기 진입/Reset 시 "오늘"을 뷰포트 맨 왼쪽에 딱 붙이지 않고 이 비율만큼 띄워서, 최근 과거
+// 문맥이 함께 보이게 한다(요구사항: 첫 화면이 가장 오래된 이벤트가 아니라 오늘 기준이어야 함).
+var TL_NOW_SCROLL_OFFSET_RATIO = 1 / 3
 
 function tlTodayISO() {
   var d = new Date()
@@ -75,6 +78,13 @@ function tlCreateView(section) {
   var cssDefault = cssDefaultPx()
   var view = { timelineStart: timelineStart, pxPerMonth: cssDefault }
   var userZoomed = false // Reset 전까지는 "자동 기준폭"을 계속 따라간다(아래 autoBasePx 참고)
+  // ResizeObserver 는 관찰을 시작한 직후 실제 크기 변화가 없어도 최초 콜백을 한 번 보장한다
+  // (스펙 동작) — 그 최초 콜백이 초기 동기 실행 때보다 더 확정된 레이아웃 값을 줄 수 있어서,
+  // "오늘" 위치가 아주 잠깐 어긋났다가 자연스럽게 자리를 찾는다(사용자가 실제로 화면을 보기
+  // 전, 첫 페인트 전에 정착). 이 최초 정착 때만 scrollLeft 를 한 번 더 맞추고, 그 뒤로는
+  // (사용자가 실제로 창 크기를 바꾼 경우) 스크롤 위치를 건드리지 않는다(요구사항: onLayoutChange
+  // 는 배율만 다시 맞추고 스크롤 위치는 최초 초기화·Reset 클릭 때만 바뀌어야 함).
+  var settledInitialScroll = false
 
   function containerWidth() {
     return scroll.clientWidth || 1
@@ -133,7 +143,7 @@ function tlCreateView(section) {
   function reset() {
     userZoomed = false
     applyPx(autoBasePx())
-    scroll.scrollLeft = 0
+    scroll.scrollLeft = scrollLeftForNow()
     scheduleUpdate()
   }
 
@@ -216,6 +226,16 @@ function tlCreateView(section) {
       '<div class="tl-now-label" style="--x:' +
       x +
       '">오늘</div>'
+  }
+
+  // 초기 진입/Reset 이 보여줄 스크롤 위치. tlTToPx 로 "오늘"의 px 를 구하고 뷰포트 왼쪽에서
+  // TL_NOW_SCROLL_OFFSET_RATIO 만큼 띄운 뒤, 실제 스크롤 가능한 범위 밖으로 못 나가게 clamp
+  // 한다(오늘이 타임라인 끝에 아주 가까운 경우 등).
+  function scrollLeftForNow() {
+    var containerW = containerWidth()
+    var targetPx = tlTToPx(nowT, view) - containerW * TL_NOW_SCROLL_OFFSET_RATIO
+    var maxScroll = Math.max(0, scroll.scrollWidth - containerW)
+    return Math.max(0, Math.min(maxScroll, targetPx))
   }
 
   function updateToolbar() {
@@ -348,6 +368,10 @@ function tlCreateView(section) {
     // 아직 직접 줌하지 않았으면(userZoomed === false) 집중 모드/창 크기에 맞춘 자동 기준폭을
     // 계속 따라간다. 이미 줌했다면 그 배율은 그대로 두고 허용 범위(clampPx)만 다시 맞춘다.
     applyPx(userZoomed ? view.pxPerMonth : autoBasePx())
+    if (!settledInitialScroll) {
+      settledInitialScroll = true
+      scroll.scrollLeft = scrollLeftForNow()
+    }
     scheduleUpdate()
   }
 
@@ -377,6 +401,7 @@ function tlCreateView(section) {
   applyPx(autoBasePx())
   section.classList.add("is-enhanced")
   renderNow()
+  scroll.scrollLeft = scrollLeftForNow()
   scheduleUpdate()
 
   return { zoomBy: zoomBy, reset: reset, fitRange: fitRange }
