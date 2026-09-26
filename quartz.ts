@@ -16,6 +16,10 @@ registerCondition("gallery", (props) => props.fileData.slug === "gallery")
 // 드롭다운 폴더로 안 보이게 — content/timeline/index.md 폴더 구조를 쓰지 않는다).
 registerCondition("timeline", (props) => props.fileData.slug === "timeline")
 
+// climate glossary(용어집) 페이지에서만 렌더링할 컴포넌트용 (layout.condition: glossary)
+// content/timeline.md 와 같은 방식으로 content/glossary.md 하나뿐인 flat 페이지다.
+registerCondition("glossary", (props) => props.fileData.slug === "glossary")
+
 // 홈 컴포넌트 + 오솔길(탐색기) 식물 이모지가 같은 판정 결과를 쓰도록, 탐색기 설정을
 // 만들기 전에 먼저 수집한다(.garden-cache/garden-data.json). 실패해도 빌드는 계속한다.
 try {

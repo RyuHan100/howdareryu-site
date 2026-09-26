@@ -195,7 +195,7 @@ plugins:
       mapFn: |-
         (node) => {
           const folderIcons = {"radar":"📡"};
-          const itemIcons = {"radar":"📍","archive":"🔒","timeline":"🕰️","gallery":"🌼"};
+          const itemIcons = {"radar":"📍","archive":"🔒","timeline":"🕰️","glossary":"📖","gallery":"🌼"};
           const plantIcons = {"scribbled-notes/2026-08-04-오빠가-냉장고를-사줬다":"🌱","scribbled-notes/2026-09-20-ai":"🌼","scribbled-notes/attachments/2026-09-24-우울과-자율성":"🌱"};
           const defaultFolderIcon = "🪴";
           if (node.isFolder) {
@@ -222,9 +222,10 @@ plugins:
       # 언어 스위처로만 오간다. "tags" 제외는 explorer 플러그인의 기본 필터를 그대로 옮긴 것.
       filterFn: |-
         (node) => node.slugSegment !== "tags" && !/\.en$/.test(node.slugSegment)
-      # 최상단 순서는 사용자가 지정한 고정 목록(TOP_ORDER, 2026-09-23)을 먼저 따른다 —
-      # scribbled notes → radar → climate histography → 아빠의 화단 → basement → 터미널
-      # 명령어 노트. 목록에 없는 항목(archive 등)은 그 뒤에 기존 규칙대로 붙는다.
+      # 최상단 순서는 사용자가 지정한 고정 목록(TOP_ORDER, 2026-09-23, 2026-09-26 에 climate
+      # glossary 추가)을 먼저 따른다 — scribbled notes → radar → climate histography →
+      # climate glossary → 아빠의 화단 → basement → 터미널 명령어 노트. 목록에 없는 항목
+      # (archive 등)은 그 뒤에 기존 규칙대로 붙는다.
       # rank() 는 노드 "자기 자신"의 슬러그 세그먼트(slugSegment)만 보므로 폴더 안(예: radar
       # 아래 news/pacm/국회 기노위)끼리 비교할 때는 전부 미지정(순위 없음) 취급되어 이 규칙과
       # 무관하게 원래 로직(폴더 먼저, scribbled notes 를 맨 위에, 나머지는 이름순 — 날짜가
@@ -239,7 +240,7 @@ plugins:
       # 그 이모지를 떼고 원래 이름으로 비교해 정렬 순서가 흔들리지 않게 한다.
       sortFn: |-
         (a, b) => {
-          const TOP_ORDER = ["scribbled-notes", "radar", "timeline", "gallery", "basement.base", "basic-terminal-command-for-quartz"];
+          const TOP_ORDER = ["scribbled-notes", "radar", "timeline", "glossary", "gallery", "basement.base", "basic-terminal-command-for-quartz"];
           const rank = (x) => {
             const i = TOP_ORDER.indexOf(x.slugSegment || "");
             return i === -1 ? TOP_ORDER.length : i;
@@ -400,6 +401,13 @@ plugins:
     layout:
       position: afterBody
       condition: timeline
+      priority: 5
+  # climate glossary — 기후 용어집(검색·카테고리 필터). content/glossary.md 에서만 나온다
+  - source: ./plugins/climate-glossary
+    enabled: true
+    layout:
+      position: afterBody
+      condition: glossary
       priority: 5
   # 댓글 (Cloudflare Workers + D1). 노트에서 끄려면 frontmatter 에 comments: false
   - source: ./plugins/hdr-comments

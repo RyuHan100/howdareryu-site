@@ -1,0 +1,1030 @@
+{
+  "categories": [
+    {
+      "key": "international",
+      "label": "국제 협약·기구"
+    },
+    {
+      "key": "carbon-market",
+      "label": "탄소시장·크레딧"
+    },
+    {
+      "key": "energy",
+      "label": "재생에너지·전력망"
+    },
+    {
+      "key": "science",
+      "label": "온실가스·감축기술"
+    },
+    {
+      "key": "policy-kr",
+      "label": "기후정책 개념어"
+    },
+    {
+      "key": "global-initiatives",
+      "label": "국제 이니셔티브·해외정책"
+    }
+  ],
+  "terms": [
+    {
+      "id": "unfccc",
+      "term": "UNFCCC",
+      "fullName": "United Nations Framework Convention on Climate Change",
+      "korean": "유엔기후변화협약",
+      "category": "international",
+      "definition": "1992년 채택된 국제조약으로, 대기 중 온실가스 농도를 위험한 수준 이하로 안정시키는 것을 목표로 한다. 교토의정서와 파리협정을 비롯한 이후 모든 기후협상의 토대가 되는 기본 틀이다.",
+      "sources": [
+        {
+          "title": "What is the United Nations Framework Convention on Climate Change?",
+          "url": "https://unfccc.int/process-and-meetings/what-is-the-united-nations-framework-convention-on-climate-change",
+          "type": "institutional",
+          "publisher": "UNFCCC"
+        }
+      ],
+      "related": [
+        "cop",
+        "paris-agreement",
+        "ndc",
+        "article6-itmo"
+      ]
+    },
+    {
+      "id": "ipcc",
+      "term": "IPCC",
+      "fullName": "Intergovernmental Panel on Climate Change",
+      "korean": "기후변화에 관한 정부간 협의체",
+      "category": "international",
+      "definition": "1988년 WMO와 UNEP가 설립한 유엔 산하 과학기구로, 각국 정부가 기후정책을 세울 수 있도록 전 세계 기후과학을 평가·요약해 제공한다. 6~7년마다 종합 평가보고서를 낸다.",
+      "sources": [
+        {
+          "title": "IPCC — Intergovernmental Panel on Climate Change",
+          "url": "https://www.ipcc.ch/",
+          "type": "institutional",
+          "publisher": "IPCC"
+        }
+      ],
+      "related": [
+        "ar6",
+        "unfccc",
+        "ghg"
+      ]
+    },
+    {
+      "id": "cop",
+      "term": "COP",
+      "fullName": "Conference of the Parties",
+      "korean": "유엔기후변화협약 당사국총회",
+      "category": "international",
+      "definition": "UNFCCC의 최고 의사결정기구로, 당사국들이 해마다 모여 협약 이행을 점검하고 새 조치를 협상한다. 교토의정서와 파리협정 같은 주요 합의가 이 자리에서 채택됐다.",
+      "sources": [
+        {
+          "title": "Conference of the Parties (COP)",
+          "url": "https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop",
+          "type": "institutional",
+          "publisher": "UNFCCC"
+        }
+      ],
+      "related": [
+        "unfccc",
+        "paris-agreement",
+        "pacm"
+      ]
+    },
+    {
+      "id": "ndc",
+      "term": "NDC",
+      "fullName": "Nationally Determined Contribution",
+      "korean": "국가결정기여(국가 온실가스 감축목표)",
+      "category": "international",
+      "definition": "파리협정에 따라 각국이 스스로 정해 유엔에 제출하는 온실가스 감축·기후적응 계획으로, 5년마다 더 진전된 목표로 갱신해야 한다. 제출 의무는 있지만 목표 달성 자체는 법적 강제사항이 아니다.",
+      "sources": [
+        {
+          "title": "Nationally determined contributions (NDCs)",
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs",
+          "type": "institutional",
+          "publisher": "UNFCCC"
+        }
+      ],
+      "related": [
+        "paris-agreement",
+        "unfccc",
+        "ghg-reduction-target",
+        "lulucf"
+      ]
+    },
+    {
+      "id": "paris-agreement",
+      "term": "파리협정",
+      "fullName": "Paris Agreement",
+      "korean": "파리협정",
+      "category": "international",
+      "definition": "2015년 COP21에서 채택되고 2016년 발효된 법적 구속력 있는 조약. 지구 평균기온 상승을 산업화 이전 대비 2°C보다 훨씬 낮게, 가능하면 1.5°C 이내로 억제하는 것이 핵심 목표다.",
+      "sources": [
+        {
+          "title": "Key aspects of the Paris Agreement",
+          "url": "https://unfccc.int/most-requested/key-aspects-of-the-paris-agreement",
+          "type": "institutional",
+          "publisher": "UNFCCC"
+        }
+      ],
+      "related": [
+        "unfccc",
+        "ndc",
+        "article6-itmo",
+        "ar6"
+      ]
+    },
+    {
+      "id": "article6-itmo",
+      "term": "Article 6 / ITMO",
+      "fullName": "Internationally Transferred Mitigation Outcome",
+      "korean": "국제이전감축성과",
+      "category": "carbon-market",
+      "definition": "파리협정 6조는 국가 간 협력을 통한 감축실적 거래를 규정한다. 6.2조는 국가 간 자발적 협력으로 ITMO를 직접 거래하는 방식, 6.4조는 유엔이 감독하는 중앙집중형 크레딧 메커니즘(PACM)을 다룬다.",
+      "sources": [
+        {
+          "title": "Current Status of Article 6 of the Paris Agreement",
+          "url": "https://www.iisd.org/articles/current-status-article-6-paris-agreement",
+          "type": "institutional",
+          "publisher": "IISD"
+        },
+        {
+          "title": "Article 6.2 of the Paris Agreement",
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement/article-6/article-62",
+          "type": "institutional",
+          "publisher": "UNFCCC"
+        }
+      ],
+      "related": [
+        "paris-agreement",
+        "pacm",
+        "cdm",
+        "jcm"
+      ]
+    },
+    {
+      "id": "corsia",
+      "term": "CORSIA",
+      "fullName": "Carbon Offsetting and Reduction Scheme for International Aviation",
+      "korean": "국제항공 탄소상쇄·감축제도",
+      "category": "carbon-market",
+      "definition": "ICAO가 2016년 채택하고 2019년부터 시행 중인 세계 최초의 산업부문별 국제 탄소상쇄 제도로, 국제선 항공사가 배출 증가분을 상쇄 크레딧으로 메우도록 한다.",
+      "sources": [
+        {
+          "title": "CORSIA",
+          "url": "https://www.icao.int/CORSIA",
+          "type": "institutional",
+          "publisher": "ICAO"
+        }
+      ],
+      "related": [
+        "vcm",
+        "mrv"
+      ]
+    },
+    {
+      "id": "jetp",
+      "term": "JETP",
+      "fullName": "Just Energy Transition Partnership",
+      "korean": "정의로운 에너지전환 파트너십",
+      "category": "international",
+      "definition": "선진국 그룹이 남아공·인도네시아·베트남 등 화석연료 의존도가 높은 개도국의 탈석탄·에너지전환을 재정·기술적으로 지원하는 다자간 협력체계. 노동자·지역사회에 대한 영향을 고려하는 것이 특징이다.",
+      "sources": [
+        {
+          "title": "Just Energy Transition Partnerships (JETPs)",
+          "url": "https://www.iisd.org/articles/insight/just-energy-transition-partnerships",
+          "type": "institutional",
+          "publisher": "IISD"
+        }
+      ],
+      "related": [
+        "just-transition",
+        "gcf",
+        "gx"
+      ]
+    },
+    {
+      "id": "jcm",
+      "term": "JCM",
+      "fullName": "Joint Crediting Mechanism",
+      "korean": "공동크레딧메커니즘",
+      "category": "carbon-market",
+      "definition": "일본 정부가 2013년 출범시킨 양자간 온실가스 감축 크레딧 제도. 개도국에 저탄소 기술을 이전하고, 그로 인한 감축량을 일본과 상대국이 나눠 각자의 목표 달성에 활용한다.",
+      "sources": [
+        {
+          "title": "Overview of the JCM",
+          "url": "https://gec.jp/jcm/about/",
+          "type": "institutional",
+          "publisher": "일본 정부(Global Environment Centre)"
+        }
+      ],
+      "related": [
+        "article6-itmo",
+        "cdm",
+        "pacm"
+      ]
+    },
+    {
+      "id": "ar6",
+      "term": "AR6",
+      "fullName": "IPCC Sixth Assessment Report",
+      "korean": "IPCC 6차 평가보고서",
+      "category": "international",
+      "definition": "IPCC가 2015~2023년 진행한 6차 평가주기의 결과물로, 자연과학적 근거·영향과 적응·완화 세 실무그룹 보고서와 종합보고서로 구성된다. 전 세계 과학자들이 참여해 기후변화 현황과 대응방안을 정리했다.",
+      "sources": [
+        {
+          "title": "Sixth Assessment Report",
+          "url": "https://www.ipcc.ch/assessment-report/ar6/",
+          "type": "institutional",
+          "publisher": "IPCC"
+        }
+      ],
+      "related": [
+        "ipcc",
+        "paris-agreement"
+      ]
+    },
+    {
+      "id": "ets",
+      "term": "ETS",
+      "fullName": "Emissions Trading System",
+      "korean": "배출권거래제(한국은 K-ETS)",
+      "category": "carbon-market",
+      "definition": "정부가 배출허용총량을 정하고, 기업들이 그 범위 안에서 배출권을 사고팔게 하는 총량제한거래(cap-and-trade) 방식의 탄소가격제다. 한국의 K-ETS는 2015년 도입된 아시아 최초의 의무 배출권거래제로, 발전·산업 등 대형 배출원을 대상으로 한다.",
+      "sources": [
+        {
+          "title": "Korea Emissions Trading System",
+          "url": "https://icapcarbonaction.com/en/ets/korea-emissions-trading-system-k-ets",
+          "type": "institutional",
+          "publisher": "ICAP(국제탄소행동파트너십)"
+        }
+      ],
+      "related": [
+        "carbon-pricing",
+        "cbam",
+        "vcm",
+        "mrv"
+      ]
+    },
+    {
+      "id": "carbon-pricing",
+      "term": "탄소가격제",
+      "fullName": "Carbon Pricing",
+      "korean": "탄소가격제(탄소세·배출권거래제)",
+      "category": "carbon-market",
+      "definition": "온실가스 배출에 비용을 매겨 감축을 유도하는 정책의 총칭. 정부가 세율을 직접 정하는 '탄소세'와, 배출총량을 정하고 시장에서 가격이 형성되게 하는 '배출권거래제(ETS)'가 두 대표적인 방식이다.",
+      "sources": [],
+      "related": [
+        "ets",
+        "cbam"
+      ]
+    },
+    {
+      "id": "vcm",
+      "term": "VCM",
+      "fullName": "Voluntary Carbon Market",
+      "korean": "자발적 탄소시장(전 세계 단위는 GVCM)",
+      "category": "carbon-market",
+      "definition": "기업·정부·개인이 감축·제거 실적을 나타내는 탄소크레딧을 정부 규제와 무관하게 자발적으로 사고파는 민간 주도 시장이다. 1990년대 시작해 2017년 이후 빠르게 커졌다.",
+      "sources": [
+        {
+          "title": "Voluntary Carbon Market Explained",
+          "url": "https://icvcm.org/knowledge-resources/voluntary-carbon-market-explained/",
+          "type": "institutional",
+          "publisher": "ICVCM"
+        }
+      ],
+      "related": [
+        "cdm",
+        "pacm",
+        "mrv",
+        "corsia"
+      ]
+    },
+    {
+      "id": "cdm",
+      "term": "CDM",
+      "fullName": "Clean Development Mechanism",
+      "korean": "청정개발체제",
+      "category": "carbon-market",
+      "definition": "교토의정서에 따라 선진국이 개도국에서 감축사업을 시행하고 그 실적(CER)을 발급받아 자국 목표에 쓰던 제도. 2006년부터 운영돼 1,650개 넘게 등록됐지만, 지금은 신규 등록 없이 파리협정 6.4조 메커니즘(PACM)으로 이관되는 중이다.",
+      "sources": [
+        {
+          "title": "The Clean Development Mechanism",
+          "url": "https://unfccc.int/process-and-meetings/the-kyoto-protocol/mechanisms-under-the-kyoto-protocol/the-clean-development-mechanism",
+          "type": "institutional",
+          "publisher": "UNFCCC"
+        }
+      ],
+      "related": [
+        "pacm",
+        "article6-itmo",
+        "jcm",
+        "vcm"
+      ]
+    },
+    {
+      "id": "redd-plus",
+      "term": "REDD+",
+      "fullName": "Reducing Emissions from Deforestation and forest Degradation",
+      "korean": "산림전용·황폐화 방지를 통한 온실가스 감축(플러스: 보전·지속가능관리·탄소축적 증진 포함)",
+      "category": "carbon-market",
+      "definition": "개도국의 산림 벌채·황폐화로 인한 배출을 줄이고 산림보전·지속가능관리·탄소축적 증진을 장려하기 위해 UNFCCC 아래 마련된 체계로, 성과에 따라 재정적 인센티브를 지급한다.",
+      "sources": [
+        {
+          "title": "What is REDD+?",
+          "url": "https://www.un-redd.org/about/about-redd",
+          "type": "institutional",
+          "publisher": "UN-REDD Programme"
+        }
+      ],
+      "related": [
+        "cdm",
+        "lulucf"
+      ]
+    },
+    {
+      "id": "mrv",
+      "term": "MRV",
+      "fullName": "Measurement, Reporting and Verification",
+      "korean": "측정·보고·검증",
+      "category": "carbon-market",
+      "definition": "온실가스 배출·감축 실적을 측정하고 공인된 체계에 보고한 뒤 제3자가 검증하는 절차로, 탄소크레딧이 실제로 견고·투명·정확한지 담보하는 핵심 장치다.",
+      "sources": [
+        {
+          "title": "MRV 101: Understanding Measurement, Reporting and Verification",
+          "url": "https://www.wri.org/research/mrv-101-understanding-measurement-reporting-and-verification-climate-change-mitigation",
+          "type": "institutional",
+          "publisher": "World Resources Institute"
+        }
+      ],
+      "related": [
+        "vcm",
+        "cdm",
+        "pacm"
+      ]
+    },
+    {
+      "id": "cbam",
+      "term": "CBAM",
+      "fullName": "Carbon Border Adjustment Mechanism",
+      "korean": "탄소국경조정제도",
+      "category": "carbon-market",
+      "definition": "EU로 수입되는 시멘트·철강·알루미늄·비료·전력·수소 등 탄소집약 품목에, 생산 과정에서 배출된 탄소에 상응하는 비용을 부과해 '탄소 누출'을 막는 EU의 제도다. 2026년부터 보고 의무만 있던 전환기가 끝나고 실제 비용이 부과되는 본시행기가 시작됐다.",
+      "sources": [
+        {
+          "title": "Carbon Border Adjustment Mechanism",
+          "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+          "type": "institutional",
+          "publisher": "유럽연합 집행위원회"
+        },
+        {
+          "title": "Start of the definitive period of CBAM",
+          "url": "https://trade.ec.europa.eu/access-to-markets/en/news/start-definitive-period-cbam-eu",
+          "type": "institutional",
+          "publisher": "Access2Markets(EU)"
+        }
+      ],
+      "related": [
+        "ets",
+        "carbon-pricing"
+      ]
+    },
+    {
+      "id": "pacm",
+      "term": "PACM",
+      "fullName": "Paris Agreement Crediting Mechanism",
+      "korean": "파리협정 크레딧 메커니즘",
+      "category": "carbon-market",
+      "definition": "파리협정 6.4조에 따라 설립된, 유엔이 감독하는 중앙집중형 탄소크레딧 메커니즘으로 CDM의 후속·대체 제도다. COP29(2024)에서 세부 운영규칙이 합의됐고, 기존 CDM 사업들이 새 방법론으로 전환되는 중이다.",
+      "sources": [
+        {
+          "title": "UN carbon market approves first-ever issuance of PACM credits",
+          "url": "https://unfccc.int/node/655916",
+          "type": "institutional",
+          "publisher": "UNFCCC",
+          "date": "2026"
+        },
+        {
+          "title": "Article 6.4 of the Paris Agreement explained",
+          "url": "https://abatable.com/blog/paris-agreement-article-6-4-explained",
+          "type": "secondary",
+          "publisher": "Abatable"
+        }
+      ],
+      "related": [
+        "cdm",
+        "article6-itmo",
+        "cop"
+      ]
+    },
+    {
+      "id": "re100",
+      "term": "RE100",
+      "fullName": "Renewable Electricity 100%",
+      "korean": "재생에너지 100% 사용 캠페인",
+      "category": "energy",
+      "definition": "기업이 사업장에서 쓰는 전력 100%를 재생에너지로 조달하기로 자발적으로 약속하는 국제 이니셔티브(2014년 출범). 늦어도 2050년까지 달성이 목표다.",
+      "sources": [
+        {
+          "title": "RE100",
+          "url": "https://www.there100.org/",
+          "type": "institutional",
+          "publisher": "RE100"
+        }
+      ],
+      "related": [
+        "rec",
+        "ppa",
+        "rps"
+      ]
+    },
+    {
+      "id": "rps",
+      "term": "RPS",
+      "fullName": "Renewable Portfolio Standard",
+      "korean": "신재생에너지 공급의무화제도",
+      "category": "energy",
+      "definition": "정부가 전력 공급자에게 일정 비율 이상을 신재생에너지로 채우도록 의무화하는 제도. 한국은 2012년부터 대형 발전사업자를 대상으로 시행 중이며, 의무자는 직접 설비를 짓거나 REC를 구매해 이행한다.",
+      "sources": [
+        {
+          "title": "Republic of Korea: Renewable Portfolio Standard",
+          "url": "https://policy.asiapacificenergy.org/node/4311",
+          "type": "institutional",
+          "publisher": "Asia Pacific Energy Research Centre"
+        }
+      ],
+      "related": [
+        "rec",
+        "re100"
+      ]
+    },
+    {
+      "id": "rec",
+      "term": "REC",
+      "fullName": "Renewable Energy Certificate",
+      "korean": "신재생에너지 공급인증서",
+      "category": "energy",
+      "definition": "재생에너지로 1MWh의 전력이 생산·공급될 때 발급되는 증서로, 전력 자체와 분리해 '재생에너지라는 속성'만 따로 거래할 수 있게 한다. RPS 의무 이행이나 RE100 달성의 수단으로 쓰인다.",
+      "sources": [
+        {
+          "title": "Renewable Energy Certificates (RECs)",
+          "url": "https://www.epa.gov/green-power-markets/renewable-energy-certificates-recs",
+          "type": "institutional",
+          "publisher": "미국 EPA"
+        }
+      ],
+      "related": [
+        "rps",
+        "re100"
+      ]
+    },
+    {
+      "id": "ppa",
+      "term": "PPA",
+      "fullName": "Power Purchase Agreement",
+      "korean": "전력구매계약",
+      "category": "energy",
+      "definition": "발전사업자와 전력구매자가 통상 5~20년의 장기간 정해진 가격에 전력을 사고팔기로 하는 계약. 개발사업자는 안정적 수익으로 자금을 조달하고, 구매자는 가격 변동 위험을 피하며 재생에너지를 안정적으로 조달한다.",
+      "sources": [
+        {
+          "title": "What are PPAs?",
+          "url": "https://www.eurelectric.org/in-detail/ppas/",
+          "type": "institutional",
+          "publisher": "Eurelectric"
+        }
+      ],
+      "related": [
+        "re100",
+        "rec"
+      ]
+    },
+    {
+      "id": "vre",
+      "term": "VRE",
+      "fullName": "Variable Renewable Energy",
+      "korean": "변동성 재생에너지",
+      "category": "energy",
+      "definition": "태양광·풍력처럼 기상조건에 따라 발전량이 변동하고 필요할 때 출력을 조절하기 어려운 재생에너지원을 가리키는 용어. 비중이 커질수록 전력망 통합 과제가 커진다.",
+      "sources": [
+        {
+          "title": "Introduction to System Integration of Renewables",
+          "url": "https://www.iea.org/reports/introduction-to-system-integration-of-renewables",
+          "type": "institutional",
+          "publisher": "IEA"
+        }
+      ],
+      "related": [
+        "ess-bess",
+        "elcc",
+        "grid-flexibility",
+        "curtailment"
+      ]
+    },
+    {
+      "id": "lcoe",
+      "term": "LCOE",
+      "fullName": "Levelized Cost of Electricity",
+      "korean": "균등화발전비용",
+      "category": "energy",
+      "definition": "발전소의 수명 동안 드는 총비용(건설·연료·운영유지·금융비용)을 총발전량으로 나눈 값. 서로 다른 발전원의 경제성을 같은 기준으로 비교하는 지표로, 손익분기 최소 판매가격을 뜻한다.",
+      "sources": [
+        {
+          "title": "Levelised Cost of Electricity Calculator",
+          "url": "https://www.iea.org/data-and-statistics/data-tools/levelised-cost-of-electricity-calculator",
+          "type": "institutional",
+          "publisher": "IEA"
+        }
+      ],
+      "related": [
+        "lcos",
+        "vre"
+      ]
+    },
+    {
+      "id": "lcos",
+      "term": "LCOS",
+      "fullName": "Levelized Cost of Storage",
+      "korean": "균등화저장비용",
+      "category": "energy",
+      "definition": "에너지저장설비의 전체 비용을 수명 동안 방전한 총 전력량으로 나눈 손익분기 지표로, 저장기술 간 경제성을 비교하는 데 쓰인다. 충전비용·효율손실 포함 여부가 기관마다 달라 값이 다르게 나올 수 있다.",
+      "sources": [
+        {
+          "title": "Levelized Cost of Storage, Version 7.0",
+          "url": "https://www.lazard.com/media/42dnsswd/lazards-levelized-cost-of-storage-version-70-vf.pdf",
+          "type": "institutional",
+          "publisher": "Lazard"
+        }
+      ],
+      "related": [
+        "lcoe",
+        "ess-bess"
+      ]
+    },
+    {
+      "id": "ess-bess",
+      "term": "ESS / BESS",
+      "fullName": "Energy Storage System / Battery Energy Storage System",
+      "korean": "에너지저장장치 / 배터리 에너지저장장치",
+      "category": "energy",
+      "definition": "ESS는 전기를 저장했다가 필요할 때 방출하는 장치 전반을 가리키고, BESS는 그중 배터리를 이용하는 방식이다. 변동성 재생에너지의 출력을 안정화하는 완충장치로 꼽힌다.",
+      "sources": [
+        {
+          "title": "What is a Battery Energy Storage System (BESS)?",
+          "url": "https://www.vertiv.com/en-emea/about/news-and-events/articles/educational-articles/what-is-a-battery-energy-storage-system-bess/",
+          "type": "secondary",
+          "publisher": "Vertiv"
+        }
+      ],
+      "related": [
+        "lcos",
+        "elcc",
+        "grid-flexibility"
+      ]
+    },
+    {
+      "id": "elcc",
+      "term": "ELCC",
+      "fullName": "Effective Load Carrying Capability",
+      "korean": "유효부하 기여도",
+      "category": "energy",
+      "definition": "특정 발전자원이 전력부족 위험이 가장 큰 시간대에 얼마나 신뢰성 있게 전력을 공급할 수 있는지를 설비용량 대비 백분율로 나타낸 지표다(예: 100MW 태양광의 ELCC가 30%면 신뢰도 기여분은 30MW). 위험 시간대에 발전 가능한 자원일수록 값이 높다.",
+      "sources": [
+        {
+          "title": "Effective Load Carrying Capability",
+          "url": "https://www.pjm.com/planning/resource-adequacy-planning/effective-load-carrying-capability",
+          "type": "institutional",
+          "publisher": "PJM"
+        }
+      ],
+      "related": [
+        "vre",
+        "ess-bess",
+        "grid-flexibility"
+      ]
+    },
+    {
+      "id": "grid-flexibility",
+      "term": "계통 유연성",
+      "fullName": "Grid Flexibility",
+      "korean": "계통 유연성",
+      "category": "energy",
+      "definition": "전력 수요와 재생에너지 발전량이 시시각각 변하는 상황에서, 전력망이 그 변동에 맞춰 얼마나 빠르고 안정적으로 출력을 조절할 수 있는지를 가리키는 개념이다. ESS, 유연한 화력, 수요반응 등이 유연성 자원으로 쓰인다.",
+      "sources": [],
+      "related": [
+        "vre",
+        "ess-bess",
+        "curtailment",
+        "elcc"
+      ]
+    },
+    {
+      "id": "curtailment",
+      "term": "출력제한",
+      "fullName": "Curtailment",
+      "korean": "출력제한(감발)",
+      "category": "energy",
+      "definition": "전력망이 발전량을 다 받아들일 수 없을 때, 태양광·풍력 등의 발전 출력을 인위적으로 줄이는 조치다. 재생에너지 사업자에게는 손실로 이어지기 때문에 보상 제도가 함께 논의된다.",
+      "sources": [],
+      "related": [
+        "vre",
+        "grid-flexibility"
+      ]
+    },
+    {
+      "id": "cfe",
+      "term": "CFE",
+      "fullName": "Carbon-Free Energy (24/7 CFE)",
+      "korean": "무탄소에너지(24시간 무탄소에너지)",
+      "category": "energy",
+      "definition": "하루 24시간·연중 전력 소비 전량을 매시간 무탄소 전원으로 충당한다는 개념으로, 연간 총량만 맞추면 되는 '재생에너지 100%'보다 엄격한 기준이다. 구글이 2030년까지 전 세계 사업장에서 24/7 CFE 달성을 공언하며 널리 알려졌다.",
+      "sources": [
+        {
+          "title": "24/7 Carbon-Free Energy Explainer",
+          "url": "https://sustainability.google/reports/24-7-explainer/",
+          "type": "secondary",
+          "publisher": "Google"
+        }
+      ],
+      "related": [
+        "re100",
+        "vre"
+      ]
+    },
+    {
+      "id": "smr",
+      "term": "SMR",
+      "fullName": "Small Modular Reactor",
+      "korean": "소형모듈원자로",
+      "category": "energy",
+      "definition": "모듈당 최대 300MW(e) 이하 전력을 생산하는 소형 원자로로, 공장에서 미리 제작해 현장에 설치할 수 있어 건설기간·비용을 줄이고 부지 제약도 적다. 아직 상용화 사례는 많지 않다.",
+      "sources": [
+        {
+          "title": "What are Small Modular Reactors (SMRs)?",
+          "url": "https://www.iaea.org/newscenter/news/what-are-small-modular-reactors-smrs",
+          "type": "institutional",
+          "publisher": "IAEA"
+        }
+      ],
+      "related": [
+        "aidc"
+      ]
+    },
+    {
+      "id": "osw",
+      "term": "OSW",
+      "fullName": "Offshore Wind",
+      "korean": "해상풍력",
+      "category": "energy",
+      "definition": "육상보다 바람이 강하고 안정적인 바다에 풍력발전기를 설치하는 방식으로, 육상풍력의 부지·소음·경관 제약을 피할 수 있는 대안이다. \"OSW\"는 업계에서 관용적으로 쓰는 줄임말이며, 국제기구가 공식 채택한 표준 약어는 아니다.",
+      "sources": [
+        {
+          "title": "Offshore Wind Geospatial Analysis",
+          "url": "https://www.iea.org/data-and-statistics/data-tools/offshore-wind-geospatial-analysis",
+          "type": "institutional",
+          "publisher": "IEA"
+        }
+      ],
+      "related": [
+        "vre",
+        "lcoe"
+      ]
+    },
+    {
+      "id": "power-supply-plan",
+      "term": "전력수급기본계획",
+      "fullName": "Basic Plan for Long-term Electricity Supply and Demand",
+      "korean": "전력수급기본계획",
+      "category": "energy",
+      "definition": "전기사업법에 따라 산업통상자원부가 2년마다 수립하는 15년 단위 전력 수급 계획으로, 향후 발전설비 구성과 전력수요 전망을 정한다. 재생에너지·원전 비중 등 에너지믹스의 근거가 되는 핵심 국가계획이다.",
+      "sources": [],
+      "related": [
+        "kepco-kpx",
+        "vre"
+      ]
+    },
+    {
+      "id": "kepco-kpx",
+      "term": "KEPCO / KPX",
+      "fullName": "Korea Electric Power Corporation / Korea Power Exchange",
+      "korean": "한국전력공사 / 전력거래소",
+      "category": "energy",
+      "definition": "KEPCO(한국전력공사)는 국내 송배전과 전력 판매를 맡는 공기업이고, KPX(전력거래소)는 발전사업자 간 전력 매매가 이뤄지는 전력시장을 운영하며 계통 급전을 지시하는 기관이다. 두 기관 모두 재생에너지의 계통 접속·정산과 직결된다.",
+      "sources": [],
+      "related": [
+        "power-supply-plan",
+        "vre"
+      ]
+    },
+    {
+      "id": "aidc",
+      "term": "AIDC",
+      "fullName": "AI Data Center",
+      "korean": "인공지능 데이터센터",
+      "category": "energy",
+      "definition": "대규모 AI 연산을 처리하기 위해 지어지는 데이터센터로, 일반 데이터센터보다 훨씬 큰 전력을 소비해 최근 전력 수요 급증의 주요 원인으로 꼽힌다.",
+      "sources": [],
+      "related": [
+        "smr",
+        "cfe"
+      ]
+    },
+    {
+      "id": "ghg",
+      "term": "GHG",
+      "fullName": "Greenhouse Gas",
+      "korean": "온실가스",
+      "category": "science",
+      "definition": "대기 중에서 열을 가둬 지구를 담요처럼 감싸는 기체(이산화탄소·메탄 등)를 가리킨다. 기체마다 열을 흡수하는 능력과 대기 중에 머무는 기간이 달라 온난화에 미치는 영향의 크기가 다르다.",
+      "sources": [
+        {
+          "title": "Overview of Greenhouse Gases",
+          "url": "https://www.epa.gov/ghgemissions/overview-greenhouse-gases",
+          "type": "institutional",
+          "publisher": "미국 EPA"
+        }
+      ],
+      "related": [
+        "ccs-ccus",
+        "lulucf",
+        "ghg-reduction-target"
+      ]
+    },
+    {
+      "id": "ccs-ccus",
+      "term": "CCS / CCUS",
+      "fullName": "Carbon Capture and Storage / Carbon Capture, Utilisation and Storage",
+      "korean": "탄소포집저장 / 탄소포집·활용·저장",
+      "category": "science",
+      "definition": "산업시설 배출가스나 대기 중 이산화탄소를 포집해 땅속에 영구 저장(CCS)하거나 연료·화학제품 생산 등에 활용(CCU)하는 기술 전반이다. 감축이 어려운 산업·발전 부문 배출을 줄이는 핵심 기술로 꼽힌다.",
+      "sources": [
+        {
+          "title": "Carbon capture, utilisation and storage",
+          "url": "https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage",
+          "type": "institutional",
+          "publisher": "IEA"
+        }
+      ],
+      "related": [
+        "dac",
+        "ghg"
+      ]
+    },
+    {
+      "id": "lulucf",
+      "term": "LULUCF",
+      "fullName": "Land Use, Land-Use Change and Forestry",
+      "korean": "토지이용·토지이용변화 및 임업",
+      "category": "science",
+      "definition": "산림·농경지·초지 등 관리 토지에서의 온실가스 배출·흡수(탄소저장량 변화)를 다루는 국가 온실가스 인벤토리 부문이다. 벌채 등으로 인한 '배출'과 조림 등을 통한 '제거'를 구분해 순배출량을 계산한다.",
+      "sources": [
+        {
+          "title": "Land use, land-use change and forestry (LULUCF)",
+          "url": "https://unfccc.int/topics/land-use/workstreams/land-use--land-use-change-and-forestry-lulucf",
+          "type": "institutional",
+          "publisher": "UNFCCC"
+        }
+      ],
+      "related": [
+        "ghg",
+        "ndc",
+        "redd-plus"
+      ]
+    },
+    {
+      "id": "dac",
+      "term": "DAC",
+      "fullName": "Direct Air Capture",
+      "korean": "직접공기포집",
+      "category": "science",
+      "definition": "배출원이 아니라 대기 중에서 직접 이산화탄소를 포집하는 기술이다. 대기 중 농도가 낮아 다른 포집 방식보다 비용·에너지 소요가 훨씬 크지만, 장거리 운송·중공업처럼 감축이 어려운 배출을 상쇄하는 수단으로 주목받는다.",
+      "sources": [
+        {
+          "title": "Direct Air Capture",
+          "url": "https://www.iea.org/energy-system/carbon-management/direct-air-capture",
+          "type": "institutional",
+          "publisher": "IEA"
+        }
+      ],
+      "related": [
+        "ccs-ccus"
+      ]
+    },
+    {
+      "id": "net-zero",
+      "term": "탄소중립",
+      "fullName": "Net Zero / Carbon Neutrality",
+      "korean": "탄소중립",
+      "category": "policy-kr",
+      "definition": "온실가스 배출량과 흡수·제거량을 같게 만들어 순배출을 0으로 만드는 상태를 말한다. 한국은 2050년 탄소중립을 법적 목표로 삼고 있다.",
+      "sources": [],
+      "related": [
+        "ghg-reduction-target",
+        "just-transition",
+        "ndc"
+      ]
+    },
+    {
+      "id": "just-transition",
+      "term": "정의로운 전환",
+      "fullName": "Just Transition",
+      "korean": "정의로운 전환",
+      "category": "policy-kr",
+      "definition": "탈탄소 전환 과정에서 일자리를 잃거나 생계에 타격을 입는 노동자·지역사회가 소외되지 않도록, 사회적 형평을 함께 고려하며 전환을 추진해야 한다는 원칙이다.",
+      "sources": [],
+      "related": [
+        "net-zero",
+        "climate-justice",
+        "jetp",
+        "stranded-assets"
+      ]
+    },
+    {
+      "id": "greenwashing",
+      "term": "그린워싱",
+      "fullName": "Greenwashing",
+      "korean": "그린워싱(위장 환경주의)",
+      "category": "policy-kr",
+      "definition": "기업이나 기관이 실제로는 친환경적이지 않은 활동을 친환경적인 것처럼 과장하거나 왜곡해 홍보하는 행위를 가리킨다.",
+      "sources": [],
+      "related": [
+        "vcm",
+        "mrv",
+        "sbti"
+      ]
+    },
+    {
+      "id": "stranded-assets",
+      "term": "좌초자산",
+      "fullName": "Stranded Assets",
+      "korean": "좌초자산",
+      "category": "policy-kr",
+      "definition": "기후정책 변화나 탈탄소 전환으로 인해 예상보다 일찍 가치를 잃거나 손실을 떠안게 되는 화석연료 관련 자산(발전소, 설비 등)을 가리킨다.",
+      "sources": [],
+      "related": [
+        "just-transition",
+        "net-zero"
+      ]
+    },
+    {
+      "id": "climate-justice",
+      "term": "기후정의",
+      "fullName": "Climate Justice",
+      "korean": "기후정의",
+      "category": "policy-kr",
+      "definition": "기후변화의 원인 제공과 피해·대응 부담이 계층·지역·세대 간에 불평등하게 나뉘어 있다는 문제의식 아래, 그 불평등을 바로잡으며 기후위기에 대응해야 한다는 관점이다.",
+      "sources": [],
+      "related": [
+        "just-transition",
+        "stranded-assets"
+      ]
+    },
+    {
+      "id": "ghg-reduction-target",
+      "term": "온실가스 감축목표",
+      "fullName": "Greenhouse Gas Reduction Target",
+      "korean": "온실가스 감축목표",
+      "category": "policy-kr",
+      "definition": "국가나 기업이 특정 시점까지 온실가스 배출을 얼마나 줄이겠다고 정한 목표치다. 국가 단위로는 유엔에 제출하는 NDC가 이 목표를 공식화한 문서다.",
+      "sources": [],
+      "related": [
+        "ndc",
+        "net-zero",
+        "climate-litigation"
+      ]
+    },
+    {
+      "id": "climate-litigation",
+      "term": "기후소송",
+      "fullName": "Climate Litigation",
+      "korean": "기후소송",
+      "category": "policy-kr",
+      "definition": "정부나 기업의 기후정책·감축목표가 불충분하다는 이유로 법원에 제기하는 소송이다. 한국에서는 헌법재판소가 탄소중립기본법의 감축목표 조항 일부에 헌법불합치를 결정한 사례가 있다.",
+      "sources": [],
+      "related": [
+        "ghg-reduction-target",
+        "net-zero"
+      ]
+    },
+    {
+      "id": "sbti",
+      "term": "SBTi",
+      "fullName": "Science Based Targets initiative",
+      "korean": "과학기반 감축목표 이니셔티브",
+      "category": "global-initiatives",
+      "definition": "기업·금융기관이 파리협정 1.5°C 목표에 부합하는 감축목표를 세우도록 기준과 도구를 제공하고 이를 검증하는 기구다. CDP·유엔글로벌콤팩트·WRI·WWF가 2015년 함께 설립했다.",
+      "sources": [
+        {
+          "title": "About us",
+          "url": "https://sciencebasedtargets.org/about-us",
+          "type": "institutional",
+          "publisher": "SBTi"
+        }
+      ],
+      "related": [
+        "net-zero",
+        "tcfd",
+        "greenwashing"
+      ]
+    },
+    {
+      "id": "tcfd",
+      "term": "TCFD",
+      "fullName": "Task Force on Climate-related Financial Disclosures",
+      "korean": "기후 관련 재무정보 공개 협의체",
+      "category": "global-initiatives",
+      "definition": "금융안정위원회(FSB)가 2015년 설립해 기업의 기후 관련 위험·기회를 재무적으로 공시하도록 권고안을 만든 기구다. 2023년 임무를 마치고 공식 해산했으며, 기업 공시 이행 모니터링 역할은 2024년부터 IFRS재단·ISSB로 넘어갔다. 권고사항 자체는 ISSB의 IFRS S1·S2 기준에 그대로 흡수돼 있다.",
+      "sources": [
+        {
+          "title": "IFRS Foundation welcomes culmination of TCFD's work",
+          "url": "https://www.ifrs.org/news-and-events/news/2023/07/foundation-welcomes-tcfd-responsibilities-from-2024/",
+          "type": "institutional",
+          "publisher": "IFRS재단",
+          "date": "2023-07"
+        }
+      ],
+      "related": [
+        "issb",
+        "sbti"
+      ]
+    },
+    {
+      "id": "issb",
+      "term": "ISSB",
+      "fullName": "International Sustainability Standards Board",
+      "korean": "국제지속가능성기준위원회",
+      "category": "global-initiatives",
+      "definition": "IFRS재단 산하 독립 민간기구로, 투자자에게 필요한 지속가능성 정보를 위한 국제기준(일반기준 IFRS S1, 기후기준 IFRS S2)을 제정한다. 2021년 설립됐고 TCFD의 권고안을 자체 기준에 흡수해 사실상 후속 기구 역할을 한다.",
+      "sources": [
+        {
+          "title": "International Sustainability Standards Board",
+          "url": "https://www.ifrs.org/groups/international-sustainability-standards-board/",
+          "type": "institutional",
+          "publisher": "IFRS재단"
+        }
+      ],
+      "related": [
+        "tcfd"
+      ]
+    },
+    {
+      "id": "gx",
+      "term": "GX",
+      "fullName": "Green Transformation",
+      "korean": "그린 트랜스포메이션(일본 정부 녹색전환 정책)",
+      "category": "global-initiatives",
+      "definition": "일본이 화석연료 중심 산업·사회구조를 무탄소 청정에너지 중심으로 전환하기 위해 추진하는 국가전략이다. 2023년 'GX 기본방침'이 각의 결정됐고, 세계 최초의 국가 주도 전환국채로 재원을 마련해 10년간 150조 엔 규모의 민관 투자를 목표로 한다.",
+      "sources": [
+        {
+          "title": "GX (Green Transformation) Policy",
+          "url": "https://www.enecho.meti.go.jp/en/category/special/article/detail_214.html",
+          "type": "institutional",
+          "publisher": "일본 경제산업성"
+        }
+      ],
+      "related": [
+        "ira",
+        "jetp"
+      ]
+    },
+    {
+      "id": "ira",
+      "term": "IRA",
+      "fullName": "Inflation Reduction Act",
+      "korean": "인플레이션 감축법(미국)",
+      "category": "global-initiatives",
+      "definition": "2022년 제정된 미국 연방법으로, 청정에너지·기후 대응에 미국 역사상 최대 규모인 약 4,000억 달러를 투입한다. 재생에너지·청정제조·전기차 세액공제를 통해 2030년까지 미국 탄소배출을 약 40% 줄이는 것이 목표다.",
+      "sources": [
+        {
+          "title": "Brief Summary of the Climate and Energy Provisions of the IRA",
+          "url": "https://www.wri.org/update/brief-summary-climate-and-energy-provisions-inflation-reduction-act-2022",
+          "type": "institutional",
+          "publisher": "World Resources Institute"
+        }
+      ],
+      "related": [
+        "gx"
+      ]
+    },
+    {
+      "id": "gcf",
+      "term": "GCF",
+      "fullName": "Green Climate Fund",
+      "korean": "녹색기후기금",
+      "category": "global-initiatives",
+      "definition": "2010년 COP16에서 UNFCCC 재정 메커니즘의 운영기구로 설립된 세계 최대 규모의 전용 기후기금이다. 개발도상국의 온실가스 감축·기후적응 활동을 지원한다.",
+      "sources": [
+        {
+          "title": "About",
+          "url": "https://www.greenclimate.fund/about",
+          "type": "institutional",
+          "publisher": "GCF"
+        }
+      ],
+      "related": [
+        "unfccc",
+        "jetp"
+      ]
+    }
+  ]
+}
