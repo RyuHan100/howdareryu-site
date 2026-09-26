@@ -548,6 +548,45 @@
   border-radius: 999px;
   padding: 0.15rem 0.6rem;
 }
+/* ---------- 관련 용어(climate glossary 로 이동) ----------
+   climate-glossary 의 .gl-related-chip 과 같은 알약 모양이지만, 여기는 같은 패널 안에서
+   내용만 바뀌는 게 아니라 /glossary 로 실제 이동하는 진짜 링크라 <a> 로 만든다. */
+.tl-modal-glossary {
+  margin: 0.75rem 0 0;
+}
+.tl-modal-glossary-title {
+  margin: 0 0 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+.tl-modal-glossary-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.tl-glossary-chip {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--dark);
+  background: color-mix(in srgb, var(--secondary) 12%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--secondary) 35%, var(--light));
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  text-decoration: none !important;
+}
+.tl-glossary-chip:hover {
+  border-color: var(--secondary);
+}
+.tl-glossary-chip:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
 .tl-modal-close {
   position: absolute;
   top: 0.75rem;

@@ -383,6 +383,43 @@
   outline: 2px solid var(--tertiary);
   outline-offset: 2px;
 }
+/* ---------- 연표에서(climate histography 로 이동) ----------
+   .gl-related-chip 과 같은 알약 모양이지만, 같은 패널 안 내용만 바뀌는 게 아니라 /timeline
+   으로 실제 이동하는 진짜 링크라 <a> 로 만든다(climate-timeline 의 .tl-glossary-chip과 짝). */
+.gl-modal-events-title {
+  margin: 0 0 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+.gl-modal-events-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.gl-event-chip {
+  display: inline-block;
+  font: inherit;
+  font-size: 0.8rem;
+  color: var(--dark);
+  background: color-mix(in srgb, var(--gray) 14%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--gray) 40%, var(--light));
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  text-decoration: none !important;
+}
+.gl-event-chip:hover {
+  border-color: var(--gray);
+}
+.gl-event-chip:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
 .gl-modal-close {
   position: absolute;
   top: 0.75rem;

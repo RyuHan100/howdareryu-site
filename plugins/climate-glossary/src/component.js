@@ -10,12 +10,35 @@ import { readFileSync } from "node:fs"
 import { join } from "node:path"
 
 const GLOSSARY_DATA_PATH = join(process.cwd(), "plugins/climate-glossary/data/climate-glossary.json")
+// climate glossary ↔ climate histography 상호 링크(2026-09-26)용. climate-timeline.json 의
+// 이벤트가 declare 하는 glossaryTerms(용어 id 목록)를 그대로 읽어 "용어 → 사건" 역인덱스를
+// 여기서 한 번만 만든다 — climate-timeline.json 은 사건마다 자기가 어떤 용어와 관련 있는지만
+// 적어 두고, "이 용어를 언급한 사건이 뭐가 있는지"는 계산하지 않는다(같은 관계를 두 파일에
+// 중복해서 적어두지 않기 위해, 단일 출처는 항상 climate-timeline.json 쪽).
+const TIMELINE_DATA_PATH = join(process.cwd(), "plugins/climate-timeline/data/climate-timeline.json")
 
 function readGlossaryData() {
   try {
     return JSON.parse(readFileSync(GLOSSARY_DATA_PATH, "utf-8"))
   } catch {
     return null
+  }
+}
+
+function readEventsByTerm() {
+  try {
+    const data = JSON.parse(readFileSync(TIMELINE_DATA_PATH, "utf-8"))
+    const events = Array.isArray(data.events) ? data.events : []
+    const byTerm = {}
+    for (const ev of events) {
+      for (const termId of ev.glossaryTerms || []) {
+        if (!byTerm[termId]) byTerm[termId] = []
+        byTerm[termId].push({ id: ev.id, title: ev.title })
+      }
+    }
+    return byTerm
+  } catch {
+    return {}
   }
 }
 
@@ -43,7 +66,8 @@ export const ClimateGlossary = () => {
     const data = readGlossaryData()
     const terms = data?.terms ?? []
     const categories = data?.categories ?? []
-    const html = terms.length > 0 ? renderGlossary(terms, categories) : null
+    const eventsByTerm = readEventsByTerm()
+    const html = terms.length > 0 ? renderGlossary(terms, categories, eventsByTerm) : null
 
     if (!html) {
       return h("section", {

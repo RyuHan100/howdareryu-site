@@ -76,9 +76,14 @@ function formatDateLabel(ev) {
 /**
  * events: climate-timeline.json 의 events 배열(date 는 "YYYY-MM" 필수).
  * categories: [{key,label}, ...] (climate-timeline.json 의 categories 배열).
+ * glossaryLabels: {termId: 표시이름} — climate-glossary.json 에서 읽어온다(climate glossary ↔
+ * climate histography 상호 링크, 2026-09-26). 이벤트의 glossaryTerms 배열(용어 id 목록)을
+ * 실제 표시 이름으로 바꾸는 데만 쓰고, 넘어오지 않으면(garden-home 이 아직 옛 시그니처로 부르는
+ * 경우 등) 빈 객체로 대신해 조용히 칩을 안 만든다 — 필수 인자로 만들지 않는다.
  * 반환: 타임라인 섹션 안에 그대로 넣을 HTML 문자열. events 가 비어 있으면 null.
  */
-export function renderTimeline(events, categories) {
+export function renderTimeline(events, categories, glossaryLabels) {
+  const glLabels = glossaryLabels || {}
   const labelByKey = new Map(categories.map((c) => [c.key, c.label]))
   const dated = events
     .map((ev) => {
@@ -196,6 +201,9 @@ export function renderTimeline(events, categories) {
       sources: normalizeSources(ev),
       location: ev.location || null,
       tags: Array.isArray(ev.tags) ? ev.tags : [],
+      glossaryTerms: (Array.isArray(ev.glossaryTerms) ? ev.glossaryTerms : [])
+        .filter((id) => glLabels[id])
+        .map((id) => ({ id, label: glLabels[id] })),
       prevId: i > 0 ? dated[i - 1].id : null,
       nextId: i < dated.length - 1 ? dated[i + 1].id : null,
     }
@@ -218,6 +226,10 @@ export function renderTimeline(events, categories) {
     `<ul class="tl-modal-sources-list"></ul>` +
     `</div>` +
     `<ul class="tl-modal-tags" hidden></ul>` +
+    `<div class="tl-modal-glossary" hidden>` +
+    `<h4 class="tl-modal-glossary-title">관련 용어</h4>` +
+    `<ul class="tl-modal-glossary-list"></ul>` +
+    `</div>` +
     `</div>` +
     `<div class="tl-modal-nav">` +
     `<button type="button" class="tl-modal-prev" data-tl-nav="prev">← 이전 사건</button>` +

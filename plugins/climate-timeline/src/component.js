@@ -10,12 +10,29 @@ import { readFileSync } from "node:fs"
 import { join } from "node:path"
 
 const TIMELINE_DATA_PATH = join(process.cwd(), "plugins/climate-timeline/data/climate-timeline.json")
+// climate glossary ↔ climate histography 상호 링크(2026-09-26)용. 이벤트의 glossaryTerms 는
+// 여기서 용어 이름표(term)로 바꿔서 상세 카드에 칩으로 보여준다 — 판정을 다시 하지 않고
+// climate-glossary.json 을 그대로 읽기만 한다(정원 데이터를 다른 컴포넌트가 읽는 것과 같은 방식).
+const GLOSSARY_DATA_PATH = join(process.cwd(), "plugins/climate-glossary/data/climate-glossary.json")
 
 function readTimelineData() {
   try {
     return JSON.parse(readFileSync(TIMELINE_DATA_PATH, "utf-8"))
   } catch {
     return null
+  }
+}
+
+function readGlossaryTermLabels() {
+  try {
+    const data = JSON.parse(readFileSync(GLOSSARY_DATA_PATH, "utf-8"))
+    const map = {}
+    for (const t of data.terms ?? []) {
+      if (t?.id) map[t.id] = t.term
+    }
+    return map
+  } catch {
+    return {}
   }
 }
 
@@ -43,7 +60,8 @@ export const ClimateTimeline = () => {
     const data = readTimelineData()
     const events = data?.events ?? []
     const categories = data?.categories ?? []
-    const html = events.length > 0 ? renderTimeline(events, categories) : null
+    const glossaryLabels = readGlossaryTermLabels()
+    const html = events.length > 0 ? renderTimeline(events, categories, glossaryLabels) : null
 
     if (!html) {
       return h("section", {

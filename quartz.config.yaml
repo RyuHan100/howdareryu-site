@@ -132,8 +132,18 @@ plugins:
       renderEngine: katex
     order: 80
   - source: github:quartz-community/citations
-    enabled: false
+    enabled: true
+    options:
+      bibliographyFile: ./bibliography.bib
+      suppressBibliography: false
+      linkCitations: true
+      csl: apa
     order: 85
+  # 노트 본문에서 climate-glossary 용어를 찾아 호버용 표시(.glossary-ref)로 감싼다.
+  # citations(85) 다음에 둬서 [@key] 인용 문법이 먼저 실제 텍스트로 바뀐 뒤에 스캔한다.
+  - source: ./plugins/glossary-linker
+    enabled: true
+    order: 87
   - source: github:quartz-community/hard-line-breaks
     enabled: true
     order: 90

@@ -136,6 +136,23 @@ export default (() => {
             ></script>
           </>
         )}
+        {/* 용어집 인라인 연동 — 본문의 .glossary-ref(plugins/glossary-linker) 위에 호버 툴팁을
+            띄운다. 데이터 스크립트가 먼저 로드돼야 하므로 순서를 지킨다. 홈에는 본문이
+            markdown 파이프라인을 안 거쳐 .glossary-ref 가 생길 일이 없어 같이 뺀다. */}
+        {fileData.slug !== "index" && (
+          <>
+            <script
+              defer
+              data-persist="true"
+              src={joinSegments(baseDir, "static/glossary-terms-data.js")}
+            ></script>
+            <script
+              defer
+              data-persist="true"
+              src={joinSegments(baseDir, "static/glossary-tooltip.js")}
+            ></script>
+          </>
+        )}
         {additionalHead.map((resource) => {
           if (typeof resource === "function") {
             return resource(fileData)

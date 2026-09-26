@@ -56,8 +56,9 @@ function normalizeSources(t) {
  * categories: [{key,label}, ...].
  * 반환: glossary 섹션 안에 그대로 넣을 HTML 문자열. terms 가 비어 있으면 null.
  */
-export function renderGlossary(terms, categories) {
+export function renderGlossary(terms, categories, eventsByTerm) {
   if (terms.length === 0) return null
+  const evByTerm = eventsByTerm || {}
 
   const labelByKey = new Map(categories.map((c) => [c.key, c.label]))
   const byId = new Map(terms.map((t) => [t.id, t]))
@@ -105,6 +106,7 @@ export function renderGlossary(terms, categories) {
       definition: t.definition || "",
       sources: normalizeSources(t),
       related: related.map((id) => ({ id, term: byId.get(id).term })),
+      relatedEvents: evByTerm[t.id] || [],
     }
   })
 
@@ -126,6 +128,10 @@ export function renderGlossary(terms, categories) {
     `<div class="gl-modal-related" hidden>` +
     `<h4 class="gl-modal-related-title">관련 용어</h4>` +
     `<ul class="gl-modal-related-list"></ul>` +
+    `</div>` +
+    `<div class="gl-modal-events" hidden>` +
+    `<h4 class="gl-modal-events-title">@climate histography</h4>` +
+    `<ul class="gl-modal-events-list"></ul>` +
     `</div>` +
     `</div>` +
     `</div>` +

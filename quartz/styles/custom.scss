@@ -196,3 +196,70 @@ article {
     display: none;
   }
 }
+
+// ============================================================================
+// 용어집 인라인 연동 (2026-09-26) — plugins/glossary-linker 가 본문에 심는 .glossary-ref
+// 링크와, quartz/static/glossary-tooltip.js 가 그 위에 띄우는 작은 정의 툴팁.
+// 색은 하드코딩하지 않고 테마 변수를 쓴다(CLAUDE.md §9). 밑줄 스타일로 "사전 링크"라는
+// 느낌만 주고, 주변 일반 링크(.internal, a:not(.internal))와는 확실히 다르게 점선 밑줄만
+// 쓴다 — 색만으로 구분하지 않는다.
+// ============================================================================
+a.glossary-ref {
+  color: inherit;
+  text-decoration: none !important; // hackthebox 테마의 a:not(.internal) 밑줄 규칙을 이긴다
+  border-bottom: 1px dotted color-mix(in srgb, var(--secondary) 70%, var(--gray));
+  cursor: help;
+}
+a.glossary-ref:hover,
+a.glossary-ref:focus-visible {
+  border-bottom-style: solid;
+  color: var(--secondary);
+}
+a.glossary-ref:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
+
+.glossary-tooltip {
+  position: fixed;
+  z-index: 2000;
+  max-width: min(320px, calc(100vw - 16px));
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.6rem;
+  background: var(--light);
+  border: 1px solid color-mix(in srgb, var(--gray) 45%, var(--light));
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--dark) 45%, transparent);
+  font-family: inherit;
+  pointer-events: none; // 마우스가 툴팁 위로 지나가도 링크의 mouseout 을 그대로 따르게
+}
+.glossary-tooltip[hidden] {
+  display: none;
+}
+.glossary-tooltip-term {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--dark);
+}
+.glossary-tooltip-badge {
+  font-weight: 500;
+  font-size: 0.68rem;
+  color: var(--gray);
+  background: color-mix(in srgb, var(--gray) 14%, var(--light));
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+}
+.glossary-tooltip-desc {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--dark);
+}
+.glossary-tooltip-hint {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.78rem;
+  color: var(--secondary);
+}

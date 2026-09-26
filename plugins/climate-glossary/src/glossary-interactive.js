@@ -8,6 +8,18 @@
 // 그려진다(별도 "이전/다음"이 아니라 명시적 관계로만 이동 — 타임라인의 시간순 이웃과 달리 용어
 // 사이의 관계는 순서가 없다).
 ;(function () {
+  // 다른 페이지(연표 등)에서 /glossary#id 로 들어오면 그 용어 패널을 자동으로 연다.
+  // initGlossary 는 섹션마다 한 번만 도니, 그 안에서 만든 open()/detailById 를 여기 담아
+  // hashchange(같은 페이지 안에서 해시만 바뀌는 경우)에서도 쓸 수 있게 한다.
+  var activeOpen = null
+  var activeDetailById = null
+
+  function applyHash() {
+    var id = decodeURIComponent(location.hash.replace(/^#/, ""))
+    if (!id || !activeOpen || !activeDetailById || !activeDetailById[id]) return
+    activeOpen(id)
+  }
+
   function initGlossary(section) {
     if (!section || section.dataset.glInit === "true") return
     section.dataset.glInit = "true"
@@ -86,6 +98,8 @@
     var sourcesList = modal.querySelector(".gl-modal-sources-list")
     var relatedWrap = modal.querySelector(".gl-modal-related")
     var relatedList = modal.querySelector(".gl-modal-related-list")
+    var eventsWrap = modal.querySelector(".gl-modal-events")
+    var eventsList = modal.querySelector(".gl-modal-events-list")
     var status = modal.querySelector(".gl-modal-status")
     var panel = modal.querySelector(".gl-modal-panel")
     var closeEls = Array.prototype.slice.call(modal.querySelectorAll("[data-gl-close]"))
@@ -169,6 +183,23 @@
       })
     }
 
+    // climate glossary ↔ climate histography 상호 링크(2026-09-26). 관련 용어 칩과 달리 실제
+    // 다른 페이지(/timeline)로 이동하는 진짜 <a> 다 — 도착한 페이지에서 timeline-interactive.js
+    // 가 location.hash 를 보고 그 사건 카드를 자동으로 연다.
+    function renderEvents(events) {
+      eventsList.innerHTML = ""
+      eventsWrap.hidden = events.length === 0
+      events.forEach(function (ev) {
+        var li = document.createElement("li")
+        var a = document.createElement("a")
+        a.className = "gl-event-chip"
+        a.href = "/timeline#" + ev.id
+        a.textContent = ev.title
+        li.appendChild(a)
+        eventsList.appendChild(li)
+      })
+    }
+
     function render(d) {
       meta.textContent = d.category
       title.textContent = d.term
@@ -176,6 +207,7 @@
       desc.textContent = d.definition || ""
       renderSources(d.sources || [])
       renderRelated(d.related || [])
+      renderEvents(d.relatedEvents || [])
     }
 
     // triggerEl: 카드를 연 실제 버튼(있으면). Chrome은 마우스 클릭만으로도 버튼에 포커스가
@@ -281,12 +313,17 @@
     closeEls.forEach(function (el) {
       el.addEventListener("click", close)
     })
+
+    activeOpen = open
+    activeDetailById = detailById
   }
 
   function init() {
     var sections = document.querySelectorAll(".climate-glossary")
     for (var i = 0; i < sections.length; i++) initGlossary(sections[i])
+    applyHash()
   }
 
   document.addEventListener("nav", init)
+  window.addEventListener("hashchange", applyHash)
 })()

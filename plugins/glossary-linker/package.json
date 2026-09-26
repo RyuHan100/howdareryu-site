@@ -1,0 +1,27 @@
+{
+  "name": "glossary-linker",
+  "version": "1.0.0",
+  "description": "노트 본문에 나오는 용어집(climate-glossary) 단어를 자동으로 감지해 호버 가능한 표시로 감싸는 변환기",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "quartz": {
+    "name": "glossary-linker",
+    "displayName": "Glossary Linker",
+    "description": "노트 본문에서 climate-glossary 용어를 찾아 호버용 표시(.glossary-ref)로 감싸는 텍스트 변환기",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 87,
+    "defaultEnabled": true
+  }
+}

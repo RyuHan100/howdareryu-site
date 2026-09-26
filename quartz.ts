@@ -3,6 +3,7 @@ import { registerCondition } from "./quartz/plugins/loader/conditions"
 import { syncExplorerConfigFromGarden } from "./quartz/garden/syncExplorerFromGarden"
 import { syncGardenHomeConfigFromGarden } from "./quartz/garden/syncGardenHomeFromGarden"
 import { syncPropertiesConfigFromGarden } from "./quartz/garden/syncPropertiesFromGarden"
+import { syncGlossaryTermsData } from "./quartz/garden/syncGlossaryTermsData"
 import { collectGardenData } from "./quartz/garden/collect"
 
 // 홈에서만 렌더링할 컴포넌트용 (quartz.config.yaml 의 layout.condition: index)
@@ -45,6 +46,10 @@ syncGardenHomeConfigFromGarden()
 // quartz/static/garden-properties-data.js 로 반영 (§7 — 방금 만든 garden-data.json 을
 // 그대로 읽어 오솔길·정원 그림과 같은 식물 판정을 쓴다)
 syncPropertiesConfigFromGarden()
+
+// 용어집 인라인 연동(호버 툴팁, plugins/glossary-linker 가 본문에 심어둔 .glossary-ref 가
+// 읽을 데이터) — plugins/climate-glossary/data/climate-glossary.json 을 그대로 옮겨 쓴다.
+syncGlossaryTermsData()
 
 const config = await loadQuartzConfig()
 export default config

@@ -17,6 +17,17 @@
   // 풀리거나 반대로 줌이 집중 모드의 폭 확장을 무시하는 문제가 생긴다).
   // __TL_SCALE_AND_VIEW__
 
+  // climate glossary ↔ climate histography 상호 링크(2026-09-26): 용어집에서 /timeline#eventId
+  // 로 들어오면 그 사건 카드를 자동으로 연다. glossary-interactive.js 의 같은 패턴 참고.
+  var activeOpen = null
+  var activeDetailById = null
+
+  function applyHash() {
+    var id = decodeURIComponent(location.hash.replace(/^#/, ""))
+    if (!id || !activeOpen || !activeDetailById || !activeDetailById[id]) return
+    activeOpen(id)
+  }
+
   function initTimeline(section) {
     if (!section || section.dataset.tlInit === "true") return
     section.dataset.tlInit = "true"
@@ -61,6 +72,8 @@
     var sourcesWrap = modal.querySelector(".tl-modal-sources")
     var sourcesList = modal.querySelector(".tl-modal-sources-list")
     var tagsEl = modal.querySelector(".tl-modal-tags")
+    var glossaryWrap = modal.querySelector(".tl-modal-glossary")
+    var glossaryList = modal.querySelector(".tl-modal-glossary-list")
     var status = modal.querySelector(".tl-modal-status")
     var prevBtn = modal.querySelector(".tl-modal-prev")
     var nextBtn = modal.querySelector(".tl-modal-next")
@@ -181,6 +194,23 @@
         tagsEl.appendChild(li)
       })
 
+      // climate glossary ↔ climate histography 상호 링크(2026-09-26). 실제 페이지 이동이라
+      // (관련 용어는 이 카드 안에서 내용만 바뀌는 게 아니라 /glossary 로 넘어간다) climate-glossary
+      // 의 관련 용어 칩과 달리 진짜 <a href> 로 만든다 — SPA 라우터가 가로채고, 도착한 페이지에서
+      // glossary-interactive.js 가 location.hash 를 보고 그 용어 패널을 자동으로 연다.
+      glossaryList.innerHTML = ""
+      var glossaryTerms = d.glossaryTerms || []
+      if (glossaryWrap) glossaryWrap.hidden = glossaryTerms.length === 0
+      glossaryTerms.forEach(function (term) {
+        var li = document.createElement("li")
+        var a = document.createElement("a")
+        a.className = "tl-glossary-chip"
+        a.href = "/glossary#" + term.id
+        a.textContent = term.label
+        li.appendChild(a)
+        glossaryList.appendChild(li)
+      })
+
       prevBtn.hidden = !neighbor(currentId, "prev")
       nextBtn.hidden = !neighbor(currentId, "next")
     }
@@ -292,12 +322,17 @@
     nextBtn.addEventListener("click", function () {
       navigate("next")
     })
+
+    activeOpen = open
+    activeDetailById = detailById
   }
 
   function init() {
     var sections = document.querySelectorAll(".climate-timeline")
     for (var i = 0; i < sections.length; i++) initTimeline(sections[i])
+    applyHash()
   }
 
   document.addEventListener("nav", init)
+  window.addEventListener("hashchange", applyHash)
 })()
