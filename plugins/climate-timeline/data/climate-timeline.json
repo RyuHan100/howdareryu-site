@@ -1568,6 +1568,21 @@
       ]
     },
     {
+        "id": "korea-2026-climate-justice-march",
+        "date": "2026-09",
+        "exactDate": "2026-09-19",
+        "title": "2026년 기후정의행진",
+        "category": "korea",
+        "image": "/static/images/timeline/2026_climate_justice_march.jpeg",
+        "imageAlt": "2026년 919 기후정의행진",
+        "description": "제5회 기후정의행진이 열렸다. 올해 행진의 화두는 '3대 메가 프로젝트'. 참가자 수가 눈에 띄게 줄었는데, 일부 지역에서 3대 메가 프로젝트에 찬성한다며 참여하지 않은 까닭이라는 말이 있다. ",
+        "sources": [
+          {
+            "title": "단비뉴스", 
+            "url": "https://www.danbinews.com/news/articleView.html?idxno=33820"}
+        ]
+      },
+    {
         "id": "abroad-germany-2045-coal-phaseout",
         "date": "2026-09",
         "exactDate": "2026-09-23",
