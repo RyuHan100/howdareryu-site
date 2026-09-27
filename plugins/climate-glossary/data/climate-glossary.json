@@ -280,6 +280,38 @@
       ]
     },
     {
+      "id": "redicap",
+      "term": "REDiCAP",
+      "fullName": "Regional Dialogue on Carbon Pricing",
+      "korean": "지역 탄소가격 대화",
+      "category": "carbon-market",
+      "definition": "UNFCCC 사무국이 지역협력센터(RCC)를 통해 여는 지역별 탄소가격제 역량강화 워크숍. 탄소세·배출권거래제(ETS) 같은 가격 기반 수단을 설계·도입하려는 각국 정책 담당자들이 경험을 나누고, CBAM·CORSIA 같은 국제 제도에 대한 대응도 함께 논의한다. 2023년에는 네 차례의 지역 기후주간에 맞춰 열려 71개국이 참여했고, 이후 라틴아메리카·군소도서개발국(SIDS) 등 지역별로 이어지고 있다. 독일 정부가 지원하는 CiACA(Collaborative Instruments for Ambitious Climate Action) 사업의 하나다.",
+      "sources": [
+        {
+          "title": "Regional Dialogues on Carbon Pricing Report 2023",
+          "url": "https://unfccc.int/sites/default/files/resource/REDiCAP_report_2023.pdf",
+          "type": "institutional",
+          "publisher": "UNFCCC",
+          "date": "2023"
+        },
+        {
+          "title": "Regional Dialogues on Carbon Pricing (REDiCAP) for Small Island Developing States (SIDS)",
+          "url": "https://unfccc.int/event/regional-dialogues-on-carbon-pricing-redicap-for-small-island-developing-states-sids",
+          "type": "institutional",
+          "publisher": "UNFCCC",
+          "date": "2025"
+        }
+      ],
+      "related": [
+        "carbon-pricing",
+        "ets",
+        "ndc",
+        "cbam",
+        "corsia",
+        "mrv"
+      ]
+    },
+    {
       "id": "vcm",
       "term": "VCM",
       "fullName": "Voluntary Carbon Market",
