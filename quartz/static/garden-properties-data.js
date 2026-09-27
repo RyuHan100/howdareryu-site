@@ -36,7 +36,12 @@ window.__GARDEN_PROPERTIES__ = {
       "뿌리": "0",
       "씨앗": "0"
     },
-    "scribbled-notes/attachments/2026-09-24-우울과-자율성": {
+    "scribbled-notes/독일의-탈화석연료-로드맵-읽어봄": {
+      "식물": "🌱 풀",
+      "뿌리": "0",
+      "씨앗": "2"
+    },
+    "scribbled-notes/untitled": {
       "식물": "🌱 풀",
       "뿌리": "0",
       "씨앗": "0"
