@@ -52,6 +52,9 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
 
+      - name: Copy Google verification file
+        run: cp content/google870a6d52cc477025.html public/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
