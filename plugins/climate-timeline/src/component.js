@@ -14,6 +14,9 @@ const TIMELINE_DATA_PATH = join(process.cwd(), "plugins/climate-timeline/data/cl
 // 여기서 용어 이름표(term)로 바꿔서 상세 카드에 칩으로 보여준다 — 판정을 다시 하지 않고
 // climate-glossary.json 을 그대로 읽기만 한다(정원 데이터를 다른 컴포넌트가 읽는 것과 같은 방식).
 const GLOSSARY_DATA_PATH = join(process.cwd(), "plugins/climate-glossary/data/climate-glossary.json")
+// 기온 편차 레이어(산업화 이전 1850-1900 대비, 2026-09-27)용 실측 자료. 출처·기준기간·재기준
+// 방식은 파일 상단 주석(#) 참고 — HadCRUT5, PLACEHOLDER 아님.
+const TEMPERATURE_DATA_PATH = join(process.cwd(), "plugins/climate-timeline/data/temperature-anomaly.csv")
 
 function readTimelineData() {
   try {
@@ -21,6 +24,28 @@ function readTimelineData() {
   } catch {
     return null
   }
+}
+
+/** temperature-anomaly.csv → [{year, value}, ...]. `#`로 시작하는 줄(출처 설명)과 헤더 줄은
+ * 건너뛴다. 파일을 못 읽거나 숫자로 안 읽히는 줄은 조용히 빼고, 아예 못 읽으면 빈 배열을
+ * 돌려줘 renderTimeline 이 온도 레이어 없이 그리도록 한다(요구사항: 실패해도 안 깨짐). */
+function readTemperatureSeries() {
+  let text
+  try {
+    text = readFileSync(TEMPERATURE_DATA_PATH, "utf-8")
+  } catch {
+    return []
+  }
+  const series = []
+  for (const line of text.split("\n")) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith("#") || trimmed.startsWith("year,")) continue
+    const [yearStr, valueStr] = trimmed.split(",")
+    const year = Number(yearStr)
+    const value = Number(valueStr)
+    if (Number.isFinite(year) && Number.isFinite(value)) series.push({ year, value })
+  }
+  return series
 }
 
 function readGlossaryTermLabels() {
@@ -61,7 +86,8 @@ export const ClimateTimeline = () => {
     const events = data?.events ?? []
     const categories = data?.categories ?? []
     const glossaryLabels = readGlossaryTermLabels()
-    const html = events.length > 0 ? renderTimeline(events, categories, glossaryLabels) : null
+    const temperatureSeries = readTemperatureSeries()
+    const html = events.length > 0 ? renderTimeline(events, categories, glossaryLabels, temperatureSeries) : null
 
     if (!html) {
       return h("section", {

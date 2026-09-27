@@ -404,5 +404,9 @@ function tlCreateView(section) {
   scroll.scrollLeft = scrollLeftForNow()
   scheduleUpdate()
 
-  return { zoomBy: zoomBy, reset: reset, fitRange: fitRange }
+  // view 를 그대로 참조로 내준다(복사가 아니라 같은 객체) — applyPx() 가 이 객체의
+  // pxPerMonth 를 계속 고쳐 쓰므로(재할당이 아니라 in-place), 밖에서 이 참조 하나만 들고
+  // 있으면 항상 최신 배율을 본다. 기온 편차 호버 툴팁(timeline-interactive.js)이 클릭 좌표를
+  // 날짜로 바꿀 때 이 배율을 그대로 써야 줌 중에도 툴팁이 실제 위치와 맞는다.
+  return { zoomBy: zoomBy, reset: reset, fitRange: fitRange, view: view }
 }

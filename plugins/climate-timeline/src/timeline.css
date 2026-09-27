@@ -168,6 +168,35 @@
   text-align: center;
 }
 
+/* ---------- 기온 편차 토글 · 설명(요구사항: 켜고 끄는 토글 + 축 제목) ----------
+   .tl-zoom-btn 과 같은 알약 스타일을 재사용한다(토글도 "타임라인 근처의 controls" 이므로). */
+.tl-temp-toggle {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--dark);
+  background: color-mix(in srgb, var(--gray) 14%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--gray) 40%, var(--light));
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+}
+.tl-temp-toggle:hover {
+  border-color: var(--gray);
+}
+.tl-temp-toggle:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+}
+.tl-temp-toggle[aria-pressed="true"] {
+  color: var(--light);
+  background: color-mix(in srgb, var(--color-orange, var(--darkgray)) 75%, var(--dark));
+  border-color: color-mix(in srgb, var(--color-orange, var(--darkgray)) 75%, var(--dark));
+}
+.tl-temp-caption {
+  font-size: 0.78rem;
+  color: var(--gray);
+}
+
 /* ---------- 가로 스크롤 영역 ----------
    요구사항: 모바일에서 가로 스크롤이 페이지 전체로 새지 않게, timeline 내부 overflow 와
    body overflow 를 분리한다. overflow-x:auto 인 이 래퍼 하나만 가로로 넓어지고(.tl-track 이
@@ -177,6 +206,16 @@
    touch-action: 두 손가락 핀치를 timeline-view.js 가 직접 처리하므로(줌), 브라우저 기본
    핀치줌/더블탭줌은 이 영역에서만 꺼둔다(pan-x pan-y = 한 손가락 스크롤은 그대로 허용). */
 .tl-scroll {
+  /* display:flex — 기온 편차 세로축(.tl-temp-axis)을 .tl-track 과 한 줄에 나란히 두고, 축만
+     position:sticky 로 화면 왼쪽에 붙이기 위해서다(요구사항: 가로로 아무리 스크롤해도 세로축은
+     항상 왼쪽에 보여야 한다). "표의 고정 열(frozen column)" 과 같은 패턴 — 축을 .tl-scroll
+     밖으로 완전히 분리하지 않은 이유(0단계 판단): 줌 입력(wheel/gesture/touch) 리스너가 전부
+     .tl-scroll 자신에 붙어 있어서(timeline-view.js), 축 위에서 시작한 핀치줌도 그대로 잡히게
+     하려면 축이 이 스크롤 컨테이너 "안"에 있어야 한다. 온도 레이어가 꺼져 있으면(.tl-temp-off)
+     .tl-temp-axis 자체가 display:none 이 되므로, 이 한 줄 안에 .tl-track 만 남아 예전과 똑같이
+     동작한다(요구사항: 꺼진 상태는 기존 화면과 완전히 동일). */
+  display: flex;
+  align-items: stretch;
   overflow-x: auto;
   overflow-y: visible;
   overscroll-behavior-x: contain;
@@ -186,13 +225,115 @@
   padding-bottom: 0.5rem;
 }
 
+/* align-items:stretch(위 .tl-scroll) 가 .tl-temp-axis 의 높이를 .tl-track 의 실제 높이(아래,
+   이벤트 개수에 따라 달라짐)에 자동으로 맞춰 준다 — 그래서 안에 있는 .tl-temp-tick 들은
+   퍼센트(--temp-y) 하나로만 위치를 잡아도 .tl-track 안 SVG 온도선·기준선과 항상 1px 오차 없이
+   겹친다(요구사항). 배경을 불투명하게(본문 배경 토큰 --light) 줘서 그 아래로 스크롤되어
+   지나가는 온도선·이벤트가 비쳐 보이지 않게 한다. */
+.tl-temp-axis {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  flex: none;
+  width: 52px;
+  background: var(--light);
+  border-right: 1px solid color-mix(in srgb, var(--gray) 30%, var(--light));
+}
+@media (max-width: 800px) {
+  .tl-temp-axis {
+    width: 42px;
+  }
+}
+.tl-temp-tick {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc((1 - var(--temp-y)) * 100%);
+  transform: translateY(-50%);
+  font-size: 0.68rem;
+  color: var(--gray);
+  text-align: right;
+  padding-right: 0.35rem;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.tl-temp-tick-threshold {
+  color: var(--color-orange, var(--darkgray));
+  font-weight: 600;
+}
+
 .tl-track {
   position: relative;
+  /* flex: none — .tl-scroll 를 display:flex 로 바꾸면서(위, 세로축 고정용) 생긴 부작용을
+     막는다: flex 아이템의 기본 flex-shrink:1 때문에, 이 트랙의 일부러 아주 크게 잡은 width
+     (아래)가 좁은 뷰포트에 맞게 눌려 버려서(shrink) 가로 스크롤 자체가 사라지는 문제가 있었다
+     — flex:none 으로 이 트랙만은 자기 width 를 그대로 유지하게 한다. */
+  flex: none;
   width: calc(var(--month-width) * var(--total-months));
   height: calc(var(--stack-gap) * (var(--stack-up) + var(--stack-down)) + var(--edge-pad) * 2);
   min-width: 100%;
   /* 축의 세로 위치(위쪽에서부터). 이벤트/연도 눈금이 전부 이 값을 기준으로 배치된다. */
   --axis-top: calc(var(--stack-gap) * var(--stack-up) + var(--edge-pad));
+}
+
+/* ---------- 기온 편차 온도선(요구사항: 기존 타임라인 위에 겹쳐 표시) ----------
+   DOM 순서상 .tl-track 의 맨 첫 자식이라(timeline-render.js), z-index 없이도 축선(.tl-axis)·
+   연도·이벤트·눈금보다 항상 먼저(=아래) 그려진다 — 이벤트가 가려지는 일이 없다(요구사항).
+   viewBox="0 0 totalMonths 1000" + preserveAspectRatio="none" 로 그려서, 줌으로 --month-width
+   가 바뀌어 .tl-track 폭이 변해도(width:100% 가 그 폭을 그대로 따라간다) JS 가 다시 계산할
+   필요 없이 브라우저가 가로로만 다시 늘여 붙인다(세로 스케일은 그대로라 값 왜곡이 없다). */
+.tl-temp-chart {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  /* svg 안의 빈 공간(선이 없는 곳)도 호버를 받게 한다 — 안 그러면 실제로 칠해진 부분(선·
+     기준선·음영) 위에서만 포인터 이벤트가 잡혀 툴팁이 뚝뚝 끊긴다. */
+  pointer-events: all;
+}
+.tl-temp-shade {
+  fill: var(--color-orange, var(--darkgray));
+  fill-opacity: 0.08;
+  stroke: none;
+}
+.tl-temp-line {
+  stroke: var(--color-orange, var(--tertiary));
+  stroke-width: 2;
+  fill: none;
+}
+.tl-temp-threshold {
+  stroke-width: 1;
+  stroke-dasharray: 6 4;
+}
+.tl-temp-threshold-15 {
+  stroke: var(--color-orange, var(--darkgray));
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+}
+.tl-temp-threshold-20 {
+  stroke: var(--gray);
+}
+
+/* 기온 편차 토글 OFF(요구사항: 꺼진 상태는 기존 화면과 완전히 동일) */
+.climate-timeline.tl-temp-off .tl-temp-axis,
+.climate-timeline.tl-temp-off .tl-temp-chart,
+.climate-timeline.tl-temp-off .tl-temp-summary {
+  display: none;
+}
+
+.tl-temp-tooltip {
+  position: fixed;
+  z-index: 5;
+  pointer-events: none;
+  background: var(--dark);
+  color: var(--light);
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.tl-temp-tooltip[hidden] {
+  display: none;
 }
 
 .tl-axis {

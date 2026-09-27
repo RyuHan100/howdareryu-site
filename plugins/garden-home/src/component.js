@@ -26,6 +26,9 @@ function readGardenData() {
 // 둘 다 같이 바뀐다(따로 맞춰줄 필요 없음). 데이터 파일 경로만 여기서 다시 적는다(다른 plugin
 // 소스라 import 는 안 되지만, node:fs 로 읽는 경로 상수는 새로 선언해야 한다).
 const TIMELINE_DATA_PATH = join(process.cwd(), "plugins/climate-timeline/data/climate-timeline.json")
+// 기온 편차 레이어(2026-09-27)도 /timeline/ 과 같은 실측 자료를 그대로 읽는다(복제하지 않음 —
+// climate-timeline/src/component.js 의 같은 이름 함수와 동일한 로직).
+const TEMPERATURE_DATA_PATH = join(process.cwd(), "plugins/climate-timeline/data/temperature-anomaly.csv")
 
 function readTimelineData() {
   try {
@@ -33,6 +36,25 @@ function readTimelineData() {
   } catch {
     return null
   }
+}
+
+function readTemperatureSeries() {
+  let text
+  try {
+    text = readFileSync(TEMPERATURE_DATA_PATH, "utf-8")
+  } catch {
+    return []
+  }
+  const series = []
+  for (const line of text.split("\n")) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith("#") || trimmed.startsWith("year,")) continue
+    const [yearStr, valueStr] = trimmed.split(",")
+    const year = Number(yearStr)
+    const value = Number(valueStr)
+    if (Number.isFinite(year) && Number.isFinite(value)) series.push({ year, value })
+  }
+  return series
 }
 
 let vnodeId = 0
@@ -262,7 +284,8 @@ function timelineFullSection() {
   const data = readTimelineData()
   const events = data?.events ?? []
   const categories = data?.categories ?? []
-  const html = events.length > 0 ? renderTimeline(events, categories) : null
+  const temperatureSeries = readTemperatureSeries()
+  const html = events.length > 0 ? renderTimeline(events, categories, undefined, temperatureSeries) : null
 
   if (!html) {
     return placeholder("climate histography", "아직 연표에 채운 사건이 없어요.")

@@ -27,6 +27,8 @@ const out = (
   "\n" +
   readShared("../climate-timeline/src/timeline-scale.js") +
   "\n" +
+  readShared("../climate-timeline/src/timeline-temperature.js") +
+  "\n" +
   readShared("../climate-timeline/src/timeline-render.js") +
   "\n" +
   read("component.js")

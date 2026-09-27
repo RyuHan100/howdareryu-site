@@ -6,7 +6,10 @@ const read = (name) => readFileSync(new URL(`./src/${name}`, import.meta.url), "
 
 // timeline-scale.js(날짜<->px 순수 함수) + timeline-render.js(순수 함수)를 component.js 앞에
 // 붙인다 — 서버는 ES 모듈이라 이 정도 최상위 함수 나열은 자기 모듈 스코프라 안전하다.
-const serverCore = read("timeline-scale.js") + "\n" + read("timeline-render.js")
+// timeline-temperature.js(기온 편차 세로 스케일 순수 함수)는 서버에서만 쓴다 — 축 눈금과 SVG
+// 온도선이 같은 tlTempFrac() 을 쓰게 해서 어긋나지 않게 하려는 것뿐이고, 클라이언트 호버
+// 툴팁은 값 조회만 하지 세로 좌표 계산이 필요 없어 클라이언트 번들엔 안 넣는다.
+const serverCore = read("timeline-scale.js") + "\n" + read("timeline-temperature.js") + "\n" + read("timeline-render.js")
 
 // 클라이언트: timeline-scale.js + timeline-view.js(줌 컨트롤러)를 timeline-interactive.js 의
 // IIFE 안, "__TL_SCALE_AND_VIEW__" 표시 자리에 그대로 이어붙인다 — 그래야 이 파일들이 다른

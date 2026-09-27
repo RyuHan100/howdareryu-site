@@ -62,6 +62,93 @@ function normalizeSources(ev) {
     }))
 }
 
+// ---------- 기온 편차 레이어(산업화 이전 1850-1900 대비, 2026-09-27) ----------
+// TL_TEMP_MIN/MAX/THRESHOLDS/TICK_VALUES 와 tlTempFrac() 은 timeline-temperature.js(이 파일
+// 앞에 이어붙여진다, build.mjs 참고)에서 온다.
+const TL_TEMP_VBH = 1000 // svg viewBox 내부 세로 단위(임의값) — preserveAspectRatio="none" 이라
+// 실제 렌더 높이(트랙 높이, 이벤트 수에 따라 달라짐)와 무관하게 항상 꽉 채워 늘어난다.
+
+// 문구를 한곳에 모아 둔다 — 이 페이지엔 아직 번역(translate:true)이 없어서 지금은 전부
+// 한국어 리터럴이지만, 나중에 다국어를 붙일 때 이 객체 하나만 바꾸면 되게 분리해 둔다.
+const TL_TEMP_STRINGS = {
+  axisTitle: "산업화 이전(1850–1900) 대비 기온 상승(°C)",
+  labelWhenOn: "기온 편차 숨기기",
+  labelWhenOff: "기온 편차 보기",
+  chartLabel: "1850년부터 현재까지 산업화 이전(1850–1900) 대비 전 지구 평균 기온 편차 추이",
+}
+
+function tlTempSvgY(value) {
+  return (1 - tlTempFrac(value)) * TL_TEMP_VBH
+}
+
+/**
+ * temperatureSeries: [{year, value}, ...] (temperature-anomaly.csv 를 읽어온 것, 연도 오름차순
+ * 아니어도 상관없다 — 여기서 다시 정렬하지 않고 그대로 좌표만 계산한다. 비어 있으면(파일을
+ * 못 읽었을 때) 전부 빈 문자열을 돌려줘 조용히 아무것도 안 그린다).
+ * timelineStart/totalMonths: renderTimeline() 이 이미 계산한 값을 그대로 받는다 — 이벤트의
+ * x축과 반드시 같은 좌표계를 써야 연도가 어긋나지 않는다(요구사항).
+ */
+function renderTemperatureLayer(temperatureSeries, timelineStart, totalMonths) {
+  const series = Array.isArray(temperatureSeries) ? temperatureSeries : []
+  if (series.length === 0) return { axisHtml: "", chartHtml: "", toggleHtml: "", captionHtml: "", dataHtml: "" }
+
+  const points = series.map((d) => `${d.year * 12 - timelineStart},${tlTempSvgY(d.value).toFixed(2)}`).join(" ")
+
+  const thresholdLines = TL_TEMP_THRESHOLDS.map((th) => {
+    const y = tlTempSvgY(th.value).toFixed(2)
+    return (
+      `<line class="tl-temp-threshold tl-temp-threshold-${th.key}" x1="0" x2="${totalMonths}" ` +
+      `y1="${y}" y2="${y}" vector-effect="non-scaling-stroke" />`
+    )
+  }).join("")
+
+  const shadeTop = tlTempSvgY(TL_TEMP_MAX)
+  const shadeBottom = tlTempSvgY(1.5)
+  const shadeHtml =
+    `<rect class="tl-temp-shade" x="0" y="${shadeTop.toFixed(2)}" width="${totalMonths}" ` +
+    `height="${(shadeBottom - shadeTop).toFixed(2)}" />`
+
+  const latest = series[series.length - 1]
+  const latestSign = latest.value >= 0 ? "+" : ""
+  const summaryText = `${TL_TEMP_STRINGS.chartLabel}. 가장 최근 자료(${latest.year}년): ${latestSign}${latest.value.toFixed(2)}°C.`
+
+  const chartHtml =
+    `<svg class="tl-temp-chart" viewBox="0 0 ${totalMonths} ${TL_TEMP_VBH}" preserveAspectRatio="none" ` +
+    `role="img" aria-label="${tlEsc(TL_TEMP_STRINGS.chartLabel)}">` +
+    `<title>${tlEsc(TL_TEMP_STRINGS.chartLabel)}</title>` +
+    shadeHtml +
+    thresholdLines +
+    `<polyline class="tl-temp-line" points="${points}" vector-effect="non-scaling-stroke" fill="none" />` +
+    `</svg>` +
+    `<p class="sr-only tl-temp-summary">${tlEsc(summaryText)}</p>`
+
+  const axisTicksHtml = TL_TEMP_TICK_VALUES.map((v) => {
+    const isThreshold = v === 1.5 || v === 2
+    return (
+      `<div class="tl-temp-tick${isThreshold ? " tl-temp-tick-threshold" : ""}" style="--temp-y:${tlTempFrac(v).toFixed(4)}">` +
+      `${v.toFixed(1)}</div>`
+    )
+  }).join("")
+  const axisHtml = `<div class="tl-temp-axis" aria-hidden="true">${axisTicksHtml}</div>`
+
+  const captionHtml = `<span class="tl-temp-caption">${tlEsc(TL_TEMP_STRINGS.axisTitle)}</span>`
+
+  const toggleHtml =
+    `<button type="button" class="tl-temp-toggle" aria-pressed="true" ` +
+    `data-label-on="${tlEsc(TL_TEMP_STRINGS.labelWhenOn)}" data-label-off="${tlEsc(TL_TEMP_STRINGS.labelWhenOff)}">` +
+    `${tlEsc(TL_TEMP_STRINGS.labelWhenOn)}</button>`
+
+  // 연도 → 값 조회용(클라이언트 호버/탭 툴팁, timeline-interactive.js). 세로 좌표 계산이
+  // 필요 없어서 여기선 tlTempFrac 을 다시 쓰지 않는다 — 값만 그대로 넘긴다.
+  const byYear = {}
+  series.forEach((d) => {
+    byYear[d.year] = d.value
+  })
+  const dataHtml = `<script type="application/json" class="tl-temp-data">${escJsonForScript(JSON.stringify(byYear))}</script>`
+
+  return { axisHtml, chartHtml, toggleHtml, captionHtml, dataHtml }
+}
+
 function formatDateLabel(ev) {
   const src = ev.exactDate || ev.date
   const parts = src.split("-").map(Number)
@@ -80,9 +167,13 @@ function formatDateLabel(ev) {
  * climate histography 상호 링크, 2026-09-26). 이벤트의 glossaryTerms 배열(용어 id 목록)을
  * 실제 표시 이름으로 바꾸는 데만 쓰고, 넘어오지 않으면(garden-home 이 아직 옛 시그니처로 부르는
  * 경우 등) 빈 객체로 대신해 조용히 칩을 안 만든다 — 필수 인자로 만들지 않는다.
+ * temperatureSeries: [{year, value}, ...](temperature-anomaly.csv, 산업화 이전 1850-1900 대비
+ * 기온 편차, 2026-09-27). glossaryLabels 와 같은 이유로 생략 가능한 뒷자리 인자로 둔다 —
+ * garden-home 이 아직 이 인자 없이 부르는 옛 호출부가 남아 있어도 조용히 온도 레이어 없이
+ * 그려진다(하위 호환).
  * 반환: 타임라인 섹션 안에 그대로 넣을 HTML 문자열. events 가 비어 있으면 null.
  */
-export function renderTimeline(events, categories, glossaryLabels) {
+export function renderTimeline(events, categories, glossaryLabels, temperatureSeries) {
   const glLabels = glossaryLabels || {}
   const labelByKey = new Map(categories.map((c) => [c.key, c.label]))
   const dated = events
@@ -249,14 +340,20 @@ export function renderTimeline(events, categories, glossaryLabels) {
     `<button type="button" class="tl-zoom-btn tl-zoom-reset" aria-label="처음 화면으로 되돌리기">Reset</button>` +
     `</div>`
 
+  const tempLayer = renderTemperatureLayer(temperatureSeries, timelineStart, totalMonths)
+
   return (
     `<div class="tl-controls">` +
     `<div class="tl-legend" role="radiogroup" aria-label="카테고리 필터">${legendHtml}</div>` +
     toolbarHtml +
+    tempLayer.toggleHtml +
+    tempLayer.captionHtml +
     `</div>` +
     `<div class="tl-scroll">` +
+    tempLayer.axisHtml +
     `<div class="tl-track" data-start="${timelineStart}" data-end="${timelineEnd}" ` +
     `style="--total-months:${totalMonths};--stack-up:${stackUp};--stack-down:${stackDown}">` +
+    tempLayer.chartHtml +
     `<div class="tl-axis" aria-hidden="true"></div>` +
     yearsHtml.join("") +
     eventsHtml +
@@ -265,6 +362,7 @@ export function renderTimeline(events, categories, glossaryLabels) {
     `</div>` +
     `</div>` +
     modalHtml +
-    `<script type="application/json" class="tl-detail-data">${escJsonForScript(JSON.stringify(detailById))}</script>`
+    `<script type="application/json" class="tl-detail-data">${escJsonForScript(JSON.stringify(detailById))}</script>` +
+    tempLayer.dataHtml
   )
 }

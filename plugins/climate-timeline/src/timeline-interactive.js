@@ -36,6 +36,7 @@
     var events = Array.prototype.slice.call(section.querySelectorAll(".tl-event"))
     var modal = section.querySelector(".tl-modal")
     var dataEl = section.querySelector(".tl-detail-data")
+    var track = section.querySelector(".tl-track")
     if (events.length === 0) return
 
     // ---------- 필터 ----------
@@ -53,7 +54,72 @@
       })
     })
 
-    if (typeof tlCreateView === "function") tlCreateView(section)
+    var zoomApi = typeof tlCreateView === "function" ? tlCreateView(section) : null
+
+    // ---------- 기온 편차 토글(요구사항: 켜고 끌 수 있어야 하고, 꺼진 상태는 기존 화면과
+    // 완전히 동일해야 한다 — CSS 가 .tl-temp-off 일 때 관련 요소를 전부 display:none 처리하고,
+    // 여기 JS 는 클래스와 버튼 라벨/aria-pressed 만 맞춘다) ----------
+    var tempToggle = section.querySelector(".tl-temp-toggle")
+    if (tempToggle) {
+      tempToggle.addEventListener("click", function () {
+        var isOff = section.classList.toggle("tl-temp-off")
+        tempToggle.setAttribute("aria-pressed", isOff ? "false" : "true")
+        tempToggle.textContent = isOff ? tempToggle.dataset.labelOff : tempToggle.dataset.labelOn
+      })
+    }
+
+    // ---------- 기온 편차 호버/탭 툴팁("연도: +X.XX°C") ----------
+    // 세로 좌표 계산은 필요 없다(서버가 이미 축·온도선을 그려 뒀다) — 여기선 가로 좌표만
+    // tlPxToT 로 연도로 바꾸고, 미리 심어 둔 연도→값 JSON 에서 찾아 보여주기만 한다.
+    var tempChart = section.querySelector(".tl-temp-chart")
+    var tempDataEl = section.querySelector(".tl-temp-data")
+    if (tempChart && tempDataEl && track && zoomApi) {
+      var tempByYear = {}
+      try {
+        tempByYear = JSON.parse(tempDataEl.textContent || "{}")
+      } catch {
+        tempByYear = {}
+      }
+      var tempTooltip = document.createElement("div")
+      tempTooltip.className = "tl-temp-tooltip"
+      tempTooltip.hidden = true
+      section.appendChild(tempTooltip)
+
+      function showTempTooltip(clientX, clientY) {
+        if (section.classList.contains("tl-temp-off")) return
+        // track.getBoundingClientRect() 는 스크롤·줌 뒤에도 지금 화면에 실제로 그려진 트랙의
+        // 왼쪽 끝을 그대로 알려준다 — 세로축(sticky) 칸의 폭을 따로 빼는 계산을 안 해도 된다.
+        var trackRect = track.getBoundingClientRect()
+        var px = clientX - trackRect.left
+        var t = tlPxToT(px, zoomApi.view)
+        var year = Math.round(t / 12)
+        var value = tempByYear[year]
+        if (value === undefined) {
+          tempTooltip.hidden = true
+          return
+        }
+        var sign = value >= 0 ? "+" : ""
+        tempTooltip.textContent = year + "년: " + sign + value.toFixed(2) + "°C"
+        tempTooltip.style.left = clientX + 12 + "px"
+        tempTooltip.style.top = clientY + 12 + "px"
+        tempTooltip.hidden = false
+      }
+      function hideTempTooltip() {
+        tempTooltip.hidden = true
+      }
+
+      tempChart.addEventListener("pointermove", function (e) {
+        if (e.pointerType === "touch") return
+        showTempTooltip(e.clientX, e.clientY)
+      })
+      tempChart.addEventListener("pointerleave", hideTempTooltip)
+      tempChart.addEventListener("pointerdown", function (e) {
+        if (e.pointerType !== "touch") return
+        showTempTooltip(e.clientX, e.clientY)
+      })
+      var tempScrollEl = section.querySelector(".tl-scroll")
+      if (tempScrollEl) tempScrollEl.addEventListener("scroll", hideTempTooltip)
+    }
 
     // ---------- 상세 모달 ----------
     if (!modal || !dataEl) return
