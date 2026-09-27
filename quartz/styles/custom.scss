@@ -257,3 +257,22 @@ a.glossary-ref:focus-visible {
   line-height: 1.5;
   color: var(--dark);
 }
+
+// ============================================================================
+// scribbled notes 배너 (2026-09-27) — scribbled notes 폴더의 노트 페이지 최상단에만
+// GIF 배너를 얹는다. slug 는 "scribbled-notes/<note>" 형태라서 접두사로 잡되, 폴더
+// 목록 페이지 자체(slug "scribbled-notes/index")는 :not() 으로 뺀다 — 홈/radar 등
+// 다른 slug 는 애초에 접두사가 안 맞아 영향 없음. 컴포넌트는 안 건드리고 ::before 로만.
+// ============================================================================
+body[data-slug^="scribbled-notes/"]:not([data-slug="scribbled-notes/index"]) .center::before {
+  content: "";
+  display: block;
+  width: 100%;
+  aspect-ratio: 720 / 250;
+  background-image: url("/static/images/scribbled-notes/banner.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.6rem;
+  margin-bottom: 1rem;
+}

@@ -153,6 +153,17 @@ export default (() => {
             ></script>
           </>
         )}
+        {/* scribbled notes 배너(2026-09-27) — .quartz/plugins/explorer 의 nav 후 scrollIntoView
+            가 라우터의 맨 위 스크롤을 덮어써서 배너가 화면 밖으로 밀리는 문제를 보정한다.
+            explorer 플러그인 자체는 안 건드리고, scribbled notes 노트 페이지에서만 켠다
+            (폴더 목록 페이지 scribbled-notes/index 는 제외). */}
+        {fileData.slug?.startsWith("scribbled-notes/") && fileData.slug !== "scribbled-notes/index" && (
+          <script
+            defer
+            data-persist="true"
+            src={joinSegments(baseDir, "static/scribbled-notes-scroll-fix.js")}
+          ></script>
+        )}
         {additionalHead.map((resource) => {
           if (typeof resource === "function") {
             return resource(fileData)
