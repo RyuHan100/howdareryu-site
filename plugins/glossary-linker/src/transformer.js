@@ -1,8 +1,10 @@
 // 노트 본문(마크다운→HTML 변환 결과, rehype 트리)에서 climate-glossary 용어가 등장하면
-// 자동으로 <a class="glossary-ref" href="/glossary#id" data-no-popover> 로 감싼다. 진짜
-// <a> 태그라 JS 가 없어도 클릭하면 용어집으로 이동한다(progressive enhancement) — 호버 시
-// 이 용어 하나의 정의만 보여주는 작은 툴팁은 quartz/static/glossary-tooltip.js 가
-// 클라이언트에서 얹는다(Quartz 기본 팝오버는 data-no-popover 로 꺼둔다).
+// 자동으로 <a class="glossary-ref" href="/glossary#id" data-no-popover> 로 감싼다.
+// href/data-term-id 는 그대로 두지만(내부 앵커·검색엔진용, JS 없을 때는 여전히 클릭하면
+// 용어집으로 이동한다), JS 가 로드되면 quartz/static/glossary-tooltip.js 가 이 클릭을
+// 가로채 preventDefault 하고 대신 그 용어 하나의 정의만 보여주는 작은 툴팁을 hover/focus/탭
+// 시 띄운다 — 즉 JS 가 있는 보통의 경우 클릭해도 지금 보던 노트에 그대로 머무른다
+// (2026-09-27부터, 이전에는 클릭하면 항상 이동했다). Quartz 기본 팝오버는 data-no-popover 로 꺼둔다.
 //
 // 페이지 전체가 아니라 노트 본문(markdown 파이프라인)에만 적용된다 — 정원 홈·radar·climate
 // glossary·climate histography 처럼 dangerouslySetInnerHTML 로 직접 그리는 컴포넌트는 이
@@ -94,6 +96,15 @@ export const GlossaryLinker = () => {
                   // 작은 툴팁을 그린다(citations 플러그인이 참고문헌 링크에 쓰는 것과 같은 방식,
                   // quartz/components/scripts/popover.inline.ts 가 이 속성을 확인한다).
                   "data-no-popover": true,
+                  // Quartz SPA 라우터(quartz/components/scripts/spa.inline.ts)는 preventDefault
+                  // 여부와 무관하게 href 가 있는 모든 클릭을 가로채 자체적으로 페이지를 이동시킨다
+                  // (getOpts 가 event.defaultPrevented 를 안 본다) — data-router-ignore 가 있으면
+                  // getOpts 가 그 링크를 통째로 무시하므로(정원 홈 SVG 식물 링크와 같은 이유,
+                  // quartz/garden 문서 §8 참고), 라우터의 이동 자체를 원천 차단한다. 실제 클릭을
+                  // preventDefault 해서 <a> 기본 동작(진짜 이동)을 막는 건
+                  // quartz/static/glossary-tooltip.js 몫이다 — 이 속성은 그 전에 라우터가 먼저
+                  // 가로채 이동해버리는 걸 막는 것.
+                  "data-router-ignore": true,
                 },
                 children: [{ type: "text", value: word }],
               })
