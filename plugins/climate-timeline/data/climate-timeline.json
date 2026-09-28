@@ -1163,6 +1163,22 @@
       ]
     },
     {
+      "id": "korea-2023-1st-탄기본",
+      "date": "2023-03",
+      "exactDate": "2023-03-21",
+      "title": "윤석열 정부, 제1차 탄소중립기본계획('23~'43) 발표",
+      "category": "korea",
+      "description": "탄소중립기본법 제10조에 따라 5년마다 국가 탄소중립 녹색성장 기본계획(탄기본)을 수립, 시행해야 하는데, 윤석열 정부가 2023년 3월 21일 제1차 탄소중립기본계획('23~'43)을 발표했다. 2022년 10월 28일 정부가 선언한 '2050 탄소중립'을 달성하기 위한 구체적 계획이다.",
+      "image": "/static/images/timeline/20260321_제1차_탄기본.png",
+      "imageAlt": "제1차 탄기본 보도자료 ",
+      "sources": [
+        {
+          "title": "탄녹위 보도자료",
+          "url": "https://www.pcccr.go.kr/base/board/read?boardManagementNo=3&boardNo=1397&menuLevel=2&menuNo=17"
+        }
+      ]
+    },
+    {
       "id": "disaster-2023-canada-wildfire",
       "date": "2023-06",
       "title": "캐나다 역대 최악 산불",
@@ -1672,7 +1688,7 @@
       "exactDate": "2026-09-23",
       "title": "독일, 2045 '탈화석연료 로드맵' 발표",
       "category": "abroad",
-      "image": "/static/images/timeline/20260826_탄소중립기본법_개정안_국회통과.png",
+      "image": "/static/images/timeline/2026_독일_탈화석연료.png",
       "imageAlt": "2026년 독일 기후 정책 사진",
       "description": "독일 정부는 늦어도 2045년까지 석탄, 석유, 천연가스 등 화석연료 사용을 중단하기 위한 전략을 담은 '탈화석연료 로드맵(Roadmap for Transitioning Away from Fossil Fuels, TAFF)'을 발표했다. 이번 발표로 독일은 프랑스와 네덜란드에 이어 화석 연료 사용 중단 로드맵을 수립한 세 번째 국가가 됐다.",
       "sources": [
