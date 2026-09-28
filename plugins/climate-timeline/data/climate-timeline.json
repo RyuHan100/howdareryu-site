@@ -1487,10 +1487,18 @@
     {
       "id": "korea-2035-ndc",
       "date": "2025-11",
-      "exactDate": "2025-1-10",
+      "exactDate": "2025-11-11",
       "title": "한국 정부 2035 NDC 발표",
       "category": "korea",
-      "description": "한국 정부가 2035년까지 2018년 대비 온실가스를 53~61% 감축하는 2035 ",
+      "description": "한국 정부가 2035년를 범위형( 2018년 대비 53~61%)으로 확정했다. 배출권거래제 등 규제는 하한인 53%에 연동한다",
+      "image": "/static/images/timeline/20251110_2035NDC_발표.jpg",
+      "imageAlt": "김성환 기후에너지환경부 장관이 2035 국가온실가스 감축목표 및 제4차 계획기간 배출권 할당계획을 발표하고 있다. (ⓒ뉴스1)",
+      "sources": [
+        {
+          "title": "정부, 정책브리핑",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148954548"
+        }
+      ],
       "glossaryTerms": [
         "ndc"
       ]
