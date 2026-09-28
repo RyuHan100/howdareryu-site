@@ -470,10 +470,19 @@
     {
       "id": "korea-2009-bau30",
       "date": "2009-11",
-      "title": "2020 BAU 대비 30% 감축 목표",
+      "exactDate": "2009-11-17",     
+      "title": "이명박 정부, 2020년 온실가스 감축목표 30%로 확정",
       "category": "korea",
-      "description": "정부가 2020년 온실가스 배출전망치(BAU) 대비 30%를 감축하겠다는 자발적 목표를 제시했다.",
-      "glossaryTerms": [
+      "description": "정부가 2020년 온실가스 배출전망치(BAU) 대비 30%를 감축하겠다는 자발적 목표를 확정했다.",
+      "image": "/static/images/timeline/20091117_2020NDC30%.jpg",
+      "imageAlt": "정부는 17일 청와대에서 이명박 대통령 주재로 국무회의를 갖고, 2020년 국가온실가스 감축목표를 ’배출전망치 대비 30% 감축’으로 결정했다.<사진=청와대>",
+      "sources": [
+        {
+          "title": "정부, 정책브리핑",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148679419"
+        }
+      ],
+      "glossaryTerms" : [
         "ghg-reduction-target"
       ]
     },
