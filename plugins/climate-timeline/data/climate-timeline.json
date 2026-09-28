@@ -648,13 +648,15 @@
       "id": "korea-2015-indc-bau37",
       "date": "2015-06",
       "exactDate": "2015-06-30",
-      "title": "한국, 2030 BAU 대비 37% 감축 목표(INDC) 결정",
+      "title": "박근혜 정부, 2030 BAU 대비 37% 감축 목표(INDC) 결정",
       "category": "korea",
       "description": "한국 정부가 COP21을 앞두고 2030년 배출전망(BAU) 8억 5060만 톤 CO2 대비 37%를 감축하는 국가 온실가스 감축목표(INDC)를 결정했다. 원전 증설이 감축 방안에 포함돼 논란이 됐다. 2020년 목표였던 BAU 대비 30% 감축안보다 후퇴했다는 비판도 받았다.",
+      "image": "/static/images/timeline/20150630_2030NDC37%.jpg",
+      "imageAlt": "",
       "sources": [
         {
-          "title": "위키백과 — 2015년 유엔 기후 변화 회의",
-          "url": "https://ko.wikipedia.org/wiki/2015%EB%85%84_%EC%9C%A0%EC%97%94_%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94_%ED%9A%8C%EC%9D%98"
+          "title": "정부, 정책브리핑",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148797401"
         }
       ],
       "glossaryTerms": [
@@ -669,6 +671,8 @@
       "title": "파리협정 채택",
       "category": "international",
       "description": "모든 당사국이 참여하는 보편적 기후체제인 파리협정이 채택됐다. 산업화 이전 대비 기온 상승을 2도, 가능하면 1.5도로 억제하는 것이 목표다.",
+      "image": "/static/images/timeline/2015_COP15_PA.png",
+      "imageAlt": "파리협정 채택, 사람들이 기뻐하고 있다.",
       "sources": [
         {
           "title": "Wikipedia — Paris Agreement",
@@ -708,19 +712,6 @@
         {
           "title": "Wikipedia — 2016 United Nations Climate Change Conference",
           "url": "https://en.wikipedia.org/wiki/2016_United_Nations_Climate_Change_Conference"
-        }
-      ]
-    },
-    {
-      "id": "abroad-2016-first-climate-emergency-declaration",
-      "date": "2016-12",
-      "title": "지방정부의 첫 기후 비상 선언",
-      "category": "korea",
-      "description": "한 지방정부가 처음으로 기후 비상사태를 선언했다. 2022년 5월 기준 39개국 2,100개 이상의 지방정부가 기후 비상사태를 선포했으며, 이들 관할 구역의 인구는 10억 명이 넘는다.",
-      "sources": [
-        {
-          "title": "위키백과 — 기후 비상 선언",
-          "url": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%9B%84_%EB%B9%84%EC%83%81_%EC%84%A0%EC%96%B8"
         }
       ]
     },
@@ -796,7 +787,9 @@
       "date": "2017-11",
       "title": "COP23, 성평등 행동계획·지역공동체·원주민 플랫폼 확정",
       "category": "international",
-      "description": "COP23 당사국들이 성평등 행동계획(Gender Action Plan)과 지역공동체·원주민 플랫폼을 확정했다. 기후협상에서 소외돼 온 집단의 참여를 늘리기 위한 장치다.",
+      "description": "COP23 당사국들이 성평등 행동계획(GAP, Gender Action Plan)과 지역공동체·원주민 플랫폼을 확정했다. 기후협상에서 소외돼 온 집단의 참여를 늘리기 위한 장치다.",
+      "image": "/static/images/timeline/COP23-gender-inclusive-side-event.jpg",
+      "imageAlt": "GAP 등장!!",
       "sources": [
         {
           "title": "Wikipedia — 2017 United Nations Climate Change Conference",
@@ -836,6 +829,8 @@
       "title": "탈석탄동맹(PPCA) 출범",
       "category": "international",
       "description": "COP23 기간 중 영국·캐나다·뉴질랜드 등 30개국이 탈석탄동맹(Powering Past Coal Alliance)을 출범시켰다. 2030년까지 발전 부문에서 석탄을 퇴출하는 것이 목표다.",
+      "image": "/static/images/timeline/COP23_PPCA.jpg",
+      "imageAlt": "COP23 ",
       "sources": [
         {
           "title": "Wikipedia — 2017 United Nations Climate Change Conference",
@@ -912,6 +907,8 @@
       "title": "그레타 툰베리, COP24 연설",
       "category": "science",
       "description": "15세 기후활동가 그레타 툰베리가 COP24 총회에서 연설했다. 기후변화를 인류가 겪은 가장 큰 위기라고 규정하고 배출을 최대한 빨리 멈춰야 한다고 말했다.",
+      "image": "/static/images/timeline/COP24_greta_thunberg.jpg",
+      "imageAlt": "COP24 그레타 툰베리",
       "sources": [
         {
           "title": "Wikipedia — 2018 United Nations Climate Change Conference",
@@ -1005,9 +1002,11 @@
       "id": "korea-2020-carbon-neutral",
       "date": "2020-10",
       "exactDate": "2020-10-28",
-      "title": "2050 탄소중립 선언",
+      "title": "문재인 정부, 2050 탄소중립 선언",
       "category": "korea",
       "description": "정부가 국회 시정연설에서 2050년까지 탄소중립을 달성하겠다고 공식 선언했다.",
+      "image": "/static/images/timeline/Moon_2050.jpg",
+      "imageAlt": "문재인 대통령이 2050 탄소중립을 선언하는 모습",
       "glossaryTerms": [
         "net-zero"
       ]
@@ -1024,9 +1023,11 @@
       "id": "korea-2021-ndc40",
       "date": "2021-10",
       "exactDate": "2021-10-18",
-      "title": "2030 NDC 상향(40% 감축) 확정",
+      "title": "문재인 정부, 2030 NDC 상향(40% 감축) 확정",
       "category": "korea",
       "description": "2030년까지 온실가스를 2018년 대비 40% 감축하는 상향된 국가온실가스감축목표(NDC)가 확정됐다.",
+      "image": "/static/images/timeline/2030NDC.png",
+      "imageAlt": "203 0NDC",
       "glossaryTerms": [
         "ndc"
       ]
