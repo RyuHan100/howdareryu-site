@@ -1,7 +1,5 @@
 {
   "fetched_at": "2026-10-01T07:17+09:00",
-  "source": "https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html",
-  "count": 38,
   "records": [
     {
       "type": "PoA",
@@ -706,5 +704,26 @@
       ],
       "reductions": 46990
     }
-  ]
+  ],
+  "diff": {
+    "added": [
+      {
+        "type": "PA",
+        "ref": "10660",
+        "registered": "2021-02-25",
+        "title": "Methane capture project",
+        "url": "https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228532.23",
+        "host_parties": [
+          "Indonesia"
+        ],
+        "other_parties": [],
+        "methodologies": [
+          "AMS-III.H. ver. 19"
+        ],
+        "reductions": 49190
+      }
+    ],
+    "removed": [],
+    "modified": []
+  }
 }

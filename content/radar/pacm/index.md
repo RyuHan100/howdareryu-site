@@ -2,14 +2,15 @@
 title: PACM
 description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 30일 변경 하이라이트.
 tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]
-date: 2026-09-30
-modified: 2026-09-30T07:11+09:00
+date: 2026-10-01
+modified: 2026-10-01T07:17+09:00
 ---
 
 > 출처: [UNFCCC CDM — Activities transitioned to A6.4](https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html) · [UNFCCC 전환 안내](https://unfccc.int/process-and-meetings/the-paris-agreement/paris-agreement-crediting-mechanism/CDM_transition)  
-> 마지막 확인: **2026-09-30 07:11 KST** · 마지막 변경: **2026-09-22** · 총 **37건** (PoA 15 · PA 22) · 연간 추정 감축량 합계 **14,704,934 tCO₂e**
+> 마지막 확인: **2026-10-01 07:17 KST** · 마지막 변경: **2026-10-01** · 총 **38건** (PoA 15 · PA 23) · 연간 추정 감축량 합계 **14,754,124 tCO₂e**
 
-> [!success]+ 최근 30일 내 변경 1건 (신규 1 · 삭제 0 · 수정 0)
+> [!success]+ 최근 30일 내 변경 2건 (신규 2 · 삭제 0 · 수정 0)
+> - **2026-10-01** 🆕 신규 전환 승인 — [PA 10660] [Methane capture project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228532.23) (Indonesia)
 > - **2026-09-22** 🆕 신규 전환 승인 — [PA 6560] [Patrind Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=KEMCO1340946734.9) (Pakistan)
 
 ## PoA (프로그램 활동) — Article 6.4 전환·등록
@@ -37,6 +38,7 @@ modified: 2026-09-30T07:11+09:00
 | Ref | 등록일 | 사업명 | 유치국 | 참여국 | 방법론 | 연간 감축량 (tCO₂e) | 전환 최초 확인 |
 |---|---|---|---|---|---|---:|---|
 | 10749 | 2023-08-03 | [Energy efficient equipment in mix use LE PARC project](https://cdm.unfccc.int/Projects/gotoProj?id=ICONTEC1678484342.04) | Ecuador | - | AMS-II.C. ver. 15 | 1,768 | 기준선 |
+| 🆕 ==10660== | 2021-02-25 | ==[Methane capture project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228532.23)== | Indonesia | - | AMS-III.H. ver. 19 | 49,190 | 2026-10-01 |
 | 10632 | 2020-12-23 | [Hasang Hydro Electric Power Plant](https://cdm.unfccc.int/Projects/gotoProj?id=EPIC_Sust1608102848.83) | Indonesia | - | ACM0002 ver. 20 | 216,320 | 기준선 |
 | 10562 | 2020-07-31 | [Reducing Gas Leakages within the Pashchimanchal Gas Distribution Network in Bangladesh](https://cdm.unfccc.int/Projects/gotoProj?id=RINA1583328291.33) | Bangladesh | Republic of Korea | AM0023 ver. 4 | 99,868 | 기준선 |
 | 10561 | 2020-07-31 | [Reducing Gas Leakages within the Jalalabad Gas Distribution Network in Bangladesh](https://cdm.unfccc.int/Projects/gotoProj?id=RINA1583318622.49) | Bangladesh | Republic of Korea | AM0023 ver. 4 | 447,367 | 기준선 |
@@ -63,6 +65,7 @@ modified: 2026-09-30T07:11+09:00
 
 | 일자 | 구분 | 유형 | Ref | 사업명 | 상세 |
 |---|---|---|---|---|---|
+| 2026-10-01 | 신규 | PA | 10660 | [Methane capture project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228532.23) |  |
 | 2026-09-22 | 신규 | PA | 6560 | [Patrind Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=KEMCO1340946734.9) |  |
 
 ## 데이터
