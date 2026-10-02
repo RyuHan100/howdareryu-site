@@ -1039,6 +1039,21 @@
       ]
     },
     {
+      "id": "climate-science-committee",
+      "term": "기후과학위원회",
+      "fullName": "기후과학위원회",
+      "korean": "기후과학위원회",
+      "category": "policy-kr",
+      "definition": "탄소중립기본법 개정안 제19조의3에 따라 과학적 전문성을 강화하기 위한 기구인 '기후과학위원회'가 신설된다.",
+      "sources": [
+        {
+          "title": "2035 NDC 53~61% 법제화…기후과학위 신설·기후적응법 제정",
+          "url": "https://www.news1.kr/society/environment/6270299",
+          "type": "korea",
+          "publisher": "news1"
+        } ]
+    },
+    {
       "id": "gcf",
       "term": "GCF",
       "fullName": "Green Climate Fund",
