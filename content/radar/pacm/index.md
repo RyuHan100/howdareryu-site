@@ -2,12 +2,12 @@
 title: PACM
 description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 30일 변경 하이라이트.
 tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]
-date: 2026-10-07
-modified: 2026-10-07T07:37+09:00
+date: 2026-10-08
+modified: 2026-10-08T08:02+09:00
 ---
 
 > 출처: [UNFCCC CDM — Activities transitioned to A6.4](https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html) · [UNFCCC 전환 안내](https://unfccc.int/process-and-meetings/the-paris-agreement/paris-agreement-crediting-mechanism/CDM_transition)  
-> 마지막 확인: **2026-10-07 07:37 KST** · 마지막 변경: **2026-10-01** · 총 **38건** (PoA 15 · PA 23) · 연간 추정 감축량 합계 **14,754,124 tCO₂e**
+> 마지막 확인: **2026-10-08 08:02 KST** · 마지막 변경: **2026-10-01** · 총 **38건** (PoA 15 · PA 23) · 연간 추정 감축량 합계 **14,754,124 tCO₂e**
 
 > [!success]+ 최근 30일 내 변경 2건 (신규 2 · 삭제 0 · 수정 0)
 > - **2026-10-01** 🆕 신규 전환 승인 — [PA 10660] [Methane capture project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228532.23) (Indonesia)
