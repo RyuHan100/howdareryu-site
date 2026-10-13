@@ -38,5 +38,25 @@
       ],
       "reductions": 49190
     }
+  },
+  {
+    "date": "2026-10-13",
+    "event": "added",
+    "key": "PA:10661",
+    "record": {
+      "type": "PA",
+      "ref": "10661",
+      "registered": "2021-02-25",
+      "title": "Methane capture project",
+      "url": "https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228757.17",
+      "host_parties": [
+        "Indonesia"
+      ],
+      "other_parties": [],
+      "methodologies": [
+        "AMS-III.H. ver. 19"
+      ],
+      "reductions": 49101
+    }
   }
 ]
