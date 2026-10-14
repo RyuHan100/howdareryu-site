@@ -9,7 +9,7 @@ keywords.yml ─▶ 네이버 뉴스 검색(NAVER API HUB, 국내) + Google News
                    ▼
               제목 유사도로 같은 기사 묶기 (보도 많은 순 → 최신순)
                    ▼
-   content/news/2026/2026-09-20.md   그날 클리핑 (쌓임)
+   content/news/2026/09-20.md        그날 클리핑 (쌓임)
    content/news/index.md             최신 클리핑 + 지난 30일 목록
    content/news/data/                daily/<날짜>.json (중복 판단의 근거), sources.json (도메인→매체명)
 ```

@@ -102,12 +102,12 @@ def test_run_writes_pages_dedupes_across_keywords_and_days(tmp_path):
     shared = next(i for i in day["items"] if "보고서" in i["title"])
     assert (shared["keyword"], shared["also"]) == ("탄소시장", ["CBAM"])
 
-    page = (root / "2026/2026-09-20.md").read_text()
+    page = (root / "2026/09-20.md").read_text()
     assert "## 📄 리포트·보고서" in page and "### 해외 · 1건" in page
     assert page.index("리포트·보고서") < page.index("## 탄소시장")
     assert "\n---\n\n## 탄소시장" in page and "---\n\n## 📄" not in page      # 문단 사이에만 구분선
     index = (root / "index.md").read_text()
-    assert "[[news/2026/2026-09-20|2026-09-20 클리핑]]" in index
+    assert "[[news/2026/09-20|09-20 클리핑]]" in index
 
     # 같은 날 재실행: 새 기사만 추가
     feeds[("CBAM", "ko")] = rss(("CBAM 대응 탄소시장 보고서 발간", "환경일보", 2), ("CBAM 인증서 가격 공개", "한겨레", 1))
@@ -119,8 +119,8 @@ def test_run_writes_pages_dedupes_across_keywords_and_days(tmp_path):
     nc.run(tmp_path, "content/news", cfg, NOW + timedelta(days=1), fetcher=fake_fetcher(feeds))
     next_day = json.loads((root / "data/daily/2026-09-21.json").read_text())
     assert [i["title"] for i in next_day["items"]] == ["새 기사"]
-    assert "[[news/2026/2026-09-20|← 2026-09-20]]" in (root / "2026/2026-09-21.md").read_text()
-    assert "[[news/2026/2026-09-20|2026-09-20]] — 4건" in (root / "index.md").read_text()
+    assert "[[news/2026/09-20|← 09-20]]" in (root / "2026/09-21.md").read_text()
+    assert "[[news/2026/09-20|09-20]] — 4건" in (root / "index.md").read_text()
 
 
 def test_all_requests_failing_touches_nothing(tmp_path):
@@ -172,7 +172,7 @@ def test_paired_keyword_is_one_section_with_both_editions(tmp_path):
     feeds = {("탄소시장", "ko"): rss(("배출권 가격 급등", "연합뉴스", 3)),
              ("carbon market", "en"): rss(("Carbon market hits record", "Reuters", 6))}
     nc.run(tmp_path, "content/news", cfg, NOW, fetcher=fake_fetcher(feeds))
-    page = (tmp_path / "content/news/2026/2026-09-20.md").read_text()
+    page = (tmp_path / "content/news/2026/09-20.md").read_text()
     assert page.count("## 탄소시장 / carbon market") == 1
     assert page.index("### 국내 · 1건") < page.index("### 해외 · 1건")
 
@@ -263,7 +263,7 @@ def test_run_caps_stored_items_and_skipped_stay_hidden(tmp_path):
     assert len(day["items"]) == 2                          # 상한(2)만큼만 저장
     assert len(day["skipped"]) == 3                         # 나머지는 skipped 로 남음
 
-    page = (root / "2026/2026-09-20.md").read_text()
+    page = (root / "2026/09-20.md").read_text()
     assert sum(1 for l in page.splitlines() if l.startswith("- [")) == 2   # 화면 노출도 상한만큼
 
     # 같은 날 재실행(멱등): 이미 skipped 된 기사는 다시 집지 않고, 상태도 그대로

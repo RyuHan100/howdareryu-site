@@ -470,6 +470,15 @@ def render_body(items: list[dict], keywords: list[dict], settings: dict) -> str:
     return "\n".join(out).rstrip() + "\n"
 
 
+def md(date: str) -> str:
+    """'2026-10-14' → '10-14' (연도는 연도 폴더로 알 수 있으므로 표시·파일명에서는 뺀다)"""
+    return date[5:]
+
+
+def page_slug(slug_root: str, date: str) -> str:
+    return f"{slug_root}/{date[:4]}/{md(date)}"
+
+
 def count_line(items: list[dict]) -> str:
     ko = sum(1 for i in items if i["lang"] == "ko")
     return f"기사 **{len(items)}건** (국내 {ko} · 해외 {len(items) - ko})"
@@ -502,9 +511,9 @@ def render_day(date: str, items: list[dict], keywords: list[dict], settings: dic
                slug_root: str, prev_date: str | None, errors: list[str]) -> str:
     nav = [f"[[{slug_root}/index|목록]]"]
     if prev_date:
-        nav.insert(0, f"[[{slug_root}/{prev_date[:4]}/{prev_date}|← {prev_date}]]")
-    head = front_matter(f"{date} 뉴스 클리핑", f"{date} 키워드 뉴스 클리핑 — {len(items)}건", date, now)
-    head += f"> {count_line(items)} · 수집 {now.strftime('%Y-%m-%d %H:%M')} KST · {' · '.join(nav)}\n\n"
+        nav.insert(0, f"[[{page_slug(slug_root, prev_date)}|← {md(prev_date)}]]")
+    head = front_matter(f"{md(date)} 뉴스 클리핑", f"{md(date)} 키워드 뉴스 클리핑 — {len(items)}건", date, now)
+    head += f"> {count_line(items)} · 수집 {now.strftime('%m-%d %H:%M')} KST · {' · '.join(nav)}\n\n"
     return head + render_body(items, keywords, settings) + render_errors(errors)
 
 
@@ -521,16 +530,16 @@ def render_index(latest_date: str | None, latest_items: list[dict], keywords: li
     head = front_matter(settings["page_title"],
                         "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신.",
                         now.strftime("%Y-%m-%d"), now)
-    head += (f"> 출처: {source_line(naver_on)} · 마지막 확인: **{now.strftime('%Y-%m-%d %H:%M')} KST**  \n"
+    head += (f"> 출처: {source_line(naver_on)} · 마지막 확인: **{now.strftime('%m-%d %H:%M')} KST**  \n"
              f"> 키워드: {kw_names}\n\n")
     if latest_date:
-        head += (f"> [!example] [[{slug_root}/{latest_date[:4]}/{latest_date}|{latest_date} 클리핑]] — {count_line(latest_items)}\n"
+        head += (f"> [!example] [[{page_slug(slug_root, latest_date)}|{md(latest_date)} 클리핑]] — {count_line(latest_items)}\n"
                  f"> 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.\n\n")
     body = render_body(latest_items, keywords, settings) if latest_date else "아직 수집된 클리핑이 없습니다.\n"
     tail = ""
     if archive:
         tail = "\n## 지난 클리핑\n\n" + "".join(
-            f"- [[{slug_root}/{d[:4]}/{d}|{d}]] — {n}건\n" for d, n in archive)
+            f"- [[{page_slug(slug_root, d)}|{md(d)}]] — {n}건\n" for d, n in archive)
         tail += "\n이전 기록은 왼쪽 Explorer 의 연도 폴더에서 볼 수 있습니다.\n"
     return head + body + render_errors(errors) + tail
 
@@ -617,7 +626,7 @@ def run(site_root: Path, page_dir: str, config: Path, now: datetime, dry_run: bo
     if day["items"]:
         prev = max((d for d in dates if d < today), default=None)
         dump_json(daily_dir / f"{today}.json", day)
-        page = root / today[:4] / f"{today}.md"
+        page = root / today[:4] / f"{md(today)}.md"
         page.parent.mkdir(parents=True, exist_ok=True)
         page.write_text(render_day(today, day["items"], keywords, settings, now, slug_root, prev, errors), encoding="utf-8")
         dates = sorted(set(dates) | {today})
