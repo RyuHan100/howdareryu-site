@@ -29,13 +29,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ env.SITE_BRANCH }}
           # PUSH_TOKEN(PAT) 이 있으면 푸시가 배포 워크플로를 자연 트리거함. 없으면 아래 dispatch 단계가 대신 실행
           token: ${{ secrets.PUSH_TOKEN || github.token }}
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: pip
