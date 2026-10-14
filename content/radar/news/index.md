@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-14
-modified: 2026-10-14T16:12+09:00
+modified: 2026-10-14T16:17+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **2026-10-14 16:12 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-14 16:17 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/2026-10-14|2026-10-14 클리핑]] — 기사 **302건** (국내 216 · 해외 86)
+> [!example] [[radar/news/2026/10-14|10-14 클리핑]] — 기사 **304건** (국내 218 · 해외 86)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -73,13 +73,15 @@ modified: 2026-10-14T16:12+09:00
 
 ## 국제감축 / Article 6
 
-### 국내 · 14건
+### 국내 · 15건
 
 - [환경공단, ‘온실가스 국제감축사업 심화포럼’ 개최](https://news.google.com/rss/articles/CBMicEFVX3lxTFBiV1h2X3dpUzE1NmtkT043cWhYSHl3VGt4cEIyc1lGbE1mTGhXN3laNXhWaXBHSkhrcGVkcmloN3k5a2M0UHFKZVV5YWVEMV9OQTdyNkc0QV9oX3l0RWxhaHBNMlBwUGlMWFBtSHBaOWLSAXBBVV95cUxQYldYdl93aVMxNTZrZE9ON3FoWEh5d1RreHBCMnNZRmxNZkxoVzd5WjV4VmlwR0pIa3BlZHJpaDd5OWtjNFBxSmVVeWFlRDFfTkE3cjZHNEFfaF95dEVsYWhwTTJQcFBpTFhQbUhwWjli?oc=5) — **전기신문** · 10-13 18:12 · NDC
   - 관련 보도 8건: [데일리안](https://www.dailian.co.kr/news/view/1701111/?sc=Naver), [우먼타임스](https://www.womentimes.co.kr/news/articleView.html?idxno=106978), [세계환경신문](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNbHJpX093S1Y5SmZjTEIxQzhHWGxidWJGQlRfQzhKTmdfbHRUV1NQSnBtaWgxNXgtbWJraVRDUjFRTEJKVXV3d2V1bVJQb3ZXVTlVTTk5TFd6dTJDXzR3?oc=5), [투데이에너지](https://www.todayenergy.kr/news/articleView.html?idxno=304134), [디스커버리뉴스(DISCOVERYNEWS)](https://www.discoverynews.kr/news/articleView.html?idxno=1104023), [국토일보](http://www.ikld.kr/news/articleView.html?idxno=342181), [환경일보](https://news.google.com/rss/articles/CBMiaEFVX3lxTE51MngtWXdsTWpjZ21naTAwMHB5eUFyZjBlZXBEXzBLc3FFZ0tNZ08xU2g2RExITHZydkVKZGJEQUZiQlpiUDVnZUVMV2RTYnoxZTRvUUY0RFFtc3I4Y3VMdHFWUG9hcmxJ?oc=5), [경북신문](https://www.kbsm.net/news/view.php?idx=537593)
 - [파워썬라이즈, 카자흐 아티라우주와 탄소감축·에너지 개발 MOU](https://www.joongang.co.kr/article/25469415) — **중앙일보** · 10-13 18:43 · NDC
   - ㈜파워썬라이즈홀딩스(PS홀딩스, 회장 이창수)가 카자흐스탄의 핵심 에너지 요충지인 아티라우 주(Atyrau Region) 정부와 온실가스 국제감축사업 및 에너지·자원 포괄적 개발을 위한 업무협약(M…
   - 관련 보도 1건: [미주중앙일보](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Idjk4Ylp0akV0OHhCbkxTZmRQOVR3cW5HUktqdHFyNDh1X0NJOXlZeGxBVHBtYS1MelYydWFRNDBTMzVWTHF6TGpTbzB1WUNLRUNScDMxUXhFeXVEbHc3a2Rn?oc=5)
+- [한국환경공단, 온실가스 감축활동 국제협력 프로그램 실무 지원 강화](http://www.digitalbizon.com/news/articleView.html?idxno=2344012) — **digitalbizon.com** · 10-14 16:14 · NDC
+  - 국제감축사업은 정부가 참여국 NDC 이행과 국가의 지속가능한 발전을 위해 파리협정 제6조에 따라 정부 예산을 투자하여 온실가스 감축활동을 추진하는 국제협력 프로그램 사업이다. 한국환경공단은 서울 로…
 - [환경공단, 국제감축사업 실무 지원…경제성·계약·검증 대응 교육](https://www.energydaily.co.kr/news/articleView.html?idxno=204002) — **에너지데일리** · 10-13 18:16 · NDC
   - 한국환경공단은 13일 서울 중구 로얄호텔에서 기업과 공공기관 관계자를 대상으로 '2026년 온실가스 국제감축사업 심화포럼'을 개최했다. 기후에너지환경부가 주최하고 공단이 주관한 행사다. 국제감축사업…
 - [\[이슈/ 온실가스 국제감축사업 활성화를 위한 국제정책토론회\]](https://news.google.com/rss/articles/CBMibkFVX3lxTE8tRTNicjE4UjVzaXBBX01fbGY2Q0FWZ1VwQjFRLWFNRkwxSFByTU9IWUtwN2U0bHZSUW1aYlZRbHNXREIyVDR4SkhPWWx2NDhjdkxON3V6UU53RmctcHkzb2NDZnRycVZ3M05ua3p3?oc=5) — **코리아포스트 한글판** · 10-13 17:00 · NDC
@@ -385,18 +387,20 @@ modified: 2026-10-14T16:12+09:00
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 38건
+### 국내 · 39건
 
 - [충남도, 보령 에너지 전환·해양관광 육성 본격화](https://news.google.com/rss/articles/CBMiREFVX3lxTE94S2JWcHF0MzhEMHNLSS1rc21RT0ZsZWRxRVdfaWtqVER5SWEzUFBsNm1NemxNRUNUMlN3czJOTUdpandy?oc=5) — **광역행정신문** · 10-13 12:34
   - 관련 보도 18건: [전국매일신문](https://www.jeonmae.co.kr/news/articleView.html?idxno=1300746), [세종충청뉴스](https://news.google.com/rss/articles/CBMia0FVX3lxTE4zWFlla0drU0NaMkpSMUFJWTR5SHJHa0dkRTd1OXlUblhQOEVHWmZlM0FpVHRwbzQySXhGMEZ0dHhOSGFTT19KczNubU1QYmdsVFBtekt3c2FzZUM4SmRoMl92cXZtZ19WUzRj0gFvQVVfeXFMTk1FMmxIYnRpOVgtRlN0ZjJpQmRmeGRWSHBXMXJyOW5xVXpkSlJZR2pqcEhzSHlubzktQVhFSndmOExOZWZxdVN6X0pwNFFJeDRPU2lGMF9fNlo4N0RWM2UxSWdDUEJjY2ZzVUY3NmI4?oc=5), [뉴스세상](https://news.google.com/rss/articles/CBMibEFVX3lxTE1abmprOHVDQVJJRTlrRXV6TEdpTkpoc1QtN1ZRaDltaVlENlJaT3RsQS0zRjhUNGdfWXVXSVE3VWdDRkJFVElpVTNfWHNxbEE1UXNkMEZ6a09IMzRaM2RkOGtodllPRGwxMGJzVtIBb0FVX3lxTFBkNC10UUU5Wjdja1FCSHp1RkdYdlBBVFJhTE84YWU1VnZlRDBCcElFb3hibWE3QWNRSVpHcHp0MVJoLUJLNkhoVkJwS1JnQzY1VG5PbVVMUzEwTVlQNTd2dm1aQkQ1NldZVGxjdUNuSQ?oc=5), [에이티엔뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTE0tQjRJemdNT0l3cy1ndFF3SlFvaUktSkV5Wm12dGtyS1dWQ1ZRWnpzUjBDcDZYTUZmanlSN0sxbmZ6WFk3UUJLRkVxLUdXR3NQYmNxekNsMEpuZWVsRWdyM0lhMDh4Z2JaeE5Eaw?oc=5), [뉴스홈(newshome)](https://news.google.com/rss/articles/CBMibkFVX3lxTE9SS3BEZll6eXZ4MVVXNVhwNHhNS3E5UU91cnZSb2xyc3RZaVotdEFMTm94TlRVQ3NwZ3BIdi1KbnZFZUhibmpZMFNuNFM1ZzVhRmZWMUFWMlhhMXJuNlNyRVZRdnpxZ3BTekRFM3N3?oc=5), [뉴스인뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTFBkcnpXMWpFMEx6ajZtWUxiU1lLR3hXSHpsTmNhYnF5ZldCZHlHUE1DNlBIVXpWWWZFUzk5YUdXSHpodzk0U1NEU1RUa3ZZbF9tcDRDVzJtam5VR1BfQmJTakpEcmRPakpiVVFSVw?oc=5), [프레시안](https://www.pressian.com/pages/articles/2026101310455749464?utm_source=naver&utm_medium=search), [뉴스티앤티](https://www.newstnt.com/news/articleView.html?idxno=722662), [서울일보](https://news.google.com/rss/articles/CBMia0FVX3lxTE9NNnFXUTZJNzdGV3MzQ0pnRVR2T0FSLVZnX3ZyNmJrbGZzWmFWMXJHUloxYlNTRDRlTXZORVl4YzNxUXZzWUx5YjB5NWhNYURLN1BYQ0JxODY5SVZRcVBEMHpGWUdpbXk2Vld30gFvQVVfeXFMT1N2c2NPaF9ybDByai0ta0oyZklkdnpDTzg0ZzItYUpGWHM4LUQ2bWJHQzA0WEhyVjc0Z3RROW5uakxmUW8yMDFfNmRLVE8wWF9OamEwYTR5SGdfbVB2Qmh5TU5MY2kxSnNMaEpkRHFZ?oc=5), [매일일보](https://www.m-i.kr/news/articleView.html?idxno=2005061), [뉴스파고](https://news.google.com/rss/articles/CBMiREFVX3lxTE5kcjBmOWhYZV9WMGxZR2ZvMHBsVWRENWZoR1hsUzU5NDNOdWI3U291WXhGWkpHLU0wOUJzOFdZamZXbDNp?oc=5), [대전투데이](https://news.google.com/rss/articles/CBMic0FVX3lxTFBXMnNuVnNLTlBnejRMOHh5R0NqbXhXLWEtUjh3N3dBbmpnNTBqRjhnS2pUelpnMFRRQUE5UDRNZEprdzdmNWdYWkhINTlBUnhfWWU4WDJETmNRUGpzZzVFSWQwN3d0WjdqR2pfa2V3QWtrQUXSAXNBVV95cUxQVzJzblZzS05QZ3o0TDh4eUdDam14Vy1hLVI4dzd3QW5qZzUwakY4Z0tqVHpaZzBUUUFBOVA0TWRKa3c3ZjVnWFpISDU5QVJ4X1llOFgyRE5jUVBqc2c1RUlkMDd3dFo3akdqX2tld0Fra0FF?oc=5), [브레이크뉴스](http://www.breaknews.com/1242725), [충청도민일보](https://news.google.com/rss/articles/CBMibEFVX3lxTE5HNVhBSkhySy1OR2RqYURuLUd6NERSM1p4QXdfNFUwcExCalBCQUxxS1B6Zll2d1NEOEVjeEt6S2VmZ0dSeEc5UDZkOWduTUdIREVKc2x6N1RVaTE1dnVKRkhDQldCbmNHSzdzYg?oc=5), [sisanews24.co.kr](http://www.sisanews24.co.kr/19622), [충청헤럴드](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JZVA0aFdGcGFKLW9Hb09KTGsxYklaX2FibEwwVVFTbGN1YkwxVjk2ai1rMnVvWWFlOVBBX09wS3BKcTYxbmQ3RlA1V2UwalZucldMRHJ1VGhUemVUd044YURzUWI1UE1R?oc=5), [mbn.mk.co.kr](http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5224769), [mbn.co.kr](http://www.mbn.co.kr/pages/vod/programContents.php?progCode=683&menuCode=4385&bcastSeqNo=1431189)
 - [시흥시, 재생에너지 전환 강연 통해 \`시흥형 RE100\` 정책 역량 강화](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFAzU3R3T2pTNzdUU1R5dmVOajJXVVhUbC1fdWUtTWdVVzREWmVYY0RhQ2pOTHBrSWJSOWVNaHc0Mk8teVE?oc=5) — **경기in** · 10-14 07:37
-  - 관련 보도 4건: [뉴스줌](https://news.google.com/rss/articles/CBMiREFVX3lxTFBxTlRXQjdYbzlXcVQtcVFfYjZBLXd4SGJUOEx3blUtVzlPNkdMNldwY28tODFwc1duUGZSdUpWdnd1TmRI?oc=5), [경기일보](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zTnhFR3Y4ODNzSXdfdkhkeFdoRUZsRXcwdkh4T1k1OHlOT2xMTUd5SGFBSXlkUDdJTm1JS0w3YkU1LVdvNVAzWFkxRlpHckh6YXBOX3BodjY3QkE?oc=5), [경기종합뉴스](https://news.google.com/rss/articles/CBMidEFVX3lxTE5sM3UxOGdHeV83clNFdmlHajQ1a1dFSmlhZTg0X0txQVQtRDdnZmUtOEhPZE9XdGFLVW5Wd1QtempoWTV6cUFHQ1VCLVRMOVlWZkdZb2JscTVCRTM4RkZhVDFQU2UtOXZqLWY2QXNiekE5azk1?oc=5), [웹이코노미](https://news.google.com/rss/articles/CBMickFVX3lxTE1IZjF5OWV6Y2ZwNG04dGhZQ0NvLVVFNEJoNHM1aEYtZWlHMEZDSnF4aHBWWHp3aHlIYW5aaGdpOU55R1lXVWpNNFBaLU94MGFvM3JJVXppT09lSlZSWDVLd2htdTdDTGUtaHZPX3JBS1VMUQ?oc=5)
+  - 관련 보도 5건: [뉴스줌](https://news.google.com/rss/articles/CBMiREFVX3lxTFBxTlRXQjdYbzlXcVQtcVFfYjZBLXd4SGJUOEx3blUtVzlPNkdMNldwY28tODFwc1duUGZSdUpWdnd1TmRI?oc=5), [경기일보](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zTnhFR3Y4ODNzSXdfdkhkeFdoRUZsRXcwdkh4T1k1OHlOT2xMTUd5SGFBSXlkUDdJTm1JS0w3YkU1LVdvNVAzWFkxRlpHckh6YXBOX3BodjY3QkE?oc=5), [경기종합뉴스](https://news.google.com/rss/articles/CBMidEFVX3lxTE5sM3UxOGdHeV83clNFdmlHajQ1a1dFSmlhZTg0X0txQVQtRDdnZmUtOEhPZE9XdGFLVW5Wd1QtempoWTV6cUFHQ1VCLVRMOVlWZkdZb2JscTVCRTM4RkZhVDFQU2UtOXZqLWY2QXNiekE5azk1?oc=5), [웹이코노미](https://news.google.com/rss/articles/CBMickFVX3lxTE1IZjF5OWV6Y2ZwNG04dGhZQ0NvLVVFNEJoNHM1aEYtZWlHMEZDSnF4aHBWWHp3aHlIYW5aaGdpOU55R1lXVWpNNFBaLU94MGFvM3JJVXppT09lSlZSWDVLd2htdTdDTGUtaHZPX3JBS1VMUQ?oc=5), [뉴스 따옴](https://news.google.com/rss/articles/CBMickFVX3lxTE9FVDBiVmliRG9zeF9HYy02MmQtVnk1cUhMclJXRDRSTmJENTU3WmFnSk5xU0xDUm1aZEphbkVoTVFFV0VFMDBCYkhrNUYyU2U4ZUVCZjRmd3U1QzFabjEyenZQcHBKY2pXX0U0Y1pHbnFxQdIBckFVX3lxTE9FVDBiVmliRG9zeF9HYy02MmQtVnk1cUhMclJXRDRSTmJENTU3WmFnSk5xU0xDUm1aZEphbkVoTVFFV0VFMDBCYkhrNUYyU2U4ZUVCZjRmd3U1QzFabjEyenZQcHBKY2pXX0U0Y1pHbnFxQQ?oc=5)
 - [박수현 충남도지사, 에너지 전환 이끌고 해양관광 새 미래 연다](http://www.chungnamilbo.co.kr/news/articleView.html?idxno=914338) — **충남일보** · 10-13 11:30
   - \[임영한 기자\] 충남도가 보령 지역 친환경 에너지 전환과 해양관광 경쟁력 강화에 행정력을 집중 투입, 새로운 성장동력을 키우고 시민의 일자리와 지역경제 활력을 뒷받침한다. 석탄화력발전소 폐지로 인한…
   - 관련 보도 3건: [충청타임즈](http://www.cctimes.kr/news/articleView.html?idxno=931832), [SNS 타임즈](https://news.google.com/rss/articles/CBMinAFBVV95cUxPakQxbDlLQV9UWmYtdE8yd09Lc3NlUnpIdmd3MC1CbVdXMFRRVGlld0pyd1lQd0U5bF81TU1UVnc1bENCa1czOFRNQkJmQS1uNjk4WFdzSVNqbDlmMmxtUW5BeEhqUkxsSWxNMWNKUHdySDdaeWR3OXdMdnlaOXVRUXlWcjlUYml2aXJ1SUdSdUFRWlVwVEZjRjFZVl8?oc=5), [환경일보](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuSVR4b1RiTjBmeFJaNlNIem1CMEI1Wm1Vb3p5aHJPdTNmZ1ZXY1hjX2pFYW5nV1NjNWVVdF9rM3QyT09JX2FKZDBXeWdXSWN5cGktZmx3cmhDcjl6bWVSa2lERFR4OTdN?oc=5)
 - [박수현 지사 "보령의 에너지 전환과 해양관광 도약에 힘 모을 것"](https://www.news1.kr/local/daejeon-chungnam/6318511) — **뉴스1** · 10-13 15:45
   - 충남도가 보령시 지역 친환경 에너지 전환과 해양관광 경쟁력 강화에 행정력을 집중 투입한다. 석탄화력발전소 폐지로 인한 고용 위축과 지역경제 충격을 최소화하고 수소 산업 육성과 교통망 확충, 섬과 바…
   - 관련 보도 1건: [연합뉴스](https://www.yna.co.kr/view/AKR20261013144400063?input=1195m)
+- [새만금산단 재생에너지 전환 속도…태양광 공급 확대](https://www.viva100.com/article/20261014501150) — **브릿지경제** · 10-14 16:18
+  - 기업이 사업장 내에서 생산된 재생에너지를 직접 구매하는 방식이 확대되면서 새만금산단의 재생에너지 공급 기반도 넓어지고 있다. 새만금개발청은 14일 한국서부발전과 신성이엔지 등 5개사가 참여한 컨소시…
 - [\[현장\] 에너지전환포럼 석광훈 "AI 버블은 닷컴버블과 유사, 전력수요 과다산정 지양해야"](https://www.businesspost.co.kr/BP?command=article_view&num=449322) — **비즈니스포스트** · 10-14 16:00
   - 석광훈 에너지전환포럼 전문위원이 14일 서울 여의도 국회에서 열린 토론회에서 발언하고 있다. \<비즈니스포스트\> "AI와 인터넷은 기술이 다르지만 산업 발달 초기에 버블(거품)이 끼는 상황은 매우 비…
 - [광명, 탄소중립 어디까지 왔나…지역 에너지 전환 해법 찾는다](https://weekly.hankooki.com/news/articleView.html?idxno=7188791) — **주간한국** · 10-14 15:18
@@ -408,8 +412,6 @@ modified: 2026-10-14T16:12+09:00
   - 인공지능(AI) 데이터센터의 막대한 전력 수요로 국내에서도 원전 확대와 LNG 의존, 재생에너지 전환 지체 등을 둘러싼 논쟁이 이어지고 있다. 이런 가운데 에너지 전환은 단순히 어떤 에너지원을 선택…
 - [에너지 전환 관련 최신 소식 - 재생에너지 성장, 미래 전력 구성의 변화를 주도](https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmhkMG5sWEs4T3BCRzRUOFNuazRkczI1SFRXYm5HUGl5TUktX2hlZDRDcDNSMFR4QWFXZDRTTTY0c0d0Mm5SdExSZ25GVTNwQmVpMkNUY1lmdy1waUpSNTFnUy1FN1pEeHpub1UwdERSWGhmSXB5c1JlSGJaRnRZRDVEUzFCX2dVV3fSAY8BQVVfeXFMT2VHOUNJUEs1cG1ITFd5UnI3bnlza1h1b283VDJYZnlMMUFCWDVwSEdOeUFReXZuOXBqNEJmVTg4Mi14b19lSHNER1V5UjZQZ1BScl9zYmZsTTBPNHJQMWFUSmYzTkk2aGp3LUVDX041Q1RUTmJJR0F1R1dnb0pNZGZDMU1hZTFTWlRia1JYVUU?oc=5) — **Simply Wall Street** · 10-14 05:26
 - [보령시 찾은 박수현 ‘충남통(通)행’ 에너지 전환.해양관광 도약 청사진 제시](https://news.google.com/rss/articles/CBMibkFVX3lxTE5Hd2dUQndqaWliS2kyU0k4QVBOZmgtLTlab29hZlF4a19GRWhkbVdXQmszMlB2RzV3bURNdFpFWnZsS2tLVF9IX05mbWlBT0djLWRDb0QwU1hLc3YxMzBnZXlmSEZiVzBQUXg2LWlB?oc=5) — **뉴스스토리** · 10-13 22:15
-- [보령 찾은 박수현 “해양관광 경쟁력 강화·에너지 전환”](https://www.kmib.co.kr/article/view.asp?arcid=9000022236&cp=nv) — **국민일보** · 10-13 18:35
-  - 박수현 충남지사는 13일 보령시를 방문해 해양관광 경쟁력 강화와 친환경 에너지 전환을 위해 지원할 뜻을 밝혔다. 박 지사는 이날 보령시청에서 엄승용 보령시장과 간담회를 진행한 뒤 도민과의 대화 자리…
 
 ### 해외 · 15건
 
@@ -446,29 +448,29 @@ modified: 2026-10-14T16:12+09:00
 
 ## 지난 클리핑
 
-- [[radar/news/2026/2026-10-13|2026-10-13]] — 262건
-- [[radar/news/2026/2026-10-12|2026-10-12]] — 84건
-- [[radar/news/2026/2026-10-11|2026-10-11]] — 119건
-- [[radar/news/2026/2026-10-10|2026-10-10]] — 117건
-- [[radar/news/2026/2026-10-09|2026-10-09]] — 218건
-- [[radar/news/2026/2026-10-08|2026-10-08]] — 198건
-- [[radar/news/2026/2026-10-07|2026-10-07]] — 199건
-- [[radar/news/2026/2026-10-06|2026-10-06]] — 192건
-- [[radar/news/2026/2026-10-05|2026-10-05]] — 64건
-- [[radar/news/2026/2026-10-04|2026-10-04]] — 64건
-- [[radar/news/2026/2026-10-03|2026-10-03]] — 207건
-- [[radar/news/2026/2026-10-02|2026-10-02]] — 180건
-- [[radar/news/2026/2026-10-01|2026-10-01]] — 254건
-- [[radar/news/2026/2026-09-30|2026-09-30]] — 272건
-- [[radar/news/2026/2026-09-29|2026-09-29]] — 316건
-- [[radar/news/2026/2026-09-28|2026-09-28]] — 125건
-- [[radar/news/2026/2026-09-27|2026-09-27]] — 95건
-- [[radar/news/2026/2026-09-26|2026-09-26]] — 123건
-- [[radar/news/2026/2026-09-25|2026-09-25]] — 141건
-- [[radar/news/2026/2026-09-24|2026-09-24]] — 234건
-- [[radar/news/2026/2026-09-23|2026-09-23]] — 439건
-- [[radar/news/2026/2026-09-22|2026-09-22]] — 829건
-- [[radar/news/2026/2026-09-21|2026-09-21]] — 93건
-- [[radar/news/2026/2026-09-20|2026-09-20]] — 517건
+- [[radar/news/2026/10-13|10-13]] — 262건
+- [[radar/news/2026/10-12|10-12]] — 84건
+- [[radar/news/2026/10-11|10-11]] — 119건
+- [[radar/news/2026/10-10|10-10]] — 117건
+- [[radar/news/2026/10-09|10-09]] — 218건
+- [[radar/news/2026/10-08|10-08]] — 198건
+- [[radar/news/2026/10-07|10-07]] — 199건
+- [[radar/news/2026/10-06|10-06]] — 192건
+- [[radar/news/2026/10-05|10-05]] — 64건
+- [[radar/news/2026/10-04|10-04]] — 64건
+- [[radar/news/2026/10-03|10-03]] — 207건
+- [[radar/news/2026/10-02|10-02]] — 180건
+- [[radar/news/2026/10-01|10-01]] — 254건
+- [[radar/news/2026/09-30|09-30]] — 272건
+- [[radar/news/2026/09-29|09-29]] — 316건
+- [[radar/news/2026/09-28|09-28]] — 125건
+- [[radar/news/2026/09-27|09-27]] — 95건
+- [[radar/news/2026/09-26|09-26]] — 123건
+- [[radar/news/2026/09-25|09-25]] — 141건
+- [[radar/news/2026/09-24|09-24]] — 234건
+- [[radar/news/2026/09-23|09-23]] — 439건
+- [[radar/news/2026/09-22|09-22]] — 829건
+- [[radar/news/2026/09-21|09-21]] — 93건
+- [[radar/news/2026/09-20|09-20]] — 517건
 
 이전 기록은 왼쪽 Explorer 의 연도 폴더에서 볼 수 있습니다.
