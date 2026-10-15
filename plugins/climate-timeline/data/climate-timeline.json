@@ -1495,12 +1495,28 @@
       ]
     },
     {
+      "id": "climate-energy-environment",
+      "date": "2025-09",
+      "exactDate": "2025-09-07",
+      "title": "기후에너지환경부 신설",
+      "category": "korea",
+      "image": "/static/images/timeline/20250907_기후에너지환경부_신설.png",
+      "imageAlt": "정부조직 개편방안",
+      "description": "이재명 정부가 환경부와 산업통상자원부를 통합한 '기후에너지환경부'를 신설하는 정부조직 개편을 발표했다. 환경부를 환경·기후변화 및 에너지 등 탄소중립 관련 핵심 기능을 수행하는 기후에너지환경부로 개편하고 산업부 제2차관을 이관했다. 또 2050 탄소중립녹색성장위원회를 '기후위기대응위원회'로 개편하고 기능을 강화했다.",
+      "sources": [
+        {
+          "title": "행안부, 정부조직 개편방안",
+          "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=120370"
+        }
+      ]
+    },
+    {
       "id": "korea-2035-ndc",
       "date": "2025-11",
       "exactDate": "2025-11-11",
       "title": "한국 정부 2035 NDC 발표",
       "category": "korea",
-      "description": "한국 정부가 2035년를 범위형( 2018년 대비 53~61%)으로 확정했다. 배출권거래제 등 규제는 하한인 53%에 연동한다",
+      "description": "한국 정부가 2035년 목표를 범위형(2018년 대비 53~61%)으로 확정했다. 배출권거래제 등 규제는 하한인 53%에 연동한다.",
       "image": "/static/images/timeline/20251110_2035NDC_발표.jpg",
       "imageAlt": "김성환 기후에너지환경부 장관이 2035 국가온실가스 감축목표 및 제4차 계획기간 배출권 할당계획을 발표하고 있다. (ⓒ뉴스1)",
       "sources": [
