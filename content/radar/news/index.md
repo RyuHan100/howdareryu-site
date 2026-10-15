@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-16
-modified: 2026-10-16T08:38+09:00
+modified: 2026-10-16T08:47+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-16 08:38 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-16 08:47 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-16|10-16 클리핑]] — 기사 **224건** (국내 138 · 해외 86)
+> [!example] [[radar/news/2026/10-16|10-16 클리핑]] — 기사 **225건** (국내 138 · 해외 87)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -142,9 +142,10 @@ modified: 2026-10-16T08:38+09:00
 - [\[브릿지 칼럼\] 메가프로젝트와 온실가스](https://www.viva100.com/article/20261014501124) — **브릿지경제** · 10-15 14:28
   - 첨단 산업 발전을 위해 전기를 많이 쓸수록 탄소 배출이 함께 늘어나, 기후 재앙을 막기 위한 국가 온실가스 감축목표(NDC) 달성은 더욱 아득해진다. ‘산업 발전‘과 ‘탄소 감축‘이라는 두 마리 토…
 
-### 해외 · 12건
+### 해외 · 13건
 
 - [Ghana’s investment climate presents opportunities for industrial growth, job creation.](https://news.google.com/rss/articles/CBMisgFBVV95cUxPMEFHamtQM2NUbk9IMGVHQWl4TXJDalBlMFNwYjdRQU5odjZfeXUwUFgybmlWU0xkYnd3aWktRmhDaFkxdW5RMDVZbUNVcm9naklHckZUblVkT2IxdkdmLWJNMWJrTDVrUmVUSFpYOGdCNnBVVWhUcF9Pa2s4TkdNWkU2Q3oyUnhYMFJIeW1HZV9KeTZManZrQm1jUzNqRVdHc1dkX0duZi1hZXFNSHpmN093?oc=5) — **MyJoyOnline** · 10-16 07:14
+  - 관련 보도 1건: [MyJoyOnline](https://news.google.com/rss/articles/CBMisgFBVV95cUxPMEFHamtQM2NUbk9IMGVHQWl4TXJDalBlMFNwYjdRQU5odjZfeXUwUFgybmlWU0xkYnd3aWktRmhDaFkxdW5RMDVZbUNVcm9naklHckZUblVkT2IxdkdmLWJNMWJrTDVrUmVUSFpYOGdCNnBVVWhUcF9Pa2s4TkdNWkU2Q3oyUnhYMFJIeW1HZV9KeTZManZrQm1jUzNqRVdHc1dkX0duZi1hZXFNSHpmN093?oc=5)
 - [ADB considers climate investment project for six Asian countries](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqYWVFa2dBYmVRcXdoYUdySnFMUHNZMHZ5ZUJpb0U2YW5COGctelpJQUpxa1FIaGlCSHNNcXUtaE5oLXZnOFdFeFc4SzhxMEVQeHh0NGlldw?oc=5) — **Trend News Agency** · 10-15 22:51
 - [A handbook for building the capacity of local communities, rural women and empowering their roles in climate action](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZFlXLXE0cE91a1dxaHpNWHQyR1pPODhYX0lHQ3pjYUx4dWdqaDMyd1ZzT0pjUTZIelZBd195Tm5TNzNWNFY1b0dRWmpvcThqSGZiYjFsX0I2WEpnRE9ZMlV1YXU3Yy1aNXNOODA5bXJIdklXUjE5SnZvQzM4UUszWkFNZGVIV0xqMzJMQXE4Rmp3dlhxRzNGeGJzTVpXaFF0TXd1bWVmZWJPQ2d0MVM4QzJPZ2hGZFF2dnQ2Mm54TTJBeEhGb3RoYkRyUjdCby1rLVJyY0pn?oc=5) — **Global Green Growth Institute** · 10-15 21:24
 - [Airlines urged to ‘keep the faith’ in CORSIA amid shortage of eligible emissions units](https://news.google.com/rss/articles/CBMiywFBVV95cUxNdE4zeHZHUU1STDVMOVdxTkZWR1RrU0tNR0F3U2Y1dlpPQllUZzdoM2lsMlpPckcxRUR4MzVUUlNEMmlnZmh1ZkN6SjhEYkRqZWtPSFoxZkdqaklHUTZFclFqS0dYLWdWZXFVNElxZzJ4Q0tzWXJieVZSaHp1TXJPbmhDb19LSFE0aVdWejZrZ1ZLR2o0ZDZjYjhrejlRT01IeVk4WkpYLUxrT19URzY5aXBVc2VydHdLMmNzNXpIaEpUdndhdnZsNHhyaw?oc=5) — **FlightGlobal** · 10-15 21:15
