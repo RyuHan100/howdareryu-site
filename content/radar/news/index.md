@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-15
-modified: 2026-10-15T09:34+09:00
+modified: 2026-10-15T10:52+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-15 09:34 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-15 10:52 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-15|10-15 클리핑]] — 기사 **190건** (국내 106 · 해외 84)
+> [!example] [[radar/news/2026/10-15|10-15 클리핑]] — 기사 **246건** (국내 160 · 해외 86)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -23,35 +23,43 @@ modified: 2026-10-15T09:34+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 15건
+### 국내 · 33건
 
+- [대우건설, '탄소저감 조강형 콘크리트' 주요 인증단계 통과](http://www.ikld.kr/news/articleView.html?idxno=342249) — **국토일보** · 10-15 09:06 · 자발적 탄소시장 / VCM
+  - 크레딧을 발급받으면 자발적 탄소시장에서 거래하거나 해외사업장 등에서 발생하는 온실가스 배출량을 자발적으로 상쇄하는 방안을 검토할 방침이다. 국내 현장에서 개발·적용한 기술의 탄소감축 성과를 해외사업…
+  - 관련 보도 5건: [퍼블릭뉴스통신](http://www.ttlnews.com/news/articleView.html?idxno=3152125), [팝콘뉴스](http://www.popcornnews.net/news/articleView.html?idxno=136073), [녹색경제신문](https://www.greened.kr/news/articleView.html?idxno=352123), [컨슈머타임스](https://www.cstimes.com/news/articleView.html?idxno=724050), [CNB뉴스](https://www.cnbnews.com/news/articleView.html?idxno=1019371)
 - [대우건설, 탄소저감 콘크리트 인증 심의 통과…탄소크레딧 확보 추진](https://www.g-enews.com/view.php?ud=2026101509224419552aa6f4cdad_1) — **글로벌이코노믹** · 10-15 09:28 · 자발적 탄소시장 / VCM
   - 향후 탄소크레딧을 발급받으면 이를 자발적 탄소시장에서 거래하거나 해외사업장 등에서 발생하는 온실가스 배출량을 자발적으로 상쇄하는 데 활용하는 방안을 검토하고 있다. 이에 앞서 대우건설은...
-  - 관련 보도 1건: [handmk.com](https://www.handmk.com/news/articleView.html?idxno=44114)
+  - 관련 보도 5건: [handmk.com](https://www.handmk.com/news/articleView.html?idxno=44114), [아주경제](https://www.ajunews.com/view/20261015085719167), [뉴스1](https://www.news1.kr/realestate/general/6320850), [whitepaper.co.kr](http://www.whitepaper.co.kr/news/articleView.html?idxno=267795), [머니투데이](https://www.mt.co.kr/estate/2026/10/15/2026101510082639532)
+- [대우건설, 탄소저감 콘크리트 크레딧인증 추진…"탄소중립 실현"](https://www.yna.co.kr/view/AKR20261015035700003?input=1195m) — **연합뉴스** · 10-15 09:14 · 자발적 탄소시장 / VCM
+  - 향후 탄소크레딧을 발급받으면 자발적 탄소시장에서 거래하거나 해외사업장의 온실가스 배출량을 상쇄하는 데 활용할 계획이다. 대우건설 관계자는 "남은 모니터링 보고서 심의도 조속히 마쳐 국내 건설사 최초…
+  - 관련 보도 4건: [jasm.co.kr](https://www.jasm.co.kr/news/view/321599/?sc=Naver), [ESG경제](https://www.esgeconomy.com/news/articleView.html?idxno=17017), [노컷뉴스](https://www.nocutnews.co.kr/news/6591769?utm_source=naver&utm_medium=article&utm_campaign=20261015095057), [뉴스투데이](https://www.news2day.co.kr/article/20261015500096)
+- [대우건설, 저탄소 콘크리트 탄소크레딧 발급 절차 진전](https://www.pointdaily.co.kr/news/articleView.html?idxno=322347) — **포인트데일리** · 10-15 08:50 · 자발적 탄소시장 / VCM
+  - 크레딧을 발급받으면 자발적 탄소시장에서 거래하거나 해외사업장 등에서 발생하는 온실가스 배출량을 자발적으로 상쇄하는 방안을 검토할 방침이다. 국내 현장에서 개발·적용한 기술의 탄소감축 성과를 해외사업…
+  - 관련 보도 3건: [인더뉴스](https://www.inthenews.co.kr/news/article.html?no=93093), [cnbizm.com](https://www.cnbizm.com/news/articleView.html?idxno=318084), [메트로신문](http://www.metroseoul.co.kr/article/20261015500117)
+- [대우건설, 업계 최초 현장타설 콘크리트 탄소감축인증 심의 통과](https://www.dailian.co.kr/news/view/1701689/?sc=Naver) — **데일리안** · 10-15 09:39 · NDC · 자발적 탄소시장 / VCM
+  - 대우건설은 향후 모니터링 보고서 심의를 통과해 탄소크레딧을 발급받으면 이를 자발적 탄소시장에서 거래하거나 해외사업장 등에서 발생하는 온실가스 배출량을 자발적으로 상쇄하는 데 활용하는 방안을 검토하고…
+  - 관련 보도 2건: [SR타임스](http://www.srtimes.kr/news/articleView.html?idxno=214829), [메가경제](https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065573392127172)
+- [\[위클리오늘\] 대우건설, 저탄소 콘크리트 탄소크레딧 인증 속도···감축량 3만2000톤 예상](http://www.weeklytoday.com/news/articleView.html?idxno=798149) — **위클리오늘** · 10-15 10:16 · NDC · 자발적 탄소시장 / VCM
+  - 향후 크레딧을 확보하면 자발적 탄소시장에서 거래하거나 해외사업장 온실가스 배출량의 자발적 상쇄에 활용하는 방안을 검토한다. 정부는 올해 말 한국형 자발적 탄소시장 개설을 목표로 제도 구축을 추진 중…
+  - 관련 보도 1건: [fetv.co.kr](https://www.fetv.co.kr/news/articleView.html?idxno=311798)
 - [대우건설, ‘현장타설 콘크리트’로 탄소크레딧 확보 추진…탄소 3.2만...](https://biz.heraldcorp.com/article/10903173?ref=naver) — **헤럴드경제** · 10-15 09:08 · 자발적 탄소시장 / VCM
   - 대우건설은 향후 모니터링 보고서 심의를 통과해 탄소크레딧을 발급받으면 이를 자발적 탄소시장에서 거래하거나 해외사업장 등에서 발생하는 온실가스 배출량을 자발적으로 상쇄하는 데 활용하는 방안을 검토하고…
   - 관련 보도 1건: [public25.com](https://www.public25.com/news/articleView.html?idxno=56538)
-- [대우건설, 탄소저감 콘크리트 크레딧인증 추진…"탄소중립 실현"](https://www.yna.co.kr/view/AKR20261015035700003?input=1195m) — **연합뉴스** · 10-15 09:14 · 자발적 탄소시장 / VCM
-  - 향후 탄소크레딧을 발급받으면 자발적 탄소시장에서 거래하거나 해외사업장의 온실가스 배출량을 상쇄하는 데 활용할 계획이다. 대우건설 관계자는 "남은 모니터링 보고서 심의도 조속히 마쳐 국내 건설사 최초…
-  - 관련 보도 1건: [jasm.co.kr](https://www.jasm.co.kr/news/view/321599/?sc=Naver)
-- [대우건설, '탄소저감 조강형 콘크리트' 주요 인증단계 통과](http://www.ikld.kr/news/articleView.html?idxno=342249) — **국토일보** · 10-15 09:06 · 자발적 탄소시장 / VCM
-  - 크레딧을 발급받으면 자발적 탄소시장에서 거래하거나 해외사업장 등에서 발생하는 온실가스 배출량을 자발적으로 상쇄하는 방안을 검토할 방침이다. 국내 현장에서 개발·적용한 기술의 탄소감축 성과를 해외사업…
-- [대우건설, 저탄소 콘크리트 탄소크레딧 발급 절차 진전](https://www.pointdaily.co.kr/news/articleView.html?idxno=322347) — **포인트데일리** · 10-15 08:50 · 자발적 탄소시장 / VCM
-  - 크레딧을 발급받으면 자발적 탄소시장에서 거래하거나 해외사업장 등에서 발생하는 온실가스 배출량을 자발적으로 상쇄하는 방안을 검토할 방침이다. 국내 현장에서 개발·적용한 기술의 탄소감축 성과를 해외사업…
-- [한국거래소, K-ETS 정책 논의·탄소크레딧 시장 준비 속도 \[거래소 소식...](https://www.m-i.kr/news/articleView.html?idxno=2005986) — **매일일보** · 10-15 08:26 · 배출권거래제 / ETS · 자발적 탄소시장 / VCM
-  - 거래소는 정부의 한국형 자발적 탄소시장 정책에 맞춰 'KRX탄소크레딧시장' 개설을 추진하고 있다. 협약에 따라 양측은 국내 고품질 탄소크레딧 발굴과 상장기준 마련, 상장심사 대상 탄소크레딧 평가,…
-- [한국환경공단, 국제 탄소감축사업 실무 역량 강화](https://www.kdpress.co.kr/news/articleView.html?idxno=209287) — **데일리경제** · 10-14 22:16 · 국제감축 / Article 6 · NDC
-  - 기후에너지환경부가 주최하고 공단이 주관한 이번 포럼은 파리협정 제6조에 따른 국제 탄소시장 동향을 공유하고, 기업들이 사업 추진 과정에서 겪는 실무적 어려움을 해소하기 위해 마련됐다. 국제감축사업은…
-- [정부, 국제 탄소시장 구축·고품질 배출권 거래 추진한다](https://news.google.com/rss/articles/CBMiakFVX3lxTE1MRlhMYlRUQWNwTFR3cEpHUE1qOVVYNkJsTk10QjRkVkNBMkxEdXpCRVdSSDYwY0xJV0FUcUZ4ZzM0X0lPa3ZyS1IwSzRqbFdJU1hCcjNzWUVrRU0ySDlSZmpBT1BGQjZ1WVHSAW5BVV95cUxPRTdsQ292Z1hmRGhLRF9faG1uallxY2YzSnFkTnEzRjZKb01ONjdLS3BNd0lGbWFfY25UY0E2b3VjVmFRbWtVaVQxaUY3RldrWFgtcmxuaXMzRjJSSHpkcWZnVmtKOUQ4ejdPakY2Zw?oc=5) — **넷제로뉴스** · 10-14 19:40 · 배출권거래제 / ETS
-- [한국거래소, 글로벌 탄소크레딧 평가사 비제로와 시장 개설 위한 MOU 체결](https://economist.co.kr/article/view/ecn202610140045) — **이코노미스트** · 10-14 17:12 · 자발적 탄소시장 / VCM
-  - 정은보 한국거래소 이사장은 “한국거래소는 정부와 함께 국제적으로 신뢰받는 자발적 탄소시장을 구축하고 있으며 이를 위해 비제로와 협약을 체결했다”고 말했다.
-- [거래소, 고품질 탄소크레딧 시장 개설 박차…글로벌 평가사 ‘비제로’와 MOU](https://biz.heraldcorp.com/article/10902681?ref=naver) — **헤럴드경제** · 10-14 16:45 · 국제감축 / Article 6 · 자발적 탄소시장 / VCM
-  - 한국거래소는 현재 정부의 ‘한국형 자발적 탄소시장’ 정책 지원과 아시아 탄소시장 허브 도약을 목표로 ‘KRX 탄소크레딧 시장’ 개설을 추진 중이다. 이번 협약을 통해 시장의 고무결성(high int…
-- [자본 수요는 3,680억 달러, 녹색 신용은 탄소 시장의 추가 추진력이 필요합니다](https://news.google.com/rss/articles/CBMixgFBVV95cUxOUWhvOVdYVUdYa21GNHpvNC11RFpGV2ROUm9RdFNBRWlybHFpaXBTUGpLaGprQnVFVkYySVcwdldndnE3LWZMekdpX25VY0lSbzJZS2VCMnFHMU1NWS1zaFZSUlBuekQ4TzJ1XzFLdlZjRDdQeWl4R1kxZ2wwWTlkeUxWb3FuczNRS0xkTjZIZC1LOHM5bV84NjNBeWVLTTBHRU9IRnV3TDNucXdMV29zRkk3Nm1PUm5tT3BKMzZqR2dLbDNYZUE?oc=5) — **Laodong.vn** · 10-14 16:35
-- [삼성중공업, 친환경 하이브리드 셔틀탱커로 탈탄소 시장 공략](https://news.google.com/rss/articles/CBMidkFVX3lxTFBZaDY3YVV6d1JDVUh4dkFGSXYtVmhjZVVSSUs5UVdWSmZjYmNMRHNSRTB1RU41dThaRkF6b2dod3EzNkZHbWdEcHNZNFRnXzBqbVFoaUltVEl1OHIzdVYzaE0tM3k0NGpyQmtnb3N1U2NjdmRZOXfSAXpBVV95cUxOZFF2TjI4NmtBdk5DZzROUlgtMnFBR3ZHMWxDVmplTVEyd2FFNThad1A5bjJJNG9BaXdaM1hUNHdLbkprMDlsRHdWSDNGV2ZrUG5pcUItN3dEeFV4ckVucEpFUXBnNHFZZzlqWW1BSUpHZ0JQM0hfcGh0dw?oc=5) — **그린포스트코리아** · 10-14 15:23
+- [친환경 콘크리트로 탄소 배출 감축…대우건설, 현장타설 기술 최초 '탄...](https://www.thefairnews.co.kr/news/articleView.html?idxno=90771) — **더페어** · 10-15 10:48 · 자발적 탄소시장 / VCM
+  - 대우건설은 향후 최종 인증을 통해 확보할 탄소크레딧을 자발적 탄소시장에서 거래하거나 해외 사업장의 온실가스 배출량을 상쇄하는 데 활용할 구상이다. 앞서 기후에너지환경부로부터 해당 기술에 대한 환경성…
+- [도료 내구성 높이고 탄소배출 줄이고… 기업들, 소재 기술 고도화](https://www.pressman.kr/news/articleView.html?idxno=104019) — **프레스맨** · 10-15 10:24 · 자발적 탄소시장 / VCM
+  - 회사는 향후 탄소크레딧을 확보하면 자발적 탄소시장에서 거래하거나 해외사업장의 배출량을 자발적으로 상쇄하는 데 활용하는 방안을 검토할 예정이다. 앞서 해당 제품은 환경성적표지(EPD)와 저탄소제품 인…
+- [대우건설, 업계 최초 '탄소저감 콘크리트' 인증 통과 … 크레딧 거래 추...](https://biz.newdaily.co.kr/site/data/html/2026/10/15/2026101500083.html) — **뉴데일리** · 10-15 10:22 · 자발적 탄소시장 / VCM
+  - 대우건설은 향후 모니터링 보고서 심의를 통과해 탄소크레딧을 발급받으면 이를 자발적 탄소시장에서 거래하거나 해외사업장 등에서 발생하는 온실가스 배출량을 자발적으로 상쇄하는 데 활용하는 방안을 검토 중…
+- [대우건설, 콘크리트 탄소감축 실적 '크레딧 자산화' 추진](https://www.bizwork.co.kr/news/articleView.html?idxno=419917) — **bizwork.co.kr** · 10-15 10:04 · 자발적 탄소시장 / VCM
+  - 저탄소 건설기술의 환경적 성과를 탄소시장과 연결하려는 시도다. 대우건설은 15일 한라시멘트와 공동 개발한 '디에코콘(DECOCON)'이 대한상공회의소 탄소감축인증에서 방법론과 사업계획서 심의를 통과…
+- [\[부동산 나들이\] 삼표시멘트 '삼척시민의 날 부스'·대우 '탄소저감콘크...](https://www.newsworks.co.kr/news/articleView.html?idxno=856552) — **뉴스웍스** · 10-15 09:58 · 자발적 탄소시장 / VCM
+  - 이 콘크리트 30만㎥를 현장에 적용하면 약 3만 2000t의 탄소 배출을 줄일 수 있을 것으로 예상했다. 탄소크레딧을 발급받으면 자발적 탄소시장에서 거래하거나 해외사업장의 온실가스 배출량을 상쇄하는…
 
-### 해외 · 7건
+### 해외 · 8건
 
+- [Kashmir’s farmers eye carbon credits, but local gains remain uncertain](https://news.google.com/rss/articles/CBMitwFBVV95cUxQZHFfY2dzQ2xqOThtOUp5TkRPS3RlejJQdXhTdWpXUDc0dm9kN09uVmh0TzFQcjI3NDJidkpER3RqU2ZMdWU3YjNBSXNjUENoMl9ZMEpTRTRTSEl6NXdLTzJDdUFVUUpLSGVFVFMzWlZKN2dkd0lVZXFXYVZxbmlBRUwxMGtZeWJDRm51Ml9VMTlSczZVSDhGWmN6TndkRHJUVWhJMjBJSHRDaGY1VmY5V3M3X2d1NUXSAbwBQVVfeXFMTVZyX2oyOWxUMEJqTTZHUHBRYlJZLTFudnpwT1Z4RFFCdGl3amRsRGptbEV3OWo0NWpnZ1FxMlZ3NWdpdHBteU5BNW0wOFB0T3psM3NXOTk1eFRTX05zNWM5SVQ0aUdWMmFzZ1VnYU1ieWhIeThiMGVjenJzTE52TjdhcllLOWxoMjVGQzktMjBSellscmJWWm5PTHBvMkFYQlozblp6a2V4elBOMWhyeV95ZXhBUm5vNDZ4OFA?oc=5) — **Greater Kashmir** · 10-15 10:00 · 자발적 탄소시장 / VCM
 - [Designing carbon markets that work: How Asian policymakers are advancing credible ETS implementation](https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTTFOUmdWRE9hZ3FoQVpMSzMxV2k0emlyU1BHWFZMNkxZRmxRcmEzRjQ1ZHVLRFhoSmNwRlMtOEl4NGNON1NlUmNTemk2bkNKdmxXUVRneE5jTTNLY0U1cWZoVkFjRF9GbUE3VmdpN3pyZ3I3UF9uZ2xXWTBCcHo5WG9DX1VNVEVOM2t1MFEyRFBoNUlVX1hQenRDNXNoZkpKcG82c3FPYTV4YVREbFpVaVJTQUVzZlpkcVVlclktLWRJOXlkSTBEMHJLd0g0Zy1UdE4wV2hVbVVkYV80?oc=5) — **Environmental Defense Fund** · 10-15 02:31
 - [UN Tightens Cookstove Carbon Credits With New Forest-Loss Reserve](https://news.google.com/rss/articles/CBMif0FVX3lxTFBSWW1sTHhNZWx0bGVPT001R2lSSGtYdktEVjVBWWtpckFWbkowNFBJYWNPQWdrZlBIODVZazIxZU40UWVHT0xuUURzNlUweGJkZTN0b3RCTU80ZEFfV21YaEI2MlgxZXVGUmZtRm5RajZaQ0p1Q252NG9mSkNXN2c?oc=5) — **CarbonCredits.com** · 10-15 02:17 · 자발적 탄소시장 / VCM
 - [A carbon market for agri-based income](https://news.google.com/rss/articles/CBMikAFBVV95cUxOUTFlUEZua2RpT3VyVHJqY3pzOWtPNUpLSlhTeGNtcEE3eXVPV2Q5QlJhTXpxMG5nWUNDSDF4SE5aZnNkV3hTbm5FT2dvcFBNY096NFYzaU9KYU82V1p2Y2NmMWRLc09LNWktbV9wblcxMU5pMElSVkdYWVNaTmFqakZFTHJrWXljTFRGdWlRQm_SAZcBQVVfeXFMUHo3T3NoSEVKSi1KWUt1RmJfVVNySGd2dURLRTAyRWpJSEd6OTFUaTdkdXQxSXA1VXZmbE9tTVFSN2ZzQ0ZJbDFlSlZJNy1VSDItR0QzWTJJdFFTQ21xRWVIdVJPREZUcEpsNEE1bF9aR09UMGRZZWpSczJJS05GYTNONmYxVFVsdGF3aFMtNUJXaFNSYTZDdw?oc=5) — **The Financial Express** · 10-15 01:44
@@ -105,12 +113,20 @@ modified: 2026-10-15T09:34+09:00
 
 ## NDC
 
-### 국내 · 8건
+### 국내 · 12건
 
+- [민경선 고양시장 "생활 속 기후대응 강화"...폭염부터 탄소중립까지 전...](https://www.ajunews.com/view/20261015102026658) — **아주경제** · 10-15 10:36
+  - 올해 실시한 첫 이행점검에서는 2025년 온실가스 감축 목표량 106만7000톤 가운데 약 98%인 104만8000톤의 감축 성과를 거둔 것으로 나타났으며 시는 향후 탄소중립 관련 예산을 확대해 사…
+- ["전기차 탄소 감축 효과 정확히 평가해야 한다"](https://www.energydaily.co.kr/news/articleView.html?idxno=204062) — **에너지데일리** · 10-15 10:06
+  - 한편 정부는 2030년 국가 온실가스 감축목표(NDC) 달성을 위해 자동차 온실가스 규제를 대폭 강화하고 있다. 그동안 자발적 감축에 맡겨졌던 중·대형 상용차는 2027년부터 단계적으로 온실가스 감…
+- [고양시, 탄소 감축 '중간 성적표' 98%… 생활 속 기후대응 고삐 죈다](https://www.thepublic.kr/news/articleView.html?idxno=322332) — **더퍼블릭** · 10-15 09:50
+  - 고양특례시가 지난해 세운 온실가스 감축 목표를 거의 채운 것으로 나타났다. 시는 폭염 같은 눈앞의 기후 피해에 대응하는 동시에 장기적인 탄소중립 정책에도 속도를 내겠다는 계획이다. 고양시는 올해 처…
 - [\[고양 소식\] 기후위기 대응 생활밀착형 대책 추진](https://www.sidae.com/article/2026101507285465998) — **동행미디어 시대** · 10-15 08:29
   - 올해 첫 이행 점검에서는 2025년 온실가스 감축 목표량 106만7000톤의 약 98%인 104만 8000톤을 감축한 것으로 나타났다. 시는 탄소중립 예산을 확대해 정책 실행력을 높일 계획이다. 시…
 - [민경선 고양시장, 기후위기 대응 강화.. ‘탄소중립 실천 도시로’ 전환](https://sports.donga.com/region/article/all/20261015/134844715/1) — **스포츠동아** · 10-15 08:21
   - ∎ 2030년 온실가스 36% 감축 목표… 105개 세부 사업 추진 ∎ 생애주기별 ‘기후환경학교’ 운영… 시민 참여형 환경교육 확대 고양특례시(시장 민경선)가 폭염 등 기후 재난에 대응하는 현장 대…
+- [민경선 고양특례시장, "탄소중립 실천 확산"…기후위기 대응 정책 확대](http://www.enewstoday.co.kr/news/articleView.html?idxno=2480412) — **이뉴스투데이** · 10-15 08:20
+  - 고양시, 2030년 온실가스 36% 감축 목표…'탄소중립 지원센터' 운영 폭염을 비롯한 이상기후에 대응하는 동시에 온난화의 주요 원인인 온실가스 배출 자체를 줄이는 정책도 추진 중이다. 이산화탄소…
 - [\[금융 경제\] 기후위기에 대응하는 재테크](http://www.queen.co.kr/news/articleView.html?idxno=463970) — **Queen 이코노미퀸** · 10-15 08:00
   - 지난 2015년 세계 각 나라의 대표들은 프랑스 파리에 모여서 온실가스 (이산화탄소) 순 배출량을 궁극적으로 제로(0)로 만들기로 합의 하였다. 협정에 참여한 195국은 매5년마다 이산화탄소 감축목…
 - [고양시, 생활 속 탄소중립 실천 확대… 2030년 온실가스 36% 감축 추진](https://www.ppss.kr/news/articleView.html?idxno=315584) — **ppss.kr** · 10-15 07:41
@@ -163,8 +179,20 @@ modified: 2026-10-15T09:34+09:00
 
 ## 자발적 탄소시장 / VCM
 
-### 국내 · 4건
+### 국내 · 12건
 
+- [대우건설. '탄소저감 콘크리트' 인증 본궤도...3만2000톤 감축 효과](https://www.fnnews.com/news/202610151009361040) — **파이낸셜뉴스** · 10-15 10:13
+  - 대우건설이 자체 개발한 '탄소저감 조강형 콘크리트'를 통해 탄소크레딧 확보에 나선다. 15일 업계에 따르면 대우건설은 '탄소저감 조강형 콘크리트'가 국내 건설사 최초로 현장 타설 콘크리트를 대상으로…
+  - 관련 보도 1건: [이투데이](https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZWURTWVFCVkhvaVItRXlRdXIyb2pvc0Z1aGVmUHFWYnd2YVNtNjdGVHA4R3RicWp0VlkyWmtCY040amJmaHJCNUtBY1JIb3lyd2VfZk1nbGRXTFVSNGE1aGhqNy1fRUZJVmNTVUp4OHc?oc=5)
+- [바이오차 국제컨퍼런스 'APBC 2026' 서울서 개막…25개국 참여](https://www.hankyung.com/article/202610153348O) — **한국경제** · 10-15 10:44
+  - 영국 에든버러대 온드레이 마셰크 교수는 바이오차 탄소크레딧의 측정·검증을, 미국 텍사스대 오스틴의 다니엘 알레시 교수는 탄소·리튬 소재 관련 연구를 소개했다. 14일부터 15일까지는 PFAS·미세플…
+- [대우건설, 탄소저감 콘크리트 인증 심의 통과…국내 건설사 최초 - 머니투데이](https://news.google.com/rss/articles/CBMid0FVX3lxTE8wSTdqZng0YU1MdGNPT1dOQ3QtT3lwcEp1RzJ2ZVctbFIwVml2bFBvWTlmZFE4X3l4ZTVmcmdRX0xITk5qZlBxR25lZHBYSHUzZTBJR3ZnakwyM2UwTFV2LVNCQkNfcm9aNzBNMDNUZVNUTFNBcGVj0gF8QVVfeXFMTkxfM0VSajFSRFpuY0RFUkVOZlVOWkhHQU93UTEwQVY3OXNGLXpCc0ZtY3ktcE5JSzJ3U1M0elBTckQtS3VLb3VLM3lpdlY3d2U1NzJrQ0QtMnBhTmRnZXl6OW9XWTZvLVJQY1R5VWNySFBfZ3ZaMXRuQ21qYw?oc=5) — **머니투데이** · 10-15 10:34
+- [대우건설, 저탄소 콘크리트 탄소감축인증 2단계 심의 통과](https://sateconomy.co.kr/news/view/1065575979045303) — **토요경제** · 10-15 10:30
+  - 탄소감축인증은 대한상공회의소가 제품과 사업의 온실가스 감축 효과를 검증해 탄소크레딧을 발급하는 제도다. 방법론 인증과 사업계획서 인증, 모니터링 보고서 인증 등 3단계 심의를 거친다. 대우건설이 탄…
+- [대우건설, 현장타설 ‘탄소저감 조강형 콘크리트’ 탄소크레딧 인증 본궤도](https://news.google.com/rss/articles/CBMib0FVX3lxTE1pNWNvN1FvMDR2OTEwLW1XME1rMVFENzNWZWVxZklGTktUMndFcUFkMmdqRXVua3M0Y29TOTJOWXpTb194c2tBT1RaU2RuazZYZmhSM09DTHVBWGxTOFFueWZlNzVJZDZaRHpxUHItOA?oc=5) — **내외일보** · 10-15 10:17
+- [\[심층분석\] 대우건설, 저탄소 콘크리트로 탄소크레딧 시장 진입…건설업 탈탄소 전략의 경제성 시험대](https://news.google.com/rss/articles/CBMiakFVX3lxTE9zQjRGRjVxeDJ4RHhDV1ZnUEJPUDVscHNoVDNRX0tDTFN0STlSaHJPQVl5eEFPSzliR25YYV80cWd3cHRQYVZYS1RIeVZQeThIRGNjVVNhSXFSS09abXh1SFUyWEdhaERYVkE?oc=5) — **뉴스밸류** · 10-15 10:08
+- [토양에 탄소 가두는 ‘바이오차’… 국제 학술대회 APBC 2026 서울서 열려](https://www.donga.com/news/Economy/article/all/20261015/134845392/1) — **동아일보** · 10-15 09:55
+  - 첫날에는 온드레이 마셰크 영국 에든버러대 교수와 다니엘 알레시 미국 텍사스대 오스틴 교수가 각각 바이오차 탄소크레딧 검증, 탄소·리튬 소재 연구를 소개했다. 14\~15일에는 오염 정화, 기후스마트…
 - [대우건설, 탄소저감 콘크리트 크레딧인증 추진…"탄소중립 실현"](https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5Q2JfVFo0UVV4ZGNoTTFBOG1UNU05bmpWN0lrWktza2l0bWxTWGozZ080UE10ZXZBNXpRVkxJc21JQlNNcW9qWVdPcXhNQ2VzYXc?oc=5) — **매일경제 마켓** · 10-15 09:14
 - [\[더버터\] 내년 사회공헌 사업 뭐 하지? 변화하는 현장에 답이 있다](https://www.joongang.co.kr/article/25469865) — **중앙일보** · 10-15 05:30
   - 기후·환경 분야에서는 사회공헌 예산을 그린카본, 블루카본, 탄소크레딧 등 기업의 기후변화 대응 사업과 연결할 것을 제안했다. 김 본부장은 “사회공헌을 단순 기부에서 본업과 연계된 사업으로 재설계하고…
@@ -184,8 +212,13 @@ modified: 2026-10-15T09:34+09:00
 
 ## AI 온실가스
 
-### 국내 · 10건
+### 국내 · 13건
 
+- [인천시설공단, '저탄소·AI 안전관리·ESG 대상' 3개 부문 대상](https://www.incheontoday.com/news/articleView.html?idxno=324959) — **인천투데이** · 10-15 10:16
+  - 도입으로 온실가스 감축 ▲폐수 재이용과 빗물 활용으로 자원순환 체계 강화 ▲디지털 안전관리 시스템 구축으로 스마트 안전관리 기반 조성 등 활동을 했다. 특히, '저탄소 인증'의 2년 연속 획득과 A…
+  - 관련 보도 1건: [매일일보](https://www.m-i.kr/news/articleView.html?idxno=2006233)
+- [인천시설공단, 저탄소·AI 안전·ESG 3관왕…친환경 경영 성과 입증](https://www.viva100.com/article/20261015500349) — **브릿지경제** · 10-15 10:10
+  - 탄소 감축부터 인공지능(AI) 기반 안전관리까지, 환경과 기술을 결합한 인천시설공단의 경영 혁신이 3개 부문... 노후 설비를 교체하고 고효율 조명을 도입해 온실가스 감축을 추진했으며, 폐수 재이용…
 - [충남도의회, 자카르타와 손잡고 AI·농업·탄소중립 협력 승부수… 충남...](https://www.tournews21.com/news/articleView.html?idxno=145756) — **투어코리아** · 10-15 05:04
   - 충남도의회 기획경제위원회가 자카르타 특별수도주의회와 만나 인공지능(AI) 기반 행정 혁신, 스마트농업... 전기이륜차 전환은 온실가스 감축과 대기환경 개선뿐 아니라 배터리와 전력·전자 부품 등 관련…
 - [\[철강PICK\] 세계는 '철강기술 경쟁'‥포스코 AI 안전, 현대는 탄소기술 인정](https://news.google.com/rss/articles/CBMibEFVX3lxTE9aZ1JyeDZTWHBEOFJlXzk0RUtKUk83MUQxNVlwNEVya1hLQXZ5MEYzZnYwTzFGMGl0MVJ6aVNlSS1xNF9henVyS0Q2SzlFaFVqcjVmWUZGODRNMENmUURjcndseU84SEo2NGFGYQ?oc=5) — **페로타임즈** · 10-15 05:00
@@ -219,21 +252,21 @@ modified: 2026-10-15T09:34+09:00
 - [배터리 제조사만 ESS?..전력기기·태양광·자원순환도 가세](https://www.mt.co.kr/industry/2026/10/14/2026101315425536152) — **머니투데이** · 10-14 16:30
   - 에너지저장장치(ESS) 시장의 경쟁 범위가 배터리 공급에서 전력 운영까지 넓어지고 있다. 배터리 제조사의 전유물로 여겨졌던 ESS 시장에 전력기기와 태양광, 자원순환 기업 등이 기존 사업 역량을 앞…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMif0FVX3lxTFB1YU8tVlplcmwxWkpoTDE0RldNd2lWYWFsclpLa2hmb0Vad2FzTDM1LUpJcWNsU2ZGTHBnaHBvaGU1cjZVTDI0MW91N2xzM2ZMa1J4NTd6ZDhwQW05aDYxeVFLLTdpa3NOZ04wNS1paWVfUDNXNktZYmZaeG5FZDTSAX9BVV95cUxQdWFPLVZaZXJsMVpKaEwxNEZXTXdpVmFhbHJaS2toZm9FWndhc0wzNS1KSXFjbFNmRkxwZ2hwb2hlNXI2VUwyNDFvdTdsczNmTGtSeDU3emQ4cEFtOWg2MXlRSy03aWtzTmdOMDUtaWllX1AzVzZLWWJmWnhuRWQ0?oc=5)
+- [스탠다드에너지 "비리튬계 ESS도 실증 기회 달라"…국감 현장시찰서 건의](https://www.dailian.co.kr/news/view/1701824/?sc=Naver) — **데일리안** · 10-15 10:45
+  - 스탠다드에너지가 리튬 위주로 짜인 국내 에너지저장장치(ESS) 시장에서 비리튬계 배터리도 실증과 사업화 기회를 가질 수 있어야 한다고 국회에 요청했다. 스탠다드에너지는 지난 13일 국회 산업위 소속…
+- [중일 갈등 여파에…삼성SDI·대만 기업, 日 ESS 시장 공략 가속](https://www.ajunews.com/view/20261015102131661) — **아주경제** · 10-15 10:40
+  - 내년 4월부터 사이버보안 인증 의무화…화웨이·BYD 등 미취득 아주경제\=황진현 기자 jinhyun97@ajunews.com 에너지저장장치(ESS) \[사진\=게티이미지뱅크\] 일본 정부가 내년부터 전력망…
+- [비리튬계 ESS 시장 확대·양산 지원 필요성 부각](http://www.ikld.kr/news/articleView.html?idxno=342250) — **국토일보** · 10-15 09:44
+  - 비리튬계 배터리의 에너지저장장치(ESS) 시장 진입을 확대하고 첨단 제조 스타트업의 양산 기반을 강화해야 한다는 산업계의 요구가 국회 국정감사 현장에서 제기됐다. 스탠다드에너지는 지난 13일 국회.…
+- ["中 사이버 보안 인증 탈락 틈새"… 삼성SDI·대만 연합, 日 ESS 시장 '대공세'](https://www.g-enews.com/view.php?ud=2026101509385313260c8c1c064d_1) — **글로벌이코노믹** · 10-15 09:42
+  - 일본 정부가 국가전력망 안보 강화를 위해 통신 기능이 탑재된 에너지저장장치(ESS) 설비에 대한 사이버 보안 인증을 대폭 강화하면서, 일본 전력망 시장을 장악해 온 중국 기업들이 대거 배제될 위기에…
+- [\[오늘장 탑픽\] AI 데이터센터가 살리는 ESS…2차전지 반등 신호탄 될까](https://biz.sbs.co.kr/article_hub/20000340050?division=NAVER) — **SBS Biz** · 10-15 09:37
+  - - 삼성SDI, 배터리·소재 공급망 탈중국 추진 중 - 美 에너지기업과 1.5조원 규모 ESS 배터리 공급계약 - 바닥권 1차 반등 후 중장기 이평선 수렴 구간 - 삼성SDI, 목표가 66만 원·손…
+- [배터리솔루션즈, 배터리 재사용 사업 진출...ESS로 활용한다](https://news.google.com/rss/articles/CBMibEFVX3lxTE9oN2dnMUkzNlp0c1VEZ2J1LTdNbndUNWhvb283S2tIaWRhSGVZbE0wM2hfTW82c0VyaVNKREJyREdWd1N3c09NMnVDRUZOU0FQZThlSUV6MlBEeExneE41NkEwU0ptTUZlWTV5ZNIBcEFVX3lxTE5ZSDdQNzAxOGJrTEtzTjlJUlBBclVPNnBDS0s1akljSHVuNlRaYzZIeG9MVng1X3JmWEtSR29KTnNGdGNKZ0FQeHBVclhmQTdCa2lSY1gyZVVqX0JLb3VtaGxhTWFLeGVSb08zMmVkajM?oc=5) — **전기신문** · 10-15 09:26
 - [스탠다드에너지, 국회 산업위에 "비리튬 ESS 기술 실증 필요"](https://zdnet.co.kr/view/?no=20261015091555) — **지디넷코리아** · 10-15 09:16
   - 스탠다드에너지는 국회 산업통상자원중소벤처기업위원회(산업위) 소속 의원들이 국정감사 현장시찰의 일환으로 대전 소재 본사를 방문해 차세대 배터리 기술과 에너지저장장치(ESS) 사업화 현황을 살펴봤다고…
 - [삼성SDI, 중국산 배제된 일본 ESS 시장 판도 변화 선봉…'가격·보안' 투트랙 공략](https://www.theguru.co.kr/news/article.html?no=108267) — **더구루** · 10-15 08:52
   - 중국 배터리 공급업체의 사이버 보안 인증 미비의 틈을 타 일본 전력망용 에너지저장장치(ESS) 시장 진출을 가속화하는 모습이다. 15일 일본 니케이 아시아(Nikkei Asia)에 따르면 중국 업체…
-- [삼아알미늄, AI 데이터센터發 ESS 빅사이클 '핵심 기업'…"알박 쇼티지 ...](http://www.newsprime.co.kr/news/article.html?no=751025) — **프라임경제** · 10-15 08:30
-  - 상장주이자 에너지저장시스템(ESS) 빅사이클의 가장 좁은 병목이라며 투자의견 '매수' 및 목표주가 10만2000원으로 커버리지를 개시했다. 이채윤 신한투자증권 연구원은 "알박 산업은 짧은 리드타임…
-- ["LG엔솔, ESS 호조에 내년 영업익 전망 56%↑…목표가↑"-메리츠](https://www.hankyung.com/article/2026101528976) — **한국경제** · 10-15 08:15
-  - 메리츠증권은 15일 LG에너지솔루션에 대해 "전기차 배터리 출하 부진은 이어지겠지만 에너지저장장치(ESS) 사업 확대와 원통형 배터리 출하 증가로 업종 평균을 웃도는 성장이 가능하다"며 적정주가를…
-- [“삼아알미늄, ESS 빅사이클 최대 수혜…목표가 10.2만원 신규 제시”-신...](https://www.edaily.co.kr/News/Read?newsId=02479686645613248&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 10-15 07:57
-  - 신한투자증권은 15일 삼아알미늄(006110)에 대해 인공지능(AI) 데이터센터 확장에 따른 에너지저장장치(ESS) 수요 폭증으로 알루미늄박(알박) 쇼티지(공급 부족)의 최대 수혜를 입을 것으로 전…
-- [ESS 힘 싣는 K배터리, 실적 회복 기대감 커간다](https://www.sidae.com/article/2026101414052011127) — **동행미디어 시대** · 10-15 05:30
-  - 국내 주요 배터리 기업들이 북미 에너지저장장치(ESS)를 앞세워 실적 회복에 속도를 내고 있다. LG에너지솔루션이 올해 3분기 호실적을 거둔 가운데 삼성SDI도 흑자 기조를 이어갈 것으로 전망된다.…
-- [\[조상권의 경제이야기\] K-배터리 3사, ESS 사업 성장과 보상금 효과로 3분기 실적 대폭 개선 전망](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBjVWdSdlRVcE5zOFl3TmlhZ0ZzcXdyU3plU282aDA3N2FjLU84OXpUUUJDSmtGSVhNSlhfa19ybGw2cVU?oc=5) — **한국공공정책신문** · 10-14 22:06
-- [모큐라텍, ESS 및 배터리 수명·안전 극대화하는 지능형 BMS·재생 기술 선보여](https://kr.aving.net/news/articleView.html?idxno=1815480) — **에이빙** · 10-14 18:42
-  - 회사는 한국전력기술 및 한전KPS와 공동으로 재사용 배터리 기반 500kWh급 R-ESS 2기를 구축해 안전성과 성능을 검증받은 바 있다. 특히 현장 질의응답에서 박호영 대표는 NCM(3,000 사…
 
 ### 해외 · 19건
 
@@ -259,43 +292,46 @@ modified: 2026-10-15T09:34+09:00
 
 ## 전력망
 
-### 국내 · 26건
+### 국내 · 44건
 
-- [대한전선, 美 초고압 전력망 턴키 프로젝트 수주…1200억원 자재 공급 계...](https://view.asiae.co.kr/article/2026101509011051099) — **view.asiae.co.kr** · 10-15 09:01
-  - 대한전선이 미국에서 엔지니어링부터 시공, 기자재 공급을 일괄 수행하는 1200억원 규모의 초고압 전력망 프로젝트를 수주했다. 대한전선은 현지 자회사인 T.E.USA가 미국 내 초고압 전력망 구축 사…
-  - 관련 보도 9건: [아시아경제](https://news.google.com/rss/articles/CBMidEFVX3lxTE90NFBSdlZQaVBCMDZ3ZF82VUtXdnMzMWFGa1FqRUN1UWNoc2JLU25SS2x0TWQtdWszdmUzNXJzVl9ZWjlHYjdOakVlcVZ2cTZwSHJNWnl3SVBya1YwTEtZX3pDQnVud3k2UWx0LVVDdktHRks1?oc=5), [아주경제](https://www.ajunews.com/view/20261015085420146), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1415024), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1415024), [핀포인트뉴스](https://www.pinpointnews.co.kr/news/articleView.html?idxno=495434), [헤럴드경제](https://biz.heraldcorp.com/article/10903171?ref=naver), [한국아이닷컴](https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZWXBjdFFKLWFwd0R6SmRoVXNDOEppeFN3elMwQ0tKc1pFbjBSVVB0dGxCRnoxMGVKZU1tWTVtaFo4eEt1SmhhN3dPSmktVFpuZTFvdmctN3BmaDVpc1FTYk5wc2FSS00wZTE40gFvQVVfeXFMUEwwS1gwdTl2UEU2VUFEWHA5UzNvaGlPVElWZ0pBTFNpU1JJZnY2YWZpa0YtaWlURVg1eVAyVk13UlVqNlFSUmpYXzNmaFBQSExiZlFTdFBKd0lYdl9ucnVlRjlhSVpZeF82MV9nNFN3?oc=5), [www.ebn.co.kr](https://www.ebn.co.kr/news/articleView.html?idxno=1727903), [뉴스타운](http://www.newstown.co.kr/news/articleView.html?idxno=718597)
 - [대한전선, 美 초고압 전력망 턴키 수주…시장 공략 가속](https://www.edaily.co.kr/News/Read?newsId=02788006645613248&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 10-15 08:58
   - (사진\=대한전선) 대한전선이 미국에서 대규모 초고압 전력망 프로젝트를 수주하며 현지 시장 공략에 속도를 내고 있다. 인공지능(AI)과 데이터센터 확산으로 미국 내 전력망 투자가 확대되는 가운데 초고…
-  - 관련 보도 5건: [www.dt.co.kr](https://www.dt.co.kr/article/12089235?ref=naver), [머니투데이](https://www.mt.co.kr/industry/2026/10/15/2026101508563528049), [머니투데이](https://news.google.com/rss/articles/CBMibEFVX3lxTE9kSkJPaUFIZDIwaEdtcGEzSXdUaElXOTVoV2NpX2dlWlRqSzhzNGY4QnVHdDVWakdPaV9OR1p6MVU2d2hKMmhyZE02RXBpbFZ4NTJMMjZKU0hwSmVXVUVRMHl3V2hmY2JTNFY3UdIBckFVX3lxTE1GZ1VMZXpiTTJ6TG5DZTBtOWZRQ05ndWZjbFdqaXNLRXg5Mm56Rk0tY0kwSjl4V3BKR0ZhVHJ4RjdyVVNsUE5OSVBJMmVtdEV4SkZHdVI2OUtqZWQycTNYX0YyVWh1eXZyTUUyQWZQOWxrdw?oc=5), [전자신문](https://www.etnews.com/20261015000048), [뉴스1](https://www.news1.kr/industry/general-industry/6320670)
+  - 관련 보도 17건: [www.dt.co.kr](https://www.dt.co.kr/article/12089235?ref=naver), [머니투데이](https://www.mt.co.kr/industry/2026/10/15/2026101508563528049), [머니투데이](https://www.mt.co.kr/industry/2026/10/15/2026101508563528049), [머니투데이](https://news.google.com/rss/articles/CBMibEFVX3lxTE9kSkJPaUFIZDIwaEdtcGEzSXdUaElXOTVoV2NpX2dlWlRqSzhzNGY4QnVHdDVWakdPaV9OR1p6MVU2d2hKMmhyZE02RXBpbFZ4NTJMMjZKU0hwSmVXVUVRMHl3V2hmY2JTNFY3UdIBckFVX3lxTE1GZ1VMZXpiTTJ6TG5DZTBtOWZRQ05ndWZjbFdqaXNLRXg5Mm56Rk0tY0kwSjl4V3BKR0ZhVHJ4RjdyVVNsUE5OSVBJMmVtdEV4SkZHdVI2OUtqZWQycTNYX0YyVWh1eXZyTUUyQWZQOWxrdw?oc=5), [전자신문](https://www.etnews.com/20261015000048), [뉴스1](https://www.news1.kr/industry/general-industry/6320670), [서울경제](https://www.sedaily.com/article/20101823?ref=naver), [더팩트](https://news.tf.co.kr/read/economy/2376496.htm), [아이뉴스24](http://www.inews24.com/view/2015247), [뉴시스](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LRnhWTjBkUk81RFpMTXpKLVNoXzlVZ09DZjFRVHNOLUdWU2M3VGdTQ1VLTUY2QXZxb0NucEJDbTVldVVwUE9vSmdjTjRwUnZycTVscTd0Y3RkaERHcmZTSNIBeEFVX3lxTFBlX0tmNUtRQXlnalBqaDhGUl8zN0taWHltUzRldkxzVVkzY3RKXzNyeFlKY0hXR1dTbk5GbHBtVC1feHlmQUFKUmo3ZEx3LTRNWXYzNU9sUE9Yc3lCVUo4WnVpai1NeV82YVRrVGxOZGhfcUNWb0lOMg?oc=5), [스트레이트뉴스](https://www.straightnews.co.kr/news/articleView.html?idxno=313191), [SBS Biz](https://biz.sbs.co.kr/article_hub/20000340081?division=NAVER), [한국경제TV](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610150028&t=NN), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=555116), [ER 이코노믹리뷰](https://www.econovill.com/news/articleView.html?idxno=753673), [쿠키뉴스](https://www.kukinews.com/article/view/kuk202610150069), [조선일보](https://www.chosun.com/economy/tech_it/2026/10/15/A4QSMGCBUBAMHMT23MXXGJBHFA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news)
+- [대한전선, 美 초고압 전력망 턴키 프로젝트 수주…1200억원 자재 공급 계...](https://view.asiae.co.kr/article/2026101509011051099) — **view.asiae.co.kr** · 10-15 09:01
+  - 대한전선이 미국에서 엔지니어링부터 시공, 기자재 공급을 일괄 수행하는 1200억원 규모의 초고압 전력망 프로젝트를 수주했다. 대한전선은 현지 자회사인 T.E.USA가 미국 내 초고압 전력망 구축 사…
+  - 관련 보도 13건: [아시아경제](https://news.google.com/rss/articles/CBMidEFVX3lxTE90NFBSdlZQaVBCMDZ3ZF82VUtXdnMzMWFGa1FqRUN1UWNoc2JLU25SS2x0TWQtdWszdmUzNXJzVl9ZWjlHYjdOakVlcVZ2cTZwSHJNWnl3SVBya1YwTEtZX3pDQnVud3k2UWx0LVVDdktHRks1?oc=5), [아주경제](https://www.ajunews.com/view/20261015085420146), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1415024), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1415024), [핀포인트뉴스](https://www.pinpointnews.co.kr/news/articleView.html?idxno=495434), [헤럴드경제](https://biz.heraldcorp.com/article/10903171?ref=naver), [한국아이닷컴](https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZWXBjdFFKLWFwd0R6SmRoVXNDOEppeFN3elMwQ0tKc1pFbjBSVVB0dGxCRnoxMGVKZU1tWTVtaFo4eEt1SmhhN3dPSmktVFpuZTFvdmctN3BmaDVpc1FTYk5wc2FSS00wZTE40gFvQVVfeXFMUEwwS1gwdTl2UEU2VUFEWHA5UzNvaGlPVElWZ0pBTFNpU1JJZnY2YWZpa0YtaWlURVg1eVAyVk13UlVqNlFSUmpYXzNmaFBQSExiZlFTdFBKd0lYdl9ucnVlRjlhSVpZeF82MV9nNFN3?oc=5), [www.ebn.co.kr](https://www.ebn.co.kr/news/articleView.html?idxno=1727903), [뉴스타운](http://www.newstown.co.kr/news/articleView.html?idxno=718597), [로이슈](https://www.lawissue.co.kr/view.php?ud=20261015094748632f4ab64559d_12), [Korea IT Times](https://www.koreaittimes.com/news/articleView.html?idxno=158165), [뉴시스](https://www.newsis.com/view/NISX20261015_0003826874), [Queen 이코노미퀸](http://www.queen.co.kr/news/articleView.html?idxno=464738)
+- [대한전선, 미국서 대규모 초고압 전력망 프로젝트 턴키 수주](https://www.yna.co.kr/view/AKR20261015033100003?input=1195m) — **연합뉴스** · 10-15 09:04
+  - USA가 현지에서 초고압 전력망 프로젝트를 턴키 방식으로 수주했다고 15일 밝혔다. 이번 사업은 미국 법인이... 이번 수주는 미국 전력망 시장에서 축적해 온 사업 수행 경험과 기술 경쟁력을 입증했…
+  - 관련 보도 2건: [뉴스핌](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBObndBREdWbG00RmdCRzF0eUpxUnFoaFBnZXYtQ1Ztd2hXTFJVeWljaEVQOGMwaU1ZQzF1VnRSNUpTVllISFFFSWJfNGVsb3hGdzdMSGxuQVM1Qjha?oc=5), [Chosunbiz](https://biz.chosun.com/industry/company/2026/10/15/6PXCGPGPQNBZNNUAQYV5AREKPI/?utm_source=naver&utm_medium=original&utm_campaign=biz)
+- [대한전선, 1200억원 규모 美 초고압 전력망 턴키사업 수주](http://www.e2news.com/news/articleView.html?idxno=335100) — **이투뉴스** · 10-15 10:50
+  - 대한전선은 미국 법인인 T.E.USA가 1200억원 규모의 초고압 전력망 프로젝트를 턴키(Turn-key) 방식으로... 이번 수주에 대해 대한전선은 미국 전력망 시장에서 축적해 온 사업 수행 경험…
+- [JP모간 지속가능금융 지원 대상 전력망・원자력 등으로 넓혀, "에너지 수요 급증 대비"](https://www.businesspost.co.kr/BP?command=article_view&num=449388) — **비즈니스포스트** · 10-15 10:48
+  - JP모간 체이스가 지속가능금융 지원 대상에 원자력 발전소, 전력망, 화석연료 기업의 저탄소 발전 설비 등을... \<연합뉴스\> 미국 최대 은행인 JP모간 체이스가 원자력 발전소와 전력망뿐 아니라 화석…
+- [대한전선, 미국 전력망 턴키 프로젝트 잇단 수주…기술 경쟁력 입증](http://www.newsdream.kr/news/articleView.html?idxno=120044) — **뉴스드림** · 10-15 10:36
+  - 대한전선이 북미 시장에서 대규모 초고압 전력망 프로젝트를 일괄 수주하며 글로벌 인프라 경쟁력을 입증했다. 대한전선은 자사 미국 법인인 'T.E.USA'가 미국 현지에서 대형 초고압 전력망 구축 프로…
+- [서강대 김홍석 교수팀, 전력망 운영 계산 속도 70배 높이는 AI 기술 개발](http://www.enewstoday.co.kr/news/articleView.html?idxno=2480387) — **이뉴스투데이** · 10-15 10:05
+  - 서강대학교 전자공학과 김홍석 교수 연구팀이 대규모 전력망의 운영비용을 줄이고 계산 속도를... 차세대 전력망 최적화 기술인 'AltOPF'를 개발했다"고 밝혔다. 이번 연구는 인공지능 응용 분야 국…
+- [수리산 지키는 '원팀'…군포시, 산림·전력망 복합재난 선제 차단](https://www.incheonilbo.com/news/articleView.html?idxno=1334177) — **인천일보** · 10-15 09:56
+  - 단순한 사후 진화 체계를 넘어 산불 예방과 국가 전력망 보호를 동시에 달성하려는 선제적 시도다. 군포시는 지난 14일 한국전력 경기본부, 군포소방서, 경기사회복지공동모금회와 '수리산 산불 예방 및…
+- [전력망 발전비용 계산 70배 빠르게…서강대, AI 기술 개발](https://www.news1.kr/society/education/6320784) — **뉴스1** · 10-15 09:49
+  - 연구팀이 전력망의 발전량과 비용을 빠르게 계산하는 인공지능(AI) 기술을 개발했다. 기존 최적화 계산보다 처리 속도가 약 70배 빠른 것으로 나타났다. 서강대는 전자공학과 김홍석 교수 연구팀이 전력…
 - [대한전선 美법인, 초고압 전력망 턴키 수주…본사 자재 1168억 계약](https://www.g-enews.com/view.php?ud=202610150917386479139bf6e4b2_1) — **글로벌이코노믹** · 10-15 09:26
   - 대한전선은 미국 법인 T.E.USA(TAIHAN ELECTRIC USA)가 미국에서 초고압 전력망 프로젝트를 턴키 방식으로... 이와 함께 미국에서 발주된 500kV 초고압교류송전(HVAC) 지중…
 - [대한전선, 미국서 초고압 전력망 1200억 턴키 수주](https://weeklytrade.co.kr/news/view.html?section=1&category=5&item=&no=101715) — **weeklytrade.co.kr** · 10-15 09:18
   - USA가 현지에서 초고압 전력망 프로젝트를 턴키 방식으로 수주했다.대한전선에 따르면 대한전선 본사와... 미국에서 발주된 500kV HVAC(초고압교류송전) 지중 전력망 프로젝트를 모두 수주하고,…
 - [파주시, 한전과 손잡고 경제자유구역·평화경제특구 전력망 구축 속도](https://www.ppss.kr/news/articleView.html?idxno=315601) — **https://www.ppss.kr/** · 10-15 09:18
   - 파주시가 한국전력공사와 협력해 경제자유구역과 평화경제특구 조성을 뒷받침할 전력 인프라 확보에 나섰다. 첨단산업 유치와 기업 활동에 필요한 안정적인 에너지 공급체계를 선제적으로 마련해 미래 성장동력을…
-- [대한전선, 미국서 초고압 전력망 자재 공급계약 체결](https://www.businesskorea.co.kr/news/articleView.html?idxno=278824) — **businesskorea.co.kr** · 10-15 09:04
-  - 대한전선이 미국 시장에서 1200억원 규모의 초고압 전력망 자재 공급 계약을 체결했다. 대한전선은 미국 법인인 T.E.USA가 현지 초고압 전력망 프로젝트를 턴키(Turn-key) 방식으로 수주했다…
-- [대한전선, 미국서 대규모 초고압 전력망 프로젝트 턴키 수주](https://www.yna.co.kr/view/AKR20261015033100003?input=1195m) — **연합뉴스** · 10-15 09:04
-  - USA가 현지에서 초고압 전력망 프로젝트를 턴키 방식으로 수주했다고 15일 밝혔다. 이번 사업은 미국 법인이... 이번 수주는 미국 전력망 시장에서 축적해 온 사업 수행 경험과 기술 경쟁력을 입증했…
-- [서강대 김홍석 교수팀 대규모 전력망 경제 운영 돕는 AI 최적화 기술 'A...](https://www.veritas-a.com/news/articleView.html?idxno=631918) — **veritas-a.com** · 10-15 09:02
-  - 서강대 김홍석 전자공학과 교수 연구팀이 대규모 전력망을 경제적으로 운영할 수 있도록 지원하는... 전력망을 효율적으로 운영하려면 전력 수요를 맞추면서도 발전비용을 낮추고, 전압과 송전선 용량 등 여…
-- [한전, 호남 반도체산단 전력망 ‘2년반 완공’…“비현실적”](https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610141030310570508) — **대한경제** · 10-15 09:02
-  - 한국전력이 통상 9년 걸리는 전력망 건설을 호남 반도체 국가산업단지에서는 2년 반 만에 끝내겠다는 계획을... 국가산단 전력망 건설사업(1단계)에 대해 예비타당성조사 면제를 신청할 예정이다. 예타…
-- [AI·데이터센터 효과…대한전선, 美 대형 초고압 전력망 또 뚫었다](https://www.ajunews.com/view/20261015085420146) — **아주경제** · 10-15 09:02
-  - \[사진\=대한전선\] 대한전선이 미국에서 1000억원이 넘는 대규모 초고압 전력망 프로젝트를 턴키 방식으로 수주했다. 대한전선은 미국 법인 T.E.USA가 초고압 전력망 프로젝트를 수주하고 본사와 약…
-- [전력망 흔드는 AI 데이터센터… IEA "연결 방식부터 바꿔라"](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZNTFVZkZTUnRHMm1wVVROSkdDQUlJRVdKYmxraFdFbnprRS1QNEhYYndjRnllcnEzRVYzRVlTeVJHRU5oZGlibWc3NjhQVS1rSk90c3BsNTNSS0c3SHI2R1RKekU?oc=5) — **에너지안전신문** · 10-15 07:43
-- [LS전선 1조원 獨 HVDC 사업화 속도…본계약 기대감 높아져](https://www.pinpointnews.co.kr/news/articleView.html?idxno=495315) — **핀포인트뉴스** · 10-15 07:10
-  - 제품 개발과 인증을 넘어 실제 유럽 전력망 공급까지 연결한 것이다. 이를 바탕으로 LS전선은 2024년 말... 대규모 전력망 구축 과정에서도 원재료의 친환경성을 높이면서 고전압·대용량 송전 기술뿐…
 
 ---
 
 ## 메가특구특별법
 
-### 국내 · 7건
+### 국내 · 8건
 
 - [메가특구 노동특례 4차 협의…한국노총도 노동정책 제안](https://www.news1.kr/economy/employment-labor/6320355) — **뉴스1** · 10-14 18:49
   - 주 52시간제 적용 예외와 기간제 근로자 사용기간 연장 등이 쟁점인 '메가특구 특별법'을 놓고 한국노동조합총연맹(한국노총)도 정책 제안을 내놨다. 고용노동부는 14일 노사와 관계 부처가 참여하는 '…
   - 관련 보도 1건: [헤럴드경제](https://biz.heraldcorp.com/article/10902815?ref=naver)
+- [\[2026 국감\] 메가특구 노동특례 공방··· 산재·정년 연장 해법 추궁](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PN1ppYnJWUzhpOVVyclgzX05WT3VfOXlUSkNYaXF3RlFpNndoRmpJVmM5SV9IYWkxMFJpZWZnV3h3SjJ1NlgzRXBQYndJYXhzLU1hWnQ1OHVkNXBnMDFyblhxSjB3WlFE?oc=5) — **환경일보** · 10-15 09:50
 - [노사 발제 마쳤다, 첫 관문 지난 메가특구 사회적 대화](https://www.labortoday.co.kr/news/articleView.html?idxno=237209) — **매일노동뉴스** · 10-15 06:34
   - ▲ 민주노총이 14일 오후 국회 앞에서 노동권 후퇴 없는 메가특구법 제정을 촉구하는 기자회견을 하고 있다. \<정기훈 기자\> '메가특구특별법 관련 원포인트 사회적 대화' 실무협의체에서 노동계와 경영계…
 - ['메가특구' 사회적대화 4차 실무회의…한국노총 정책 제안](https://www.newsis.com/view/NISX20261014_0003826319) — **뉴시스** · 10-14 19:12
@@ -320,8 +356,11 @@ modified: 2026-10-15T09:34+09:00
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 4건
+### 국내 · 6건
 
+- [전주서 자원순환·에너지전환 축제 ‘스위치 ON 파티2’ 개최](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5WRjkxWUlwbG93T0lyU0FTOEpDYW1EeU53NHFjWXJVc0t2SWV6V1N0ZUpUWEZXamZpdGg2THBaaWVQekJjT2oyZnprTExOSFBkb1lGVnVTZkFCQm5LZEhyZmtnXzBEUEtR?oc=5) — **투데이안** · 10-15 10:30
+- [에너지 전환 속 LPG 역할 재조명…세계 110개국 이스탄불서 해법 모색](https://www.energydaily.co.kr/news/articleView.html?idxno=204060) — **에너지데일리** · 10-15 09:36
+  - 국제 에너지 시장의 불확실성이 커지는 가운데 LPG가 공급 안정성과 경제성, 에너지 전환을 동시에 고려할 수 있는 현실적인 연료로 다시 주목받고 있다. 세계 각국의 정책 관계자와 기업, 전문가들이…
 - ["구리는 최고치, 석탄은 규제 압박"… 호주 광물 시장, '에너지 전환'에 희비 교차](https://www.g-enews.com/view.php?ud=2026101417582431990c8c1c064d_1) — **글로벌이코노믹** · 10-15 05:46
   - 글로벌 에너지 전환과 인공지능(AI) 인프라 확장이 본격화되면서 세계 최대 자원 수출국 중 하나인 호주의 핵심 광물 시장이 거대한 분기점을 맞이했다. 전기차 배선과 AI 데이터센터 전력망의 필수 소…
 - [RTD 온도 센서 시장 2035년 전망: 산업 자동화와 에너지 전환이 수요 견인 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUtFbGZSWTV3dEhfaDZDWnRXOWZuVktTX0ZobXoyY2oyVzVZSEJodTdrNFpESlZLMWpJRGFPaEdNMVZFQlU4UjBCbl82M18zdTRHZWhMTmJxUGUtSUpZYjdxazhvcEI1MlBXbXhUSEJ2Qmt3MGhrZXZNd1RMRWQ2eklKcUpfMlBZaEdoZUZnSExybmVfbU1GS2ZhY052SzhLOFVRSlVwWHhRZXFSdTdoYUtjVzdlMXRfWHJMYjlXSkhXWnFkUTg0SmgyLUJrWVpCME5v?oc=5) — **IndexBox** · 10-15 01:01
@@ -333,6 +372,7 @@ modified: 2026-10-15T09:34+09:00
 
 - [PM welcomes Hamburg city’s investments in green transition, renewable energy](https://news.google.com/rss/articles/CBMitgFBVV95cUxNc1g2bXpLRVoyVWx5Ty10UmR6MzJpR2F0QTVDczNIR3V5c2ozeWh6dU1NUEs2MGxodXJzYVVTd19HajFsSDFtcDJEU3hkdkg3T1ZubHc1clNBUTdMNUliUkVkNExNR0tRT1lqQWpGQnc2TEZYVFNYXzlSekRpVHQxN0xZSlA3dVBjLVliUW9LTlR4VVM0Rm9MX2xGbVB5bFBaTjJpQW8tODFUWTM5YmJ6aXljYldVUQ?oc=5) — **Vietnam+ (VietnamPlus)** · 10-14 21:27
   - 관련 보도 1건: [en.qdnd.vn](https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVXNSQmJQSUdhZXEwS1g5QnBYd3BBRFBzUVdMZHBQcTJSa1ZnUmtXeVlyZlgzcGYxNnhBNkRnM1lyMHlZZ1VWRHc1X2tIS3lNTlVrcWVJdDJCaTlSZnY0Q1Jkd1pITE5TZHZyTi1lWVVrUFpFVjlicDBHM1RpczZtalVjTllJSU1URVBVbHpKTjQySmhILUF4RlZfX21jNFk4TXpad2RpYXlVMWJDSkEwNEliNnJFbDNDN0R2X2k0T1F2MGxldEF4eVc2d3ZNRlZSRkJv?oc=5)
+- [PUCRS's new laboratory strengthens the safety and certification of batteries that drive the energy transition.](https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMEE1NUtPd0VrWFRFZHRLRjVNaEttRHVSZ1VaTUJ3cUxwNmZ2U3NVLWFkNkNhOExPeVBSenliZ21ENkZCclB3SWI1cm1ZVnM1UGtwdDlFQzdDTjZKQ0F3bTFVQUR3MVhNNlpjVk1xR3YtVXFiRUlhWWNIQndTSjVEeEltOG40bm1XazRvVHNDUUZySWJ1OFE4anlFdUVIUzNLU3RXM0xvZC14SXliNXRxTWJLWm9ia01nOV9yUHFOUFZYaWtuOGJmdWNzS0xCVVJtYzVudlhJeDNuaWktOF9aTTA2VUdaeFlZRUE?oc=5) — **PUCRS** · 10-15 09:33
 - [L&G and NTR raise €330m at first close of fourth energy transition fund](https://news.google.com/rss/articles/CBMivgFBVV95cUxPWWNZUHhIYjJ2b1l4Z3R1dkc2b19FZ0ZEV3hPd1N0c2JfbnpYdnN4NGxuN0xMcFdRUFVWcVhXaHpRWWRiLVIwVE1zY2lSWG1vckRCZW1EQUh2ZHdESlViWXRWWTl5amxfTjBIRV8tTTM4dDVSaFowMVdERTZhM3NyX0ctZXJ5OHh3YzdwcDU5RTc2TTRMd0NxaFRPaTc0RjBzVXJ4VGwtQjlrV0ZCcEFkUi1Ub0R3S1l1R053SWVn?oc=5) — **IPE Real Assets** · 10-15 08:16
 - [Ground Work - Part 4: The land test for New Zealand's energy transition](https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzVMd1F6VGQ2ckl6bmRHOU0yVE80V3N2ZHV3a0RnemthVzJLTkJ4ZGpuc1JyUmhReldsQmRDLUtJcWFIeEFacDV2RXJoUzJDNXQ3NTlxVWk3c3FGSVMyTzRaRjUxVHlfR3NUNlc5MFJLRkRQQmUzb2FBSHVlZTItM2FYRHFjTlJHOGlGdEloZ0hQTEszZmw5bTVmR3E4OWxSd01LckJKT2thSmN2eEs5bHhuUDVWYXZ0c3ZjNmxtZ2dxLTk4aEE?oc=5) — **Simpson Grierson** · 10-15 07:42
 - [Energy Transition in Canada - Pressure, paradox and trade-offs](https://news.google.com/rss/articles/CBMijAFBVV95cUxPcExWYWNGWlNHTnJYN3FmV2VzVWFPTnZqUXc4cEt2QmFneWptcE81TURMYTloeWhlaUZzWklVbzJxSXlQdG40eVVLbTNlY0liZ04yZWpuRUowQ0FJbHh2bVQwdHM5NThyY21ieXkza3lOYjdUREZUbTZSU01KNGROOEwxTTBmWUVqc1hkVw?oc=5) — **Ipsos** · 10-15 01:35
@@ -343,7 +383,6 @@ modified: 2026-10-15T09:34+09:00
 - [Planning for an effective energy transition in Bangladesh](https://news.google.com/rss/articles/CBMigAFBVV95cUxQWXliV2h4MHJHVHZXN21pTHRibXlrbTZuQ0lYZkJFd21qUkgyNkRPX1BvUDZrTjB3ZFRMd1A1TU5KbHJBN2NuVnhlcktCcUNkZVdyWENFaDlhT21YeXM2VEZ2dE5hNUx3NHM3YXcxdzNIci1GNVp4V1FsN3NINW9wRA?oc=5) — **Institute for Energy Economics and Financial Analysis (IEEFA)** · 10-14 19:42
 - [InSite Technical Services applies refinery expertise to energy transition, infrastructure, and industrial projects](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTVZCM2o1ZTUxWmpWb2pYX1owSVpseW5IZExUS1NfN2liYVNQaXlyRDhZZ3JqTUtfOFJRSk8zZFotV3ZjQkpSMG52Z2dDMTBfSF9fX2p2NHRQRFdNX0VKUjV3M3FjcnlhM29FcTJUVC1OWmFGblJmUVdRRFNubUtqbDFTSFZtdXVBM1N4aW5udUxMc2NJdDNQV2xpc3l1czYxUlVKZE5zbS1GYW9fbHZXQ1VkMUk5dlREZlYwMk9SMmJrRmZfeVVfT3d1MDVmdGhhOTA2ZVZPb3ljUHZZVHc?oc=5) — **Energy, Oil & Gas magazine** · 10-14 19:15
 - [Long lead times for syncons, gas turbines complicate energy market transition, major supplier says](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNejJCaVJ1UjJrYnp6cFdwMW83UTdsMFNxWmFES1oxeHIzdmdZWXoxcHhYMDFlNFNXTWJxY1l0b2htVV9xcDBuZ2ktbWo1NGROdm52bUZNejIyNzRRdDVGaTVXWDhjN0pSYkw1cXFpSU8xSXZyYmxfSVNPYV9OOU1VYWFMV0pBUGNPSjcxbkRkWDBuanBENmxaS1JxSnpRQlktTmhqRy1MVGxfemRfaG8tc0xXN3ltUzNUdFNGOXNMejdvODDSAcgBQVVfeXFMTnJhTTdYMDY2d0VEOUxESkhCU1ZsU2FRSnM1cmN6azl0Y3VZQUlfVUJOQnctajlTNjJ4OExRbWx5cTJ4YjFqQUYyR1JBSjVXS2l1QVhjM29JamtOZzl2ajBtZWs2cXBCYWxOWGFSOUpPYTY2cjh0S0xVeEhhSGFsQ2lHRE1oZHp3NE5GNm4wWHFfeW1tb21obGR1dzFnTUpCSTZxWmZvUXFfMDlJM3pCb0YyeW9OYzlWN3hDTno5U2dqNUVZMHRfN0w?oc=5) — **Renew Economy** · 10-14 18:43
-- [Graphic of the day: India ranks 5th in energy transition investment](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdzZRckt4UHViVXloZGEwQktZSE9ZSlRWZzVlUVRqRGtxYkh3bnhrdUxBSGNyTWxkR1M0b21QcXl1TTFvSDB4ako0TmRPRm9tS2ltV0JoZVV5a0VQRGNKOWlhU1p2VjBKYXhNYXAwakVHY2M1Z1czNG8xdF8tVzE5X2tUamF0bmJDbkx6VUhYaFRJaG50LU1MT3RDYjVPTTJJbklHVjBWV0RUTjJKbVltdWNlZE9zSVkydlRfTnF3ekZWb2FzWC1LNXl2YXFVZTRWekHSAdcBQVVfeXFMUG9EZENlU2M4N3JCRmxuelNBLU4yN3VBNjYwYXozZTRUZ2x1VVdYa1VOcF9Qa0lOQlRfRlZWbmMzOS1Db3ZYSGY0LWJsWFNRLW9XR3NXMkxpQ1djeXVKZUlId3hLUlB1Rjl1dkxJVFYwclIxeGRDSExhS1hJMThjNFgyczJQSEgxSTRjRldmYV9Rb2pORFJkR3Y2T1FUUG92VkZ6NUMzMFZhb0hqLUpGdDFEdWJiTl9MNEJyQVM5TVozTDNQaVpKS0RVUE4tMG5BZjBHYjNQZWM?oc=5) — **Forbes India** · 10-14 18:43
 
 ---
 
@@ -356,10 +395,11 @@ modified: 2026-10-15T09:34+09:00
   - 이산화탄소보다 온난화 효과가 최대 1만배 이상 큰 냉매(수소불화탄소·HFC)가 일부 사업장에서 수년 동안 대량 누출되고 있는 것으로 나타났다. 정부는 매년 냉매 보충 현황을 보고받고 있지만, 같은…
 - [미즈호, 냉매 사업 성장 지연에 Chemours 투자의견 하향](https://news.google.com/rss/articles/CBMidEFVX3lxTE5wa19XYlJlS2JIUVlGMDhNNVB2MkNvbm5QazZrdVd2QjhzVFh6Y1RObDJkRHVoQ19VOTh0cFZEek10M0FWSllObUJ5Wmx6UTBNYmNpclFSZm9IX1c1OUVmOHZrZkU1bnNhRVRZLVVNUGloalNz?oc=5) — **Investing.com 한국어** · 10-14 16:17
 
-### 해외 · 2건
+### 해외 · 3건
 
 - [CCAC at MOP38: 10 Years of the Kigali Amendment](https://news.google.com/rss/articles/CBMifEFVX3lxTE1uaVVXaEl6UlZaekp2VzRFUjV6Y2NucWUyQXhpU3ZLZG9kQ0hXN3h0Z09HcmFveHJ2Y00zZHJrVGFKdjBWdTMwbUlXRDJZQjYwN0pmS3ZjbVNYOWxaZXdqMUNUbHBmSjlOZTRIX3VaamVuMnBtc0V0Ni0xaUc?oc=5) — **Climate and Clean Air Coalition (CCAC)** · 10-14 18:36
   - 관련 보도 1건: [Climate and Clean Air Coalition (CCAC)](https://news.google.com/rss/articles/CBMilgFBVV95cUxNS0ZSN1JFV3lXa0lvYjljT3RBQjBiWF81ZVRxQ0p5MVl3TkJZVURDUzZZWm1QRUtzQVZZS0pPSVlGOTZDZXNpNk9HOGFYMHR6bE1QdFZfXzdXY2R3dU5hZDF5RUd2aVFuOXVvbTktWDV4MkFUcUJUZ1laNmp6bGhyN3NSeDM1REdBSXB5cXVyLTFheW5HdFE?oc=5)
+- [The Kigali Amendment at 10: Why India’s cooling choices matter](https://news.google.com/rss/articles/CBMizAFBVV95cUxOTk1iaFE3U2F4WWRBLUpRSzlFU24ydm5Ua2VjdVZLaEthVU13UnZMUUdMajFTRGZ2cC11TU9rdDhJbm9iVHhYUUpzSURFbEJZZE9iUmN3Rm1pX21JVldDcDVEeGFZelN4NkhzWTE4cUhab3pNZmNGdWNXc2x1Rkw1TmtOSjEtaHlaUS0zU3p0M1V4S1pCT21sWE5yOEYyaGJscEpVQU1JN19HMTNSTEJSZEJ2VEE5UVp5STl4OXJ1VUxyUkdVMEdBTXM0dlXSAdMBQVVfeXFMTWRNVmxWQjVmbzdqMFRoSzBuRm8yZk5xczhDcXc1QWJDY0xnTEhvWl9hLWlRUE5hcXU5UHpfQkdTcDVUZ3ZKRUtyRUdnQ1ZBZFYxZjBUd1FScXBSeDJuTkZnMDQyQWFTQ19UdmliZ1lHRjRNWXZUT3QyWDVCR2pTMW5UYU5FQVcweWVqQlFEOG1WU0M5Q1gyNlotMi04Q0Q3UXFGelhtQUhvSENwMGdBb2ZvRU0xVzZJNGFvVEUzWmNVR2ZnLURQZUVLT1VyY3FVM1BSRQ?oc=5) — **The Indian Express** · 10-15 10:00
 
 ## 지난 클리핑
 
