@@ -3,9 +3,9 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-17
-modified: 2026-10-17T08:26+09:00
+modified: 2026-10-17T08:48+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-17 08:26 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-17 08:48 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
 > [!example] [[radar/news/2026/10-17|10-17 클리핑]] — 기사 **151건** (국내 76 · 해외 75)
@@ -206,13 +206,13 @@ modified: 2026-10-17T08:26+09:00
 - [Entech Secures €40 Million Contract for BESS Plant](https://news.google.com/rss/articles/CBMid0FVX3lxTE9Ga0x1SVd5bmRBTFRWV2Y5Rk9Rbkk5OUdaU3RoSDlSTlRmMFYxcEdNTTNtdXRSMHJta05xMUhDTU04TTBjMzQtdVd3SjZNYUpOenZQWGRVekVYdVFYR21MTFlMRGphblJBSDZ2QTVScElyQ056M3Jj?oc=5) — **Inspenet** · 10-17 03:53
 - [Burk's Falls area battery energy storage system faces renewed opposition from mayoral candidates](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc3BuUFNpMmhjdTRkNWM0WVFyVUY2M1kzZ2NXRllqckNFOHRaUDVWVUpubkpGOVV1WE9wSW9KaVl5R1owakJlalpjWF9yYWxSM0g3Z0UtTmhXcDBpVEc3WjJxb3dEc2p6UkFCUlVmU1hUQm9QeDdBR3M5aVlRckp0bzBKSmJVdWZUMXdIRktVSTlSUGRKdjhQTmx2cW45UmNpT0JsNndObWVtdG9kUlc5NENTZ21aZ0xNUWc3V3V0MEllNFpQMDZGUm5FTXloa2w5RllCcVR3?oc=5) — **BayToday.ca** · 10-17 03:00
 - [Metlen and Karatzis inaugurate 790 MWh BESS in Greece, supplied by Jinko ESS](https://news.google.com/rss/articles/CBMisgFBVV95cUxPdC1aQXQxcHNEcVA5ZXlGS2dfWHZzX1Zfcm1GVGpzS3R1bUYwWHo2Q29tUFM4aVp5ZEFibU12RlE5alpRaWFqZGdiZGFWRElETU51eVpzUzVCVUNoWXBNNV93ZlRjUzBnRGVjU2M4WU1wY1U0M3pXRzJOZlFwc0x0eExYd3ZpS19ncE55TDZTaEFsYnp6WTgtbmtmZ1l0LTVoQ0NXRjJOdEdlazFGSnZucm93?oc=5) — **ESS News** · 10-17 01:41
+- [Javon Bess vs FIT/One Wurzburg Baskets: stats, game log](https://news.google.com/rss/articles/CBMimwFBVV95cUxNYi16czhvNlB2eVpIemJNaFpETDN2bTcwMk1GSjM2ZDlvWmJ3anZUU0N3QllHUG9VTy1va0J1c2MtV29WRmJGMDBqWE1TVlNVWTFTVUxBSEpCeWpxYUNIc0I0WUY1MkZVSzhJY2NHcG9hREdBS2lURzA3YV9veVpodXd3VHktM1pCbVNjTmotNDF5ajhsaUZnM2pOMA?oc=5) — **BasketNews.com** · 10-17 01:04
 - [Sea Cliff Board of Trustees holds public hearing on BESS legislation, discusses composting and recognizes EMS and residents](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb1N4RkZRSnlkMEtvWTItVjlHQXhneUV3MERFRUlZWmVlUDJtaElFOGpKWW9QTkdMNkdBbEtYSUNMdVh3STdPeTdMYVhRS2ZOVHpWVXJCTExoN0tKaFFlaExQODBxRUlFY2lqVUNpeHd4MENGMTl4dG5EMDQ3YURkdFgwNGIyWXhvNHV0YWdjd0NpcVlfaEFQWDR3ZUpqbmVwRF9SQzNETnMwVTdLcWd3eWFnLUlDTi05MGlUSGtaSkRCQzRicFNTNm90eFZZVDhlSjgyZTE2MWw5QQ?oc=5) — **Herald Community Newspapers** · 10-17 00:58
 - [GRIDCO Tenders Consultancy for Floating Solar and BESS Project](https://news.google.com/rss/articles/CBMikgFBVV95cUxPczVsemVEbW96UHA2dGlhY0R3eVBZVU51QWlxNDltZE9JSmNmeEpOWTdaenVXU3NQVGUyYkRWUzRvbnFLeXpnWGZRUWx1RHdULXVNaEYyUV9PUllVcEFmTTAxSkRWV1VDVkFTXzROQ1J2UDNVMXBWOUJ5ZVhoRkQwUm4ydHoyVlZrTy01blhhaDBkUQ?oc=5) — **https://www.mvapulse.com/** · 10-17 00:38
 - [GEON commissions 10 MW/20 MWh battery energy storage system in Jaisalmer](https://news.google.com/rss/articles/CBMiugFBVV95cUxPMXh6Zkp5X2d4eHVMNUVzbUZ6U1pmZnQ3cXpCOXh4Y2xydENia1BoVXlXeHBWeGRKeDFOYkZPYndqOGtIUHVVMFlsa3hGYndLMnRHNHpSY09NWGVKTGRUcFBuaUxzT3pTRkJSZ04yWldYN092eklKTlRGSVhUaVFrLVM4VTV1djVqUnd4X2kxb19tWW5mV2lQODZoajhkQzBOQS16QVdRcFY4czBQamVRWHJocHVEZjc1eHc?oc=5) — **pv magazine India** · 10-17 00:36
 - [Foresight acquires 100 MW/400 MWh Nivala BESS in Finland](https://news.google.com/rss/articles/CBMitgFBVV95cUxPLTVUdEJUTmFMam5JWl9wU090VG9rQVdRTHhXb0tCS3Z5cUU1UnQwQnZrb0tScFNjdEtYTDhZRm9ORy1HMU84TVBiSXZSeXFnVXVCdl9pczBQUDYzSzd6dXFDTFNMbzEzNkZpOXlBYWtiOXVVd3kzdlhzUHRmRVBRem1FM3dzOHNoV2JmOUgtWTNGSzNJZW5zRXhlMkhkVGJ0S1N4cEV2UlAzdjZ6ZW5vVWY0UVNIQQ?oc=5) — **Solarbytes** · 10-17 00:20
 - [Iberdrola wins approval for 8-MW BESS project in Canary Islands](https://news.google.com/rss/articles/CBMipgFBVV95cUxPck9zQlkxWFg0UGtkTTRCTDUtMVA5M21lUWJ2YUEwZGQ5Z0NPWWYwZ1puTGtDX2Z3dlBMV3Q3dkJ1SUg3QjJRczZIR1Jxc1pZZ1hRSkhLX3RwbXNaUlBWdmRYSzFCM3FnQnNYS2hvUHNQTW9tYkM2OV9JcnJkRnNGd0JEc3doUElNNGd1VjBlcUVJYWVoeWdYYkVwdHVoSHFiRE1vZDRn?oc=5) — **Renewables Now** · 10-16 23:58
 - [Standardisation, third-party choices, and outcomes: Arenko's Dan Taylor on building a BESS analytics strategy](https://news.google.com/rss/articles/CBMixwFBVV95cUxNRXVGS2hSejMxZGlhWWt0XzNsbFZmWmdndmJOaHpQMC1jTWFxZUVGVGU5eXRHM2xjQzlISHdsSHNoZ2xncXRnM0tucmU2aXM2czNTaTIyYV9wbTZ4NnBvamY2SHk2d29wODU1WEE5MjhXNmNFNjVCOV9JeE9ZR0YzZWpta2J0RUItSTBTZGw5RFU3R1VJcGpTRDJ0WFh1WDRucFFTS0cwTlZSZHBSUWQyRWh4OGRlZl9sbmlDMlg2aEZXdGtDTy1V?oc=5) — **Energy-Storage.News** · 10-16 23:29
-- [Blendon Township again tables vote on site plan, special use for BESS](https://news.google.com/rss/articles/CBMi9gFBVV95cUxOd0d5eWNGVHJ6WGFjSXJQa2JyLTd4VHJ4ZHYyWUREQ0R0VkJkY3Y3S0hkbzZRdnM3cS05ekEydnlHZWdQcWtjbm5ENFhETHE4VmEtd213TEVVY1VTZloxc0N4bks3YWo4ZndXTXVjNk1GZU9FdmgyNkRyODRhaHlwQ2ItYW1QaFpzYjg2Z2Ftb2NWc0FPb3ZKV0RVdlNKT213bG4zTUt6bG5wTlh6X09kNkhGbjhOY1pjeWx0cnFUTzVjNUZnS1k4aFNSTE5WcVdxT2VrODFfMXJ4aVFNUUhydGg0TGFHOE1Da3ZGSWNTUFlOLVFzU0E?oc=5) — **The Holland Sentinel** · 10-16 23:06
 
 ---
 
