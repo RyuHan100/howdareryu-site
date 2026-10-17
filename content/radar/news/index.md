@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-18
-modified: 2026-10-18T08:00+09:00
+modified: 2026-10-18T08:20+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-18 08:00 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-18 08:20 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-18|10-18 클리핑]] — 기사 **79건** (국내 30 · 해외 49)
+> [!example] [[radar/news/2026/10-18|10-18 클리핑]] — 기사 **81건** (국내 32 · 해외 49)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -108,13 +108,14 @@ modified: 2026-10-18T08:00+09:00
 
 ## ESS
 
-### 국내 · 6건
+### 국내 · 7건
 
+- [삼원계에서 LFP로…ESS 열풍에 K배터리 전략 대전환](https://view.asiae.co.kr/article/2026101514205438112) — **view.asiae.co.kr** · 10-18 08:00
+  - 에너지저장장치(ESS) 시장이 급성장하면서 국내 배터리 산업의 무게중심이 기존 삼원계(NCM) 배터리에서 리튬인산철(LFP) 배터리로 이동하고 있다. 배터리 3사가 ESS용 LFP 생산 확대에 나서…
+  - 관련 보도 1건: [아시아경제](https://news.google.com/rss/articles/CBMiYEFVX3lxTE85Sl9xNWFQbER2S3hGYmVTX0tnVk9iY1kyOUZNTFI0UkJPbFBOdzdud3ZmakgxY0hMOXhnenFMa1lJMFRNclFwN3J1ZmFlblpyRUpTYUZRQ0N0Zi1SbE1qOQ?oc=5)
 - [LG그룹 '에너지 기술' 총출동…히트펌프에 '1등 ESS'까지 확인](https://www.mt.co.kr/industry/2026/10/17/2026101610422898635) — **머니투데이** · 10-17 14:00
   - 또 콘퍼런스 연사로 나서 AI 데이터센터 동향과 냉각 솔루션, ESS(에너지저장장치) 소프트웨어 혁신 전략까지 소개한다. 국회수소경제포럼이 주최하고 머니투데이와 코엑스가 공동 주관하는 'SEP 20…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTE9QZ0V4WVFRYlE2clozMzVnd1dONEo4bUtDd0JQcGRsb0J5NU9BVkhvTEI5MFVyVzByb291Z1VlY1JhRWJYckNDcFFNekV1d3VLVDFKTHB4Z2RYX0t6cld2TWFLZDNXZVhzWUZWVWVrRU0yUdIBckFVX3lxTE9QZ0V4WVFRYlE2clozMzVnd1dONEo4bUtDd0JQcGRsb0J5NU9BVkhvTEI5MFVyVzByb291Z1VlY1JhRWJYckNDcFFNekV1d3VLVDFKTHB4Z2RYX0t6cld2TWFLZDNXZVhzWUZWVWVrRU0yUQ?oc=5)
-- [삼원계에서 LFP로…ESS 열풍에 K배터리 전략 대전환](https://view.asiae.co.kr/article/2026101514205438112) — **view.asiae.co.kr** · 10-18 08:00
-  - 에너지저장장치(ESS) 시장이 급성장하면서 국내 배터리 산업의 무게중심이 기존 삼원계(NCM) 배터리에서 리튬인산철(LFP) 배터리로 이동하고 있다. 배터리 3사가 ESS용 LFP 생산 확대에 나서…
 - [현대무벡스 미국 ESS 설비 계약 12월까지 연장](https://www.vegannews.co.kr/news/article.html?no=393789) — **비건뉴스** · 10-18 07:16
   - 계약금액 776억8300만원 유지…일리노이 공사기간 늘어 현대무벡스가 미국 에너지저장장치(ESS) 모듈팩 제조공정 물류자동화 설비 계약의 종료일을 10월 15일에서 12월 31일로 연장했다. 계약금…
 - [북미 ESS·원통형 배터리 수요 늘었다…롯데에너지머티리얼즈 반등할까](https://www.pinpointnews.co.kr/news/articleView.html?idxno=496096) — **핀포인트뉴스** · 10-17 12:10
@@ -143,7 +144,7 @@ modified: 2026-10-18T08:00+09:00
 
 ## 전력망
 
-### 국내 · 10건
+### 국내 · 11건
 
 - [케이블 수출 넘어 생산·시공까지…K전선, 해외 전력망 공략 확대](https://www.straightnews.co.kr/news/articleView.html?idxno=313294) — **스트레이트뉴스** · 10-18 08:00
   - \[사진\=대한전선\] 국내 전선업계가 해외 전력망 시장에서 단순 제품 공급을 넘어 현지 생산과 엔지니어링, 시공까지 사업 영역을 넓히고 있다. 미국에서는 초고압 전력망 턴키(설계·조달·시공 일괄 수행)…
@@ -163,6 +164,7 @@ modified: 2026-10-18T08:00+09:00
   - 국내 전력계통에 안정적으로 확대 적용할 수 있는 기술적 기반과 운영 체계를 확보해 나가겠다"고 밝혔다. \*GFM : 인버터가 스스로 전압과 주파수의 기준을 형성해 전력망의 안정적인 운영을 돕도록 하…
 - [세명전기, 500kV HVDC 송전망 기술 확장…초고압 전력 인프라 공략](https://www.pinpointnews.co.kr/news/articleView.html?idxno=496127) — **핀포인트뉴스** · 10-17 14:48
   - 전력 수요가 늘고 국가 간 전력망 연계와 초고압 송전 기술의 중요성이 커지면서 송배전 인프라를 구성하는... 전력망이 안정적으로 작동하려면 전선과 주요 설비뿐 아니라 이들을 연결하는 부품도 높은 품…
+- [한전, 호남권·용인 반도체에 전력 공급 협약…“반도체 공장보다 전력망이 먼저다”](https://news.google.com/rss/articles/CBMid0FVX3lxTE9JTHNmUlBEU0Y3ZUtkbnk5YURLNDYwai1ybFhlMktVMnN6TVl4YmFZSGZpUG95Y252YldZLU9Bc0FYWndjMWpEa0hscUpBQkpzaWRaVkxvU01kaVdseWxERHJIQkh4bTBnLU0xVENMZE4zOEtaWE5j?oc=5) — **진주인터넷뉴스** · 10-16 14:13
 
 ---
 
