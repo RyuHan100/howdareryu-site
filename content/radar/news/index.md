@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-18
-modified: 2026-10-18T08:20+09:00
+modified: 2026-10-18T09:05+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-18 08:20 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-18 09:05 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-18|10-18 클리핑]] — 기사 **81건** (국내 32 · 해외 49)
+> [!example] [[radar/news/2026/10-18|10-18 클리핑]] — 기사 **86건** (국내 37 · 해외 49)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -21,8 +21,10 @@ modified: 2026-10-18T08:20+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 3건
+### 국내 · 4건
 
+- ['국산 무탄소 전기'…과제는 망·값·신뢰](https://www.eroun.net/news/articleView.html?idxno=92708) — **이로운넷** · 10-18 08:56
+  - 국내 배출권 가격이 국제 탄소시장과 상당한 차이를 보이면 기업의 감축 투자를 유도하는 신호가 약해질 수 있다. 그러나 국내 탄소가격과 EU 탄소비용의 차이가 그대로 해외 납부액이 되는 것은 아니다.…
 - [저탄소 콘크리트 탄소감축인증 2단계 심의 통과](https://www.thedailypost.kr/news/articleView.html?idxno=116253) — **데일리포스트** · 10-17 23:38 · NDC · 자발적 탄소시장 / VCM
   - 대우건설은 확보한 크레딧을 자발적 탄소시장에서 거래하거나 해외사업장 등의 온실가스 배출을 자발적으로 상쇄하는 데 활용하는 방안을 검토하고 있다. 정부도 지난 4월 '한국형 자발적 탄소시장 조성 방향…
 - [청년들이 전하는 기후위기 메시지…탄소중립 실천 앞장](http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00007&news_seq_no=5225577) — **mbn.mk.co.kr** · 10-17 19:26 · NDC
@@ -60,8 +62,12 @@ modified: 2026-10-18T08:20+09:00
 
 ## NDC
 
-### 국내 · 3건
+### 국내 · 5건
 
+- [기후부 출범 1주년, 장수가 없다 \[기후에너지환경단상\]](https://www.ekn.kr/web/view.php?key=20261016023427035) — **에너지경제신문** · 10-18 09:00
+  - 여기에 정부가 내년 10월을 목표로 발전공기업 통합을 추진하면서 개별 회사의 인사와 향후 통합법인의... 환경공단은 온실가스 감축과 배출권 관련 업무부터 대기·수질·폐기물, 전기차 충전시설 관리까지…
+- [시민 제안 기후정책 90% 버려졌다...'답정너' 기후공론화](https://www.newspenguin.com/news/articleView.html?idxno=22313) — **뉴스펭귄** · 10-18 09:00
+  - 헌법재판소가 2024년 8월 2031년 이후 감축목표가 법에 없다는 이유로 헌법불합치 결정을 내린 데 따른... \*기업 온실가스 감축, 자원순환, 기후 교육·참여 연구진은 지금처럼 필요할 때마다 여…
 - [유엔 '기후대응 지침' 발표 늦어질 듯, 중국·러시아 비롯한 산유국 압...](https://www.businesspost.co.kr/BP?command=article_view&num=449269) — **비즈니스포스트** · 10-18 06:00
   - IPCC가 발표하는 보고서는 세계 각국 정부가 국가 온실가스 감축목표(NDC) 수립 등 기후대응 정책 수립에 지침으로 참고하고 있어 영향력이 매우 큰 것으로 평가된다. 마지막으로 발표된 정식 보고서…
 - [공무원연금공단, 기후공시 의무화 앞두고 국내 주요 상장사 163곳에 기후...](http://www.thefirstmedia.net/news/articleView.html?idxno=211130) — **더퍼스트미디어** · 10-17 18:34
@@ -108,7 +114,7 @@ modified: 2026-10-18T08:20+09:00
 
 ## ESS
 
-### 국내 · 7건
+### 국내 · 8건
 
 - [삼원계에서 LFP로…ESS 열풍에 K배터리 전략 대전환](https://view.asiae.co.kr/article/2026101514205438112) — **view.asiae.co.kr** · 10-18 08:00
   - 에너지저장장치(ESS) 시장이 급성장하면서 국내 배터리 산업의 무게중심이 기존 삼원계(NCM) 배터리에서 리튬인산철(LFP) 배터리로 이동하고 있다. 배터리 3사가 ESS용 LFP 생산 확대에 나서…
@@ -116,6 +122,8 @@ modified: 2026-10-18T08:20+09:00
 - [LG그룹 '에너지 기술' 총출동…히트펌프에 '1등 ESS'까지 확인](https://www.mt.co.kr/industry/2026/10/17/2026101610422898635) — **머니투데이** · 10-17 14:00
   - 또 콘퍼런스 연사로 나서 AI 데이터센터 동향과 냉각 솔루션, ESS(에너지저장장치) 소프트웨어 혁신 전략까지 소개한다. 국회수소경제포럼이 주최하고 머니투데이와 코엑스가 공동 주관하는 'SEP 20…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTE9QZ0V4WVFRYlE2clozMzVnd1dONEo4bUtDd0JQcGRsb0J5NU9BVkhvTEI5MFVyVzByb291Z1VlY1JhRWJYckNDcFFNekV1d3VLVDFKTHB4Z2RYX0t6cld2TWFLZDNXZVhzWUZWVWVrRU0yUdIBckFVX3lxTE9QZ0V4WVFRYlE2clozMzVnd1dONEo4bUtDd0JQcGRsb0J5NU9BVkhvTEI5MFVyVzByb291Z1VlY1JhRWJYckNDcFFNekV1d3VLVDFKTHB4Z2RYX0t6cld2TWFLZDNXZVhzWUZWVWVrRU0yUQ?oc=5)
+- ["LG엔솔 납품 ESS 화재→지하수 오염"… 美 넥스트에라, 뉴욕 2개 저장소 '가동 중단'](https://www.g-enews.com/view.php?ud=2026101808343074750c8c1c064d_1) — **글로벌이코노믹** · 10-18 08:38
+  - 미국 최대 배터리 에너지저장장치(ESS) 운영사인 넥스트에라 에너지(NextEra Energy)가 과거 발생한 리튬이온 배터리 화재 사고의 여파로 뉴욕주 롱아일랜드 소재 ESS 시설 두 곳의 가동을…
 - [현대무벡스 미국 ESS 설비 계약 12월까지 연장](https://www.vegannews.co.kr/news/article.html?no=393789) — **비건뉴스** · 10-18 07:16
   - 계약금액 776억8300만원 유지…일리노이 공사기간 늘어 현대무벡스가 미국 에너지저장장치(ESS) 모듈팩 제조공정 물류자동화 설비 계약의 종료일을 10월 15일에서 12월 31일로 연장했다. 계약금…
 - [북미 ESS·원통형 배터리 수요 늘었다…롯데에너지머티리얼즈 반등할까](https://www.pinpointnews.co.kr/news/articleView.html?idxno=496096) — **핀포인트뉴스** · 10-17 12:10
@@ -170,8 +178,10 @@ modified: 2026-10-18T08:20+09:00
 
 ## 탈석탄
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [\[26년 만의 재통합②\] 탈석탄 이끌 '한국발전' 내년 출범 추진…재생에너지로 무게중심](https://www.newsis.com/view/NISX20261016_0003828538) — **뉴시스** · 10-18 09:00
+  - 2040년 탈석탄 목표에 따라 석탄발전 중심의 사업구조를 재생에너지로 전환하고, 각사에 분산된 투자와 운영... 탈석탄은 석탄발전을 단계적으로 폐지하는 것으로, 액화천연가스(LNG)를 포함한 화력발…
 - [\[기획 6\] 전기는 충남에서, 희생도 충남에서…탈석탄 시대 '보상'을 묻다](http://www.newsprime.co.kr/news/article.html?no=751341) — **프라임경제** · 10-17 18:12
   - 지역이 탈석탄 전환 과정에서 지역경제 위기까지 떠안게 된 만큼, 통합 발전공기업 본사 유치를 국가 차원의... 그러나 탄소중립과 탈석탄 정책이 본격화하면서 발전소 소재 지역의 상황도 달라지고 있다.…
 
@@ -188,12 +198,12 @@ modified: 2026-10-18T08:20+09:00
 - [Gold in green: Aboitiz helps power up PH energy transition](https://news.google.com/rss/articles/CBMimgFBVV95cUxOX1QtVXZxNXhQVVZGS2NFTV9JX2FVbUF0UWFKcU9HLTJsX3ZHYlhXYkVwR3hBdmlaOUZLTnlaTHRFaVBlNk1TaVhySkJTZEwyc21DMTl4VlRsb3NVQWFqSXY1ajd1VXQxWUlsZXZtXy1SZ1V4dEJScnd0YXRpbHlOdjNkSGVSTTRTS3hXTm1mRWxqeTQxYmluSmpn0gGfAUFVX3lxTE9KTWRENFg5YW1QZUxBbU5FZmwyQVRkcDh3ZXREM1BkVzV4R3FRMzF2WW9BNVRrNUVGeUZvUUZnLXNtRXRPMnBlUWZQcjJIVXV6MjZJeldOYnIzeHhqUGFaMXVnVEFlN1gxZXFkLW9mcFlhR1VXNnppckZLYkw0UGJ1eDN0dWFrdUU0ZXpEdTg4TGs5aGRfZmpISERSLVNFZw?oc=5) — **Inquirer.net** · 10-18 03:00
 - [How the Ukraine War Reshaped Food Markets, Energy Transition, and Energy Poverty](https://news.google.com/rss/articles/CBMipgFBVV95cUxOS2pYTG1TeTlRTl9mZS0tSDh0dXA5bVV0YVEwUU9Wcm9qcHhGeFFfOEJoay04aXlMYjhLRVU2TWJXaDlFSWZEUTBFTTI2VDMxZ0lsZElrMGRpNlo1YjM1R2Zvd1dQSGswUmRqYkhCMFp6cTNMMWRKM3J6RlB0Q1ctcURaX0VVTDNYalIzT1hnMVlIYzR5S3BkNTVDRTI2UFVJYkwwQmJ3?oc=5) — **Bioengineer.org** · 10-17 23:11
 - [South Africa’s Just Energy Transition Delivers Jobs, but Poverty Gains Remain Elusive](https://news.google.com/rss/articles/CBMirAFBVV95cUxPNndIWDEtcmxtbkh1S3FUSzg0X19SNGFjTjFSS2ZNN19pTjNDd0ZKM1RqRDYzOC1EYmdYR1FBajhjc2t6cEZlYUJWRVNZcURqYXhidGhpMUhsRElkZjR5bF92eEZWTWFpOTE4N1FsMGg2bnFRMnpXTGE0OTJfSzBPc1pTb0xuQ1dibURXTzlPdlpGUE9VSVVENWdmOXU0QjlLMm1uUDk5RjZuOUdo?oc=5) — **Bioengineer.org** · 10-17 17:16
+- [PERSPECTIVE: Fossil Fuels Still Provide Vast Majority of Energy Despite Global ‘Energy Transition’](https://news.google.com/rss/articles/CBMiswFBVV95cUxObGFfT3ZDNnNfaElsWFNTdElmNW1KWDM1VzRJdG1XYm9CZzc1TXU5OGVVWHhYdTk1d1d3M2trSGNfTUR5TE4yOVJjcE43bU1GaFRqZVc3akhlYk1ZdTQ3VUFaNXZvRWZoQkZ4VGhYRDg2Q3ZkV2lxbWJfUml5MGw4ekZUSzhXX1NwOHlIb0xyUzZIRl9kblNtVEt3Q2d5YXBQVDdlWHJOcW42R0J6Uzh2aVpzNA?oc=5) — **EnergyNow** · 10-17 16:14
 - [Todde’s fairy tales about the energy transition](https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT1hzb1VpZzE1RjNIanB1M01HNTdGM2R5c096MXRRUlJCR3BPaVNMZ1l3NEt4bEFYWVZqMmd4ZXBQWkxadndMSC1ZRFBwel9oZHZOZjhDbUR5NUdtSDZDNFVsWnNLMXlMYnNvVzBhanNxS29iTS1HYXI1QUwzeFZMM2lILXNFd3dBRjNBT0J1dlVTSUM2allSLURQSndhbUZUNXNON2RZU00?oc=5) — **Il Foglio** · 10-17 13:00
 - [TMS Tanker Conference 2026 to examine market shifts, energy transition and operational resilience](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNE9wanYzdWNNOUplNlpZR3Y5Q3lYam9MbzRvb1VHazAzdFZMY0RkVllMYlFnRWFIY2UxU2JZVmcwRjZfUEJKMTBoa1R0ZktFQ0F4MHFTb3NjQXpxZFNaVXU1QkVCbGNTQTF1bFU2cmthSlBvNUc2Y05nejdoWmNWM1QtUUp1dTViUkxzQ3RvRlU3T0lvS0tjZW9SV3FfemlOUlB4T3NkbkxKbmJjRWtyaUVlcUdWX3RiY0V4YmJ1QWVRN2p4SVZMQWFuWi1wLXhvdW1zUXp4NA?oc=5) — **India Shipping News** · 10-17 12:41
 - [The EU and Germany invest 6 million euros in Peru's energy transition to attract European investment](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQS1SZzJZLU9UTzBLSzY1cnF0RWpPSGlsX01NUlZJbkVVZFlCR1NmMEVSZVl3ZnhOM2FubnoyazR1MVhrRWVKbnNnTFIzUWhWT0g0YV9vUVRheWo0RHlUXzVLM0U1M09UX2VrOW5fdEk5T1JpVjd2aU9BN0xSazFWOTRWZXk0d2RTc1ZfOGh4X1hWTEJtWENVUnZQNjZvNGJqLVlBX1pQYmYwS09XUWNsbTFtM0NfdUFKNGowNWF0cHBQMm5jaERKM2J2SjBTMGNOSS1vMEln?oc=5) — **Noticias Ambientales** · 10-17 06:05
 - [Castello's energy transition fund hits €45M in second close](https://news.google.com/rss/articles/CBMilwFBVV95cUxORzRwQUdYS2hpa2QyNDBqVE9DdkNtTEpkTlBDT1Z1VU50MGx3cTZPN2h2MkxWY0JsZmw2bHdQbm5Ra3hHYWEyZjU2Uk9MQ0V6MTlpbVBuVUVRYktFbzVXOWNWMzlNWk1GVXN6X1ZwVkpCOWgzczlJYThUYkpmQ1RqTnpNU09pZVVTWkhSR2h0VGNjbTROR0x3?oc=5) — **Dealroom** · 10-17 03:17
 - [Real household revenues can grow nearly 1.6% by 2050 via energy transition](https://news.google.com/rss/articles/CBMiUEFVX3lxTE44cHJtdTdBX0NpMGk3cm4zc0V1UDFwR2JkOU02R2RyMUEtV21CcGVzbkFGVHIweHM5UlNDS05vejJUTVNmOEViLTRMTDBZaVRk?oc=5) — **Trend News Agency** · 10-16 22:18
-- [Global economy can gain about \$47T from energy transition by 2050](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pVmpaYk5hVTgxWE9SZjFHckNpdC1vbHNubHZXMWVacm8yOEd0SGZiQnBfWUZnLS1ZT2VVS0QtaWxJS0hCc2wzcjNMNEN1bHJj?oc=5) — **Trend News Agency** · 10-16 22:18
 
 ---
 
