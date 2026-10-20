@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-21
-modified: 2026-10-21T08:14+09:00
+modified: 2026-10-21T08:46+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-21 08:14 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-21 08:46 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-21|10-21 클리핑]] — 기사 **224건** (국내 146 · 해외 78)
+> [!example] [[radar/news/2026/10-21|10-21 클리핑]] — 기사 **228건** (국내 149 · 해외 79)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -20,10 +20,11 @@ modified: 2026-10-21T08:14+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 5건
+### 국내 · 6건
 
 - [한국미래기술교육연구원, 탄소시장 경제성·대응전략 세미나 개최](http://www.hansbiz.co.kr/news/articleView.html?idxno=874617) — **한스경제** · 10-21 08:00 · 국제감축 / Article 6
   - 한국미래기술교육연구원 \| 서울\=한스경제 김창수 기자 \| 한국미래기술교육연구원은 오는 11월 19일 '탄소가격 상승에 따른 탄소시장 경제성 비교 및 대응 전략' 세미나를 개최한다고 21일 밝혔다. 이…
+  - 관련 보도 1건: [가스신문](https://www.gasnews.com/news/articleView.html?idxno=127268)
 - [배출권 관리부터 감축사업까지... 현대차증권, 탄소금융 해법 논의](http://www.lkp.news/news/articleView.html?idxno=85217) — **리버티코리아포스트** · 10-20 17:02 · 배출권거래제 / ETS · NDC
   - 국내 탄소 시장 활성화에 기여하겠다"고 말했다. 이번 행사는 시장 동향을 파악하는 작업과 개별 사업 검토를 연결하는 데 초점을 맞췄다. 현대차증권이 수행해 온 탄소금융 사업에 기업 실무진 대상 정보…
 - [유럽 싱크탱크 “한국 해외 감축실적 부풀려졌을 가능성 …국제감축은 ‘양의 탈을 쓴 늑대’”](https://www.khan.co.kr/article/202610201553001) — **경향신문** · 10-20 15:53 · 국제감축 / Article 6 · NDC · 자발적 탄소시장 / VCM
@@ -68,8 +69,10 @@ modified: 2026-10-21T08:14+09:00
 
 ## 배출권거래제 / ETS
 
-### 국내 · 5건
+### 국내 · 6건
 
+- [글로벌 탄소배출권 동반 하락…3개월간 지역별 가격 흐름은 엇갈려](https://www.financialpost.co.kr/news/articleView.html?idxno=281591) — **파이낸셜포스트** · 10-21 08:36
+  - 글로벌 탄소배출권 가격이 최근 일주일간 주요 시장에서 일제히 하락했다. 그러나 최근 3개월간의 흐름은 달랐다. 한국과 중국의 배출권 가격이 상승한 반면 유럽연합과 미국의 주요 배출권은 하락하면서..…
 - [한화투자증권 "유럽·국내 탄소배출권 동반 하락…에너지 수급과 경기 변수 주목을"](https://www.pinpointnews.co.kr/news/articleView.html?idxno=496980) — **핀포인트뉴스** · 10-20 16:22
   - 유럽 탄소배출권 가격이 주 초반 상승세를 보인 뒤 온화한 날씨 전망과 유로존 산업생산 부진에 밀려 하락했다. 한화투자증권은 20일 보고서에서 유럽연합 배출권(EUA) 가격이 중동 정세에 따른 천연가…
 - [GS글로벌, 후시파트너스 지분투자…탄소배출권 사업 확대](http://www.metroseoul.co.kr/article/20261020500280) — **메트로신문** · 10-20 14:26
@@ -197,6 +200,10 @@ modified: 2026-10-21T08:14+09:00
 
 ### 국내 · 12건
 
+- [美 전기차 -10%인데 ESS는 29%↑…2차전지 성장축, 車에서 데이터센터로](https://www.thepowernews.co.kr/view.php?ud=202610201321193257de3f0aa1be_7) — **더파워** · 10-21 08:46 · ESS
+  - 전기차가 주춤한 사이 데이터센터가 2차전지의 새로운 성장축으로 부상하고 있다. 2027년 글로벌 자동차... 2025\~2027년 평균으로 적용되는 탄소배출 규제의 정산 시점이 다가오면서 기준을 충족…
+- [AI 경쟁, 칩보다 전력이 관건…골드만삭스 “2030년까지 5조달러 필요”](https://www.ddaily.co.kr/page/view/2026102108344261353) — **디지털데일리** · 10-21 08:38
+  - AI 모델과 반도체는 빠르게 발전하지만 발전소와 송전망, 데이터센터 확충 속도가 이를 따라가지 못한다는... 원자력은 24시간 안정적인 전력 공급과 탄소배출 감축 측면에서 장기 대안으로 꼽혔다. 보…
 - [UNIST 연구팀, 'AI 데이터센터' 전력·온실가스 감축 '비결' 찾았다](https://news.google.com/rss/articles/CBMibkFVX3lxTFBfRlZvZTV6dGlyM0JSMC1vWF9kajNpNTQ4QWd4eThkZGhzTmxiYzcxRV9hWGJlel8tUjYxaVJGdVJRQ3B4RmpXWWp6Um1mcjRmTkRCcktyRXdxbzFuVWxqcnpxUEV6aGJvUXNRVXNn0gFuQVVfeXFMUF9GVm9lNXp0aXIzQlIwLW9YX2RqM2k1NDhBZ3h5OGRkaHNObGJjNzFFX2FYYmV6Xy1SNjFpUkZ1UlFDcHhGaldZanpSbWZyNGZOREJyS3JFd3FvMW5VbGpyenFQRXpoYm9Rc1FVc2c?oc=5) — **넷제로뉴스** · 10-20 19:45
 - [\[기획\] AI 도입에 날아든 ‘탄소 청구서’… ESG 공시 새 과제로](https://www.dt.co.kr/article/12090223?ref=naver) — **www.dt.co.kr** · 10-20 18:49
   - 생산성을 높이기 위해 사용하는 AI가 전력을 소비하고 온실가스를 배출하면서 환경·사회·지배구조(ESG) 공시에도 영향을 미치기 때문이다. 외부 AI 서비스를 이용하는 기업도 관련 배출량을 파악해야…
@@ -216,9 +223,6 @@ modified: 2026-10-21T08:14+09:00
   - 전력을 생산하는 발전원의 구성에 따라 온실가스 배출 규모에도 차이가 발생한다. AI 인프라 확장에 따른 환경 문제는 전력과 탄소에만 국한되지 않는다. 서버 냉각에 필요한 물 사용량, 반도체와 전자장…
 - [철강업계, 거세진 외풍에 글로벌 AI·전력 인프라 수요로 돌파구 모색](https://www.womentimes.co.kr/news/articleView.html?idxno=107168) — **우먼타임스** · 10-20 14:46
   - 20일 산업계에 따르면 철강업계는 폭발적으로 성장하는 AI 및 전력 인프라 수요에 따라 고부가가치 제품... 이 같은 패러다임 전환은 국내 제조업에서 나오는 온실가스 배출량의 40%를 차지하는 철강…
-- [AI 데이터센터 냉각부터 히트펌프까지…냉동공조산업 미래 기술 논의](https://www.koreaittimes.com/news/articleView.html?idxno=158323) — **Korea IT Times** · 10-20 12:02
-  - 한국냉동공조산업협회와 에너지코리아가 공동 주최하는 이번 포럼에서는 AI 데이터센터 냉각기술과... 기존 화석연료 보일러를 대체하거나 보완할 수 있어 산업 현장의 에너지 효율 향상과 탄소배출 저감 수…
-- [AI로 녹색산업 전환 속도낸다…정부·기업 K-GX 전략 논의](https://news.google.com/rss/articles/CBMiWEFVX3lxTE12aVNUMVZDcjJwZTh5QzBiTGNxVkMzS3VDTUZhQXBvaFhJbVlPYlhlQWt1RHpLMVFfMUZTaHhpUDUzcmEta0gyNjczTDdZbVRnLVBPMThHVVrSAVhBVV95cUxNdmlTVDFWQ3IycGU4eUMwYkxjcVZDM0t1Q01GYUFwb2hYSW1ZT2JYZUFrdUR6SzFRXzFGU2h4aVA1M3JhLWtIMjY3M0w3WW1UZy1QTzE4R1Va?oc=5) — **아주경제** · 10-20 12:00
 
 ---
 
@@ -252,6 +256,7 @@ modified: 2026-10-21T08:14+09:00
 
 ### 해외 · 12건
 
+- [A long way from chicken sheds, BESS market comes of age as insurers face new data centres co-location exposure](https://news.google.com/rss/articles/CBMixgFBVV95cUxOd3RyQi00MUZpRmI5cUZPN2VTcFJSb0pkb2FyRkZ2aGh3RmlOdF9KNV9maHVDcHMxcTVpNzdKNUx6S2hJRnE1MkhobGlYNGdaNW1EdjNWOVg0WVNfMWxaOU80ZjhYOW95bzhndTRWeFM4NmdJRFVoT0xINlpkb2NmbDA4ZWJLUzVLRW1VOXpYcTdzVGRSM0FzOUl3dDBhWDhRSHVOTUdEY0dkT3BDRW9UQmxuZXEzMzNLV181T2tfWFZ6T0daeXc?oc=5) — **InsuranceAsia News** · 10-21 08:31
 - [Firm Advises Clearway on Agreements with PacifiCorp for Additional 210 MW of Battery Energy Storage in Utah](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUmNiU0JReXdPTFdsNHR3YzlLM2ZmTGFOTVlQZnVEdmpadzZGZzBHRG1WVjJadjVmeG5MVHdiajg1ejRTc0hBSm5XYldEU054YVVVRkc1c1VTeExQSTVGdDJjUlVJZm9kQWlmLXJpcTFiSFpBSEhsSDk4XzJPQXJOWGJlVXg4STVCdTY2cDNNc29NeWM0V1JNRURyZXR0UU9lSkJ6RUp1VjM5S2NQSWVRM25JTk1iTldJM1FTckZJNUpyallSOWRSNDFBRkdmQ29PNG9CU25veEVablRQbHc?oc=5) — **Wilson Sonsini** · 10-21 06:25
 - [Polaris Renewable Energy Awards Key Supply Contract and Issues Notice to Proceed on Punta Lima Battery Storage Investment](https://news.google.com/rss/articles/CBMijgJBVV95cUxPU0FyampKRUJqdE5Rci1JZ1FPM2Yzcm45ajRUN0VpZ2FTT3RxU3VxNUswbk9NWEtiRUd4d3ZBSW5rdVhiNlZxUnByR2hxbnllaFdCcDJaVU52TFBfdkFNcDNTM0F0M05HNFVZWmswQVJ3ZTBrUTREOVhKOXN4Y2dRaExpbUdsNEhHeHFSR0NacTZTVGNYYlN6V05uVlEtd0dyRTZ2OGdJX3VLM0lwMk54bUVlZHhXZk8yWnFNb0pSRXhJWHhjd3U0ckx1em13U00zcUpMcmZkQ2JwcnJUdzhFUWdHYWV0WjdIbzVQQTFEVmVKVkFnZkxiMzZhWjV5QTRabmxGRXJ0NEtPQmdaUUE?oc=5) — **TradingView** · 10-21 06:10
 - [Polaris Renewable Energy Inc. (PIF) Awards BESS Supply; Expects \~\$12.5M First-Year EBITDA](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYWJETmNzQ3hVcnVKODlZUGVNZ3plbzVpU3k3ZENnZFZpZDNxSWNSUHpONlZyQUhfOTJXdTZnLTBKNl9sUVJMU2VRb0czT3ltTkJJc0hlUjNxRVpFWGRkMVJDbThMRTNSWVJSVk1XNnFWOFJKRjNRUHNGOTBuWjkwNnVZRWo5WWl1NTZrXzRjRDlnR25sbjNULTlEWTByNVJaWE5FOVdwdzdJV2FtSVh1c0V1YTFKQ0UwTXpObmZQemdJcmhWaEFnZ2F0TDdLaXJkWFk0anM0UmVibFU0SlE?oc=5) — **TradingView** · 10-21 06:10
@@ -263,7 +268,6 @@ modified: 2026-10-21T08:14+09:00
 - [Tesla-powered BESS project of 300 MWh breaks ground in Bulgaria](https://news.google.com/rss/articles/CBMipgFBVV95cUxQczFxVFpYUmdET0RuakRLR1NZTkZVajBKT0FiRm1yY3U1MGtZam93Q2tzSl9jM293UW9GZ0hocnBNQkI5eGIzVWdkTDRfV3hLT1RlWjZyLUNtU0xPWkt4N1hxd0J3U3pGMnBMckF4OWltOFB0R0R5SV9NMjc2Z3MteFp1QzVKb3ZBVklPT1BRejdQdTgzRjhYc1RMVDZHZFhsal9kd3dn?oc=5) — **Renewables Now** · 10-20 23:44
 - [Romania's Electrica eyes 355 mln euro EIB financing, 185 mln euro BESS investment](https://news.google.com/rss/articles/CBMisgFBVV95cUxQUDYwTzIzNWRjR2cwbjNmZGxzYzBocVRWQkRZZ3l1XzlyQWpSMzZNZmZuOU0xZHlZS2MxWEFadnZqUHJWeHZlMFRtSDcyLUhQbkc0WjVfZUxKWUxwbU43ZzZZWVZ2Z3oxMUxLeXEyeW9PMnprdktlZ0RsZHJSbmZpUktocDB4RWktSnVkSGhVbjBaX05kdHpsTHBtVmJDakpRVFlOcUd5VW9aaXp0V1BRVXJn?oc=5) — **SeeNews** · 10-20 23:43
 - [‘What are the blindspots right now’: The shifting anatomy of BESS capex](https://news.google.com/rss/articles/CBMiowFBVV95cUxOWTlNQ0FqcmZaNDNvUVRydnB0NVhJX3dBT2FQaW9CcHZKUVZDNlFwZkdKWTZRZTlIYWdtdjVBTHRQd0M2Y0pwRXJuaUl3eDVMeWdrVkxSRjBEOElqY2lScks4RTZLb0pkTnhwMFBEcWxfMHNDRExfdWpDTHFvWEtwZlVTeXBUd2Q5WVVDU1VnZFY1QTRmUUxpYUJWMHVhWEdIZFVR?oc=5) — **Energy-Storage.News** · 10-20 22:04
-- [Natural Power supports French BESS financing](https://news.google.com/rss/articles/CBMimgFBVV95cUxOVG5CaU1pVU1kcDM4RlZCWVk2RFhqUTY4cGtleEJ6S2RPMHBtekJTVk8zRklZaGFCcVhpTl9SWWE5RURPU3ZVYUsxb0NyazFSdFNLSFMyNFRsUERyV3lNVkpDZ1hvUjNiY3ZzMHlHZGFHSExpazZIMDdmWElaazJvOGFpS0NyQnhsZzhMUlZUenAxSEY5eEhEMDln?oc=5) — **reNEWS** · 10-20 21:56
 
 ---
 
@@ -271,6 +275,7 @@ modified: 2026-10-21T08:14+09:00
 
 ### 국내 · 12건
 
+- [국가의 뇌(腦)를 노리는 ‘전력망 타격’, SMR이 안보의 최종 방패다](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZzlUcFRSYmQwc2FnbXJDRjhscDhMS09ELW9lcEJuUmZqNWlIZ25JanRHUVR4NjVUNzBBWDRrR1hjNlpody1yRHY4cVJGMHE4RzVGRV9xZDY4TC1iWFRMVjY3QWw?oc=5) — **에너지안전신문** · 10-21 08:13
 - [산일전기, 美 5대 전력망 정책 '수혜'에 블룸에너지 SOFC 낙수효과까지...](http://www.newsprime.co.kr/news/article.html?no=751738) — **프라임경제** · 10-21 08:08
   - 관련해 "핵심 타겟 시장인 미국 내에서 발전소 공동입지 명령(Co-location Order) 및 대규모 전력부하 소명 명령(Large Load Show Cause) 등 5개 전력망 정책 트랙이 가…
 - [AI 전력난 해법 될까…직류 전력망, 뭐가 좋아지나](https://news.google.com/rss/articles/CBMia0FVX3lxTFBqQVY0SjlKMmVNTHJwRlJ0ZGJuakJoTlJzU2l2TjNRSG9xOTA5TWtrLVJOQWY1Y01OZC1CZjhEM1BaNExSbmVLaW5xVE9PUVRReG1yN045T0dUcHF3eUtSSXo0TG0wWUJhaTVj?oc=5) — **일간투데이** · 10-21 07:48
@@ -288,8 +293,6 @@ modified: 2026-10-21T08:14+09:00
 - [전기차를 '움직이는 배터리'로···스마트그리드협회·KTL, V2G 상용화 협...](http://www.enewstoday.co.kr/news/articleView.html?idxno=2482483) — **이뉴스투데이** · 10-20 20:15
   - 한국스마트그리드협회(KSGA)와 한국산업기술시험원(KTL)이 전기차 배터리에 저장된 전력을 전력망으로... V2G는 전기차 배터리를 전력저장장치로 활용해 전력망과 양방향으로 전력을 주고받는 기술이다…
 - [미얀마 뉴스 - 미얀마·태국, 가스 증산·전력망 투자 논의…Dawei 거점 러시아 3자 협력도 검토](https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zNzBQQmZiZE9KUVlvTG84dG1UUHNBZzhQWmpkbkRfXzRkWjkyVjlCZzVKak4xS1UxTTEyNU1tcnVqS3RsTWNiTzBuV2lFalJTb0hR?oc=5) — **AD Shofar** · 10-20 19:20
-- [\[기고\]전력망에도 '갓길'을 열때가 됐다](https://www.fnnews.com/news/202610201827397419) — **파이낸셜뉴스** · 10-20 18:28
-  - 정부가 '전력망 혁신대책'을 발표했다. 오는 2030년까지 재생에너지 100GW 이상을 수용할 수 있도록 전력망 관련 제도를 재설계한다는 구상이다. 망 건설만으로는 재생에너지 확대 속도를 따라가기…
 
 ---
 
@@ -344,8 +347,10 @@ modified: 2026-10-21T08:14+09:00
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 12건
+### 국내 · 13건
 
+- [제주도, 국회 기후에너지환경노동위 제주 방문…에너지전환 현안 논의](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCc2o4MnNwN1EyN3ZONDlGMHl0YkdfUnJUS184UUpnZy1QclBYczlVTXBLcFZIX002Ry1JR2QxSVFBbkxKNS11Ym80Y2piLVJCX0F0UWx6bTkxMnp6Q0F3?oc=5) — **누리일보** · 10-20 13:50
+  - 관련 보도 1건: [제주환경일보](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TdHFGQW5weW5yZl9RRUtRMU9BTWFWUGU2T2hEZ2JTZ1J4RmFLNTRlS1ludlNyY0V4VnRadTIwRlRYYU9LUkVTVFNteWIwR1VaZHlOX19Cb1JjbVR1TmtieXdkM29nMXJN?oc=5)
 - [제주, 2035 탄소중립 앞두고 국회에 에너지전환 지원 요청](https://news.google.com/rss/articles/CBMib0FVX3lxTE1tRmlIdGVzN2NuS1RnRER4XzZ3WmFpcndlUl9jQTRtSE1RNXRMbmJIZ0Znalcwbm54TVJBWU53czRmQUpMbHV4UGtmcy0tNzhsNkNNUmMxdHNNXzQyalhKTm1IYmZhMnNmTGoxeEZhc9IBckFVX3lxTFBtRjBaZkhKVUJ4NTFXZkFZdTJ2YTBZWHNpelBZVnVIVWpOWnVQeWJQUHhwel9URXhQMzAtLTFXWlJ1cEdoRURQd1cxcFhpNklvQnQwZHdnM1RiVkl4djY0WTNhUC1MMC1xbjRYSWZZRTJjUQ?oc=5) — **라이브제주 LIVEJEJU** · 10-20 22:32
 - [\[ESG특집\] 블랙스톤의 87억 달러 에너지전환 펀드가 던지는 한국의 과제](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xVEtsRTFPbFBmVDBSX3VPWk04YVNXdmVSRl9DWVE2WFVUZ2ZvaF9ZSTFHMzZodlRCTmtXSENLWnpDcWR2aXZ1R2VrZHVlMENLdGRYSFl0enozNjg?oc=5) — **데일리연합** · 10-20 19:00
 - [엠씨넥스, 韓·베트남·인도 잇는 재생에너지 전환…"글로벌 ESG 경영체계 고도화"](http://www.sisunnews.co.kr/news/articleView.html?idxno=248107) — **시선뉴스** · 10-20 18:04
@@ -362,13 +367,12 @@ modified: 2026-10-21T08:14+09:00
 - [이동진 대한LPG협회 회장 “LPG 트럭으로 농촌 에너지 전환 대응...농업계와 보급 확대 협력”](https://www.agrinet.co.kr/news/articleView.html?idxno=408015) — **한국농어민신문** · 10-20 15:26
   - "LPG 트럭은 농촌의 에너지 전환 과정에서 현실적으로 활용할 수 있는 운송수단이라고 생각합니다. 농촌 현장에 친환경 화물차 보급을 확대하는 데 농업계와 협력해 나가겠습니다." 농촌에서 1톤 트럭은…
 - [남부발전, 에너지전환 아카데미 ‘아시안 파워 어워즈 ESG’ 수상](https://news.google.com/rss/articles/CBMib0FVX3lxTFBpYmRxck5oMjZ6NmpmVzdtQ0dpRjF2QU9TN25lQk5tYXZTS2k5MWJzX0U3dlo4RnZVelJiQU5NX2c3SlhVclJ5enl0MGJVaGFPdktTQmZmWnlGOXVxQjlCNmJfRlBUQlFaNzdXdzdaTdIBb0FVX3lxTFBpYmRxck5oMjZ6NmpmVzdtQ0dpRjF2QU9TN25lQk5tYXZTS2k5MWJzX0U3dlo4RnZVelJiQU5NX2c3SlhVclJ5enl0MGJVaGFPdktTQmZmWnlGOXVxQjlCNmJfRlBUQlFaNzdXdzdaTQ?oc=5) — **중앙뉴스** · 10-20 15:14
-- [제주도, 국회 기후에너지환경노동위 제주 방문…에너지전환 현안 논의](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCc2o4MnNwN1EyN3ZONDlGMHl0YkdfUnJUS184UUpnZy1QclBYczlVTXBLcFZIX002Ry1JR2QxSVFBbkxKNS11Ym80Y2piLVJCX0F0UWx6bTkxMnp6Q0F3?oc=5) — **누리일보** · 10-20 13:50
 - [제주도, 국회 기후특위 현장 방문 맞춰 에너지 전환 현안 논의 본격화](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uSGJBVnNsYmlYNEVGOVEyLTV4Smx2OGZCS09BeG9taGFDT09rdFVrVGdlOTdNQWJ5eFpYdUpkZTJsWEd2UmRacTdoNkZNX0xFaktFS3FKd3NkeElL?oc=5) — **피디언뉴스** · 10-20 13:47
 
-### 해외 · 20건
+### 해외 · 21건
 
 - [Blackstone Raises \$8.7B for Energy Transition Fund](https://news.google.com/rss/articles/CBMikgFBVV95cUxNYjlIVTZpU25HUDNVTlFSVmxmT05WMW9aZ2xORTN0eUZ0WmtrazBRQVUtbVJTakRnQWJxVmZ6TTl3Q216eDdvM29LR3dxY0E4NTFraHRxSzQyWHE3UHc4NnF4aGJMcWM2SGZmUE96aXY2Y2JralNVSjZRNnVrZ3owSXlhT2ZlaEMzUUFveTJKODJxZw?oc=5) — **Briefs Finance** · 10-20 00:44
-  - 관련 보도 7건: [CryptoRank](https://news.google.com/rss/articles/CBMidkFVX3lxTE4xUmR2MkdGZU1vYTMyVERQemtVTThsT2YwRlZoVmhVMVg5UGJ2dl83ektfTl93ZV9XNDM4azMtcmM2Z1h5cWVJdVZ0TkRRd3h1YUhackJJUFFVekhEeWcxWGRLb1dTZURReTE2cTNYXzZHTnNzSnc?oc=5), [Renewables Now](https://news.google.com/rss/articles/CBMilAFBVV95cUxPXzVMcjFWOGZwcXdqUWhrYzctaC0xSEhEZDZ6dGRKVm5RUmF5ZXE2ZFVLX1k4Y0NnT0JPVjJWQ2E2TUZEWDZxODR3QUVMTm1seGZBZGJ4NWo1X0ZmQ0RVNEVvUlNBTGlsY2Mxczg3TlljRXRUTkdyNnQzdjlybEtxZ3I3anBCUXJWckRCbTY2NzFiSkYx?oc=5), [EnergyWatch](https://news.google.com/rss/articles/CBMickFVX3lxTE8zUVFQOWYzRHBqLV8tR0xJaXhia2tqQWVHUHp0ckdoYXhYdXVCX2xxOTNlT05uVmhfZGpsSGR5YW5zWEFuRG1kXzZqRnd6dzk2MURwQWFrSDNwbUtOcllWQzlWLWw3ejViYlN4QUx5M0xhUQ?oc=5), [AltAssets Private Equity News](https://news.google.com/rss/articles/CBMixwFBVV95cUxQVURXNzBzTFV2ZEZiZGpWWkNyVDRsd2lrX0Q3X1VrcHB4UTdlVW15Y2pWaGZNdDNTY2ZpQlBRc0VFM3JJelpKTzRUMFhXcEZNUVRBaEVESUFxRnFIUGpYRXNVLW9ZRUEyeW9KVTdIT3VteUVGa0xIZERoaFNiVU91bnE3RXJkZkNLWmh3NmtlbFRXd052azdub25fTzdlRHFtTFZRT0FMZ2hWWlpVZmpnVUJFeFFVUzBUTW84dXVsSjhFaTRBX0VF?oc=5), [IndexBox](https://news.google.com/rss/articles/CBMilAFBVV95cUxOT2xWdWNXUVNidV9pTWd4SjFodkFmWFdZV2doeWxjQ0wyeWhoQzZPMS11VFctMkpGWmp3SmVTRmt5NUozWTdVaGI4cFNYbGtQZ3JKRTQ3TTdLQ1BDaVVkTTM4TVh2b1FPeEVIbkdXZ05TUGdBUWRIemZidXJiUXAzMWN0ZG1TLXlPNy13OEJ4OHRMY1NX?oc=5), [Buyouts](https://news.google.com/rss/articles/CBMipgFBVV95cUxPUUVxSVB5NF9TVGJLSG9veTdJV1RIV1Vja0cyNGRSMVFGVjc2OXhwRk52OTBWeW5rWGVYOVRITU5LUElaVXA1N3lpbmpKb3hUTEE4bFgxWGFIRFA0cUR1cVJwUlQ2YURHc3A3S3JPZGEzejdQSlVEZEhBSjNvQ1ZNZGZORC1tZkFPM3VCUDNJVVpBaGUyVi1XUXNiTm16cl9aalFVSk1n?oc=5), [ESG News](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sNDF2dTdxQzlkOE5QMEZ2cTRIWGQzRU5SZUtxTTJ6SThjNllCUWhjbnhiWEFfdHN6a2RmMDBtb2x2NGVLbTIxNUdua005QkxOdXFoTDR5a2VjazI5MjRra0dSMWNsNkk?oc=5)
+  - 관련 보도 8건: [CryptoRank](https://news.google.com/rss/articles/CBMidkFVX3lxTE4xUmR2MkdGZU1vYTMyVERQemtVTThsT2YwRlZoVmhVMVg5UGJ2dl83ektfTl93ZV9XNDM4azMtcmM2Z1h5cWVJdVZ0TkRRd3h1YUhackJJUFFVekhEeWcxWGRLb1dTZURReTE2cTNYXzZHTnNzSnc?oc=5), [Renewables Now](https://news.google.com/rss/articles/CBMilAFBVV95cUxPXzVMcjFWOGZwcXdqUWhrYzctaC0xSEhEZDZ6dGRKVm5RUmF5ZXE2ZFVLX1k4Y0NnT0JPVjJWQ2E2TUZEWDZxODR3QUVMTm1seGZBZGJ4NWo1X0ZmQ0RVNEVvUlNBTGlsY2Mxczg3TlljRXRUTkdyNnQzdjlybEtxZ3I3anBCUXJWckRCbTY2NzFiSkYx?oc=5), [EnergyWatch](https://news.google.com/rss/articles/CBMickFVX3lxTE8zUVFQOWYzRHBqLV8tR0xJaXhia2tqQWVHUHp0ckdoYXhYdXVCX2xxOTNlT05uVmhfZGpsSGR5YW5zWEFuRG1kXzZqRnd6dzk2MURwQWFrSDNwbUtOcllWQzlWLWw3ejViYlN4QUx5M0xhUQ?oc=5), [AltAssets Private Equity News](https://news.google.com/rss/articles/CBMixwFBVV95cUxQVURXNzBzTFV2ZEZiZGpWWkNyVDRsd2lrX0Q3X1VrcHB4UTdlVW15Y2pWaGZNdDNTY2ZpQlBRc0VFM3JJelpKTzRUMFhXcEZNUVRBaEVESUFxRnFIUGpYRXNVLW9ZRUEyeW9KVTdIT3VteUVGa0xIZERoaFNiVU91bnE3RXJkZkNLWmh3NmtlbFRXd052azdub25fTzdlRHFtTFZRT0FMZ2hWWlpVZmpnVUJFeFFVUzBUTW84dXVsSjhFaTRBX0VF?oc=5), [IndexBox](https://news.google.com/rss/articles/CBMilAFBVV95cUxOT2xWdWNXUVNidV9pTWd4SjFodkFmWFdZV2doeWxjQ0wyeWhoQzZPMS11VFctMkpGWmp3SmVTRmt5NUozWTdVaGI4cFNYbGtQZ3JKRTQ3TTdLQ1BDaVVkTTM4TVh2b1FPeEVIbkdXZ05TUGdBUWRIemZidXJiUXAzMWN0ZG1TLXlPNy13OEJ4OHRMY1NX?oc=5), [Buyouts](https://news.google.com/rss/articles/CBMipgFBVV95cUxPUUVxSVB5NF9TVGJLSG9veTdJV1RIV1Vja0cyNGRSMVFGVjc2OXhwRk52OTBWeW5rWGVYOVRITU5LUElaVXA1N3lpbmpKb3hUTEE4bFgxWGFIRFA0cUR1cVJwUlQ2YURHc3A3S3JPZGEzejdQSlVEZEhBSjNvQ1ZNZGZORC1tZkFPM3VCUDNJVVpBaGUyVi1XUXNiTm16cl9aalFVSk1n?oc=5), [ESG News](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sNDF2dTdxQzlkOE5QMEZ2cTRIWGQzRU5SZUtxTTJ6SThjNllCUWhjbnhiWEFfdHN6a2RmMDBtb2x2NGVLbTIxNUdua005QkxOdXFoTDR5a2VjazI5MjRra0dSMWNsNkk?oc=5), [ImpactAlpha](https://news.google.com/rss/articles/CBMinwFBVV95cUxNckJGZkF2TmJ1UmtSY01HWmZGeTVpRlRGRzNYSTRsRndPeTVUblpOd3hCdk1Bd0Y1U1VCRUt5NHZwMUNoQWNucllCeElleUNPNmJYZXkzTWNvaWhBOTUxQXJIdExOTEphLWtQTTMxSERGVUdpRGlhVmlZRkNfdFRVenBLQnRLUmk5ckRsYjk0Unptc3ZVZWw3dkFCRWExbFU?oc=5)
 - [Singapore, Sweden to boost cooperation in clean energy transition, public policy](https://news.google.com/rss/articles/CBMixAFBVV95cUxOdU0tYzh3aUgxczhkakVYMW02VmJTQjM4bEhNZ3JvUXFvTTlXRXZwNGpWVlhSeU1NT3dqRGhpZlJUZHlBM0dVVXd3UEJBLWdHdWFUOEczSTFtM0FTeDA2LVBydldsZk9mMzMzYlIza2F5bDY2UnczUHZoZUR1RXh1b3dia3FpS0NJaDU4MDg5LW5fV0FHTGs0R2NZRUFsUW1iTncyVWxBT19KcVF0TTREN0NfQTgzWmZDZXFaZUlLYkEzRzhy?oc=5) — **The Straits Times** · 10-20 22:08
   - 관련 보도 1건: [Yahoo News Singapore](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU2FqR1RDcjR0NmdjblVsWW5xNHM2aGdFOEE2bzV3TzUzYWFRYjFQU2R2WlpKaG5ndWx2STR6MEhvSUVxYXFvcmdwTDRYMkdhZ0VlY0J4emZmNElKQm9RTjFNTVpWbHdqRzUzYXE3T1Z2VEx1SkZHcmVyZ3VmdVZOMjVqSGRBV3lZ?oc=5)
 - [Moeve drives digitalization to accelerate energy transition](https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUxkNk5ITWNQVEFDTlRNQTlEcnkxN0tfdEttY1l6TThabHhQNWxVR0N6RmpiTW5ObkxjS2EzZFE4LTk5LVZHemZQTTRfU1FjRjZNTXdSdWZyeFhhVHlYdW9IcXhDRnR3N2x4amlGT0tIQ2JmeHFPRjExYmxHUV81bFVXbFpqejVfQzRVM1o4VVFUVEI4QmlseHI0TTl3WXdVTGhHUzdZMTczR1NxYzlPSQ?oc=5) — **NTT Data** · 10-21 04:48
@@ -377,10 +381,10 @@ modified: 2026-10-21T08:14+09:00
 - [EPI rebrands to NAC Energy as it reinforces energy transition strategy](https://news.google.com/rss/articles/CBMizwFBVV95cUxNZVcwZlRtVHRBTUdxRG51VjNhZ1VDT2c3VjNTbkVWWWFOVm4xb3NOYWtwMmtSQVA2U2hWQ25DcGp5NnpvUmhKYmRLUGl2MGRVN3BiRUtjQXBNS2hwOVNYNkd1aktiSTN2Und4aHAzWmpNaHdtNzFaT2t0YzVPNzJtcUdUckNZUWlZWEpwQnhJcDYzV1VXdWRmZnlnQ2Z4SW5sekRQMzVuUGhtdVZ6ZW5fOWhRVFZxYUJrZGtwLUNrLU14ek1rRGxZTXpBVnZhRkXSAc8BQVVfeXFMTWVXMGZUbVR0QU1HcURudVYzYWdVQ09nN1YzU25FVllhTlZuMW9zTmFrcDJrUkFQNlNoVkNuQ3BqeTZ6b1JoSmJkS1BpdjBkVTdwYkVLY0FwTUtocDlTWDZHdWpLYkkzdlJ3eGhwM1pqTWh3bTcxWk9rdGM1TzcybXFHVHJDWVFpWVhKcEJ4SXA2M1dVV3VkZmZ5Z0NmeElubHpEUDM1blBobXVWemVuXzloUVRWcWFCa2RrcC1Day1NeHpNa0RsWU16QVZ2YUZF?oc=5) — **The Manila Times** · 10-21 01:06
 - [Energy system transition in the Middle East](https://news.google.com/rss/articles/CBMilgFBVV95cUxQemZvYkRLenZFZ1VEQUU4SVFNaFZaX1A4R3FHTGNZTXFsMDc4X0JISVVuYy1LTlVwWlBUWWZfUDlUUDlKLUNHaE9DNXVrek1FaDBSYXVTbndNcVg1czlKWmtScDF5cy1XQmJ1ekdPWVR4TlRKT2ZtM0FQQXNxRFJFTDRkeVp3NEU0V3M2aVdiZTJ0RE82N0E?oc=5) — **Kearney** · 10-21 00:59
 - [Blackstone closes latest energy transition fund at \$8.7bn, backs several data center focused energy firms](https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMUdMTmpxZTlHdmY1MjJ2TDFEQ01YbTVENkg5alZ2Y3Rnb09pTzFRZTVlMzFCMmhWaF9tZ0JHZUZiNzNwdHVqd25Pd2tmcGFYbk51UXVqbTl4NVlXa2NTZU95T2NweWl6ZnNETUFXT1lGWUEzS3FzN245anpvNGhHR3FjVWdSM0ljUjdKcjlGVlhzb2dndEdNSmRqSnJ6Zk1QU1Vfd2FLQzFiZlV2VTNKSHl2dnUycm56eUJTbl94SVhkdm1oMWNmSjZ3dUVQQ2E4bzhjUFFOc2xYQ0lJSXZF?oc=5) — **Data Center Dynamics** · 10-21 00:01
+- [Fueling developing world's energy transition, China takes green energy global](https://news.google.com/rss/articles/CBMifEFVX3lxTFBtZ3AxYnFqcTVMMTBfS1h4V0czMXFXZWF6NVRjWFUtNzdmOG1MRUluMGc5MlVvdDhKcnk3V29nekxaZ0toSU9HQmNDc3doUzVJeks5WUhfeFhUbnpMc1YyXzZOVE5pUWJiQWx0cU9CblRudjFGUXNoYVlFVG8?oc=5) — **Xinhua** · 10-20 23:22
 - [Energy transition in fisheries and aquaculture](https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlpkV3NYR1dLMEpxeWkyb082alJrSHlraF9uNjdkTTk2YmxvOTBIYmtGMUlWaFMydk5UWU1SUm1nd2Zudk1WMUxqSVdFQTY2QlJ1WC1vRzc5Wld1UWM5aEdTWHVhV1dkZ2x1czBIVnlZUl94ZHpqRFlEMTRuYW5OazJPRUVBQ2tPcV9UVjhzM0QwaTVjNmpiWVNxSmdrNEw2dU5Kbm5UbXFmbkoxdHR3V0pIa1V1V0E?oc=5) — **European Commission** · 10-20 23:15
 - [IRENA: record renewables growth not enough to deliver the transition](https://news.google.com/rss/articles/CBMilwFBVV95cUxPX0RuZVNOU0RDdzk2dXVJQTA5SXFzTzF5YkkxdE5ibWhoZDduVklfNmNlYjNvRWNQSDhLZm0xVUZoLTN3RGdsTmZsbXptc3hNakpNOXRPYlNwdFZPUWdRLW4tTi16N2VDTzdodjVhOXBEbjYzdnE3SFVkVEtXY3dzZl9TMGVHMFhORDRMLTNCYTkyMi1jaE9B?oc=5) — **pv Europe** · 10-20 22:00
 - [Energy Transition Update - Rising Solar Storage Market Spurs Global Clean Energy Shift](https://news.google.com/rss/articles/CBMimwFBVV95cUxOdUpLRW1kdUhCbFB3LXF5SENXOTh3VnhsblJHZnFpZkgzVnJ2WGRWM01LWHhfT1A3M2F4dXQ3NlJraXpuMzFvaC1OMzlERTl2dWU0eS1ER216RmswbkZlUGdTelFyU3JwamFHTGtJdmYyd1lSY3pkaUQ2ZVFYRmJtSGRMeFlLdVFrSVo2cjBoTkxFR0M3dkdtR0syWQ?oc=5) — **Yahoo Finance** · 10-20 20:37
-- [Europe as a case study, not a blueprint: what Central Africa can take from the EU’s energy transition](https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQk8tWkt3emJvNTJMV2IzeW9nLW1sdENvWG5QNnhOTXJ3OGRJV1JTczlET0hMZno2QWQ3SWd6dFIxa0o3dmdoeGVmQU9HUXFsWHlJUFptMFlfb1RPQzl0YXFTZVhWNDRscVE4bDlPYXh1TWFIbmJKaDBzaUZfc1l6OXRxN3BGSDdBTFNadUZqcktzQ0I5TEcxdWRBTGxNZDlKRDI0NmgtTV94UEZZWE9DZkNzbzF5bWNOUUVJRTEwci1tNXdnSlFWWWpDUjgtTnphM25kWnA3WktOaXBzT3ByRDlpLXJjWmtLYWtxb3RETXdqVE0?oc=5) — **Sciences Po** · 10-20 19:57
 
 ---
 
