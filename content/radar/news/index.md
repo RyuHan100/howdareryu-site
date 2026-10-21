@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-21
-modified: 2026-10-21T09:04+09:00
+modified: 2026-10-21T09:40+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-21 09:04 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-21 09:40 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-21|10-21 클리핑]] — 기사 **232건** (국내 152 · 해외 80)
+> [!example] [[radar/news/2026/10-21|10-21 클리핑]] — 기사 **241건** (국내 159 · 해외 82)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -20,11 +20,13 @@ modified: 2026-10-21T09:04+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 6건
+### 국내 · 8건
 
 - [한국미래기술교육연구원, 탄소시장 경제성·대응전략 세미나 개최](http://www.hansbiz.co.kr/news/articleView.html?idxno=874617) — **한스경제** · 10-21 08:00 · 국제감축 / Article 6
   - 한국미래기술교육연구원 \| 서울\=한스경제 김창수 기자 \| 한국미래기술교육연구원은 오는 11월 19일 '탄소가격 상승에 따른 탄소시장 경제성 비교 및 대응 전략' 세미나를 개최한다고 21일 밝혔다. 이…
-  - 관련 보도 1건: [가스신문](https://www.gasnews.com/news/articleView.html?idxno=127268)
+  - 관련 보도 2건: [가스신문](https://www.gasnews.com/news/articleView.html?idxno=127268), [핀포인트뉴스](https://www.pinpointnews.co.kr/news/articleView.html?idxno=497093)
+- [배출권거래제 활성화…'탄소배출 감축설비 투자'가 관건](https://www.kmecnews.co.kr/news/articleView.html?idxno=52392) — **기계설비신문** · 10-21 09:28 · 국제감축 / Article 6 · 배출권거래제 / ETS
+  - 한국미래기술교육원은 11월 19일 여의도 FKI 타워에서 '탄소가격 상승에 따른 탄소 시장 경제성 비교 및 대응 전략' 세미나를 개최한다고 21일 밝혔다. 이번 세미나는 배출권거래제와 글로벌 탄소규…
 - [배출권 관리부터 감축사업까지... 현대차증권, 탄소금융 해법 논의](http://www.lkp.news/news/articleView.html?idxno=85217) — **리버티코리아포스트** · 10-20 17:02 · 배출권거래제 / ETS · NDC
   - 국내 탄소 시장 활성화에 기여하겠다"고 말했다. 이번 행사는 시장 동향을 파악하는 작업과 개별 사업 검토를 연결하는 데 초점을 맞췄다. 현대차증권이 수행해 온 탄소금융 사업에 기업 실무진 대상 정보…
 - [유럽 싱크탱크 “한국 해외 감축실적 부풀려졌을 가능성 …국제감축은 ‘양의 탈을 쓴 늑대’”](https://www.khan.co.kr/article/202610201553001) — **경향신문** · 10-20 15:53 · 국제감축 / Article 6 · NDC · 자발적 탄소시장 / VCM
@@ -34,8 +36,9 @@ modified: 2026-10-21T09:04+09:00
 - [유럽 싱크탱크 한국 자발적 탄소시장에 우려 표명, "감축 실적 발급 과도"](https://www.businesspost.co.kr/BP?command=article_view&num=449752) — **비즈니스포스트** · 10-20 10:46 · 국제감축 / Article 6 · NDC · 자발적 탄소시장 / VCM
   - 올해 4월 대한상공회의소에서 열린 '한국형 자발적 탄소시장 얼라이언스' 출범식에서 주요 인사들이 기념사진을 촬영하고 있다. \<기획예산처\> 유럽의 탄소시장 전문 싱크탱크가 한국의 국제감축사업 및 자발…
 
-### 해외 · 11건
+### 해외 · 12건
 
+- [Australia’s carbon market waits for higher prices and firmer policy](https://news.google.com/rss/articles/CBMinAFBVV95cUxNOGtLejVjWUUxUks4bVlXVUttVXU2TmlXUUNLRUhLbG5GMTlqTjNuQjY5c0NqYVFlUnBWNl91S3FWZm5tT3Mzb0dlT1ktTHJhdGhYaGpoeFNVbHhfRVYwMUt0dWFoel9NOFlVWTVqcXFsZDFvQ3h2T2I2YzhxMVc1Z1NWbGNSSkNWWE8yandBaXViMHZ3YWdodFZ5U08?oc=5) — **Agri Investor** · 10-21 09:20
 - [A player in the carbon market](https://news.google.com/rss/articles/CBMic0FVX3lxTE9zUUFOQ0o5V3JaazBqVW1CTzFPMU5RLURBNjVOUFhZOUlWZGJuZjZKdko1dkU3Rzk2bElyOTh0RlFuU25nWjcwN3ZmX01SMjFJdmNlV3dseUdFcmFkRDhvSEppVmdEQnRwZkxkUXk4Q2dIUknSAXhBVV95cUxNSlNUZ2pUWHgzRDBhcnVxOTktOUpzQUNjZE1nbUtiWUhpMHRSSkVPc1dzbXFrSnhlNEVJbGk2c1BmQlVTWVQwZ1AtUG1leFZob2FhT05VeXVELUVlWEFIRHlGaVBoT0llTU5UM1d2SW9GS0FiZ3ItRS0?oc=5) — **Inquirer.net** · 10-21 06:35 · 자발적 탄소시장 / VCM
 - [Google and McKinsey Contract 320,000 Tonnes of Carbon Removal From Working Trees](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoU2lKNVZ2TnkwbzkzTnA5Tms3cUpfSmFBWnJuRlR0dUNabm1BMjE4cjl2aUtBWlA5UlVFN2p0dUhDQlFBcnMxXzl5NmNMa1c1MGw1aFp5SUY1dWoxREE?oc=5) — **ESG News** · 10-21 04:25
 - [Philippines Moves to Build National Carbon Market Under New Executive Order](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbWxWMWs5U05IWWQ4b04wMWZRNHA4WWs4Mnhpa0t4TW82aVRKb0N2TEJCMWxXRC15M25IN2RaejlUdWdJTFo2RGVYMTBxSUNWUWFlQlgwMGJobk90dGF6aXZia0VTQW92UFNnbklMLWpTLUY4eWkxS0VIX3I1QzBTNVY4QmEyWEFoeWw1SXFpU053c1JrLXlpajljbnd6VTl2Zm92YXdmSWE5b0VSbXY5cFExcHRUcU1IUXFLYWVmWkRmZFZpRFRzdHl1bUVBRW1jT19IVEFGNzROTGNLb0s0?oc=5) — **CarbonCredits.com** · 10-21 01:50 · 국제감축 / Article 6 · 자발적 탄소시장 / VCM
@@ -97,17 +100,18 @@ modified: 2026-10-21T09:04+09:00
 
 ## NDC
 
-### 국내 · 11건
+### 국내 · 12건
 
 - [한전KDN, 초등학교 100곳서 기후재난 대응 환경교육](https://www.pinpointnews.co.kr/news/articleView.html?idxno=496833) — **핀포인트뉴스** · 10-20 11:16
   - 온실가스 감축 목표도 세웠다. 한전KDN은 2035년까지 온실가스를 60% 줄이는 것을 목표로 환경경영을 추진하고 있으며, 2025년에는 '대한민국 환경 대상'과 '한국 ESG대상'을 수상했다. 다…
   - 관련 보도 2건: [디스커버리뉴스(DISCOVERYNEWS)](https://www.discoverynews.kr/news/articleView.html?idxno=1104458), [이뉴스투데이](http://www.enewstoday.co.kr/news/articleView.html?idxno=2482464)
+- [남양주시, ‘탄소중립 지원센터’ 현판식… 기후위기 대응 거점 본격 가...](https://www.kgnews.co.kr/news/article.html?no=916044) — **경기신문** · 10-20 18:14
+  - 오는 2030년까지 온실가스 배출량을 41.3% 감축, 2050년 탄소중립 달성 목표 남양주시가 온실가스 감축과 기후변화 대응 역량을 결집할 전담 조직을 공식 출범시키며 탄소중립 선도 도시 도약에…
+  - 관련 보도 1건: [연합뉴스](https://www.yna.co.kr/view/AKR20261021045100060?input=1195m)
 - [제26회 한·일 조경인 축구대회 인천서 개최…기후위기 대응 협력 모색](http://www.thefirstmedia.net/news/articleView.html?idxno=211350) — **더퍼스트미디어** · 10-20 21:16
   - 온실가스 감축뿐 아니라 기후변화에 따른 도시의 피해를 줄이고 회복력을 높이는 방안도 주요 논의 대상이... 사람과 자연이 조화를 이루는 도시를 조성한다는 공통의 목표를 바탕으로 양국의 조경 분야 협…
 - [광양시, 탄소중립 속도전…지난해 온실가스 6567톤 절감](http://www.jndn.com/article.php?aid=1792488117441495107) — **jndn.com** · 10-20 18:24
   - 2030년까지 2018년 대비 온실가스 배출량을 40% 줄이는 것을 목표로 건물·수송·폐기물 등 6개 분야에서 감축 사업을 추진하고 있다. 수송 부문에서는 전기차 보급과 노후 경유차 감축에 주력한다…
-- [남양주시, ‘탄소중립 지원센터’ 현판식… 기후위기 대응 거점 본격 가...](https://www.kgnews.co.kr/news/article.html?no=916044) — **경기신문** · 10-20 18:14
-  - 오는 2030년까지 온실가스 배출량을 41.3% 감축, 2050년 탄소중립 달성 목표 남양주시가 온실가스 감축과 기후변화 대응 역량을 결집할 전담 조직을 공식 출범시키며 탄소중립 선도 도시 도약에…
 - [남양주시, 탄소중립 지원센터 개소… 2030년 온실가스 41.3% 감축 추진](https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003277070&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news) — **OhmyNews** · 10-20 17:56
   - 한편, 남양주시는 '제1차 탄소중립 녹색성장 기본계획'을 수립하고 2030년까지 온실가스 41.3% 감축과 2050년 탄소중립 달성을 목표로 분야별 정책을 추진하고 있다. ▲ 경기 남양주시는 남양주…
 - [남양주 온실가스 저감 선봉 '탄소중립 지원센터' 문 열어](https://www.edaily.co.kr/News/Read?newsId=04749446645614888&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 10-20 17:46
@@ -229,13 +233,13 @@ modified: 2026-10-21T09:04+09:00
 
 ## ESS
 
-### 국내 · 26건
+### 국내 · 30건
 
-- [한수원 참여 타지키스탄 태양광·ESS 사업 준공 … 중앙아시아 진출 교두보 마련](https://news.google.com/rss/articles/CBMibEFVX3lxTE9JM3BmcFZJWF9sNTNGVndydVFUUElKR21FRmhrSU4xdnd3dGtYc0xVMTVLbVg2VnVBQURBZkFOenFIM2d3cEI5TEFJRkFaOWJZTk0wUDA2bTd1NElXSG5VYzFLMkg5akdjVjhPNg?oc=5) — **워크투데이** · 10-20 13:19
-  - 관련 보도 5건: [더팩트](https://news.tf.co.kr/read/economy/2378448.htm), [한국경제TV](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610200151&t=NN), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=556515), [국토일보](http://www.ikld.kr/news/articleView.html?idxno=342560), [천지일보](https://www.newscj.com/news/articleView.html?idxno=3441825)
 - [삼성운용, KODEX 전고체배터리ESS TOP2플러스 순자산 2천억 돌파](https://view.asiae.co.kr/article/2026102108550000919) — **view.asiae.co.kr** · 10-21 08:55
   - 삼성자산운용의 에너지저장장치(ESS) 및 전고체배터리 관련 상장지수펀드(ETF)가 개인 투자자들의 자금 유입에 힘입어 상장 4개월 만에 순자산 2000억원을 넘어섰다. 21일 삼성자산운용은 'KOD…
-  - 관련 보도 3건: [아시아경제](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDQ2NDdHdvWnNlY1JQa0RPRGtXSEFyQjYyZXJES2xWelh0TU1iSEp6djFqNmxBZm53cFJPSlgwZ2l3Q2Rhd3VfWjZqYTNRbmJ4S1NZcmVOcXNobkVQMEMyLXZB?oc=5), [서울경제](https://www.sedaily.com/article/20104109?ref=naver), [월요신문](https://www.wolyo.co.kr/news/articleView.html?idxno=319344)
+  - 관련 보도 7건: [아시아경제](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDQ2NDdHdvWnNlY1JQa0RPRGtXSEFyQjYyZXJES2xWelh0TU1iSEp6djFqNmxBZm53cFJPSlgwZ2l3Q2Rhd3VfWjZqYTNRbmJ4S1NZcmVOcXNobkVQMEMyLXZB?oc=5), [서울경제](https://www.sedaily.com/article/20104109?ref=naver), [월요신문](https://www.wolyo.co.kr/news/articleView.html?idxno=319344), [메가경제](https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065571317690428), [포인트데일리](https://www.pointdaily.co.kr/news/articleView.html?idxno=323003), [팝콘뉴스](http://www.popcornnews.net/news/articleView.html?idxno=136703), [더페어](https://www.thefairnews.co.kr/news/articleView.html?idxno=91380)
+- [한수원 참여 타지키스탄 태양광·ESS 사업 준공 … 중앙아시아 진출 교두보 마련](https://news.google.com/rss/articles/CBMibEFVX3lxTE9JM3BmcFZJWF9sNTNGVndydVFUUElKR21FRmhrSU4xdnd3dGtYc0xVMTVLbVg2VnVBQURBZkFOenFIM2d3cEI5TEFJRkFaOWJZTk0wUDA2bTd1NElXSG5VYzFLMkg5akdjVjhPNg?oc=5) — **워크투데이** · 10-20 13:19
+  - 관련 보도 5건: [더팩트](https://news.tf.co.kr/read/economy/2378448.htm), [한국경제TV](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610200151&t=NN), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=556515), [국토일보](http://www.ikld.kr/news/articleView.html?idxno=342560), [천지일보](https://www.newscj.com/news/articleView.html?idxno=3441825)
 - [특징주, SK이노베이션-전력저장장치(ESS) 테마 상승세에 5.39% ↑](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NdzFsQlNxZGQ3V2hsUllNVG11RHV1Y09qYUpNRWFaeXBua09tY0Jlbzd4NDRwanBPTmlBWUwyem92alB0RVBtUGcxUldZZkdsWGc?oc=5) — **매일경제 마켓** · 10-19 11:24
   - 관련 보도 2건: [매일경제 마켓](https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wc2lDVFBhblNUSXA3TzJtT25SNGFEOWRaVXBnMnhDQThxYzNJNTRkQUdqSnJDdTg2RkVOZ0Ruamg3MFNWbmd2UGNSNEh2Wm5fTWc?oc=5), [매일경제 마켓](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iVGQwMHRIS2xpeTU5MUxBOGlKTGdINGhGT2huTkVON3BqVU52UGJVTUFuUlRTVFV0dHZIUHNPeVU5VjdFRE9YWEJmRWV2ZWYyaUE?oc=5)
 - [전력기기·ESS, 美 중간선거 수혜주 되나 - 조선비즈](https://news.google.com/rss/articles/CBMinAFBVV95cUxQbDRUb29XQXlXN2MxWlFDczRlMHVVZ1FsOGtkNTBaNkQ4RzZ0dXUtd0hnNFFqazlIaXFYZGtLaWs2TUtHc0RpdEZKemMzbUwxbWRDcVlVNUFpZ0lXRFhEd2pmQkMxV3VLTDVKQmdlNzFuSm9tWDN3VHRqbmRpYmNyZTJFUWJUaGM0Zmh0Yi1aYVJhcktERlRCWGtKbkrSAZwBQVVfeXFMUGw0VG9vV0F5VzdjMVpRQ3M0ZTB1VWdRbDhrZDUwWjZEOEc2dHV1LXdIZzRRams5SGlxWGRrS2lrNk1LR3NEaXRGSnpjM21MMW1kQ3FZVTVBaWdJV0RYRHdqZkJDMVd1S0w1SkJnZTcxbkpvbVgzd1R0am5kaWJjcmUyRVFiVGhjNGZodGItWmFSYXJLREZUQlhrSm5K?oc=5) — **Chosunbiz** · 10-21 00:35
@@ -247,21 +251,23 @@ modified: 2026-10-21T09:04+09:00
 - [작성중 한수원, 타지키스탄 전력난 해결 '지원군'…태양광·ESS 구축 완료](https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065579679853815) — **메가경제** · 10-20 14:54
   - 한국수력원자력(한수원)이 만성적인 전력난을 겪고 있는 타지키스탄에 태양광 발전시설과 에너지저장장치(ESS)를 구축해 중앙아시아 에너지 시장 진출의 발판을 마련했다. 국산 발전 기자재의 기술력을 현지…
   - 관련 보도 1건: [현대경제신문](http://www.finomy.com/news/articleView.html?idxno=264074)
+- [LG에너지솔루션, 북미 리튬 32만톤 확보…ESS 배터리 '탈중국 공급망' 구축](https://www.pinpointnews.co.kr/news/articleView.html?idxno=496933) — **핀포인트뉴스** · 10-21 09:28
+  - LG에너지솔루션이 캐나다와 미국에서 잇따라 리튬 장기 공급계약을 체결하며 북미 에너지저장장치(ESS)용 배터리 원재료 확보에 나섰다. 최근 두 건의 계약으로 리튬 정광 24만톤과 탄산리튬 8만톤을…
+- [파인엠텍, 북미 폴더블 물량 70% 늘어난다…ESS도 1000억 매출 기대](https://www.fnnews.com/news/202610210913542023) — **파이낸셜뉴스** · 10-21 09:16
+  - 폴더블 스마트폰 핵심 부품의 생산량이 늘어나는 가운데 에너지저장장치(ESS) 부품 매출까지 빠르게 확대되면서 외형 성장과 수익성 개선이 동시에 나타날 수 있다는 평가다. 21일 한양증권 이준석 연구…
 - [KODEX 전고체배터리ESS ETF, 상장 4개월 만에 순자산 2376억원](https://daily.hankooki.com/news/articleView.html?idxno=1416850) — **데일리한국** · 10-21 08:54
   - AI 산업의 성장으로 전력 수요가 늘면서 에너지저장장치(ESS)와 차세대 배터리 시장이 투자처로 주목받고 있다. 관련 기업에 투자하는 상장지수펀드(ETF)에도 자금이 유입되는 가운데 삼성자산운용의…
 - [전기차 찬바람에 고점 찍고 22% 꺾인 배터리주...증권가 “ESS가 판 바꿨다”](https://www.etoday.co.kr/news/view/2637977) — **이투데이** · 10-21 06:00
   - 증권가가 두 회사에 대해 장밋빛 전망을 내놓는 배경에는 에너지저장장치(ESS)가 이끈 3분기 깜짝 실적이 있다. LG에너지솔루션은 올 3분기 잠정 매출 9조6434억원, 영업이익 7560억원으로 전…
 - [중국 ESS 떠난 미국, 한국이 수혜자 될까?](https://news.google.com/rss/articles/CBMigAFBVV95cUxPbjh2OWZUdy13UVk2UjNNX1VZbFFGSDRTOVpCYjBMTl9uemlSZWFEOWVYb0ptR3l0ZWVlUDVUaWVCeEg5WWFxSlluSnQwQ3Y1VGs2LVNtdlJ0a0JlWEhOTmc5ZWJKamd2OUtkRERpSjVlUFVJbTZTZlUxZ3pYbVI0Vw?oc=5) — **네이버 프리미엄콘텐츠** · 10-21 06:00
-- [\[마이스\] AI 데이터센터·ESS·재생에너지 한자리…‘스마트에너지플러스 2026’ 28일 개막](https://news.google.com/rss/articles/CBMia0FVX3lxTE95VXJTNloxeFdFejZIc19NU0xnSk8yR0hldjhDbGhhM21RanpBaGR1R0VDbFN5UWdjeWN2R0V0T21qZ2lvaUdSNW85dTJ1QUdPaTN2NTFCemFQVUI3ZjRQeHdndTZOd25BQ19F?oc=5) — **https://www.kmjournal.net/** · 10-20 20:08
-- [한수원, 타지키스탄 최초 MW급 태양광발전소 준공… ESS 연계 구축](https://www.industrynews.co.kr/news/articleView.html?idxno=87873) — **인더스트리뉴스** · 10-20 18:04
-  - 인더스트리뉴스 이건오 기자 한국수력원자력이 참여한 타지키스탄 태양광발전 및 에너지저장장치(ESS) 구축사업이 준공됐다. 타지키스탄 최초의 메가와트(MW)급 태양광 발전시설을 통해 현지 전력공급 여건…
 
-### 해외 · 12건
+### 해외 · 13건
 
+- [Polaris Renewable Energy Inc. (PIF) Awards BESS Supply; Expects \~\$12.5M First-Year EBITDA](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYWJETmNzQ3hVcnVKODlZUGVNZ3plbzVpU3k3ZENnZFZpZDNxSWNSUHpONlZyQUhfOTJXdTZnLTBKNl9sUVJMU2VRb0czT3ltTkJJc0hlUjNxRVpFWGRkMVJDbThMRTNSWVJSVk1XNnFWOFJKRjNRUHNGOTBuWjkwNnVZRWo5WWl1NTZrXzRjRDlnR25sbjNULTlEWTByNVJaWE5FOVdwdzdJV2FtSVh1c0V1YTFKQ0UwTXpObmZQemdJcmhWaEFnZ2F0TDdLaXJkWFk0anM0UmVibFU0SlE?oc=5) — **TradingView** · 10-21 06:10
+  - 관련 보도 1건: [TradingView](https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaFVfVklTYXBsSzM4SG1nTGpNcUtlbXRxeGVZcGpZM1llZG5OdVd0Q2RFcDgtbnBjTGNrT2tYbDJsM1ZDMlA1Sm16aUdTcEdaMFZPSTk3dWRhVUhTb3p2aGZxOEFreE9wejRmOHhxTFhEeWM2Qmw5OGRVRDRxakt0OWI4bHpLVkhKLTcwSHNnRFZiNFV0Qi16YWE1cmFtRTRXd2R4NlZ6cVJYNF80QS1nZzJMOGtMdHNqYUxodmVFVkVlQnFqbFFZQUlkb29kTjlHNnJfRm05VS1ZMjQ?oc=5)
 - [A long way from chicken sheds, BESS market comes of age as insurers face new data centres co-location exposure](https://news.google.com/rss/articles/CBMixgFBVV95cUxOd3RyQi00MUZpRmI5cUZPN2VTcFJSb0pkb2FyRkZ2aGh3RmlOdF9KNV9maHVDcHMxcTVpNzdKNUx6S2hJRnE1MkhobGlYNGdaNW1EdjNWOVg0WVNfMWxaOU80ZjhYOW95bzhndTRWeFM4NmdJRFVoT0xINlpkb2NmbDA4ZWJLUzVLRW1VOXpYcTdzVGRSM0FzOUl3dDBhWDhRSHVOTUdEY0dkT3BDRW9UQmxuZXEzMzNLV181T2tfWFZ6T0daeXc?oc=5) — **InsuranceAsia News** · 10-21 08:31
 - [Firm Advises Clearway on Agreements with PacifiCorp for Additional 210 MW of Battery Energy Storage in Utah](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUmNiU0JReXdPTFdsNHR3YzlLM2ZmTGFOTVlQZnVEdmpadzZGZzBHRG1WVjJadjVmeG5MVHdiajg1ejRTc0hBSm5XYldEU054YVVVRkc1c1VTeExQSTVGdDJjUlVJZm9kQWlmLXJpcTFiSFpBSEhsSDk4XzJPQXJOWGJlVXg4STVCdTY2cDNNc29NeWM0V1JNRURyZXR0UU9lSkJ6RUp1VjM5S2NQSWVRM25JTk1iTldJM1FTckZJNUpyallSOWRSNDFBRkdmQ29PNG9CU25veEVablRQbHc?oc=5) — **Wilson Sonsini** · 10-21 06:25
 - [Polaris Renewable Energy Awards Key Supply Contract and Issues Notice to Proceed on Punta Lima Battery Storage Investment](https://news.google.com/rss/articles/CBMijgJBVV95cUxPU0FyampKRUJqdE5Rci1JZ1FPM2Yzcm45ajRUN0VpZ2FTT3RxU3VxNUswbk9NWEtiRUd4d3ZBSW5rdVhiNlZxUnByR2hxbnllaFdCcDJaVU52TFBfdkFNcDNTM0F0M05HNFVZWmswQVJ3ZTBrUTREOVhKOXN4Y2dRaExpbUdsNEhHeHFSR0NacTZTVGNYYlN6V05uVlEtd0dyRTZ2OGdJX3VLM0lwMk54bUVlZHhXZk8yWnFNb0pSRXhJWHhjd3U0ckx1em13U00zcUpMcmZkQ2JwcnJUdzhFUWdHYWV0WjdIbzVQQTFEVmVKVkFnZkxiMzZhWjV5QTRabmxGRXJ0NEtPQmdaUUE?oc=5) — **TradingView** · 10-21 06:10
-- [Polaris Renewable Energy Inc. (PIF) Awards BESS Supply; Expects \~\$12.5M First-Year EBITDA](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYWJETmNzQ3hVcnVKODlZUGVNZ3plbzVpU3k3ZENnZFZpZDNxSWNSUHpONlZyQUhfOTJXdTZnLTBKNl9sUVJMU2VRb0czT3ltTkJJc0hlUjNxRVpFWGRkMVJDbThMRTNSWVJSVk1XNnFWOFJKRjNRUHNGOTBuWjkwNnVZRWo5WWl1NTZrXzRjRDlnR25sbjNULTlEWTByNVJaWE5FOVdwdzdJV2FtSVh1c0V1YTFKQ0UwTXpObmZQemdJcmhWaEFnZ2F0TDdLaXJkWFk0anM0UmVibFU0SlE?oc=5) — **TradingView** · 10-21 06:10
 - [UL Solutions Introduces Certification Pathway for DC Energy Storage Systems, Simplifying Reviews of Modular Installations](https://news.google.com/rss/articles/CBMijAJBVV95cUxObmI5NGx1MlRuX2I2eTZNaDd0M1hTYWk4aEJWZzRmRFE2M0dTSnl2QnNJN1ZaTlRvQnctalVRNHJtRm5KdUZJTGI0OVZGMUUyZHRxUmpRZ0s1Z3pjNkpHcnRZdEY1allTZXV3ckdFb1Q0Yjl1TGIyTHlFN1lXZVA1Q1MzXzlBeHJ0a3JpX2JPNkJocjdhc3E5UUpaaVZXaDFrdGtxR01VSENUSVlQWWxGVXFBT3FqcnI2a0F3LU82bl9OZVNEM01RUUlzWER0aVQwUHZIRjA1and3cUdiYlFyRm9rYUliSGo5eWFybUppNUo0bzhDNHVGVnA4RDJHTHhjV3Q3dDlRN1lUeXZE?oc=5) — **FinancialContent** · 10-21 05:15
 - [The BESS availability case depends on maintenance: String vs central PCS explored](https://news.google.com/rss/articles/CBMiuAFBVV95cUxORFNGa0ZiRV9mLTQtM1pkWWpFXzlwTFFfeFJGdV9KTTg0Z0JMTm5heVUxeWtMUWlYYVNLY29XM0QyRWhnS2FRdFFOUHQzanVvMm92YktrSW5FQ2w3Z3dxbXR0Y2VpM2c5ZGdWYUd6aHBidmI1NGhrZGdSbTdYN0JXczNfdkNIaGk4aWs1SkJZc0Jvck9lZUM0dHJSb0kxU1RURlBWSDBpYmp4MjZRTENIT1M5VDZ3aVh5?oc=5) — **ESS News** · 10-21 02:02
 - [BESS Research Team plans to address zoning](https://news.google.com/rss/articles/CBMijAFBVV95cUxQWGptS1dlMjF2WTBFbGxGd3NUVUo1ZXEyeEpiaTRBa280QmM1c3dxdEJXa3RUNTJGeHk1ZXlVZ0xWNEFiU25CQUp3c3JrM202VU9COGlMSzlIU3dNZWZaRGVUZG9aSVhrclVQeFJnSk1BNUZEN1FCc2swWlM2TDk0Q09mSGRRRFJSaTZXcA?oc=5) — **Sun Community News** · 10-21 01:00
@@ -277,6 +283,8 @@ modified: 2026-10-21T09:04+09:00
 
 ### 국내 · 12건
 
+- ["LNG 직거래 막더니 전력망 규제까지"...AIDC 투자 차질 우려](https://zdnet.co.kr/view/?no=20261021091333) — **지디넷코리아** · 10-21 09:14
+  - 정부가 연내 도입을 추진하는 AI 데이터센터(AIDC) 전용 전력망 접속 규정이 대규모 AI 인프라 투자에 걸림돌이 될 수 있다는 지적이 제기됐다. 발전소와 직접 전력을 거래할 수 있는 길을 제한한…
 - ["AI DC 발목 잡을라"…조경태 의원, 그리드코드 규제 최소화 촉구](https://www.news1.kr/it-science/cc-newmedia/6326644) — **뉴스1** · 10-21 08:59
   - 전력망 안정성을 확보하되 이미 추진 중인 데이터센터 사업에까지 새 기준을 적용하면 투자 지연과 비용... 그리드코드는 발전소나 대형 전력 소비 시설이 전력망에 연결될 때 지켜야 하는 일종의 '접속…
 - [국가의 뇌(腦)를 노리는 ‘전력망 타격’, SMR이 안보의 최종 방패다](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZzlUcFRSYmQwc2FnbXJDRjhscDhMS09ELW9lcEJuUmZqNWlIZ25JanRHUVR4NjVUNzBBWDRrR1hjNlpody1yRHY4cVJGMHE4RzVGRV9xZDY4TC1iWFRMVjY3QWw?oc=5) — **에너지안전신문** · 10-21 08:13
@@ -294,8 +302,6 @@ modified: 2026-10-21T09:04+09:00
 - [추자 해상풍력 육지 전력망 연계… 김정호 위원장, 국회 지원 약속](https://www.fnnews.com/news/202610202036043538) — **파이낸셜뉴스** · 10-20 20:50
   - 추자 해상풍력의 육지 전력망 연결을 비롯한 제주 에너지전환 현안에 대해 국회가 예산·입법 지원 의사를... 특히 추자 해상풍력 사업의 육지 전력망 연결 가능성을 언급했다. 김 위원장은 "추자 해상풍…
 - [에데수르, 일부 옥상 태양광 고객에 전력망 사용 요금 부과 예정](https://news.google.com/rss/articles/CBMingFBVV95cUxQNEJUNmpaTTZRZDRWNVZmcXUyZ1pPbU9NRUdLZlBjQk9nNHJMb2NiOWhNbmpSX1lWbFU1Q3hTd0lNel9FeVQtYlFoVlF0alF3THdPSlAycWI3OUNfcGo2Q0pJTlFPZTNRMnRQWTBPaUpGWWlHRXR4VlFhWGZQT1pkQUlKUEtOTUVyY0JxU3ZaS1dBanRhMHpFQXJsVVVlUQ?oc=5) — **IndexBox** · 10-20 20:21
-- [전기차를 '움직이는 배터리'로···스마트그리드협회·KTL, V2G 상용화 협...](http://www.enewstoday.co.kr/news/articleView.html?idxno=2482483) — **이뉴스투데이** · 10-20 20:15
-  - 한국스마트그리드협회(KSGA)와 한국산업기술시험원(KTL)이 전기차 배터리에 저장된 전력을 전력망으로... V2G는 전기차 배터리를 전력저장장치로 활용해 전력망과 양방향으로 전력을 주고받는 기술이다…
 
 ---
 
@@ -327,14 +333,14 @@ modified: 2026-10-21T09:04+09:00
 - [민주당, '초광역특구법' 발의… 쟁점인 '주 52시간 예외' 담겼다](https://www.news1.kr/politics/assembly/6325890) — **뉴스1** · 10-20 14:33
   - 기존 정부의 3대 메가프로젝트 추진을 뒷받침하기 위해 추진했던 '메가특구특별법'의 명칭을 바꾼 법안이다. 법안의 핵심은 5극3특 성장엔진 육성에 필수적인 지방 투자기업에 대해 파격적인 규제특례와 맞…
   - 관련 보도 1건: [동행미디어 시대](https://www.sidae.com/article/2026102017405697203)
+- [김민석 “초광역특구법, 정기국회 최우선 과제로 추진”](https://www.sedaily.com/article/20104139?ref=naver) — **서울경제** · 10-21 09:27
+  - 민주당은 전날 메가특구 지원을 위해 각종 규제 완화와 지원 근거를 담은 ‘지방주도 성장을 위한 초광역권 전략산업 특구 지정 및 운영에 관한 특별법안’(초광역특구법) 제정안을 발의했다. 김 대표는 제…
+- [초광역특구법, 기업 특혜에 노동·환경은 뒷전](https://newscham.net/130071/) — **참세상** · 10-21 09:20
+  - 이런 가운데 ‘메가특구법 저지와 3대 메가프로젝트 규탄을 위한 공동행동’(메가규탄행동)은 20일 ‘메가프로젝트, 왜 메가특구법까지 만들려고 하나?’를 주제로 토론회를 열었다. 참가자들은 지역균형발전…
 - [\[사설\] 여당의 노동조건 후퇴 초광역특구법 발의, 사회적 대화 흔든다](https://vop.co.kr/A00001697237.html) — **민중의소리** · 10-21 07:26
   - 국회 정무위원회 간사인 박상혁 의원이 발의한 지방주도 성장을 위한 초광역권 전략산업 특구 지정 및 운영에 관한 특별법안은 첨단전략산업을 위한 메가특구에 세제인프라규제완화 등의 혜택을 주기 위한 법이…
 - [초광역특구법 살펴보니…'주52시간' 예외에 무급휴일·파견특례도](https://www.newsis.com/view/NISX20261020_0003834038) — **뉴시스** · 10-21 07:01
   - 전국민주노동조합총연맹(민주노총) 역시 같은 날 성명을 내고 "메가특구 원포인트 사회적 대화에서 본격적인 쟁점 논의를 시작도 하지 않은 상황에서 정부·여당이 노동개악안이 포함된 법안을 발의했다"고 주…
-- [\[단독-초광역특구법안 입수해 보니\] 노동특례+ 기업 맘대로 쓸 규제완화...](https://www.labortoday.co.kr/news/articleView.html?idxno=237300) — **매일노동뉴스** · 10-21 06:34
-  - ▲ 자료사진 청와대 이른바 '메가특구특별법'이 '지방주도성장을 위한 초광역권전략산업특구 지정 및 운영에 관한 특별법(초광역특구법)'이라는 이름으로 공개됐다. 사실상 기업도시 조성을 뒷받침하는 내용이…
-- [메가특구 ‘주 52시간 예외’ 열어둔 여당… ‘투트랙 입법 전략’](https://www.seoul.co.kr/news/politics/2026/10/21/20261021004008?wlog_tag3=naver) — **서울신문** · 10-21 05:02
-  - 더불어민주당이 3대 메가 프로젝트를 지원하는 초광역특구법 처리와 관련해 ‘주52시간 예외’ 특례 조항을 포함한 법안과 제외한 법안을 모두 발의해 논의키로 했다. 논란이 된 주52시간 예외 적용의 여…
 
 ---
 
@@ -379,6 +385,7 @@ modified: 2026-10-21T09:04+09:00
 - [Singapore, Sweden to boost cooperation in clean energy transition, public policy](https://news.google.com/rss/articles/CBMixAFBVV95cUxOdU0tYzh3aUgxczhkakVYMW02VmJTQjM4bEhNZ3JvUXFvTTlXRXZwNGpWVlhSeU1NT3dqRGhpZlJUZHlBM0dVVXd3UEJBLWdHdWFUOEczSTFtM0FTeDA2LVBydldsZk9mMzMzYlIza2F5bDY2UnczUHZoZUR1RXh1b3dia3FpS0NJaDU4MDg5LW5fV0FHTGs0R2NZRUFsUW1iTncyVWxBT19KcVF0TTREN0NfQTgzWmZDZXFaZUlLYkEzRzhy?oc=5) — **The Straits Times** · 10-20 22:08
   - 관련 보도 1건: [Yahoo News Singapore](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU2FqR1RDcjR0NmdjblVsWW5xNHM2aGdFOEE2bzV3TzUzYWFRYjFQU2R2WlpKaG5ndWx2STR6MEhvSUVxYXFvcmdwTDRYMkdhZ0VlY0J4emZmNElKQm9RTjFNTVpWbHdqRzUzYXE3T1Z2VEx1SkZHcmVyZ3VmdVZOMjVqSGRBV3lZ?oc=5)
 - [Moeve drives digitalization to accelerate energy transition](https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUxkNk5ITWNQVEFDTlRNQTlEcnkxN0tfdEttY1l6TThabHhQNWxVR0N6RmpiTW5ObkxjS2EzZFE4LTk5LVZHemZQTTRfU1FjRjZNTXdSdWZyeFhhVHlYdW9IcXhDRnR3N2x4amlGT0tIQ2JmeHFPRjExYmxHUV81bFVXbFpqejVfQzRVM1o4VVFUVEI4QmlseHI0TTl3WXdVTGhHUzdZMTczR1NxYzlPSQ?oc=5) — **NTT Data** · 10-21 04:48
+- [Moeve and Faconauto join forces to drive the automotive sector’s energy transition](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sSE85ZjJWVUdWVVMxQTd3ZEhKOUFJdzAtYTUyOWFPZlgtak1NejdhTFhySDBlVEpfT3VOYmVGaG55NUhNemdFbXM3S3RIU19ncFJCMVNBZEN1cGFtTHF3Zg?oc=5) — **WebWire** · 10-21 03:35
 - [EPCG: Signed documents include cooperation in the energy transition of Pljevlja, development of solar and wind power plants](https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVnhJLWFtM0ZJZXd1LWw4cDNfbXlOc2pISTVWRHNfa3daMXpNTHo5Nkk3bGhMX1NJYjU5QVBlR2FnOGhIUFpfbVduN2VQSkVkM2VfYTNsd0p4YlF5aktuMkFCeGFQaGlSYldoMkc4eFhNTVY0c2d6T3FXZGg2OXhOUGxrd2lFalBGSXF5M2tQV1lpWTRVV193cFZXRUp6VnJLdF9Va3RhSVlpdUhoTGEyYkVFdEZPRmM2NG14cjFqQ0UwRXBHR04xUGk1Z0Z5RTNwbmQ2Q2FHajQwQl9GQ0o4OG9CY0wwX0FMMkRlV2pzdHRUZ9IB4AFBVV95cUxNM1pCNmx2X1B4UTB0c0VDN2dwWmxPWGc5aG5BeFNYQ09mQ0dOdWpfX0ZhRDdxOTk5NTRRQTIxWjNQdl9RVnhCbFBjMFgxdmZ4d1lWUDhaN1JJZWtnY2EwMVI3QVYyWFRyMmZoTjV4SG9yVV9SenpiRGx2YkZ0U05jaXk4aXBpNV9tcVZxamhXVVlKeTd4S09WZjR3Y1RxWFdQRkdHOHJhSUtCalN0MENaTTRZZ2tSeTdfN1NwRmtsY0JEQlhkUXVqbllkdHFaMTFTcGd1aUlfWFEzWTNvbjJVRg?oc=5) — **vijesti.me** · 10-21 03:34
 - [How Asia can accelerate its green energy transition](https://news.google.com/rss/articles/CBMinAFBVV95cUxQVncybjJ0b1RzLXNZZFRGTkxLTktKR3hfUkt3ckxxM2NnOEVELUJtSVhldHd6bER3b2xUa21wX1pESnZqelVfQ1hJSXY5LWktcWg1OFpYcFBUUWVRUVlkWldBdWZSTTB0dUQzN2VDUjJfQU5yOTBUQ3MyeTllVXZtWjhyQmNjZWtpWS1TWFp1Szk2a0dRMm9TLTVUdG8?oc=5) — **World Economic Forum** · 10-21 02:29
 - [Penouta guarantee reaches EUR 2.45 million: Energy Transition Minerals stock faces permit risk](https://news.google.com/rss/articles/CBMi5wFBVV95cUxNV2xIb2R4YmkwWUFla1BuSEdrWndRbHdPb3BIRTNHX1JXbU1fdnBRMjVuel83U2QxNWxzU0lKeG9zTkdNUHhuUVlEbGRfNnlOMkR2WHg0UDd2YnlwQ2dMUllsQkh2dHF4dktxMUh2OFFabm1scWNweDlNcGxwVVlGMlB6QjE4ZklJWFQ1MUE5Z3NPZHpRbmozNS1LeTdaY3RfU2JSMlRVem1zdVdiOHZUZnF2cEFpSXl4WHBmVWpHTHJGSzBYN2ZmNk1peGgtcTBUX0hkWFQ0RC1Gc2NvUlBLRF9tTkxXb0k?oc=5) — **ad-hoc-news.de** · 10-21 01:53
@@ -387,7 +394,6 @@ modified: 2026-10-21T09:04+09:00
 - [Blackstone closes latest energy transition fund at \$8.7bn, backs several data center focused energy firms](https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMUdMTmpxZTlHdmY1MjJ2TDFEQ01YbTVENkg5alZ2Y3Rnb09pTzFRZTVlMzFCMmhWaF9tZ0JHZUZiNzNwdHVqd25Pd2tmcGFYbk51UXVqbTl4NVlXa2NTZU95T2NweWl6ZnNETUFXT1lGWUEzS3FzN245anpvNGhHR3FjVWdSM0ljUjdKcjlGVlhzb2dndEdNSmRqSnJ6Zk1QU1Vfd2FLQzFiZlV2VTNKSHl2dnUycm56eUJTbl94SVhkdm1oMWNmSjZ3dUVQQ2E4bzhjUFFOc2xYQ0lJSXZF?oc=5) — **Data Center Dynamics** · 10-21 00:01
 - [Fueling developing world's energy transition, China takes green energy global](https://news.google.com/rss/articles/CBMifEFVX3lxTFBtZ3AxYnFqcTVMMTBfS1h4V0czMXFXZWF6NVRjWFUtNzdmOG1MRUluMGc5MlVvdDhKcnk3V29nekxaZ0toSU9HQmNDc3doUzVJeks5WUhfeFhUbnpMc1YyXzZOVE5pUWJiQWx0cU9CblRudjFGUXNoYVlFVG8?oc=5) — **Xinhua** · 10-20 23:22
 - [Energy transition in fisheries and aquaculture](https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlpkV3NYR1dLMEpxeWkyb082alJrSHlraF9uNjdkTTk2YmxvOTBIYmtGMUlWaFMydk5UWU1SUm1nd2Zudk1WMUxqSVdFQTY2QlJ1WC1vRzc5Wld1UWM5aEdTWHVhV1dkZ2x1czBIVnlZUl94ZHpqRFlEMTRuYW5OazJPRUVBQ2tPcV9UVjhzM0QwaTVjNmpiWVNxSmdrNEw2dU5Kbm5UbXFmbkoxdHR3V0pIa1V1V0E?oc=5) — **European Commission** · 10-20 23:15
-- [IRENA: record renewables growth not enough to deliver the transition](https://news.google.com/rss/articles/CBMilwFBVV95cUxPX0RuZVNOU0RDdzk2dXVJQTA5SXFzTzF5YkkxdE5ibWhoZDduVklfNmNlYjNvRWNQSDhLZm0xVUZoLTN3RGdsTmZsbXptc3hNakpNOXRPYlNwdFZPUWdRLW4tTi16N2VDTzdodjVhOXBEbjYzdnE3SFVkVEtXY3dzZl9TMGVHMFhORDRMLTNCYTkyMi1jaE9B?oc=5) — **pv Europe** · 10-20 22:00
 
 ---
 
