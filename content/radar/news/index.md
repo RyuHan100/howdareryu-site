@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-23
-modified: 2026-10-23T09:06+09:00
+modified: 2026-10-23T09:43+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-23 09:06 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-23 09:43 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-23|10-23 클리핑]] — 기사 **254건** (국내 169 · 해외 85)
+> [!example] [[radar/news/2026/10-23|10-23 클리핑]] — 기사 **268건** (국내 181 · 해외 87)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -21,8 +21,11 @@ modified: 2026-10-23T09:06+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 7건
+### 국내 · 9건
 
+- [\[해외브리핑\] 중국, 내년 탄소배출권 거래제에 화학·석유화학 추가](https://www.esgeconomy.com/news/articleView.html?idxno=17099) — **ESG경제** · 10-23 09:24 · 배출권거래제 / ETS
+  - 이에 따라 탄소시장의 적용 범위가 크게 확대되고, 주요 오염 배출 산업인 화학 산업의 과잉 생산능력을 억제하는 데도 도움이 될 것으로 전망된다. 리 가오 중국 기후협상 수석대표는 다음 달...
+- [中, 탄소시장 전방위 확대…전체 배출량 80% 관리 추진](https://news.google.com/rss/articles/CBMiTEFVX3lxTE00aVd5MVVib3pBWmxlMWN4cWNYQUoxV0tHanlHZzRZbDFHRVBSbzVpVjd3ZF9nR2ZMN29LQjczTTBldm5RSUZncU9ESHM?oc=5) — **에너지프로슈머** · 10-23 07:48
 - [농가도 탄소배출권으로 돈 벌게…송옥주, '4대 입법과제' 제안](https://www.betanews.net/article/view/beta202610220012) — **베타뉴스** · 10-22 21:40 · 배출권거래제 / ETS
   - 유럽연합(EU)은 농림축산 부문을 배출권거래제에 직접 넣는 대신 자발적 탄소제거인증제도(CRCF)를 만들어 탄소농업·바이오차 크레딧을 보조금 및 자발적 시장과 잇고 있다. 미국은 재생연료 크레딧(R…
 - [GGGI, 국제 탄소시장 협력·투자 활성화 촉진 나섰다](https://news.google.com/rss/articles/CBMiakFVX3lxTFBrRUlBUldmTFpRdEc4c2g2YzZtaW5jWXY3UFlBR1VrYmF0UjVYVnl0ak9Jd0FHNUh5bDRaT2tVLVBNcU9mUzZ5R2ZkU0JyYkZOWXhRNzJZU2llRFlDaWk1Y1BDb1ZJczhYTlHSAW5BVV95cUxOQ3VXZnl5RVdlelVaSlRZREd1UC1Lc1FqT3J4MkVOR09seGRQUWltME1JNVlodWhpQnpZeDVJeUdvYjRSaGM2b1JFRktKakZLWFZORWVxQ3JMY1A5ODd3VkgxQWhyM0pUQ3l0QmFRZw?oc=5) — **넷제로뉴스** · 10-22 18:40
@@ -52,11 +55,13 @@ modified: 2026-10-23T09:06+09:00
 
 ## 국제감축 / Article 6
 
-### 국내 · 3건
+### 국내 · 5건
 
 - [기후대응위, 온실가스 국제감축사업 투자설명회 22일 개최](https://news.bbsi.co.kr/news/articleView.html?idxno=4114077) — **BBS불교방송** · 10-22 15:16 · NDC
   - 국가기후위기대응위원회(기후대응위)가 22일 서울 포스트타워에서 온실가스 국제감축 프로젝트 투자설명회 '글로벌 카본 인베스트먼트 2026'을 개최했습니다. 이번 행사는 국내 기업의 유망 국제감축 프로…
-  - 관련 보도 1건: [국토일보](http://www.ikld.kr/news/articleView.html?idxno=342740)
+  - 관련 보도 2건: [국토일보](http://www.ikld.kr/news/articleView.html?idxno=342740), [ESG경제](https://www.esgeconomy.com/news/articleView.html?idxno=17098)
+- [현대차증권, 탄소중립을 금융의 기회로... ESG 경영 새 지평 연다](http://www.lkp.news/news/articleView.html?idxno=85293) — **리버티코리아포스트** · 10-23 09:36
+  - 실제 현대차증권은 모빌리티 분야를 넘어 신규 외부사업과 국제감축사업 등으로 투자영역을 확대하겠다는 구상을 밝힌 바 있다. 이를 기업과의 접점으로 확장하려는 움직임도 이어지고 있다. 현대차증권은 오는…
 - [온실가스 국제감축 프로젝트 투자설명회 개최](https://news.google.com/rss/articles/CBMilAFBVV95cUxQd2RMejNnUjRCSFREVXNYLUxTU3Nld0Z1NkFLdWdWNm9oRm0wQjVJYnNoYTk1OGpSM1VjNXhIbGZFXzBvc2RWWGVhei1Wc2JHREJNeEhOZlBoLWdESndRZEVLcjJqZ1kxbkt5dlNseGZEMnkzWkdOV1RTeTZCSmVsUnUtTnNoR2ptMTF3N1h0MFV5cU5I?oc=5) — **대한민국 정책브리핑** · 10-22 15:20
 
 ### 해외 · 5건
@@ -145,8 +150,9 @@ modified: 2026-10-23T09:06+09:00
 - [CBAM 청구서 쌓이는데...K-스틸법엔 '돈'이 없다](https://www.socialvalue.kr/news/view/1065595167298416) — **소셜밸류** · 10-23 07:06
   - 유럽연합(EU)의 탄소국경조정제도(CBAM)가 올해 1월 비용을 매기는 확정 단계에 들어서면서 국내 철강업계... 23일 관련 업계에서는 CBAM에 대응할 제도의 뼈대는 세웠지만 정작 돈이 빠졌다는…
 
-### 해외 · 8건
+### 해외 · 9건
 
+- [CBAM a disaster to Europe : Piyush Goyal](https://news.google.com/rss/articles/CBMimwFBVV95cUxOVm9IZmtuUzZxMXZEV25DSTJqLV8xU0RrWUlicVEwZlY5eVN3c0t1NUVnb0dhSEJRQTZIcFhfMllDLWw4c01QLWlZb0J4cG1CQU5vN2R4SFV4WGZtT2h6Q19zejJPTVZkaWZISHpFUmxmZnpaeGZURTlPdC1QbEp5UHp2TUVNNXE5ZUl6YjEwRk1JNGwwR2RSQjhyUdIBoAFBVV95cUxPR0RORWY1Mmd5cTdwRWVVYzloQm9GVHV1UHpVZjk2MV9fQkp3cFBmVmVWZWRYTHd0T29KeTVjN0FqdC1pWjF5ck5jTVU2VWM3NGJuU0pBS2NsZUd4V1VpcHJCMVVzMVFsbGJoWXNSaTVoSFhkZVdQcDE2U1FMdWVEMHZka1hfTlNRMnV0UVhUck1NQTl0Y2FLX0dFQ1ZXRG9j?oc=5) — **Moneycontrol.com** · 10-23 09:10
 - [Fastmarkets launches UK CBAM calculator to help importers estimate carbon costs ahead of January 2027](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaUFEd0VZakRrVUFZSUlXSDdRNmxBNXpKZmlLb3B1WWR6UklsdUJNZlJvMllGMjhqeUlZXzdqWmRPM1JSNVBfS09kR3VtZFltWE9tS2hBVzJFLVduWUxHS2x5S0RNSUg5Wk5MUklKRlFYdHVzenlUdmpDbHRXRW04anJYeVZuOUJxZmRkOWFHczFoVF83aXVLVmNObkQ3dFdmWHRQam9rV1BWYndxOWlSbHh4U1NhcUsyekp1QlFhdHRhM09VZnlkQWp3Vktob1M2S19oZmdB?oc=5) — **Fastmarkets** · 10-23 03:53
 - [‘Europe shooting itself in the foot' with steel curbs, CBAM: Piyush Goyal](https://news.google.com/rss/articles/CBMiygFBVV95cUxOYnZIWmZ5S3c0Y2hSaU9SMWpHb0NwMmY2aDRBYUNOem5iOHJZSkNfalBBQkNuQS1XMFdLWmJudElnYkcwWi1fdTdWR0QzQ19Mbnc2WEc4RmVhaVNta0FWMEVGamFPOU10SE1NaVRDV1lnU2NzS0NVdGdINVQ4dTFRWmZrdVFFNExHMllfWTZWbktCLTRZZlZiajBQbENTS1Fqc0gySGxXbGtKaVdYdlpVV0dVN3pGYlZaT2lCSUlUYmtJSjRzdnB3UkFR0gHKAUFVX3lxTE5idkhaZnlLdzRjaFJpT1IxakdvQ3AyZjZoNEFhQ056bmI4cllKQ19qUEFCQ25BLVcwV0taYm50SWdiRzBaLV91N1ZHRDNDX0xudzZYRzhGZWFpU21rQVYwRUZqYU85TXRITU1pVENXWWdTY3NLQ1V0Z0g1VDh1MVFaZmt1UUU0TEcyWV9ZNlZuS0ItNFlmVmJqMFBsQ1NLUWpzSDJIbFdsa0ppV1h2WlVXR1U3ekZiVlpPaUJJSVRia0lKNHN2cHdSQVE?oc=5) — **Moneycontrol.com** · 10-23 00:17
 - [Daily round-up: LME base metals gain; EU CBAM sets higher cost certificate for Q3](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS0IxOC1WVGtGUUJNSHZHaVJVZ1ZsTGVoM3J0emtUR3IyLTc5UWpLN1RwU2tqNEd6LTQ1YWF0VmI2MDJaWDNhUTViakg4Y2ZZYVBrOEFHS0g2d3pPa1VvUlVyYnJDOXlialV5TlNXb1gtT1RDejA1MGlSOXRwYmd4U1B4aDR5WHlGdjhrdHJNdWlaM2czcXBBNTlJYURxRkU4UnI0T0FBUEhGa2dCYndWNWsxWkIxbUptUU82RDNZSm1EbG8?oc=5) — **BigMint** · 10-22 23:02
@@ -224,10 +230,13 @@ modified: 2026-10-23T09:06+09:00
 
 ## ESS
 
-### 국내 · 19건
+### 국내 · 25건
 
-- [SM그룹 SM국일, ESS 장비 전문 대진기계 인수 우협 선정](https://news.google.com/rss/articles/CBMidkFVX3lxTFBMaU5EYWxyN3ZNbXpUaEJMeTFWWUNIcU9RZFR6M1dpNE1odS11X0JTVnRYYWtfOXB1cmJLX1VXMHV1RXlaSG5xQ00tY1p6YXlKcHVjYkJjWlpvX095YWwxaFNzMnZhTjExMFY2bElJNVNmRWZqY1E?oc=5) — **인포스탁데일리** · 10-23 08:51
-  - 관련 보도 3건: [물류신문](https://www.klnews.co.kr/news/articleView.html?idxno=323192), [연합뉴스](https://www.yna.co.kr/view/AKR20261023035700003?input=1195m), [데일리안](https://www.dailian.co.kr/news/view/1705056/?sc=Naver)
+- [SM국일, ESS 장비 전문 대진기계 인수 우선협상대상자 선정…“신성장동력 확보 가속”](https://news.google.com/rss/articles/CBMiYEFVX3lxTE92LVZ4V0NHelhPQ3E2QTRiOXgzN1Q0ekZnQ0NoQzU0Tnlib0RqZlc3S3FtMjVLWW16TVMxeXEyVThaQi1pOGl1QnlBV19hLXZveldFR2RZbnllYjVQVW8tZA?oc=5) — **헤럴드경제 미주판** · 10-22 17:15
+  - 관련 보도 8건: [인포스탁데일리](https://news.google.com/rss/articles/CBMidkFVX3lxTFBMaU5EYWxyN3ZNbXpUaEJMeTFWWUNIcU9RZFR6M1dpNE1odS11X0JTVnRYYWtfOXB1cmJLX1VXMHV1RXlaSG5xQ00tY1p6YXlKcHVjYkJjWlpvX095YWwxaFNzMnZhTjExMFY2bElJNVNmRWZqY1E?oc=5), [물류신문](https://www.klnews.co.kr/news/articleView.html?idxno=323192), [연합뉴스](https://www.yna.co.kr/view/AKR20261023035700003?input=1195m), [데일리안](https://www.dailian.co.kr/news/view/1705056/?sc=Naver), [뉴스핌](https://www.newspim.com/news/view/20261023000138), [헤럴드경제](https://biz.heraldcorp.com/article/10912219?ref=naver), [파이낸셜뉴스](https://www.fnnews.com/news/202610230908266911), [서울경제](https://www.sedaily.com/article/20105190?ref=naver)
+- [SM국일, 대진기계 인수 우협 선정…ESS·반도체 장비로 영역 확장](https://www.mt.co.kr/industry/2026/10/23/2026102309051546066) — **머니투데이** · 10-23 09:08
+  - 특히 LG에너지솔루션에 ESS(에너지저장장치)용 배터리 생산장비를 공급해왔으며, 관련 매출이 전체의 약 70%를 차지한다. ESS 시장은 전력수요 증가와 신재생에너지 보급 확대, AI(인공지능) 데…
+  - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMibEFVX3lxTFBJdGxJNW5ScmxiTzZSbHBuUHFNa2JjQ1JSV0F2VzBIeDdrTzNkblpmSHJyRlZ4RGJUbzJoQy1YX05lenFCSzNsTzZOLXQwMGw4cmdwZUQxbHJyLVlRTzc0VGlxMFhQX3F4cWdRUNIBckFVX3lxTE13ZnBtYTFiR0xYVndoVERFMnItVjAzVlMtSDJJbDZjN3BFemdZdUU5N3JOaHVxRmtSVmh6MW9XbTNTNDRFOUVudE1TX0hHcFJtVUpVdGxQY0JfdkJWbmhzdk1XRW1XWmNqYXFXQW0xNE1wdw?oc=5)
 - [SM국일, ESS·반도체 장비업체 대진기계 인수 추진](https://view.asiae.co.kr/article/2026102308524946879) — **view.asiae.co.kr** · 10-23 08:52
   - SM그룹 계열사 SM국일이 에너지저장장치(ESS)와 반도체 생산장비 전문기업 대진기계 인수를 추진하며 사업 다각화에 나선다. SM국일은 대진기계 인수를 위한 우선협상대상자로 선정됐다고 23일 밝혔다…
   - 관련 보도 1건: [아시아경제](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkZHB4ME5xYXlZWGtrYXpBZDMzNWFxNVRqOExBWG1kc0hkbWN0MHU4VGVpLWwyM2gyZzlXZDM2aUZKM2JGck1sZTJKSHcxaFRna2c1RlBRbXhzWTJRNkhfYQ?oc=5)
@@ -238,6 +247,8 @@ modified: 2026-10-23T09:06+09:00
 - [AI가 불붙인 전력 수요..히트펌프·원전·ESS '에너지 신기술' 총출동](https://www.mt.co.kr/industry/2026/10/22/2026102114442489953) — **머니투데이** · 10-22 13:30
   - 냉난방을 전기화하는 히트펌프부터 초고압 전력기기와 에너지저장장치(ESS), 원전·가스터빈·풍력 등 발전 설비까지 에너지 산업 전반의 신기술을 한 자리에서 만나볼 수 있다. 국회수소경제포럼이 주최하고…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTE51V0RtckVJOFV2QklNOENPVmx5MnZUSGNzeWRrLUhoeldtYk1rTWZvVnlRaFNYbzFKdFl6Rm1aUWU4TEo1QkRHc2lTY3F1aTJ0YWIzeS1hTUZpVHpTekJldmFHV0ZZZkt5amNWSFhYa0dWQdIBckFVX3lxTE51V0RtckVJOFV2QklNOENPVmx5MnZUSGNzeWRrLUhoeldtYk1rTWZvVnlRaFNYbzFKdFl6Rm1aUWU4TEo1QkRHc2lTY3F1aTJ0YWIzeS1hTUZpVHpTekJldmFHV0ZZZkt5amNWSFhYa0dWQQ?oc=5)
+- [(2026 전기학회 전력기술부문회 학술대회)그리드포밍, 장주기 ESS 타고 전...](https://www.electimes.com/news/articleView.html?idxno=373773) — **전기신문** · 10-23 09:40 · 전력망
+  - 그리드포밍(GFM) 기술의 국내 전력망 적용이 장주기 에너지저장장치(ESS)를 중심으로 구체화되고 있다. 내년 말 가동을 앞둔 장주기 ESS에 적용할 성능요건과 검증체계가 마련되는 가운데, 현장에서…
 - [SM국일, LG엔솔에 ESS 장비 공급한 대진기계 인수 우협 선정](https://www.insight.co.kr/news/578869) — **인사이트** · 10-23 09:04
   - SM그룹 계열사 SM국일(옛 국일제지)이 LG에너지솔루션에 에너지저장장치(ESS)용 배터리 생산장비를 공급해 온 대진기계 인수를 추진한다. 산업용 특수지 등 제지 중심이던 사업에 배터리·반도체 생산…
 - ["美 ESS 中 퇴출설, 삼성SDI 반사이익 볼까"… 목표가 상향 속 검증은 '실적 발표'로](https://www.g-enews.com/view.php?ud=2026102308270978900c8c1c064d_1) — **글로벌이코노믹** · 10-23 08:30
@@ -247,10 +258,6 @@ modified: 2026-10-23T09:06+09:00
   - 전기차 배터리 수요 둔화에 대응해 국내 배터리 업체들이 에너지저장장치(ESS) 사업 확대에 속도를 내는 가운데 수익성 확보가 새로운 과제로 떠오르고 있다. 세계 최대 배터리 업체인 중국 CATL도…
 - [부진한 CATL, 생존 몸부림…K배터리는 ‘미국 ESS’에 박차](https://www.joongang.co.kr/article/25471989) — **중앙일보** · 10-22 16:11
   - CATL이 돌파구로 삼으려는 에너지저장장치(ESS)용 배터리는 K배터리도 전기차 캐즘(수요 정체)을 버티기 위해 주력하는 제품이기 때문이다. 22일 업계에 따르면 CATL의 올 3분기 순이익은 21…
-- [ESS 잘나가는데 리튬값 급락…K배터리 수익성 '경고등'](https://www.mediapen.com/news/view/1131748) — **미디어펜** · 10-22 15:52
-  - 에너지저장장치(ESS) 시장 확대에도 배터리 핵심 원료인 리튬 가격의 하락세가 내년까지 이어질 것으로 전망되면서 국내 배터리 업계의 수익성 셈법이 복잡해지고 있다. 원재료 가격 하락으로 생산비용을…
-- [ESS 사업 고도화 나선 中 배터리업계···K배터리 경쟁력 시험대](https://www.sisajournal-e.com/news/articleView.html?idxno=424481) — **시사저널e** · 10-22 15:50
-  - 중국 배터리업계가 차세대 배터리 상용화와 시스템 공급 역량 강화에 나서며 에너지저장장치(ESS) 사업 고도화에 속도를 내고 있다. 기존 리튬인산철(LFP) 배터리의 원가 경쟁력에 소듐이온배터리와 발…
 
 ### 해외 · 15건
 
@@ -274,16 +281,19 @@ modified: 2026-10-23T09:06+09:00
 
 ## 전력망
 
-### 국내 · 14건
+### 국내 · 15건
 
+- ["절차 하자·주민 배제 '345kV 신정읍-신계룡 송전선로', 깜깜이 입지 선...](http://www.jbsori.com/news/articleView.html?idxno=18083) — **jbsori.com** · 10-23 07:40
+  - 비민주적인 전력망 사업을 사법부가 바로잡아야 한다"고 주장하며 "한전은 책임 회피를 멈추고... 비민주적인 전력망 사업을 사법부가 바로잡아야 한다"고 주장하며 "한전은 책임 회피를 멈추고 입지선정위…
+  - 관련 보도 1건: [전북의소리](http://www.jbsori.com/news/articleView.html?idxno=18083)
 - [\[건설업계동향\] GS건설, 호주 오스넷과 송전망 협력…대우건설, 스마트...](https://sateconomy.co.kr/news/view/1065588608576645) — **토요경제** · 10-22 14:10
   - 호주 전력망 운영기업 오스넷과 송전망 사업 협력을 위한 업무협약을 체결했다. 대우건설은 건설현장... 기존 송전망 확충과 해상풍력 연계 전력망 구축도 협력 대상에 포함됐다. 다만 이번 협약에 따른…
   - 관련 보도 1건: [AP신문](https://www.apnews.kr/news/articleView.html?idxno=3052363)
 - [GS건설, 호주 전력망 운영사 오스넷과 MOU…에너지 사업 확대](https://www.hankyung.com/article/202610228208i) — **한국경제** · 10-22 13:44
   - GS건설은 호주 빅토리아주 최대 에너지 전력망 운영사인 오스넷(AusNet)과 현지시간 21일 오스넷... 빅토리아주 내 기존 송전망 개선 및 확충, 해상풍력 연계 전력망 구축을 비롯해 데이터센터,…
   - 관련 보도 1건: [일요경제](https://news.google.com/rss/articles/CBMibkFVX3lxTE9CbHpZSFVhXzFzZUxjNFVpQW00TzVXdG1kSUtIUU51TnVFRXctR3B6VjExZERQWWpaZm9OZU9oT2Y4eFg4Q2JRaEw2TzUzVGhUODdJbVVuNFFJTW9LSU04YnozVE1GTVNnakRKREhR?oc=5)
-- ["절차 하자·주민 배제 '345kV 신정읍-신계룡 송전선로', 깜깜이 입지 선...](http://www.jbsori.com/news/articleView.html?idxno=18083) — **jbsori.com** · 10-23 07:40
-  - 비민주적인 전력망 사업을 사법부가 바로잡아야 한다"고 주장하며 "한전은 책임 회피를 멈추고... 비민주적인 전력망 사업을 사법부가 바로잡아야 한다"고 주장하며 "한전은 책임 회피를 멈추고 입지선정위…
+- [전력망 이어 케이블까지 공급 압박…AI데이터센터, 건설 차질 우려](https://www.ziksir.com/news/articleView.html?idxno=150490) — **직썰** · 10-23 09:34
+  - 전력망 연결 지연으로 데이터센터 이용 계약이 철회된 사례도 발생했다. 빅테크 기업들이 AI 인프라 투자를... 해당 케이블은 프랑스 전력망 현대화와 전기차 충전시설, 재생에너지 발전시설 연결 등에…
 - [내셔널그리드·클라이밋-i, 전력망 송전 설비 SF6 온실가스 누출 포집 실증 착수](https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xa2RpTjk2R1RwVmJObDRYQjdOUW1KVFRqRTJ2OGx4UXBLV3dyNk1EZUlPTnJmTElrdTBXVUF1TUxmR1k5Z0Utb0M4SWw4QVk1M3lxSUgxaXJlaVZ6V3BYTkxqdm80bTJr?oc=5) — **https://www.2news.co.kr/** · 10-23 05:21
 - [“AI, 전력망-수도시설 공격방법 90% 알아내”](https://www.donga.com/news/Inter/article/all/20261023/134893747/2) — **동아일보** · 10-23 04:36
   - 인공지능(AI)이 전력망과 수도 시설 같은 핵심 사회 기반 시설을 공격하는 방법을 90%의 성공률로 찾아낼 수 있다는 연구 결과가 발표됐다. AI에 산업시설을 해킹할 방법을 물었을 때 10번 중 9…
@@ -298,8 +308,6 @@ modified: 2026-10-23T09:06+09:00
   - AI 데이터센터와 반도체 등 첨단산업의 전력수요 증가, 재생에너지 확대에 대응할 전력망 확충과 안정적... 발전원을 적기에 확보하는 동시에 생산한 전력을 소비지까지 전달할 국가 전력망을 대대적으로…
 - [GS건설, 호주 전력망 공략…교통 넘어 '에너지 인프라'로 외연 확장](https://daily.hankooki.com/news/articleView.html?idxno=1417628) — **데일리한국** · 10-22 18:26
   - GS건설은 호주 빅토리아주의 대표 전력망 운영업체인 오스넷(AusNet)과 에너지·인프라 공동 사업 기회... 이외에도 빅토리아주 전력망 개선, 해상풍력 연계 전력망 구축, 데이터센터 및 수소·수자…
-- [내년 팹 가동한다면서…‘용인 반도체’ 송전망 공정률 1%](https://www.sedaily.com/article/20105024?ref=naver) — **서울경제** · 10-22 18:12
-  - 22일 국회예산정책처의 ‘2026 공공기관 현황과 이슈’ 보고서에 따르면 국내 전력망은 심각한 수급 불균형을 겪고 있다. 발전원이 집중된 비수도권(2023년 기준 경북 전력 자급률 216%)에서 수…
 
 ---
 
@@ -318,6 +326,8 @@ modified: 2026-10-23T09:06+09:00
   - 관련 보도 1건: [메트로신문](http://www.metroseoul.co.kr/article/20261022500471)
 - [경북도, 피지컬AI 메가특구 추진…포](https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xaTZQeE9iSnc2S083cnpPRWxBaThUcXZYdjRKVFhVU3lwOGlNSDVjbkZCcEtkLUlzZkphanVNVFZiU25IUlZiMGxsRVpWWUE2Q01iNVNBN0ZiWTJLdWp0LWpGeDByMG52?oc=5) — **이투데이** · 10-21 23:57
   - 관련 보도 1건: [Tbc.co.kr](https://www.tbc.co.kr/news/view?pno=20261021160117AE07235&id=212468)
+- [\[시선집중\] 한국노총 “민주당, 초광역특구 노동특례 ‘기습 발의’...사...](https://n.news.naver.com/mnews/article/214/0001530935?sid=100) — **n.news.naver.com** · 10-23 09:37
+  - https://www.youtube.com/watch?v\=3m7k5E9iz5E ■ 방송 : MBC 라디오 표준FM 95.9MHz \<김종배의 시선집중\>(07:05\~08:30) ■ 진행 : 김종배 시사…
 - [\[단독\]이광재 “대학 부지 규제 풀어 주택 공급”…메가특구 활용 추진](https://www.sedaily.com/article/20105119?ref=naver) — **서울경제** · 10-22 23:45
   - 정부가 추진하는 초광역 메가특구 정책과 연계해 대학을 일자리와 주거시설이 결합된 공간으로 개발하고 입주 기업 임직원들의 정주 여건을 개선하겠다는 취지다. 이 위원장은 서울경제신문과의 인터뷰에서...
 - ['초광역특구법' 논란 촉발…반도체 위해 농지·물 다 가져가라?](http://www.ikpnews.net/news/articleView.html?idxno=71756) — **한국농정신문** · 10-22 20:16
@@ -331,8 +341,6 @@ modified: 2026-10-23T09:06+09:00
   - 완화가 기후·생태환경 훼손으로도 이어질 수 있다"고 지적했다. 이들은 "충북 역시 반도체와 바이오산업 메가특구 추진 대상 지역"이라며 "지역발전이라는 명분 아래 주민과 노동자의 권리를 훼손해서는 안…
 - [김정관, CPTPP·메가특구법 추진 의지 재확인…산업·에너지 통합 소신도...](https://www.newsis.com/view/NISX20261022_0003837415) — **뉴시스** · 10-22 17:48
   - 메가특구법(초광역특구법) 내 노동 특례 도입에 대해서도 "반드시 포함됐으면 하는 게 바람"이라며 필요성을 강조했다. 김 장관은 이날 국회 산업통상자원중소벤처기업위원회 종합 국정감사에 출석해 여야 의…
-- [민주노총, ‘초광역특구법 발의’ 박상혁 만나 항의...국회 앞 농성](https://vop.co.kr/A00001697276.html) — **민중의소리** · 10-22 16:44
-  - 지역구 사무실 농성 이틀만이라며 메가특구 관련 원포인트 사회적 대화가 진행 중인 상황에서 노동특례를 포함하여 대표발의한 것에 대해 항의, 철회 요구를 했다고 밝혔다. 이어 박 의원은 원포인트 논의…
 
 ---
 
@@ -389,12 +397,14 @@ modified: 2026-10-23T09:06+09:00
 - [\[국감\] 발전공기업 갈등관리 역량 '편차', 보완으로 에너지전환 갈등 최소화해야](https://news.google.com/rss/articles/CBMiaEFVX3lxTE54RHhDZU5DdUs3YTE2U2x3aFV0QVBscmZTTmNmQUpOY29EMWFYeFFpaklpRHZQdVA2RmQxcVVIc2ctNGdGU2Q0SVZhWUtqeW9aUGxWRmQzRDNtTjRYUWItX1NtVTRkVlJ3?oc=5) — **경인매일** · 10-22 17:24
 - [“서울에너지공사, 대도시형 미래 에너지 전환 방안 모색한다”](https://news.google.com/rss/articles/CBMickFVX3lxTE1BSmRRUWVvMWdnVXRPSWVhaVY5YzFiN2QzQnNCOXlqWFctcEpwejlGY2YwU3d3M2pmWXRiZERhVE5NQlY5Rlc3MW9hUEJOM1kwbnQ2TjdkcTdtM3lCZGk1MmsyeWRadXAtOXNXeHJaQmFtQQ?oc=5) — **에너지데일리** · 10-22 16:54
 
-### 해외 · 15건
+### 해외 · 16건
 
 - [Seminar on the energy transition held in Norway as part of Oslo Innovation Week](https://news.google.com/rss/articles/CBMimAJBVV95cUxORnh6UWVjeHNURVNoYV9oT3RNUTNhVkdEOUhPT09QLTBHMXJ6TEM4a21nR3BZRjZ0MlpIdnk0MzY5aUZ2Q3FLRXJ3X1BqWU02SWhMWW5Qc3VyRVFocTVJZHJlemZyUU9NWTkwUU1CZ2ZhWUNFcEt5cWE0RGJYVFlpeTRDdDlkaXpsV1Z4dElsU2RnUWFtWVExQm5WeUQ1bEFPeE92RWt0NDRpS2Nfal8xbzBWWkJZLWYyT3hlTHRHTkhFZG92UHhsMWh1d21nZS1ZTm02Yks1ejRKLUFqdXR0Y3d1QWhLQURGNUI4OHppd2F4UFg5WURDYm8yY3BlS192NTB0dWJtX05vYktpeWEyLWVDZzBVVllT0gGYAkFVX3lxTE5GeHpRZWN4c1RFU2hhX2hPdE1RM2FWR0Q5SE9PT1AtMEcxcnpMQzhrbWdHcFlGNnQyWkh2eTQzNjlpRnZDcUtFcndfUGpZTTZJaExZblBzdXJFUWhxNUlkcmV6ZnJRT01ZOTBRTUJnZmFZQ0VwS3lxYTREYlhUWWl5NEN0OWRpemxXVnh0SWxTZGdRYW1ZUTFCblZ5RDVsQU94T3ZFa3Q0NGlLY19qXzFvMFZaQlktZjJPeGVMdEdOSEVkb3ZQeGwxaHV3bWdlLVlObTZiSzV6NEotQWp1dHRjd3VBaEtBREY1Qjg4eml3YXhQWDlZRENibzJjcGVLX3Y1MHR1Ym1fTm9iS2l5YTItZUNnMFVWWVM?oc=5) — **ANSA** · 10-22 19:03
   - 관련 보도 2건: [Ministero degli Affari Esteri e della Cooperazione Internazionale](https://news.google.com/rss/articles/CBMivgFBVV95cUxOMjFYYW9DZG1LU2dyU3RNRzJwb1M5eGc1V2YwS1p4RzlwdDVRaEk5ck1QdUZlQThZQnBBTDc3YnV1blJqbVZtVEc1Wl9XejVEdHY2M25MTW5oclc1UThzdjZoWEpGZkpwQVlxMXdxclFwWnV0eHVuZFZtc3Zpa1hlZlVUMGRULUNIb0x2VVRFNHFtaTB4ZWZqUWFwMkEzdUdKb2J1eTdtQ3dlTzdPVXRYQVdqcDVtZjFocVR3SzR3?oc=5), [Ambasciata d'Italia Oslo](https://news.google.com/rss/articles/CBMivgFBVV95cUxNeGFUX2lNRXNVOHlCYks4d1lzYnU3cm14N2tKNGNjSHNscXhGM1hRZC13cV90QU0zTkRiUWIzWHhXY1dHWjRLN3NaQi1oQjVUWnpsLVJrWkx4d2FkV0R0OE1CX2NGazNnSW9GSWdxdVJxeVJzZjl2c3NQVFRWczhCb0FmS3F6U1c3UFJxcHBpRjF0eWZ2RkY0WEp4dkEtU1BIWHRWLWZCaFZ2Wk9UMXNFc18xcUw4WVZaU3E4MmR3?oc=5)
 - [Australia, India Drive Global Clean Energy Transition](https://news.google.com/rss/articles/CBMipwFBVV95cUxQNERiT2s5QnVpcEppdHVZYzExaXpoYmhucmZMRUxLNldId25QZm40OWdCdzVOcXd1STRBS3FkcFZiQ21DOTQ5VTZfUko5c1gtYTBvVkJFSGdQb0dQdDJndEJkcEZvaEJseFJwdER4WjFtRTZrdS1ETGlqdHR0YlRhSWJ3WnVuOFVmWHdzOWZ4NzN6WlI0cDI4b0sxa2d3QnJJclhkcnA3Z9IBrAFBVV95cUxQN0hWZmpQdTdodW9SZnlIMkZadXQtVC1rOG5pc2o2Z2dyQTIzU2FkT1RiTUFlLTNFR0lydVdqV0kzTmhrYldzR0xIcE5CM0Uwdy1aYjRKclZJM3hBUU5vdkVIUmtrMy1wdTVkS1FzbDkyVHV4S3JEUl9SdVNYQjdvc2J6RzZTUkFHTlFoUzJ5NnZpRDljc0NoVG5SRHBFUS1JRHZ4TmwyejZjMjNo?oc=5) — **Rediff MoneyWiz** · 10-22 20:03
   - 관련 보도 1건: [The Economic Times](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTTY0a3RvWWZ2ZmtIS3duMTI0M3UzaFVVd1A3bmFLTEsyOFFyYndhdGNXMlU2VTVnV3lManpiWWUyZFdsb0xHSlRHQm9pN3RiSWxvQVQ0SUROZkZDNUhSY2JKdVJNVlZmTksxV1Q2MzByazVqWHh2b1hXQ2MxUEk2RUJLWndYbzgxYkI1V3J6U0ZYa1gxWmdudTNLOG42SEZSenJialplM1BOb1JaMzVVaFJrV1lGT0FhMXgtQ0lLb0dlOWtuc0QwSlhoRkE2MDVDaUZIVEhWRlJWY1poMkHSAeMBQVVfeXFMT19lajBvUTA5d0ZlOWpiLTlmZTdrcEZxeEhKa3BMRWtxUzM1UHVYR0IwTDV4OWpTc1p6alhDeHJCXzhEd0RadVRJcC1Md0FCOXI0bzhmaDBkTjlOc1VwVGI0aEY1b1dfYmZ4Ymo4STB0eFg5Wk9ERE11cjBrVm5Bd2FnYXROQXZKeURDZ1E1OG5HbTlzUjZldmQzWXpFenU0c2RsU1Nwd1oxZkVjcjg1M25FdUtPMDBGT1VBT3JLVkVSN2V0N3VNNkFTcWFyUzZ5MjhRUkpfeWlHR3RBOGI4VG1Od2s?oc=5)
+- [Ecopetrol appoints energy transition executive VP By Investing.com](https://news.google.com/rss/articles/CBMirwFBVV95cUxPeGF6UGNRZlFLMXYzM2o3ZFNvUnJJdXptckRoS0pJcGhnN2pFTzdwdUtaUUJUeHk5b2dnN3g2dElubEhubE1hbVZmRVVwMUxJOUxhUGNXTHliNUsxUWxXaFJJNFJBQ0NUM1R1VWxsczRNUEJWTzMyOEVqUEpkdXUtV1FJcjNQU29kNVZnd3QxdFVzRGJCaHlrOUYtQlMzbk9BWGlQOTV5b0tEb3R2X2JB?oc=5) — **Investing.com Canada** · 10-22 20:03
+  - 관련 보도 1건: [Investing.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxObENlb21OSVdjbUNrWmhLS0hjMDd3d0RKTUNtMnZ2UlJPUnlMOWpCSVF2em5YSmhvckV4UmtCTVctcy1mQV9WcHlzVnltczQxaWdjWVJPRjZPcURXd3F1ejd4VmZwNlZpQUpaZGpaQndNSVZldXJRZjRCZ3FVMmJ5bWNScWFMTmJlWkJBOGpSOFd6QTdZbzVDUXJvaW55WDI3UWxralF6Y2pOZw?oc=5)
 - [ASEAN Must Improve Investment Readiness to Accelerate Energy Transition](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYk8yelVtY09XNlBkOWxERFFWVTVyVTFoTTR6MUt2cklNZWl4MDVOcHk0Ymt5aWtqTlUtUFlXYjNFUmt6eVBKa2FPWm9iNE1UNmgzYzVQLTN1YzY0cHluNWJQNDVjZGFTVzA1czI2WmsxSVlfLTB1dk9qVkN1a1h6VGlYb3NvS3d2eDhmam96VzdEUGRSWU9Ra3NNNDNFUUMwMFpsRDF6aWhBUVRRbEpkMGxQVlBCaWstYXhmdnNmUmg?oc=5) — **Thailand Business News** · 10-23 04:55
 - [Workshop “Geopolitical pathways for the energy transition: Climate goals”](https://news.google.com/rss/articles/CBMivgFBVV95cUxNSnF3akxfT24xMnh4WXhFR2tSd3JsS0ZCYlpscWxrU3o0TS0tQ0d2M0g3Rnd3cHRQLVBwNDh2bFNTUUoxRFBvZjN6WUtuWW5xZDRobV9ib3FVaW4taTVQUFlFNkNTeWU3bDlBOW5UMnQzeVRFVGVRYWFBSDdZOE1jNC1HbHhLMDhrWmk3cl9jRzV4Q3U4MG9tYzJxS1NiekIwSzUyUkF3eWlMdUdCMEFJVFRIbVZkdTdDZURrbXpB?oc=5) — **Real Instituto Elcano** · 10-23 04:11
 - [The dark side of the energy transition: Renewable megaprojects may sacrifice local communities' rights](https://news.google.com/rss/articles/CBMifEFVX3lxTE05VkVpdGZscTZjZ0VHYVpsMWU3ZWxJakZBVTNpOEptb0tLM21QdUdnMGtMOHA2cU05bmdnVTVKZWJlc3FOTE5pbTFJaFFHaFRFT2dZeEMtVTRTZGc0V1MyZHgyMGQyUFZCNUpCYi1kTDEwM25DVDh1eWFmLUY?oc=5) — **Phys.org** · 10-23 03:40
@@ -402,7 +412,6 @@ modified: 2026-10-23T09:06+09:00
 - [Việt Nam regards EU as one of its priority partners, seeks stronger ties in tech, energy transition: Top leader](https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTUl5a1UzTGFSa3JkSXpQZHdXVHkxU1RzWkdpYnh5d3RuVHZCTTg3NmJVR2VDUk9UZDJQRXkyVnBHb2dGeWp6Umh0RHdSdGlDZFF0N0ppQ2ZraUN2b1phenhWQmVQbndtSU5Da2RQVlBCVDJGT2U3aDVjbjk5b0NGU0xtZktCczFNcWJmbllrMXNJaTE4TXgwcGlVbEpUVDdrVXpFdVRDVE5FLXZVZXFkWUtxN0pMc25NSUc0UXJxNDdGaUl4eFZoa0JPU0Y1WktDLW1QZHV6OG0wM2ZRa19RODhrTjI3dlRod2xBcnNXSQ?oc=5) — **vietnamnews.vn** · 10-22 22:51
 - [Scotland looks to work with India in energy transition space](https://news.google.com/rss/articles/CBMivwFBVV95cUxPaGxHLXhuTlNUT2dtRmZ3NmtQdXpMZnJPUHRtb2UwRnN6T0VxWkpHX19fQnh4ckNoMFROallIX1RBaTlGVm5hdVBrMENBZ01PSE9hSFZ3OXNOTWF4azUxOVBXZ0pUM1JmY2RaZlpLQ0JNOEctMndhNTJzUnNOWVZXYzN4ZFRTUXNoeEtUTGpVUTdaaGxZUGpSVGJlUEhwenc1a0JGWFVZQjlSYkZwdVhWRHpmdlk4SVB1R0FYd3dGb9IBxgFBVV95cUxOdlhmdE9uY0Y1OThDcDVKbjNPcHlYWXZubHFtbncyMXNFQUpvdlRUNElzSm40TklDZnh4WDlhQjdaUFJiNGFRaWk4S1lNZFVHWUF4bVFFbzlBbWEzbndVejZjMktRamRTVUVmTm41V1hZdVpiaWRuVU5nWmM3RHBjQTczWDZDNWtqNk1lY3U4ZFlKQVc3SEVTb2ZNVUhKTWxIZzMtWi0zc0dKbUNKS2pVb2c5TVVHLW4wam9KZVhrVU8xTXJ2UUE?oc=5) — **BusinessLine** · 10-22 20:53
 - [Latest News In Energy Transition - SkySpecs Boosts Wind Energy Maintenance With New AI Module](https://news.google.com/rss/articles/CBMimwFBVV95cUxNbVkwSnN4YTcycUFPc3A2QXpSeVlGQXdrd25MSVhpM193WFBic1g0NFBWQzBDSHAyZW1zbV9Ydl9hVTNhNHR2RjRJc1lvYUN0Sk1vRjR2TEZyS2Q3cE54bUFqYS1DY09SRHBHWk05akFQWm9jUThlYks5VHVMcHZuSFNwWk5kZnJucWVnTTNBdk5RejRWQXNnNzREVQ?oc=5) — **Yahoo Finance** · 10-22 20:37
-- [Ecopetrol appoints energy transition executive VP By Investing.com](https://news.google.com/rss/articles/CBMirwFBVV95cUxPeGF6UGNRZlFLMXYzM2o3ZFNvUnJJdXptckRoS0pJcGhnN2pFTzdwdUtaUUJUeHk5b2dnN3g2dElubEhubE1hbVZmRVVwMUxJOUxhUGNXTHliNUsxUWxXaFJJNFJBQ0NUM1R1VWxsczRNUEJWTzMyOEVqUEpkdXUtV1FJcjNQU29kNVZnd3QxdFVzRGJCaHlrOUYtQlMzbk9BWGlQOTV5b0tEb3R2X2JB?oc=5) — **Investing.com Canada** · 10-22 20:03
 - [The costs of the war with Iran (also) concern the energy transition](https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGhUV0ljSk5UT254bDc3WG9UV1lkSXpQY05JeUFWa3lXZW1DVVVRQUZUWFMzbWJDYjg2VVp5emtiTEtNOWk4ZXB0S2YtR01ZWVpISUFkLUpKZ2pSa0l5VkJ0UHhHSEtTdzdTWnc3bjhZcFRCOWNiNTZJYWdPMmllWHJ1MkJBNnd4QVlfSDhjOVBQOWRPNkRKMVp5WldOLW4x?oc=5) — **Materia Rinnovabile \| Renewable Matter** · 10-22 19:28
 - [Kuwait Reviews Energy Transition Plan and Targets for 2035](https://news.google.com/rss/articles/CBMinAFBVV95cUxPV1dNUHV1bXpHaGs5R1FabEh5cGxVeWdFLWFvRENBaFZaa0hiZW9GOGlLdnVoNXNJQXJUbXhvRW5Ybm43SkZXTkZUQnZjajNpRmZLTHQyM1pCR0cwdmhvRjhTZy1CRzYxMzY0UmkybGZDMkhLbGIzejJrZTA5RUF0WlU5SS1MMGpTbVg0cmxBcUtlYUg4OVBlakp5eVo?oc=5) — **Energetica India Magazine** · 10-22 18:59
 
@@ -410,13 +419,10 @@ modified: 2026-10-23T09:06+09:00
 
 ## 냉매
 
-### 국내 · 9건
+### 국내 · 10건
 
-- [KTC, 차세대 냉매 전환 국제협력 모색…HFC 감축 대응](https://www.fnnews.com/news/202610221757598100) — **파이낸셜뉴스** · 10-23 06:00
-  - 한국기계전기전자시험연구원(KTC)이 수소불화탄소(HFC) 감축과 친환경 냉매 전환에 대응하기 위해 국내외 전문가들과 기술 협력 방안을 논의했다. KTC는 일산 킨텍스에서 '2026 탄소중립 시대 차…
-  - 관련 보도 1건: [헤럴드경제](https://biz.heraldcorp.com/article/10912198?ref=naver)
-- [KTC, 탄소중립 시대 차세대 냉매 국제심포지엄 개최](https://www.electimes.com/news/articleView.html?idxno=373800) — **전기신문** · 10-23 08:44
-  - KTC가 차세대 냉매 전환 관련 기술과 글로벌 협력 방안을 모색하는 자리를 마련했다. 한국기계전기전자시험연구원(원장 양병내, 이하 KTC)은 수소불화탄소(HFCs) 감축과 저온난화 냉매 전환에 대응…
+- [KTC, 탄소중립 시대 차세대 냉매 전환 국제협력 모색](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MejRiendTcXM3aFRFM3lPRmtTeUg3dHZhb0lnRUQwVnl6cFUyMnM0ZHdSS2VNNEpZeFVXRXozNE1WaW1kUkMyMzRDMUNRemNLLTJwblNxYTdoTWt4SFFRMg?oc=5) — **헤럴드경제 미주판** · 10-22 17:06
+  - 관련 보도 3건: [파이낸셜뉴스](https://www.fnnews.com/news/202610221757598100), [전기신문](https://www.electimes.com/news/articleView.html?idxno=373800), [헤럴드경제](https://biz.heraldcorp.com/article/10912198?ref=naver)
 - [부산진해경자청, 입주기업 냉매 관리·에너지 효율 개선 지원](https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610221125359850697) — **대한경제** · 10-23 08:02
   - 추진 냉매 누출 관리부터 회수·재사용, 설비 개선까지 지원…올해 시범사업 거쳐 2027년 확대 추진 부산진해경제자유구역청(청장 박성호·이하 경자청)이 입주기업의 냉매 관리 역량을 높이고 에너지 효율…
 - [KTC, 차세대 냉매 국제심포지엄 개최…HFC 감축·냉매 전환 대응 모색](https://news.google.com/rss/articles/CBMigwJBVV95cUxNNHBubGdQQTE0ZlBfMkJOOEw5RC1pQ19GT2I3WGhvaEk2NUd5aFJmOUFNc3dOM3RUQXpYZ3lsVU1WSG1tQUhGMDhTTTR2X0hySDQyZUhLUzIwTWNKX0dsRHJvdkQ3WlEteThFd0RSTE1fQ19xblNVRXFzMWZxenVJR0Y0aDBoc3M3Q3lkWWxsVXo5eGJlZEJCa2tWNnhDMTNjQVQtMHkzXzNmWUJWbnZuaTluSFJjU3FHTTBoLUttUUdFb08wSU9fc0xocUZDeHo3REMwcm85SEhJZWJfRzJ0QXluYldHcGpXOGVSOTRuZVhBcXZ5RGdiWVc5QWZwZ3BpS0w4?oc=5) — **데일리안** · 10-23 06:00
