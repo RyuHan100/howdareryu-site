@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-23
-modified: 2026-10-23T08:57+09:00
+modified: 2026-10-23T09:06+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-23 08:57 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-23 09:06 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-23|10-23 클리핑]] — 기사 **250건** (국내 165 · 해외 85)
+> [!example] [[radar/news/2026/10-23|10-23 클리핑]] — 기사 **254건** (국내 169 · 해외 85)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -224,8 +224,10 @@ modified: 2026-10-23T08:57+09:00
 
 ## ESS
 
-### 국내 · 16건
+### 국내 · 19건
 
+- [SM그룹 SM국일, ESS 장비 전문 대진기계 인수 우협 선정](https://news.google.com/rss/articles/CBMidkFVX3lxTFBMaU5EYWxyN3ZNbXpUaEJMeTFWWUNIcU9RZFR6M1dpNE1odS11X0JTVnRYYWtfOXB1cmJLX1VXMHV1RXlaSG5xQ00tY1p6YXlKcHVjYkJjWlpvX095YWwxaFNzMnZhTjExMFY2bElJNVNmRWZqY1E?oc=5) — **인포스탁데일리** · 10-23 08:51
+  - 관련 보도 3건: [물류신문](https://www.klnews.co.kr/news/articleView.html?idxno=323192), [연합뉴스](https://www.yna.co.kr/view/AKR20261023035700003?input=1195m), [데일리안](https://www.dailian.co.kr/news/view/1705056/?sc=Naver)
 - [SM국일, ESS·반도체 장비업체 대진기계 인수 추진](https://view.asiae.co.kr/article/2026102308524946879) — **view.asiae.co.kr** · 10-23 08:52
   - SM그룹 계열사 SM국일이 에너지저장장치(ESS)와 반도체 생산장비 전문기업 대진기계 인수를 추진하며 사업 다각화에 나선다. SM국일은 대진기계 인수를 위한 우선협상대상자로 선정됐다고 23일 밝혔다…
   - 관련 보도 1건: [아시아경제](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkZHB4ME5xYXlZWGtrYXpBZDMzNWFxNVRqOExBWG1kc0hkbWN0MHU4VGVpLWwyM2gyZzlXZDM2aUZKM2JGck1sZTJKSHcxaFRna2c1RlBRbXhzWTJRNkhfYQ?oc=5)
@@ -236,7 +238,8 @@ modified: 2026-10-23T08:57+09:00
 - [AI가 불붙인 전력 수요..히트펌프·원전·ESS '에너지 신기술' 총출동](https://www.mt.co.kr/industry/2026/10/22/2026102114442489953) — **머니투데이** · 10-22 13:30
   - 냉난방을 전기화하는 히트펌프부터 초고압 전력기기와 에너지저장장치(ESS), 원전·가스터빈·풍력 등 발전 설비까지 에너지 산업 전반의 신기술을 한 자리에서 만나볼 수 있다. 국회수소경제포럼이 주최하고…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTE51V0RtckVJOFV2QklNOENPVmx5MnZUSGNzeWRrLUhoeldtYk1rTWZvVnlRaFNYbzFKdFl6Rm1aUWU4TEo1QkRHc2lTY3F1aTJ0YWIzeS1hTUZpVHpTekJldmFHV0ZZZkt5amNWSFhYa0dWQdIBckFVX3lxTE51V0RtckVJOFV2QklNOENPVmx5MnZUSGNzeWRrLUhoeldtYk1rTWZvVnlRaFNYbzFKdFl6Rm1aUWU4TEo1QkRHc2lTY3F1aTJ0YWIzeS1hTUZpVHpTekJldmFHV0ZZZkt5amNWSFhYa0dWQQ?oc=5)
-- [SM그룹 SM국일, ESS 장비 전문 대진기계 인수 우협 선정](https://news.google.com/rss/articles/CBMidkFVX3lxTFBMaU5EYWxyN3ZNbXpUaEJMeTFWWUNIcU9RZFR6M1dpNE1odS11X0JTVnRYYWtfOXB1cmJLX1VXMHV1RXlaSG5xQ00tY1p6YXlKcHVjYkJjWlpvX095YWwxaFNzMnZhTjExMFY2bElJNVNmRWZqY1E?oc=5) — **인포스탁데일리** · 10-23 08:51
+- [SM국일, LG엔솔에 ESS 장비 공급한 대진기계 인수 우협 선정](https://www.insight.co.kr/news/578869) — **인사이트** · 10-23 09:04
+  - SM그룹 계열사 SM국일(옛 국일제지)이 LG에너지솔루션에 에너지저장장치(ESS)용 배터리 생산장비를 공급해 온 대진기계 인수를 추진한다. 산업용 특수지 등 제지 중심이던 사업에 배터리·반도체 생산…
 - ["美 ESS 中 퇴출설, 삼성SDI 반사이익 볼까"… 목표가 상향 속 검증은 '실적 발표'로](https://www.g-enews.com/view.php?ud=2026102308270978900c8c1c064d_1) — **글로벌이코노믹** · 10-23 08:30
   - 미국 정부의 대중국 배터리 공급망 규제가 에너지저장장치(ESS) 시장으로 확대 적용될 조짐을 보이면서 삼성SDI가 북미 대용량 전력망 시장에서 유의미한 반사이익을 거둘 수 있을지에 금융투자업계의 시…
 - [LS일렉트릭, ‘ESS용 PCS’ 단체표준 1호 인증 획득...전력망 안정화 핵심 기술 공인](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uQ2dZYmY0VF9rN0Y5ZWhURmNWR3dISDg5elY4cW9iQTVSUG1vd1ZEUklocVJNcFNqRXdYUDczTVkyWXJTQVVrX1hjV253NXoyNk1BUWdTTFFkbkhKSVRtcGxweG5OS2M?oc=5) — **산경e뉴스** · 10-22 19:07 · 전력망
@@ -248,8 +251,6 @@ modified: 2026-10-23T08:57+09:00
   - 에너지저장장치(ESS) 시장 확대에도 배터리 핵심 원료인 리튬 가격의 하락세가 내년까지 이어질 것으로 전망되면서 국내 배터리 업계의 수익성 셈법이 복잡해지고 있다. 원재료 가격 하락으로 생산비용을…
 - [ESS 사업 고도화 나선 中 배터리업계···K배터리 경쟁력 시험대](https://www.sisajournal-e.com/news/articleView.html?idxno=424481) — **시사저널e** · 10-22 15:50
   - 중국 배터리업계가 차세대 배터리 상용화와 시스템 공급 역량 강화에 나서며 에너지저장장치(ESS) 사업 고도화에 속도를 내고 있다. 기존 리튬인산철(LFP) 배터리의 원가 경쟁력에 소듐이온배터리와 발…
-- [ESS 경쟁 격화…美·유럽 공급망 재편에 K-배터리 기회](https://www.m-i.kr/news/articleView.html?idxno=2009161) — **매일일보** · 10-22 14:38
-  - 매일일보 \= 김현우 기자 \| 중국 배터리 업체들이 에너지저장장치(ESS) 사업을 확대하면서 한국 업체들과의 경쟁이 치열해질 전망이다. 다만 미국의 중국 공급망 규제와 유럽의 역내 조달 확대 움직임은…
 
 ### 해외 · 15건
 
@@ -260,6 +261,7 @@ modified: 2026-10-23T08:57+09:00
 - [BW ESS secures international financing for 400 MW/1424 MWh Hams Hall BESS](https://news.google.com/rss/articles/CBMixAFBVV95cUxQUlNXbjMzWEM2dkZjcFhRWDJ0TF9aQWFnMldoeU12MmlvNFdJQXBhTGF6cVV4eGl2YXlSZVRXNmRzSHAzaURFYVZpMXVxc1RQbFpBSDNwc3ItREtieVZCaEYyZmhKUjJjZ015R3F0YzFXWmJERnloMm52ODNqZHZndG5sSTlHWTRIalhuaGN1dmZ6c0lHeC0yUUpzOGZCWlNXRFVKWW5PeE1EQlBROU1NQVk4SlFqVnAyU2VCQVg5c1lsMmVr?oc=5) — **Energy Global** · 10-22 17:19
   - 관련 보도 1건: [Trending Now Sustainable Construction](https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWVaUVZsby0tZ1ZSOW9oUWp0R1FIWW5BR0gtN3h1MmVzRmpoeEtGcUM2OEhOM2ZWM2tlU1ByNUpWVXZic0l0SmNLZDN0WW5QSDU4S2ZRMG5xaF9SNHF0dUQxamhXM3hUUWxHXzU1LVpwa0Rmb21PZzFuQlpqeUNLWW1MZ282SGlRZUxqdU1kTmF5RHUzREt4Tm9TUEZFS0hJcFBiN3pmejRIbkNpX1NzbEJ4RnRIMVk?oc=5)
 - [Amsterdam finalizes battery energy storage system ban](https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcmVnOVFPR0xNNVg0OUdVQXEyVmJjdDR2QWg5WmZwRlFrblluUFZSYlhGMTYxVVIxbVhuYXN6U1E3c0UzZVNtRE1ma0I0ZGJVMkZJRDg0M01mTG52MFBRTmpKYmQyc2xmakJiV0V4WUdyZ3FDTE5UdS1GZ1F4cFJHUjBIRFptcTlPaFYzNDZnVmhoSVVHN191M2NkSUhtV3N0Ylo3VFhHQVlhVkl0d1RMMUFfOVVkc0xNNXdEYlpGTnVxU2lHTTFQNUJscU1pVXZpdlpvQ2VIQVp6aVg1aGFzS2ZwNEhoMndPeUotM0dMbEVDdw?oc=5) — **The Daily Gazette** · 10-23 05:58
+- [Bridgewater Zoning Board Hears Fire Risk Testimony On Rockland APV Battery Storage Site](https://news.google.com/rss/articles/CBMisgFBVV95cUxPRk9XTkl3S2E1V1dacWQwZVg4Q241RXE0TF8xclRJWkVLd1FCdVpuNzVvSy1heGExQVJyMVF5aERMT1ZPUm43VXBVWUxyNnF1TTZVUV9TR0htV1YxdU5nUWdqT1FmU3U0aFZ1RGdMaVdlald5RURvQm5vTlcwOG1xTlF3aDlQNGJjbDJpN1NQejMyLXFhLTgxSjFlRzJ6WUFHZkJLNWRnRzkxSXlUWkh2d01R0gHYAUFVX3lxTFBXV3d4bGt0OURLTjdRX2xrYnEwRjVrc2ZnN05iWElVYUNTdFBjeVY4S3IwZmVLOHRTckpqRXM1MGhna28yYlNfakdCX0ZmdTF2Q000N0Q4VWxoQ19BX2szODRYRjV6UE82YmR2c0hxMks2cVVZdFRYYnNkTEMxVUxyQWxYMWk3RFlFdWt3WTdTSGxYSzltX0R1OUVDV2JaODh2cXYtaVNsN0xXVmUwVXh4TklwcDV2SXdIWEJJQVNxMXVOOVhBRFBfNFFWLW52ZUxEUzRyZ0RnaA?oc=5) — **Patch** · 10-23 04:55
 - [Uncle Harry and Aunt Bess: A Story of Magic and Mystery](https://news.google.com/rss/articles/CBMipAFBVV95cUxNdXgzanpEYlU5RkpyQkNOQnRlUVZVd19HNzRUZlBIRHlhSC1CYVQ4dThLMEFvaURJa0dlRXJQdVFSOHpTQXpQaW9reElUU2k0VTFlU2ZDcXNJVHp6aFEzbkhtOFpxX3Nlbk9KZ2FKZHB1WXlwbjNDRGVRZEdBTHNjNmZBc3ZJZV9GTUNna0tRR3N5ejJybVBMZTUtZVo1cGpsRHlBNw?oc=5) — **Westside News** · 10-23 04:24
 - [GERC notifies battery storage rules amid record power demand](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTGxLcGw1bjZkQjlFand1VzhMelE3XzN4OFBSSFZIMWdVbHJHS3VrVEVjbXpIYnE4aEpOZHQ0am5LSVd1TkNJbmI5RUFlNll4SUJzbmtaRWFINWFkUzRMbFdQMVZ2N2JSOG5GX0h4ZlpwWXhDZU5hODE0bkFYLWo3c01pS2R0bHR4Z05oN3UxRUxGOWF5TFJKUDVjSldDbUI5ZURPMXFPbjdVOE1oMDlCTzdaSmJObmgxbDBCX2tCWUF6U192NURfbW9TemVMXy1vbWpJ0gHYAUFVX3lxTFBjMllkZF84c0txNUZZWENmR3R2ckFpN2tVZHk2a2k0WVlvR0NXVTAwMERfQWNQZFBTcFItNzdoQXFBRDhSeE5sQS1XR3I1VV9hVTEyV1hkeVp6bW56RzhBOUdoR3JnZjExYVFEaGJ4d2lxZkxZUkVtWXNFWnFjYVFET0czRk8yZVN1Z3I4OEwtaG1ReDlsbW1XaVduQmI1cG9ScW1qZGtoZUduNURxZ012cV9wQTBOdk5aaFlNN0pZbHVsQnl3VXl1R0JjNTFmU1BPZTFFdnQ2SA?oc=5) — **The Times of India** · 10-23 03:43
 - [Sungrow details PowerTitan 3.0 BESS successfully completing large-scale fire test](https://news.google.com/rss/articles/CBMiugFBVV95cUxONE04REt1VDVpZnlNUFBweEpFU08xUWh1MWUtUmJCcWtFV2Z4TVI2dXh1Rm9PVnU5a2hiUHdqRkhfWDN1dHBwNmk4TDkzcEp0TFBEU3U0Zlp5YXpicGF3NXNZTWJhRmlnWTVfSlRYNlJFeTdFbmJEME9kYkRUN1dQQmRDUVVqeFFvY3NFa1pSMkdsN0JDNDU5NEJwVnhyb1ZLdWR1b1JHdWtlVEpKNmRveloxSGVaVmV5RXc?oc=5) — **ESS News** · 10-23 03:22
@@ -267,7 +269,6 @@ modified: 2026-10-23T08:57+09:00
 - [Ghana procures 200MW Battery Energy Storage System, 200MWp Solar Facility- Energy Minister](https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcjEwZlhsc1VESkhHcmVQVUZnNG91dGJwMWU5S3RXMTBVSC14Z2dpbVJJU1pJc1pFSFZ4OGVPMmQ0QWhGQ1E4d1c1Ml9RUmN6cjJmd1FkMndNX3UyYkZyQnZoWjVBcmpQSnRBMXJnRnp3S1RVckdKci1ER1hHUzB3anhSX2lRcGo3TENZQ25MYVdWRHd2bVctMHQwbjlxN3ZBUHk5SWo5V0hiaTFGSUtWd18xakpIUVlLaWtBbDJ4WkE1dkhka1kwN0lKM0hLUXdoRTFCOA?oc=5) — **GBC Ghana Online** · 10-23 01:40
 - [Montenegro’s EPCG seals new partnerships for renewables, BESS, decarbonization](https://news.google.com/rss/articles/CBMirwFBVV95cUxNSXJCR1k3ZGpvazJfMFhNZkx0QXB6QUZQSEExMDdkamJhbnVBS09YN1BNWW1SYnEzRkQtMHVNYjVjaGpkYUZTbVZ1UFB1SjJqRENnZjBMYTJ2X1dRU1FaenJ0NmprOU5abVhZek9RaThOcUJsT3NaVTJNTGdkMFB4WUsyeUstVDR4dkk1ZDhpdVRfaVRuc0twM3hiNC1vWHpmd1p4N0Q4djJsamo4TEJj?oc=5) — **Balkan Green Energy News** · 10-23 00:44
 - [Ingeteam Supplies Power Conversion Technology for BESS and DC-Coupled Projects in Australia](https://news.google.com/rss/articles/CBMisAFBVV95cUxPaF9FdXhZeDMwbUxFUWNvbVdZWXBabnlvMThNQzcyN3VOZG9WcDhjY3h3Y2R0Y2xJcmVuNUJBTEdzQlZMMEsyZFUtd1RqZm1zRGRxRFU0aExnQmhtVjc1WW1zbmo1ZmZKa2JiVTZSTVh4NjFFVEdKNl9pdVV5QUJZelRfWjZBOURFOVZ4WDc2Q2RMRC1JNDU3YjVHaEl4bEJNT1lUTGdrUGIwRllmeXp0eQ?oc=5) — **Renewable Energy Magazine** · 10-23 00:25
-- [Rosatom has commissioned an energy storage system at the Chayandinskoye field](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2xCMTBRQ1RqaWh6LTFPbm1iYVMzUFBBVUZPZnlZZ0Q5WFpFUUlDOUlZZWlTOUFuRnh1Y25xN3lIT0d4dnVsbWV2cFF3N0YtOGVaaWIyNEd0VThRNGtXdkN1VEZMVlo2SVdFXzVmUGVMQ0N0emRTV19hZEdBZDcySWJ2ZWo3VlBOSUozMFZuenhLWFA4SWVFTGhNbEgzMUlBQkdNNXJ5MmhXZw?oc=5) — **AKM.RU** · 10-23 00:24
 
 ---
 
@@ -409,14 +410,15 @@ modified: 2026-10-23T08:57+09:00
 
 ## 냉매
 
-### 국내 · 8건
+### 국내 · 9건
 
+- [KTC, 차세대 냉매 전환 국제협력 모색…HFC 감축 대응](https://www.fnnews.com/news/202610221757598100) — **파이낸셜뉴스** · 10-23 06:00
+  - 한국기계전기전자시험연구원(KTC)이 수소불화탄소(HFC) 감축과 친환경 냉매 전환에 대응하기 위해 국내외 전문가들과 기술 협력 방안을 논의했다. KTC는 일산 킨텍스에서 '2026 탄소중립 시대 차…
+  - 관련 보도 1건: [헤럴드경제](https://biz.heraldcorp.com/article/10912198?ref=naver)
 - [KTC, 탄소중립 시대 차세대 냉매 국제심포지엄 개최](https://www.electimes.com/news/articleView.html?idxno=373800) — **전기신문** · 10-23 08:44
   - KTC가 차세대 냉매 전환 관련 기술과 글로벌 협력 방안을 모색하는 자리를 마련했다. 한국기계전기전자시험연구원(원장 양병내, 이하 KTC)은 수소불화탄소(HFCs) 감축과 저온난화 냉매 전환에 대응…
 - [부산진해경자청, 입주기업 냉매 관리·에너지 효율 개선 지원](https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610221125359850697) — **대한경제** · 10-23 08:02
   - 추진 냉매 누출 관리부터 회수·재사용, 설비 개선까지 지원…올해 시범사업 거쳐 2027년 확대 추진 부산진해경제자유구역청(청장 박성호·이하 경자청)이 입주기업의 냉매 관리 역량을 높이고 에너지 효율…
-- [KTC, 차세대 냉매 전환 국제협력 모색…HFC 감축 대응](https://www.fnnews.com/news/202610221757598100) — **파이낸셜뉴스** · 10-23 06:00
-  - 한국기계전기전자시험연구원(KTC)이 수소불화탄소(HFC) 감축과 친환경 냉매 전환에 대응하기 위해 국내외 전문가들과 기술 협력 방안을 논의했다. KTC는 일산 킨텍스에서 '2026 탄소중립 시대 차…
 - [KTC, 차세대 냉매 국제심포지엄 개최…HFC 감축·냉매 전환 대응 모색](https://news.google.com/rss/articles/CBMigwJBVV95cUxNNHBubGdQQTE0ZlBfMkJOOEw5RC1pQ19GT2I3WGhvaEk2NUd5aFJmOUFNc3dOM3RUQXpYZ3lsVU1WSG1tQUhGMDhTTTR2X0hySDQyZUhLUzIwTWNKX0dsRHJvdkQ3WlEteThFd0RSTE1fQ19xblNVRXFzMWZxenVJR0Y0aDBoc3M3Q3lkWWxsVXo5eGJlZEJCa2tWNnhDMTNjQVQtMHkzXzNmWUJWbnZuaTluSFJjU3FHTTBoLUttUUdFb08wSU9fc0xocUZDeHo3REMwcm85SEhJZWJfRzJ0QXluYldHcGpXOGVSOTRuZVhBcXZ5RGdiWVc5QWZwZ3BpS0w4?oc=5) — **데일리안** · 10-23 06:00
 - [오운알투텍, 잔여냉매 회수·정제 모니터링시스템 출품](https://www.gasnews.com/news/articleView.html?idxno=127321) — **가스신문** · 10-22 20:24
   - 대한민국 ESG 친환경대전서 출품 오운알투텍 임윤이 차장(오른쪽)이 관람객에게 잔여냉매 회수시스템에 대해 설명하고 있다. 쓰고 남은 냉매를 회수, 고순도로 정제해 재사용할 수 있도록 하고 나아가 탄…
