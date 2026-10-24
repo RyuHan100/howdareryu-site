@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-25
-modified: 2026-10-25T07:34+09:00
+modified: 2026-10-25T08:04+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-25 07:34 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-25 08:04 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-25|10-25 클리핑]] — 기사 **76건** (국내 23 · 해외 53)
+> [!example] [[radar/news/2026/10-25|10-25 클리핑]] — 기사 **83건** (국내 27 · 해외 56)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -27,11 +27,13 @@ modified: 2026-10-25T07:34+09:00
 - [IBK투자증권 최광진 탄소금융사업 기회 잡나, 중소기업 녹색전환 선도 준비 '이상 무'](https://www.businesspost.co.kr/BP?command=article_view&num=449937) — **비즈니스포스트** · 10-25 06:00 · 자발적 탄소시장 / VCM
   - 최광진 IBK투자증권 대표이사 사장이 정부와 한국거래소의 자발적 탄소시장 육성 움직임에 힘입어 탄소금융 사업을 확대할 기회를 맞고 있다. \<그래픽 비즈니스포스트\> 최광진 IBK투자증권 대표이사 사장…
 
-### 해외 · 4건
+### 해외 · 6건
 
 - [Massive carbon stocks in grasslands are ignored by climate finance](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRWdrc2ZYck5sOFgwWGdhckc2QURlVGtVQ0N6dGpyc2NLOE9BWWZtdUd0Q3VPUVBsWlpUalRYczZ4TEpGLWp3TDVoT0NpcjZfd3FrWnNmZ1FTWlRvVFlySFFOaUt6TndVdDZtazJfMHZFYXIxY0RmNWx6NGNUem5KNVRfNTNqY2x1eVY40gGLAUFVX3lxTE9FZ2tzZlhyTmw4WDBYZ2FyRzZBRGVUa1VDQ3p0anJzY0s4T0FZZm11R3RDdU9RUGxaWlRqVFhzNnhMSkYtandMNWhPQ2lyNl93cWtac2ZnUVNaVG9UWXJIUU5pS3pOd1V0Nm1rMl8wdkVhcjFjRGY1bHo0Y1R6bko1VF81M2pjbHV5Vjg?oc=5) — **Science X** · 10-25 06:53
+- [Carbon credits, sustainable farming can boost Indian rice farmers' incomes: Industry experts](https://news.google.com/rss/articles/CBMizgFBVV95cUxNdkhIemIwN09HWkxCU2w4cmFUcjBmQ2lhVmt2VDZFN25LSm9LVVgtMm16R1oyUGVaSFFXRE9sZHFjdVlQSS1JUnkwNUdyWmZCVzJJTmtGbmstdWxFRkpuY1VyeWNBVUxHTWNBMExOcnAySjNBSlhnM2pZYzdPNmJSeHlYc2NIeTFYUGwtZ1N3Wms0VUREeC01NVliTmpYVWZSb21KQ2dKQnFfQTEwRkNaaWNmUXh4VXpKWkc0TkhZbUFxZHV2X2xHZU1qLVlvQQ?oc=5) — **https://www.indiagazette.com/** · 10-24 17:04
 - [EU negotiators reach provisional deal on carbon-market reserve](https://news.google.com/rss/articles/CBMilwFBVV95cUxPZkpvUV9QRHJSZXJSN2lZSklMeUh1dndmcHk1alplRnBEWjN1azNpM2tQT3JlOWJDazVXMWRyb2p4RnNoNUotYnpwSUVkX3lzTjlkUGRPV0NRRXlrd2tYejRBNGI0SVlWQWR0ek9rbThqS2FxVER2eWpkdG1oTlZiNk5YSGVmRERQTkNEYWI2bjN5LUhDYl9N?oc=5) — **London Daily News** · 10-24 15:25 · 배출권거래제 / ETS
 - [State Bank of Pakistan, WWF Turn Green Taxonomy Into Carbon-Intensity Checks for Textile SMEs](https://news.google.com/rss/articles/CBMib0FVX3lxTE94M29lUG1rY0N2ejh2YTlEZTVqZS1haFVDN3Rxd1hicVluUmkzMVMxOU5fOHBRVERlc3lNTmx6OWdxRHNTRy1jOEpSQmxiRnF0SVJQWTdkWC1WLWkzV3gyWnBUSjNfQ29jcldoMGtxbw?oc=5) — **ESG News** · 10-23 22:59
+- [China, Europe should form ‘climate club’ for joint carbon pricing: energy expert](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd2RRaUQtclFzWDRBRVVhWkNvTnpoc2F3SDVyRzFld3UyVW1jUlh4WURTeFdQM09JY1R5VVR5WGFPcV9RVjd1bVlYMHN2LV8tVnQ3TFVBSWxJbzlCZHVUMTBJSUM2VlBvMDRCVE9SNXRmbkRKaWJWRkx0cHlLQ3NmZVZGeVFzdlB1OEE0OW82Nm5PQzhfZXVWTm9KOG1uYW9QNXRDeFFNdEkwTS05eThxdm5EVElYZXJLSV9STFhIYXBvOWNvcERpOFN3SzMyTkdkQjVGYWRiUdIB1wFBVV95cUxPRlE3VXF3bTZzWld5TVFlelRkUGRON2d4a2pZOS02OUM2aVVPdWk0VlotN2pOZDF0TTZpUzNLSDhqQlo2VHlDTVE3b2Y5LXh2NUpjQ3pxZnZ0ZVIwWWxEdl9nMnRiTEVFSUtnaXVxQ2V2WFRlZjUweEt6ZnNIM0JrQUhkSGtqTUNQTEVfa2ZxblBBbFJ2bG5NcHNfRENlLXdVeGRBV1J5aTFOa1BhSzRwVm1NNDViUU93UmtZLW9yUWdiSGZwWUw5ckJMdkZwbUFFcEltWGRadw?oc=5) — **South China Morning Post** · 10-23 21:30
 - [European carbon prices could hit €100 per tonne this winter, says BofA](https://news.google.com/rss/articles/CBMi9AFBVV95cUxNODFnNHlQeUNFSk5odHo3Nm9xd3lIZDRMSHRFNkNDU0NDRVZsbjJwaF9SWlpYSFliRHFVNG5Mcjc2NUxJUWFTY21PekZSVUU1ZGhDZ21XUjVHRi01N0lSYS1Ja3lTNUhhUmFOdmJ3eFNlSFhjZXV4QV9xUnlveHNnNUM3V2g2QVFFeC1wdzVqcjNTVnp2SEZSWE9zaU0yeExEMmllZ1UxbGt1bE1nelNWVkM5c2JHeVdIWGpjU1Z5eWxLVzVOWE95bDZ0QWNQbGVRSV9wdVZ0SFduaVBQRVNhTk1PTm1QbnNfNUNPVFQ3cndteTBJ0gH0AUFVX3lxTE04MWc0eVB5Q0VKTmh0ejc2b3F3eUhkNExIdEU2Q0NTQ0NFVmxuMnBoX1JaWlhIWWJEcVU0bkxyNzY1TElRYVNjbU96RlJVRTVkaENnbVdSNUdGLTU3SVJhLUlreVM1SGFSYU52Ynd4U2VIWGNldXhBX3FSeW94c2c1QzdXaDZBUUV4LXB3NWpyM1NWenZIRlJYT3NpTTJ4TEQyaWVnVTFsa3VsTWd6U1ZWQzlzYkd5V0hYamNTVnl5bEtXNU5YT3lsNnRBY1BsZVFJX3B1VnRIV25pUFBFU2FOTU9ObVBuc181Q09UVDdyd215MEk?oc=5) — **BusinessLine** · 10-23 16:27
 
 ---
@@ -80,18 +82,21 @@ modified: 2026-10-25T07:34+09:00
 
 ## 자발적 탄소시장 / VCM
 
-### 해외 · 3건
+### 해외 · 4건
 
+- [Carbon credits, sustainable farming can boost Indian rice farmers' incomes: Industry experts](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdU4yZGJBN3NzaXZfem9nZUVoVVh2MGo2X2RDcm04N25fdV8zZlFrYVRfemlnWUFmVmF0TUFSN3RJTjc1ODdwb01GdjBXdnJ5SlY4ZTU0WnNhMVdoU2Vqd1FiSTl1ZU40c3pwRG5CWFYteEstU0NsMjFrWm1tWlBOUnpOYU9sTDlGRU1SQ0dTMWRodUVKenB1VURnQXR2Q2t0b3UxdGhfM2ZHRExJWVNFaXR1RE85NXRnOTM0aGhndGZCWTNTQ0VrckI1QjRfaXZYQ19EbWFJcw?oc=5) — **ANI News** · 10-24 20:25
+  - 관련 보도 1건: [The Tribune](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbUR0YlE2VFhpc29MNnpUanBuWnFZZC1KOGVpN1hxSXBVUURRdUk0cHpLVHNpTmlVT3BKd0pwV28zNGQ4MkNIQ1VPNGk1TnhUZ01DOTNrLUo0YUp3cFBrclN3Y09aV1NIYWtBRHkzNk1ISG9fSC1tdHlfNkJQaGphTk5RSzBQbTlyN2ZDTzd0WW5udmZ6MWUtUU04X01hVXU5SzdMRHVFVThicmRQcnR3dk51Znp5NGxmT0piZHBNcnY0M2cwanVnbFJ6eURVME5GWDhYQmVMSW11Wm9QRGtpWGVINlZJenA3Y0M5c0t30gHuAUFVX3lxTE1tRHRiUTZUWGlzb0w2elRqcG5acVlkLUo4ZWk3WHFJcFVRRFF1STRwektUc2lOaVVPcEp3SnBXbzM0ZDgyQ0hDVU80aTVOeFRnTUM5M2stSjRhSndwUGtyU3djT1pXU0hha0FEeTM2TUhIb19ILW10eV82QlBoamFOTlFLMFBtOXI3ZkNPN3RZbm52ZnoxZS1RTThfTWFVdTlLN0xEdUVVOGJyZFBydHd2TnVmenk0bGZPSmJkcE1ydjQzZzBqdWdsUnp5RFUwTkZYOFhCZUxJbXVab1BEa2lYZUg2Vkl6cDdjQzlzS3c?oc=5)
 - [BIRC 2026: Experts Highlight Carbon Credits, Climate-Smart Practices for Sustainable Rice Farming](https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWHJhWkp3LXlmUG1ua0VaWFBzQXlBMng4Y0dBaXduQXhFMmNnaFYybEgtaklZVmlSakNYT2ZDazBpYVhxWlBnZXdMT0w4LXBUVFEwNnB6azBZMW4wMlNUbzdzb0VsUENHeGJaTEJmN1BaajdYa0xIajRIOGE2WHJ2cHVITmNPRm8tUnkwUkY2Z0xYbjN0UjM0aTdQengwMXR0LXFpZ1BmWC1FWkFPeGZ3emVfdzBma3pBb1VKd2N6cGIyVFRaaVdVUjZnM25GQVJaMmxNczhEekZBbG1l?oc=5) — **AgroSpectrum India** · 10-24 20:38
-- [Carbon credits, sustainable farming can boost Indian rice farmers incomes: Industry experts](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbUR0YlE2VFhpc29MNnpUanBuWnFZZC1KOGVpN1hxSXBVUURRdUk0cHpLVHNpTmlVT3BKd0pwV28zNGQ4MkNIQ1VPNGk1TnhUZ01DOTNrLUo0YUp3cFBrclN3Y09aV1NIYWtBRHkzNk1ISG9fSC1tdHlfNkJQaGphTk5RSzBQbTlyN2ZDTzd0WW5udmZ6MWUtUU04X01hVXU5SzdMRHVFVThicmRQcnR3dk51Znp5NGxmT0piZHBNcnY0M2cwanVnbFJ6eURVME5GWDhYQmVMSW11Wm9QRGtpWGVINlZJenA3Y0M5c0t30gHuAUFVX3lxTE1tRHRiUTZUWGlzb0w2elRqcG5acVlkLUo4ZWk3WHFJcFVRRFF1STRwektUc2lOaVVPcEp3SnBXbzM0ZDgyQ0hDVU80aTVOeFRnTUM5M2stSjRhSndwUGtyU3djT1pXU0hha0FEeTM2TUhIb19ILW10eV82QlBoamFOTlFLMFBtOXI3ZkNPN3RZbm52ZnoxZS1RTThfTWFVdTlLN0xEdUVVOGJyZFBydHd2TnVmenk0bGZPSmJkcE1ydjQzZzBqdWdsUnp5RFUwTkZYOFhCZUxJbXVab1BEa2lYZUg2Vkl6cDdjQzlzS3c?oc=5) — **The Tribune** · 10-24 20:27
 - [Mycorrhizal Fungi Program Issues First U.S. Carbon Credits Under Verra VM0042](https://news.google.com/rss/articles/CBMipAFBVV95cUxOUHBjU3NzVEh1RDRGRXJxc0ZzWmkyNUxHYV9BWTBlMzZPellxSk56OElrZnYwZjJ1a21IM29sUS1Ta1A2V1VlZUxkM2I1bmdpd3pZdGtRUlRGNmlwUzU2YzduXzcydGY4eDRYNlRXUDNZSFNJY2RfZzFodzh5WEJBY3BVTTVnanlPNVZnaEZWQkZSaU8yd3FleUlNU2NsTjZYV2k3LQ?oc=5) — **Denkstrom** · 10-23 16:00
 
 ---
 
 ## AI 온실가스
 
-### 국내 · 2건
+### 국내 · 3건
 
+- [메타 데이터센터·현대제철 투자에 전력난…루이지애나, 26억 들여 원전...](https://www.g-enews.com/view.php?ud=202610250743372862fbbec65dfb_1) — **글로벌이코노믹** · 10-25 08:00
+  - 데이터센터가 잇따라 가동에 들어갈 경우 기존 가스나 재생에너지 중심 계통만으로는 기저부하를 감당하기 불가능하다는 판단이 원전 카드를 꺼내 든 결정적 계기가 됐다. 에릭 스크르메타 위원회 의장은 탄소…
 - [동일한 AI 요청, 텍사스에서는 스웨덴보다 CO₂를 8.5배 더 배출함](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1sSDA4N09GekhKMGFicnpHZnVHWEtwcmhETldlbUZWWi02ZGRXbDI3NDVDb3MwaFBNMFVMeHJYNXVGUTZYdzI2U2tsVQ?oc=5) — **GeekNews** · 10-25 02:42
 - [▶️ \[영상\] "전기 먹는 AI 안 돼" 수만 명이 함께 걷는 이유](https://news.google.com/rss/articles/CBMibkFVX3lxTE93WEU5WHBKSk5pY0FyOXZGX0tOQldGeG5RamFsVEstc3Q2bVN0MTQ5eEE5V19mU3dfbkFGS21uSzQ1X0lUNHY0T2JaWkItSUhIVDNGNFI3U090RF9zN2V0aGJneXNsNXU4d1A1aUlR0gFyQVVfeXFMTmVwc01mSWtpd1NOVzIydVBNNUNaMUtnaWh1Sm5YMFppaGpGT3VnQXNsMy02Z3BINXpOMUZtSl90VXVxZ2hmNzlpNEVwNEpGNnBKYUNsQ0Mxc0U1djFDNWN5WHZGeXd2MWhkQ2FfX1RfZ1V3?oc=5) — **뉴스펭귄** · 10-23 08:06
 
@@ -99,8 +104,12 @@ modified: 2026-10-25T07:34+09:00
 
 ## ESS
 
-### 국내 · 1건
+### 국내 · 4건
 
+- [자동차로 전기 사고파는 시대 온다…전 세계 주목하는 ESS\[에너지 오디세...](https://view.asiae.co.kr/article/2026102315280599393) — **view.asiae.co.kr** · 10-25 08:00
+  - ESS는 에너지 저장 방식에 따라 다양한 형태로 구현된다. 물의 위치에너지를 활용하는 양수발전방식, 압축한 공기의 압력에너지를 이용하는 압축공기저장방식, 그리고 배터리를 활용하는 BESS(Batte…
+  - 관련 보도 1건: [아시아경제](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LYzlQdG9SYzR6emNmbFhnUlAyWXJvREZfWWRlX2tRN2FQTlRfbmJLZ1dzbWJIdV80SlF2c0hGWXJjWTUyTF9jem13M1ZSOTUzd3JCaEd1YWlhRU4xV2lpdw?oc=5)
+- [한국스마트그리드협회 ESS용 PCS 단체표준인증 1호 인증서 수여](https://news.google.com/rss/articles/CBMiakFVX3lxTE9sT2U2UVZMUEUwNDQ0cnJrbGVRa3BBdDI4ZzY4aVBjTTZsUzdCdWNxTXV1ODVYMjdGNmFwdU5GaW1xM3BSMmxRSVQwemxGN2RFMnVrb2VJZ1FwcTM5czBBbE9pam43NzVMeXc?oc=5) — **한국전력신문** · 10-23 20:27
 - [테슬라가 끌고 ESS가 민다…엘앤에프 반등의 두 축](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oZGVLQkc1Vy1oMi1SYVlIYlZ6QXFNZ1ltRjNzVnNhY3E1Sk5WdjdRVW9RVzZBM2d4RG1wQ1ZqS3J6RlZIaS1PTGpMNXAzeVgyYUlfbW5EeFdBSUc0dDdKSVdpSQ?oc=5) — **쿠키뉴스** · 10-23 13:23
 
 ### 해외 · 15건
@@ -162,6 +171,7 @@ modified: 2026-10-25T07:34+09:00
 - [Energy Transition Special Opportunities Estimates – BOATS:ETSS/W](https://news.google.com/rss/articles/CBMiekFVX3lxTE45d1g3SEFEcGEzanAza0dnMkpWSUd6LW1lUnk3YUYxbHhMZF85QUptLXI2ZXB4YW0yQlkzaEl3OEVlTi1JR2xmRlhQWWVYN0RWVE00Q0ZBZFFDX2VoWVUzTi1zWEtYelVOZW1PczJyZUZhUTFScE9YMUxR?oc=5) — **TradingView** · 10-25 04:09
 - [Penouta Guarantee Reaches EUR 2.45 Million for Energy Transition Minerals stock](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOG5qMkNPZTNsbEtWQW42OFpXVHpxcWd1QnVIUTI5M3k1bEJqMmlHR2ptMEx6OFpQV0tiY3NCckdWTzZNNXZGbldZV29TdDhuN3FueVZVZTFPNk5xbWRSUkhDT3hEcUpkRGVzLW5sWDhReUhpbmhQcC1QOVlZNml5Tk9ORC1MQzVhOHpDM3gwTGlLcTVteGlmUWNvY1BqRUlFTUhMN0Z5TUpGdDlwMGFGT0xsTWU0MUtJUlNfN2NtMEFsTVhEU1dyTE55UEVNUnpjYXBCRWR4eFhkdw?oc=5) — **ad-hoc-news.de** · 10-25 02:18
 - [Energy Transition Plans Keep Freezing Today’s Demand Into Tomorrow](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM1J6OG5wdEtPazJuUnI1dDFUeEtKc2sxTS00akVGU3V3WnBnbC1FYWVkR05YS3RZZE9zQUdhdnBPOUsyV3BldnJMNlR2Y2tXTzg5bFlmdkUzUzBidWgyaEdzM0tpdWdDZXZhaWIzNGVUXzFKakxjdlFGc1p3ZGJIWTJlSC1tRS1O?oc=5) — **CleanTechnica** · 10-25 01:53
+- [Tata Power and Imperial College London Sign MoU to Advance Energy Transition Research](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZWpjMWNwNkUtU2dDMWYxNFlzZW1CXy15N1NZd3ljRl92N2hhVkRwYjV6TFRHTTZ4Y1RSaXQ3R3hFenpjb1ZYMFB1eEZDVlRJWjBLcTQtUk5seDVHTmhQakZaeVY5QV84UjJCcnp0MHJCZW44RXJudktFSmliZWo2TTVqak1ITFhNV0hnc2Z2YXpZTlNHSmVRRWUwN1RxaEdvR2g1TlRuYmJWb1ZIQWhBMDRieUtQUU96M2Fr?oc=5) — **Machine Maker** · 10-24 21:36
 - [The solar energy transition is set to become a driver of growth](https://news.google.com/rss/articles/CBMixwFBVV95cUxPVHMtR1p1OEN0bmlLcjZiZUJ2eTM2dG1OZ2R3S3lEbjZCazZhVXNkcGo4RWplQXFEU1VIMmJYVFZrVE1uNWpFeWZ4WjF1SkhZMUt5Rk5pWl9MNDZXRmJlTGFLUkZyekZoaksxajBKVHBDdXNQdlZmZU9aMEZBN3ZpOW0wSEE4UVNyc1hTTko2dVZ5X0NyVVZnXzQxcVZDc1VZX3JWQklwT3NsbzNSNXg1U0FYSkp1VEREOW1EOHRUSjMxbmQzdFJj?oc=5) — **Sonnenseite** · 10-24 21:30
 - [Blackstone's \$8.7B energy transition fund, \$108M for Peak Energy](https://news.google.com/rss/articles/CBMilAFBVV95cUxOajVyaVhIZkM2N3N1THl1Z29HMkhBRi01SzhvWmFEamhmVkM0ZmxNWWotMUpXY2RUQ0tOLW9BcTdRdXp2VndoOFAwREdzUms1bEMyNk9jRHQwZFNHbmtLejFVR1daSTVKbVhJc0FXRlRWNzFqZEswUXVNZDRUU196VHpRWnBDZklKQ0oxUGNVTGpTSFBw?oc=5) — **Axios** · 10-24 20:46
 - [Australia & India can Accelerate Global Clean Energy Transition: Australian Diplomat](https://news.google.com/rss/articles/CBMiswFBVV95cUxPWTFCd1RrUXhLTllRa1czMy1kVHhjdEp1QmY5dUtGTEJhbWNXQkJSYTJVM0ZLMU9vdlZtTmdyMUxMMzhIM0ttby10MFFuaEN1QldTREJpcU5Femdwa21KT1FEc0F3NGhNTWdQcVNaTzBlS2dCRERvbkI2MEhFOWtRMVg0LXEySm1tdzZEX2VVaTFMTWZiTmFYWUFtNkZ5WXN5LWdRb2FPMjZjcFdCYXV5ME1tQQ?oc=5) — **India Education Diary** · 10-24 19:04
@@ -170,7 +180,6 @@ modified: 2026-10-25T07:34+09:00
 - [Chinese-built solar project supports Vietnam's green energy transition](https://news.google.com/rss/articles/CBMifEFVX3lxTE1JQlpnb1RHRnRqdWNBOGdIY29VMmJqQkFOM1NKOHlycXd5M3BiOXdKVGwzdkc2Q29CQ1ZCb2JKLWNtaGZnSS1KR3l3c3MwLWtsZ19NZHl4WHZBR2JWMXFhdzZXb1Y5dTVpU2xtYUg0TVl4cHh4ZTcxY21aWFI?oc=5) — **Xinhua** · 10-24 17:54
 - [Interview: China's clean energy achievements accelerate global energy transition, says IEA chief](https://news.google.com/rss/articles/CBMifEFVX3lxTE0yQUNyNkJjVGpndUUyZ0NzMVgxQXlhX3BUZ015X21BSjJIMnBGcm10Y3BKRURlaWNNMDZQYzhjS3FEOWRfajQ5dWhjT0pPYWl0UV9VS2Z1NVdwVk5tRVBkTEUxWVV5ZUpOcmVLRGZZVi03OEVKU1llaGhLZHA?oc=5) — **Xinhua** · 10-24 15:16
 - [Thailand Secures Fuel Reserves Amid Middle East Conflict as PM Anutin Pushes Clean Energy Transition](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1SjJjU0M0enJabVRzTkVNeUJYV2RYaERlY2lBZFRDc2tON3ZKR0hpX09mV3JHMFRKY0lLVkREdmwtaUtHakFBcUNpck1IOEM3VFNGV2R1SUU2eWlVY1Q5R0ZCdTRKeXc?oc=5) — **Nation Thailand** · 10-24 13:59
-- [The market won’t save us: workers must lead the energy transition](https://news.google.com/rss/articles/CBMimwFBVV95cUxNZE1jZWt4WGhMY3V5cDNEUnA3Rmlvamc0TkRlaU9rcWJiRGxmVWIyb2lpZHlLQzkwZVh1U29DWjF0Q1YzQzFCUkx6Y0pNZXMya01nMF9XVHZqRHNMT0hMWFhma1hUODBQdEVTQVI3N19XNHU0ek1Bak92QllDVk9xNjlMS3BkZzFrTHhxa2FlLWhTYjNjYWdGLTZpQQ?oc=5) — **Morning Star \| The People’s Daily** · 10-24 10:25
 
 ---
 
