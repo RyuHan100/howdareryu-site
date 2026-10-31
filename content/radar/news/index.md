@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-31
-modified: 2026-10-31T09:59+09:00
+modified: 2026-10-31T10:38+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-31 09:59 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-31 10:38 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-31|10-31 클리핑]] — 기사 **189건** (국내 126 · 해외 63)
+> [!example] [[radar/news/2026/10-31|10-31 클리핑]] — 기사 **191건** (국내 126 · 해외 65)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -31,8 +31,9 @@ modified: 2026-10-31T09:59+09:00
 - [EEX 아시아 커머셜 총괄, 서울파이낸스 주최 포럼서 '유럽 탄소시장 및 탄소배출권 동향' 발표](https://www.seoulfn.com/news/articleView.html?idxno=641426) — **서울파이낸스** · 10-30 10:44 · 배출권거래제 / ETS
   - ▶포럼 참가등록(클릭) Erlend Engelstad는 이날 서울파이낸스가 주최하는 포럼에서 '유럽 탄소시장 및 탄소배출권 시장 동향' 주제로 연사로 나선다. 그는 EEX의 아시아 사업 관련 상업…
 
-### 해외 · 4건
+### 해외 · 5건
 
+- [Regulated Carbon Market: Emissions Measurement Timeline for Regulated Sectors in Brazil](https://news.google.com/rss/articles/CBMicEFVX3lxTE5WRWVGSngxdW1VU0FnQ3hSeHVZVU01MDFkbEVCVEc4MFB1aXB4OGd1cGRKQWdTdG1HSE1VZUF6S05mLXlNaUUyVHFEWXd2Uy12RFZCNDgzbUJ6eWhhSXRoQzA0ajRld29vVURuY191MGY?oc=5) — **Mattos Filho** · 10-31 07:45
 - [Meta to Buy EACs Tied to 200,000 Tons of Fortera Low-Carbon Cement](https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZ0lXZFhqQmc2eFRUeU13RlhjV0J3TlRIZDlOMFJuR3dxVFBMWm4zUndwbzI4SGVzMUt6OVMyNmRaaUpBS3dHQndfdUhNMWU4VWFUM1lxakhjclgxdktiZGtDWS1tUjRQZlp4OQ?oc=5) — **ESG News** · 10-31 06:45
 - [Namibia outlines plans to establish carbon market framework](https://news.google.com/rss/articles/CBMirgFBVV95cUxPdVFmRi1UUk1MOFpsaWRBWDdWbURBLW1COUk3TGFwb3BpbV83Ql9XNDdtTHJ2R2xyeVc1WlZaN09jd0tZTzl1VWx3WEM0YzFqeUMtcGROMjVIOFRpdDdHdHp4UlRINU9zekdpaG9Mamc3OEhXOVNwNDU3TnVqcjRTLTc4M2dMWThaVG91aEZaQThLLVVGejBaby1ITjUtdjZwNVVWZm9MQTFBZ0NzeEE?oc=5) — **Quantum Commodity Intelligence** · 10-31 01:07 · 국제감축 / Article 6
 - [Carbon trading needs accountability](https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVhVT3ZpVFFncjQxR1BDbGVSV0FRcUYyY1Z5VGZEc2VzOHdZUWg0VldJdkZGdVp5RTBaQXNtLUJSM0EtLXZKMGlXamFzcFZ2T3QzblU0LVg2Sm03eFJ5eGQ5QllKTUdVdC1jZEZqRDRnMTc5RmMydmxPVUVaQk5sMWFFU0dMXzBGSmlwM0xUU0t2TDUwRjRxSUdEZm1PLV9UZjFNZUxERUpsX2tu0gGyAUFVX3lxTE00b0UzMmdxb0M0cVZSMTlxUUVYWkJkcGlpRjRiRUMzMWM0YW8tTXZVcEFfVUNRQU03c014dy1ZaTlYNzczLTduY2RBcE45UjJ6VTZyWERNWDFsM3I2aVMwSzA0SW5Ld2VYQTRHTC1iczVKYnRkTzZMYW56ejhxejFsSENqcjM0R1J2eXpoUjN0elh1Vk4zbGdaNURwd2lLRG9Pa3FHbE9Pd0d0bU1sSWdSRFE?oc=5) — **The Manila Times** · 10-31 01:02 · 국제감축 / Article 6 · 자발적 탄소시장 / VCM
@@ -123,8 +124,9 @@ modified: 2026-10-31T09:59+09:00
 
 - [EU·영국 스테인리스강 쿼터 축소: 관세 부담과 CBAM 비용 확대 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMiswFBVV95cUxOaEExa2NfQi00ckJqcnNibXVjQWpWMlFldFN0R1h0eWo2VkloRUlvT04zaC1zakRjdWZTTHh1Y0hXNk5scWNSTW9tUDVzUjhMaEJ4LTdBRE00STZrV1E1QWM3MVZJOVhxWDYtN2lvazVjd3pzT1h2SzQ0aU5IdzBlNTlNc1ZsQlFOa0k2QW1LdnFVS1hnRUJhM2l4cnNuaUxwUDJPRXg0dk1jYVlaSDRadnhMcw?oc=5) — **IndexBox** · 10-30 21:11
 
-### 해외 · 2건
+### 해외 · 3건
 
+- [CBAM and Climate-Trade Cooperation: Role of the UNFCCC](https://news.google.com/rss/articles/CBMiekFVX3lxTFB5Znd4d3B0SUt2R0ZpVkFHTHNpVUhOTlFxVURyZ2Y1alRIclFUS0hEX1lOc3FaUUJoMzZkbzBIQVdyV2F1aFNtR1lHeE1Ya1ZOaGw1d1g3emlTLU05cFRCQ1RIQVQ2WFF4dUdZcWRvWm1SZTZJd0ppM1d3?oc=5) — **CEEW** · 10-31 02:27
 - [Steel: Confimi’s Italian foundries take on Brussels – tariffs and the CBAM are hurting the supply chain](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWVZONlJvS3l6aGxJLXotMnRtbHlMYmd0Z1luZkNsS1RBVjJHQ2VJOFFDVzFteGJ6eHdjRGhCeGNaaFQ5bmdzUU5JaHlZX2oxcWk5QUl6ZGppUXBfMVNJblVrOGFzemF1Y0FEWDNJQnRkWERNZXZlZmE3SU1jVThmTl9hb0pEVUNNNVRnUlBFcGg2enZtUWR2VEZoZFEtR1ltblhNRFV1aUhvM19sazVmT2lSVzZUa2hHR0ZnZ2ZOR1Y4eWhaN3RNTzVuNmJLZ1ZPLXc?oc=5) — **Eunews** · 10-30 23:55
 - [EU & UK Stainless Steel Quotas Tighten: Higher Tariffs, CBAM Costs Ahead - News and Statistics](https://news.google.com/rss/articles/CBMirwFBVV95cUxPYm9Ea3NUcGk0UjBnVHQ3VWUwVzRqTGdUSGozVUtqOW9rZGNkMlZnTVdodko3X2FQdkFmUUZCNnExd0pDd3JWNVJ5NXQtM2t1a3lndm1Yd0MzZ3d1cC1heHEzTkdHbHNYTG5WTXN5aWd4UkNkRFpZWjlkYk52d3FyTGs5d1BHUGxUbzdEV0s2X0dEZTJZRktUQVVybmV6MUVaUWdrWGpPdGlSQ0FIYkVz?oc=5) — **IndexBox** · 10-30 21:11
 
@@ -193,6 +195,8 @@ modified: 2026-10-31T09:59+09:00
 - [SK온 "중국과 ESS 가격 승부 불가능…시장 맞춤형 공략해야"](https://www.mt.co.kr/industry/2026/10/30/2026103014402818954) — **머니투데이** · 10-30 15:13
   - "각 국가별 규제 환경과 시장 상황에 맞춰 현지 시장에 최적화된 제품을 공급하고 사업을 전개하는 것이 단기·중기 전략입니다." 최대진 SK온 ESS(에너지저장장치) 사업실장은 30일 서울 강남구 삼…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMif0FVX3lxTE05d1pYM1NEcWd3U0ZNY1pZeTFnb1dlbWJQSnFLNGlpc3FDbjY2d0hWMW9ERklVR3pFNnUwVExyaW54QW1WRWw2QWtMeHFEWFB2UG41bzZjRGthSmJYWG5Jd3hDYS1WUVlxODA5clROVDhBRlZReGhSRFRzYjRCLXfSAX9BVV95cUxNOXdaWDNTRHFnd1NGTWNaWXkxZ29XZW1iUEpxSzRpaXNxQ242NndIVjFvREZJVUd6RTZ1MFRMcmlueEFtVkVsNkFrTHhxRFhQdlBuNW82Y0RrYUpiWFhuSXd4Q2EtVlFZcTgwOXJUTlQ4QUZWUXhoUkRUc2I0Qi13?oc=5)
+- [BMW 배터리 출하 주춤한 삼성SDI, ESS 사업은 분기 매출 39% 늘었다](https://www.pinpointnews.co.kr/news/articleView.html?idxno=500201) — **핀포인트뉴스** · 10-31 10:24
+  - 사진\=연합뉴스 삼성SDI가 전기차 배터리 시장의 부진 속에서도 에너지저장장치(ESS)와 신규 수주 확대를 발판으로 실적 회복을 이어가고 있다. 하나증권은 최근 보고서에서 삼성SDI가 3분기 두 분기…
 - [미국 메릴랜드, 태양광·ESS 보조금 입찰 시작…2년간 최대 2억달러 추진](https://www.aitimes.com/news/articleView.html?idxno=216801) — **AI타임스** · 10-31 09:30
   - 미국 메릴랜드주가 태양광·에너지저장장치(ESS) 등 대규모 재생에너지 사업에 2년간 최대 2억달러(약 2672억원)를 지원하는 경쟁입찰 프로그램의 신청 접수를 시작했다. 사업자가 요청하는 보조금을…
 - [골드만삭스 "CATL, 2030년까지 ESS 단위 매출 총 이익 1.6배 증가"](https://www.theguru.co.kr/news/article.html?no=108888) — **더구루** · 10-31 08:06
@@ -207,8 +211,6 @@ modified: 2026-10-31T09:59+09:00
   - SK온이 글로벌 에너지저장장치(ESS) 시장의 변화와 규제 강화 기조에 맞춰 지역별 맞춤형 전략을 통한 시장 공략에 박차를 가한다. 북미 AI 데이터센터 확장 대응, 유럽 IAA 규제 대책 마련,…
 - [\[WIKI 현장\] HD현대일렉트릭, 420kV급 친환경 차단기부터 ESS까지…차세대 전력 기술 소개](https://www.wikileaks-kr.org/news/articleView.html?idxno=194018) — **위키리크스한국** · 10-30 17:28
   - HD현대일렉트릭이 친환경 초고압 전력기기와 에너지저장장치(ESS)를 앞세워 전력망 사업을 확대하고 있다. 유럽의 환경 규제 강화와 AI 데이터센터 확산에 따른 전력 수요 증가에 대응해 송전부터 배전…
-- [ESS 특수 덕 본 셀, 반등…소재업계 여전히 '보릿고개'](https://www.econovill.com/news/articleView.html?idxno=755531) — **ER 이코노믹리뷰** · 10-30 17:22
-  - 인공지능(AI) 데이터센터 확산과 전력망 투자 확대에 힘입어 에너지저장장치(ESS) 시장이 빠르게 성장하면서 국내 배터리업계에 회복 기대감이 커지고 있다. LG에너지솔루션과 삼성SDI 등 배터리 셀…
 
 ### 해외 · 16건
 
@@ -243,6 +245,8 @@ modified: 2026-10-31T09:59+09:00
 - [효성중공업, 지멘스와 전력망 진단∙AI 데이터센터 기술 협력](http://www.kdfnews.com/news/articleView.html?idxno=190213) — **한국면세뉴스** · 10-30 14:34
   - 효성중공업이 독일 지멘스와 손잡고 디지털 전력망과 인공지능(AI) 데이터센터 분야의 기술 협력을... 우태희 효성중공업 대표는 "양사의 핵심 기술을 결합해 전력기기 공급을 넘어 디지털 전력망과 AI…
   - 관련 보도 1건: [직썰](https://www.ziksir.com/news/articleView.html?idxno=151450)
+- [디지털 전력망부터 AIDC까지 함께 노젓자\~ 효성중공업-지멘스, 차세대 전...](https://www.getnews.co.kr/news/articleView.html?idxno=885500) — **글로벌경제신문** · 10-31 10:18
+  - 효성중공업이 독일 지멘스(SIEMENS)와 차세대 디지털 전력망 및 AI 데이터센터 솔루션 사업에서 손을 잡는다. 효성중공업은 30일 서울 그랜드 인터컨티넨탈 파르나스에서 지멘스와 디지털 전력 인프…
 - [전기 없으면 AI·반도체 멈춘다…"송전망 구축 6배 끌어올려 인프라 빗...](https://www.thepublic.kr/news/articleView.html?idxno=324481) — **더퍼블릭** · 10-31 09:26
   - 대통령 직속 국민경제자문회의와 서울대 국가미래전략원은 30일 서울 중구 은행회관에서 '전력망 병목... 손인주 서울대 국가미래전략원장 직무대리 역시 "AI 산업 성장으로 전력 수요가 급증하는 상황에…
 - [송전망 막힌 지방 발전소, 전기 직판 길 열린다…첨단산업 유치 '물꼬' ...](https://www.hankyung.com/article/202610280304i) — **한국경제** · 10-31 08:31
@@ -256,8 +260,6 @@ modified: 2026-10-31T09:59+09:00
   - 재생에너지 발전 수익을 지역사회와 공유하고, 발전시설과 전력망 확충에 필요한 자금을 공급하는 데 초점을... 에너지 인프라 성장펀드는 신재생에너지와 전력망 관련 사업에 대출과 지분투자 방식으로 자금…
 - [효성 60돌, 美 전력망서 새 성장축…계열사 실적은 ‘명암’](https://www.kukinews.com/article/view/kuk202610300149) — **쿠키뉴스** · 10-30 18:00
   - 인공지능(AI) 데이터센터와 전력망 투자 확대에 힘입어 효성중공업의 수주잔고가 역대 최대치를 기록했고, 효성티앤씨도 지난해보다 영업이익을 두 배 가까이 늘렸다. 지주사인 ㈜효성 역시 주요 계열사의…
-- [“발전 수익 주민과 나누고 전력망 투자”...신한자산운용, 재생에너지 펀드 출범](https://www.ntoday.co.kr/news/articleView.html?idxno=130493) — **투데이신문** · 10-30 16:56
-  - '신한 에너지 인프라 성장펀드'는 국내 신재생에너지 및 전력망 인프라 전반에 선·후순위 대출과 지분 투자를 결합해 개발부터 건설·운영까지 사업 전 주기에 자금을 공급한다. 신한자산운용은 올해 ▲파리…
 
 ---
 
@@ -302,6 +304,7 @@ modified: 2026-10-31T09:59+09:00
 - [남부발전, 하동군·두산에너빌리티와 정의로운 에너지 전환을 위한 지역상생 업무협약 체결](https://news.google.com/rss/articles/CBMiakFVX3lxTE5DYk5pLXNWLW1yaHlORVZfVnBUWDZaWDl2YjhoZllDTVUyRzZYdmk3V1hRbUVvNF9jTDdpVDU3R1BFTlFaelJ4RXNuc1FwYXVEUENsaGJZeVFQbFA5V29tRXk4TFYwUWxMeGc?oc=5) — **한국전력신문** · 10-30 18:48
   - 관련 보도 1건: [산경e뉴스](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtWDM2ME9lNXhUa0pldkl4STBIVUVxbDkyTkZ5VTRxNVlRcXQtZXZNcXVUYkUtempadFJyV1RMVzFoeUVoQlU1eGtlQnFYQjVSbWVQQnk1UERpM2h2cVlYYld1NE93ZWs?oc=5)
 - [이민석 위원장 “도시 에너지 전환 실행력 높여야”](https://news.google.com/rss/articles/CBMic0FVX3lxTE9tZ1FPbTN5RmFwdkFsOER1dEFONFE2bldSRGg2dzVCa0FuVkJPRWQ0MmV6MmduZ0Yxa3RfWVRCOEkwY083R0JaX0tkME9IeUdZV19uOEVHbkR1d21xNlZoQlhZSWtUVEdNblJyN0ZGaVByazQ?oc=5) — **동방일보** · 10-31 09:08
+- [T1 Energy, 전환사채 관련 보통주 재매각 위한 투자설명서 보충서류 제출](https://news.google.com/rss/articles/CBMib0FVX3lxTE5kay1jN003ZExKYkhRQjR1bXZYdjk0MjlId0pncTJxSmlDVGNNUjNvYVozZDlCakdiM3FEdlFQcGhURHlHVVhETDhscGVlc1BUZGtyQnBPc29mSzZ1NWp1U2luNWRaSi1NS1NTMElDdw?oc=5) — **Investing.com 한국어** · 10-31 07:17
 - [T1 에너지, 전환사채 전환용 보통주 1344만 주 재매각 등록](https://news.google.com/rss/articles/CBMic0FVX3lxTE5hVWNrVnFEYVdhUXl0UGMzTEpvdUhkRzlRRmlnTGp0cVE1ZkMyVEEzNFF5Q0VRVkdpLXI0YTBlZkJiWG5HOUpqSmt0ODNLVjVmdVV3TGFYWkFOTjRMR1VTdFRvNEZNODFLT2ZWeGNsTUFOUWM?oc=5) — **데이터투자** · 10-31 05:58
 - [\[우리는 의원, 서울시의회\] 아동돌봄·서울아레나·에너지 전환 등 점검](https://www.webeconomy.co.kr/news/articleView.html?idxno=2355588) — **웹이코노미** · 10-31 00:08
   - 이 위원장은 서울의 전력·열·건물 분야를 연계해 정책과 기술이 현장에서 작동할 수 있도록 해야 한다며, 포럼에서 제시된 의견을 에너지 전환 관련 의정활동에 반영하겠다고 밝혔다. 이민옥 위원장, 서울…
@@ -316,8 +319,6 @@ modified: 2026-10-31T09:59+09:00
   - 제약업계에서는 의약품 지원과 의료 접근성 개선 등 산업 특성을 반영한 사회공헌 활동과 사업장 에너지 전환이 ESG 경영의 주요 과제로 다뤄지고 있다. ESG 목표를 내부 관리 및 보상 체계와 연계하…
 - [\[프로필\] 추형욱 SK 동남아담당 사장…"에너지 전환 이끌고 신시장 개척 선봉에"](https://www.newsis.com/view/NISX20261030_0003848498) — **뉴시스** · 10-30 14:41
   - 추 사장은 1974년생으로 성균관대 경영학 석사를 취득했으며, 에너지 사업과 그룹 투자 업무를 두루 경험한 전략·투자 전문가로 꼽힌다. 그는 지난 2021년 46세의 나이에 SK E&S 대표이사로…
-- [탄소제로숲고양네트워크, 심포지엄 개최…기후·에너지 전환 전략 제시](https://www.viva100.com/article/20261030500627) — **브릿지경제** · 10-30 14:10
-  - 고양시의 UN AI 국제 허브 유치를 기후위기 대응과 에너지 전환의 계기로 활용해야 한다는 시민사회와 전문가들의 제언이 나왔다. 탄소제로숲고양네트워크는 지난 27일 고양시 일산서구청 대강당에서 ‘탄…
 
 ### 해외 · 14건
 
