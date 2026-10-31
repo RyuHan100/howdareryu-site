@@ -3,16 +3,17 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-10-31
-modified: 2026-10-31T10:38+09:00
+modified: 2026-10-31T11:44+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-31 10:38 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **10-31 11:44 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/10-31|10-31 클리핑]] — 기사 **191건** (국내 126 · 해외 65)
+> [!example] [[radar/news/2026/10-31|10-31 클리핑]] — 기사 **194건** (국내 127 · 해외 67)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
 
+- [Dixon May Extend Data Center, Battery Storage Ban: Report](https://news.google.com/rss/articles/CBMilAFBVV95cUxQTVN0QUhGYnVwZ29rRG9oTWtTbV9qLXAyX2ZMbWNhVWpKbkFSRGZ0ZlZGUzRwdldpS1lSSUFfXzVvdm9KUmhaZWhTTEFrT0hCbjI3elZWWlVwNVlEbjl0LTYzSm5JbzJoSXBSdXB5ZEF0VG1DUElaTlFRcldONEJGT0NScUxUNDZQYmVFQllmdmdGaWFf0gGmAUFVX3lxTE5RUkY0NmNFOUFsWnVxZHhIR1M5OHR1a2l1dTZ4ZmY2anEyN2JVUFVDQmNSQWhHQ1JjR21kNDNHNEhWelVCQ3piR01Iay14V0p2OGhteVZEMjVwU3MwREZqd2RWblNWXy14UEhwVHg3MGt6N25RcXU1aTNpQVNVNm0zWU1zWFJsM25SSHo0bFNPSUlIUWw4YTZJNThaNV9GOTZYN1MxWEE?oc=5) — **Patch** · 10-31 07:46 · ESS
 - [\[D리포트\] "녹색 전환은 이제 경쟁"…2026 글로벌녹색성장주간](https://news.sbs.co.kr/news/endPage.do?news_id=N1008823136&plink=ORI&cooper=NAVER) — **SBS 뉴스** · 10-30 17:02 · 탄소시장 / carbon market
   - 또 개발도상국의 탄소 감축 실적을 국제적으로 거래할 수 있는 탄소 시장을 만들어, 민간 투자를 끌어낸다는 구상입니다. (취재 : 소환욱 / 촬영 : 김상윤, 박우진 / 편집 : 이기은 / 디자인 :…
 
@@ -20,8 +21,10 @@ modified: 2026-10-31T10:38+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 4건
+### 국내 · 5건
 
+- [뉴톤-카이스트, 기후변화·인공지능 분야 연구협력 MOU 체결](https://magazine.hankyung.com/business/article/202610317438b) — **한경매거진** · 10-31 10:55
+  - KAIST 녹색성장지속가능대학원은 탄소 AI·데이터 솔루션 전문 기업 뉴톤과 지난 30일 탄소시장, 기후변화 및 인공지능 관련 분야 연구협력을 위한 양해각서(MOU)를 체결했다고 밝혔다. 이번 협약…
 - [KAIST·뉴톤, AI 활용 탄소시장 분석·기후변화 대응에 맞손](https://www.ntoday.co.kr/news/articleView.html?idxno=130502) — **투데이신문** · 10-30 17:50
   - \[사진 제공\=뉴톤㈜\] KAIST 녹색성장지속가능대학원이 탄소 AI·데이터 솔루션 기업 뉴톤과 손잡고 인공지능(AI)을 활용한 탄소시장 분석 및 기후변화 대응 연구에 나선다. KAIST 녹색성장지속가…
 - [KAIST·뉴톤, AI로 탄소시장 분석 고도화…기후변화 공동연구 추진](https://www.m-i.kr/news/articleView.html?idxno=2012655) — **매일일보** · 10-30 17:02 · 자발적 탄소시장 / VCM
@@ -31,10 +34,11 @@ modified: 2026-10-31T10:38+09:00
 - [EEX 아시아 커머셜 총괄, 서울파이낸스 주최 포럼서 '유럽 탄소시장 및 탄소배출권 동향' 발표](https://www.seoulfn.com/news/articleView.html?idxno=641426) — **서울파이낸스** · 10-30 10:44 · 배출권거래제 / ETS
   - ▶포럼 참가등록(클릭) Erlend Engelstad는 이날 서울파이낸스가 주최하는 포럼에서 '유럽 탄소시장 및 탄소배출권 시장 동향' 주제로 연사로 나선다. 그는 EEX의 아시아 사업 관련 상업…
 
-### 해외 · 5건
+### 해외 · 6건
 
 - [Regulated Carbon Market: Emissions Measurement Timeline for Regulated Sectors in Brazil](https://news.google.com/rss/articles/CBMicEFVX3lxTE5WRWVGSngxdW1VU0FnQ3hSeHVZVU01MDFkbEVCVEc4MFB1aXB4OGd1cGRKQWdTdG1HSE1VZUF6S05mLXlNaUUyVHFEWXd2Uy12RFZCNDgzbUJ6eWhhSXRoQzA0ajRld29vVURuY191MGY?oc=5) — **Mattos Filho** · 10-31 07:45
 - [Meta to Buy EACs Tied to 200,000 Tons of Fortera Low-Carbon Cement](https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZ0lXZFhqQmc2eFRUeU13RlhjV0J3TlRIZDlOMFJuR3dxVFBMWm4zUndwbzI4SGVzMUt6OVMyNmRaaUpBS3dHQndfdUhNMWU4VWFUM1lxakhjclgxdktiZGtDWS1tUjRQZlp4OQ?oc=5) — **ESG News** · 10-31 06:45
+- [Argentina's Senate Backs Carbon Market Bill In 60-2 Vote, Opening Door To Billions In Potential Exports](https://news.google.com/rss/articles/CBMixgFBVV95cUxNVG4xdTJraXZKZ2tHR2NfdmtVZHQ5ZWVqZExNMlFuQmJnLUdVMWNjNzc2N3hjbW9odGRBeHQ1WVdEMDh2dVFIQ3lFOXdJU0R3NGxTYWMtYmhLYk1uSjdibmpLZ1RoTGxLVVNPVzQxQjR0MWN4dU81ZDBUZjBqYlBpVUVfWklTcnBzM3lpNW9XRnR6VElxbmxyY2t3UFFDSmxxNXFqaFktR3FVNnhfRy1CclZKY1drZjk5ek1jZEJCRDRIcl85T1E?oc=5) — **Carbon Herald** · 10-31 06:27 · 국제감축 / Article 6
 - [Namibia outlines plans to establish carbon market framework](https://news.google.com/rss/articles/CBMirgFBVV95cUxPdVFmRi1UUk1MOFpsaWRBWDdWbURBLW1COUk3TGFwb3BpbV83Ql9XNDdtTHJ2R2xyeVc1WlZaN09jd0tZTzl1VWx3WEM0YzFqeUMtcGROMjVIOFRpdDdHdHp4UlRINU9zekdpaG9Mamc3OEhXOVNwNDU3TnVqcjRTLTc4M2dMWThaVG91aEZaQThLLVVGejBaby1ITjUtdjZwNVVWZm9MQTFBZ0NzeEE?oc=5) — **Quantum Commodity Intelligence** · 10-31 01:07 · 국제감축 / Article 6
 - [Carbon trading needs accountability](https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVhVT3ZpVFFncjQxR1BDbGVSV0FRcUYyY1Z5VGZEc2VzOHdZUWg0VldJdkZGdVp5RTBaQXNtLUJSM0EtLXZKMGlXamFzcFZ2T3QzblU0LVg2Sm03eFJ5eGQ5QllKTUdVdC1jZEZqRDRnMTc5RmMydmxPVUVaQk5sMWFFU0dMXzBGSmlwM0xUU0t2TDUwRjRxSUdEZm1PLV9UZjFNZUxERUpsX2tu0gGyAUFVX3lxTE00b0UzMmdxb0M0cVZSMTlxUUVYWkJkcGlpRjRiRUMzMWM0YW8tTXZVcEFfVUNRQU03c014dy1ZaTlYNzczLTduY2RBcE45UjJ6VTZyWERNWDFsM3I2aVMwSzA0SW5Ld2VYQTRHTC1iczVKYnRkTzZMYW56ejhxejFsSENqcjM0R1J2eXpoUjN0elh1Vk4zbGdaNURwd2lLRG9Pa3FHbE9Pd0d0bU1sSWdSRFE?oc=5) — **The Manila Times** · 10-31 01:02 · 국제감축 / Article 6 · 자발적 탄소시장 / VCM
 - [India to hold monthly auctions under carbon trading scheme](https://news.google.com/rss/articles/CBMirAFBVV95cUxPay14ZkZ3Z0k1TVlEM3dHMG83YlVKZV9rX1RuS0ZhaUp5bGVCZlA3OWxtNFhORy1tQXNSdng5a3pqWTlEbk1fLWhGSk5DZXg1WGx2SUNsRkF6Q3Z0VVVBT3J0OHlWeGlFdE9nNzZEZkJFZ2ZLdlJmandVeExkR2JWU0FxTGhTU241eUF3YTd2VUNrR293SVh6NnJkaUNsWjNiUHhuaWNhczlWMmVh?oc=5) — **Quantum Commodity Intelligence** · 10-30 00:53 · 국제감축 / Article 6 · 배출권거래제 / ETS
@@ -157,6 +161,8 @@ modified: 2026-10-31T10:38+09:00
 
 ### 국내 · 12건
 
+- [엔비디아, 엔스케일 자금난에 지원 검토…앤트로픽 60조 데이터센터 신...](https://www.aitimes.com/news/articleView.html?idxno=216838) — **AI타임스** · 10-31 10:48
+  - 첫 번째 데이터센터에서 AI 연산 자원을 장기간 제공하는 내용이다. 양사는 추가 건물에 대해서도 비슷한... 연간 최대 1000만톤의 온실가스 배출 가능성과 공사 과정에서 발생한 인근 지역 침수 피…
 - [자동차강판이 밀고 AI·반도체 강재가 끈다⋯ 현대제철, 3분기 영업익 5...](https://www.viva100.com/article/20261030500999) — **브릿지경제** · 10-30 22:38
   - 높은 구조 성능과 대형 단면, 특수 규격이 요구되는 데이터센터와 반도체 팹(Fab) 등 대형 건축물 시장을... 이곳에서 탄소 배출을 줄인 고부가 강재를 생산해 미래 모빌리티와 첨단산업 시장을 공략…
 - [COP31, 'AI 기후서약' 도입 추진](https://news.google.com/rss/articles/CBMibkFVX3lxTE1MaTdVYmU3emZ3UkZJQzMyeFdUQVZZeHR0eXBOclU4X3pOQms5YjNCQ2tBUWxzeXc0UGQxQzloR3FUblMtLV9aekktMEpZVjVZdzdxTURTM2dDaFBTcjdHZmZadXhoZG1EdlVrVGRR0gFuQVVfeXFMTUxpN1ViZTd6ZndSRklDMzJ4V1RBVll4dHR5cE5yVThfek5CazliM0JDa0FRbHN5dzRQZDFDOWhHcVRuUy0tX1p6SS0wSllWNVl3N3FNRFMzZ0NoUFNyN0dmZlp1eGhkbUR2VWtUZFE?oc=5) — **넷제로뉴스** · 10-30 19:37
@@ -175,8 +181,6 @@ modified: 2026-10-31T10:38+09:00
 - [데이터센터 짓는 구글, 40만 그루 ‘무단 벌채’…분노한 핀란드, 9만명...](https://www.hani.co.kr/arti/science/science_general/1285016.html) — **한겨레** · 10-30 14:20
   - 구글은 2027\~2028년 핀란드에 기존 데이터센터를 확장하고 신규 데이터센터를 건설하는 등 인공지능(AI) 관련... 따른 온실가스 배출로 기후에도 심각한 영향을 준다는 비판을 받고 있다. 이번처…
 - [신성이엔지, AI 제조혁신 성과… 국무총리표창 수상](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HeDJ1N19rWHJsd2VoVXY2RjdmS3FXaTBpQTZUXzMwWjdLQjVRaXFkQWZzdGI5ZGVjcUhvQVhPOTJaS2NQVHgydzdtRldheU5DTjhvTTFkQi1zUnR3VnpMcllSYw?oc=5) — **국토일보** · 10-30 13:14
-- [신성이엔지, 국가생산성대회 국무총리 표창…“AI 스마트공장으로 생산...](https://www.munhwa.com/article/11627639?ref=naver) — **문화일보** · 10-30 13:14
-  - 380t의 탄소 배출을 줄이고 있다. 사회적 가치 창출과 인재 육성에도 꾸준히 나서고 있다. 지역사회 나눔... 한편, 신성이엔지가 오는 11월 4일부터 6일까지 서울에서 열리는 ‘데이터센터코리아…
 
 ---
 
