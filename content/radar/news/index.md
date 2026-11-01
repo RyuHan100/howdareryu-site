@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-01
-modified: 2026-11-01T08:28+09:00
+modified: 2026-11-01T09:00+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-01 08:28 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-01 09:00 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-01|11-01 클리핑]] — 기사 **77건** (국내 27 · 해외 50)
+> [!example] [[radar/news/2026/11-01|11-01 클리핑]] — 기사 **82건** (국내 29 · 해외 53)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -55,15 +55,18 @@ modified: 2026-11-01T08:28+09:00
   - 기후에너지환경부는 지난해 12월 2026년 업무계획에서 이미 2035 국가온실가스감축목표(NDC·53\~61% 감축)와 100GW 재생에너지, 2040년 석탄발전 전면 폐지, 유상할당 확대 등을 제시…
 - [25년도 온실가스 감축목표.국가기본계획 이행점검 결과](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3N3eU1ONXVyNm5LN2tWclFBSTl6RTZla2xobHh1SVFSSTJFQVRGV1NJNUtjYXQwalJtMUsxeGFsel9kWTUtaXNoaV9oMWRqMm9tXzRZR2VHWjRsbE8wQjJkUTRXZTVyckFzUWFsWU1wMzV6a24xdkJ2eXJFMjlYZVVnOHlSLW9mMzRDakxPTWlxTDBOQmpEQUU2bE9Ocmkxc0JOMk1KN2JSZHFGVWtFS3Z2M3lRTTdGa3U4X013QlBOa3FUZXRwdERnNGZwcVJRZ2w2d1ZlV0Y?oc=5) — **국가기후위기대응위원회** · 10-31 01:25
 
-### 해외 · 9건
+### 해외 · 12건
 
 - [Climate Inequality and Capital: Separating Emissions Responsibility from Financial Incentives](https://news.google.com/rss/articles/CBMixAFBVV95cUxOTHd4S0c5cGU3aW1WSElXMDBfMUVBYU84UXhoV0RicU1zY3BScUNaV1RmYlBQMVlva0tCakNKcDJsX0UwVDJpR0E3clRHY052UGFGUWZqMnhsTmUyODUxdmNJT1piUElxNHhFZ3gxUkJxNTItNXA5dEpETHNVQ2g1ajU0V3E0ZG5YaWdNNlpud2l4Tl9qRGk2Wk0yNmtnaG5yWVk5WDV4VWZVRjdpaUZKMGZVcXJIenlibENmVGtmek43TXYz?oc=5) — **https://debuglies.com** · 11-01 00:40
 - [Plastic pollution is a climate crisis: Why COP31 needs a legally binding global plastics treaty](https://news.google.com/rss/articles/CBMivAFBVV95cUxQVi13UTJIWnVDR0NoMVAtaTc2bTlPWFExc3pWa1VTVDR4Z0RwYkpFNm5PQi1XcmsybnRoUDZPUmlkTEw0ZGlSNzhqNk9HMGFod2x0QUdmTWNWeV9OREEzYWxCdTFGVDQzay1OOVVmSm5UOS0wVFdIS3g1d3VyZTRyRTAwNTlKS2JZX1RMQmlUNTREanFyWUhiY1RoX1d2clJOSWI1ak85TDlCZFlIMHlZb05aSFl5MldxeEJEUQ?oc=5) — **The Business Standard** · 10-31 20:41
 - [Nigeria Needs \$337bn For 32% Cut In Greenhouse Gas Emissions By 2035](https://news.google.com/rss/articles/CBMijAFBVV95cUxQUGZBRFVJYndLaVlUZFg1NUZCZzA3eUx3cGFBZTBhY2ZMd3pwcndVSTlGVmE2UTg2V0FZaFBvdWFEMUZtR2ZMdnMzYnNGMUl3WDNfeHc1aGtmTWVZX1VVbVlqWjcwTlgxNERDWkF1WElKZzV6UXVfMGdYR0hKeTlYc3VLWlZObktleUZuRA?oc=5) — **AIT LIVE** · 10-31 20:15
 - [Uganda gets only 5.7% of climate funding needed by 2030](https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHRzX3Vsdk5OTUNKek1HU1RSVS1YdTV2M3BiRFZPc0ViTG9Zcko1RVFKY05vaFdvZVpoSTU1Z3FrbmhKdHlBZU13QzZCQ2drcnNHakVSM29Wd3hnQmNVUXhWYWxuQmM3SjdfdXFmazFsRnZ1SDc3WEVqQlZQUnZEdmdlNWxXSVJJQ1BucUpn?oc=5) — **The Independent Uganda** · 10-31 19:00
+- [India emerging as global leader in climate action: Piyush Goyal](https://news.google.com/rss/articles/CBMikgFBVV95cUxNSzdFYjN6Q2tXRlE0RlpvV0JNWnJSWWtTblNoOTIxSE1icWVCdjlZTWpCSTRwSlVlQkZYYk9CSlRwRTRBZlRpSjdOa3NjRG83Z3Z4ZDJ3UHVrT0pvdjdpNUVDdHFCOVZHaDdYdVNpZFJRSHA3WkdReDQ4dlAzdTBVNWRYaE5rYmRIV3djaTI0VVJJQQ?oc=5) — **DD News** · 10-31 17:37
+- [Niamey Bolsters Urban Resilience Against Climate Threats](https://news.google.com/rss/articles/CBMirAFBVV95cUxQdWVNRmVFc2RyTVFnMFFaakk0VGs2TDFrZWNOZHpRMXNLWFp2b2xPeEcwZkJJbWJjcFp2VFhTdXFjM0V2UDVuUkJDQWhyQzBsSXE1aDZXcHFJbXdZUVpSU0ptNUI2UEJZZVRGLUFmTElDN2ZObWtHN0hvOVhmZTBHTm1pbVJJeXQtQTJaejR4ZXR0czk1WFBFQXFJRUZYeHRwX29oMm5XVExYajFL0gGsAUFVX3lxTFB1ZU1GZUVzZHJNUWcwUVpqSTRUazZMMWtlY05kelExc0tYWnZvbE94RzBmQkltYmNwWnZUWFN1cWMzRXZQNW5SQkNBaHJDMGxJcTVoNldwcUltd1lRWlJTSm01QjZQQlllVEYtQWZMSUM3Zk5ta0c3SG85WGZlMEdObWltUkl5dC1BMlp6NHhldHRzOTVYUEVBcUlFRlh4dHBfb2gybldUTFhqMUs?oc=5) — **The Chenab Times** · 10-31 16:44
 - [Clear climate and ESG regulations will attract investment to Ghana – INI CEO](https://news.google.com/rss/articles/CBMiygFBVV95cUxPazRKMzBxMHRnR1ROeG54REl5UHQtdlBLTkp2bmVaeFd0Y1ZoSkhyZ2VTT3E4aThBTlp6MXhYVnc0dUpsRno5NFQ3X2JrUFBYRE1udjVzSEkyYll5a3FKX3E4TFRUcERBWEE4ejhXaTZsNXM2MDZZdm05OWpsbWFPbHdickxGV2JKakJwcjI5N0R4R0V3QmJJNjJidUVfMlNBNjQ5cThXdWdGNWowQUVMSXJZdHpTSWNCRm14RlhPaWJnMHZYX3BWS2RR?oc=5) — **GhanaWeb** · 10-31 15:45
 - [Collaborative leadership strengthens research capacity and climate action: Lessons from Tamil Nadu, India](https://news.google.com/rss/articles/CBMiywFBVV95cUxPOVFCakNCTU0tVWhNMzhsWXN5MVZsakN4RVN0RVBnQ2R6RjhOc3RmZmc3WjJhS1ZDV0JpalM4azRuRUd0b3h6RkgtT1o1LW9BS2pmRWRjZ3diMThCck9ac0FMNHpRMldyNl9qWl9WaE9ab1pLMTBISW1rTjJtaEJuQTdXNUZzc3BVOHJMaHhpSzBSYmVPdXJyLXd1WnI2VlBSYlh2U0g1TlBMNkdHTnJVY3VXa1g0aUNRaG5iRkhmaDBUTHNocWVKNU1TQQ?oc=5) — **IFPRI** · 10-31 03:58
 - [Nigeria Targets 840,000 Climate Jobs By 2060, Seeks Investment At COP31](https://news.google.com/rss/articles/CBMilgFBVV95cUxPcWFla19aMXFHMWtweC1leDVFNTViQUViZWlpWnhSb3RHaktWR2NkSURxNDJNSUJjVFBsTUJkUEVyeHN4TUpiNUNRTmt3eXRUcUdnSkR5RXAtd0pFZGpGUjlaVWZrQ2dCdUZ3MWZnWTlHSjZOUlc5VFktSnF0SUdRRkFlRmRObmFJbGdIazU0TTB4aUV0V2c?oc=5) — **Arise News** · 10-30 17:19
+- [Ghana risks missing 2030 methane emission targets as funding shortfalls threaten progress](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FZzQ2a3ZnSU1ianZnbnF5aXdrcGhGN1ptbi1TcmNOQ1lCZGhNX2V0X2c1OVBvYXEwREZ6bER1Y1JjMzlxaDQ0SHgxb0VhX0FRbl9jTHowTzNQQm1ELVJDeG1XX0nSAVxBVV95cUxOcXc3REw4RU5nMVZ6SVU0SXR0Y0tRMXo0NmJOenIxY1dkOGRFR3Yzdkd3c2dteC1Scl9IRHdWbkRTd1VBaG1JeExtSWNRVHR2YzBhbFNzQ1VxaG4xQw?oc=5) — **Modern Ghana** · 10-30 16:00
 - [CCS/CCUS essential for Vietnam to achieve net-zero emissions by 2050](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTFUamUtbHRveXNobG00b2EtQ1NLSC1jdDhQUmlLel94TkhzS0twUmFVWmkxcHRKZnloTzBkN1psaUh1T3d2Zms1YzRqUTZjUWFsNHo4dUk5SG9FYVdTaUhfd3ktTTRyMUJ5bXNWbGZIek1UR2J4STJIQWlESjZEaFgxN25ndFNoR0E4MkJFR2JtdUpBd2s1emFTdHFNeEdyeTNZUTVVUlZDUQ?oc=5) — **Báo VietNamNet** · 10-30 10:47
 - [From commitments to action: Taiwan and the world creating climate solutions together](https://news.google.com/rss/articles/CBMipgFBVV95cUxQT183X2hjbHNYTFhOMGsyaXlKcDRrSFBGMjNCUElXWW5RdDByNk12ZEJKZWJyME0zc0xLTjZ2WmN3Z3QzUnctZ2p6YmR6SGlzN0VNUnk5a3ZuM3BuRUdRVmxIcUozSFRhX2pEN2JUWEFyZ21nY3QxaUQtWEY4SWExRTkyYzF0UDc1VFc0cGhUZ0ZveDJOUHJhc0IwMUJuMVpNRGI0NlJn?oc=5) — **Love FM Belize** · 10-30 09:57
 
@@ -137,7 +140,7 @@ modified: 2026-11-01T08:28+09:00
 
 ## 전력망
 
-### 국내 · 7건
+### 국내 · 9건
 
 - [동서울변환소 증설, 16차례 협의에도 평행선…전력망 확충 난항](https://www.yna.co.kr/view/AKR20261030159200530?input=1195m) — **연합뉴스** · 11-01 06:07
   - 주민 "이전 우선"·정부 "1조원 추가 비용"…협의 연장도 미정 정부, 국가기간전력망법 따른 실시계획 승인... 국가 전력망 확충 사업의 차질이 장기화할 가능성이 커지고 있다. 동서울변환소 증설 사…
@@ -149,6 +152,8 @@ modified: 2026-11-01T08:28+09:00
 - [효성중공업, 지멘스와 디지털 전력망·AI 데이터센터 시장 공략](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YZU9Ed3V1RURFUWlrYWJiaDhoR3c3QzhCcEN5d2szLTA5VVJOckhwN2szR1Fnc3JiVnJtZmxkdUkzbFJXMUJuNDFfUGJUMFBkWFFuLV9fZzE?oc=5) — **경남신문** · 10-31 21:52
 - [\[의정 브리프\] AI 데이터센터 전력망 정비·산업용 전기요금 개선 필요](https://www.etnews.com/20261031000029) — **전자신문** · 10-31 14:48
   - ◇ “AI 데이터센터 전기요금·전력망 기준 정비 서둘러야” 어기구 더불어민주당 의원은 AI 데이터센터의 단계적 가동 특성을 반영해 전기요금 기본요금 산정 기준을 개선하고, 전력망 접속 기준인 그리드…
+- [20MW 이상 채굴장, 미 법안서 전력망 추가 비용 부담 추진](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HVk13QmlGZHpRUm5hX20yYl9DbDhHdVMwZmE1NVQtbjRLcEhMTUViVXFieVRXVUhicVVGTjlIWkVyeG1WbzBDclBxdVJJQVpLeG1RVHduMmFybEHSAVtBVV95cUxNR1ZNd0JpRmR6UVJuYV9tMmJfQ2w4R3VTMGZhNTVULW40S3BITE1FYlVxYnlUV1VIYnFVRk45SFpFcnhtVm8wQ3JQcXVSSUFaS3htUVR3bjJhcmxB?oc=5) — **토큰포스트** · 10-30 19:24
+- [효성중공업, 獨 지멘스와 '전력망 디지털화' 협력 … AI 데이터센터 솔루션 공략 \| 프린트 \| BIZ 뉴데일리](https://news.google.com/rss/articles/CBMidEFVX3lxTFA4dmZDQ3ltLWpJd0l3Vm5uX2JPbkduMnJLbWJJUWktcFVHYjdrMnhTTVBNYTNfcS1qMllSQjBESlhQR0wtTGVOdjFDZGc1OHpwNGZtTEdrMEFwOXlpQzVzMmNvdWszdk5LMjFic0VYT3dXNDQ4?oc=5) — **뉴데일리** · 10-30 15:33
 
 ---
 
