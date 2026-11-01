@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-01
-modified: 2026-11-01T09:00+09:00
+modified: 2026-11-01T09:22+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-01 09:00 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-01 09:22 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-01|11-01 클리핑]] — 기사 **82건** (국내 29 · 해외 53)
+> [!example] [[radar/news/2026/11-01|11-01 클리핑]] — 기사 **85건** (국내 31 · 해외 54)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -106,11 +106,13 @@ modified: 2026-11-01T09:00+09:00
 
 ## ESS
 
-### 국내 · 7건
+### 국내 · 8건
 
 - [ESS 공략나선 中, K배터리 갈 길은\[차이나는 중국\]](https://www.mt.co.kr/opinion/2026/11/01/2026102916033623569) — **머니투데이** · 11-01 05:00
   - 작년 중국 전기차 배터리 및 에너지저장장치(ESS) 생산량은 1755GWh(기가와트시)다. 국제에너지기구(IEA)에 따르면 중국은 2025년 세계 배터리 셀 생산의 약 80%를 차지했다. 2021년…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMicEFVX3lxTE9sSkJVTWdxbGZpa1lXWHA3SzlqMDBMb01jVEhUVHo4TXdHNEVMd0gzTDUtLU1TaGNqYkpKWXY5ckk5MVVCSDFYTzE3TkdLQ1FPMkJxUUVYanQtS3JKc09PcVRNVmI2WE5vRmtkeXNBMUjSAXBBVV95cUxPbEpCVU1ncWxmaWtZV1hwN0s5ajAwTG9NY1RIVFR6OE13RzRFTHdIM0w1LS1NU2hjamJKSll2OXJJOTFVQkgxWE8xN05HS0NRTzJCcVFFWGp0LUtySnNPT3FUTVZiNlhOb0ZrZHlzQTFI?oc=5)
+- [ESS 시장 100GW 시대…공급망·기술·운영 역량으로 경쟁 축 이동](https://kidd.co.kr/news/247935) — **산업일보** · 11-01 09:10
+  - 10GW에서 100GW 도달까지 4년…2036년 308GW 규모로 확대 전망 ESS(에너지저장시스템) 시장이 가격 경쟁 시대를 지나, 시장별 규제 대응과 시스템 통합(SI), EMS(Energy)·…
 - [광주지사 설립한 에너닷, 호남권 VPP·ESS 사업 확대](https://www.energy-news.co.kr/news/articleView.html?idxno=229416) — **에너지신문** · 10-31 17:24
   - 재생에너지 IT 기업 에너닷이 광주지사를 설립하고 호남권 가상발전소(VPP) 운영 자원 확보와 에너지저장장치(ESS) 사업 확대에 나선다. 발전량 예측과 원격 모니터링에 현장 기술지원을 연계하고,…
 - [GIST, 태양광·ESS 출력 여력 3.72초 만에 계산…제주 실제 전력망서 입증](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtbkgwZFhNSjVoUC1vNVp0N2E2Tlk4Y3RJaGhPMVhCQnlXYmQxbGdQU0dhUWdZRjZ3dG1JRWFKVFJaaWFTSllIMkJmbFJBTmhIa3NKX09yM2JpUDcyYnBRM0dLQ0UwWGRF?oc=5) — **IT타임스** · 10-31 17:06
@@ -157,6 +159,15 @@ modified: 2026-11-01T09:00+09:00
 
 ---
 
+## 탈석탄
+
+### 국내 · 1건
+
+- [석탄·암모니아 혼소 제외…수소발전 1430GWh 입찰](https://www.dt.co.kr/article/12092355?ref=naver) — **www.dt.co.kr** · 11-01 09:11
+  - 정부의 2040년 석탄발전 폐지 방침을 반영한 조치다. 기후에너지환경부는 지난달 30일 청정수소 500GWh와 일반수소 930GWh 규모의 ‘2026년 수소발전 입찰시장’을 개설했다. 수소발전 입찰…
+
+---
+
 ## 에너지 전환 / energy transition
 
 ### 국내 · 2건
@@ -164,8 +175,10 @@ modified: 2026-11-01T09:00+09:00
 - [구조용 강재 형강 시장 2035년 전망: 인프라와 에너지 전환이 성장 견인 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU2ludElseVg0TUlsRmxUV0d0dUE3Y3pvb1hPd0VEbW9YMV9ucmhkdjJiSEkyY0NlT1p2Z2hWdFVKMGh5QmhsRDBPMmdoMVFuR0xVejZMZU5HVy05WkJaOS1QdGxhZG9NdnByQmhWaGZOTWdpN28xT05uTGZmTXhYUkI4NUpmTmdGUm54SUluV1hQcTdHc0liMjE1S01ycEhEcjVXdXoyUzVNaWN0QzlqVlJkOXVFczVWQUFmMDNGNHNUcldlN2NWNmlwaFNqdWd3UnVfSzhDclZabUU?oc=5) — **IndexBox** · 10-31 23:01
 - [경상국립대학교 ETP, 제주서 신재생에너지 워크숍 개최…‘탄소 없는 섬’ 에너지 전환 현장 살펴](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwQV9maTgwSk93c1Rwb1hKRWc3SFdiTWZLcTU2dURvSnRES2djSkYxY3hOUW1ad1pELUY0YlFxdE10UHdlZkJpU0Znek13a3Rfb0ZDbDJzYmtRQzR4NklKYmhTMmdIUTExUEk4dGRFYVE?oc=5) — **한국강사신문** · 10-31 21:26
 
-### 해외 · 12건
+### 해외 · 13건
 
+- [India's Clean Energy Transition Requires USD 2.5 Trillion Investment By 2030: ASSOCHAM](https://news.google.com/rss/articles/CBMiywFBVV95cUxPZmxOdk5aMjluTTR5NWZZZWpEa0VFRUtQUjJOOU1jWlk5aFptcmVJV2plbjNkZkdkZkdlQnYyNUYzZzlIS0t1WGFPYmR1UkMzOGF5Z0F3NjNsS1MyR2ZuV2o0YS05a0F6N2tBcURyTjZmUU9MVl9kSnA5SjRGXzBmX20zdzlYN1JMMWJ3azBCVkJreXZRSzdodXQ1TDlaRXpCdEl6bjRBR1pBS3RwM05NQjM0U0RGSWVhal93djlZSW1aOHNOR2xBUUVjZw?oc=5) — **KNN India** · 10-31 17:12
+  - 관련 보도 1건: [Menafn](https://news.google.com/rss/articles/CBMiswFBVV95cUxNV29BSmVMb1dLdmNKUnBvaEhENzRqNnpaZFdjd2Q5Rl9PdGxmaFMxSWUzWk1GbzhMak9qT3BMakVmQnZmNHRBRTNMTjNPc0Nod0xXd0F2blJGaTcwb3hURXRJZzI3NmIwYWJQbDd6VHRjMDVkeVVEMjFxOXkxZEVucVk1aEFhb3RveDdiMnZRNVl0Y2FJWkNDZGxfS3paU2FqT1M1MmJfb1F6NmNoeFlaYkpQMA?oc=5)
 - ['Public-private synergy' key in energy transition](https://news.google.com/rss/articles/CBMioAFBVV95cUxQcmhjaDBHQ0hONUlIck9BWWFhQ1E0SThTdC1hRHgyeU51M0hCaFh5bUpNWlI3bzZxTmtnUGpQdVNsazEzaTM3Wk9tdlpxVnBCTWliQXN1TWpWbG1YeDJKdG5WYlRZbFQ0WGVxWTlacUxUM2VvWGJ3dWZubXh5NFpEZGNPSTNfUVkxbVVaMm54ZzRNUWZVR1UxNzJGaXpGU1A0?oc=5) — **Bangkok Post** · 11-01 08:02
 - [High Service Pumps Market To 2035: Energy Transition and Water Infrastructure to Drive Demand - News and Statistics](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ2lmMGRQODZPQmdGZFg4WjNBOV9UT0xya3ZWQjNWR2NSREZWSGQ0SXRYNC1wRnBhOG9BMjdCckxIMnlibVlaTzRRSTAzSERrYzE0UzJhX0ItUElzcUlIYW54VnFvZVlueXdDVXRBZTdMNkluQmxIcllrSW9aQkV1dUl1U2NpV1JlNnZ5aHlYaUhaS1JJcVVzUjl0Z0M5SkU3cnFzbXVVNGxSNUtZVGZsQnZlVVk3cE5aYmhIMENka2JzNU1SY1RhWWhRelJVQ1lNLWc?oc=5) — **IndexBox** · 11-01 06:56
 - [Oman’s renewable energy transition moves from projects to grid integration](https://news.google.com/rss/articles/CBMizwFBVV95cUxONlM4RTBUQWdxM0FMcXg0eEd4TDhrY3dvZGxpUlM3eGRtU2kzWTlQSl8yeGM5REYzSThweVZTT0Rqa1FzZnZNTUJrWXA0LVIzYkRScW9nY215Z2J6aXl5M3FibEJnaVpVYldHZ3JSMnEyVEF1R0RnVURxdklfZlFXSHVEVlYzSFMtQjQ2VmhCLTlPNVNjUnZNOGlDTjd2ZEtlMDBQcEl1ejFvX1lwODBiQWhhWFU4TUJSa09ZM2VIVkh5VklwaE5BWjZUZGJNRVnSAVpBVV95cUxQS20zYW85RlV3UkxpVXkxVHpBUlB3REU3QVhEVlViTXRUSnNiSUNXRGJNNmxXZVZNcHh5ZXpvbWUxU2dVejEtMFRVQjYtY1pLdmJrTUNOS1JDamc?oc=5) — **Oman Observer** · 11-01 00:29
@@ -174,7 +187,6 @@ modified: 2026-11-01T09:00+09:00
 - [Dr Sim: Sarawak youths must turn energy transition into economic opportunities](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbWh4YnUwRkZGMEc0MDFMRXJLN3FuS0gxNzVhUjdDeC0tN25qWV9rQm1zOG9DRHpUbzE5Mm1KVFQxRzNXVGFTZEZMT2NiaER1d0RoRmJWdW45eFJfTXJnVV9SNzFsQUpTMzBScjNUU1ltZU9HVW5MR09lME9DcjdIUUpJSExhQmxpZ21TajJaMjRsaHpNeVFpbTVVdWJFVEFLajV3UVdCTllhQUFaalRPUUZzY3RpSmJQck9N?oc=5) — **Borneo Post** · 10-31 20:31
 - [Foundation urges stronger safeguards for communities in Nigeria’s energy transition](https://news.google.com/rss/articles/CBMiswFBVV95cUxPdjlyenpMRjdmSDlpaGJ5dzhvLU83XzQwRVRFWVMyT1pnbGJfc3pOX3ptYllZVEZEQWxGZGR4YldSNmpoaGNFLTJoQW9DajkzYlJiZjg3ZlVRTUx3LWNOcXVxc3RxOWxnQ3Vqb0xHaW4zaFFZMG5TQWVadkZCSGoyTjRZQzR4NDhkclllcUlPSmk5RGFobzlTLVBLTXFjWHl4anFaZVotM29wNl85T1lLOVlFNNIBuAFBVV95cUxQMHpWZTR1eFl0R0F1SWhGU29sUWRzWUJSekRyWEtZN0wtRlNvSTZkMXhfd1Y1eXE2TktuUHd2LWF0bnk0YjhSTHVQdmRsNUUyUk5MZ1dWT0VOb0M2YXNfVDhFVnRmb1NGVVFvdy1lNDRPcVFleGg4dHJZT0xTejVxa2ZGZ1NrWGcxQnZTRzFfa193OUNaZjlCRV92U05qYUJMdzZ1UmliVmdNQTBvNGhTX3JKdnA1ZENT?oc=5) — **The Nation Newspaper** · 10-31 20:15
 - [COMMENTARY: Carney Government Relies on Energy ‘Transition’ Myth at Our Peril – Fraser Intitute](https://news.google.com/rss/articles/CBMivAFBVV95cUxPWHdzbG95QVNDZm1YUTVwVDlfQ0pHanV2LVF0X2RiZW5HcmQzWGwtTjlLcWluWGNmcmhaQ1R0LUJxZzdJUi1EX2wtQndwTHFLd1ZTNE1HVnhBOUJIOXJUM1Q2SEwzbmhVU0J4Tms1RGlrUkFvbngySjd5eVgyQnVnX1RCcE42NnBqcVZyeGNRSlZFdFdHRWZfQ0ZONXZVRThKc05TWFhkQXlkbkV6SmFHUW92WUUxbTc0Tjc5eg?oc=5) — **EnergyNow** · 10-31 17:56
-- [India's Clean Energy Transition Requires USD 2.5 Trillion Investment By 2030: ASSOCHAM](https://news.google.com/rss/articles/CBMiswFBVV95cUxNV29BSmVMb1dLdmNKUnBvaEhENzRqNnpaZFdjd2Q5Rl9PdGxmaFMxSWUzWk1GbzhMak9qT3BMakVmQnZmNHRBRTNMTjNPc0Nod0xXd0F2blJGaTcwb3hURXRJZzI3NmIwYWJQbDd6VHRjMDVkeVVEMjFxOXkxZEVucVk1aEFhb3RveDdiMnZRNVl0Y2FJWkNDZGxfS3paU2FqT1M1MmJfb1F6NmNoeFlaYkpQMA?oc=5) — **Menafn** · 10-31 17:13
 - [The Reality of the Energy Transition: Not Happening](https://news.google.com/rss/articles/CBMie0FVX3lxTE9yamhBRWo0SE8tVFhkOG5BelRQLVNuVWpHczlGZ0NPUVlLN0stbWU4ZDJEdmRna1ZYVDFzRDAyaE1Pb3ZqZFdpNHI1UlBtZVBhTUpCYTVqSGt6eE5oRWQ3bHFoVVA5cEcyUUlDcFJzbW1QNjR1bW8tWVl2UQ?oc=5) — **Fraser Institute** · 10-31 15:51
 - [Skills Shortages Threaten Asia’s Energy Transition, UN Agency Warns](https://news.google.com/rss/articles/CBMimgFBVV95cUxNZVpJTXpXMDRZdmNuYXgweTQtTXZXMUV2ZWpDYXhUZk94TllxLXVhb2oxVjVtUW1OQU1BN0VQeG9qYUtwWndRNEo3UE0yYlBXdUJmUGljSUVKSlZLRjVjYXhYZ2s2aHZVeUhUODE1OU1nOXZvUVp5TGRRYUdkSE9wRXlZT3hHazVOMGdkZVpGaXI3QXA1ejFrNWhB?oc=5) — **Kiripost** · 10-31 13:22
 - [Under the hood of the energy transition](https://news.google.com/rss/articles/CBMib0FVX3lxTE1oY2RQVURVY1JSWWJLUFNvTm4yaGdFSF9UY0xEV0JZeU1xUHUzMUJiM0lWREo1cktYaENnbnRhV2E3YTR1U0RHYldlV1U4SnN0eWRXYlNDbWVqcXlsYTlnNzNqZTRWaGQ2Z0syclczbw?oc=5) — **Mining.com.au** · 10-31 13:18
