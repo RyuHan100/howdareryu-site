@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-01
-modified: 2026-11-01T10:16+09:00
+modified: 2026-11-01T11:37+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-01 10:16 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-01 11:37 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-01|11-01 클리핑]] — 기사 **87건** (국내 32 · 해외 55)
+> [!example] [[radar/news/2026/11-01|11-01 클리핑]] — 기사 **92건** (국내 37 · 해외 55)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -99,8 +99,10 @@ modified: 2026-11-01T10:16+09:00
 
 ## AI 온실가스
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [빅테크 전력망 턱밑까지 찬 데이터센터…구리 전선 규격 바꿔 전력난 뚫는다](https://www.g-enews.com/view.php?ud=202611011102179262fbbec65dfb_1) — **글로벌이코노믹** · 11-01 11:12 · 전력망
+  - 전력 인프라 설계 단계에서 결정하는 설비 사양이 데이터센터의 장기 신뢰성과 온실가스 감축 성패를 동시에 가르는 핵심 열쇠로 꼽힌다. 인공지능(AI) 확산으로 전력 부하가 급증한 상황에서 북미 빅테크…
 - [AI부터 친환경 소재까지···수원시, 창업팀 33개 팀 수상](https://news.google.com/rss/articles/CBMidEFVX3lxTE1GX2pqcURlQmFnRUxBM0ZxQTFQSVVEX2lEclQ4ekh5QlJNaW9hLURMQUU2VzlrV1JJcFd6ZjZOZ1M3R2RtVXU5Y2l2RzdSU0EwMk10V3o2Q0w0eHE0U0lYajFwTnlGRFhqWklfS0tUOTFzV2Nt0gF0QVVfeXFMTUZfampxRGVCYWdFTEEzRnFBMVBJVURfaURyVDh6SHlCUk1pb2EtRExBRTZXOWtXUklwV3pmNk5nUzdHZG1VdTljaXZHN1JTQTAyTXRXejZDTDR4cTRTSVhqMXBOeUZEWGpaSV9LS1Q5MXNXY20?oc=5) — **이뉴스투데이** · 10-30 11:57
 
 ---
@@ -145,8 +147,10 @@ modified: 2026-11-01T10:16+09:00
 
 ## 전력망
 
-### 국내 · 9건
+### 국내 · 12건
 
+- [효성중공업, 지멘스와 디지털 전력망 협력 확대](https://news.google.com/rss/articles/CBMilgFBVV95cUxOMkdfRnBwUE5vcFF5RUNEbTBiVko4ejNvdVhDUDNWQl91cVI0VmJpbWVVeS1sbWQ1VnBkcEtzcExRcHZkeDVvZ2lYLXlwYVFsc3hwODliLUJSbmZNRXROQUlWZ1FlM0h6cGpnblp4aEhJaHdkcWw3RU9PV3JsQjQtVnpYN08zYUp6QXkyVS1SR1VWV2IzZlE?oc=5) — **Traders Union** · 10-30 14:41
+  - 관련 보도 3건: [경남신문](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YZU9Ed3V1RURFUWlrYWJiaDhoR3c3QzhCcEN5d2szLTA5VVJOckhwN2szR1Fnc3JiVnJtZmxkdUkzbFJXMUJuNDFfUGJUMFBkWFFuLV9fZzE?oc=5), [한국정경신문](https://kpenews.com/View.aspx?No=4291935), [디일렉](https://www.thelec.kr/news/articleView.html?idxno=64630)
 - [동서울변환소 증설, 16차례 협의에도 평행선…전력망 확충 난항](https://www.yna.co.kr/view/AKR20261030159200530?input=1195m) — **연합뉴스** · 11-01 06:07
   - 주민 "이전 우선"·정부 "1조원 추가 비용"…협의 연장도 미정 정부, 국가기간전력망법 따른 실시계획 승인... 국가 전력망 확충 사업의 차질이 장기화할 가능성이 커지고 있다. 동서울변환소 증설 사…
   - 관련 보도 1건: [매일경제 마켓](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LaERxSEg4OFlfcDFBamVraGNxMFVIbHFPRW1IMDBFVWpvNGRyQ2wySGFxTzRsTVVTaFN3aDRpeVBuZWJEcEVUZ19LNkd5OFNaakE?oc=5)
@@ -154,11 +158,19 @@ modified: 2026-11-01T10:16+09:00
   - 국가 전력망(그리드) 계획과 송배전망 안정성을 좌우하는 핵심 변수로 떠올랐다. 충전 관리를 방치할 경우 일과 후 저녁 퇴근 시간대에 가정용 충전 부하가 일제히 몰려 전력망 마비 위험을 초래하는 한편…
 - [분전반 시장 2035년 전망: 전력망 현대화와 재생에너지가 성장 견인 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc0h3Y2NkeWJxclVmOGh4NHZGc09sUnpfX2NzQlZTdGp3TVhsNFpqbTYyekk1SEFiSXR6Y2FEZ2toX21FS3pXeFUxZGdMTHNmQ091M3dYdGJrUXNIWV83dzNrS3hNYkFKWnNmZDdhbXBELU4yQ1Fyb2RYcWxXZ2Q3U1dLb0s4cnRYMXhyNVZVWHZzZVhZRUY2YkN6dlRVVFRfd3hKcGxZY2FzbVJRZnVaLTZpOW40SmRPbzl1YlE2bU1NXzdHczZLWEdGTVEwOF92cUtlRA?oc=5) — **IndexBox** · 11-01 04:16
 - [1,000억 달러 규모의 전력망 확충 계획이 미국 전력(American Electric Power)의 주식 투자 전망을 바꾼 것일까?](https://news.google.com/rss/articles/CBMiowFBVV95cUxNaW1zbDlNUktva09WRVlDTVdxREpjMWdkZGhnT2ZCV1E4SnFIUG5GWENtam9Yc1FKN3YwMW5udGV6OWhuZ0syOGR0Z1d0QjhqQ3I2OWIza1hfb1BRbEtzaEpUSmtILThDT2hTT09yQ05hWGxDRzRHUUdKeDAxQ2pCSWpnSlk2aFNVUXNUNzhGZTRjeGFDM1FnRzJPcWJaT010ZjhJ0gGoAUFVX3lxTE9uWWw5Q3VyVnZRX0RpVkd5b3ktZC1PLWYxX1I2VnVkMWY5TU85ZF9nVklyU0tCMGZzV2NJLXNEalN1YXpEaUdydVBJYm9ROTJVdjJXeGxDbFNISHVUcVpVNlJvOVpKZVd0bTBaRHdOV3BjU2JrSzhRcGh0aC1jOE9rVjA5bGZxeE45bVRXM05KT3I4N2RVMHQ5RXhoU0xiZE5oTThiN2RWNA?oc=5) — **Simply Wall St** · 10-31 23:05
-- [효성중공업, 지멘스와 디지털 전력망·AI 데이터센터 시장 공략](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YZU9Ed3V1RURFUWlrYWJiaDhoR3c3QzhCcEN5d2szLTA5VVJOckhwN2szR1Fnc3JiVnJtZmxkdUkzbFJXMUJuNDFfUGJUMFBkWFFuLV9fZzE?oc=5) — **경남신문** · 10-31 21:52
 - [\[의정 브리프\] AI 데이터센터 전력망 정비·산업용 전기요금 개선 필요](https://www.etnews.com/20261031000029) — **전자신문** · 10-31 14:48
   - ◇ “AI 데이터센터 전기요금·전력망 기준 정비 서둘러야” 어기구 더불어민주당 의원은 AI 데이터센터의 단계적 가동 특성을 반영해 전기요금 기본요금 산정 기준을 개선하고, 전력망 접속 기준인 그리드…
 - [20MW 이상 채굴장, 미 법안서 전력망 추가 비용 부담 추진](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HVk13QmlGZHpRUm5hX20yYl9DbDhHdVMwZmE1NVQtbjRLcEhMTUViVXFieVRXVUhicVVGTjlIWkVyeG1WbzBDclBxdVJJQVpLeG1RVHduMmFybEHSAVtBVV95cUxNR1ZNd0JpRmR6UVJuYV9tMmJfQ2w4R3VTMGZhNTVULW40S3BITE1FYlVxYnlUV1VIYnFVRk45SFpFcnhtVm8wQ3JQcXVSSUFaS3htUVR3bjJhcmxB?oc=5) — **토큰포스트** · 10-30 19:24
 - [효성중공업, 獨 지멘스와 '전력망 디지털화' 협력 … AI 데이터센터 솔루션 공략 \| 프린트 \| BIZ 뉴데일리](https://news.google.com/rss/articles/CBMidEFVX3lxTFA4dmZDQ3ltLWpJd0l3Vm5uX2JPbkduMnJLbWJJUWktcFVHYjdrMnhTTVBNYTNfcS1qMllSQjBESlhQR0wtTGVOdjFDZGc1OHpwNGZtTEdrMEFwOXlpQzVzMmNvdWszdk5LMjFic0VYT3dXNDQ4?oc=5) — **뉴데일리** · 10-30 15:33
+
+---
+
+## 메가특구특별법
+
+### 국내 · 1건
+
+- [\[지방시대 新성장엔진\]\<2\> 메가특구법 '노동특례' 합의가 투자 속도 좌우](https://www.etnews.com/20261101000035) — **전자신문** · 11-01 11:14
+  - 5극3특 성장엔진 투자에 속도를 내려면 메가특구와 성장엔진 대형 연구개발(R&D)이 빠르게 뒷받침되어야 한다. 하지만 핵심 제도인 메가특구특별법(지방주도성장을 위한 초광역권전략산업특구 지정 및 운영…
 
 ---
 
