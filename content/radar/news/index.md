@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-01
-modified: 2026-11-01T09:22+09:00
+modified: 2026-11-01T10:16+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-01 09:22 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-01 10:16 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-01|11-01 클리핑]] — 기사 **85건** (국내 31 · 해외 54)
+> [!example] [[radar/news/2026/11-01|11-01 클리핑]] — 기사 **87건** (국내 32 · 해외 55)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -21,8 +21,9 @@ modified: 2026-11-01T09:22+09:00
 
 ## 탄소시장 / carbon market
 
-### 해외 · 7건
+### 해외 · 8건
 
+- [The Senate granted preliminary approval to the bill seeking to regulate carbon markets in Argentina](https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeVdrTmh2Wjc1T3FyWnZCNnczbF9yMk1wWFZJc2xCZEhSNzBnSXRpQVJLRU1ubFBWR1VvazlFWmdlNG43VmF1SkVxV2wyYkxLR2NUV2RUMUNBSXdtZUpnR3dHdGVkemJzSkNHdDdsVmRsZ2VVT1dfVHdzVERUbVpKTWpvR0JrWlpfQ2RjSU5vLTQ4ZkkwUEVuU1dxc19RRU9SYUlYVm1Lb1NIMG5Mb0MyTWlRR1M1bFNWd3pPN3BGelFmR3ZGUURibElIZUlqT3N2bHYwdUJrd3JnUmtZYTdIeXBFclQ5Z9IB5gFBVV95cUxNeVdrTmh2Wjc1T3FyWnZCNnczbF9yMk1wWFZJc2xCZEhSNzBnSXRpQVJLRU1ubFBWR1VvazlFWmdlNG43VmF1SkVxV2wyYkxLR2NUV2RUMUNBSXdtZUpnR3dHdGVkemJzSkNHdDdsVmRsZ2VVT1dfVHdzVERUbVpKTWpvR0JrWlpfQ2RjSU5vLTQ4ZkkwUEVuU1dxc19RRU9SYUlYVm1Lb1NIMG5Mb0MyTWlRR1M1bFNWd3pPN3BGelFmR3ZGUURibElIZUlqT3N2bHYwdUJrd3JnUmtZYTdIeXBFclQ5Zw?oc=5) — **Noticias Ambientales** · 11-01 08:06
 - [Sindh identifies carbon projects capable of cutting 330m tonnes of emissions](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kazZwUGF6cTRoY0hnbUx0N3VlZ3BfbVZkeU9yZlhxUUVJMVVMSGFwVG1uWmFzYXNUODlVeUhfdWRfSEgyWHY5TnBHZTc0X29GT01uVlBB0gFWQVVfeXFMTWRrNnBQYXpxNGhjSGdtTHQ3dWVncF9tVmR5T3JmWHFRRUkxVUxIYXBUbW5aYXNhc1Q4OVV5SF91ZF9ISDJYdjlOcEdlNzRfb0ZPTW5WUEE?oc=5) — **Business Recorder** · 11-01 06:31 · NDC
 - [Panama consolidates national roadmap for carbon market development](https://news.google.com/rss/articles/CBMiowFBVV95cUxQOG9jUDc0SDNydWpwNzc3ODFIUFZqT19UcWNzNUlYekVJNm9HQ2tudmkxVHhBV1BTVWNTNmNfMXpQc1V1blJ1bk1EcWJUS3NZcXVuTldydlB6QWU5SWVLV2hlYlR1ODlja2wtdVYwYm9VMzB2Q3NIdjNNekJwazNxMjJlRjVPZ3J0SlNZby1lLVpSdWVZNnZIUFVjZy1wX1g4S3dJ?oc=5) — **EnviroNews Nigeria** · 11-01 04:17 · 국제감축 / Article 6
 - [How Vectar Energy moved from selling solar generators to building carbon-market infrastructure](https://news.google.com/rss/articles/CBMivgFBVV95cUxORVJ2bHlSMXdILVJGZ0NVTUR2RjRTeFN3RVZ1b2JqMzVSNFM2VmtQbVo2SF9IOTR2ek11UVBYM0FFQTBuNHU2X1ltSkpFMElQeU9BdTViQzQ2M29fMkJEN2U2VGpSRDl2VnJSWC1NRXpvY1ZYS3VsUUhWQTE2Tk9RNTZ4dHlVWGM4MUFoX2ZiWjBwWC1xOThYQzlGeFJQQ2xNZTZvc0hrajJuTTJ5dXBzNXh2UTd4ODdfSHlkdlpn?oc=5) — **CediRates** · 11-01 02:42
@@ -57,6 +58,7 @@ modified: 2026-11-01T09:22+09:00
 
 ### 해외 · 12건
 
+- [Karandaaz Pakistan wins Green Climate Fund accreditation as direct access entity](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZVpPVFd3eXh2bUliN2RJQzJuSWt5emV2dUdJTlBDNzUzalJJN0VfZGtNVFBlMkhrUHZOQThkWExoTE5LMkE3aGtsTW1INF8tN2RBUUxBMlBCSjY4M29kUU5qVkFyVE5vTEpMN1A0MzFqa1pXS0FJMWxMRk1CMzVwTDY2SEN5blVMQjdfUnQ2ams0aWtXeVFaZ3J2MVRuZUxsV0NGekhjanFPVW42Ykc5a1lNeVRNYXJn?oc=5) — **The News Pakistan** · 11-01 04:00
 - [Climate Inequality and Capital: Separating Emissions Responsibility from Financial Incentives](https://news.google.com/rss/articles/CBMixAFBVV95cUxOTHd4S0c5cGU3aW1WSElXMDBfMUVBYU84UXhoV0RicU1zY3BScUNaV1RmYlBQMVlva0tCakNKcDJsX0UwVDJpR0E3clRHY052UGFGUWZqMnhsTmUyODUxdmNJT1piUElxNHhFZ3gxUkJxNTItNXA5dEpETHNVQ2g1ajU0V3E0ZG5YaWdNNlpud2l4Tl9qRGk2Wk0yNmtnaG5yWVk5WDV4VWZVRjdpaUZKMGZVcXJIenlibENmVGtmek43TXYz?oc=5) — **https://debuglies.com** · 11-01 00:40
 - [Plastic pollution is a climate crisis: Why COP31 needs a legally binding global plastics treaty](https://news.google.com/rss/articles/CBMivAFBVV95cUxQVi13UTJIWnVDR0NoMVAtaTc2bTlPWFExc3pWa1VTVDR4Z0RwYkpFNm5PQi1XcmsybnRoUDZPUmlkTEw0ZGlSNzhqNk9HMGFod2x0QUdmTWNWeV9OREEzYWxCdTFGVDQzay1OOVVmSm5UOS0wVFdIS3g1d3VyZTRyRTAwNTlKS2JZX1RMQmlUNTREanFyWUhiY1RoX1d2clJOSWI1ak85TDlCZFlIMHlZb05aSFl5MldxeEJEUQ?oc=5) — **The Business Standard** · 10-31 20:41
 - [Nigeria Needs \$337bn For 32% Cut In Greenhouse Gas Emissions By 2035](https://news.google.com/rss/articles/CBMijAFBVV95cUxQUGZBRFVJYndLaVlUZFg1NUZCZzA3eUx3cGFBZTBhY2ZMd3pwcndVSTlGVmE2UTg2V0FZaFBvdWFEMUZtR2ZMdnMzYnNGMUl3WDNfeHc1aGtmTWVZX1VVbVlqWjcwTlgxNERDWkF1WElKZzV6UXVfMGdYR0hKeTlYc3VLWlZObktleUZuRA?oc=5) — **AIT LIVE** · 10-31 20:15
@@ -68,7 +70,6 @@ modified: 2026-11-01T09:22+09:00
 - [Nigeria Targets 840,000 Climate Jobs By 2060, Seeks Investment At COP31](https://news.google.com/rss/articles/CBMilgFBVV95cUxPcWFla19aMXFHMWtweC1leDVFNTViQUViZWlpWnhSb3RHaktWR2NkSURxNDJNSUJjVFBsTUJkUEVyeHN4TUpiNUNRTmt3eXRUcUdnSkR5RXAtd0pFZGpGUjlaVWZrQ2dCdUZ3MWZnWTlHSjZOUlc5VFktSnF0SUdRRkFlRmRObmFJbGdIazU0TTB4aUV0V2c?oc=5) — **Arise News** · 10-30 17:19
 - [Ghana risks missing 2030 methane emission targets as funding shortfalls threaten progress](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FZzQ2a3ZnSU1ianZnbnF5aXdrcGhGN1ptbi1TcmNOQ1lCZGhNX2V0X2c1OVBvYXEwREZ6bER1Y1JjMzlxaDQ0SHgxb0VhX0FRbl9jTHowTzNQQm1ELVJDeG1XX0nSAVxBVV95cUxOcXc3REw4RU5nMVZ6SVU0SXR0Y0tRMXo0NmJOenIxY1dkOGRFR3Yzdkd3c2dteC1Scl9IRHdWbkRTd1VBaG1JeExtSWNRVHR2YzBhbFNzQ1VxaG4xQw?oc=5) — **Modern Ghana** · 10-30 16:00
 - [CCS/CCUS essential for Vietnam to achieve net-zero emissions by 2050](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTFUamUtbHRveXNobG00b2EtQ1NLSC1jdDhQUmlLel94TkhzS0twUmFVWmkxcHRKZnloTzBkN1psaUh1T3d2Zms1YzRqUTZjUWFsNHo4dUk5SG9FYVdTaUhfd3ktTTRyMUJ5bXNWbGZIek1UR2J4STJIQWlESjZEaFgxN25ndFNoR0E4MkJFR2JtdUpBd2s1emFTdHFNeEdyeTNZUTVVUlZDUQ?oc=5) — **Báo VietNamNet** · 10-30 10:47
-- [From commitments to action: Taiwan and the world creating climate solutions together](https://news.google.com/rss/articles/CBMipgFBVV95cUxQT183X2hjbHNYTFhOMGsyaXlKcDRrSFBGMjNCUElXWW5RdDByNk12ZEJKZWJyME0zc0xLTjZ2WmN3Z3QzUnctZ2p6YmR6SGlzN0VNUnk5a3ZuM3BuRUdRVmxIcUozSFRhX2pEN2JUWEFyZ21nY3QxaUQtWEY4SWExRTkyYzF0UDc1VFc0cGhUZ0ZveDJOUHJhc0IwMUJuMVpNRGI0NlJn?oc=5) — **Love FM Belize** · 10-30 09:57
 
 ---
 
@@ -106,11 +107,13 @@ modified: 2026-11-01T09:22+09:00
 
 ## ESS
 
-### 국내 · 8건
+### 국내 · 9건
 
 - [ESS 공략나선 中, K배터리 갈 길은\[차이나는 중국\]](https://www.mt.co.kr/opinion/2026/11/01/2026102916033623569) — **머니투데이** · 11-01 05:00
   - 작년 중국 전기차 배터리 및 에너지저장장치(ESS) 생산량은 1755GWh(기가와트시)다. 국제에너지기구(IEA)에 따르면 중국은 2025년 세계 배터리 셀 생산의 약 80%를 차지했다. 2021년…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMicEFVX3lxTE9sSkJVTWdxbGZpa1lXWHA3SzlqMDBMb01jVEhUVHo4TXdHNEVMd0gzTDUtLU1TaGNqYkpKWXY5ckk5MVVCSDFYTzE3TkdLQ1FPMkJxUUVYanQtS3JKc09PcVRNVmI2WE5vRmtkeXNBMUjSAXBBVV95cUxPbEpCVU1ncWxmaWtZV1hwN0s5ajAwTG9NY1RIVFR6OE13RzRFTHdIM0w1LS1NU2hjamJKSll2OXJJOTFVQkgxWE8xN05HS0NRTzJCcVFFWGp0LUtySnNPT3FUTVZiNlhOb0ZrZHlzQTFI?oc=5)
+- [K-배터리, ESS서 먼저 웃었다…유럽 EV도 회복 신호 \[위클리배터리\]](https://www.ddaily.co.kr/page/view/2026103119405727828) — **디지털데일리** · 11-01 10:00
+  - \<편집자주\> 국내 배터리 업계의 회복 축이 에너지저장장치(ESS)를 중심으로 넓어지고 있습니다. 특히 삼성SDI가 미국 ESS 수주 확대와 현지 생산 전환을 바탕으로 3분기 흑자폭을 키우는 성과를…
 - [ESS 시장 100GW 시대…공급망·기술·운영 역량으로 경쟁 축 이동](https://kidd.co.kr/news/247935) — **산업일보** · 11-01 09:10
   - 10GW에서 100GW 도달까지 4년…2036년 308GW 규모로 확대 전망 ESS(에너지저장시스템) 시장이 가격 경쟁 시대를 지나, 시장별 규제 대응과 시스템 통합(SI), EMS(Energy)·…
 - [광주지사 설립한 에너닷, 호남권 VPP·ESS 사업 확대](https://www.energy-news.co.kr/news/articleView.html?idxno=229416) — **에너지신문** · 10-31 17:24
@@ -187,9 +190,9 @@ modified: 2026-11-01T09:22+09:00
 - [Dr Sim: Sarawak youths must turn energy transition into economic opportunities](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbWh4YnUwRkZGMEc0MDFMRXJLN3FuS0gxNzVhUjdDeC0tN25qWV9rQm1zOG9DRHpUbzE5Mm1KVFQxRzNXVGFTZEZMT2NiaER1d0RoRmJWdW45eFJfTXJnVV9SNzFsQUpTMzBScjNUU1ltZU9HVW5MR09lME9DcjdIUUpJSExhQmxpZ21TajJaMjRsaHpNeVFpbTVVdWJFVEFLajV3UVdCTllhQUFaalRPUUZzY3RpSmJQck9N?oc=5) — **Borneo Post** · 10-31 20:31
 - [Foundation urges stronger safeguards for communities in Nigeria’s energy transition](https://news.google.com/rss/articles/CBMiswFBVV95cUxPdjlyenpMRjdmSDlpaGJ5dzhvLU83XzQwRVRFWVMyT1pnbGJfc3pOX3ptYllZVEZEQWxGZGR4YldSNmpoaGNFLTJoQW9DajkzYlJiZjg3ZlVRTUx3LWNOcXVxc3RxOWxnQ3Vqb0xHaW4zaFFZMG5TQWVadkZCSGoyTjRZQzR4NDhkclllcUlPSmk5RGFobzlTLVBLTXFjWHl4anFaZVotM29wNl85T1lLOVlFNNIBuAFBVV95cUxQMHpWZTR1eFl0R0F1SWhGU29sUWRzWUJSekRyWEtZN0wtRlNvSTZkMXhfd1Y1eXE2TktuUHd2LWF0bnk0YjhSTHVQdmRsNUUyUk5MZ1dWT0VOb0M2YXNfVDhFVnRmb1NGVVFvdy1lNDRPcVFleGg4dHJZT0xTejVxa2ZGZ1NrWGcxQnZTRzFfa193OUNaZjlCRV92U05qYUJMdzZ1UmliVmdNQTBvNGhTX3JKdnA1ZENT?oc=5) — **The Nation Newspaper** · 10-31 20:15
 - [COMMENTARY: Carney Government Relies on Energy ‘Transition’ Myth at Our Peril – Fraser Intitute](https://news.google.com/rss/articles/CBMivAFBVV95cUxPWHdzbG95QVNDZm1YUTVwVDlfQ0pHanV2LVF0X2RiZW5HcmQzWGwtTjlLcWluWGNmcmhaQ1R0LUJxZzdJUi1EX2wtQndwTHFLd1ZTNE1HVnhBOUJIOXJUM1Q2SEwzbmhVU0J4Tms1RGlrUkFvbngySjd5eVgyQnVnX1RCcE42NnBqcVZyeGNRSlZFdFdHRWZfQ0ZONXZVRThKc05TWFhkQXlkbkV6SmFHUW92WUUxbTc0Tjc5eg?oc=5) — **EnergyNow** · 10-31 17:56
+- [India must build resilient supply chains to lead global clean energy transition: H.D. Kumaraswamy](https://news.google.com/rss/articles/CBMivgFBVV95cUxNQlFtR2JEZnZKVVVRZmM0c0FWRXZaelFuNW5LWUpEWG9QVzZqazhRYTh2Rzl3ckVOamdzZ1NHWVY1ODRYUFQ3bVdTeGQwUnYzdG5hOENwNTZsd3pkYXo4QTJPZDlwMnkyWWhrbk00LVktRmpFNDBockNxSUROdHlkTnR2X0dBQ2p1a3RzbE5BRF9sU3NDZGx6QzVmd1d0d0U3Mi1kV05IMXNhdFhVRjE2MmJfRWVBd1N0VkprSm53?oc=5) — **DD News** · 10-31 17:21
 - [The Reality of the Energy Transition: Not Happening](https://news.google.com/rss/articles/CBMie0FVX3lxTE9yamhBRWo0SE8tVFhkOG5BelRQLVNuVWpHczlGZ0NPUVlLN0stbWU4ZDJEdmRna1ZYVDFzRDAyaE1Pb3ZqZFdpNHI1UlBtZVBhTUpCYTVqSGt6eE5oRWQ3bHFoVVA5cEcyUUlDcFJzbW1QNjR1bW8tWVl2UQ?oc=5) — **Fraser Institute** · 10-31 15:51
 - [Skills Shortages Threaten Asia’s Energy Transition, UN Agency Warns](https://news.google.com/rss/articles/CBMimgFBVV95cUxNZVpJTXpXMDRZdmNuYXgweTQtTXZXMUV2ZWpDYXhUZk94TllxLXVhb2oxVjVtUW1OQU1BN0VQeG9qYUtwWndRNEo3UE0yYlBXdUJmUGljSUVKSlZLRjVjYXhYZ2s2aHZVeUhUODE1OU1nOXZvUVp5TGRRYUdkSE9wRXlZT3hHazVOMGdkZVpGaXI3QXA1ejFrNWhB?oc=5) — **Kiripost** · 10-31 13:22
-- [Under the hood of the energy transition](https://news.google.com/rss/articles/CBMib0FVX3lxTE1oY2RQVURVY1JSWWJLUFNvTm4yaGdFSF9UY0xEV0JZeU1xUHUzMUJiM0lWREo1cktYaENnbnRhV2E3YTR1U0RHYldlV1U4SnN0eWRXYlNDbWVqcXlsYTlnNzNqZTRWaGQ2Z0syclczbw?oc=5) — **Mining.com.au** · 10-31 13:18
 
 ---
 
