@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-02
-modified: 2026-11-02T08:42+09:00
+modified: 2026-11-02T09:31+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-02 08:42 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-02 09:31 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-02|11-02 클리핑]] — 기사 **79건** (국내 52 · 해외 27)
+> [!example] [[radar/news/2026/11-02|11-02 클리핑]] — 기사 **100건** (국내 69 · 해외 31)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -20,12 +20,22 @@ modified: 2026-11-02T08:42+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 6건
+### 국내 · 12건
 
-- [아시아 금융당국·국제기구 부산 집결…해양금융 허브 도약 가능성 모색](https://www.etoday.co.kr/news/view/2642763) — **이투데이** · 11-02 08:38
-  - 탄소시장과 국가 간 탄소거래, 예금토큰과 디지털채권, 역내 자본시장 동향과 국가 간 지급결제 등이 주요 의제다. 재정경제부가 주관하는 세미나에서는 금융 디지털화에 따른 위험과 인공지능(AI) 발전이…
 - [부산서 아세안＋3 채권시장 국제포럼…지속가능 금융 협력 논의](https://www.yna.co.kr/view/AKR20261102015900051?input=1195m) — **연합뉴스** · 11-02 08:22
   - 디지털채권시장포럼·국가 간 결제인프라포럼 공동회의에서는 탄소시장과 국가 간 탄소거래, 예금토큰과 디지털채권 등을 다루고, ASEAN+3 채권시장포럼에서는 역내 자본시장 동향과 국가 간 지급결제, 지…
+  - 관련 보도 1건: [파이낸셜뉴스](https://www.fnnews.com/news/202611020856294254)
+- [후시파트너스, ACT그룹과 EU 탄소국경조정제도 대응 협력 MOU 체결](https://www.seoul.co.kr/news/economy/2026/10/30/20261030500290?wlog_tag3=naver) — **서울신문** · 11-02 09:01 · CBAM · 자발적 탄소시장 / VCM
+  - 유럽 탄소시장 실행력 더해 원스톱 솔루션으로 확장 탄소 관리 전문기업 후시파트너스(공동대표 이행열, 조성훈)가 EU 탄소국경조정제도(CBAM) 대응을 위해 글로벌 탄소시장 전문기업 ACT그룹(ACT…
+  - 관련 보도 1건: [파이낸셜뉴스](https://www.fnnews.com/news/202610301604142228)
+- [부산서 ASEAM+3 채권시장 국제포럼 열려](https://www.nocutnews.co.kr/news/6600349?utm_source=naver&utm_medium=article&utm_campaign=20261102092309) — **노컷뉴스** · 11-02 09:24
+  - 디지털채권시장포럼·국가간 결제인프라포럼 공동회의에서는 탄소시장과 국가 간 탄소거래, 예금토큰과 디지털채권 등을 다루고, ASEAN+3 채권시장포럼에서는 역내 자본시장 동향과 국가 간 지급결제, 지속…
+- [아시아 금융당국 부산 집결…채권시장 디지털화·해양금융 논의](https://www.sedaily.com/article/20108915?ref=naver) — **서울경제** · 11-02 09:08
+  - 다른 세션에서는 탄소시장과 국가 간 탄소거래, 예금토큰, 디지털채권 등 금융 인프라의 변화를 짚는다. 재정경제부가 주관하는 역량강화 세미나는 금융 디지털화에 따른 위험과 인공지능(AI) 발전이 금융…
+- [아시아 금융 관계자 150명 부산 집결…ASEAN+3 채권시장 포럼 개최](https://www.news1.kr/local/busan-gyeongnam/6339305) — **뉴스1** · 11-02 08:47
+  - 디지털채권시장포럼과 국가 간 결제인프라포럼 공동회의에서는 탄소시장과 국가 간 탄소거래, 예금토큰과 디지털채권 등을 논의한다. ASEAN+3 채권시장포럼에서는 역내 자본시장 동향과 국가 간 지급결제,…
+- [아시아 금융당국·국제기구 부산 집결…해양금융 허브 도약 가능성 모색](https://www.etoday.co.kr/news/view/2642763) — **이투데이** · 11-02 08:38
+  - 탄소시장과 국가 간 탄소거래, 예금토큰과 디지털채권, 역내 자본시장 동향과 국가 간 지급결제 등이 주요 의제다. 재정경제부가 주관하는 세미나에서는 금융 디지털화에 따른 위험과 인공지능(AI) 발전이…
 - [부산서 아시아 금융협력 미래 논의..‘ASEAN+3 채권시장 국제포럼’ 개...](https://kpenews.com/View.aspx?No=4292551) — **한국정경신문** · 11-02 08:02
   - 이어지는 국제포럼에서는 탄소시장과 국가 간 탄소거래, 예금토큰과 디지털채권 등 금융환경 변화에 대응하기 위한 정책과제를 논의한다. ASEAN+3 채권시장포럼에서는 역내 자본시장 동향과 국가 간 지급…
 - [KAIST 녹색성장대학원-뉴톤, AI 기반 기후변화 대응 공동 연구](http://www.hellodd.com/news/articleView.html?idxno=113699) — **헬로디디** · 11-01 18:50
@@ -44,8 +54,10 @@ modified: 2026-11-02T08:42+09:00
 
 ## NDC
 
-### 국내 · 2건
+### 국내 · 3건
 
+- [\[특별 기고\] 미래세대를 지키는 기후희망, 학교 온실가스 감축 조례](https://www.goodmorningcc.com/news/articleView.html?idxno=455020) — **굿모닝충청** · 11-02 09:30
+  - 완성하겠다는 목표가 담겼으면 좋겠다. 아울러 기본계획과 학교별 감축계획을 정교하게 수립하고, 온실가스 배출량과 감축실적을 체계적으로 관리하도록 하는 구체적인 실행으로 연결되어야 한다. 특히 학교마다…
 - [기후부, '히트펌프 보급사업' 도시가스 미보급지역 중심 추진](https://www.kmecnews.co.kr/news/articleView.html?idxno=52539) — **기계설비신문** · 11-02 06:06
   - 따른 온실가스 감축 효과가 뚜렷하다는 판단에서다. 국내 도시가스 미보급 지역은 △서울(서초 우면동... 히트펌프 보급 계획은 올해 2만5000대와 내년 6만대를 목표로 추진된다. 이후에는 △2028…
 - [신용보증기금, 탄소 감축효과 '금융'으로 평가한다](https://www.etnews.com/20261030000202) — **전자신문** · 11-01 15:01
@@ -71,11 +83,12 @@ modified: 2026-11-02T08:42+09:00
 
 ## AI 온실가스
 
-### 국내 · 6건
+### 국내 · 7건
 
 - ["덥고 좁아서 더 세졌다"… 약점 딛고 亞 AI 허브 된 싱가포르](https://www.mt.co.kr/industry/2026/11/02/2026102716594635590) — **머니투데이** · 11-02 05:50
   - 인공지능(AI) 데이터센터는 국가와 기업의 미래를 좌우할 핵심 성장동력으로 꼽히지만, 동시에 천문학적인 전력 소비와 탄소 배출, 수자원 고갈을 야기하며 전 세계적인 갈등의 진원지가 되고 있다. 하지…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTFBSd25IVzA5dFpkRDJleUlDNXNBSjRoOWpuSGktaEdDa0NzelIyeUlPaHlVQWd5NENIQ2l2WlE1cm1zYm03YV9Zai1ReEFycEQ5eE9BU2JIUGhQaGJieDdwVTdMckIzZnNSd2JzSzNtVXphUdIBckFVX3lxTFBSd25IVzA5dFpkRDJleUlDNXNBSjRoOWpuSGktaEdDa0NzelIyeUlPaHlVQWd5NENIQ2l2WlE1cm1zYm03YV9Zai1ReEFycEQ5eE9BU2JIUGhQaGJieDdwVTdMckIzZnNSd2JzSzNtVXphUQ?oc=5)
+- [ETRI, 디지털트윈·온디바이스 AI 등 AIoT 기술 9종 공개](https://news.google.com/rss/articles/CBMiakFVX3lxTFBmdVFtRDdMTExvZVZ3T3lwMkFvT2l3ZzhiV1duSjNIUi1WNjJlX0VEbDVNQ2x6clp6S1ZaM0x5RDZzOXNEck8xNUJHOVZzaWhKU29wT296U095alZLTDRJaFBMaTNpUnVxa2c?oc=5) — **지티티코리아** · 11-02 09:08
 - ["AI 데이터센터 살릴 전기 없다"… 전 세계 건설 원자로 '79기', 40년 만 ...](https://www.g-enews.com/view.php?ud=2026110208174186150c8c1c064d_1) — **글로벌이코노믹** · 11-02 08:20
   - 인공지능(AI) 인프라 확장에 따른 막대한 전력 소모와 지정학적 분쟁발 화석연료 가격 급등이 맞물리면서... 화석연료 수입 의존도를 낮추면서도 국가 온실가스 감축 목표(NDC)를 달성할 수 있는 대…
 - [대구 공무원들의 아이디어, 시민 안전까지 바꿨다…“예산 0원으로 AI 행...](http://www.inews24.com/view/2021205) — **아이뉴스24** · 11-01 17:29
@@ -89,11 +102,19 @@ modified: 2026-11-02T08:42+09:00
 
 ## ESS
 
-### 국내 · 13건
+### 국내 · 15건
 
+- [에스엠국일, ESS·반도체 장비 전문기업 '대진기계' 인수 양해각서](https://news.google.com/rss/articles/CBMic0FVX3lxTE5sVm83bTA3YUZWLXlkeTBlYllnWkE0UnlDREtraUFCbTFHLTM4bWhlVXNjSnpSRzZvVlU1dDE1aUppMW9YQXI2bEFPYkdmeHFzbXZTd0FRbDM4WVdDMXZqQkZXeko4WC1Ud0p6Y0JLOWtpU2c?oc=5) — **마켓인** · 11-02 08:59
+  - 관련 보도 2건: [이데일리](https://www.edaily.co.kr/News/Read?newsId=02220566645641784&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article), [이투데이](https://www.etoday.co.kr/news/view/2642800)
 - [LG엔솔 ESS용 'AI 에이전트' 첫 공개…배터리 3사 폭풍질문 오가](https://www.mt.co.kr/industry/2026/11/02/2026110108491583098) — **머니투데이** · 11-01 15:09
   - " 지난달 30일 서울 삼성동 코엑스B홀에서 열린 '스마트 에너지 플러스(SMART ENERGY PLUS·SEP) 2026'에서 김현태 LG에너지솔루션 ESS(에너지저장장치) 상품기획·전략담당 상무…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTE42UkhuaThxT2hqVF9vQktxenRCY3ZOTjJ1bGNTOVRwbEcyc3JqQ1M4VndGNGNuUm1fYnl6N3lGNlJ6RjZkd2doMzRadnR2MjhXVXFXaHg3ellTZVE2aVNmNGZwVmY4YmlGSkowU0pISGJwQdIBckFVX3lxTE42UkhuaThxT2hqVF9vQktxenRCY3ZOTjJ1bGNTOVRwbEcyc3JqQ1M4VndGNGNuUm1fYnl6N3lGNlJ6RjZkd2doMzRadnR2MjhXVXFXaHg3ellTZVE2aVNmNGZwVmY4YmlGSkowU0pISGJwQQ?oc=5)
+- [中이 84% 장악한 ESS 시장…승부처는 배터리 밖 '53%'](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XUWlfU05HZ29JbW9NaklHTVBUdnlqMVFQdGRHWGtuME9xTEdEQWZaM3VralFEemxJckJUY2QxUl84UU16d1ZLUnRxazZoUEFQN0ZNUUJaSUxNUQ?oc=5) — **파이낸셜뉴스** · 11-02 09:22
+- [ESS 내부 CCTV 설치 의무 제외…폐배터리 재활용 공정 변경 허용](https://www.etoday.co.kr/news/view/2642805) — **이투데이** · 11-02 09:14
+  - 이투데이\=세종\=곽도흔 기자 \| 이차전지 산업 규제 개선 과제 18건 확정 정부가 사람이 다닐 수 없는 에너지저장장치(ESS) 컨테이너 내부에는 CCTV를 설치하지 않아도 되도록 제도 개선을 추진한다…
+- ["커지는 ESS시장, 경쟁력 기준은 가격보다 운영 역량"](https://view.asiae.co.kr/article/2026110209005315969) — **아시아경제** · 11-02 09:00
+  - 인공지능(AI) 데이터센터의 전력 수요 급증과 재생에너지 보급 확대로 에너지저장장치(ESS) 시장이 빠르게 성장하면서 경쟁력의 기준이 달라지고 있다는 분석이 나온다. 가격보다는 공급망 적격성, 안전…
+- [삼정KPMG, ‘커지는 ESS 시장, 달라지는 경쟁력의 기준’ 발간](https://news.google.com/rss/articles/CBMiaEFVX3lxTE8weXRtRmZENjg4bU1pU0JFamtodjJZcWVaSWJyYVI3ZFJlNUZyVldONTI3bDc4N09VQjR1b05wdkJxb1ZwS0h6VnNlM2pzbWRZX1JmS0NScUtRS3BrSjlJMW9uWldRWE5N?oc=5) — **CPA뉴스** · 11-02 08:48
 - [삼정KPMG “ESS 경쟁력, 가격보다 공급망·안전 인증·시스템 운영 역량이 좌우”](http://www.joseilbo.com/news/news_read.php?uid=578635&class=10&grp=) — **조세일보** · 11-02 08:24
   - 인공지능(AI) 데이터센터의 전력 수요 증가와 재생에너지 확산으로 에너지저장장치(ESS) 시장이 빠르게 성장하면서 글로벌 산업의 경쟁 구도도 변화하고 있다. 과거에는 배터리 가격과 생산원가가 주요…
 - [글로벌 ESS 시장 10년 새 2.6배 성장…공급망·운영 역량이 승부처](https://www.etoday.co.kr/news/view/2642745) — **이투데이** · 11-02 08:14
@@ -106,19 +127,12 @@ modified: 2026-11-02T08:42+09:00
   - 민주당이 상하원 과반을 모두 차지하면 태양광과 풍력발전, 에너지저장장치(ESS) 등 신재생에너지 분야는 대표적인 수혜 산업이 될 것으로 꼽힌다. 민주당은 올해 3월 신재생에너지 세액공제 복원 및 송…
 - [SK온, 글로벌 인증기관 화재시험 통과… "ESS 안전성 인증"](http://www.biztribune.co.kr/news/articleView.html?idxno=361685) — **비즈트리뷴** · 11-01 22:54
   - SK온이 지난 3월 서울 강남구 코엑스에서 열린 '인터배터리 2026'에서 선보인 컨테이너형 ESS 제품 (사진 \= SK온) SK온 에너지저장장치(ESS)가 북미 화재 안전성 시험 표준의 대형 화재…
-- [삼성SDI 미국 ESS 증설 수혜…서진시스템 매출 확대 기대](https://www.pinpointnews.co.kr/news/articleView.html?idxno=500358) — **핀포인트뉴스** · 11-01 16:30
-  - 서진시스템이 미국 에너지저장장치(ESS) 공장 가동 정상화와 인공지능(AI) 반도체 투자 확대에 힘입어 실적 개선에 속도를 낼 것으로 전망됐다. iM증권은 26일 보고서에서 서진시스템의 3분기 영업…
-- [美 보조금 축소 시계 가동⋯K배터리, ESS 수익성 확보 시험대](https://www.viva100.com/article/20261101500489) — **브릿지경제** · 11-01 16:30
-  - 미국의 배터리 생산 보조금 축소가 예고되면서 에너지저장장치(ESS) 사업 확대에 나선 국내 배터리 3사의 수익성 확보가 새로운 과제로 떠올랐다. 전기차 수요 둔화 속에 ESS 생산과 수주를 늘리고…
-- [유니테크노, 자동차 부품 넘어 ESS·피지컬 AI로 영역 확장](https://www.pinpointnews.co.kr/news/articleView.html?idxno=500353) — **핀포인트뉴스** · 11-01 15:46
-  - 자동차 부품 전문기업 유니테크노가 전기차와 하이브리드차 부품 공급을 확대하는 동시에 에너지저장장치(ESS)와 피지컬 인공지능(AI) 분야로 사업 영역을 넓히고 있다. 한국IR협의회는 최근 보고서에서…
-- [SK온, 손실 줄이고 재무 개선…ESS로 실적 반등 시동](http://www.metroseoul.co.kr/article/20261101500241) — **메트로신문** · 11-01 15:34
-  - /SK온 SK온이 에너지저장장치(ESS)를 앞세워 실적 반등에 나선다. 전기차 배터리 판매 부진 속에 3분기 다시 적자를 냈지만 미국과 국내에서 확보한 ESS 수주 물량의 공급이 내년부터 본격화하면…
-- [제이앤티지 "비리튬계 장주기 ESS 개화기 본격 진입해"\[상장人터뷰\]](https://www.edaily.co.kr/News/Read?newsId=01682646645641456&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-01 13:22
-  - “과거 노키아가 주도하던 휴대폰 시장에 애플 아이폰이 등장하며 시장의 판도를 일시에 바꾼 것처럼, 인공지능(AI)과 에너지 전환이 맞물린 현재의 변혁기 속에서 장주기 에너지저장장치(ESS) 시장 역…
 
-### 해외 · 9건
+### 해외 · 13건
 
+- [ACME Solar (NSE:ACMESOLAR) Expands Battery Storage Capacity with New Rajasthan Commissioning](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMWtZaFZsalRRMHpFdkVYY0tTbWYwc18zekVOd3dvLWZVUEpUMTB0ZUxCeGp5S0pVNVRnMEp5Qy1zWHNibUV6cnFXUlRzVFlfMzhDa3dIbGd0N3NtSkxTTGxYRG4yMkVaVVVDcV8xaWNrSEdGQS12dzVENG91TVNMcnVlT2xtdUlTVHBvZnZ5ZkVMWm1vZjQ2VnJmRHlET3JvY1JFbFpKWUs5X2g5RzlSbEZ6NFh3TjRPOFFLVG1vaVp3clVQQXN4dUtveUNJLU5tVUE?oc=5) — **Kalkine Media** · 10-31 17:02
+  - 관련 보도 1건: [TipRanks](https://news.google.com/rss/articles/CBMivgFBVV95cUxQMzBNN25mWlZfMVUwS1N6azNfbl9BUnp6Z3YxTlNHbEE2dmxvaEJuMG55UXAwTWpTN01RTmxCbUJWOEtrbm1DS1ZMV0trVTNkWERDekxrTW5SRDJJaTZ0WU1PbUladzRiTjlpM0tjUkRvcWpuVnJ0TF91LTBjSVBxQ2h5bEtOOUdfbkdYbEhRcVRBX3hmN0hLd0ZFSi1qV2pfci10WjNLbW5YU3RUdDBkRHVTY3BTLVRiQ3V0RDhn?oc=5)
+- [Shumbasolve commissions 6.35 MW solar/BESS PV project servicing Highveld Industrial Park](https://news.google.com/rss/articles/CBMixgFBVV95cUxPRDZaQTNubk9FMVh3ZUdrVlpfeTRtZ214NGZfc1IyOThKSEhYMkMxNGJMejdGcHlNeWowNExsdmt5bUJUSElvenpJdi0xRndPZzczMHlpZ3JwaUR4M0FUeHJRM1hZTWJPbWRfVUJzcjlqNU9fRGw4Ykt2THRINDdSYWdFVlBnYTBtakFKWmFVb18yeVE1NkQ3TTBleEdrOEEtYzl6TUlHdHB5VjliYVRTYVV4N0tPTDNoR0hEa2kzbFlqcmtaZWc?oc=5) — **Green Building Africa** · 11-02 09:14
 - [SANEDI drives battery energy storage research and localisation in South Africa](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTV2eG5TVEhVSWVuQnltcXEzWEQwSUJQcVV6TllDb2liVjFGbXlHaGtGdm1DMnlPUENLYVc3MjRlX1prSmlyX3QzbXlWVVl2S0NLeXNnaXFOUzkzYjVXU2RScENZd21pQktqVTNqR0hDam5fR2w0VEVNMWZWN2xMTWp4MVJqZmk5eTJEazVhNjBzY3ZhVndKSXRGRjlINTlJSmFpU1pJNEVuUTlmWVBHUWNPZDF1bDJi?oc=5) — **Green Building Africa** · 11-02 08:15
 - [Study says Solar-BESS plan can save TN ₹31,000 crore over new Tuticorin coal plant'](https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTWZkTG9yODNnZWhkbEh4VW12OHNNb1VDRW5XRGlkSEFUVEQ0b0F1TUNHNThiR2IySlFCVm12dGVCSDZkd2VVUnQwaTV3eFFmV3Mwc3I5ZVpLa1JLeURPNUJaemRhRFNtUXBwcWg3UVpuM2ltRnZwSjhLRVRXZ045eVVTTjd2cUxTTUU2ZWtJUzdIaGlnQktaZENzV1Y3QlIxM1NRajFKREVUNXFIUWx1UUk2bE1YNzZsbW9GSmJhNl81dVVxd3VCejIzdS0tSmtsb083c0dnejZPVExWeWpPT3JwZzRRQ2RiNElz0gHwAUFVX3lxTFBqNUhmRERHeWZkSEx3UkFUMlUwUE13bmtxQllmTXBpZWgwYU1Gb2lpOERCVU5zTk1WTVVibkt3ME4zTl94TlhSRUM5UVh0dmwxYVZ6TnA0UXpFekV0T2tNTlk1a0xydUd3NzM5ai00aGw2TFRVY18tQ2E5MG1QVThtOXpvMFJPa3BzbUtzLXMzUUFjRVhxWkpKUXI2TzNhb1FuaWp1ajlaUDY5ajh6VTZYUHhkcGQ4MkZEdTAydXVKeUFyNGthenlqcWFteGNmcWhnNWxvM1gxX1dnNG1UUzZ4c05ZZGl3U3lvVTBYRk44UA?oc=5) — **The Times of India** · 11-02 03:32
 - [Policy Workshop on Financing Battery Energy Storage Deployment in Pakistan](https://news.google.com/rss/articles/CBMipwFBVV95cUxNMjVDbW1ZdDI3Ynl3SFkwbGUzU3BQeHNQd0hZUDVhOGZld1ZTQXR3cndTeXRlOVF3ZWZhVEdYZHdUSWVIYlBEWGJlZ1ZBbVBsMzBUc1VuVEFYdjM5cVpZMXU3eUNndE42dlRtWDBhM2VzS2xzZ0E5WGI4aHJIanM5elFRLXlsQk0xQjhiTGNXRnJfRUJRUEtaQU5YQjRLcURmcjVIRU0zaw?oc=5) — **ESCAP** · 11-02 01:40
@@ -126,35 +140,39 @@ modified: 2026-11-02T08:42+09:00
 - [Pace Digitek secures ₹179.4 cr BESS order from BSES Rajdhani](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQmxKVFlrSlpjQ3hYLUg3cjBCdVoxM0tRMUhUSXl4WTYyTlo2T0dTUnF5TDBiZ25ZZ2RuR1JCRkhqc1pWaXB1dU5Xb28xRWM5M1pDLUNCYUpIcXA0aFAyWG5wZFpqbk10Ym5DVkNyX3FuMDVUOGdvOE9NcHdRWDkxTFZILXJqbk9LNHhrZmk1dDVyVWpjRVFMZks4WnRnRmtaazZFWV9Sdzl4X3E2bUN4ZVBxOG5RZUxRVG1XX3VFY2syb0U?oc=5) — **scanx.trade** · 11-01 14:05
 - [HIZENERGY predstavuje komplexné riešenia komerčných a priemyselných batériových úložísk energie (C&I BESS) pre európsku energetickú transformáciu](https://news.google.com/rss/articles/CBMioAJBVV95cUxPTERsWWVlQXRtZXhieG91RXItUGlyN05FbXNKRmlaWC16ZlpfZjR1WHdtVmZaajBndDgxNEhXVkpBWHdNLXNaVWF6SW50TnF6YWpaVU5WUWlIakpseXhlQ0oyX3ZaRnFmNEJ3NjI5amJfc3lGOWlyNzdUeURxVnlMN2Q0TUdIWGZFUWlSdTFMbXJLVUtFcE5RaWJUYUNWWmV2QVBMQTNnSW9JOGNMUExwbnBNWk1LMk5kYXdIVXRZYWVMcWJDY2ZObDhwS2NsUUpIWG12cmlxWXVVT1EydWhjc1ZEZ0NFb2pXWXZCUUpGLWwwXzJhanpzM2JYR19Obm9Va0FzSkhlMVdPbHZqRnFTYVoweThmRXd4SXFWVjZWT3Y?oc=5) — **PR Newswire** · 11-01 12:10
 - [Reita Bess Land Obituary (2026) - Dunlap, TN - Ewton Funeral Home & Cremation Center](https://news.google.com/rss/articles/CBMifkFVX3lxTE1ET2N2emJaMTRfSFV2a0c5SVhWMW5PZEpZZWI2Rlp4UGEzLTlPdkV5OXpYN1BYb0lZTEYzcl82di1ZUU9QaEpZUzJWcThxY3JMcjFDd2VLRENQTjFDWTVkVjlPV25YblZWbGtQUTdDY1ZJY2tOdmE4dlU4bUtudw?oc=5) — **Legacy \| Obituary** · 11-01 08:58
-- [ACME Solar (NSE:ACMESOLAR) Expands Battery Storage Capacity with New Rajasthan Commissioning](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMWtZaFZsalRRMHpFdkVYY0tTbWYwc18zekVOd3dvLWZVUEpUMTB0ZUxCeGp5S0pVNVRnMEp5Qy1zWHNibUV6cnFXUlRzVFlfMzhDa3dIbGd0N3NtSkxTTGxYRG4yMkVaVVVDcV8xaWNrSEdGQS12dzVENG91TVNMcnVlT2xtdUlTVHBvZnZ5ZkVMWm1vZjQ2VnJmRHlET3JvY1JFbFpKWUs5X2g5RzlSbEZ6NFh3TjRPOFFLVG1vaVp3clVQQXN4dUtveUNJLU5tVUE?oc=5) — **Kalkine Media** · 10-31 17:02
+- [GK Energy to Form Five Wholly Owned Battery Storage Subsidiaries](https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ3ozWVl1SHdSVjBDLTBHbVpHTGdKRjBHU09UbGo1ZFlJQzd1aDgxYVFlWVlDMXJaT29XUWxhUV9jeUNMMG5FMTFyRk8tdVktQmRYdU9XY01MZjNtQzVxcnlTXzZjUndyTlRLY0RTWUpxNlpRMUJXOEFyeTUtMGRBS05JVEZQX0tyWm1vVk1FSEFSOUlhUW9lLVp1VExxdkNyZG5lQ05SNU14SzktblIwNjZObTdpUXc?oc=5) — **TipRanks** · 11-01 07:34
+- [Revolve Enters into Definitive Agreement to Acquire Three Project, 6 MW Battery Storage Portfolio in Ontario](https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdm9pa1Q1WWVuT3VvT0RTdDQyLUxaeDlpc0tBWkRueFZ3d0xuMmliZG14cUJzRk1wdEkyNnNZTXl5M0J0aldtMjFvbjdZWENGT3lBbS1Sc2tDWHVuVW5OUDJPY1ViZ1lTOW5rWGVDVTdYMUdfemJJSHcyc0JhSlN6bVdRVmtlb2QzYTFITE9CTERYeTJ6b2FPeFVfV1lmY3h5SHFpeFoyaFJHYklwTDdtdkNGQTFDUFJCbzRlU1YyZ1VyZUthMFNKTmh5WVgyb0ZYN3ZJSHZsNjczUDlDZTR1eC1xZmVlMlBWaUVOVjZlQzNLUQ?oc=5) — **IndyStar** · 10-31 10:36
 - [New Scotland to re-examine battery storage](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeVhCelhCaGotYmVzd3VteW1wTWZZd2Zka2FfQ1JJZTVmNWRKemFMU3Q4OFhHZjN1aW5hc3JXZ1BUWWRQTFh3ZWJhdm5Na0ljZ0g3bS04WkVEUHhneFVuLVlXWF9EeERKSnptSS1naFhodk9QWHRJQUs4c05Ra3AxLVRBRWxGakFSMzhB0gGLAUFVX3lxTE55WEJ6WEJoai1iZXN3dW15bXBNZll3ZmRrYV9DUkllNWY1ZEp6YUxTdDg4WEdmM3VpbmFzcldnUFRZZFBMWHdlYmF2bk1rSWNnSDdtLThaRURQeGd4VW4tWVdYX0R4REpKem1JLWdoWGh2T1BYdElBSzhzTlFrcDEtVEFFbEZqQVIzOEE?oc=5) — **The Altamont Enterprise** · 10-31 10:27
 
 ---
 
 ## 전력망
 
-### 국내 · 14건
+### 국내 · 19건
 
+- [구자균 LS일렉트릭 회장 "AI 전력 수요 해법은 지능형 DC 전력망"](https://www.edaily.co.kr/News/Read?newsId=02132006645641784&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-02 08:31
+  - 지능형 전력망이다.” 구자균 LS일렉트릭 회장은 2일 서울 JW 메리어트 동대문 스퀘어에서 열린 ‘2026... 지능형 전력망으로 전환해야 한다는 제언이다. CIRED는 세계 배전 분야의 최신 기술…
+  - 관련 보도 5건: [www.dt.co.kr](https://www.dt.co.kr/article/12092517?ref=naver), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=560169), [이뉴스투데이](http://www.enewstoday.co.kr/news/articleView.html?idxno=2487010), [디지털데일리](https://www.ddaily.co.kr/page/view/2026110209214276694), [더트래커](https://thetracker.co.kr/View.aspx?No=4292726)
 - [효성중공업, 독일 지멘스와 디지털 전력망·AI 데이터센터 기술 협력](https://www.webeconomy.co.kr/news/articleView.html?idxno=2355280) — **웹이코노미** · 11-01 18:24
   - 효성중공업은 지난 10월 30일 우태희 효성중공업 대표이사, 정하중 한국지멘스 대표이사 등이 참석한 가운데 독일 지멘스와 디지털 전력 인프라 및 인공지능(AI) 데이터센터 솔루션 협력을 위한 '글로…
   - 관련 보도 2건: [kwangju.co.kr](http://www.kwangju.co.kr/article.php?aid=1793525700804884005), [뉴스로드](http://www.newsroad.co.kr/news/articleView.html?idxno=66856)
-- [구자균 LS일렉트릭 회장 "AI 전력 수요 해법은 지능형 DC 전력망"](https://www.edaily.co.kr/News/Read?newsId=02132006645641784&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-02 08:31
-  - 지능형 전력망이다.” 구자균 LS일렉트릭 회장은 2일 서울 JW 메리어트 동대문 스퀘어에서 열린 ‘2026... 지능형 전력망으로 전환해야 한다는 제언이다. CIRED는 세계 배전 분야의 최신 기술…
+- [구자균 LS일렉트릭 회장, "AI와 DC로 전력망 패러다임 바꾼다"](http://www.newslock.co.kr/news/articleView.html?idxno=139052) — **뉴스락** · 11-02 09:26
+  - DC 전력망 비전을 발표했다고 밝혔다. CIRED 워크숍은 세계 전력 산업의 미래 표준과 기술 발전 방향을... 구 회장은 이날 연설에서 AI 데이터센터 확산에 따른 전력 수요 증가와 전력망의 역할…
+- [구자균 LS일렉 회장 "직류 기반 지능형 전력망, AI 전력 수요 확실히 감당할 것"](https://www.fnnews.com/news/202611020914276233) — **파이낸셜뉴스** · 11-02 09:20
+  - 구자균 LS일렉트릭 최고경영자(CEO) 회장은 2일 "폭발하는 인공지능(AI) 전력 수요를 감당할 확실한 해법은 직류(DC) 기반의 지능형 전력망"이라면서 미래 전력망 생태계를 완성할 핵심 키워드로…
+- [구자균 LS일렉트릭 회장 "AI 데이터센터, 직류와 지능형 전력망이 핵심...](https://www.ajunews.com/view/20261102082012337) — **아주경제** · 11-02 09:02
+  - 지능형 전력망'을 제안했다. 구자균 LS일렉트릭 회장은 2일 서울 JW 메리어트 동대문 스퀘어에서 열린 ‘2026 국제배전협의회(CIRED) 워크숍’ 기조연설에 나섰다. 차세대 지능형 DC 전력망…
+- [구자균, AI 전력난 해법 제시…"직류 기반 지능형 전력망"](https://zdnet.co.kr/view/?no=20261102085909) — **지디넷코리아** · 11-02 09:00
+  - 활용한 전력망 관리를 제시했다. LS일렉트릭은 구 회장이 2일 서울 JW 메리어트 동대문 스퀘어에서 열린... 데이터센터가 안정적으로 AI를 가동할 수 있도록 전력망을 갖추고, 여기서 발전한 AI…
+- [중국 CGN, 한국 전력망 안보 사각지대 되나](https://news.google.com/rss/articles/CBMiSkFVX3lxTE80X0NmTHk3UmVuamVNMjdHQVhhNVZvQWE5TEY5NHM4S01STjcxUTFnU0NYRlVQaFI1M0VLYm1VcGpDQXZOVWp3MUt3?oc=5) — **뉴스N연합** · 11-02 08:56
+- [AI 데이터센터보다 전력망이 먼저…英내셔널그리드, 대형 변전소 건설 ...](https://www.ziksir.com/news/articleView.html?idxno=151559) — **직썰** · 11-02 08:44
+  - 영국 전력망 기업 내셔널그리드가 대형 인공지능(AI) 데이터센터에 전력을 공급할 변전소 부지 매입 계약을... 영국 정부도 데이터센터를 철도·전력망과 같은 핵심 기반시설로 규정하고, 개발 과정에서…
 - [구자균 “직류 지능형 전력망, AI 전력 확실한 해법”](https://biz.heraldcorp.com/article/10922074?ref=naver) — **헤럴드경제** · 11-02 08:28
   - 전력망”이라고 강조했다. 구 회장은 2일 서울 JW 메리어트 동대문 스퀘어에서 열린 ‘2026 국제배전협의회(CIRED) 워크숍’에서 “막대한 전력을 소비하는 AI 데이터센터가 안정적으로 가동되려면…
 - [美 CISA "전력망·가속기 제어 SW에 원격코드실행 위험"](https://www.ddaily.co.kr/page/view/2026110207491258509) — **디지털데일리** · 11-02 08:02
   - 전력망 통신용 산업 라우터 'TRO600' 시리즈에서는 인증 없이 임의 파일을 읽을 수 있는 취약점(CVE-2026-106087)과 통신 채널 제한 미흡 취약점(CVE-2026-10756)이 발견됐…
 - [산불에 끊기는 전력망…IEA “복구보다 예방 투자 시급”](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QUHhha1VpWUMtRFF3WlFnVDhiVkFOZlV2ZDBuclhWc184V0lwaDk4N2RPb0lwNVVaZFZIUS1IYnBxbVhYUVg2dzRuaERRTmdWVGE2clI4RXRHY285RnpOdDQwWUY?oc=5) — **에너지안전신문** · 11-02 07:51
 - [육불화황(SF6) 시장 2035년 전망: 전력망 현대화와 재생에너지 연계가 성장 견인](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbkRjNUVGYVdLVjFQdnZqMWo3YWRaRUczdUplMXR3LWM4WUs1WGg4bERrLURUSWJDTHpRTFM4YkhEbTN0MWszc19vMXh1eHFHVC1hazhDQ3Y1aEJYVXhVZ3FYdTFlS2FFRjhIYkFSWmNtU1duSjZIeF9nWDZNUk14cjFvNXR2eGktM1lSRUFiMjZIVU51aGdfWnVHZjd2N1Y4ZHJRejNaVlZYUk52X1FmLWV2QWJlRDhlNGsyRVNqeTVaRmxha1VaWmo1dlU4VEc1dkc5OUVXTm9GcjJGdW40?oc=5) — **IndexBox** · 11-02 07:01
-- ['전력망 특수' 올라탄 배터리 3사, 본업 반등 속 성적표 희비](https://news.bizwatch.co.kr/article/industry/2026/10/30/0031) — **비즈워치** · 11-02 06:50
-  - 전기차 시장의 일시적 수요 둔화 속에서도 북미 지역을 중심으로 전력망용 배터리 출하를 빠르게 늘리며... 및 전력망 교체 수요를 선점해 안정적인 현금 창출원을 확보하겠다는 전략이다. 실제로 LG에너…
-- [러시아·우크라이나, 휴전 종료 앞두고 정유시설·전력망 상호 타격 : 국제](https://news.google.com/rss/articles/CBMiS0FVX3lxTFA3emE5enNXZV9rZzM2NHc1dU82QzI4NlI5TEhGUC1wbUZTbG5nRFlNNl9HcjZNdWNUaC1mdWcwVkZzX1BkVW82Zk9RTQ?oc=5) — **재경일보** · 11-02 06:01
-- [산불이 끊은 전력망, 전력망이 낸 산불... 기후위기 시대 전력 인프라의 생존법](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kdWpQZzZwVkg4eDdGc0hKbGdwTlZOb2EwX3Z3Wklqd3hsZVJXYk0zZHByaGhGejJPbTVCOVNyQ2Fid1RfaFBYR0tGVXAzaHhwakh0Qm9PS09UdkJ1UWlvN0JaLUloN205?oc=5) — **https://www.2news.co.kr/** · 11-02 05:23
-- [AI·데이터센터 전력 폭증…전력망 지킬 ‘자산 무결성 관리’ 급부상](https://news.google.com/rss/articles/CBMia0FVX3lxTE1JMnExdkJZZ2pqWDVkQU1fY28wb2NtekxRV0pzRFVnR3I2VnB1UnFBY0xLaktCZ0dzdXgybzBPQ1A3XzNMM3dUcTVfOHphazhROE43NlV1ZGZucGRKd05lTXF4Z29xSE5aNU44?oc=5) — **독립신문** · 11-01 23:54
-- [“태양광·배터리, 과부하 없이 더 유연하게” GIST, 전력망 출력 조정 여력 계산 기술 개발](https://www.webeconomy.co.kr/news/articleView.html?idxno=2354835) — **웹이코노미** · 11-01 22:20
-  - 때 전력망의 안전을 보장하고, 각 장치가 추가로 조정할 수 있는 전력량을 실시간으로 계산하는 기술을... 조정이 전력망에 미치는 영향을 함께 고려하는 역할을 한다. 연구팀은 전력망의 전압과 전력 흐…
-- ["과부하 없이 안전하게"···GIST, 전력망 제어기술 개발](http://www.hellodd.com/news/articleView.html?idxno=113692) — **헬로디디** · 11-01 18:50
-  - GIST 연구진이 분산에너지자원의 출력을 조정할 때 전력망의 안전을 보장하고, 각 장치가 추가로 조정할 수... \[사진\=광주과학기술원\]태양광 발전과 에너지저장장치(ESS)의 출력을 자유롭게 조절하면…
 
 ---
 
@@ -205,10 +223,13 @@ modified: 2026-11-02T08:42+09:00
 
 ## 냉매
 
-### 국내 · 3건
+### 국내 · 5건
 
+- [테스토코리아, 가스 탐지기 'testo 513'·냉매 탐지기 'testo 514'출시](https://www.gasnews.com/news/articleView.html?idxno=127446) — **가스신문** · 11-02 09:18
+  - testo 514를 이용해 냉매 누설을 탐지하고 있다. 측정 기술 분야의 세계 선두기업 테스토(Testo)의 한국지사... 513'과 냉매 누설 탐지기 'testo 514'를 출시했다고 2일 밝혔다…
 - [2035년 냉매 R410A 시장: 회수·재생 수요가 전환기를 뒷받침 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRmRybmQwNmhNc0VHQUFOSXJuOWR5aHpXclUyX1hVRU8xNk5kTnBlRzUzVVNmMEtIS1BVTWxreko3OXZicUcwZFFEcWhzek9DbDRBaUtJWDNGZXVLaFBUYWdIUm5CWWlDT1RwVFpXTExyTVJtMzEwcUs4aldRRFhNS0RmS3FfVC1vLURHMjZvSzVCVTFYYVFuR1JGUEdtVy0yTDVJWWZkOWpkenRJaWJjbGhGU0ZER3VsZVhpMDVJdXZ0d24wQ1V6VS1TTzlKTTZpdkNncG51aw?oc=5) — **IndexBox** · 11-01 23:06
 - [\[HARFKO 2026\] 글로벌 차세대 냉매전환 로드맵 제시](https://news.google.com/rss/articles/CBMiVkFVX3lxTE42d25HQnotRlQ3eUZqNlFxVlEzS2x3SEtOUkFHdWpfZ1E5aHd2M1JRWEdwOTMzdnFuX3h4RzVOUHk3dTVJQmF5U1R0ZzRBUlhfY1VNNXln?oc=5) — **칸(KHARN)** · 11-01 22:48
+- [냉매 R404A 시장, 레거시 장비 유지보수 수요로 2035년까지 12억 달러 전망 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMjhMVGNRVkZ5SFBodzhrZ2huaTgyLWJMck55Rk1mUWltNTBKWVNXUVVjNW1SVDRyU0hweXBZRlo4R00yVHZRdUY1MjVZQ25zcHByWGRDaVo5elFWeDZaNE5IOVhzSVBMOXZSdllXcFc5ZmI5Nk9uWTBrbUl1YkZkTGJtakNibmNZb2FoN2JEdFlBWFNqbUdqU0lYR2pDb2VKekVDSTJUUXhmWnotcm1xQy1Ha2MxenJ5MzUwenY5QjRWQTF0TF83d1pMREsyTVZUUmFNV0pR?oc=5) — **IndexBox** · 11-01 18:46
 - [냉매 R600a 시장 2035년 전망: HFC 감축이 성장 견인 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQemJKeXJxU3B5dEdPbV80M211MHpqVlhoSHFwU21rUDlub2FueC1xcUFTVXBxVjNHbjZwbTR3QTI3RGVGcS0zSlNEc1JuZmFDYUc5OXVaZjZwbmRXS1JOQ2EzRGk5S2xpRTg3cGNjZnVsZ3JjQWRnRzhvaTM2cTlNS1RwYV9IemFzeXdPalBJOW9Idk83S2hIYTZlYzVEN3dGVS10Zl9oVHNLRVdzODZzdVNlMk9ha1loSmNGR2JMa2lBcm9RVGVwTG5Kak8tRFpL?oc=5) — **IndexBox** · 11-01 05:51
 
 ### 해외 · 1건
