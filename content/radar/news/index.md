@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-02
-modified: 2026-11-02T09:31+09:00
+modified: 2026-11-02T09:59+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-02 09:31 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-02 09:59 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-02|11-02 클리핑]] — 기사 **100건** (국내 69 · 해외 31)
+> [!example] [[radar/news/2026/11-02|11-02 클리핑]] — 기사 **112건** (국내 81 · 해외 31)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -54,8 +54,12 @@ modified: 2026-11-02T09:31+09:00
 
 ## NDC
 
-### 국내 · 3건
+### 국내 · 5건
 
+- [계룡시, '2년 연속 충남도 1위'... 온실가스 감축률 약 35.7% 기록](https://www.newsworker.co.kr/news/articleView.html?idxno=511675) — **뉴스워커** · 11-02 09:56
+  - 공공부문 온실가스·에너지 목표관리제는 국가 전체의 온실가스 감축 목표를 차질 없이 완수하기 위해 중앙행정기관과 지방자치단체, 공공기관 등이 배출량 감축 목표를 설정하고 이행 성과를 철저히 관리하는…
+- [\[계룡소식\] 공공부문 온실가스 감축 도내 1위 달성 외](https://daily.hankooki.com/news/articleView.html?idxno=1420623) — **데일리한국** · 11-02 09:52
+  - 공공부문 온실가스·에너지 목표관리제는 중앙행정기관과 지자체 등이 온실가스 감축 목표를 설정하고 이행 실적을 관리하는 제도다. 시는 2023년 선포한 '2045 계룡시 탄소중립 비전'을 바탕으로 친환…
 - [\[특별 기고\] 미래세대를 지키는 기후희망, 학교 온실가스 감축 조례](https://www.goodmorningcc.com/news/articleView.html?idxno=455020) — **굿모닝충청** · 11-02 09:30
   - 완성하겠다는 목표가 담겼으면 좋겠다. 아울러 기본계획과 학교별 감축계획을 정교하게 수립하고, 온실가스 배출량과 감축실적을 체계적으로 관리하도록 하는 구체적인 실행으로 연결되어야 한다. 특히 학교마다…
 - [기후부, '히트펌프 보급사업' 도시가스 미보급지역 중심 추진](https://www.kmecnews.co.kr/news/articleView.html?idxno=52539) — **기계설비신문** · 11-02 06:06
@@ -102,13 +106,25 @@ modified: 2026-11-02T09:31+09:00
 
 ## ESS
 
-### 국내 · 15건
+### 국내 · 17건
 
 - [에스엠국일, ESS·반도체 장비 전문기업 '대진기계' 인수 양해각서](https://news.google.com/rss/articles/CBMic0FVX3lxTE5sVm83bTA3YUZWLXlkeTBlYllnWkE0UnlDREtraUFCbTFHLTM4bWhlVXNjSnpSRzZvVlU1dDE1aUppMW9YQXI2bEFPYkdmeHFzbXZTd0FRbDM4WVdDMXZqQkZXeko4WC1Ud0p6Y0JLOWtpU2c?oc=5) — **마켓인** · 11-02 08:59
   - 관련 보도 2건: [이데일리](https://www.edaily.co.kr/News/Read?newsId=02220566645641784&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article), [이투데이](https://www.etoday.co.kr/news/view/2642800)
+- [글로벌 ESS 시장 10년 새 2.6배 성장…공급망·운영 역량이 승부처](https://www.etoday.co.kr/news/view/2642745) — **이투데이** · 11-02 08:14
+  - 이투데이\=유한새 기자 \| 글로벌 에너지저장장치(ESS) 시장이 AI 데이터센터 확산과 재생에너지 보급 확대에 힘입어 향후 10년간 2.6배 성장할 것으로 전망됐다. 중국 기업들이 가격 경쟁력을 앞세…
+  - 관련 보도 1건: [뉴스1](https://www.news1.kr/finance/general-stock/6339382)
+- [삼정KPMG "ESS 전력망 제약 완충할 인프라로 주목"](https://www.mt.co.kr/stock/2026/11/02/2026110209172823241) — **머니투데이** · 11-02 09:44 · 전력망
+  - 삼정KPMG는 ESS를 전력망의 제약을 완충할 핵심 인프라로 주목했다. 전력 수요가 적거나 재생에너지 발전량이 많은 시간대에 잉여전력을 저장한 뒤 수요가 집중되는 시간대에 공급해 전력 수급의 불균형…
+  - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMidkFVX3lxTE5hazFtU0pRZXo0VXJ0cHRDUHoxWWFGaEFPRlFWQVhKNlU5dEY0dm1fUUtLTXJkc1VVWlNpMzNqRVZGTzVleDhjdUl5NVM4cG9GOVlPU0Y4c0xTVmdRQVZCOGZidFg2akcxcVBqRlY4ZkZEOWxwLWfSAXtBVV95cUxOZ210SjV4NWRCVFhQQjhzcThaNkZMdE52UUJmN2tCQmZWaDZxTXQxeVg2RGNmeXpoR2ktVlpvODJVRWN2YlJfMDBkalMwQWJWZExTQzlWMzE3LTlfTlFRWHFhbmlPNTlMVHpENm45Z1hwM3VzRnFzVDlRNHM?oc=5)
 - [LG엔솔 ESS용 'AI 에이전트' 첫 공개…배터리 3사 폭풍질문 오가](https://www.mt.co.kr/industry/2026/11/02/2026110108491583098) — **머니투데이** · 11-01 15:09
   - " 지난달 30일 서울 삼성동 코엑스B홀에서 열린 '스마트 에너지 플러스(SMART ENERGY PLUS·SEP) 2026'에서 김현태 LG에너지솔루션 ESS(에너지저장장치) 상품기획·전략담당 상무…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTE42UkhuaThxT2hqVF9vQktxenRCY3ZOTjJ1bGNTOVRwbEcyc3JqQ1M4VndGNGNuUm1fYnl6N3lGNlJ6RjZkd2doMzRadnR2MjhXVXFXaHg3ellTZVE2aVNmNGZwVmY4YmlGSkowU0pISGJwQdIBckFVX3lxTE42UkhuaThxT2hqVF9vQktxenRCY3ZOTjJ1bGNTOVRwbEcyc3JqQ1M4VndGNGNuUm1fYnl6N3lGNlJ6RjZkd2doMzRadnR2MjhXVXFXaHg3ellTZVE2aVNmNGZwVmY4YmlGSkowU0pISGJwQQ?oc=5)
+- [사람 없는 ESS 안도 CCTV 의무? 정부, 이차전지 규제 완화](https://www.nocutnews.co.kr/news/6600378?utm_source=naver&utm_medium=article&utm_campaign=20261102094809) — **노컷뉴스** · 11-02 09:49
+  - 정부가 사람이 다닐 수 없는 에너지저장장치(ESS) 컨테이너 안은 폐쇄회로(CC)TV 설치 의무에서 제외하는 등 이차전지 산업 전반의 불필요한 규제를 손질한다. 규제합리화위원회 민생분과는 국가첨단전…
+- [정부, 이차전지 산업 규제·행정부담 개선…ESS 컨테이너, 내부 CCTV 설치 의무 제외](https://www.newsis.com/view/NISX20261102_0003850422) — **뉴시스** · 11-02 09:44
+  - 정부가 이차전지 산업의 빠른 기술변화와 생산공정 특성을 반영해 에너지저장장치(ESS) 제조, 설치, 재활용 등 전 분야에 걸친 규제 합리화 방안을 추진한다. 사람이 통행할 수 없는 컨테이너형 ESS…
+- [SK온, 전기차 공장 돌려 ESS 생산…유휴설비 활용해 매출 공백 메운다](https://thetracker.co.kr/View.aspx?No=4290874) — **더트래커** · 11-02 09:40
+  - 더트래커 장진 기­자 jjin@thetracker.co.kr 더트래커 \= 장진 기자전기차 배터리 수요 둔화로 생산설비 운영에 부담을 안은 SK온이 에너지저장장치(ESS) 시장에서 새로운 매출 확보에…
 - [中이 84% 장악한 ESS 시장…승부처는 배터리 밖 '53%'](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XUWlfU05HZ29JbW9NaklHTVBUdnlqMVFQdGRHWGtuME9xTEdEQWZaM3VralFEemxJckJUY2QxUl84UU16d1ZLUnRxazZoUEFQN0ZNUUJaSUxNUQ?oc=5) — **파이낸셜뉴스** · 11-02 09:22
 - [ESS 내부 CCTV 설치 의무 제외…폐배터리 재활용 공정 변경 허용](https://www.etoday.co.kr/news/view/2642805) — **이투데이** · 11-02 09:14
   - 이투데이\=세종\=곽도흔 기자 \| 이차전지 산업 규제 개선 과제 18건 확정 정부가 사람이 다닐 수 없는 에너지저장장치(ESS) 컨테이너 내부에는 CCTV를 설치하지 않아도 되도록 제도 개선을 추진한다…
@@ -117,16 +133,6 @@ modified: 2026-11-02T09:31+09:00
 - [삼정KPMG, ‘커지는 ESS 시장, 달라지는 경쟁력의 기준’ 발간](https://news.google.com/rss/articles/CBMiaEFVX3lxTE8weXRtRmZENjg4bU1pU0JFamtodjJZcWVaSWJyYVI3ZFJlNUZyVldONTI3bDc4N09VQjR1b05wdkJxb1ZwS0h6VnNlM2pzbWRZX1JmS0NScUtRS3BrSjlJMW9uWldRWE5N?oc=5) — **CPA뉴스** · 11-02 08:48
 - [삼정KPMG “ESS 경쟁력, 가격보다 공급망·안전 인증·시스템 운영 역량이 좌우”](http://www.joseilbo.com/news/news_read.php?uid=578635&class=10&grp=) — **조세일보** · 11-02 08:24
   - 인공지능(AI) 데이터센터의 전력 수요 증가와 재생에너지 확산으로 에너지저장장치(ESS) 시장이 빠르게 성장하면서 글로벌 산업의 경쟁 구도도 변화하고 있다. 과거에는 배터리 가격과 생산원가가 주요…
-- [글로벌 ESS 시장 10년 새 2.6배 성장…공급망·운영 역량이 승부처](https://www.etoday.co.kr/news/view/2642745) — **이투데이** · 11-02 08:14
-  - 이투데이\=유한새 기자 \| 글로벌 에너지저장장치(ESS) 시장이 AI 데이터센터 확산과 재생에너지 보급 확대에 힘입어 향후 10년간 2.6배 성장할 것으로 전망됐다. 중국 기업들이 가격 경쟁력을 앞세…
-- ["호르무즈 막히고 기름값 뛰자 불티났다"… 中 태양광·ESS, '사상 최대 ...](https://www.g-enews.com/view.php?ud=2026110116192519100c8c1c064d_1) — **글로벌이코노믹** · 11-02 05:46
-  - 태양광과 에너지저장장치(BESS) 제조사들이 광저우에서 열린 중국 최대 무역 박람회 '캔톤페어(Canton Fair)... 상업용 일체형 ESS 시스템도 뜨거운 관심을 받았다. 광저우 현지 업체인…
-- ["전기차 셀만 팔아선 안 남는다"… CATL, '배터리 교환·ESS'로 활로 모색](https://www.g-enews.com/view.php?ud=2026110115551835550c8c1c064d_1) — **글로벌이코노믹** · 11-02 05:26
-  - 글로벌 전기차 배터리 점유율 1위인 중국 닝더스다이(CATL·Contemporary Amperex Technology Ltd)가 가혹한 내수 단가 인하 압박과 조세 부담 증가로 수익성 위기에 직면하…
-- [美 민주 완승땐 태양광-ESS산업 탄력… 공화 승리땐 마스가 속도 기대](https://www.donga.com/news/Economy/article/all/20261102/134946943/2) — **동아일보** · 11-02 04:33
-  - 민주당이 상하원 과반을 모두 차지하면 태양광과 풍력발전, 에너지저장장치(ESS) 등 신재생에너지 분야는 대표적인 수혜 산업이 될 것으로 꼽힌다. 민주당은 올해 3월 신재생에너지 세액공제 복원 및 송…
-- [SK온, 글로벌 인증기관 화재시험 통과… "ESS 안전성 인증"](http://www.biztribune.co.kr/news/articleView.html?idxno=361685) — **비즈트리뷴** · 11-01 22:54
-  - SK온이 지난 3월 서울 강남구 코엑스에서 열린 '인터배터리 2026'에서 선보인 컨테이너형 ESS 제품 (사진 \= SK온) SK온 에너지저장장치(ESS)가 북미 화재 안전성 시험 표준의 대형 화재…
 
 ### 해외 · 13건
 
@@ -148,14 +154,17 @@ modified: 2026-11-02T09:31+09:00
 
 ## 전력망
 
-### 국내 · 19건
+### 국내 · 24건
 
 - [구자균 LS일렉트릭 회장 "AI 전력 수요 해법은 지능형 DC 전력망"](https://www.edaily.co.kr/News/Read?newsId=02132006645641784&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-02 08:31
   - 지능형 전력망이다.” 구자균 LS일렉트릭 회장은 2일 서울 JW 메리어트 동대문 스퀘어에서 열린 ‘2026... 지능형 전력망으로 전환해야 한다는 제언이다. CIRED는 세계 배전 분야의 최신 기술…
-  - 관련 보도 5건: [www.dt.co.kr](https://www.dt.co.kr/article/12092517?ref=naver), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=560169), [이뉴스투데이](http://www.enewstoday.co.kr/news/articleView.html?idxno=2487010), [디지털데일리](https://www.ddaily.co.kr/page/view/2026110209214276694), [더트래커](https://thetracker.co.kr/View.aspx?No=4292726)
+  - 관련 보도 9건: [www.dt.co.kr](https://www.dt.co.kr/article/12092517?ref=naver), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=560169), [이뉴스투데이](http://www.enewstoday.co.kr/news/articleView.html?idxno=2487010), [디지털데일리](https://www.ddaily.co.kr/page/view/2026110209214276694), [더트래커](https://thetracker.co.kr/View.aspx?No=4292726), [브릿지경제](https://www.viva100.com/article/20261102500194), [마이데일리](https://www.mydaily.co.kr/page/view/2026110209311357792), [데일리안](https://www.dailian.co.kr/news/view/1709343/?sc=Naver), [서울경제](https://www.sedaily.com/article/20108945?ref=naver)
 - [효성중공업, 독일 지멘스와 디지털 전력망·AI 데이터센터 기술 협력](https://www.webeconomy.co.kr/news/articleView.html?idxno=2355280) — **웹이코노미** · 11-01 18:24
   - 효성중공업은 지난 10월 30일 우태희 효성중공업 대표이사, 정하중 한국지멘스 대표이사 등이 참석한 가운데 독일 지멘스와 디지털 전력 인프라 및 인공지능(AI) 데이터센터 솔루션 협력을 위한 '글로…
-  - 관련 보도 2건: [kwangju.co.kr](http://www.kwangju.co.kr/article.php?aid=1793525700804884005), [뉴스로드](http://www.newsroad.co.kr/news/articleView.html?idxno=66856)
+  - 관련 보도 3건: [kwangju.co.kr](http://www.kwangju.co.kr/article.php?aid=1793525700804884005), [뉴스로드](http://www.newsroad.co.kr/news/articleView.html?idxno=66856), [일간투데이](https://news.google.com/rss/articles/CBMia0FVX3lxTE9MRzI0ZXVhcEt0cF9sYnV0SDA0WDVQVFJFRC0yazU5T0FOR2NOeTNxbXlRLVNYcG5qSUtDaWVpYTdEaC1xZkhNRjI3VEVDdHhmWFVWdWpPTHFWN19MMzJZWWlsMlp2czh3TklJ?oc=5)
+- [전력망 손실 0% 도전 초전도체주… 아모텍 고려제강 LS ELECTRIC 러브콜 봇물](https://www.pinpointnews.co.kr/news/articleView.html?idxno=500455) — **핀포인트뉴스** · 11-02 09:50
+  - 특정 온도 이하에서 전기저항이 사라지는 초전도체 관련 종목군이 2일 초고압 전력망 확충 기대감과 기술... 전력 설비 대장주인 LS ELECTRIC 역시 글로벌 전력망 인프라 확충 수혜와 초전도 전…
+- [【데일리 ESG 정책 브리핑】협력사 기술탈취 4.2억원 과징금·한독 전력망 협력](https://news.google.com/rss/articles/CBMiakFVX3lxTE1kX3A0Y09BazBhVG9zV0lsYnRMLVl6VHVndWNIVGxDN2FOSWJ2MVZGRmNCdnl5cDZUWWRMdmFvb2xnR0kxcHpxc3haYVlYZENpMlI1NnQtdklLRW9zdUlORjRUcDl5WUFqWnc?oc=5) — **임팩트온** · 11-02 09:42
 - [구자균 LS일렉트릭 회장, "AI와 DC로 전력망 패러다임 바꾼다"](http://www.newslock.co.kr/news/articleView.html?idxno=139052) — **뉴스락** · 11-02 09:26
   - DC 전력망 비전을 발표했다고 밝혔다. CIRED 워크숍은 세계 전력 산업의 미래 표준과 기술 발전 방향을... 구 회장은 이날 연설에서 AI 데이터센터 확산에 따른 전력 수요 증가와 전력망의 역할…
 - [구자균 LS일렉 회장 "직류 기반 지능형 전력망, AI 전력 수요 확실히 감당할 것"](https://www.fnnews.com/news/202611020914276233) — **파이낸셜뉴스** · 11-02 09:20
@@ -171,8 +180,6 @@ modified: 2026-11-02T09:31+09:00
   - 전력망”이라고 강조했다. 구 회장은 2일 서울 JW 메리어트 동대문 스퀘어에서 열린 ‘2026 국제배전협의회(CIRED) 워크숍’에서 “막대한 전력을 소비하는 AI 데이터센터가 안정적으로 가동되려면…
 - [美 CISA "전력망·가속기 제어 SW에 원격코드실행 위험"](https://www.ddaily.co.kr/page/view/2026110207491258509) — **디지털데일리** · 11-02 08:02
   - 전력망 통신용 산업 라우터 'TRO600' 시리즈에서는 인증 없이 임의 파일을 읽을 수 있는 취약점(CVE-2026-106087)과 통신 채널 제한 미흡 취약점(CVE-2026-10756)이 발견됐…
-- [산불에 끊기는 전력망…IEA “복구보다 예방 투자 시급”](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QUHhha1VpWUMtRFF3WlFnVDhiVkFOZlV2ZDBuclhWc184V0lwaDk4N2RPb0lwNVVaZFZIUS1IYnBxbVhYUVg2dzRuaERRTmdWVGE2clI4RXRHY285RnpOdDQwWUY?oc=5) — **에너지안전신문** · 11-02 07:51
-- [육불화황(SF6) 시장 2035년 전망: 전력망 현대화와 재생에너지 연계가 성장 견인](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbkRjNUVGYVdLVjFQdnZqMWo3YWRaRUczdUplMXR3LWM4WUs1WGg4bERrLURUSWJDTHpRTFM4YkhEbTN0MWszc19vMXh1eHFHVC1hazhDQ3Y1aEJYVXhVZ3FYdTFlS2FFRjhIYkFSWmNtU1duSjZIeF9nWDZNUk14cjFvNXR2eGktM1lSRUFiMjZIVU51aGdfWnVHZjd2N1Y4ZHJRejNaVlZYUk52X1FmLWV2QWJlRDhlNGsyRVNqeTVaRmxha1VaWmo1dlU4VEc1dkc5OUVXTm9GcjJGdW40?oc=5) — **IndexBox** · 11-02 07:01
 
 ---
 
@@ -196,8 +203,9 @@ modified: 2026-11-02T09:31+09:00
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 4건
+### 국내 · 5건
 
+- [인천시 에너지전환과 시민참여 방안](https://news.google.com/rss/articles/CBMiakFVX3lxTE0zU2VPUDJoa0F3bEdlcXRMaFE0ZDE5X3NRMm9Qd0lFUm1HZWw5YUhrdl9GRG5sbmV1NVRWSXJWaC1HV3lDcWJIek1yMTBHTDNQaDVnZElBTWFlUTV0QTI2RTVEclhwdUtkMmc?oc=5) — **경기도민일보 미디어** · 11-02 09:21
 - ["에너지 대전환이 온다".. 전북엔 기회인가, 위기인가](http://www.jmbc.co.kr/news/view/69337) — **jmbc.co.kr** · 11-01 19:54
   - 지금까지 샌프란시스코에서 MBC 뉴스 조수영입니다. 영상취재: 서정희 화면제공: 방송기자연합회 공동취재단 취재지원: 방송기자연합회, 에너지전환포럼 그래픽: 문현철
 - [\[ESG시프트\] 친환경 기술에서 에너지 전환까지···현대건설, 지속가능성 확대](http://www.enewstoday.co.kr/news/articleView.html?idxno=2486906) — **이뉴스투데이** · 11-01 15:37
@@ -223,8 +231,11 @@ modified: 2026-11-02T09:31+09:00
 
 ## 냉매
 
-### 국내 · 5건
+### 국내 · 7건
 
+- [테스토코리아, 가스-냉매 누설 탐지기 2종 선보여](http://www.ikld.kr/news/articleView.html?idxno=343309) — **국토일보** · 11-02 09:32
+  - 513'과 냉매 누설 탐지기 'testo 514'를 출시했다. 회사측은 "이번 신제품은 현장 작업자가 누설 여부를... 누설까지 상황에 맞춰 탐지할 수 있도록 두 단계의 감도 지원이 가능하다. 냉매…
+  - 관련 보도 1건: [뉴스와이어](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UMHlqYjhvLXlCSEROb0VsZnhKSTN6LXVLajllUmJpeVRxZzZBOFhpak1pYm5SN29POHFieFFsWUM4SGw3dzVCWnEyNHVpVVNsREJmUlJQcXZDcEhvV1dN?oc=5)
 - [테스토코리아, 가스 탐지기 'testo 513'·냉매 탐지기 'testo 514'출시](https://www.gasnews.com/news/articleView.html?idxno=127446) — **가스신문** · 11-02 09:18
   - testo 514를 이용해 냉매 누설을 탐지하고 있다. 측정 기술 분야의 세계 선두기업 테스토(Testo)의 한국지사... 513'과 냉매 누설 탐지기 'testo 514'를 출시했다고 2일 밝혔다…
 - [2035년 냉매 R410A 시장: 회수·재생 수요가 전환기를 뒷받침 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRmRybmQwNmhNc0VHQUFOSXJuOWR5aHpXclUyX1hVRU8xNk5kTnBlRzUzVVNmMEtIS1BVTWxreko3OXZicUcwZFFEcWhzek9DbDRBaUtJWDNGZXVLaFBUYWdIUm5CWWlDT1RwVFpXTExyTVJtMzEwcUs4aldRRFhNS0RmS3FfVC1vLURHMjZvSzVCVTFYYVFuR1JGUEdtVy0yTDVJWWZkOWpkenRJaWJjbGhGU0ZER3VsZVhpMDVJdXZ0d24wQ1V6VS1TTzlKTTZpdkNncG51aw?oc=5) — **IndexBox** · 11-01 23:06
