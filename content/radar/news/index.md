@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-06
-modified: 2026-11-06T10:28+09:00
+modified: 2026-11-06T10:45+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-06 10:28 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-06 10:45 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-06|11-06 클리핑]] — 기사 **227건** (국내 155 · 해외 72)
+> [!example] [[radar/news/2026/11-06|11-06 클리핑]] — 기사 **235건** (국내 161 · 해외 74)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -23,12 +23,14 @@ modified: 2026-11-06T10:28+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [가나 온실가스 감축사업, 미리 준비 필요](http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=180&CONTENTS_NO=1&bbsGbn=243&bbsSn=243&pNttSn=244920) — **dream.kotra.or.kr** · 11-06 10:33 · 국제감축 / Article 6 · NDC · 자발적 탄소시장 / VCM
+  - 가나 탄소시장 주요 동향 1. 국제 탄소시장 참여 확대 및 제도 정비 추진 가나는 파리협정 제6조에 근거한 국제 탄소시장 참여를 확대하며, 온실가스 감축사업의 개발·승인·배출권 이전 체계를 구축 중…
 - [국내 기업 온실가스 국제감축 사업화 지원 강화](http://www.e2news.com/news/articleView.html?idxno=335837) — **이투뉴스** · 11-05 16:56 · 국제감축 / Article 6
   - 이날 행사는 파리협정 6조에 기반한 국제 탄소시장 이행이 본격화됨에 따라 국내 기업의 국제감축사업 추진 역량을 높이고 사업자와 기술 보유기업, 투자·금융기관 등 이해관계자 간 실질적인 협력기회를 확…
 
-### 해외 · 6건
+### 해외 · 7건
 
 - [European industry calls for changes to carbon reform to avoid more factory closures](https://news.google.com/rss/articles/CBMisgFBVV95cUxNY3V6MnRmV1NkN3VFWmc2bGhROGVSNVM4ZFBqWTVhZzJ1QVY2YXhYM2NNeVBEU2ZaSl93VE9sM1M1RzhGU0RsQ0lyMVZObU5EZFd4WEJTT2g4eTRDNHZpRGhwTEw3WEdseXVmZ1NidDU2S2VjT0xMRXJQTVQ5MFR3MnpJOWkyNDlwOERLVDhUVmRBa2hTMkVQM1ZRSldERG41ZTFhQWRUaV9ldHRLTHpPTHJR?oc=5) — **101 WIXX** · 11-06 03:27
 - [Free allowances face looser conditions under EU carbon-market reform draft](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WelM1Y1F6MTlseEZHQTFwS1E1U29pYW9CZUNRamRqSDg3d194Q3o5ZkZIcU5tQWluMFh6U2NjMmk1c0R5a1Z6TjFDVlZPN3dqWV9MaUZyUFFJUdIBWkFVX3lxTE9WelM1Y1F6MTlseEZHQTFwS1E1U29pYW9CZUNRamRqSDg3d194Q3o5ZkZIcU5tQWluMFh6U2NjMmk1c0R5a1Z6TjFDVlZPN3dqWV9MaUZyUFFJUQ?oc=5) — **MLex** · 11-06 02:16
@@ -36,6 +38,7 @@ modified: 2026-11-06T10:28+09:00
 - [UK and EU Close to Deals on Food Trade, Carbon Markets and Youth Visas Before 20 November Summit](https://news.google.com/rss/articles/CBMisgFBVV95cUxQX0hWSVl2YVRGYUZ5RlUweDdKMnhDRzFyMHZYM1A3MklWdlIwZm1YSjNhdlVpVncyN3BqdTBSRGdoTGNWSmUtaU9DYVA5WHFNbVNybkNFcmdVTExQTmNYQkM1OF9GUXRtUlREb2t5WEl5eWNfVDZaV2lUWVR6ZjlBTFUzclQ2Ykh0R1ZFb281UmFKMTNudUtpM3VWODNUWXRxZmRSNmVyelJzUm4wZlEwQVl3?oc=5) — **upday News** · 11-05 21:16
 - [Global Water Centre launches carbon credit program to fund sustainable rural water systems](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQzdsX0tvMXpQWXR5Uko1Tl9KdTRNZ3Rqa2dVTG4zWUJJUEtlMHRtVV8tRkFDUWVEejExbEYtUG9uQ2d5d0gyTkVfdlZrT29ySTRnUElBTXkxRjk4QlRPekpjcFRHb0hFTFl3NTV6V2ZuLVVNSW1Gd0ZwSnZwckhYdkNDVXg4SUJRWGNaUl96NGFsSkRZRUU4ZWFMMnZ6eWF2YWpSV0dTdnNDbXNueUVySkVQOXZINUtFR1dYVnBIVE5nN2Fmb1lSYW9wcU04ZHVidHlV?oc=5) — **NuFFooDS Spectrum** · 11-05 21:02
 - [How Nigeria can turn carbon markets into a new source of climate investment – Moukaila](https://news.google.com/rss/articles/CBMivgFBVV95cUxPSVpTc2Z1NmxycW9ZRVhhWE01ZHhmODRfRlg0OFFpWll2aENPQTlYaUVHZGhYczBPbktSZDRaNkJvczE3RkdwMjFVTFZnQUtnczBaeTRtRGpldVFvN184WDhVVExGRk5JdkxGa2VjZmxNLXdVV0wzc3hhdTRDanExLW9vRW9Jd0JBUlNCQ19LTXV1UVRmbDFkdEYzZE1pS3hiRXRvQXUtMk80RWJ4am1lM1pfT1FabXNzeTdaR0FR?oc=5) — **Business News Nigeria** · 11-05 13:53 · 국제감축 / Article 6
+- [Arkab Sets Out Algeria’s Carbon Roadmap, Targeting 14% Emissions Cut by 2035](https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXJ1SHh5QWpXMTlWUE9HVWlVTWQ3OXZlTkE2aTIzUV9UR0hadWQ1Y0o2dWVrOUNIWHFVb01ZRUdOVFZWRlp6LXBkQ1NUbjFPbHlHblNzMGRaTmlQcjVVeXVtLWxtV0lJS2R2LWtvMEpFa2Q4OS1WMUdXUThxdmY0ZHFoMlE0OXdXVEplUFFuZzNnek1od1I0bUp0eFhabXRiRGFTakt3?oc=5) — **دزاير تيوب** · 11-04 17:39
 
 ---
 
@@ -95,6 +98,8 @@ modified: 2026-11-06T10:28+09:00
 - [SK증권, UNGC '2027 LEAD 기업' 선정…기후금융 성과 인정](https://www.kpinews.kr/newsView/1065591935482545) — **KPI뉴스** · 11-05 15:51
   - SK증권은 과학기반 감축목표 이니셔티브(SBTi)에서도 온실가스 감축목표를 승인받았다. 기후 대응 외에 인권과 준법경영 관련 관리 범위도 넓혔다. 자회사까지 인권관리 체계를 확대했으며, 부패방지경영…
   - 관련 보도 3건: [메가경제](https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065597019432947), [cnbizm.com](https://www.cnbizm.com/news/articleView.html?idxno=320495), [메트로신문](http://www.metroseoul.co.kr/article/20261105500527)
+- [기후·AI 시대 금융의 역할은···우리금융, MSCI와 해법 모색](https://www.womaneconomy.co.kr/news/articleView.html?idxno=260773) — **여성경제신문** · 11-06 10:42 · AI 온실가스
+  - 한국형 녹색분류체계는 온실가스 감축과 기후변화 적응 등 환경목표 달성에 기여하는 경제활동을 구분하는 기준이다. 금융회사는 이를 활용해 녹색금융 지원 대상에 해당하는 사업인지 판단할 수 있다....
 - [임종룡 우리금융 회장, MSCI 회장 만나 기후변화·AI 시대 금융 역할 논...](http://www.econonews.co.kr/news/articleView.html?idxno=446806) — **이코노뉴스** · 11-06 09:50 · AI 온실가스
   - 2030년까지 ESG금융 100조원 공급을 목표로 하고 있으며, 지난해 말 기준 누적 공급 실적은 67조원이다. 이는... 금융지원이 실제 온실가스 배출량 감축과 기업의 사업구조 개선으로 이어지는지…
 - [철도 건설부터 시설관리까지…철도공단, 탄소 감축에 국제기준 적용](https://www.newspim.com/news/view/20261106000249) — **뉴스핌** · 11-06 09:43
@@ -115,13 +120,12 @@ modified: 2026-11-06T10:28+09:00
   - 또한, 국내 증권사 최초로 기후변화 관련 재무정보공개 협의체(TCFD) 보고서와 국제회계기준(IFRS) S2 기반 기후공시 보고서를 발간했으며, 과학기반 감축목표 이니셔티브(SBTi)의 온실가스 감…
 - [수송부문 탄소 감축 성적표 '꼴찌' 서울, 자전거 정책은 뒷전](https://www.newspenguin.com/news/articleView.html?idxno=22395) — **뉴스펭귄** · 11-05 17:00
   - 서울의 수송 부문 온실가스 감축이 목표에 크게 못 미치는 가운데, 시민들이 자전거와 도보로 가까운 거리를 이동하도록 유도하는 정책도 부족하다는 주장이 나왔다. 공공자전거 이용 기록을 분석해 생활권별…
-- [SK증권, UNGC 한국협회 '2027년 리드 기업' 선정...기후금융·인권·준법...](https://www.updownnews.co.kr/news/articleView.html?idxno=319458) — **updownnews.co.kr** · 11-05 16:34
-  - 금융사업과 함께 기후정보를 공개하고 온실가스 감축목표를 관리하는 체계도 마련했다. 국내 증권사 최초로 TCFD 보고서와 IFRS S2 기반 기후공시 보고서를 발간했으며, 과학기반 감축목표 이니셔티브…
 
-### 해외 · 11건
+### 해외 · 12건
 
 - [ESNZ Committee sets deadlines for Government action on the effects of climate change](https://news.google.com/rss/articles/CBMikAJBVV95cUxNMGM0RDFuWHRTS2xmNnVWUUdPRlNGS242bWVBRUlUQml3aVJVbnF0dmplbnpxVlBhWWhqTnF1THRwLWZiU2ZPTmZIazBidmgyLXlVQXFRbjhGa2RZTG1HaXd2WUZyNzBCQzJPbHZHQzAzb2pYaVRvblVESU9yVXVKNW9oYzM5dVNrM3hDU2JROTVldmNzYUIzTlRnVGVKS01vTzFsQjR1Y0RJcE1JalNpTVIwaTlNSVp6SFBRMlEwN25XMXJOVTc0MFhGTE9oNno2aHg5QkdqR09hMUVjU0g2d0dHbDZvUWdja2ZXS09RaUVkX3Y4N2JVbGlDYmF2TW9hLUFHcTNEcVBuVENpQlExbg?oc=5) — **UK Parliament** · 11-06 09:19
 - [ActionAid calls for youth-led climate action, accountability](https://news.google.com/rss/articles/CBMirAFBVV95cUxOajlaZnkwVTNrbmNKRnA3em5YWThkamJjZmZsTG0zZC1YTXBFcEcxaGN4NmZnb1BnWGcyRTBhSFBpMEpiay1mSG8yWVVFdzJmMGVTQnY3WTEyMEpxeWQ0Q0ZOVlI0WUtlNkhpUEdNaWs2OVo4QWNaTHFOZ0NJMWJoNWFGV1N4cmpCNlIzWGVRaVVKUjZidm95UGtIRzRVNnlYcmJCZU1KSmlEYWZC?oc=5) — **Galaxy Television** · 11-06 08:04
+- [NDC accuses APC of Pressuring Abuja Hotels to Deny Opposition Venues](https://news.google.com/rss/articles/CBMinwFBVV95cUxPaFViUkRvZU9GMXZ6OWJMSlpoR3A3U0o5OEgtbkVGbjI2cFE4S0J5R2ZpaG02VThqYkpzYV8xM193dXRJdVNoWW8zSERZTTBodU1zaGg0TktLUW5CNWdLdlVuLUZrN0xKOFo1WTFRSGlGWXZpUF9iUWY3dkFXS093T09yNEJHWm1TUGRyRklUM25na29seWtwQnpxa0YwVUU?oc=5) — **The Guardian Nigeria News** · 11-06 04:32
 - [Accelerating NDC 3.0 Implementation in SIDS: Turning Ambition into Action through Effective Partnerships](https://news.google.com/rss/articles/CBMitAFBVV95cUxPVkpaTmNpNVdzU0ZLSmFzdWs0dFJqQlVDRTFKdlJxN2tfZ2xBWW1iVU9jbklQSHVaTy1FdGw2VHB5REc5Z3NBZjE3YkJ6QzNoOU9GV3lEYnpNNFpqaC1LUjhXNWZaOWxqQ3kzWkF4NkRNd0g4blVsMTkyN0hJUmVyOWNlSl82WHg5em1tcVNHcENEMjMwYmFiRHJNbXlvWEJEdWl5U2xIRk0zczExOGhUbWZqSTQ?oc=5) — **Welcome to the United Nations** · 11-06 02:27
 - [Alupo Warns Climate Change Threatens Uganda’s Economic Growth](https://news.google.com/rss/articles/CBMiqAFBVV95cUxORDlVYk5tS24zX0JhRDRnczM2X3cydy12ZnhYMmF4RW1TQXViN19ZclJpNURoam5SSWwwa0QwSjl3RUxOZnR4amtnZTZWd0VDTUZKRVlqU3pqSjhtVUM3RlFoRnFjZnRaVTU1Q2lCY2t2cm1aRzVnZk54X2FjNUwzRHYzMnhaaFlLajRYbGpRc1QzQzJKaTZieE5zWHZXbzJwMVNLWlRMMkLSAbABQVVfeXFMUEZOWE5Pa2hzZ2l3aGd1UXhkcmlkT3hKVS1BOFVBbXZCc0NQbUwzMXpyT2FEcTlJdlpQZ21TU2lHMkcxTUtXYzcwbmxlTkNTYjJZaDRqcVJMcG53R1ZzMExjVEUxeGxDX1B6T0hHLVljN3AteWxVbjdjaXhJZXJJRGFNZVZGZkp0M1VMS2l5Y1ZqVjVoX1NGWi05OTF5T0k4dlJfQzdKOGxLaUc0TWxGVkQ?oc=5) — **Nilepost** · 11-06 02:08
 - [ActionAid Demands Youth Inclusion In NDC 3.0 Implementation](https://news.google.com/rss/articles/CBMingFBVV95cUxQWmFaX2dkdW9CRjV5SXJReUJnYkFtaVBBREJaTE5YSEpqaUR4NUZhQ2h1REZSQkx3TlRfSXhNaFF5NGJpTUNMaC1ZUUJGeEJGSDNrcEljU3NPaTQ1dFFVRDZmeXJaSDdvUE9SZVhGVVFhUXZvWTFTUkhobDB6dklFZ0F3Q0lYVTdHQ05vZl9MMkp1V29fNGFUSTg5SG9HQQ?oc=5) — **Per Second News** · 11-06 01:12
@@ -182,6 +186,12 @@ modified: 2026-11-06T10:28+09:00
 - [가스공사·한전KDN, AI·디지털 혁신 협력 본격화…에너지산업 AX 전환 가...](https://www.energydaily.co.kr/news/articleView.html?idxno=204805) — **에너지데일리** · 11-05 17:54
   - 한국가스공사와 한전KDN이 인공지능(AI)과 디지털 기술을 활용한 에너지산업 혁신에 공동으로 나선다.... 이를 통해 에너지 절감과 온실가스 배출 저감을 지원하는 한편 운영비용 절감에도 기여할 수…
   - 관련 보도 1건: [부산일보](https://news.google.com/rss/articles/CBMidEFVX3lxTE84VDg1VnJwUURUMktNSVZMcU9JLXpkdlc5NEFyZFpTQy1maWItbUVRaFdRT0dNV2hhNF81eW9heHRTR0NFYUhRazcyVkd2Ukl4OThzazB4YlVocXNWMW1WbnNGNHU4NnFRZE1ybnI5dDZ4QnlB?oc=5)
+- [NTT데이터, AI 데이터센터에 연료전지 900MW 도입…전력망 의존 줄인다](https://www.impacton.net/news/articleView.html?idxno=30563) — **임팩트온** · 11-06 10:44 · 전력망
+  - 외부 전력망에만 의존하지 않고 데이터센터 현장에서 전력을 생산해 인공지능(AI) 인프라 증설에 필요한... 따라 온실가스 감축 효과를 얻을 수 있다. 다만 수소 생산 과정의 배출량과 바이오가스의 원…
+- [구글, 와이오밍에 24조 원대 AI 거점 조성…전력·탄소저감 결합한 대형...](https://www.jemin.com/news/articleView.html?idxno=846331) — **제민일보** · 11-06 10:44
+  - 회사는 이러한 조합을 통해 AI 데이터센터에 필요한 전력을 안정적으로 확보하면서 발전 과정에서 배출되는 탄소를 줄이겠다는 목표를 제시했다. 물 사용량을 줄이기 위한 설계도 포함됐다. 구글은 와이오밍…
+- [美 'AI 규제 공포' 덮쳐 코스피 '추풍낙엽'…희망은 없는 것일까?](http://www.nongaek.com/news/articleView.html?idxno=97378) — **논객닷컴** · 11-06 10:44
+  - 주요 데이터센터 입지 지역을 중심으로 전력 소비 제한, 탄소 배출 규제, 전력망 확충 비용 분담 의무화 등이 추진되면서 빅테크 기업들의 인프라 투자 속도 조절이 불가피해졌다는 분석이다. 글로벌 빅테…
 - [\[AI 고속도로\] "규제 강화에도 투자 강행"…구글, 美 데이터센터에 170억 달러 베팅](https://zdnet.co.kr/view/?no=20261106083443) — **지디넷코리아** · 11-06 10:10
   - 미국 중간선거 이후 데이터센터 건설 규제를 강화하려는 움직임이 확산하는 가운데 대규모 전력 확보와 탄소 배출 저감 기술을 앞세워 인공지능(AI) 인프라 확충에 속도를 내는 모습이다. 5일(현지시간)…
 - [민주당 AI 규제에 금·구리 갈렸다…금 온스당 4100달러 돌파](https://news.google.com/rss/articles/CBMicEFVX3lxTE5LdDl2dlc5TVQ1UlZNR2djeTVneEFKZWc4UEw1SHhmOFJGbmpQdkFKLVROYmhhaXRjNUVBVndLcXBIZzItUFFCVThwNVMtUTZIUGg1S3dNNFZpbHl2VlBTM1BJRWJBSGVJc1FjOU5Yci0?oc=5) — **리드경제** · 11-06 10:03
@@ -196,12 +206,6 @@ modified: 2026-11-06T10:28+09:00
   - 아울러 운영용 전산 자원 활용 방안을 검토하며 보안·운영 체계 노하우를 공유하고 국가 온실가스 감축 목표 달성을 위한 친환경 협력도 본격화한다. 한전KDN 관계자는 "전력 계통 운영을 통해 축적한…
 - [\[김영수의 시선\]AI 패권 경쟁 시대, 원전을 허하라](https://www.edaily.co.kr/News/Read?newsId=01630166645643096&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-06 05:02
   - 글로벌 인공지능(AI) 수요가 폭증하면서 반도체 공장과 AI 데이터센터는 물론 전기차가 전력 소비를... 국가 온실가스 감축목표(NDC) 달성 등 에너지정책 방향에 중요한 기폭제가 될 전망이다. 원…
-- [“SMR 선박·AI 자율운항선박 상용·그린에너지 전환 필수” \[제20회 세계...](https://www.busan.com/view/busan/view.php?code=2026110518202220586) — **부산일보** · 11-05 18:23 · 에너지 전환 / energy transition
-  - 탱크 수를 4개에서 3개로 줄여 탄소배출을 낮춘 LNG운반선, 올해 초 인도돼 북해에서 운항 중인 세계 최대 탄소포집저장 운반선, 부유식 데이터센터, 자체 개발한 진공 시스템을 적용해 액화수소 대형…
-- [美'블루 쓰나미' 덮친 AI규제 공포…코스피·코스닥 매도 사이드카 '급락...](https://www.ikbc.co.kr/article/view/kbc202611050050) — **KBC광주방송** · 11-05 14:59
-  - AI 데이터센터 규제 강화 정책이 본격화될 수 있다는 우려가 직접적인 도화선이 됐습니다. 의회 권력을 장악한 미 민주당이 탄소 배출 규제와 전력망 부담 완화를 명분으로 빅테크의 인프라 투자를 조일…
-- [\[통일로에서\] 트럼프 참패에 데이터센터도 한몫… 기로에 선 한국](https://www.straightnews.co.kr/news/articleView.html?idxno=314705) — **스트레이트뉴스** · 11-05 14:14
-  - 플랫폼 독점 해체와 공정 경쟁 복원을 주장해 온 반독점 법학자·정책가, 알파벳노조(AWU)처럼 빅테크 내부에서 노동권을 다퉈 온 노동계, 그리고 데이터센터의 전력·수자원 고갈과 탄소 배출을 문제 삼…
 
 ---
 
@@ -257,11 +261,11 @@ modified: 2026-11-06T10:28+09:00
 
 ## 전력망
 
-### 국내 · 29건
+### 국내 · 33건
 
 - [가온전선, 새만금 수상태양광 전력망 수주…재생에너지 영토 확장](https://www.sentv.co.kr/article/view/sentv202611060048) — **서울경제TV** · 11-06 09:42
   - 가온전선이 수상태양광과 해상풍력 등 재생에너지 전력망 시장 공략에 속도를 낸다. 가온전선은 BS한양과... 이번 계약으로 가온전선은 앞서 수주한 발전단지 내부 배전 케이블에 이어 전력을 외부 전력망…
-  - 관련 보도 14건: [아시아투데이](https://news.google.com/rss/articles/CBMibkFVX3lxTE9TMkJWbi1ZekpSdFVCWVF6OWEyYk1Gay1BekEyamRsZEttUWtJdWRUU0g1NllCZzB2RlliNVdnSlhGSV96c2k2TDFOTmNqWmVPTFRjT1I4NFNEdlU5TFBQcFl6cjItZDdPc1p6dWtB?oc=5), [인포스탁데일리](https://news.google.com/rss/articles/CBMidkFVX3lxTFBhbUF5OHZqaHZRaG9xSHNaeFNmVG15VFhQTnM0dkJmRmJnQ0dhcW85elBCU2pwY0U2aXBmd04tdWhiajUxVzF2djJsQk9heUZBWk1fU3Eta0k5SjhGdEloZzE1dHM5T1JYLWZGaHZmWjFRRWpBdGc?oc=5), [이투데이](https://www.etoday.co.kr/news/view/2644955), [나눔경제뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTE9iZkdtNU1vRW45SHhNTEJPeFczbkJMbTBNZEpKQlh1UUNIZ1pUOVczVUl0X18tWVpGV1UybDJpel85Rm5jQXZKM3RoTzMwUDBjcUFZc3Vma25fQ0NOSEM5T2VtaURnWXJ6ZFdwNQ?oc=5), [데일리안](https://www.dailian.co.kr/news/view/1711645/?sc=Naver), [뉴스웰](https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNEZ6U1BySFltVE1wek1NTVE5NzJ2RFdObmJ0VWd6cXB5N21oWG84OWNHbm5mU1pHWWJwdkhsVzJ1YmwzYTdTYkFyc0Zqby1ZX2w4OGlVUnRVbWZUdElnOUtVTmZZenNYTFhWYw?oc=5), [뉴스핌](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9RUGphRVVBRThjZUZ6dXlqMjVqTGdvazZTR1pwLTliT2NlUWwyc2toZjJLc2ZTRzROcXJlRldBMEtXZTBUSFkxYnNRR3ZRcUJkazdKamdTU0lBNUk3?oc=5), [핀포인트뉴스](https://www.pinpointnews.co.kr/news/articleView.html?idxno=501840), [뉴스1](https://www.news1.kr/industry/general-industry/6345261), [머니투데이](https://www.mt.co.kr/industry/2026/11/06/2026110609565015353), [머니투데이](https://news.google.com/rss/articles/CBMiekFVX3lxTE9pT09MUmdIaFg5b0RPN2lEMkFnU09CMzV0VlMwUXBoNmpkaVNja2t6eHNWVl9qUFY5dVkydXpJQXdQMVFuNGJQeXEzZE1yOGkxQXZDRnJYWUpxRjZfS0NFUlNEWmI0WVJmVzJJWmpJa1pkdnBaTmdsZGhn0gF_QVVfeXFMUGxFTTYwdUloNVBCTU50eksyMEZCUzAtUGpzNnpiTndSMElLMUIwcDFrSmNTWm50eE83bFRnbXNweUVJbTNMRHRjVW4teEc1dTJFSkhvZnlWZ2NNclJtT1RaN3lNVHI2OUYwZzgzd3JvTllDSnZvbG1FenVJLWtoRQ?oc=5), [이데일리](https://www.edaily.co.kr/News/Read?newsId=04031126645643096&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article), [소셜밸류](https://www.socialvalue.kr/news/view/1065574971386897), [아시아경제](https://view.asiae.co.kr/article/2026110610253860426)
+  - 관련 보도 18건: [아시아투데이](https://news.google.com/rss/articles/CBMibkFVX3lxTE9TMkJWbi1ZekpSdFVCWVF6OWEyYk1Gay1BekEyamRsZEttUWtJdWRUU0g1NllCZzB2RlliNVdnSlhGSV96c2k2TDFOTmNqWmVPTFRjT1I4NFNEdlU5TFBQcFl6cjItZDdPc1p6dWtB?oc=5), [인포스탁데일리](https://news.google.com/rss/articles/CBMidkFVX3lxTFBhbUF5OHZqaHZRaG9xSHNaeFNmVG15VFhQTnM0dkJmRmJnQ0dhcW85elBCU2pwY0U2aXBmd04tdWhiajUxVzF2djJsQk9heUZBWk1fU3Eta0k5SjhGdEloZzE1dHM5T1JYLWZGaHZmWjFRRWpBdGc?oc=5), [이투데이](https://www.etoday.co.kr/news/view/2644955), [나눔경제뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTE9iZkdtNU1vRW45SHhNTEJPeFczbkJMbTBNZEpKQlh1UUNIZ1pUOVczVUl0X18tWVpGV1UybDJpel85Rm5jQXZKM3RoTzMwUDBjcUFZc3Vma25fQ0NOSEM5T2VtaURnWXJ6ZFdwNQ?oc=5), [데일리안](https://www.dailian.co.kr/news/view/1711645/?sc=Naver), [뉴스웰](https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNEZ6U1BySFltVE1wek1NTVE5NzJ2RFdObmJ0VWd6cXB5N21oWG84OWNHbm5mU1pHWWJwdkhsVzJ1YmwzYTdTYkFyc0Zqby1ZX2w4OGlVUnRVbWZUdElnOUtVTmZZenNYTFhWYw?oc=5), [뉴스핌](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9RUGphRVVBRThjZUZ6dXlqMjVqTGdvazZTR1pwLTliT2NlUWwyc2toZjJLc2ZTRzROcXJlRldBMEtXZTBUSFkxYnNRR3ZRcUJkazdKamdTU0lBNUk3?oc=5), [핀포인트뉴스](https://www.pinpointnews.co.kr/news/articleView.html?idxno=501840), [뉴스1](https://www.news1.kr/industry/general-industry/6345261), [머니투데이](https://www.mt.co.kr/industry/2026/11/06/2026110609565015353), [머니투데이](https://news.google.com/rss/articles/CBMiekFVX3lxTE9pT09MUmdIaFg5b0RPN2lEMkFnU09CMzV0VlMwUXBoNmpkaVNja2t6eHNWVl9qUFY5dVkydXpJQXdQMVFuNGJQeXEzZE1yOGkxQXZDRnJYWUpxRjZfS0NFUlNEWmI0WVJmVzJJWmpJa1pkdnBaTmdsZGhn0gF_QVVfeXFMUGxFTTYwdUloNVBCTU50eksyMEZCUzAtUGpzNnpiTndSMElLMUIwcDFrSmNTWm50eE83bFRnbXNweUVJbTNMRHRjVW4teEc1dTJFSkhvZnlWZ2NNclJtT1RaN3lNVHI2OUYwZzgzd3JvTllDSnZvbG1FenVJLWtoRQ?oc=5), [이데일리](https://www.edaily.co.kr/News/Read?newsId=04031126645643096&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article), [소셜밸류](https://www.socialvalue.kr/news/view/1065574971386897), [아시아경제](https://view.asiae.co.kr/article/2026110610253860426), [연합뉴스](https://www.yna.co.kr/view/AKR20261106069800003?input=1195m), [매일경제 마켓](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EZWxOdUJQVXlYVndXa01TX2ptelZlZ045dlYyVV9ncnRISk5RUEJNbVlHXzg2NFlWVl9DRHZvSFExVmZfaTNFSzRuaWRvdWxDTHc?oc=5), [파이낸셜투데이](http://www.ftoday.co.kr/news/articleView.html?idxno=369086), [한국경제TV](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611060039&t=NN)
 - [데이터센터 반대 민심 확인한 오픈AI "전력망 비용 전액 부담"](https://www.yna.co.kr/view/AKR20261106031600009?input=1195m) — **연합뉴스** · 11-06 09:06
   - 거세지자 전력망 확충 비용을 직접 부담하고 주민들과의 협력을 강화하는 방안을 내놨다. 최근 미국... 필요한 전력망 개선 비용을 전액 부담하겠다고 밝혔다. 데이터센터 건설이 전력 수요 급증과 전기료…
   - 관련 보도 2건: [중앙신문](https://www.jasm.co.kr/news/view/324390/?sc=Naver), [YTN](https://www.ytn.co.kr/_ln/0104_202611061014416922)
@@ -289,7 +293,7 @@ modified: 2026-11-06T10:28+09:00
 
 ## 메가특구특별법
 
-### 국내 · 4건
+### 국내 · 5건
 
 - [초광역특구법 심사할 국회 특위 출범…범여권 주도 본회의 통과](https://www.jnilbo.com/news/articleView.html?idxno=90000080107) — **진일보 \| 전남일보** · 11-05 18:13
   - 정부가 추진하는 3대 메가 프로젝트의 제도적 기반이 될 메가특구 관련 법안을 심사할 국회 특별위원회가 범여권 주도로 구성됐다. 전남광주를 비롯한 비수도권의 초광역 성장 전략을 뒷받침할 입법 논의가…
@@ -299,6 +303,7 @@ modified: 2026-11-06T10:28+09:00
   - 특히 "노동의제는 노동개악이 아니라 노동시간 단축과 비정규직 사용 사유 제한 등 질 좋은 청년 일자리를 창출하도록 지금 진행되고 있는 메가특구 사회적 대화 결과를 보장해야 한다"고 했다. 또 "국회…
 - [초광역특구 특위 구성 결의안 여권 주도로 국회 본회의 통과](https://news.kbs.co.kr/news/pc/view/view.do?ncd=8704915&ref=A) — **KBS 뉴스** · 11-05 15:54
   - 이른바 '메가특구' 관련 법안을 심사할 '초광역특구 특별위원회' 구성 결의안이 범여권 주도로 국회를 통과했습니다. 국회는 오늘(5일) 본회의를 열고, '지방주도 성장을 위한 초광역권 전략산업특구 특…
+- [민주노총·노동부 면담, “초광역특구, 사회적 대화 합의 토대로 추진” 재확인](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1jYzF0cldzdVN4djZyZUx3SGg1bXA4Z2hkNG5wcG5wbFY2VlRnRUdWZUl4bnh2UFlNU1Jrc2Y3bmxzdGM?oc=5) — **자주시보** · 11-04 20:53
 
 ---
 
