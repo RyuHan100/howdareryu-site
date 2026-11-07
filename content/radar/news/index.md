@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-07
-modified: 2026-11-07T10:59+09:00
+modified: 2026-11-07T12:13+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-07 10:59 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-07 12:13 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-07|11-07 클리핑]] — 기사 **173건** (국내 103 · 해외 70)
+> [!example] [[radar/news/2026/11-07|11-07 클리핑]] — 기사 **174건** (국내 104 · 해외 70)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -202,6 +202,7 @@ modified: 2026-11-07T10:59+09:00
 
 ### 국내 · 12건
 
+- [마이너스 전기요금 시대의 해법, 태양광과 ESS 결합한 독일 하이브리드 PPA는 왜 주목받나](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CVEE0QXNmMFYwcUZ4eHE2aktkZlZFbS1FN1hFcDdhNXgxV3V5MjdNaWtvbndhNFBqXzAxVjNDcEFSblhCc3JWVUV6S0pkWGFlaTZLdzg2aTExZW41QlU4MFN6X1pwX0Rz?oc=5) — **https://www.2news.co.kr/** · 11-07 11:06
 - [롯데에너지머티리얼즈, 북미 ESS 수요 타고 매출 두 배 성장](https://www.pinpointnews.co.kr/news/articleView.html?idxno=502047) — **핀포인트뉴스** · 11-07 10:40
   - 롯데에너지머티리얼즈가 북미 에너지저장장치(ESS)와 전기차 배터리용 동박 출하 확대에 힘입어 올해 3분기 매출을 큰 폭으로 늘렸지만, 말레이시아 신공장 가동 초기 비용 부담으로 영업적자를 이어갔다.…
 - [LG화학, '고부가 전환' 속도 낸다…첨단소재·ESS·반도체 소재로 성장축...](http://www.ftoday.co.kr/news/articleView.html?idxno=369150) — **파이낸셜투데이** · 11-07 09:54
@@ -220,8 +221,6 @@ modified: 2026-11-07T10:59+09:00
 - [담양군, 햇빛소득마을 ESS 구축 지원 건의](https://news.google.com/rss/articles/CBMib0FVX3lxTFBvcllEZVhfaFU1bm54M2tubVVWVXB1OG9NQ1V1UTNyY04zaW54ZU52WXB6WngxTGdabWgyNVhqeHczTEw0TklBbTc5d0JwWFY2YzlOWEROOE5nZWt5WmpZT1lhUGNNSHk3YjlrUkNpbw?oc=5) — **담양자치신문** · 11-06 16:42
 - ["수주보다 수익성"…LG엔솔 빠진 역대 최대 ESS 입찰, 삼성SDI·SK온 셈법은?](https://www.econovill.com/news/articleView.html?idxno=756318) — **ER 이코노믹리뷰** · 11-06 16:06
   - 국내 배터리 업계가 앞다퉈 에너지저장장치(ESS)를 신성장동력으로 육성하고 있는 가운데 LG에너지솔루션이 역대 최대 규모의 정부 ESS 입찰에 불참하면서 기업별 수주 전략이 엇갈리고 있다. 전기차…
-- [배터리 소재사 3분기 실적 희비…ESS·LFP로 돌파구 찾는다](https://www.thebigdata.co.kr/view.php?ud=2026110614524559910ecbf9426b_23) — **빅데이터뉴스** · 11-06 15:50
-  - 전기차 시장의 성장세가 주춤한 가운데 국내 업체들은 에너지저장장치(ESS)용 리튬인산철(LFP) 양극재 공급을 늘리며 사업 구조 다변화에 나서고 있다. 6일 업계에 따르면 포스코퓨처엠은 올해 3분기…
 
 ### 해외 · 15건
 
@@ -252,6 +251,8 @@ modified: 2026-11-07T10:59+09:00
   - 관련 보도 1건: [한국전력신문](https://news.google.com/rss/articles/CBMiakFVX3lxTFBiNXR4YklFeXNsYW5NOTlSNDhaaTY5Ykxha1o5YXFRMS11VmVZTUFtS3E1cW9PVHRWUzZIUzhxTTBjNE9Ha2tqd1V3V25ZQlpWR3pfdXc1cDF5QkU5aUFiY2JCcUJqYUxiSWc?oc=5)
 - [가온전선, 새만금 수상태양광 전력망 구축…154kV 케이블 공급](https://news.google.com/rss/articles/CBMib0FVX3lxTE9lQXBPV2xFU1dRSk9LalpPQ2NqZDJZNl8yUWdJUXZhQXpWSmVqSVNVd0xrZkJTdWY5MkRXaExGLWlaUmlGLUY5aUs3ZGg4X3BlMnJDaXI1VDU5TTFHcEVIQUV1TlA3SC1mR1F6dHlsb9IBc0FVX3lxTE41TnM3R2JqR213aDhzbmM1cWxJZ1FqaDZWTmM2ZUFIZzdIczh3UENwSVFuV1gwRFRHVkp4RGdGTW5KZTI0c2FlR1VrUTA5ZkZPZnV4Y2xGbkUwNnVDc3dFNUxPTlFpaU5rSzlNRFdGTnVFa1k?oc=5) — **데일리한국** · 11-06 12:48
   - 관련 보도 1건: [디지털데일리](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iSHVqS1VRcFNBMl9sZjlLOHBTc0J0aGhHVk1yU3hGel81bDE1N2dTVWZXdTg5aG1hdl84V0hEZTBsSTBKYUZkbUExckZhbE84Q0pSbnAtbjdLVVVNcmxyZS1oZzM?oc=5)
+- [AI 데이터센터는 늘어나는데 전력망은 제자리…공장 세워도 전기 없으면 무용지물](https://www.hinews.co.kr/view.php?ud=202611071122494236cd8b879b3c_48) — **하이뉴스** · 11-07 11:26
+  - 전력망이 첨단산업의 입지와 경쟁력을 결정하는 핵심 인프라로 떠오르고 있다. 국가경제자문회의와 서울대 국가미래전략원이 지난달 28일 공동 개최한 전력망 관련 세미나에서는 대규모 산업 프로젝트에 필요한…
 - ["기존 송전선로까지 지중화해야" 천동마을 주민들, 국비 지원 확대 촉구](https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003282596&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news) — **OhmyNews** · 11-07 10:51
   - ▲ 신정훈 국회의원실 신현만 보좌관과 한국전력 전력망입지처 입지선정부 이승연 차장 등 관계자들이... 이날 신정훈 민주당 국회의원실 신현만 보좌관과 한국전력 전력망입지처 입지선정부 이승연 차장 등…
 - [전력망과 발전 공룡의 결합, 중국 화넝과 남방전망이 손잡은 이유는?](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VaFRiQnY2MGtDcWptcnlOdjlUVkt2V2hTTHVPaks2bjFuRzZCckljSTJ1VUw3NnBkNVdPM3hEc0c1LVZqVy1QV3FsTUhZbXpvbjU4OEo5WE5QTzRZVE5BcHExbzhsVjlv?oc=5) — **https://www.2news.co.kr/** · 11-07 09:18
@@ -264,15 +265,15 @@ modified: 2026-11-07T10:59+09:00
   - ◇ 전력망 병목에 2030년 목표 미달 계통 연결을 기다리는 선진 단계의 재생에너지·저장 프로젝트... 출력제한은 발전설비가 전기를 생산할 수 있어도 전력망 사정 등으로 실제 출력을 줄이는 것을 뜻…
 - [인도 사막에서 생산한 6GW 청정에너지를 도심으로…GE 버노바, 대규모 초고압직류송전 프로젝트 수주](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kamNXZFlHcnM3TnNyRmpZZ2FIWG9WUHBuLWt3cE1heXVLZENNcHQzZERpUWJZZ0dfZUg2Wm0yNV9sR29jVzgwby1BbXVYMUNrd25nRWYwNllyNFlKVG40cWk2aDJ4dDhx?oc=5) — **https://www.2news.co.kr/** · 11-06 23:12
 - [AI 데이터센터 전력난, 전력망 대신 연료전지로 푼다…NTT DATA와 블룸에너지 900MW 맞손](https://news.google.com/rss/articles/CBMiaEFVX3lxTE02emFCZ1FiLW5Ccmw1dVIta2ROOFg3R1B3N3hzbXFHcjNISjdzb3dNQVp0YUZTTUw0RUswQkZnVEk2dkZXYVRIVmh1Y09yaWVSMWREeEUyM2FPelEwbHNXRUIwbjc3Y0FS?oc=5) — **https://www.2news.co.kr/** · 11-06 23:02
-- [가온전선, 새만금 태양광 송전망 수주…미국 원전용 케이블 생산 추진](https://www.webeconomy.co.kr/news/articleView.html?idxno=2364924) — **웹이코노미** · 11-06 22:06
-  - 6일 전기 업계에 따르면 가온전선은 국내 재생에너지 전력망 사업을 확대하는 동시에 미국 현지... 앞서 수주한 발전단지 내부 배전 케이블에 이어 발전 전력을 외부 전력망으로 연결하는 송전망까지 사업…
 
 ---
 
 ## 메가특구특별법
 
-### 국내 · 11건
+### 국내 · 12건
 
+- [초광역특구 노사정 7차 실무협의…정주지원·인력양성 논의](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTUEN3NnJuSVJROUZrOWZiYUVtY0JLYkxsaVpFZHN1WFRhM0s1Q3Ywbm9lZTVQQVByTHdrV3JKM2g1MHFadlM0WFduRUpocUM4NEpJ0gFYQVVfeXFMTzJGYWNVcmo2WmdzdXZlTTM2V204aDNUQlVaWGVqQTUzRGgtcjRhUEJYanA1ejU5a2RNd0lqa290bTVzVXpqbHhzZWN3cTN6RlZqN3Ntb1J6SQ?oc=5) — **SBS Biz** · 11-06 15:48
+  - 관련 보도 1건: [서플 뉴스](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ndTFTVEwyUEljUW5xa0VHZU5XZzhBUXZoM3FXZHhJYTFHRUo2dmhNWGJZZTFGbjVzU1ptMXBjRTRjY3lzZ2dDNEdhYk9CS1VNTEJfV2NlclluSDE1?oc=5)
 - [김정관 산업부 장관 "초광역 특구 대경권 로봇 유리"](https://www.tbc.co.kr/news/view?pno=20261106134645AE08110&id=213037) — **Tbc.co.kr** · 11-06 21:06
   - \[김정관/산업통상부 장관 "지금 현재 (초광역 특구) 법이 제정이 안 됐기 때문에 로봇 메가 특구를 (대경권에) 지정한다는 말은 제가 구체적으로 말씀드리기 어렵지만 법이 통과되고 나면 로봇 분야에서…
 - [전태일 정신 계승 노동자대회 개최…“메가특구 노동개악 저지”](https://newscham.net/130141/) — **참세상** · 11-06 19:36
@@ -283,7 +284,6 @@ modified: 2026-11-07T10:59+09:00
   - 전남광주 시민단체들은 6일 "시민의 기본권과 공공성을 훼손하는 더불어민주당의 초광역메가특구법 발의를 즉각 철회해야 한다"고 촉구했다. 광주시민단체협의회·전남시민단체연대회의 등 11개 단체는 이날 전…
 - ['자사고·외고 등 늘어날 것'... 특구법 추진 두고 교육계 우려 나오는 ...](https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003282461&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news) — **OhmyNews** · 11-06 16:01
   - ▲ 10월 27일 국회 본청 앞에서 진보당이 주최한 초광역특구법 철회 촉구 기자회견에서 참석자들이 더불어민주당이 발의한 '초광역특구법(메가특구법)' 철회와 중단을 촉구하는 현수막 찢기 퍼포먼스를 하…
-- [초광역특구 노사정 7차 실무협의…정주지원·인력양성 논의](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ndTFTVEwyUEljUW5xa0VHZU5XZzhBUXZoM3FXZHhJYTFHRUo2dmhNWGJZZTFGbjVzU1ptMXBjRTRjY3lzZ2dDNEdhYk9CS1VNTEJfV2NlclluSDE1?oc=5) — **서플 뉴스** · 11-06 15:52
 - [노사정, 초광역특구 주거·교육지원 논의…내주 주52시간 특례](https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tZnRja2x5d3NCWDZJUk9qamM5ejlPNnYtU21Ra2NMOUl2UTJiTGFLRnhYNWhmcElGWk5Ib20wRWNjZWJCakRoMHdpbkU1amtTYUxvdkxteUN3eG_SAWBBVV95cUxOUDFsTFAydGhsejVBQ3NwSEpORXVNWlhiQUxqMUJMd0huT0NXMFBhbG9HOVljZ05PdmxfUFpualI1TWlEZnFWODJiZnFVTk11ZWVhaDdENHBxU1FCcWpsLVY?oc=5) — **연합뉴스** · 11-06 15:06
 - [메가특구 노사정 대화…정주지원·인력양성 방안 논의](https://biz.heraldcorp.com/article/10928626?ref=naver) — **헤럴드경제** · 11-06 14:30
   - 노사정이 초광역특구(메가특구)의 정주지원과 인력양성을 위한 정부 지원방안을 논의했다. 고용노동부는 6일 노사와 관계부처가 참여하는 ‘초광역특구법 관련 원포인트 사회적 대화’ 제7차 실무협의체를 개최…
