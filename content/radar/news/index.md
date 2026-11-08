@@ -3,18 +3,20 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-08
-modified: 2026-11-08T10:29+09:00
+modified: 2026-11-08T11:44+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-08 10:29 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-08 11:44 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-08|11-08 클리핑]] — 기사 **80건** (국내 41 · 해외 39)
+> [!example] [[radar/news/2026/11-08|11-08 클리핑]] — 기사 **86건** (국내 46 · 해외 40)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
 
 - [Nigeria ranks second globally in children’s climate risk – Report](https://news.google.com/rss/articles/CBMioAFBVV95cUxNMTBzczY4T0RzSGRZd0xxYWQ3SXltaTdXU0dmZl9hVy1fN0pEalNuTGlTZy1ac2JVRXZVSVdzbTJrZzJrMzJ5aFRqOHhnTGFEY1V3eERaVlJzdG11ZVdXdE1YWl9HZy1vaUJxVFI3QUxFZmF3LWItZG1RY3ZKSmViRHVIZGYtUmF0VWV4MkIwMDI0bzZGWllYN2xRNUd3d05G0gGmAUFVX3lxTE13OXotMXJiV1MyLVF3d0tTdXFaS1hWOUtrbUtUS3hIbGw2eXNuMWhydF9MbV9DZ3VISmMtYjdndE0tTWVYOWpJdWlZTFItVjNqQmRBMU9rXzdVVzJpM2w3dkRSVllPd0N3MVRxalNqSjFWSnZNZnFkcGprb2ozUXkzMGV4SGV0eWlqY1dBRjdwZGVBbUlEbUduUXlUUEZYaDNMTi01bkE?oc=5) — **Vanguard News** · 11-08 01:18 · NDC
 - [Globeleq reports construction progress on Africa’s largest standalone battery storage project](https://news.google.com/rss/articles/CBMiywFBVV95cUxOX2NWd05pbm91U3NRMXpORWMxS01LbXBsMzJoNlF6eFYyYkpXRGhkVFJvLTd5bm9NUTlrbm1jLUhrUTNQQnhGcUhfU3hCR2VzOGtjLWo1c2hacFdhNTVSOGEwTXFqdnlzQ1dtSWNpNENoRERDb1pxY0lXelo5WUNWZG9QM1FqSkJCb0o2M2xFY0NxdUNRbkh3R2ZTOHR6Yi1xbFJ2SHRaeFVEdWhkYXEzd0lQUFh2cC1aYjM4bENPcW5vV0l2c2M5WnpzSQ?oc=5) — **Green Building Africa** · 11-07 13:18 · ESS
+- [유럽 전력망 투자, 2019년 이후 두 배 이상 증가…ACER 보고서](https://news.google.com/rss/articles/CBMioAFBVV95cUxQb0x4Sl9xcGhwZlF2SW5GSWNxbnhyN3FFeEM0RDBFQ3d4NWswNmJyUGpwSTE1azVQRWR4LURkVXRhRHNMX3p2MWxXaGVQTjdCS21MamloMzVOSHJtSE1fakw0UVFsc1hGT3cwQVl0cXp6VC1wS1B4R1VUaE9GNTd3T0dHQ0RMeXFvR2UzcW9pM1lWS1lxVUtNdFgyQjNJUXo2?oc=5) — **IndexBox** · 11-07 13:10 · 전력망
+- [Climate finance: Nigeria’s education sector gets 1.5% as children face rising risks – Report](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNVJKSTV6c0pCRkI3NTRBWDFzWHdJY1YwR3k0UHpQZnFVSmFleUxDSWJZYnBpX0ZJNWhMM0VlLVFBOUNjVnIwd1VjOGkxb1o4eXhtb3FIUVpqajJLN3BhQU9xQldKTUFKRDRJczVuNU84VlVQYVJJQm5RLWs3bE4tenAxSVNTQW5OQWNJVzBkZE5FMExNRmJPaFhWSVFZNGNydW5FQnBYXzRVcXBSZElROWdzY0VmSWNtMzJRaE81NGtrZw?oc=5) — **the authority news** · 11-07 03:46 · NDC
 
 ---
 
@@ -74,6 +76,11 @@ modified: 2026-11-08T10:29+09:00
 
 ## 자발적 탄소시장 / VCM
 
+### 국내 · 1건
+
+- ['加 토큰증권 선구' 핀헤이븐 "韓서 생산적자본 비전 실현" \[일문일답\]](https://www.edaily.co.kr/News/Read?newsId=01407126645643752&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **m.edaily.co.kr** · 11-08 11:05
+  - 또 온실가스 감축·제거 실적을 인증·거래하도록 한 탄소 크레딧의 경우 일본 쪽과 같이 사업을 논의하고 있다고도 했다. 다음은 김도형 핀헤이븐 대표와의 인터뷰 일문일답 전문. -지금 대표로 있는 핀헤…
+
 ### 해외 · 1건
 
 - [Singapore, Bangladesh discuss boosting flight connectivity, carbon ties](https://news.google.com/rss/articles/CBMirgFBVV95cUxPOUx4TmtsVWdnNGNyc3UtT3JpY19kTllSQ0d3Uzc3eWZDOHJkeThxTHRxQ1VGUEdfa3cwTU9lOVBkUzdkVDVZUTM1WThRVG1UV0s2dmZST0haNE5HWFR5R0tkblQ2c2ZJNERkU3FSUzRWaGd2Z0VmYWxLbFotcHhkOW9yTGdpWmdmQzlvcmZoQ25Tamw1V1lkM2VpdmVZbGlrSGE1WGllZHEtSUZFcEE?oc=5) — **Bangladesh Post** · 11-06 14:44
@@ -82,8 +89,10 @@ modified: 2026-11-08T10:29+09:00
 
 ## AI 온실가스
 
-### 국내 · 7건
+### 국내 · 8건
 
+- [나사렛대, 부동산 전문인재 양성·장애친화적 AI 교육 확대](https://www.ggilbo.com/news/articleView.html?idxno=1191577) — **금강일보** · 11-08 11:36
+  - 온실가스 배출량 산정, 지속가능성 공시기준, AI 기반 데이터 검증, 탄소국경조정제도(CBAM) 대응 등 산업현장 중심의 실무교육도 진행할 예정이다. 나사렛대는 이번 세미나와 산학협력을 계기로 부동…
 - [AI 붐 뒤에 숨은 ‘물의 위기’…데이터센터, 전력만큼 물도 먹는다 \[기...](https://www.ekn.kr/web/view.php?key=20261106027284812) — **에너지경제신문** · 11-08 09:00
   - 센터(DC)가 있다. 스마트폰으로 AI에 질문을 던지거나 동영상을 스트리밍하는 동안 전 세계 DC에서는 수많은 서버가 쉼 없이 작동하며 막대한 열을 내뿜는다. 그동안 DC의 환경적 영향은 주로 전력…
 - ["황금 같은 기회"…트럼프, 민주당 AI 데이터센터 규제에 정면 대응](https://www.fnnews.com/news/202611080808131994) — **파이낸셜뉴스** · 11-08 08:21
@@ -100,8 +109,11 @@ modified: 2026-11-08T10:29+09:00
 
 ## ESS
 
-### 국내 · 7건
+### 국내 · 9건
 
+- [\[단독\]LG엔솔, 中에 ESS용 각형 LFP 셀 첫 공급](https://thetracker.co.kr/View.aspx?No=4302389) — **더트래커** · 11-08 11:04
+  - LG에너지솔루션은 미국과 폴란드에서 ESS용 LFP 배터리 생산 체제를 갖추고 있다. 지난해 6월 미국 미시간주 홀랜드 공장에서 ESS용 LFP 배터리 양산을 시작했으며, 올해 8월 가동에 들어간…
+  - 관련 보도 1건: [더트래커](https://news.google.com/rss/articles/CBMiWEFVX3lxTE55ZGdtX2s3ajFZWUluMzJSNlppMkFIR1hPQlQwQlozbWtjdlh0QnZmNE5Ra0dtSWJpY09vbWN5aXM1dkRSQzZ6eEFLb29NSk5XaFBWck5Ib2Y?oc=5)
 - [\`3Q 주춤\` 양극재, 내년 반등 노린다…LG엔솔 빠진 韓 ESS 3차 입찰 \[위클리배터리\]](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9haFdlenkwcXNwMkRpcFd3T1Zhc2Q5dUdyZXhYTWNlNW03TTN1WmxURzdNOHlRYk5OMDE2bDJhRU9Ua1ZxWW9OQmRFZTgwcjFjS0tnUUdBc2NKNVNacHRoSVV3?oc=5) — **디지털데일리** · 11-08 09:50
   - 관련 보도 1건: [디지털데일리](https://www.ddaily.co.kr/page/view/2026110802215406547)
 - [두 배 커진 ESS 입찰···LG엔솔 왜 빠졌나](https://www.sisajournal-e.com/news/articleView.html?idxno=424860) — **시사저널e** · 11-08 10:16
@@ -138,6 +150,14 @@ modified: 2026-11-08T10:29+09:00
 - [월가 '에너지 전환 펀드', 천연가스·빅테크 전력망으로 가득 찼다](https://www.g-enews.com/view.php?ud=2026110722183320540c8c1c064d_1) — **글로벌이코노믹** · 11-08 06:46 · 에너지 전환 / energy transition
   - 11월 9일부터 20일까지 튀르키예 안탈리아에서 열리는 제31차 유엔기후변화협약 당사국총회(COP31)를 앞두고, 민간 금융과 테크 부문의 '그린워싱(위장 환경주의)' 관행이 전 세계적인 기후 뇌관…
   - 관련 보도 1건: [M이코노미뉴스](https://www.m-economynews.com/news/article.html?no=72734)
+- [손화정 영종구청장, 한전 해저 송전선로 현장 점검](https://www.discoverynews.kr/news/articleView.html?idxno=1106105) — **디스커버리뉴스(DISCOVERYNEWS)** · 11-08 11:28
+  - 영종구가 전력망 확충 사업의 추진 상황을 재점검했다. 인천 영종구(구청장 손화정)는 손 구청장이 지난 6일... 장기적인 전력망 확충과 함께 공사 기간 중 정전 재발을 막을 실질적인 대응책을 마련하…
+- [손화정 영종구청장, 해저 송전선로 공사 현장 재점검... "정전 불안 뿌리...](https://www.jeonmae.co.kr/news/articleView.html?idxno=1309355) — **전국매일신문** · 11-08 11:28
+  - 앞서 지난 7월 29일 해당 현장을 찾아 1차 점검을 벌인 바 있는 손 구청장은 이번 2차 방문을 통해 영종 전력망 확충 핵심 사업인 전력구 공사의 이행 상황을 면밀히 확인하고, 지연 없는 사업 추…
+- [345㎸ 송전선, 세종 4개 면 경유 확정… '지중화' 얼마나 가능할까](https://www.joongdo.co.kr/web/view.php?key=20261107010002384) — **중도일보** · 11-08 11:00
+  - 시는 정부가 추진하는 국가 전력망 확충사업인 만큼, 사업 백지화에 무게를 두기보다는 주민 피해를 최소화할 수 있도록 한전과 협의하고, 노선 조정과 지중화 확대 등 현실적 대안을 찾겠단 입장이다. 이…
+- [가온전선, 배전 이어 송전망까지…새만금 수상태양광 사업 확대](https://www.thepublic.kr/news/articleView.html?idxno=325438) — **더퍼블릭** · 11-08 10:40
+  - 기존 발전단지 내부 배전 케이블 공급에 이어 외부 전력망 연결 설비까지 수주하면서 태양광·해상풍력 등 재생에너지 전력망 시장에서 사업 범위를 넓히고 있다. 가온전선은 BS한양과 '새만금 햇빛나눔사업…
 - [러·우크라, 에너지 시설 겨냥 대규모 공습…키이우 전력망 마비](https://www.gukjenews.com/news/articleView.html?idxno=3745280) — **국제뉴스** · 11-08 08:56
   - 이로 인해 키이우와 지토미르 등 여러 지역의 전력망이 파손되면서 전기, 난방, 수도 공급에 차질이 생겼다. 키이우 북부의 드니프로강 교량 역시 타격을 받아 통행이 중단됐다. 젤렌스키 대통령은 러시아…
 - [\[대미투자 재점검 ⑨\] 美 전력망 투자 계속된다···K전력기기 '슈퍼사이클' 분수령](https://news.google.com/rss/articles/CBMiakFVX3lxTFBaeXJxNWhhekdoQ19ESDl6dllLN0lFclV0SWdCT3RhNHdOcl9MX01vOUoyc29KU0FyblVDMC02ZjVEeFMxcC16c0pWNDJrLWZweTA0Q0w0UzZqeWdjbDV1TUpNZHhoZnZuNEE?oc=5) — **서울파이낸스** · 11-08 08:00
@@ -149,12 +169,6 @@ modified: 2026-11-08T10:29+09:00
 - [송배전망 건설 최소화하고 정보·이익 주민 공유](https://www.danbinews.com/news/articleView.html?idxno=34109) — **danbinews.com** · 11-07 21:58
   - 위한 전력망이라는 사실을 알게 됐다"고 말했다. 그는"지역 주민들에게 선택권도 없고 돌아오는 이익도 없이... 한전을 대표해 나온 이재득 전력망 입지처 차장과 유성용 송전건설부 차장은 주민들의 다양…
 - [“공짜 점심은 없다”… 전기요금 묶고 전력망 확충하겠다는 정책의 모순](https://news.google.com/rss/articles/CBMia0FVX3lxTE5NTG1GcWhhUjByR0IwSmRmLVRnU180NnJEZVFBY1JCVnNEV0VNUGJjdnJWVmFoa1E3bkxPM1EwUDdnWG5OQnVMXzZKRDNIZkt4Tkw2aGI0MndIYUlTdmdNSTMtNlNkUi1tRlRN?oc=5) — **독립신문** · 11-07 16:52
-- ['모닝스타' 띄운 조현준의 승부수…AI 전력망 타고 100년 기업 목표](https://www.bloter.net/news/articleView.html?idxno=677950) — **블로터** · 11-07 16:00
-  - 美 전력망·데이터센터 '쌍끌이 잭팟'에 날개 단 효성重 조현준 회장이 내세운 지속성장 전략의 핵심은 효성중공업이다. 효성중공업은 글로벌 AI 데이터센터 열풍과 북미 노후 전력망 교체 주기가 맞물린…
-- [한전KDN, BIXPO서 AI 기반 전력망 보안 등 연구 성과 공개](http://www.knpnews.com/news/articleView.html?idxno=34820) — **한국원자력신문** · 11-07 13:18
-  - 한전KDN(사장 박상형)이 전력망 보안과 운영에 인공지능(AI)을 접목하는 연구 성과를 공개하고... 이날 발표에서는 전력망 운영 기술과 함께 사이버 위협에 대응하는 보안 기술이 다뤄졌다. 한전KD…
-- [영종구, 2030년 전력망 확충 공사 현장 재점검…정전 재발 방지 총력](https://news.google.com/rss/articles/CBMibEFVX3lxTE1DWTZ6WXV2VVdzY3kxd09Lb3dZNDB0dHN5Nkp1LXdXZDdKRkhIbFJkQ1BnVEhHeng0blVqcDdHWUZ2T056ZTkwZjZ2SkwzbEJNbVZuZFZxVE9wU09IaUExdHJweEhBVEd1SzlLRdIBcEFVX3lxTFB2dnc1TjBlZmxBN2N3YVJBSDJjR3A2QXJ6cDJTaXNQODJqV1V6TEJseW8yZ3VKS1p1c1ROX0NsLS1FN2FnWno1R0dZU2hFdG1PeG0wZnFaWDlPbVdnM2pGbnhGUDZuUkNoRmZmX19RbFk?oc=5) — **글로벌경제신문** · 11-07 12:10
-- [오픈AI, 데이터센터 전력망 확충과 지역 상생 추진](https://news.google.com/rss/articles/CBMibkFVX3lxTE1CYWdWUEk3YzlqeW5TSkpHZXZnMXJNcWZCQ0lSdlhITXNlOW5wY0FfX0NtT2VCVWxzRmo5ck5pWlJrTXh1WW9RM3ZDZ0VuUV9zZ0R2Tm10Q3ZSN3BXa1c5Y2psRTZuY3ZxSGQ1aktB?oc=5) — **투데이에너지** · 11-06 14:08
 
 ---
 
