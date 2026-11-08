@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-08
-modified: 2026-11-08T09:52+09:00
+modified: 2026-11-08T10:29+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-08 09:52 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-08 10:29 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-08|11-08 클리핑]] — 기사 **76건** (국내 38 · 해외 38)
+> [!example] [[radar/news/2026/11-08|11-08 클리핑]] — 기사 **80건** (국내 41 · 해외 39)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -72,6 +72,14 @@ modified: 2026-11-08T09:52+09:00
 
 ---
 
+## 자발적 탄소시장 / VCM
+
+### 해외 · 1건
+
+- [Singapore, Bangladesh discuss boosting flight connectivity, carbon ties](https://news.google.com/rss/articles/CBMirgFBVV95cUxPOUx4TmtsVWdnNGNyc3UtT3JpY19kTllSQ0d3Uzc3eWZDOHJkeThxTHRxQ1VGUEdfa3cwTU9lOVBkUzdkVDVZUTM1WThRVG1UV0s2dmZST0haNE5HWFR5R0tkblQ2c2ZJNERkU3FSUzRWaGd2Z0VmYWxLbFotcHhkOW9yTGdpWmdmQzlvcmZoQ25Tamw1V1lkM2VpdmVZbGlrSGE1WGllZHEtSUZFcEE?oc=5) — **Bangladesh Post** · 11-06 14:44
+
+---
+
 ## AI 온실가스
 
 ### 국내 · 7건
@@ -92,10 +100,12 @@ modified: 2026-11-08T09:52+09:00
 
 ## ESS
 
-### 국내 · 6건
+### 국내 · 7건
 
 - [\`3Q 주춤\` 양극재, 내년 반등 노린다…LG엔솔 빠진 韓 ESS 3차 입찰 \[위클리배터리\]](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9haFdlenkwcXNwMkRpcFd3T1Zhc2Q5dUdyZXhYTWNlNW03TTN1WmxURzdNOHlRYk5OMDE2bDJhRU9Ua1ZxWW9OQmRFZTgwcjFjS0tnUUdBc2NKNVNacHRoSVV3?oc=5) — **디지털데일리** · 11-08 09:50
   - 관련 보도 1건: [디지털데일리](https://www.ddaily.co.kr/page/view/2026110802215406547)
+- [두 배 커진 ESS 입찰···LG엔솔 왜 빠졌나](https://www.sisajournal-e.com/news/articleView.html?idxno=424860) — **시사저널e** · 11-08 10:16
+  - 국내 에너지저장장치(ESS) 시장에서 역대 최대 규모의 입찰이 진행되는 가운데 LG에너지솔루션은 수주 경쟁에서 발을 뺐다. 앞선 입찰에서 가격 경쟁이 심해지면서 물량을 늘려도 이익을 내기 어렵다고…
 - [말레이시아, 데이터센터용 태양광 500MW·ESS 1GWh 개발…21년 전력 공급](https://www.aitimes.com/news/articleView.html?idxno=217083) — **AI타임스** · 11-08 09:10
   - 말레이시아 전력기업 테나가 나시오날(TNB)과 농업기업 IOI가 데이터센터에 재생전력을 공급하기 위해 태양광 500메가와트(MW)와 에너지저장장치(ESS) 1기가와트시(GWh)를 결합한 발전사업을…
 - [LG엔솔, 3차 ESS 중앙계약시장 경쟁입찰 불참 : 네이버 블로그](https://news.google.com/rss/articles/CBMijwFBVV95cUxObUJUVi1vQ2E1ZDVOV0RUOUk5TVdiN0F6d2FBVVJkNjFfci1oSDlLbERUcmRhSDB6Q3RzckN6emlDbnoxRUV6MFBlOGlNUVdrQTlHTXo4cE90MGg4TkVSc3lQVTF5cXVXLTdvbmNUYUV5WHFDdDdHMWVwRXd2b1JNbjl2cUdyamlNS2p1c1k5VQ?oc=5) — **Naver Blog** · 11-08 02:20
@@ -123,13 +133,14 @@ modified: 2026-11-08T09:52+09:00
 
 ## 전력망
 
-### 국내 · 12건
+### 국내 · 13건
 
+- [월가 '에너지 전환 펀드', 천연가스·빅테크 전력망으로 가득 찼다](https://www.g-enews.com/view.php?ud=2026110722183320540c8c1c064d_1) — **글로벌이코노믹** · 11-08 06:46 · 에너지 전환 / energy transition
+  - 11월 9일부터 20일까지 튀르키예 안탈리아에서 열리는 제31차 유엔기후변화협약 당사국총회(COP31)를 앞두고, 민간 금융과 테크 부문의 '그린워싱(위장 환경주의)' 관행이 전 세계적인 기후 뇌관…
+  - 관련 보도 1건: [M이코노미뉴스](https://www.m-economynews.com/news/article.html?no=72734)
 - [러·우크라, 에너지 시설 겨냥 대규모 공습…키이우 전력망 마비](https://www.gukjenews.com/news/articleView.html?idxno=3745280) — **국제뉴스** · 11-08 08:56
   - 이로 인해 키이우와 지토미르 등 여러 지역의 전력망이 파손되면서 전기, 난방, 수도 공급에 차질이 생겼다. 키이우 북부의 드니프로강 교량 역시 타격을 받아 통행이 중단됐다. 젤렌스키 대통령은 러시아…
 - [\[대미투자 재점검 ⑨\] 美 전력망 투자 계속된다···K전력기기 '슈퍼사이클' 분수령](https://news.google.com/rss/articles/CBMiakFVX3lxTFBaeXJxNWhhekdoQ19ESDl6dllLN0lFclV0SWdCT3RhNHdOcl9MX01vOUoyc29KU0FyblVDMC02ZjVEeFMxcC16c0pWNDJrLWZweTA0Q0w0UzZqeWdjbDV1TUpNZHhoZnZuNEE?oc=5) — **서울파이낸스** · 11-08 08:00
-- [월가 '에너지 전환 펀드', 천연가스·빅테크 전력망으로 가득 찼다](https://www.g-enews.com/view.php?ud=2026110722183320540c8c1c064d_1) — **글로벌이코노믹** · 11-08 06:46 · 에너지 전환 / energy transition
-  - 11월 9일부터 20일까지 튀르키예 안탈리아에서 열리는 제31차 유엔기후변화협약 당사국총회(COP31)를 앞두고, 민간 금융과 테크 부문의 '그린워싱(위장 환경주의)' 관행이 전 세계적인 기후 뇌관…
 - [미국 AI 인프라 다급한데 송전망 건설 '주민 반대' 리스크, 한국 전력기...](https://www.businesspost.co.kr/BP?command=article_view&num=451144) — **비즈니스포스트** · 11-08 06:02
   - 미국에서는 송전선로 건설을 둘러싼 주민 반대가 전력망 확충의 주요 장애물로 떠오르고 있는 상황이다.... 한국 전력기기 업체가 미국의 노후 전력망 교체와 AI 데이터센터 확충에 따른 수요 증가를 기…
 - [2035년 케이블 종단 시장: 전력망 개선과 재생에너지가 성장 견인 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRXY5N1luWW9ZbjMwSXhXbFF0REJISm14dGphSXVDaDZIc05mUUM1X1hDQjMyeTMyeFp3TE12VTFfeEVFdTB6VnI4NzlDbFBGTlFVNVhwRXljM1c5VTdFLS0yaEhDZGFoeGtibkJjT1hyNVhWUm9FMk0xdlFjWkJQQlE3dHpyUGNfc2lQRUp1c2Juei1iWmx1TjRiZm1ubmJBb2NTaGJuRjNTSzY4R0RySUlwdmhtRmtSNEJUaTVlbm1ydHRqeWRYUHVuRnFkLUdvZU5RTlRVUDVFYlE?oc=5) — **IndexBox** · 11-08 03:26
@@ -165,6 +176,15 @@ modified: 2026-11-08T09:52+09:00
 - [조국혁신당, 광주 시민사회와 상생특구법 논의···재벌 특혜 차단](https://news.google.com/rss/articles/CBMib0FVX3lxTE1BbV80SXFVb3ZPb1F2eWhqbFBuUE5PU0s1Ry05dW5PTFBSbmcyVjlnZWNfUFlKRncxTWdMQVJ3NFZmcVdpRGg5c3dLSldaNXJQVDZVdDFRSTg4by1NUUdFSjZ1LVZmU2xMR1Bya29FQdIBb0FVX3lxTE1BbV80SXFVb3ZPb1F2eWhqbFBuUE5PU0s1Ry05dW5PTFBSbmcyVjlnZWNfUFlKRncxTWdMQVJ3NFZmcVdpRGg5c3dLSldaNXJQVDZVdDFRSTg4by1NUUdFSjZ1LVZmU2xMR1Bya29FQQ?oc=5) — **빛가람뉴스** · 11-07 16:25
 - [전남·광주 시민단체, 민주당 메가특구법 철회 요구…"기업 특혜보다 시...](https://www.ngonews.kr/news/articleView.html?idxno=242549) — **한국NGO신문** · 11-07 13:42
   - 전남·광주 지역 시민사회가 더불어민주당이 추진하는 초광역메가특구법에 반대하며 법안 철회를 요구하고 나섰다. 지역경제 활성화를 내세운 규제 완화가 오히려 주민의 권리와 안전을 위협할 수 있다는 이유에…
+
+---
+
+## 탈석탄
+
+### 국내 · 1건
+
+- [\[정책 청구서③\] 탈석탄에 재생E 투자까지…발전 5사 '전환비용' 부담](https://www.newsis.com/view/NISX20261106_0003858317) — **뉴시스** · 11-08 10:00 · 에너지 전환 / energy transition
+  - 통합의 배경에는 이재명 정부의 ‘2040년 탈석탄' 국정과제가 있다. 석탄발전소 폐지가 불가피해진 발전 5사에 재생에너지 확대 등 에너지 전환이라는 새 역할을 맡기려는 것이다. 문제는 석탄발전 축소…
 
 ---
 
