@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-10T10:28+09:00",
+  "fetched_at": "2026-11-11T08:12+09:00",
   "source": "https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html",
-  "count": 39,
+  "count": 40,
   "records": [
     {
       "type": "PoA",
@@ -281,6 +281,21 @@
         "AMS-II.C. ver. 15"
       ],
       "reductions": 1768
+    },
+    {
+      "type": "PA",
+      "ref": "10690",
+      "registered": "2021-09-01",
+      "title": "102 MW Gulpur Hydropower Project",
+      "url": "https://cdm.unfccc.int/Projects/gotoProj?id=BVQI1630489946.47",
+      "host_parties": [
+        "Pakistan"
+      ],
+      "other_parties": [],
+      "methodologies": [
+        "ACM0002 ver. 20"
+      ],
+      "reductions": 238748
     },
     {
       "type": "PA",

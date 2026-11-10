@@ -58,5 +58,25 @@
       ],
       "reductions": 49101
     }
+  },
+  {
+    "date": "2026-11-11",
+    "event": "added",
+    "key": "PA:10690",
+    "record": {
+      "type": "PA",
+      "ref": "10690",
+      "registered": "2021-09-01",
+      "title": "102 MW Gulpur Hydropower Project",
+      "url": "https://cdm.unfccc.int/Projects/gotoProj?id=BVQI1630489946.47",
+      "host_parties": [
+        "Pakistan"
+      ],
+      "other_parties": [],
+      "methodologies": [
+        "ACM0002 ver. 20"
+      ],
+      "reductions": 238748
+    }
   }
 ]
