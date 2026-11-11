@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-11
-modified: 2026-11-11T10:11+09:00
+modified: 2026-11-11T10:26+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-11 10:11 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-11 10:26 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-11|11-11 클리핑]] — 기사 **167건** (국내 106 · 해외 61)
+> [!example] [[radar/news/2026/11-11|11-11 클리핑]] — 기사 **170건** (국내 106 · 해외 64)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -111,12 +111,14 @@ modified: 2026-11-11T10:11+09:00
   - CCPI는 한국이 2035년 국가온실가스감축목표(NDC)를 2018년 대비 53\~61%로 정한 데 대해 “전문가들은 61% 이상의 야심찬 목표 채택을 권고한다”고 밝혔다. 또 “기후 대응 부실을 위…
 - [국제사회 탄소 감축 압박 직면한 한국, 전력망 부족과 해외감축 한계](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Xc3NFQkxTWWcxY25yZS1JbmV6ODBoNTdRcHlIWURQd3pvcWNfY0ExT1FRbzdOT3dtRlBCQTJUVllINjA0ZjJCLU5FX2ZrRFh1QzZGOUVrclc3WGZ0Q0UwQ2loR2ZSUDTSAWpBVV95cUxOWU4zdHVSa2FLa3VkMFZnenhUcHI4dFMyLUgybTZ0bU5JZmdQNTRQY0R1MUt3WVU4Q25RQzAwRk1hS2RLM2xIMHJ1ZlY4MllZdlIteGt1ZnBGRnNFYnBVU2hvTHBocVZwbHln?oc=5) — **파인드비** · 11-10 17:45
 
-### 해외 · 6건
+### 해외 · 8건
 
 - [Climate plans: CAPPA warns against fossil fuel expansion, corporate capture](https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHFMdFNUVFloUEtrUVRUYzRqekNCUWhqQWxkUEtoUW1tY3JZNVREWUFPSEYySG1ialhjb0NQRURPT3FaWkswYWc5Q19hUmQ1dWJsem5jVXJNREltcjNmUG1VYWlkcW9xd2tISGM5V2dYbDVIWTFCZVlYUWZzSUd0WFVzN2VCZkQ2VlBYOEdINWNrUVlJYzdxVlRGYmRCSGxleXJlQnMwUlJ2ZlViUFdDeTln0gG3AUFVX3lxTE1rSzBfYU8wWGxtX2ViRF9TYlJ3MlM2Q0gwaXlLdGJSdjVYZkFXMEFWWDJrMGdLamdMbVRKN2hfV3dOUFJfc3BvYW02N0w3SW4zazlPSTFQTmlRSFJFUU9KdExJSWpKdFEzSmNBVWItdXJ4QnpxeVYxRmU5aWktWWo0RDVvcWJ5bEJTZVFpUGZMdzE4aXcwRjdWY182T2ZuTFU0aWtOZjhzaGRPa2ZsZW5YNjBCZzdpRQ?oc=5) — **Vanguard News** · 11-11 09:45
 - [COP31 Presidency adopts CCG-supported approach to turn climate ambition into investment](https://news.google.com/rss/articles/CBMiogFBVV95cUxPcjQ4ZzdCcklmMk1LbUdjTVZkRTFfcG9McFM3cHZsbms3N2J3bUxIcWJQMkQxemdwSDJWenVHR3VvaERFR01wZ2RqRHBlTW1UT0xhYkFoTHkxNjhnNVA2WlFPd0pjM05SQ0xhbUp4dGVHeU0wN2RURXVZTzhpckQzRGNHcTZHckZGOTVuLXR4WjYzdFM1Wl9pQVFFcXp3dGZKdVE?oc=5) — **Loughborough University** · 11-11 02:37
 - [Cambodia targets 55% emissions cut by 2035, net-zero by 2050 at COP31](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZE05NGdRWVVhbXV5Q3hwTDBZQ3Z0N3pnRGVaR254LS1sY2lMT0Vubm8tS3NMYl9JZjBtSmVzTVJaY2JnUzg4dTE4R2FaUEJEbjk5elJPTW5vNzhwRkw1eGhGWFFfd3JRZS04dWp3QU5CU2c1Q3B1cEZJMXR1Y0hVQ1g1cFJnNklBcFpvUHQ4ZUxRZXhsVGVvZmJRNzJza1J3Y1lJd2paRWRmNGc?oc=5) — **Khmer Times** · 11-11 02:17
 - [Libya releases first NDC, mulls carbon tax and market development](https://news.google.com/rss/articles/CBMitAFBVV95cUxPdTEzVzcyMndzcnZaVFV1bExMazNTWXF3N2FlWkF5cnlIYnJNSFVyNTBETF9vVzJ0X192MGM0TGg3eVVFUUhqVU01WmZVOThLME9MUC12QXlwa2kybkFHSWdicTlRS0FvVHk4djFHLUNEbXFWMEpsYXYyV2g3azFlSTZNOHJMdUUtd25qTV9LVUowMHpNN3JSZTBMWWJCNk51YkVPWVRaZDdzcjFiVXlGMlFkWWI?oc=5) — **Quantum Commodity Intelligence** · 11-11 00:09
+- [Egypt’s NDC 2035 Targets: What the Percentages Don’t Tell Investors](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTXdaYVZUVFNHVG4wOF9jeVA2bmVHUHlGNm1wZHc4TVp1TE5TV096TVdLYnhiSGttcFluM2IzcnM2WktJMHVURUc5Wk4wM0VPWjBYZy1jcER2ZlMxYWxkZ01TTE91X2U3TXk2MlJVcEJVaE9UX0RVTWNlX0xzb0UwYlRCeU1maEt1VXlr?oc=5) — **Discovery Alert** · 11-10 21:30
+- [Uzbekistan’s participation in COP31: Strengthening climate diplomacy](https://news.google.com/rss/articles/CBMingFBVV95cUxNYzBUYkQwTUlqYktYcWQ5LWpCRDV1YmJlQlVlVHNFTFhHRktHNERNU21Pa19oaHhobnNaU3hWdVAwX1ZMZVFkcUlFYV9WUDJpWG5EZm5ZYlNDUGcxS1NzYU5aQ3k2S29VZVpMamZfaDQ4VXdvWHNVZ2dFZW5YaTJ5UHI1aWVYN00wUFNmRWNaRzBoQjJhXzNlNnNmTXRxQQ?oc=5) — **UZA.uz** · 11-10 20:16
 - [GIIF secures Green Climate Fund accreditation to unlock climate finance for Ghana](https://news.google.com/rss/articles/CBMirwFBVV95cUxPenpRcXVBTGVpeTNJaDdZdTEwMkFsTG5YNmMzNjZpQnVUaGVfQlZUb0pLd0xSVmpVVjJBWkk1V25BMjdaRl9VSmJHYlV6RWRFYlgyNEFVNXZTdmkyRW5oUkoxcmlVNTdScV9zZjNXS2xfdy03QW9BZHcyemdNV3Yzei1ibXl1d3JvMXgxbEpyc3pSOUhMR0RtV0tYU1dYaTVsZ2tqSUljUEpvWEtqUllz?oc=5) — **MyJoyOnline** · 11-10 16:12
 - [\[PRESS RELEASE\] JBIC's Financed Emissions Equal Those of the World's 28th-Largest Emitter: Four Environmental NGOs Call for a Mid-Term Reduction Target Aligned with 1.5°C at COP31](https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6STVOdmJad1BwSjZmS1FsT2RmRFVReHU0cEFFa3JMSXRYQVNqZGF6M2swc2xDckNyVlM2WnRST2RIV25KUG01ODZKUVpidDZtMnJLUW8wRlY?oc=5) — **国際環境NGO FoE Japan** · 11-10 15:00
 
@@ -140,10 +142,11 @@ modified: 2026-11-11T10:11+09:00
 - ['예비' 떼고 글로벌 무대로…해양 유망기업 '대도약' 돛 올렸다](https://www.news1.kr/economy/idustry-trade/6349313) — **뉴스1** · 11-11 07:00
   - 자원순환 기술력을 인정받아 지난해 대한상공회의소 탄소 인증제를 통해 3만 87톤의 탄소 감축 실적을 인증받았으며, 누적 5만 6000톤 이상의 자발적 탄소크레딧(Voluntary Carbon Cre…
 
-### 해외 · 6건
+### 해외 · 7건
 
 - [Boomitra Sells And Delivers 2.6M Soil Carbon Credits From Its Project In Northern Mexico](https://news.google.com/rss/articles/CBMitAFBVV95cUxPOHRrR09NeUJydWs4R0pSVHk2cUxuY25PV3d0NlFYUnlFU0hkUEhsY0R6THRZWWFJSW9xMGZmNkFia3NNS0lRd05UallqSU1xaUNISDF3VkNmZUswMWE4OFhCeU01OVRLT3Z3VDN3M0dNLTFfeUdBRGxTSGFLbmg1a3RVNWEzZ0ZOY0xsS3M2ZUtLN3M5Ymdqb2w5d3ljZ0RjTUJlN0lFSzV0LUdlSjI3aUdnR0k?oc=5) — **Carbon Herald** · 11-11 00:23
   - 관련 보도 1건: [IndyStar](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSDgyekx0azF4bDlWY2VSdkY5aUVwdTM3TXctVlN2Q0NXbTh5Y3hmZ0VtejZFYlIxNzNERlRpV05YN3UtdzA0RFZnQjF2dE9teXRfWS1mVDNkZTVCVW54Z3lha3RJTUtvcW9abzVoaFY4TkhVUjZUSVRjYTg2Z0pDdmlOSjNGOUdOUER1SHhNSlRxZzhYTm0xMTRlSHo0dUw1RlFMdkhXek1FcTBkazlfSlVKczFMeTVJRnNVRnVEY3ZaaEp5NzB2dTlQb1FkT1V5QmpMcGd0M0FPNnB4OUE?oc=5)
+- [Krungthai and SET Build Carbon Credit Market as Grab, Thai Airways Eye Purchases](https://news.google.com/rss/articles/CBMickFVX3lxTE92ZmxGZW5idGVnaXMxUi1BNFIxT05ucEM4RzZkV09ORlNKQkl3LWJDY2xoVHVIbDNFdnJGeE1kM0Z3SEJYckFHR2ZJMlcwa2RxN24wNjZ2dGFOdWR2MHZLS3JVOE1mWVA1Mjg4elZLRFZwUQ?oc=5) — **Nation Thailand** · 11-11 10:10
 - [CIX streamlines Singapore international carbon credits](https://news.google.com/rss/articles/CBMingFBVV95cUxQY0dpRkFHN0RqUmlnaWo0dDREUFVTUGZtcmdreUJLSzJmUkxWZmpyOUl6ODNZdDhVZHpjQlI2Qzkyd2Vvd2hsb2oxeUx4LWYzajVzVHRXV1M3TnlJQkZIVkEwX2RjeWl4WmE1ek9KSWRELWVsVjBaQ1ZsY095VVRXQnJMcThyRnJTWllxbnNLdGVFM3hXazFiT0Y3RDJ6Zw?oc=5) — **Asset Publishing and Research** · 11-11 02:25
 - [Verra Approves First CCS Carbon Credits From Texas Project for Barnett Zero](https://news.google.com/rss/articles/CBMiggFBVV95cUxOLWV1dVhEVlpaYnVtVmlWZmhFWU5zTTl1NWtBY0dibGJPMXNUNmJWZFN2MU00U01jTlN4NXhOYXhNQ3hKc09KbGltNmNINkQ0Sy1za0REVndQTm9xS2ZBUi0yNFN3S2FZYWRZUHlpVzhYTHhFOGpMZDdROV8xd3JER3Z3?oc=5) — **CarbonCredits.com** · 11-11 02:05
 - [First global airline emissions scheme faces 'a litmus test' as credits run short](https://news.google.com/rss/articles/CBMiygFBVV95cUxNM200cmtwZ0pzVEs2RHhFRERhS09qZkNQOXhXWWpPeGVZZjczTXZWLTlCSzFkYVdOYTdsbm4wUm95djRSbU9SMnRibmRIa3NmZEh4djNUNi1rMGJCR0pmcGNQSXIyOVRWMU8wcHdXSWV3WFRSWHUxRmdtYnNxRGVOTU1tQ19iSjd5a2JwMVFFem1HVUVxMkNVNjk1cm5EWWthZEFBYTZIVHNSQ2VJd0ZETm1aZFZHZ3dpalRtcDFjbGF6a0NvNlpINm1B?oc=5) — **Reuters** · 11-11 01:38
@@ -236,6 +239,7 @@ modified: 2026-11-11T10:11+09:00
 
 - [SBTi, 시장수단 활용 감축에서 '같은 전력망' 원칙 구체화…재생E '어디서 사느냐' 중요](https://news.google.com/rss/articles/CBMibEFVX3lxTE93SXVtYUp1eWtzMU1WVzBOd0ZlR1dabldBellBZklIanJBYmtYcWpCWVNXTmtmMTdPWWlNR3RISHdGMzRmMnBnTnF4LWxIcDF6ZlUxMkxMaXBjc3RsU3lGSVdyZVV2OXA3MUJvUA?oc=5) — **ESG경제** · 11-10 15:40
   - 관련 보도 1건: [ESG경제](https://www.esgeconomy.com/news/articleView.html?idxno=17324)
+- [전 세계 전력망과 AI 데이터센터를 한눈에, 오픈에너지 지구본 지도 Atlas 미리보기 공개](https://news.google.com/rss/articles/CBMiaEFVX3lxTE00RUFPUlZCd1c2dUZIN2FkSEZ1UGQwQjRzaXdaa3l3WEZka3U0ajJpTHZfMWc4S0pPeGxNczBqbkpkS1otanhjU0hrbEFIWHpHWHIzaWdlWUdwZ3RmcTkwdGtpUDQ5UlNH?oc=5) — **www.2news.co.kr** · 11-11 10:21
 - [LS머트리얼즈·LS일렉트릭, '재생에너지·AIDC' 전력망 시장 선점 나선다](http://www.epj.co.kr/news/articleView.html?idxno=39740) — **일렉트릭파워** · 11-11 10:06
   - LS머트리얼즈·LS일렉트릭, '재생에너지·AIDC' 전력망 시장 선점 나선다. LS머트리얼즈와 LS일렉트릭이 재생에너지 확대와 AI 데이터센터(AIDC)의 전력 수요 증가에 대응해 차세대 전력망 안…
 - [전력거래소, '전력계통 생생 현장'... 리더들과 에너지 소통](https://www.newsworker.co.kr/news/articleView.html?idxno=513372) — **뉴스워커** · 11-11 09:52
@@ -253,8 +257,6 @@ modified: 2026-11-11T10:11+09:00
 - [재생에너지 100GW 확대, 전력망 투자비 조달이 관건…"한전 단독 감당 어려워"](https://news.google.com/rss/articles/CBMixAFBVV95cUxNakYxMnVzd1JFZk96WTlqeDRGNUl1QjdqeHNCTnZtREtVajZUUS0yaGE2QU9XOU9oaU1TcVhCZWxVVTItUUJxVEc0X0dIOG9oeFMxRUFyX3U0ZWh3Y3BsekhKUjVvZWlyUFFKTzZjU1d4RC1hR21lNWVTdVNYWGZXTXU0RTUxQlI4YUFFTlB0V2QzMnJuLTVUdUgwa1p3OXkzLVpLUFhVb0U4UGJQZUxHNW1ZWG56Z3BnZUFuNTMyc0p6NVFa?oc=5) — **딜북뉴스** · 11-11 09:10
 - [충청권 관통하는 국가 전력망 27개 사업…한전, 송전탑 갈등 해소할 실질적 대책 내놔야](https://news.google.com/rss/articles/CBMibkFVX3lxTE9MSkJfLWFFVzNScTZncGttamprSVNZVmNLWDdiTkZmSzdwMkFWdGtnTzdVNWZEVkhnZ2JCeTJHZ211c1ItVW5zZE41Q0k1RDN2QW90aUlPWXdhdWxwOHFBYnV3U3FCcFJneElkNUZn?oc=5) — **뉴스홈(newshome)** · 11-11 08:22
 - [미국 최대 공영 전력망 TVA, 47년 묵은 부채 한도에 원전 투자 압박](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XeTVvSEFUVEFnbDVUZ2hLRUU3b2I5Z2FmYnZmNU91YXBXZldpRUszaGljZ2FPQTNjS0FDZG5DRmFsU0s0Sm92YnU3UlRocmhEc185SkNwTTB2WDUwZXJGVWhLZ3o?oc=5) — **에너지안전신문** · 11-11 08:14
-- ["12조 서해안 전력망"···효성·HD현대·LS·대한 각축](http://www.enewstoday.co.kr/news/articleView.html?idxno=2490888) — **이뉴스투데이** · 11-11 08:00
-  - 바꿔 전력망에 연결한다. 이 과정에서 컨버터 밸브는 교류와 직류를 서로 바꾸고, 제어기는 전력 흐름을 조절한다. 변환용 변압기는 교류 전력망과 변환 설비 사이에서 전압을 맞춘다. 정부는 2027년…
 
 ---
 
