@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-11
-modified: 2026-11-11T09:42+09:00
+modified: 2026-11-11T10:11+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-11 09:42 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-11 10:11 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-11|11-11 클리핑]] — 기사 **162건** (국내 102 · 해외 60)
+> [!example] [[radar/news/2026/11-11|11-11 클리핑]] — 기사 **167건** (국내 106 · 해외 61)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -84,8 +84,17 @@ modified: 2026-11-11T09:42+09:00
 
 ## NDC
 
-### 국내 · 12건
+### 국내 · 14건
 
+- [인천시, 유엔기후총회서 '2045 탄소중립' 비전 발표](https://news.ifm.kr/news/articleView.html?idxno=484052) — **경인방송 뉴스** · 11-11 09:56
+  - 인천시가 '제31차 유엔기후변화협약 당사국총회(COP31)'에서 국가 목표보다 5년 앞선 '2045 탄소중립' 전략을... 현장에는 국내외 기후·환경 전문가와 국제기구 관계자들이 참석해 지방정부의…
+  - 관련 보도 1건: [글로벌이코노믹](https://www.g-enews.com/view.php?ud=2026111109515845729ae5042aca_1)
+- [지역난방공사, 청주지사 친환경 개선사업 완료 등 NDC 달성 위한 적극 행보](https://news.google.com/rss/articles/CBMirgJBVV95cUxQNEtoV3ZXNTA3WDhSWTJ1b1VyZWl1MjBuaTBDcmhHZU9SNWpFQmFIWWVraE1VSmFaUWJaTTBsZUR2Vl9VOHd5MlNSRnY3NWtWaGNKb1pnT2NvMG5LYWl0VWNJOE1IM0lScWJoa1hCUzZJdnVBQWYxU0FVWUl1M2FyYUpaaldrZUp1QU9WR0RVcmc3QzFfMFJDRlhYRzFIa2FnbmF0dm1tWDdBaGNPZEJSVzJ2MU5kTnVQTmE3aHlFLXpSSmpTMnA3XzNiUmhiVWxFc0M3emZPVkhzTTM5TUVqWWdLRzZMQUdELVBrclVQSzREdnVWVzZaWEEzV2dlQnV3QU5neDcwbW5pYVhUVm8tTFpwUGR2LWVRekJrQlRVQjZ4Z2RIejFHcmlwNXRBZw?oc=5) — **데일리안** · 11-10 16:41
+  - 관련 보도 1건: [에너지타임뉴스](https://news.google.com/rss/articles/CBMickFVX3lxTE40MnNDU3FlU0ZuSUdWcXMzTTU4VkRYQmtPV1BhWnB5WUFEQV9OWW5OZ295Z1UyUVVCeG8wNjBVQ24wT29MRjI4THRfT1RmNGdZSHRHSkJrVHVvSFNYcG00dG5HbjY1dmN3RkhEVkUxUDhjQdIBdkFVX3lxTE9FaUdaNnQtTnlkTmpScVFSc09aMFdkbDE3cTg1SUVMVjZFbE00dUthR0FKLTF2a0JqQzVBSHhLZlo0RjJxZlBQbm5ZOHg3OVphZWpZTldldFRqMU1BbTN2eVhzOV9MRWstWnJ0bURKeEk0cEpIZmc?oc=5)
+- [\[특별 기고\] 기후위기 시대, 학교 온실가스 감축과 학생 안전의 동행](https://www.goodmorningcc.com/news/articleView.html?idxno=455553) — **굿모닝충청** · 11-11 10:00
+  - 나아가 학교 온실가스 감축을 위한 조례 제정의 필요성에도 관심이 모이고 있다. 이는 개별 학교의 자발적... 학교별 감축 목표와 이행체계를 체계적으로 관리하고, 시설 개선과 교육활동을 연계할 수 있…
+- [서울시의회 임춘대 의원, 물재생센터의 온실가스 초과배출과 에너지 자...](https://www.cnbizm.com/news/articleView.html?idxno=321038) — **cnbizm.com** · 11-11 09:52
+  - 임 의원은 배출권 구매에 따른 하수도 재정 부담을 줄이기 위해 에너지 효율 개선과 온실가스 감축사업을 적극 추진해야 한다고 강조했다. 이어 서울시가 제시한 2030년 에너지 자립률 50%, 2040…
 - [인천시, COP31서 '2045 탄소중립' 전략 발표...지방정부 기후협력 확대](https://www.kmaeil.com/news/articleView.html?idxno=657749) — **경인매일** · 11-11 09:22
   - 발전시설이 입지한 지역의 특성상 온실가스 감축 목표를 달성하려면 발전 부문의 전환과 지역 차원의 이행 정책이 함께 추진돼야 한다. 이에 따라 국제세미나에서 소개한 감축 전략이 실제 에너지 전환 일정…
 - [인천시 COP31서 ‘2045 탄소중립’ 승부수…글로벌 기후외교 전면에](https://www.viva100.com/article/20261111500167) — **브릿지경제** · 11-11 09:14
@@ -98,19 +107,13 @@ modified: 2026-11-11T09:42+09:00
   - 1년 전인 지난 2025년 11월11일 정부는 국무회의를 통해 대통령 직속 '2050 탄소중립녹색성장위원회(이하 탄녹위)'가 마련한 '2035년도 국가 온실가스 감축 목표(NDC)안'을 의결했다.…
 - [정부, 2035년 온실가스 53\~61% 감축 확정…탄녹위 의결 거쳐 COP30서 발표](https://www.dailyt.co.kr/newsView/dlt202611110012) — **데일리환경** · 11-11 07:30
   - 정부가 2035년까지 온실가스 배출량을 2018년 대비 53\~61% 줄이는 국가 온실가스 감축목표(NDC)안을 확정했다. 2050 탄소중립녹색성장위원회(탄녹위)가 10일 정부서울청사에서 전체회의를…
-- [한난, 청주지사 친환경 개선사업 완료 등 NDC 달성을 위한 적극 행보](https://news.google.com/rss/articles/CBMickFVX3lxTE40MnNDU3FlU0ZuSUdWcXMzTTU4VkRYQmtPV1BhWnB5WUFEQV9OWW5OZ295Z1UyUVVCeG8wNjBVQ24wT29MRjI4THRfT1RmNGdZSHRHSkJrVHVvSFNYcG00dG5HbjY1dmN3RkhEVkUxUDhjQdIBdkFVX3lxTE9FaUdaNnQtTnlkTmpScVFSc09aMFdkbDE3cTg1SUVMVjZFbE00dUthR0FKLTF2a0JqQzVBSHhLZlo0RjJxZlBQbm5ZOHg3OVphZWpZTldldFRqMU1BbTN2eVhzOV9MRWstWnJ0bURKeEk0cEpIZmc?oc=5) — **에너지타임뉴스** · 11-10 21:24
 - [\[NIE\] 기후 재난 비용, 누가 지불해야 할까?](https://www.jjan.kr/article/20261110500026) — **전북일보 인터넷신문** · 11-10 18:18
   - CCPI는 한국이 2035년 국가온실가스감축목표(NDC)를 2018년 대비 53\~61%로 정한 데 대해 “전문가들은 61% 이상의 야심찬 목표 채택을 권고한다”고 밝혔다. 또 “기후 대응 부실을 위…
 - [국제사회 탄소 감축 압박 직면한 한국, 전력망 부족과 해외감축 한계](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Xc3NFQkxTWWcxY25yZS1JbmV6ODBoNTdRcHlIWURQd3pvcWNfY0ExT1FRbzdOT3dtRlBCQTJUVllINjA0ZjJCLU5FX2ZrRFh1QzZGOUVrclc3WGZ0Q0UwQ2loR2ZSUDTSAWpBVV95cUxOWU4zdHVSa2FLa3VkMFZnenhUcHI4dFMyLUgybTZ0bU5JZmdQNTRQY0R1MUt3WVU4Q25RQzAwRk1hS2RLM2xIMHJ1ZlY4MllZdlIteGt1ZnBGRnNFYnBVU2hvTHBocVZwbHln?oc=5) — **파인드비** · 11-10 17:45
-- [감축실적 과장에 인권침해 논란까지...산림청 '해외 감축 사업' 부실 도...](https://www.newspenguin.com/news/articleView.html?idxno=22415) — **뉴스펭귄** · 11-10 17:26
-  - 산림청은 2030년까지 이 사업으로 최대 530만t의 감축실적을 확보해 국가 온실가스 감축목표(NDC) 달성에 쓰겠다는 계획이다. 숲 오히려 줄었는데 감축실적 64만t 가장 먼저 시작한 캄보디아 툼…
-- [한국지역난방공사, 충북도·기후부와 미활용열 활용 협력…청주 LNG발전...](https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065597597522908) — **메가경제** · 11-10 16:26
-  - 국가 온실가스 감축목표(NDC) 달성과 열에너지 분야의 탈탄소 전환에도 힘을 보탤 방침이다. 이날 청주지사에서는 친환경발전소 개선사업 준공식도 열렸다. 행사에는 국회의원과 충북도지사, 충북도의회 의…
-- [첫날부터 삐끗한 COP31… ‘기후재원’ 의제 놓고 신경전](https://www.hani.co.kr/arti/society/environment/1286625.html) — **한겨레** · 11-10 15:58
-  - 2024년 아제르바이잔 바쿠 총회에서 합의한, 2035년까지 연간 1조3천억달러의 신규 기후재원을 조성한다는 ‘신규 집합 정량 재원목표’(NCQG)의 이행 방안을 논의하는 틀거리 성격이다. 선진국이…
 
-### 해외 · 5건
+### 해외 · 6건
 
+- [Climate plans: CAPPA warns against fossil fuel expansion, corporate capture](https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHFMdFNUVFloUEtrUVRUYzRqekNCUWhqQWxkUEtoUW1tY3JZNVREWUFPSEYySG1ialhjb0NQRURPT3FaWkswYWc5Q19hUmQ1dWJsem5jVXJNREltcjNmUG1VYWlkcW9xd2tISGM5V2dYbDVIWTFCZVlYUWZzSUd0WFVzN2VCZkQ2VlBYOEdINWNrUVlJYzdxVlRGYmRCSGxleXJlQnMwUlJ2ZlViUFdDeTln0gG3AUFVX3lxTE1rSzBfYU8wWGxtX2ViRF9TYlJ3MlM2Q0gwaXlLdGJSdjVYZkFXMEFWWDJrMGdLamdMbVRKN2hfV3dOUFJfc3BvYW02N0w3SW4zazlPSTFQTmlRSFJFUU9KdExJSWpKdFEzSmNBVWItdXJ4QnpxeVYxRmU5aWktWWo0RDVvcWJ5bEJTZVFpUGZMdzE4aXcwRjdWY182T2ZuTFU0aWtOZjhzaGRPa2ZsZW5YNjBCZzdpRQ?oc=5) — **Vanguard News** · 11-11 09:45
 - [COP31 Presidency adopts CCG-supported approach to turn climate ambition into investment](https://news.google.com/rss/articles/CBMiogFBVV95cUxPcjQ4ZzdCcklmMk1LbUdjTVZkRTFfcG9McFM3cHZsbms3N2J3bUxIcWJQMkQxemdwSDJWenVHR3VvaERFR01wZ2RqRHBlTW1UT0xhYkFoTHkxNjhnNVA2WlFPd0pjM05SQ0xhbUp4dGVHeU0wN2RURXVZTzhpckQzRGNHcTZHckZGOTVuLXR4WjYzdFM1Wl9pQVFFcXp3dGZKdVE?oc=5) — **Loughborough University** · 11-11 02:37
 - [Cambodia targets 55% emissions cut by 2035, net-zero by 2050 at COP31](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZE05NGdRWVVhbXV5Q3hwTDBZQ3Z0N3pnRGVaR254LS1sY2lMT0Vubm8tS3NMYl9JZjBtSmVzTVJaY2JnUzg4dTE4R2FaUEJEbjk5elJPTW5vNzhwRkw1eGhGWFFfd3JRZS04dWp3QU5CU2c1Q3B1cEZJMXR1Y0hVQ1g1cFJnNklBcFpvUHQ4ZUxRZXhsVGVvZmJRNzJza1J3Y1lJd2paRWRmNGc?oc=5) — **Khmer Times** · 11-11 02:17
 - [Libya releases first NDC, mulls carbon tax and market development](https://news.google.com/rss/articles/CBMitAFBVV95cUxPdTEzVzcyMndzcnZaVFV1bExMazNTWXF3N2FlWkF5cnlIYnJNSFVyNTBETF9vVzJ0X192MGM0TGg3eVVFUUhqVU01WmZVOThLME9MUC12QXlwa2kybkFHSWdicTlRS0FvVHk4djFHLUNEbXFWMEpsYXYyV2g3azFlSTZNOHJMdUUtd25qTV9LVUowMHpNN3JSZTBMWWJCNk51YkVPWVRaZDdzcjFiVXlGMlFkWWI?oc=5) — **Quantum Commodity Intelligence** · 11-11 00:09
@@ -188,6 +191,7 @@ modified: 2026-11-11T09:42+09:00
 - [LG 빠지자 ESS 배터리값 상승?…‘팔 곳’ 찾던 배터리, 이젠 ‘살 사람...](https://www.khan.co.kr/article/202611101448001) — **경향신문** · 11-10 14:48
   - 남는 전기를 저장했다가 필요할 때 꺼내 쓰는 대규모 배터리 설비인 에너지저장장치(ESS) 시장에서 배터리 업체의 가격 협상력이 커지고 있다. 1·2차 정부 입찰 때는 물량을 따내려고 가격을 낮추는…
   - 관련 보도 1건: [경향신문](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVjlSbTRiQjlSQ0dMQVpIQUNrZEd0bGV0RE1sR0ltYmxiMTN5dGJleXZiUkhhbjBOVzVBRW12ZzM0NkNxYlQ3OHhuanpSQWtPR0hiM1BJWkdGY2p5Vk43YWxRRG44dG9FbVNrY2tQTTgydUVBRTdZbURIUlNLRVVPMk1yVThVc0xhU0dxR295aW43a0pEcDltVWF3SFJFcFFVU3FGcHNMWEc2d9IBX0FVX3lxTE5rckZWdDBLR0prQy1kNjFUdm9kYjNiSUhZWDRqTTdCbnNwN2d0QUZMU28xNzJBTklHbHJRVzJfSlZmYU93RXF1ekJxeUlPUTVfT3dVSmVWVjF4MmZXUVpz?oc=5)
+- [자비스, 배터리 폼팩터·ESS까지 검사장비 공급 확대](https://news.google.com/rss/articles/CBMic0FVX3lxTFB6cnpXOVFmbnFGNzhkNDM1ckJpQlRERV9rQ0RMTGJUSzJoVXZ0b0lnZS01MDIzLWN0Smw3ZS1zdHdOeVVseHFCRk5jbXVkRjlHVmZvMDI4NGFLUkNZMEYxTUswOXR5VHAyZ0EzczZ2WERrelE?oc=5) — **데이터투자** · 11-11 10:07
 - [자비스, 배터리 전방위 폼팩터 및 ESS용 X-ray 검사장비 공급 확대](https://www.mtnews.net/news/articleView.html?idxno=26496) — **기계신문** · 11-11 09:40
   - 산업용 X-ray 검사장비 전문기업 자비스가 전방위 배터리 폼팩터와 에너지저장장치(ESS)용 배터리 등으로 검사장비 공급 영역을 확대하고 있다. 자비스는 올해 고속 CT 검사기술력을 인정받은 데 이…
 - [\[블루웨이브의 파고①\] 데이터센터 규제 칼 빼드나…배터리 3사 ESS 전략...](https://www.mediapen.com/news/view/1136183) — **미디어펜** · 11-11 09:32
@@ -205,7 +209,6 @@ modified: 2026-11-11T09:42+09:00
   - 2분기 흑자 조기 달성 배터리 영업익 3619억 美 ESS 60GWh 수주 삼성SDI 기흥사업장 전경 \[사진\=삼성SDI\] \[뉴스투데이\=박혜성 기자\] 삼성SDI가 에너지저장장치(ESS)와 인공지능(A…
 - ["대형 전력망 동맹 확산"… CATL·EVE·LG엔솔 등 7개사, ESS 메가딜](https://www.g-enews.com/view.php?ud=2026111017342560260c8c1c064d_1) — **글로벌이코노믹** · 11-11 05:26 · 전력망
   - 태양광과 ESS 전문 기업 JA 솔라(JA Solar)는 최근 동유럽 불가리아 세블리예보의 산업·상업용(C&I) 에너지 저장 프로젝트에 자사의 올인원 ESS 장비인 'JAPlanet' 6대(총 규모…
-- [삼성SDI, 美 AOP와 1.5GWh ESS 공급 계약 확대](https://news.google.com/rss/articles/CBMia0FVX3lxTFBMRXRDQW40RFZVakd3VS1UeGV4MXdiTjl4RW1TRnNGeHo2djdFeC1iemxCYlFzbDNsSGt1Ykgzazk2NmZrOXM1czdyT2VzU3Q1aS1paHdURkEwYU85YmRoQTBfdnp3NFJKUFpv?oc=5) — **한국신용신문** · 11-11 05:26
 
 ### 해외 · 15건
 
@@ -233,6 +236,14 @@ modified: 2026-11-11T09:42+09:00
 
 - [SBTi, 시장수단 활용 감축에서 '같은 전력망' 원칙 구체화…재생E '어디서 사느냐' 중요](https://news.google.com/rss/articles/CBMibEFVX3lxTE93SXVtYUp1eWtzMU1WVzBOd0ZlR1dabldBellBZklIanJBYmtYcWpCWVNXTmtmMTdPWWlNR3RISHdGMzRmMnBnTnF4LWxIcDF6ZlUxMkxMaXBjc3RsU3lGSVdyZVV2OXA3MUJvUA?oc=5) — **ESG경제** · 11-10 15:40
   - 관련 보도 1건: [ESG경제](https://www.esgeconomy.com/news/articleView.html?idxno=17324)
+- [LS머트리얼즈·LS일렉트릭, '재생에너지·AIDC' 전력망 시장 선점 나선다](http://www.epj.co.kr/news/articleView.html?idxno=39740) — **일렉트릭파워** · 11-11 10:06
+  - LS머트리얼즈·LS일렉트릭, '재생에너지·AIDC' 전력망 시장 선점 나선다. LS머트리얼즈와 LS일렉트릭이 재생에너지 확대와 AI 데이터센터(AIDC)의 전력 수요 증가에 대응해 차세대 전력망 안…
+- [전력거래소, '전력계통 생생 현장'... 리더들과 에너지 소통](https://www.newsworker.co.kr/news/articleView.html?idxno=513372) — **뉴스워커** · 11-11 09:52
+  - 안정적인 전력망 유지의 실질적 가치를 공유하기 위해 기획됐다. 이날 현장에는 장찬주 동신대학교... 교육 프로그램에서는 국가 전력산업의 전반적인 동향을 조망하고 일상에서 전력망의 뼈대를 지탱하는 핵…
+- [김형동 "전력망, 대한민국 근간…에너지 정책에 정치 개입 안 돼"](https://www.news1.kr/economy/trend/6350084) — **뉴스1** · 11-11 09:50
+  - 김형동 국민의힘 의원은 11일 "전력망이 대한민국을 이끌어 가는 가장 중요한 근간"이라고 강조했다. 국회... 김 의원은 "원전 복원과 소형모듈원자로(SMR) 육성, 전력망 확충 등 현 정부의 에너…
+- [고속도로에 송전망 함께 놓는다 … 도로공사, '에너지고속도로' 사업 본...](https://biz.newdaily.co.kr/site/data/html/2026/11/11/2026111100048.html) — **뉴데일리** · 11-11 09:50
+  - 11일 도로공사 도로교통연구원에 따르면 공사는 '고속도로 기반 전력망 공동건설 정책·기술 적용성 및 사업화 추진방안 연구'를 추진한다. 핵심은 고속도로가 확보한 용지와 상·하부 공간, 유휴부지에 송…
 - [기후장관 "3대 메가 전력망 적기 확충…유연한 계통접속 확대"](https://www.news1.kr/economy/env-policy/6350058) — **뉴스1** · 11-11 09:36
   - 추진하고 전력망을 적기에 확충하겠다고 밝혔다. 김 장관은 이날 서울 용산구 나인트리 프리미어 로카우스... 전력망 확충과 기존 설비의 효율적인 활용도 강조했다. 김 장관은 주민과 충분히 소통하며 전…
 - [호남 반도체 전력망 내년 1월 착공…전력공급 인프라 구축 속도](https://www.etnews.com/20261111000022) — **전자신문** · 11-11 09:31
@@ -244,13 +255,6 @@ modified: 2026-11-11T09:42+09:00
 - [미국 최대 공영 전력망 TVA, 47년 묵은 부채 한도에 원전 투자 압박](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XeTVvSEFUVEFnbDVUZ2hLRUU3b2I5Z2FmYnZmNU91YXBXZldpRUszaGljZ2FPQTNjS0FDZG5DRmFsU0s0Sm92YnU3UlRocmhEc185SkNwTTB2WDUwZXJGVWhLZ3o?oc=5) — **에너지안전신문** · 11-11 08:14
 - ["12조 서해안 전력망"···효성·HD현대·LS·대한 각축](http://www.enewstoday.co.kr/news/articleView.html?idxno=2490888) — **이뉴스투데이** · 11-11 08:00
   - 바꿔 전력망에 연결한다. 이 과정에서 컨버터 밸브는 교류와 직류를 서로 바꾸고, 제어기는 전력 흐름을 조절한다. 변환용 변압기는 교류 전력망과 변환 설비 사이에서 전압을 맞춘다. 정부는 2027년…
-- [연자성 재료 시장 2035년 전망: 전력망 개보수와 전기차 모터가 성장 견인 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQkJMaUdjeHNmYkR3MktBMTlGQjlVUlJhcXZROXhRZ0R0TTFMeFd1VW5VMDlDR0NMbU1sUnNzT1lKVlBobWNERnVlTG5VWjdoS0syYWs4RXRkMkFFcEIxd3JFVE5heWJaOVpJeGx4QWhYTUs3djl5SnBnUkNEWTktMnZqTWdnZFZhRnFoOVdaYzBzcVFQVmpJeTBvbmZwVHhaMmRBbzdUTnRtVlRlMkNfWnV4cnk1dFRqcVBPcjNRZ3VVRHJjSmg0ZA?oc=5) — **IndexBox** · 11-11 07:16
-- [\[머스크 승부수\] "전력망 대기 넌더리" 스페이스X, 가스 발전 승부수… 대규모 독자 인프라 구축](https://www.cbci.co.kr/news/articleView.html?idxno=625273) — **CBC뉴스** · 11-11 06:30
-  - 데이터센터에 자체 발전소를 두면, 텍사스 주력 전력망에 연결될 때까지 수년이 소요되는 상황을 피할 수 있다는 설명도 전해졌다. 스페이스X는 구글, 앤트로픽 등 기업에 컴퓨팅 자원을 임대하고 있으며,…
-- [리투아니아, 안보 위협 돌파구로 8억 8000만유로 투입 전력망 분산화 단행](https://www.g-enews.com/view.php?ud=2026111106143157872bd56fbc3c_1) — **글로벌이코노믹** · 11-11 06:24
-  - 리투아니아가 전력 계통을 7개 자립 구역으로 나누고 발전소 10곳을 새로 짓는 대규모 전력망 분산화 사업을... 중앙 전력망의 핵심 노드가 차단될 경우 장기 정전으로 이어질 수 있다는 위기 인식에서…
-- [고속도로 송전망, 해외선 가동 중…국내 사업화는 비용이 변수](https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611101120049390375) — **대한경제** · 11-11 06:22
-  - 경기연구원도 초고압 기준 고속도로 지중 회랑(전력망이 지나는 통로) 공사비를 ㎞당 200억\~250억원으로 추산했다. 가공 송전선로(약 60억원)의 3\~4배 수준이다. 업계 관계자는 “고속도로를 활용…
 
 ---
 
@@ -290,10 +294,15 @@ modified: 2026-11-11T09:42+09:00
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 15건
+### 국내 · 16건
 
 - [한국서부발전, 경희대와 에너지전환 협력 확대](https://news.google.com/rss/articles/CBMimgFBVV95cUxPOG1fMU1RSno5ejNiUDBEUHBrWVFFcXV4SmJRbDRUTzlwR0tJUWdNTXZKbWtxTWc4NWpzWXBlOHhlZlRDX2NLRjVsVi1uZHoxSjJjajVIN0FFbmJla2tFcFNVTkFTT0RtRWhpREhfenVrUnlwR00wMHlqdzhUNF9vQ1lBeC1yWkZEaU9XczNiVjZReTEwQlVFdURn?oc=5) — **Traders Union** · 11-10 10:25
   - 관련 보도 3건: [넷제로뉴스](https://news.google.com/rss/articles/CBMibkFVX3lxTE4yMjNFSkZMTEM2MlNUV0IyZnQ4Nk1nc2VwZkxCSmxQNENWdXh5cllPeHFzdVJaOGF5TGVoVkJDVXR5Unc4N1VQNDAzMDBaS01FQUNRTlZ2YmYzVWRjbkMzYVRSTk1TVEZnb0kyTDhB0gFuQVVfeXFMTjIyM0VKRkxMQzYyU1RXQjJmdDg2TWdzZXBmTEJKbFA0Q1Z1eHlyWU94cXN1Ulo4YXlMZWhWQkNVdHlSdzg3VVA0MDMwMFpLTUVBQ1FOVnZiZjNVZGNuQzNhVFJOTVNURmdvSTJMOEE?oc=5), [더트래커](https://thetracker.co.kr/View.aspx?No=4306052), [파이낸셜뉴스](https://www.fnnews.com/news/202611101822329048)
+- [장동혁 “통합발전공기업 본사 최적지는 충남…국가 에너지 전환 중심지...](https://www.ekn.kr/web/view.php?key=20261110024377898) — **에너지경제신문** · 11-10 18:32
+  - 이에 통합본사 유치를 통해 지역경제 충격을 완화하고 충남을 에너지 전환의 거점으로 육성해야 한다고 강조했다. 발전공기업 5개사 통합본사 입지 선정을 주도하는 기후에너지환경부는 충남이 국가 전력 공급…
+  - 관련 보도 1건: [기후에너지데이터뱅크](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqZmMwbG1xOC1oVmxMcHNIbWZ3SEpLY1VuaG80S1NEU3VfN29kYTR6YXc0a0ZXYkl2UF84YTVzQVhmc0x2NEdVYWJxb0s2WHhvNlp2eG5MMzlwdVVkQVE?oc=5)
+- [\[기획\] '에너지 대전환' 시흥형 RE100이 주목받는 이유](http://www.enewstoday.co.kr/news/articleView.html?idxno=2490919) — **이뉴스투데이** · 11-11 09:50
+  - 주차장에는 태양광과 그늘을 조성하고, 공공시설의 RE100 실천과 환경‧에너지교육, 에너지 전환 확산에도 활용한다. 기업참여형은 민간투자로 공영주차장 태양광을 설치하는 사업이다. 시는 공영주차장 1…
 - [국내 첫 '세계태양광총회' 대전서 개최… "글로벌 에너지 전환 선도"](https://daily.hankooki.com/news/articleView.html?idxno=1423886) — **데일리한국** · 11-11 09:22
   - 세계적 석학들의 강연과 국제 협력 세션을 통해 태양광 기술 최신 동향과 에너지 전환 미래 발전 방향을 공유할 예정이다. 개막일인 15일에는 대전엑스포시민광장과 DCC 제1전시장에서 시민 1500여…
 - [발전공기업 통합 논의에 충남 유치전 본격화…“발전산업 기반·에너지 전환 함께 봐야”](https://news.google.com/rss/articles/CBMibEFVX3lxTE9RRzZZN2dHYmJ4ZFFtQ3lMbWlBMDRyeXFMQkU5cm1tc2tCMTk4VlpBWWQ0ZnVQblRZYmxfY0hKa3pZY0ZBMzNIdF9vbjd4WGl0WnlpdXBMWnE5aXpSVnp0d1pPVVgzZHQ4STllYg?oc=5) — **농수축산신문** · 11-11 09:13
@@ -308,8 +317,6 @@ modified: 2026-11-11T09:42+09:00
   - 한국남동발전이 에너지전환 과정에서 안정적인 전력공급을 유지하면서 재생에너지와 무탄소에너지 중심의 미래 사업구조를 구축하기 위한 중장기 전략 논의에 나섰다. 지난달 취임한 이현빈 사장이 경영진과 주요…
 - [오늘날의 에너지 전환 - 청정기술 혁신이 경제 성장과 경쟁력을 견인한다](https://news.google.com/rss/articles/CBMiigFBVV95cUxOUE9Xc3M3NHo5eXNQcWcxN3lnSGw2SnNHaXdfYWl2dS1EbHl1N093VWNjU25URjVDbHJYVzZ0YTVRNkRxVzNPaEVhdmtXUE5NampVMG85RXNGUU53Z1hLek1kbWRsU2t5YVJLSmF3cWxSM3NFV1l2WlJGb25udmJuaFpHaEIzNURtZmfSAY8BQVVfeXFMT2xYYTdLUVF1OXJhUE9MTF9KNHYyamdqMTJrcXA3NjVrZHR5a3FXQ0ZOendlNS0xaGRDeEdnR1FNbVR1YTl5ejVWczlaSU1nU1F5akpVQ29fdl9uSzdhMkVBNjdhWVJhaXlJNjZ0NmljVmpueENRMThOeG1zOUxYdXRzbW1zU1BLdFFxbFBycXc?oc=5) — **Simply Wall St** · 11-10 20:07
 - [한국서부발전, 경희대와 업무협약…중소기업 ESG 경영·에너지 전환 협력 강화](https://news.google.com/rss/articles/CBMiRkFVX3lxTE0zSVFaOUlCQWRpMV9ISkEwMHBfYi04Q0hJeGNSSXRmNGlSTVh6dTNhLVNtWE1MYnloZ3IxdC1NelZCVU5Sc0E?oc=5) — **뉴스충청인** · 11-10 19:38
-- [장동혁 “통합발전공기업 본사 최적지는 충남…국가 에너지 전환 중심지 돼야”](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqZmMwbG1xOC1oVmxMcHNIbWZ3SEpLY1VuaG80S1NEU3VfN29kYTR6YXc0a0ZXYkl2UF84YTVzQVhmc0x2NEdVYWJxb0s2WHhvNlp2eG5MMzlwdVVkQVE?oc=5) — **기후에너지데이터뱅크** · 11-10 19:10
-- [충북도, 재생·미활용열 확대 업무협약…에너지 전환 가속](https://news.google.com/rss/articles/CBMibEFVX3lxTE4tdERlTVFQOUptWmxvV3VHMnVNeVRPR1gybFVBX2tiLVVGSllNY2Y0STgteldqX1FvSERNaVpZZU8yaWR5MGI4RVRRbFI2VDEyRmRHWjJhYmdzbXYzaWRvZk5YbWFVT3FuS1NKcg?oc=5) — **충청도민일보** · 11-10 18:18
 
 ### 해외 · 17건
 
@@ -334,8 +341,9 @@ modified: 2026-11-11T09:42+09:00
 
 ## 냉매
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [키갈리 개정서 10주년…“냉매 규제·자연냉매 전환 지원 아우르는 통합 정책 필요”](https://news.google.com/rss/articles/CBMiakFVX3lxTE83TmZxVEV2ZGJGdm95TjZHRF8zMFdHYkZjMkFaZkZrOTZUZUs3cmFsdVZnTHFPRlUxbW1LQXpNV1RkaVpBSWJGRTBOWmsxQnBlN2tvN1VUd3BmanQ3eW5NYWpRZzg5NVVHMkE?oc=5) — **냉동공조저널** · 11-11 09:55
 - [국제티엔씨, 소형 상업용 냉동시장 자연냉매 전환 공략](https://news.google.com/rss/articles/CBMiZkFVX3lxTE14SG5xQnlhZEVpOUZYeU4xdWNxRmFEZHhlSUZjbnhWR3RHQ1V3R1FnVnBNdFBMbU8wa1p0NnNZaExsU2R6OWdRVUlwYkd1dDBJTE5DVVlQLVVrdjQ4eVFQRWNfbW5qUQ?oc=5) — **콜드체인뉴스** · 11-11 04:09
 
 ### 해외 · 1건
