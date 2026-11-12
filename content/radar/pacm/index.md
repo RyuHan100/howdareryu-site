@@ -2,16 +2,15 @@
 title: PACM
 description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 30일 변경 하이라이트.
 tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]
-date: 2026-11-12
-modified: 2026-11-12T09:33+09:00
+date: 2026-11-13
+modified: 2026-11-13T08:31+09:00
 ---
 
 > 출처: [UNFCCC CDM — Activities transitioned to A6.4](https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html) · [UNFCCC 전환 안내](https://unfccc.int/process-and-meetings/the-paris-agreement/paris-agreement-crediting-mechanism/CDM_transition)  
-> 마지막 확인: **2026-11-12 09:33 KST** · 마지막 변경: **2026-11-11** · 총 **40건** (PoA 15 · PA 25) · 연간 추정 감축량 합계 **15,041,973 tCO₂e**
+> 마지막 확인: **2026-11-13 08:31 KST** · 마지막 변경: **2026-11-11** · 총 **40건** (PoA 15 · PA 25) · 연간 추정 감축량 합계 **15,041,973 tCO₂e**
 
-> [!success]+ 최근 30일 내 변경 2건 (신규 2 · 삭제 0 · 수정 0)
+> [!success]+ 최근 30일 내 변경 1건 (신규 1 · 삭제 0 · 수정 0)
 > - **2026-11-11** 🆕 신규 전환 승인 — [PA 10690] [102 MW Gulpur Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=BVQI1630489946.47) (Pakistan)
-> - **2026-10-13** 🆕 신규 전환 승인 — [PA 10661] [Methane capture project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228757.17) (Indonesia)
 
 ## PoA (프로그램 활동) — Article 6.4 전환·등록
 
@@ -39,7 +38,7 @@ modified: 2026-11-12T09:33+09:00
 |---|---|---|---|---|---|---:|---|
 | 10749 | 2023-08-03 | [Energy efficient equipment in mix use LE PARC project](https://cdm.unfccc.int/Projects/gotoProj?id=ICONTEC1678484342.04) | Ecuador | - | AMS-II.C. ver. 15 | 1,768 | 기준선 |
 | 🆕 ==10690== | 2021-09-01 | ==[102 MW Gulpur Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=BVQI1630489946.47)== | Pakistan | - | ACM0002 ver. 20 | 238,748 | 2026-11-11 |
-| 🆕 ==10661== | 2021-02-25 | ==[Methane capture project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228757.17)== | Indonesia | - | AMS-III.H. ver. 19 | 49,101 | 2026-10-13 |
+| 10661 | 2021-02-25 | [Methane capture project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228757.17) | Indonesia | - | AMS-III.H. ver. 19 | 49,101 | 2026-10-13 |
 | 10660 | 2021-02-25 | [Methane capture project](https://cdm.unfccc.int/Projects/gotoProj?id=KBS_Cert1614228532.23) | Indonesia | - | AMS-III.H. ver. 19 | 49,190 | 2026-10-01 |
 | 10632 | 2020-12-23 | [Hasang Hydro Electric Power Plant](https://cdm.unfccc.int/Projects/gotoProj?id=EPIC_Sust1608102848.83) | Indonesia | - | ACM0002 ver. 20 | 216,320 | 기준선 |
 | 10562 | 2020-07-31 | [Reducing Gas Leakages within the Pashchimanchal Gas Distribution Network in Bangladesh](https://cdm.unfccc.int/Projects/gotoProj?id=RINA1583328291.33) | Bangladesh | Republic of Korea | AM0023 ver. 4 | 99,868 | 기준선 |
