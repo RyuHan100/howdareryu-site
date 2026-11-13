@@ -2,12 +2,12 @@
 title: PACM
 description: UNFCCC CDM → Article 6.4 (PACM) 전환·등록 승인 활동 목록. 매일 자동 갱신, 최근 30일 변경 하이라이트.
 tags: [PACM, Article6.4, CDM, 탄소시장, 모니터링]
-date: 2026-11-13
-modified: 2026-11-13T08:31+09:00
+date: 2026-11-14
+modified: 2026-11-14T08:28+09:00
 ---
 
 > 출처: [UNFCCC CDM — Activities transitioned to A6.4](https://cdm.unfccc.int/ProgrammeOfActivities/deregistered.html) · [UNFCCC 전환 안내](https://unfccc.int/process-and-meetings/the-paris-agreement/paris-agreement-crediting-mechanism/CDM_transition)  
-> 마지막 확인: **2026-11-13 08:31 KST** · 마지막 변경: **2026-11-11** · 총 **40건** (PoA 15 · PA 25) · 연간 추정 감축량 합계 **15,041,973 tCO₂e**
+> 마지막 확인: **2026-11-14 08:28 KST** · 마지막 변경: **2026-11-11** · 총 **40건** (PoA 15 · PA 25) · 연간 추정 감축량 합계 **15,041,973 tCO₂e**
 
 > [!success]+ 최근 30일 내 변경 1건 (신규 1 · 삭제 0 · 수정 0)
 > - **2026-11-11** 🆕 신규 전환 승인 — [PA 10690] [102 MW Gulpur Hydropower Project](https://cdm.unfccc.int/Projects/gotoProj?id=BVQI1630489946.47) (Pakistan)
