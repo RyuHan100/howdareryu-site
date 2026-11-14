@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-14
-modified: 2026-11-14T09:55+09:00
+modified: 2026-11-14T10:23+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-14 09:55 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-14 10:23 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-14|11-14 클리핑]] — 기사 **163건** (국내 85 · 해외 78)
+> [!example] [[radar/news/2026/11-14|11-14 클리핑]] — 기사 **166건** (국내 88 · 해외 78)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -20,8 +20,10 @@ modified: 2026-11-14T09:55+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 7건
+### 국내 · 8건
 
+- [한국형 자발적 '탄소시장' 논란 …시민사회 “졸속 추진 중단하고 원점 재검토해야](https://www.ngonews.kr/news/articleView.html?idxno=243038) — **한국NGO신문** · 11-14 10:10 · 국제감축 / Article 6 · 자발적 탄소시장 / VCM
+  - 국내 탄소 감축을 촉진하기 위해 정부가 추진하는 '한국형 자발적 탄소시장'을 둘러싸고 우려의 목소리가 커지고 있다. 시장 확대에 앞서 탄소 감축 실적의 신뢰성과 검증 체계부터 마련해야 한다는 시민사…
 - [\[COP31\] "한국 온실가스 감축은 장부상 숫자"…파리협정 위반 우려](http://www.4th.kr/news/articleView.html?idxno=2121860) — **포쓰저널** · 11-13 21:34 · 국제감축 / Article 6 · NDC
   - 행사에는 뉴클라이밋인스티튜트(NCI), 제6조 옵저버토리, 글로벌산림연합 등 국제 기후정책 및 탄소시장 전문가들이 참석했다. 이들은 한국 정부의 국제감축 목표와 해외 탄소배출권 구매 계획을 전면 재…
 - [COP31서 한국 국제감축 정책 비판...“파리협정 취지 어긋나 전면 재검토해야”](https://www.m-economynews.com/news/article.html?no=73014) — **M이코노미뉴스** · 11-13 17:40 · 국제감축 / Article 6 · NDC
@@ -97,11 +99,11 @@ modified: 2026-11-14T09:55+09:00
 
 ## NDC
 
-### 국내 · 11건
+### 국내 · 12건
 
 - [한-네팔, 기후변화 협력 기본협정 체결…온실가스 감축 협력](https://www.yna.co.kr/view/AKR20261114018800504?input=1195m) — **연합뉴스** · 11-14 08:13
   - 이번 협정은 양국 간 기후변화 대응 협력을 강화하기 위한 법·제도적 기반을 마련하고 온실가스 감축 및 기후변화 적응 역량을 강화하는 것을 목표로 한다. 정부는 2024년부터 네팔과 협정 체결을 추진…
-  - 관련 보도 3건: [뉴시스](https://www.newsis.com/view/NISX20261114_0003867993), [SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008845750&plink=ORI&cooper=NAVER), [연합뉴스TV](http://www.yonhapnewstv.co.kr/news/AKR20261114092121za1)
+  - 관련 보도 4건: [뉴시스](https://www.newsis.com/view/NISX20261114_0003867993), [SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008845750&plink=ORI&cooper=NAVER), [연합뉴스TV](http://www.yonhapnewstv.co.kr/news/AKR20261114092121za1), [KBS 뉴스](https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712856&ref=A)
 - [눈사람 200년 역사, 다음 겨울은…이스탄불 금고 속 기후 경고 \[황덕현의...](https://www.news1.kr/economy/env-policy/6353597) — **뉴스1** · 11-14 07:30
   - 각국의 온실가스 감축 목표(NDC)를 모두 이행하고 그에 상응하는 노력을 이어가도 전망치는 2.6도였다. 파리협정이 지향한 1.5도와는 간격이 크다. 전시 제목에는 '다시 와줘'라는 말이 붙었다.…
 - [기후총회서 각국 입장차…“감축 서둘러야” “석유 개발은 주권”](https://www.hani.co.kr/arti/international/international_general/1287228.html) — **한겨레** · 11-13 15:22
@@ -245,13 +247,15 @@ modified: 2026-11-14T09:55+09:00
 
 ## 전력망
 
-### 국내 · 21건
+### 국내 · 22건
 
 - [전력망 입지선정 100호 달성 “주민 수용성 확보 성과”](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9IZDV4X1kyVGc3RklVdHdoZlIzbnkta2FLQm1PYjZ5ZzJGd2w4aEgtUGE0cDFvV3JXY2ZWTGdkenlrdms0SkVYQlBUcHFrMGtVbV9fMTczZllhdDd0OXpzY291M0JMUQ?oc=5) — **인사이트N파워** · 11-13 11:34
   - 관련 보도 7건: [서울파이낸스](https://www.seoulfn.com/news/articleView.html?idxno=642767), [매일일보](https://www.m-i.kr/news/articleView.html?idxno=2018297), [일렉트릭파워](http://www.epj.co.kr/news/articleView.html?idxno=39775), [시사오늘](https://www.sisaon.co.kr/news/articleView.html?idxno=206061), [국토일보](http://www.ikld.kr/news/articleView.html?idxno=344152), [로이슈](https://www.lawissue.co.kr/view.php?ud=2026111318394839f4ab64559d_12), [글로벌뉴스통신GNA](https://news.google.com/rss/articles/CBMidEFVX3lxTE53OXhtN25Obnp1a0ExdndnVVpZR1FlcWJUZ3RwUl9yY252ZFpYZUpibEY1YjdoU0tEakR2TmV3X2ZpSkc3eUhSY2hwenQtU3NFZ0xWY3FtTDNpd2YzQWQ2ZDBEb2s4UWswaFZodGZQSGVvLTRV?oc=5)
 - [반도체 공장 들어서는데 전력망은 언제…용인·호남권 공급 비상\[전력 ...](https://www.newsis.com/view/NISX20261113_0003866483) — **뉴시스** · 11-14 06:00
   - 기존 전력망도 이용할 수 있기 때문에 송전선로를 적기에 건설하는 것이 가능하다"며 "호남권 산단도 송전선로 건설 구간이 18\~20㎞ 수준으로 비교적 짧아 계획대로 전력 공급을 할 수 있다고 본다"고…
   - 관련 보도 1건: [뉴시스](https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wMHV2b0RlNE9wVkhQNlBaTlhLamtqUHNHUG9zMDRQbDVCc2pONGZLeXJ3V05BTk1kRDZnN2ZfTkpxN1F3VWc0bk5xZVVSaTdMREFHUGF4bkxyajRfcWlGWtIBeEFVX3lxTE1taE1SbHdVT0FzNGVaWmV6YUotbENwLWNRSjFYeDhJVTZvTFNoM0hBakVzamlxWnBDSDZ4c1l6cC0wNjFicGRHM0NZdS1zYThmeVowRlJqUjI2M3dleTJYaG9MLVZWSzB5UDY1ZmdKUXdzWkpsQzJHLQ?oc=5)
+- [StoneX, 텍사스 전력망 심사 진전에 Canaan 매수 의견 유지](https://news.google.com/rss/articles/CBMidEFVX3lxTFBFc3lEaW5IcVB3Z1pLQ1NpekRFTnk4S3g1czNGa2VyWXl1X2hmQXdraWZkWlRDQlNVbGNLVHlSYmtVLWZ2RFpLOFVvekRBWjVmR2l6cjZPRTJwblBLOU50NGxSV2RGTHgtYkFGQ3Ewa3p3WW1R?oc=5) — **Investing.com 한국어** · 11-13 21:53
+  - 관련 보도 1건: [Investing.com 한국어](https://news.google.com/rss/articles/CBMidEFVX3lxTFBFc3lEaW5IcVB3Z1pLQ1NpekRFTnk4S3g1czNGa2VyWXl1X2hmQXdraWZkWlRDQlNVbGNLVHlSYmtVLWZ2RFpLOFVvekRBWjVmR2l6cjZPRTJwblBLOU50NGxSV2RGTHgtYkFGQ3Ewa3p3WW1R?oc=5)
 - [한전, 전력망 입지선정 100건 돌파…주민 소통 강화에 사업 속도](https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065588637294257) — **메가경제** · 11-13 13:54
   - 한국전력공사(한전)가 전력망 건설을 위한 입지선정 100건을 돌파했다. 주민과의 소통을 강화하고 입지선정 절차를 개선하면서 전력망 구축에 속도가 붙었다는 평가다. 한전은 앞으로 송전선로 주변 마을에…
   - 관련 보도 1건: [에너지신문](https://www.energy-news.co.kr/news/articleView.html?idxno=229775)
@@ -259,7 +263,6 @@ modified: 2026-11-14T09:55+09:00
   - 서남해안에서 만든 전기를 북쪽 전력망으로 보내는 간선으로, 한국전력은 2034년 12월 준공을 목표로 노선을... 전력망 확충은 피할 수 없다. 인공지능과 반도체, 재생에너지 시대를 열려면 전기를…
 - [극한 기상에도 멈추지 않는 전력망 비결은? 이탈리아 테르나, 파르마 송전선에 첨단 센서 시스템 도입](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mWFc3d1hfS2hjYmV4dHNvX1NyS2VSazVTUmQ5RkZmeVlXQW13QXhGdzUyQi05TWhENXV1UGFUNE9seW5Rd0s3OU9iUXdsSFJTWXpucmxrS2diV25Dd3hMTi0wUW50RmhO?oc=5) — **https://www.2news.co.kr/** · 11-14 03:44
 - [AI 반도체, 내 지갑과 전력망을 동시에 흔든다](https://news.google.com/rss/articles/CBMiSkFVX3lxTE0ydlg4Ml9TUUR5NXV0cEZIbG1fN0RIR2lPalAtUnRMVFBFREtWcGFwRGpWMWM1S014b0I2MkFJS1RhWFpSSWtZSGpR?oc=5) — **얼리어답터뉴스** · 11-14 03:17
-- [StoneX, 텍사스 전력망 심사 진전에 Canaan 매수 의견 유지](https://news.google.com/rss/articles/CBMidEFVX3lxTFBFc3lEaW5IcVB3Z1pLQ1NpekRFTnk4S3g1czNGa2VyWXl1X2hmQXdraWZkWlRDQlNVbGNLVHlSYmtVLWZ2RFpLOFVvekRBWjVmR2l6cjZPRTJwblBLOU50NGxSV2RGTHgtYkFGQ3Ewa3p3WW1R?oc=5) — **Investing.com 한국어** · 11-13 21:53
 - [산업용 인클로저 시장 2035년 전망: 자동화와 전력망 개선이 성장 뒷받침 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMivwFBVV95cUxQbE1zMHhEUkwtLTRPTmUtWkdsZlpFQTRFWFJaQVN4OWlOS1pnQldiNWZ2SjR1REhNZDY4aGlndU53LU42dlNoVW55ZjZ4R05sSG1HNGhwVERmWmM0QXZJMnBRNlFRTXA3Vl9oQldPUmpoX2VlY25pRWx6YTZWZUFOSWdDUFRCZm9FSGhGTFhHVU91UnNtMTRDNkVFRHRhbW4zbGwtS1d1UjBtRTNWS09yY1o3UFAxRnU5WHZFUlo4VQ?oc=5) — **IndexBox** · 11-13 21:16
 - [2035년 분리 스위치 시장 전망: 전력망 현대화와 데이터센터 구축이 성장 견인](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNazg2c0ZtZ3hpNkVkS3NpNGpUZGdRWlRaSG5oUXc2TF8xeDFqMkRKNDlMM1hraHZlbEZfMm1RV0hSSzI3M3gtVWlUcnlQSFl6SlNCTl9tRzkxOVczWmNYMWNlM1pwaXp6UXNjclZabm5oRzg5dUZ4dTB1WU9IWlBmQjN4NnduM2ZUVGxRTE9KZkJITm5MZ2xkeU1FQS1jVV84VFpXUGZKWmVvTTVyeEJ1X05CVFU5eG9XbklVS1EtUUFuaFV6OFZocWNnWWpLU3VsWmVwSkhQRTBhQQ?oc=5) — **IndexBox** · 11-13 20:51
 - [보호 계전기 시험 장치 시장 2035년 전망: 전력망 현대화와 재생에너지 연계가 성장 견인](https://news.google.com/rss/articles/CBMi4wFBVV95cUxNd1BnajRrNkdXY1psTXJlSmxPVFNwRDlKeVRsb0RCc2NSWDJ2V2tRUjVDZ0pkZmM2cXJoQzN2Q3k2OHcxcWdiNG4xX3NfRnVDWWt5cTFxOHhqbHc5MEcxSDVnVENmSTNaR19LNmpGT2xmN0FIRUpHd0JvRV9YWjZ4cUdPZE9USGllWEl1X0RYUkluUmE3el9DNEdCVUlBTnlnOEY2WEpsSDVlMF9YaDJoSWMzN3hxdHNPYVVlTjUydTJEcmhkVXJ5ZUYzUjJRMmh2UzZZM3pBRF9nLV9LTXBsZkZyNA?oc=5) — **IndexBox** · 11-13 20:46
@@ -296,6 +299,7 @@ modified: 2026-11-14T09:55+09:00
 
 ### 해외 · 12건
 
+- [Indonesia and the Coal Transition Commission Launch Energy Transition Toolkit at COP31](https://news.google.com/rss/articles/CBMiR0FVX3lxTE9XU0NpV1BhY3poeTVrWTh2dnhhWkJxdmlRb3k4XzdfV2Z1cm9MOWZxdWpVVkZOM1V6XzJNQV9sQjd4VkZXMlRR0gFCQVVfeXFMT1FLQUlCaVhiNVFfQjRKazF1TzZzWWRwVmk4RzhBbG5VbE5VdUpkcVA3czB0MjNLUVZQQXlmdFh4OVRR?oc=5) — **VOI.ID** · 11-14 09:00
 - [COP31: Climate Finance and Energy Transition Top the Agenda](https://news.google.com/rss/articles/CBMilAFBVV95cUxNYnZjc19ITERCVHAzbUVfRGFTenJyMTVRMzgtWXh1bm1OT29vWjh1bjZTa296eEtmc0xuSGVKZ21PUWlMNlpDdTZ4WVZfblc4b0ttZ1RfZVFCUFZfaUV1SmtvZG9KOEE1OVBjWWYwVGN3TnNEbTEtUllwNXhuT2loSGlSWnNFa0NJVFFrSU5yV2Q3ZVRN?oc=5) — **GTP Headlines** · 11-14 07:29
 - [With \$13,095 in cash at Sept. 30, CO2 Energy Transition (NOEM) cannot fund a full year of operations.](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVBCZXBKOVpDckpKNW5WSW9jSXBNck1WelFqRk1DOG1UUVpPal9kQmNkTDlzNlpMZmdzcmZXZmtzYUNna0ZHVTJqTXhCc3NQWFB4azVYbC1IenlzbmlzaHh0b284Qzg2X0pPWmt4dXB5MjZVSlJvVXFkc29tSlhBVDc0b1liVkdCN2RCd0tVUmo2N1FQUGViaVF4TTVWOVZZTE1aSVBVdmpFZUxiY3NxZ216cHQxUEw1cWFB?oc=5) — **Stock Titan** · 11-14 06:16
 - [Instagram Energy Transition Discourse Is Dominated by Optimistic Commercial and Technical Framing](https://news.google.com/rss/articles/CBMivwFBVV95cUxNY3NwQTZLZnYzTVk2TkRudk0yZHY1dkZTX2pVcnBSZ3lUZlFpd2pscmlmZ2JJM3lzVUlnMTN4eTh1Zi1YLUctdVZtZ0dWeFZrcy1NWGRLN1RZS1JEVV84WDJWX1U1U3VXNlNDM1NsNnFkWlRrMUwtTTdzWFNmanc5eEtITEFfbzduUmZVeXZSSGJlRk1vMkZyWHJJbUZsQ0FUdTlOdktkTTJTWHdxSTFXVm5TY2RoX3pqcE5ERWZUMA?oc=5) — **Bioengineer.org** · 11-14 05:01
@@ -307,7 +311,6 @@ modified: 2026-11-14T09:55+09:00
 - [EBA backs NGFS energy transition declaration as climate risks move deeper into EU banking oversight](https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmgyazJkeUo2VUdTYVh1aWxvZW92b1hNMFBfMUphamt3NDBQdC15T2R0OXliazJmenpOcllSMkZEdkU3OUlhb2laNGVacklxR0tvMFY1VFhVd2VUdzB0RFNnN3NsQWpnbG9reUszRlJQS1dVS2JNQXdJa1RVdFFfZVRYZEJ1TUJZSlV2RXFZV0k?oc=5) — **Traders Union** · 11-14 01:22
 - [Electrification crucial to global energy transition](https://news.google.com/rss/articles/CBMixAFBVV95cUxQS09OeWhHS3hRWHVUUkxLRV92YVp0MHBvbzI1YzA4YURmQm9TOWVXWnZpeDg5VVlWUDRGQjRMdHNhWnFraF8zQkFmNDZfOXNLS08yVzdtUFhXajU4UDJkQks5WC1pdzZLT3BSWjI3YkFSUFRtT1hEcE5pQkt0eWcyMHZBeV9pMzk3ZVNqQ19FRWVHNTZmakRMM3JndEFrRDJfTFRQSmJkbDRmY3k4cUdKNG50NWV5ZFVQdUNlUDJxdmYzektu0gHKAUFVX3lxTFBVS1JOT3Vod0pYQXVxZVhDRjNMNTI1dlp4YjNLZ1pqdVZjakpYVFc4em1EX2ZwSG1vVVVIVGFPa2hjRUZkSFNuTzhRZFJnLWpmN1ZKQVdMeDdQRVBQV3NiSS1IZ1FQREpXSFNnQXpNcDlIZTJNS2hKZDZOUkRXYThtYWZGMFUxNXp1MXh2S3RZbWQ2dzV5N2pIVHdrMXVsWG4xc0F3cHFheTA0TGc4ekdjUTlWZHJxLWhjZ3JUNGc2VDh4Nnhna1lsdUE?oc=5) — **The Manila Times** · 11-14 01:01
 - [Decentralised Clean Energy Transitions Risk Creating Emergent Institutional and Economic Lock-Ins](https://news.google.com/rss/articles/CBMivwFBVV95cUxPaUdKcTd3VXFKbkpkUjhDVFl1S0lmUW01ZGpkaDg5LVJGbUlhSjJtRVJENDRlcFpZTHV3SUxYeGk2MjZHYU1nNGFQMVZ1WmkxdjZQb3N0dGF2Vnd4bXNqSXdXVXlCMWNBcGxsZWtjWUFac0NSSFM2eUJqQjNTd1F1Zm5KRUVXMURSUHVHYzhncUJfdl9ZMXRZS2Jabk5IOWJuM0Zqa2tpNmJSRVBJc1pMQmlCUDZrUDVLMVh1T3lHSQ?oc=5) — **Bioengineer.org** · 11-13 23:50
-- [Implications of the Energy Transition for Food and Water Security](https://news.google.com/rss/articles/CBMimwFBVV95cUxPX3c0Q0NGcjI1cHRTQU5melhLdWxaRXhGRTNCQm9lUk9sSVdtakZkMnFvRUJyUTNYX2hLWDhXOHFBUnFwdjQ3Ni1uVWpTT3pqWDJuSGpoS0pBaWNaTk00UUhVWDdmMl8zeTJ5bGlydmVxZ21EVFdMVGtaQXk5YndBR0lPcFc2eWhjb081blhObDl1WDNCTUVmSWVaaw?oc=5) — **Mexico Business News** · 11-13 22:30
 
 ---
 
