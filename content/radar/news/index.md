@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-14
-modified: 2026-11-14T11:29+09:00
+modified: 2026-11-14T12:37+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-14 11:29 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-14 12:37 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-14|11-14 클리핑]] — 기사 **173건** (국내 94 · 해외 79)
+> [!example] [[radar/news/2026/11-14|11-14 클리핑]] — 기사 **175건** (국내 96 · 해외 79)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -20,8 +20,10 @@ modified: 2026-11-14T11:29+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 8건
+### 국내 · 9건
 
+- [국제탄소감축 실적 '부실 논란'…한국 기후정책 전면 손질 요구](https://www.ngonews.kr/news/articleView.html?idxno=243144) — **한국NGO신문** · 11-14 11:48 · 국제감축 / Article 6 · NDC
+  - 기후환경단체 플랜1.5는 지난 12일(현지시간) 유럽 탄소시장 감시단체 카본마켓워치(CMW)와 공동으로 국제감축 정책을 점검하는 행사를 열었다. 이 자리에는 국제 탄소시장과 기후정책 전문가들이 참석…
 - [한국형 자발적 '탄소시장' 논란 …시민사회 “졸속 추진 중단하고 원점 재검토해야](https://www.ngonews.kr/news/articleView.html?idxno=243038) — **한국NGO신문** · 11-14 10:10 · 국제감축 / Article 6 · 자발적 탄소시장 / VCM
   - 국내 탄소 감축을 촉진하기 위해 정부가 추진하는 '한국형 자발적 탄소시장'을 둘러싸고 우려의 목소리가 커지고 있다. 시장 확대에 앞서 탄소 감축 실적의 신뢰성과 검증 체계부터 마련해야 한다는 시민사…
 - [\[COP31\] "한국 온실가스 감축은 장부상 숫자"…파리협정 위반 우려](http://www.4th.kr/news/articleView.html?idxno=2121860) — **포쓰저널** · 11-13 21:34 · 국제감축 / Article 6 · NDC
@@ -44,6 +46,7 @@ modified: 2026-11-14T11:29+09:00
 - [Coal Based Activated Carbon Market To 2035: Water Treatment Rules Drive Growth - News and Statistics](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeXlMb19ZblpXeU5OZkpGQnRSTkhZc05rYlprYmoxT1NjRXNjakFsSThfcjFvRDJiSjUyem43cTBOV2p2cHl5Q0NXREd1X3J1Y09SUFRDVXYtd3R1aU5zcGlqbFhfNzRaOWg2LWxQUlR5SDUyR2N5cFlTODdsVE1LN25tdzBtOVVyS3VqeXRJaGpBak9MMEVzdFhNbnVGV3c0QnFGczRZdzlBSFNKU0JqbDdEeGNlcjA5T3NxaTBzdE5vZGlaZkpLY0FtZVBud3U1?oc=5) — **IndexBox** · 11-13 14:06
   - 관련 보도 1건: [IndexBox](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNR2RxQUZvckMzcXFhQy1abHkzdHJxOENhSmthTDU5VUpaaEp2UzNOOVphYXhfNDVPLUM2Z2cxYUkwLWtCUzNlOVExUmJ2S0ItUUIxNkJXQXY3UmFlcFdrSlVKam5lUXhtTTB3bDhkNjNlV0h1R1hqZDJNRWozVlRGMFR0S0lHSXdxNVpKME8tYjlJWDVxSTBaVjNyZVNfQ18wWmNRbHhpamw0bXo0OFBJYlpZc3JWbllaQmpJRnRxR1Z0S2N4dXlwbmZ0M0xoMjZYWkdWZ0RnTDdYSFk?oc=5)
 - [The Philippines Advances ASEAN Carbon Market Cooperation At COP31](https://news.google.com/rss/articles/CBMikwFBVV95cUxQaERkdFNWRzI5UmotVmhjc01lQlpOYkZETHdyQkVqSm5keHpRbVdWLVEyVFVaWkdCNHIwYktpT3BRQkJlaHZQWWZ5NHVSVGhzQ3REOUsxRm1BMjFQWmlWandjRE9uY2c1WGtIaHF4b09IZGtoZU1pb1lwWUFVS3hqUVVwUEtza1djZzhPS2tDZ0NtN0U?oc=5) — **Journal Online** · 11-14 11:02
+- [Philippines leads ASEAN push on carbon markets](https://news.google.com/rss/articles/CBMigwFBVV95cUxNV1g5UGNoSG1sWkJtT05wWG9iZlBQR2FmUWlLd0RfbkRvUERyQ0ZnMWo3N2xrU0xWUjJyemhSQnI0UEU4bUlDSkpXNEpSejA0MllyYnZDcHluTFhIOVg4MldxalV4NUY4NnpkelZlbnBqWmdlcHUyVkVUZHdxQXZib09LVQ?oc=5) — **Borneo Bulletin** · 11-14 06:10
 - [COP31 opens as NZ carbon market faces 2028 unit shortfall](https://news.google.com/rss/articles/CBMijgFBVV95cUxNSTJSQ0JfRDJUYWFnYVRkLWNZcHZKYnB6N19IWk4yN3ZrY0xYSjVBa0V1UnFyZlNfSWZFR01kSTJubkRBLWZ0Y0dvR2pLbml0MkYzQ1FCWXZFejZIWV9KOXZkMU4wWXdnSUVSMVd6R3dpQi00TTc3ODZwcEJNNGRpZXk2Z1hKWldkM2pHSFZR?oc=5) — **B2B News** · 11-14 05:41
 - [UK Government outlines steps for businesses to participate in voluntary carbon markets](https://news.google.com/rss/articles/CBMirAFBVV95cUxPMzVpNU9WN0xvSWV5QXM0MzEwcEw4bmFnSmRiM2E4Z0ZCLTlOakFYMmlGWklHbG80VXNHTXBTNEhmRGV2R01vTHpVbXprdHlUVFRVTC12Q3d6QUgxRFdSOUlxUGFoQ0pKZWE3c052SUhzYTVLajgxR1BFcG1PclBSUDJQVUZPUVpuNkdBbkdtVW5VUnZaYUFab0x2Xy02MGZkN2RFMDJ6bWtCR1Fh0gG4AUFVX3lxTFB0LVc2STc1R3pSeXJsN204dzdxbDVEdXVza21GMlRVa2doNXA5Ty02aC0zbTVJcUlLZ2VFdDBaQ21iWDh0SklCVkU3ZmF4OUVydlNtM05EaExKQUFaQ3dFZk1YUzIxcVF2Q0dzQm9yZlNGa18wUExxX0E0dFpDN0l3UTN5RTRaVXRha2FaV0ZWTW1zZ20zUUZLeldRU282SGRXVncyU2lCTGN6QXBVUUw5bmRtdy1iRXQ?oc=5) — **edie** · 11-14 03:20 · 자발적 탄소시장 / VCM
 - [Orizon Valorização de Resíduos: Vital consolidation lifts earnings as biomethane and carbon markets add growth levers](https://news.google.com/rss/articles/CBMiqgJBVV95cUxQQlA2aHdnREdGMXFzNUM5eDNMdXR6eVlVanI0OHpRZ0g1RHI3NTJfVFpZVmlmRXFPaU5YQzNiTTg1Q0lxMWtTQi15enp6TkRYeEM4NXpva080RVZNWXpnaTRWM2ZRNF9sZVAwY05UX215VW5VT2N0MUwycVQ3N2lkMmdCZWMxYng5SGdvYmNfTzNqVWxlTTN4aFpkeE5UYWcyZTFwdnI1S1R2UFZ4aS0xczR2ZFE5bG10SjZxSGtPNWU5X3p3R2g1ZjQxOUczMkFpSUNpSlB1eVpPS3FHTzc3ZVl2R2pVZW9Bajl5b2FEMGNGWFBvNWxrUWxNbFVVS3o3V2gyeGdRTGRXTC1ldzVqSDFVR0JjRHRvYzRGRTR1LTljcF9STTVIQVJB?oc=5) — **TradingView** · 11-14 01:56
@@ -52,14 +55,14 @@ modified: 2026-11-14T11:29+09:00
 - [Kazakhstan's AIFC joins founding members of global carbon market network](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OdUk3MHB5bE5OQlByNmlGM3lDTUozOUxhU2hTSHk5ZmJIWkJOSDNNNUVwSGZrTjU1blpnb2RXV2JINE9SekxlbVVkYmRMWUxla3poRG96bHh2OHNZMHFR?oc=5) — **Trend News Agency** · 11-13 22:32 · 자발적 탄소시장 / VCM
 - [GGGI, UN ESCAP Outline Pathways to Strengthen Carbon Markets in Seven Asian Countries](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZjRfT2F0VW80RDh3ODVESkFva2MzYU5HVVhTZWV6ZVBrMFkxeWp4VmtORlJzNDZPZE02MF9TVHpCcUhPN25Eejl2enFBOWZzWVF5S0RIOGM5MjBjTmR0U0M0ZjVGS25WUDJoTXVYRV9RMmdPdDZHa2doSFpibkJXejhldUxzSzVBQ0J6cjdDbk9iV21XNWV4M0ROUHdGZy0ySW1YQi1pV0k?oc=5) — **Ecobiz Asia** · 11-13 22:22
 - [S’pore steps up carbon market push forward with grants, new initiatives at COP31](https://news.google.com/rss/articles/CBMizwFBVV95cUxQZW9tVjc3dlhEd3Z3U2lxNDhRNzAyc01EMHYyUDJHX3d6azE4a1VwbzJDZDRrMnFIel9VcWpMRE9lR1NCSy1EZ3VZTm0tZGdOM19mQ1FKX3hRdU1nWU03dDhtM01PVm41aEo4MnFkN01SRDNhU0dReXQxM0dhMlMtcmpEeGNlQU5lR0RyazhJSU92V2E2RTZxTDgzSzV5cEpzM0hNaWZ0bzczbTlJUHloMk1VUjczbjJhdGJEOEw4Q1Z5YldHaHFQRm9BMVMzWGc?oc=5) — **The Straits Times** · 11-13 19:45 · 자발적 탄소시장 / VCM
-- [UK Sets Out New Rules Of The Road For Voluntary Carbon Markets, Backing Independent Ratings](https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0ZpMnU4aEtLZHVsUnBTNm1zcGVWUm95RzhrcEJ3bnFSNlVub196bkk5eG8wNFVzWk5ZMnlGNVBWWDVLVEVIVmk3YTBzSVNxdzYwVHcwWTF2bk9VNVRlcFhzYXFual96NlZrRTBuR1lhMjRFMmJwbmc3TGkwMmF2cmxmX1JFVEdNX1pmTXpKdmd0ZzRrdC1tYUp2VHNHVVJRZXU5WEJrS1E2N3h0anBwa0lIbTBzNDA?oc=5) — **Carbon Herald** · 11-13 19:41 · 자발적 탄소시장 / VCM
 
 ---
 
 ## 국제감축 / Article 6
 
-### 국내 · 5건
+### 국내 · 6건
 
+- [\[COP31\] 한·네팔, 기후협력협정 체결…국제감축사업 길 열었다](https://news.google.com/rss/articles/CBMibkFVX3lxTE9nS3BUckNrQUV5Sjd1cEFLOGcxOVJ0bnQwME80OGNraEdNbUxsR1JmOG4zdGJNdFNUektUR0dSR1A0dFBKV2ZkVWRoY1JuSTVHU0xQWE5oeVQ1WTl5MHBNMVBJYkZNWEx0WDctOVdR0gFuQVVfeXFMT2dLcFRyQ2tBRXlKN3VwQUs4ZzE5UnRudDAwTzQ4Y2toR01tTGxHUmY4bjN0Yk10U1R6S1RHR1JHUDR0UEpXZmRVZGhjUm5JNUdTTFBYTmh5VDVZOXkwcE0xUEliRk1YTHRYNy05V1E?oc=5) — **넷제로뉴스** · 11-14 11:12
 - [한-네팔, 기후변화 공동 대응과 국제감축사업 활성화의 길을 열다](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rYzVaMjhFeHhSMm1nRDhTV3p4cTEyU290UEJNajFHOXB1bURGQ3JKRmIzNkwyb1YteDhIUmpQbnpjX3Zlb0FqRFhadnI3UEVuczVhc01UdkVxUlB2a3QyYXNB?oc=5) — **서울Pn** · 11-14 08:03
 - [\[단독\] 2030년까지 온실가스 3750만t 감축? 목표치 1%에 그쳐](https://www.chosun.com/national/transport-environment/2026/11/14/5LEDWT4SDBC6BCSCDVDF2KN6W4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news) — **조선일보** · 11-14 05:01 · NDC
   - 무리한 ‘국제 감축’ 약속, 부메랑 돼 3줄 요약 ㆍ내년 첫 국제감축실적 40만t, 목표 3350만t의 1.1% ㆍ국제감축 실적 0…사업 완료 후 검증·계약서 절차 필수 ㆍCDM 실적 784만t 활…
@@ -235,6 +238,7 @@ modified: 2026-11-14T11:29+09:00
 
 - [NeoVolta Signs \$116M Master Purchase Agreement to Deliver Battery Energy Storage Systems in 2027](https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNFQyZGtkOEhWOHZzT25naHpwUnZ3dlRyUWJRMGRqOEx2dUluVjRiYWtMZjFOQWVxZVlrOTJNYmRMX0Z3a0ZGZTJjc3g4SC1jTV9YSzFMSF9CNXJYYUh4M09OOG1Hb1lxSVdvUFdYZ0ZZY1JnTnJDWE94ZVNzMGQ5UDVSbklGVHA4VHJOMnR6NUxya2ZPeWw0dlYyamRkMUZQNEd0Q3pJMXlhMnY4NHAxbEdlZ1A5NVRKZzVjZUU0SXRyVVBPZl9XSzVVazBEVUEybEkzRHh5OUYwS201N19PNXJVeW5kRkhYOWxjNVlkZWxXY29jMGtoRHRmdmNLd9IBgwJBVV95cUxON2s5LTQ0SWNqTFVHZktHZkRfSm40d3EwYjBJWTRHSVFIT0l0WWNmTXRGT1UxUEdKN2owV1BQOS1ucVp6QVVfczZ2TUkxQTdXXzdVR3JCVWpPVlVyRXBhQVdwcjlrUTE4U2JSMVJNVVF6REpEZFpEbklwM0hJZFBLRXdSQUw3ekVXT1otRTM1Zlh5dWFZdUdiNmtzRmV3ZVloWGFvamdvR1ExVjlpU3BEbFpfYnhacE5YdWloWUhKbVVRWGcyaWNHNnRNc0R1WXNOZVNLNGtwaFhlbThCcmozX2ctbGhFUzIzSDZvTWJqdEdMSlJsOEVaajQtUlQ2TkF4a3BJ?oc=5) — **The Manila Times** · 11-13 22:34
   - 관련 보도 2건: [marketscreener.com](https://news.google.com/rss/articles/CBMiywFBVV95cUxQdFZ4eVZBZDJabjNwX3c4Vmk1WHRSWkMtTmdya29lYUs5bl9GUERFM2lfWmdiZ01EcGJXRG5rZjRJS0NDMFozWFhCSnA0YUpOUThOUjFkQmtKZkxFMlZZdXFHZmI2MHJjRzFKdlVnUGdrV2ZWS0JOa0dENzBkR2VmMjFYYVVvMGN0SW51dGpDRDRuVmlQVVQ2ZkxZMF84Q3Z2Z19PVEtGQUI0OU8yNzhwc00xdWE0VVNjQ2hHRVZvY3FRNEtNZ1JCUUt5aw?oc=5), [POWER Magazine](https://news.google.com/rss/articles/CBMioAFBVV95cUxNRDBiRndaZ2p2RUg1T1l1YzlGN3ZuV3doMUNKOGdsTm1NcU5XdXZOQkllSTVfdFFvNG52RE0tMEU2Q2ZWWDd1MVhsaURxNXZTdlRKZnRsc0l5bmhTdEJ2Ty1UQ3I1SVhQWm8yV0VMZ25aS1RyU3M0RjRwRzJxWDVIRFBXLUZrbHgxenRFZlhoMHg1VFhfYW9vbmh0Z0w5VC1Y?oc=5)
+- [All Energy Australia 2026 Features the Top BESS Trends for Business Buyers](https://news.google.com/rss/articles/CBMiigJBVV95cUxPZXhPcmpjQUN1dk9wSERfeDdPOUJPbU81SnBPZm1VX3dQejl1SWFYZEpiT0JOOFE5WkZ6dTVEeVZQZ3dlZEtaaEFQWU8wN0RJcVRMUkg5cW0zZ0wtbFpxQVJ3NEltaFJ6QjlFbGNyS0UxZjU4MVFNVkl4TnI3dFloRmwxV3pDVDJGRVIzOWZWWWNJVV9lWF9IMkx3YnJSSk16U0hZRXJydGRTUnBTSVd1WkF0Z2VEZDRzWkVFMFNLVkRwUmtvWVg4Zi0zRjJ4QU1jRV9lOU90MEZjd093M09sdFY4QWpXa3NWcXMyRmJrUGZGcGpjNWc4UjdWUDBGSXE2UTl1TVFBQzJrdw?oc=5) — **mykxlg.com** · 11-14 11:35
 - [Free Showing Of Bess O’Brien’s New Film At LI Monday](https://news.google.com/rss/articles/CBMi3wFBVV95cUxOS1dsSC1USzc0NEd4dW9xaFNPVFpKMU5EWGpfWVk5S2lYcVloVmwyZEczd0ZGX1pYaWdka2FnSDhkQUlHSzR0Z2VZSjhHVEkyYXRGbjhjU01PLVY4YXRWWndOa2lMd1dnWmdzSVM5cmxzVmhldnQxajRURHFpZFpDNTBrZFkwSEVZcHhDb1o1cE9IS2dYMGpOSW9MTXpFWG4wNEVRLVVVYlJyUVhRLVc4U1VHMHc0WnpLdzlCVk9TR05Ob0tBUEY3QjdTQ1RVb0c0NDlESHNCVFpUU1Zvemt3?oc=5) — **Caledonian Record** · 11-14 09:17
 - [City Begins Work on BESS Rules](https://news.google.com/rss/articles/CBMikAFBVV95cUxOcWZ0ZElrWDBkRy1yRXRQaFhSSVQwc1lPdDVwOXlxMi0tMkNJTUk4ZlNteFo4NFlUQlEwek9lOExwSDAxbXVzV0lzaFZQXzdydHdjZnVpNGg0dXc2OXVYeFRoenlnbTYzOHJrMDZaeEduSEJBN0ZWMGhyWnNyT1VnZFJKcFMtTEwwVlNCRWJ1ZGY?oc=5) — **Shawangunk Journal** · 11-14 06:27
 - [Central Virginia Electric Cooperative and Lightshift Energy Celebrate New Battery Energy Storage System](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVHFZSFVBMVNEcEg1VjJCZlZpQUxYRWpPSkFqZXB0cTUxS01XcWk3V1duV3A1bXY2Y1hJWk10dUVDMExveFloUnVvUDdzNzEyNXNfWTgwY29hZ1BIOEJ4QzVJcVhRVGxOMFAtOTZRV1N0Y1diUU8tTExYYVVHRnRvWXhGdjNQazJDZkZXdFJkNzVGZXBGWTYtUHdaMFlsWUdaZl9UeEcyNEx4Rjhpd1ZLaVZEV3ZIVkNxM21DOFRLWUhmaDQ?oc=5) — **01net** · 11-14 03:32
@@ -245,7 +249,6 @@ modified: 2026-11-14T11:29+09:00
 - [TotalEnergies acquires 450MW solar, 150MW BESS NSIP project](https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzVzYXQ1ckZwYnlzOFRDWmNPWl9VV2RyUnZ5cGhXS1p0SDRrMl9WXzNQZTZRZ2VESmIyaTVxeFZHT0J0Nl9CUHA2TGItN0pXZU0tZ1NRZmhESzBGaXlxcGl3MldFMmdjalR4cjdyaE5TNE4yOTdQelpGa2llTGRqU2s4clZvWndHUWh2WWl2RFZ2Q2cxM2oyNTdiWDdkVE53elZQRHZEODJNRzRkU1B2VjJn?oc=5) — **Solar Power Portal** · 11-14 00:23
 - [Canadian Solar targets 1 GW of BESS supply for Brazil battery auction](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZjBHdjNZQ1FqNklxWjNBTXVWS3ZUcjNkZUIwRndqVXBONkVobjY5b1hrUFJselJsSFpONkRzZ29ZcnBMcW5hS3hCWTYwdlFqQUVRVEdZWU5kR3ZzZ0czeExQRklfaldQTnBwaENtaE5QS3lrTkNxLVJHdEJpLU5aN1pjR1R4c2d3RHVpcW03TnFXVThlRkdGODhLZUNBMV9LRVFSN214Z2tmZw?oc=5) — **ESS News** · 11-13 23:53
 - [Flatiron Energy starts building 250 MW Energizar BESS in Massachusetts](https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcHYzdnlhR3dlSFE3MVNpdGp5WUt0N21WUjhsSWNtNmZENkxyWmh4d1ZCUEVxRUE1ZWtqTFlHM2pmN0NteGIyVnJVcFJIaElwLVZzUjQxTjJaZm1FdkpaU1ljQng0TzJMT182dEJfUGk5ZW0tTF9hVkR1NEIyeHFnb1hJdTFFOFJCZGtkQ3VTLVRYODMwdFdEczFwRlpmTkdMaThuQlItQ0gybjR1TUJITldpYnE0M3RTZjFaWkhFMWpnMGFEV3NqRkd6YXZoTWpleFdKUWwwRjN6Q3B5Sm9SaGlR?oc=5) — **Solarbytes** · 11-13 23:48
-- [Chile surpasses 3100 MW of BESS amid peak control that generators warn could become outdated](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTTUzbndHR3JOeVVSaWltZk8weHRub1lWMzNXTXFZaGNrM3dRc2JLMEd2dGFuUFJvdDk5eTlNV253WVFwSDhYNzNQTkxCdjhTMnlOeHB5d25VSVpnc3hGbmdoc01iQ3BwYi1qOFNLZzRXUTFHcHRxcy01YVVsMGp0M2ZFbzFzZjFMdWhpdl9OenI4elQ1Nk9MQktiYm9adE9Xb21Tc2RmazY1UzBMSDN0aHprMXEtX1JLZ2dPNHVWNnJCNVlQZGs4Mk54WDkwWi1VSExnZE53?oc=5) — **Energía Estratégica** · 11-13 23:11
 
 ---
 
