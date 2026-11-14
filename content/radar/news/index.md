@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-14
-modified: 2026-11-14T10:23+09:00
+modified: 2026-11-14T10:40+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-14 10:23 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-14 10:40 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-14|11-14 클리핑]] — 기사 **166건** (국내 88 · 해외 78)
+> [!example] [[radar/news/2026/11-14|11-14 클리핑]] — 기사 **170건** (국내 91 · 해외 79)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -138,7 +138,7 @@ modified: 2026-11-14T10:23+09:00
 
 ## CBAM
 
-### 국내 · 8건
+### 국내 · 10건
 
 - [김정관, 표준협회 CBAM 검증기관 인정에 “한-EU 정상회담 바탕에 관계부처 노력 결과”](https://www.viva100.com/article/20261113500789) — **브릿지경제** · 11-13 23:28
   - CBAM) 검증기관으로 인정받은 것에 대해 “한-EU 정상회담에서 다진 협력을 바탕으로 관계부처가 함께 노력한 결과”라고 평가했다. 김정관 산업부 장관은 13일 SNS에 ‘한-EU 정상회담의 또 하…
@@ -148,7 +148,9 @@ modified: 2026-11-14T10:23+09:00
 - [유럽연합 탄소국경조정제도, 국내 첫 검증기관 탄생](http://www.e2news.com/news/articleView.html?idxno=336113) — **이투뉴스** · 11-13 16:48
   - 기후에너지환경부(장관 김성환)와 산업통상부(장관 김정관)는 국내 검증기관인 한국표준협회가 이탈리아 국가인정기구로부터 국내 최초로 유럽연합 탄소국경조정제도(CBAM) 검증기관 인정을 받았다고 12일…
 - [伊 철강 유통업계, CBAM 면제 기준 50톤→500톤 확대 요구](https://news.google.com/rss/articles/CBMidEFVX3lxTE95R2VBeEs2OHNYNGtKcG8wRGtDXzNwZ2VQMnNJd1RTdWxxczJWVGo5b0FyWHRJcjBBWklPR1NCWVpHZU44b1QxTXk5UldJaWc4Q05oTXNxZ1FUVE51b0dXMktULUFaX1RQcHV4d19rNzRLaGtZ0gF0QVVfeXFMT3lHZUF4SzY4c1g0a0pwbzBEa0NfM3BnZVAyc0l3VFN1bHFzMlZUajlvQXJYdElyMEFaSU9HU0JZWkdlTjhvVDFNeTlSV0lpZzhDTmhNc3FnUVRUTnVvR1cyS1QtQVpfVFBwdXh3X2s3NEtoa1k?oc=5) — **스틸데일리** · 11-13 14:24
+- [\[제도\] CBAM 검증, 이제 국내에서 받을 수 있을까? Q&A](https://news.google.com/rss/articles/CBMidkFVX3lxTE5kMDFFYzNkUkpaYmNKTUNQZ3NmS29BT3ZUMEo2RkNyRGQzTFZuVzVJc2dzZjlzLWxZSkVjMUdUMjdVNTBWTFI3Rk9lRUVYWElUSUktQjdfaE4tTWw5Q1B6N3FQQUsybl8xNlB5d2Z1RFdMQUlaNmc?oc=5) — **willawip.com** · 11-13 09:00
 - [\[칼럼\] EU 탄소국경조정제도(CBAM), 국내 배출량 검증이 수출기업의 경쟁력을 좌우한다](https://news.google.com/rss/articles/CBMiREFVX3lxTFBVREh0UkdNRjZCd0ZUdXk4a1VqeHU2ZXg3VWRZT1lDUGl1VEppT1ppS3hBTXZqejYyQzJDc1VCaFhwR1Bm?oc=5) — **케이에스피뉴스** · 11-13 06:43
+- [\[최봉혁의ESG경영칼럼\]말로만 하는 AI·ESG는 없다⑦-EU CBAM, 국경에서 시작되는 탄소 규제](https://news.google.com/rss/articles/CBMic0FVX3lxTE03bWxRbTRZbDBfMzNDeFo0LUhNeHJyWVhyTXkwSko0MmpldVdXZ2w2TTVsc0lRWVctM1dxWUNKNlJ1Mm5hRG1jSHlnZzlCZWtrTFR0cUtYcE81ZWZ1clpQbF9xaFRpSndLaHQwMlRRY254a0HSAXdBVV95cUxPTmVweFRxeHdjMDlENGo0OVlGMzFjRXVpQlgyOTctdXpUXzg1TzN6NG16bHp1ZnZtclhNZEo0NlV5UkZCNV94eG5VZkNBOXdYZndySmJnUEJfV2RCRkN2R0hUV0pQWkEwWmhpRVFtZHVkcnlsRDBjWQ?oc=5) — **스포츠 피플 타임즈** · 11-13 06:10
 - [EU CBAM 국내 첫 검증기관 탄생…한국 수출기업 탄소규제 대응력 제고](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VQU83cE80TlllREctcFViaVV3LVpsOV9vdEViUTNDa3FMeUlpWGUyLVhra2NTOC1oZHlULUNvUF9saUR3blNEV2lJVWw?oc=5) — **에너지프로슈머** · 11-13 00:51
 - [유럽 탄소국경조정제도 국내 검증기관 첫 승인](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iaFNWbkRsVkdFdU5ILUNtdXA4c3J0cE5LLVR1WHNxVzdOcjcwRVQ1a0x5cW9DVDVEWGdxc3FnUENNUnFKaWpXaWtrLTV6YVhHcHI4X3Z0MV9HcjdHeTUydlFXOFNxTmvSAWpBVV95cUxNVzBlY3JyamRDeEtnRDhPdmhKM0dnbVp2a3lEem1DVTNsamhrLVc4ZmdfYUNIeEVWVmJuVl9zMXQ0djJmbTdEdUVHRXdwUHZLaWRreUJ0ZEtib254c1A5M3FNWHA0QW10YW13?oc=5) — **파인드비** · 11-12 16:40
 
@@ -275,8 +277,9 @@ modified: 2026-11-14T10:23+09:00
 
 ## 메가특구특별법
 
-### 국내 · 3건
+### 국내 · 4건
 
+- [김민석 “메가특구특별법 최우선 처리](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZYWFaUTRGQXB3al9zUWtxWHgxWjQtYnZvUXJNWmUwYUpPTHk1QUFaWHZWLVJEWVE3bzM2ZEh6VUkxbVc5d0ZSWVVTQUNJUWtQbEFKNTZiYXMwaGRudk5YMW04SC1uS2I3?oc=5) — **이투데이** · 11-14 03:12
 - [‘메가특구법·예산’ 연내 처리 속도 내는 與…“혁신경제 엔진 만들 ...](https://www.asiatime.co.kr/article/20261113500177) — **아시아타임즈** · 11-13 14:10
   - 초광역특구법(메가특구법)과 관련 예산안을 연내 국회에서 처리하겠다는 방침을 밝혔다. 수도권 집중을 완화하고 지역 중심의 새로운 성장 동력을 확보하기 위해 입법과 재정 지원을 동시에 추진하겠다는 구상…
 - [與 메가성장특위 “초광역특구법·예산 연내 처리”](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611130052&t=NN) — **한국경제TV** · 11-13 13:37
@@ -320,8 +323,9 @@ modified: 2026-11-14T10:23+09:00
 
 - [에쎈테크, 美 친환경 냉매 전환에 '함박웃음'…영업익 189% 급증](https://news.google.com/rss/articles/CBMiWkFVX3lxTE45NjYzRGREYnFRWTBtRzZMcWtwTFdZdk1ZYlpXS28zSE5NZEt2VFZGRDdveGZHaUtVN0VGLXNUa2tTVWhBbFhIU3RlUW1LYVB6UG9aZDlIUERmdw?oc=5) — **파이낸셜뉴스** · 11-13 09:24
 
-### 해외 · 3건
+### 해외 · 4건
 
+- [UNEP Highlights Kigali Amendment Progress in Nigeria and Venezuela](https://news.google.com/rss/articles/CBMinAFBVV95cUxQNTBoR1NIMkVwWnI2TE9ya2kzdW05OTBNYlpITU9FY0ZpeWd0azRNN2d0N05YWFQ3X3FKY2dLWGZ5b1VLYlZia1AtWE1TWjN2OThFRkJiZFhCeGdzRkYtWnEtZmtld2pLenM5SFZfUFBFNlJzZEZiQmRYV2N6S1p5U3g4V3l3dk9mbEJ0bXlxY1ZoalRWY1NGT21ia00?oc=5) — **Refindustry** · 11-14 07:30
 - [Global Partners Called for Faster Kigali Amendment Implementation Ahead of COP31](https://news.google.com/rss/articles/CBMirwFBVV95cUxPcWgtUXhJYnlPRVB0YTN5b2JQMU5fQXVTZXVHUm15OGl5TThhZHczRzRuX2ZLNTZVUXRpZ3owUncyNThwYVFFTXJqekt6MmdTbDc5cXI0YUl3RUQyMm9MQ1kyWUpBaVZfZkh5N2JrWUMtNU9vdWV2d2Fvc19MWHp1S2YxWFFQMDVnTFY1TDc5UUpFdEl5NFZjWmlkNHFrSkFZeHd5YUVqNG44M25HWWJN?oc=5) — **Refindustry** · 11-14 07:10
 - [Friends of the Kigali Amendment](https://news.google.com/rss/articles/CBMibkFVX3lxTFBYazlQTEZ2N2FnX3YxOVFKbzg4RklyT3hTOThXcUpEemJ0bWJTX2M5YmxUbkxfZUtrSkwweGQxZ1NpRnNpOEViOXA0VkwwYTJ3QnhqRy1VZkdDNlNGSFJQanZldVRZaUJFR1JvM0t3?oc=5) — **Climate and Clean Air Coalition (CCAC)** · 11-14 03:46
 - [Kigali wetlands will protect 220,000 people from floods, says PM \| The New Times](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUzA0ajBKdDE1RXVUN1pSeFdyLUxRLVd0TUlaa0gzY1lWVjFVbnVVUGU0aUlmLVBma2cxRlBRTi1uWUJ4QWdrdFgyREdxX3JxYXFHZ0hHd0pueTZ5VFpIclpfUklOMkJYbG42M2I3WkNrWHE5ZS1ha2lQS1Ywb2swQVkxME8tU1ZwTnUwNEllNnZGM0tPd2s0WUpia3RIaFY5b2VJSUNaUEV1NTZ6eWhteDFSeHM4eW1mdVZUMVJ0anpsUdIBwgFBVV95cUxPUzA0ajBKdDE1RXVUN1pSeFdyLUxRLVd0TUlaa0gzY1lWVjFVbnVVUGU0aUlmLVBma2cxRlBRTi1uWUJ4QWdrdFgyREdxX3JxYXFHZ0hHd0pueTZ5VFpIclpfUklOMkJYbG42M2I3WkNrWHE5ZS1ha2lQS1Ywb2swQVkxME8tU1ZwTnUwNEllNnZGM0tPd2s0WUpia3RIaFY5b2VJSUNaUEV1NTZ6eWhteDFSeHM4eW1mdVZUMVJ0anpsUQ?oc=5) — **The New Times** · 11-13 16:37
