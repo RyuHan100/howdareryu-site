@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-15
-modified: 2026-11-15T10:15+09:00
+modified: 2026-11-15T10:58+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-15 10:15 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-15 10:58 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-15|11-15 클리핑]] — 기사 **117건** (국내 58 · 해외 59)
+> [!example] [[radar/news/2026/11-15|11-15 클리핑]] — 기사 **123건** (국내 63 · 해외 60)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -146,33 +146,36 @@ modified: 2026-11-15T10:15+09:00
 
 ## ESS
 
-### 국내 · 15건
+### 국내 · 19건
 
 - [삼성SDI, 미국서 차세대 ESS·데이터센터 배터리 공개](https://www.yna.co.kr/view/AKR20261115011900003?input=1195m) — **연합뉴스** · 11-15 08:56
   - RE+ 전시회 참가…현지 생산 SBB 2.0·UPS용 배터리 등 전시 삼성SDI가 북미 최대 에너지산업 전시회에서 차세대 에너지저장장치(ESS)와 데이터센터용 배터리 설루션을 선보이며 현지 시장 공…
-  - 관련 보도 2건: [매일경제 마켓](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtX0QzcHUxYWZJWlBfZVdNcFoxdFhoYXg4NmdQNE5lQWdvZEFSLVpaT2RnMXlvVm1xTFcwVTAyWVVuMkVLNHpzbEJwWTlQRUNuX1E?oc=5), [연합뉴스](https://www.yna.co.kr/view/AKR20261115011951003?input=1195m)
+  - 관련 보도 3건: [매일경제 마켓](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtX0QzcHUxYWZJWlBfZVdNcFoxdFhoYXg4NmdQNE5lQWdvZEFSLVpaT2RnMXlvVm1xTFcwVTAyWVVuMkVLNHpzbEJwWTlQRUNuX1E?oc=5), [연합뉴스](https://www.yna.co.kr/view/AKR20261115011951003?input=1195m), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=563882)
+- [삼성SDI, 미국산 LFP 앞세워 북미 ESS 시장 공략](http://www.4th.kr/news/articleView.html?idxno=2121883) — **포쓰저널** · 11-15 09:32
+  - 삼성SDI 부스 조감도./삼성SDI 삼성SDI가 미국 현지 생산체계를 갖춘 리튬인산철(LFP) 배터리와 데이터센터용 고출력 배터리를 앞세워 북미 에너지저장장치(ESS) 시장 공략에 나선다. 전력 저…
+  - 관련 보도 2건: [머니투데이](https://www.mt.co.kr/industry/2026/11/15/2026111510474921912), [머니투데이](https://news.google.com/rss/articles/CBMibEFVX3lxTE1tLTYzajI0dGxPclRNU0VjMjJ4TC1iQ1hyWUNqVWhfOUtCUldpQjNqQkhzcVl4RVhhZ2ozM1p2NXdiWUQ4Und2cV9jdGNYRTNOMWdKeXh5NDBpdlRkdFJ0MzA1NjJaaWUtLW9radIBckFVX3lxTE5QU29jUk9HeE84ZGF3elVxVXJhZVk1QklXTlZEdnRLZ3ZTb09rSTNxY2tFamFfOXVnRnFRWmIydllBX0E5QWxPMTFWa29WRzVpNkpNSUF6OXZNcmlQQ0ZUM09ZR2pfOFl2eFI1aGs1LXg3QQ?oc=5)
+- [LG엔솔, AI 데이터센터 전력시장 공략…차세대 배터리·ESS 공개](https://www.mt.co.kr/industry/2026/11/15/2026111510430882446) — **머니투데이** · 11-15 10:56
+  - 전력망용 에너지저장시스템(ESS) 분야에서는 리튬인산철(LFP) 배터리 기반의 'JF3 AC LINK'를 공개한다. 미국 현지에서 생산한 LFP 배터리를 활용한 제품으로, 기존 제품보다 부지 단위…
+  - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMibEFVX3lxTE5wMjUtV25hTFU3M2JhNnBZcGtCWmd2STZWSDRwYUZhcXRFWHplc1VuVllGMXl6YTdaQVFfbW1zMzdkWkE5dGtHekV5QXZzN09UZDF5TXpxRVlvN3NpaWU2dTBhVEFsajFQQnJOQ9IBckFVX3lxTE53a0tEcWNVU24tWW1abGdKcnR4SzJWd19idG8wSG55U1ZsYVFwczZ6Sm14cDBvbDFtWWFScllFRVBQeGpKTllyaTZNNnYyOHJxa25IdC04ZnNxR1UxdFd4R2tmU0k5elpPdmd0MFB5V190QQ?oc=5)
 - [삼성SDI·LG엔솔, 美서 AI 데이터센터 배터리 맞대결…ESS 시장 공략](https://biz.sbs.co.kr/article_hub/20000346452?division=NAVER) — **SBS Biz** · 11-15 09:58
   - 삼성SDI와 LG에너지솔루션이 미국에서 인공지능(AI) 데이터센터용 배터리와 차세대 에너지저장장치(ESS) 기술을 선보이며 북미 시장 공략에 나섭니다. AI 데이터센터의 전력 수요가 늘어나는 가운데…
   - 관련 보도 1건: [비즈니스플러스](https://www.businessplus.kr/news/articleView.html?idxno=119882)
+- [LG엔솔·삼성SDI, 美 'RE+ 2026'서 AI·ESS 솔루션 공개](https://it.chosun.com/news/articleView.html?idxno=3000000001071) — **IT조선** · 11-15 10:58
+  - 양사는 17\~19일(현지시각) 미국 네바다주 라스베이거스에서 열리는 이번 행사에서 인공지능(AI) 데이터센터용 전력 솔루션과 북미 현지 생산 에너지저장장치(ESS) 제품을 선보인다. LG에너지솔루션…
+- [삼성SDI, 미국산 LFP 배터리 앞세워 북미 ESS 공략⋯AI 데이터센터용 솔루션 공개](https://www.autodaily.co.kr/news/articleView.html?idxno=602100) — **엠투데이** · 11-15 10:46
+  - 삼성SDI가 미국 현지 생산체계를 갖춘 리튬인산철(LFP) 각형 배터리를 앞세워 북미 에너지저장장치(ESS) 시장 공략에 나선다. 인공지능(AI) 데이터센터의 전력 안정성을 높이기 위한 무정전전원장…
+- [삼성SDI·LG엔솔, 美서 차세대 배터리 솔루션 공개…ESS 시장 공략](https://www.nocutnews.co.kr/news/6606980?utm_source=naver&utm_medium=article&utm_campaign=20261115104343) — **노컷뉴스** · 11-15 10:44
+  - 삼성SDI와 LG에너지솔루션이 북미 최대 에너지산업 전시회에서 차세대 에너지저장장치(ESS)와 인공지능(AI) 데이터센터용 배터리 설루션을 공개하며 현지 시장 공략에 나선다. 양사는 오는 17일(현…
+- [삼성SDI, 美 RE+ 2026서 북미 ESS 공략…현지 생산 LFP 배터리 공개](https://www.ddaily.co.kr/page/view/2026111508400854100) — **디지털데일리** · 11-15 10:34
+  - 삼성SDI가 미국 에너지산업 전시회에서 현지 생산한 리튬인산철(LFP) 배터리 기반 에너지저장장치(ESS) 솔루션을 선보인다. 인공지능(AI) 데이터센터용 무정전전원장치(UPS)와 배터리 백업 유닛…
+- [삼성SDI·LG엔솔, 美 RE+ 출격…ESS·AI 데이터센터용 배터리 공개](https://www.m-i.kr/news/articleView.html?idxno=2018599) — **매일일보** · 11-15 10:32
+  - 매일일보 \= 김채은 기자 \| 삼성SDI와 LG에너지솔루션이 미국 최대 에너지산업 전시회에서 인공지능(AI) 데이터센터용 배터리와 에너지저장장치(ESS) 신기술을 선보인다. AI 확산으로 전력 수요가…
 - [삼성SDI, ‘RE+ 2026’서 차세대 배터리 토털 설루션 공개…북미 ESS 시장 정조준](https://biz.heraldcorp.com/article/10937345?ref=naver) — **헤럴드경제** · 11-15 10:04
   - 이번 행사에서 ‘AI의 상상, 배터리가 현실로’라는 슬로건을 내건 삼성SDI는 ▷전력용 에너지저장장치(ESS) 설루션 ‘SBB(Samsung Battery Box)’ ▷무정전전원장치(UPS)용 고출…
 - [LG에너지솔루션, 미국서 ESS 신기술 공개⋯북미 에너지 시장 공략](https://www.etoday.co.kr/news/view/2648231) — **이투데이** · 11-15 09:44
   - 이투데이\=문현호 기자 \| 북미 최대 에너지 전시회 'RE+ 2026' 참가 소듐이온 배터리·AI 데이터센터 전력 솔루션 선봬 LG에너지솔루션이 미국에서 차세대 에너지저장장치(ESS)와 AI 데이터센…
 - [LG엔솔·삼성SDI, 美 최대 에너지 전시회 참가…ESS·AI 데이터센터 배터...](https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611150921154850078) — **대한경제** · 11-15 09:40
   - 전력망용 ESS ‘JF3 AC LINK’에는 미국산 LFP 배터리를 적용했다. 배터리를 촘촘하게 배치해 같은 면적에 저장할 수 있는 에너지량을 기존 제품보다 약 26% 늘렸다는 게 회사 측 설명이다…
-- [삼성SDI, 美 'RE+ 2026'서 차세대 ESS 공개…북미 시장 공략 강화](https://www.businessplus.kr/news/articleView.html?idxno=119877) — **비즈니스플러스** · 11-15 09:36
-  - 삼성SDI의 'RE+ 2026' 전시 부스 조감도./사진\=삼성SDI 삼성SDI가 미국 현지 생산체계를 구축한 리튬인산철(LFP) 배터리 기반 에너지저장장치(ESS)를 앞세워 북미 시장 공략에 나선다…
-- [삼성SDI, 미국산 LFP 앞세워 북미 ESS 시장 공략](http://www.4th.kr/news/articleView.html?idxno=2121883) — **포쓰저널** · 11-15 09:32
-  - 삼성SDI 부스 조감도./삼성SDI 삼성SDI가 미국 현지 생산체계를 갖춘 리튬인산철(LFP) 배터리와 데이터센터용 고출력 배터리를 앞세워 북미 에너지저장장치(ESS) 시장 공략에 나선다. 전력 저…
-- [삼성SDI, 라스베이거스서 차세대 배터리 솔루션 공개…북미 ESS 공략 속도](https://www.etoday.co.kr/news/view/2648221) — **이투데이** · 11-15 09:28
-  - 이투데이\=문현호 기자 \| 미국 'RE+ 2026' 참가…ESS·데이터센터용 배터리 전시 현지 생산 체계 갖춘 'SBB 2.0' 앞세워 시장 확대 삼성SDI가 미국에서 차세대 배터리 솔루션을 선보이며…
-- [LG엔솔·삼성SDI, 美 ‘RE+ 2026’ 출격…AI 데이터센터 ESS 공략](https://www.edaily.co.kr/News/Read?newsId=01230006645646048&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-15 09:27
-  - LG에너지솔루션과 삼성SDI가 북미 최대 신재생에너지 전시회에서 인공지능(AI) 데이터센터용 에너지저장장치(ESS)와 비상 전원 기술을 선보인다. AI 데이터센터 확산으로 안정적인 전력 공급과 전력…
-- [삼성SDI, AI 데이터센터용 배터리 북미 첫 공개…미국 ESS 시장 공략](https://biz.sbs.co.kr/article_hub/20000346445?division=NAVER) — **SBS Biz** · 11-15 09:25
-  - 삼성SDI가 인공지능(AI) 데이터센터용 배터리를 북미 시장에 처음 선보이며 미국 에너지저장장치(ESS) 시장 공략에 속도를 냅니다. 삼성SDI는 오는 17일(현지시간)부터 사흘간 미국 라스베이거스…
-- [삼성SDI, 북미 ESS·AI 데이터센터 배터리 시장 공략…차세대 배터리 솔루션 총출동](https://news.google.com/rss/articles/CBMibEFVX3lxTFBmbTFPSjJzNUZjaXpCM1QxM3pfOXpPTGRXR0Q4WVRZM1YzWm5nZUROMEo1WEJVREdydjVzMURfd0dhTUY1RUs1Wk52NUxoZ3lHYWdhcE1GQmtWUnFRT2Jyem04bTNJcWR6WGxueg?oc=5) — **나눔경제뉴스** · 11-15 09:13
-- [베트남, 태양광 발전가격 상한 최대 16.9% 인상…ESS 결합형 우대 유지](https://www.aitimes.com/news/articleView.html?idxno=217323) — **AI타임스** · 11-15 09:10
-  - 배터리에너지저장장치(ESS)를 결합한 발전소에는 별도로 높은 상한을 적용하며, 북부 수상태양광의 최고 가격은 킬로와트시(kWh)당 2120.31동(약 110원)으로 정해졌다. 베트남 산업무역부는 지…
 
 ### 해외 · 12건
 
@@ -218,8 +221,9 @@ modified: 2026-11-15T10:15+09:00
 
 ## 메가특구특별법
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [초광역특구 노동특례 논의 지연…주52시간 예외 쟁점](https://news.google.com/rss/articles/CBMibEFVX3lxTE0wblNZbjZDdldfVS1iZUdfQ09IT2N6ZG9ZeTBRS2JRUG5NZExCclFCME9oZ3JqLUtZd1o3ekJSWUpHVVNQSGpJbmE4aGp3bzdnSTlmVnRaZGwwWVBGUnc4Z0duT0xSU2FWZ2phdA?oc=5) — **스페셜경제** · 11-14 15:52
 - [노사정, 초광역특구 산업안전 지원 논의…'주52시간 예외'는 아직](https://news.google.com/rss/articles/CBMieEFVX3lxTE81MVVSbWk2ZGVDZkx2NWtnZjAxaEFMNV9xa2xCYUFQMEUwdDF6VHhfVTNtdjh1YkRvVnhiRExET1ZhOUZhUFlyT0Y1NmlSb3AwbkFWR0FCUTR6LWkzZWtmbVRZdGd0WEZlWGZvSF95QVdoQnRpbzhTcNIBeEFVX3lxTE81MVVSbWk2ZGVDZkx2NWtnZjAxaEFMNV9xa2xCYUFQMEUwdDF6VHhfVTNtdjh1YkRvVnhiRExET1ZhOUZhUFlyT0Y1NmlSb3AwbkFWR0FCUTR6LWkzZWtmbVRZdGd0WEZlWGZvSF95QVdoQnRpbzhTcA?oc=5) — **뉴시스** · 11-13 21:04
 
 ---
@@ -258,6 +262,10 @@ modified: 2026-11-15T10:15+09:00
 ### 국내 · 1건
 
 - [\[KHARN칸\] 충남·냉매관리協, 시스템에어컨 냉매회수 실무인력 키운다](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sRnRKYmlZT0tYVHdQU1FhVEFaam9mVm55VzR4RGhqTVA0c2cyMkdNV01wa2J4ZmxGRjdjdkNUa2tDVTRhVWR2azVIOW5qLWlKSTFuWFM0OC13S0RMcnc?oc=5) — **kharn.kr** · 11-14 12:04
+
+### 해외 · 1건
+
+- [U-3ARC Calls for Stronger SME Support in Kigali Amendment Implementation](https://news.google.com/rss/articles/CBMipAFBVV95cUxOVENXajROUzMtNWNTb29TRzRBbjB5VlRnSEo4U005STNpV2E0RE52czkzeDVsSm4xNHRUc0xNS0k4RHFYNExGWDBydk5XdFJCZm9hMkFyeVZaMnQzSGREU1lxd1VldVJKMWZvNm8yNzJGdFczd3d0MWhNNVpmSFVBOFZReHdNMHNFZHozek5fc3B4bXRxVmZSd1dpWjBYNF9oTVNmeg?oc=5) — **Refindustry** · 11-15 07:30
 
 ## 지난 클리핑
 
