@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-18
-modified: 2026-11-18T12:06+09:00
+modified: 2026-11-18T12:44+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-18 12:06 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-18 12:44 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-18|11-18 클리핑]] — 기사 **194건** (국내 114 · 해외 80)
+> [!example] [[radar/news/2026/11-18|11-18 클리핑]] — 기사 **199건** (국내 118 · 해외 81)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -66,13 +66,14 @@ modified: 2026-11-18T12:06+09:00
 
 ## 국제감축 / Article 6
 
-### 국내 · 8건
+### 국내 · 9건
 
+- ["탄소 팔아 돈 번다"…노르웨이 찜한 이곳 역대급 거래](https://www.hankyung.com/article/202611184408i) — **한국경제** · 11-18 11:55
+  - 2019년부터 개도국의 파리협정 6조 정책 설계를 지원해 온 GGGI는 지난 16일 노르웨이 기후환경부와 부대행사를 열고 개도국 재생에너지 확대에 탄소금융을 활용한 경험을 공유하기도 했다. 김상협…
+  - 관련 보도 1건: [한국경제](https://www.hankyung.com/article/202611184408i)
 - [코이카, 캄보디아 친환경 교통사업으로 ‘ESG경영혁신대상’ 최우수상](https://www.viva100.com/article/20261118500462) — **브릿지경제** · 11-18 10:12
   - 이 사업은 파리기후변화협약(파리협정) 제6조 제2항에 근거해 지난해 7월 캄보디아 정부로부터 승인을 획득하며 한-캄보디아 간 첫 국제감축사업으로 기록됐다. 승인된 총 온실가스 감축량은 68만 톤 규…
   - 관련 보도 1건: [스마트경제](http://www.dailysmart.co.kr/news/articleView.html?idxno=132739)
-- ["탄소 팔아 돈 번다"…노르웨이 찜한 이곳 역대급 거래](https://www.hankyung.com/article/202611184408i) — **한국경제** · 11-18 11:55
-  - 2019년부터 개도국의 파리협정 6조 정책 설계를 지원해 온 GGGI는 지난 16일 노르웨이 기후환경부와 부대행사를 열고 개도국 재생에너지 확대에 탄소금융을 활용한 경험을 공유하기도 했다. 김상협…
 - [GGGI 지원으로 노르웨이와 개도국 3곳 간 '2천만톤 탄소배출권 거래' 성...](https://www.delighti.co.kr/news/articleView.html?idxno=125142) — **딜라이트닷넷** · 11-18 10:20 · 배출권거래제 / ETS
   - GGGI는 지난 16일 노르웨이 기후환경부와 COP31 부대행사로 '파리협정 제6조, 목표에서 투자로' 세미나를 공동 개최했다. 김상협 GGGI 사무총장은 "파리협정 제6조가 본격적인 이행 단계에…
 - [‘파리협정 6조’ 탄소거래 본격화...GGGI, 2000만t 규모 감축실적 거래...](https://www.m-economynews.com/news/article.html?no=73205) — **M이코노미뉴스** · 11-18 10:00 · NDC
@@ -122,6 +123,8 @@ modified: 2026-11-18T12:06+09:00
 - [\[COP31\] 김성환 기후부 장관 ‘지구적 기후대화’ 제안…K-GX 세계로](https://www.dailian.co.kr/news/view/1716351/?sc=Naver) — **데일리안** · 11-17 23:01
   - 우리나라의 이행 사례로는 지난해 발표한 2035년 국가 온실가스 감축목표(NDC), 올해 법제화한 2050년까지의 5년 단위 감축경로, 지난 10월 K-GX 전략 등을 들었다. 이날 한국홍보관에서는…
   - 관련 보도 1건: [이투데이](https://www.etoday.co.kr/news/view/2649378)
+- [AI 데이터센터…美 15년 탄소 감축 성과 무너뜨리나](https://www.digitaltoday.co.kr/news/articleView.html?idxno=716318) — **디지털투데이** · 11-18 12:10 · AI 온실가스
+  - 15년간의 온실가스 감축 성과를 되돌릴 수 있다는 경고가 나왔다. 데이터센터에 필요한 전력을 천연가스... 탈탄소화 목표를 위협한다고 지적했다. 보고서는 전력망에서 전기를 공급받는 데이터센터와 자체…
 - [임종룡號 우리금융, 녹색 인프라금융 27%↑…금융배출량 감축 '숙제' \[기...](https://www.fntimes.com/html/view.php?ud=2026111715420069395e6e69892f_18) — **한국금융신문** · 11-18 11:02
   - 중소기업의 온실가스 감축과 에너지 효율 개선을 지원하는 녹색·ESG 대출 잔액도 2024년 2조9574억원에서... 것이 목표다. 주요 투자 대상으로는 전남 해남의 400MW(메가와트)급 태양광 발…
 - [롯데웰푸드, ESG 평가 3년 연속 A…온실가스 3779t 줄였다](https://www.newsquest.co.kr/news/articleView.html?idxno=305278) — **뉴스퀘스트** · 11-18 09:26
@@ -142,8 +145,6 @@ modified: 2026-11-18T12:06+09:00
   - 한국은 지난해 2035년 국가 온실가스 감축목표(NDC)를 발표한 데 이어 올해 2050년까지의 5년 단위 감축경로를 법제화했다. 지난 10월에는 한국형 녹색대전환 전략도 발표했다. 헌법재판소는 2…
 - ["한국의 녹색대전환, 세계로"…김성환, 국제사회에 기후행동 촉구](https://www.edaily.co.kr/News/Read?newsId=05438246645646704&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-17 23:01
   - 이를 위해 한국이 지난해 2035년 국가 온실가스 감축목표(NDC)를 발표한 데 이어 올해 2050년까지의 5년 단위 감축경로를 법제화하고, 지난 10월 K-GX 전략을 발표하는 등 기후정책의 이행…
-- [기후장관, '지구적 기후대화' 제안…"시민사회 참여 필요"](https://www.nocutnews.co.kr/news/6608355?utm_source=naver&utm_medium=article&utm_campaign=20261117230042) — **노컷뉴스** · 11-17 23:01
-  - 헌법재판소는 2024년 8월 청소년기후행동 등이 낸 헌법소원 4건에서 탄소중립기본법이 2030년까지의 국가 온실가스 감축목표만 정하고, 2031\~2049년 목표를 비워둔 것은 미래세대에 과중한 부담…
 
 ### 해외 · 11건
 
@@ -188,8 +189,10 @@ modified: 2026-11-18T12:06+09:00
 
 ## 자발적 탄소시장 / VCM
 
-### 국내 · 2건
+### 국내 · 3건
 
+- [유럽 대기업 탄소제거 크레딧 9%뿐…넷제로 달성엔 연 최대 680억유로 필요](https://www.impacton.net/news/articleView.html?idxno=30730) — **임팩트온** · 11-18 12:34
+  - 유럽 주요 기업이 지난해 사용한 탄소크레딧 2600만톤 가운데 탄소제거 크레딧 비중은 9%에 그친 것으로 나타났다. 크레딧 유형을 공개한 기업 101곳 중 45곳은 탄소제거 크레딧 사용 실적이 전무…
 - [\[헬로즈업\] 로봇이 물류 분류하고 AI가 공급망 위험 예측…서울 AI 허브...](https://www.hellot.net/news/article.html?no=116394) — **헬로티** · 11-18 07:02
   - 이러한 탄소감축 활동을 탄소크레딧으로 전환하려면 실제 감축량과 생산 과정을 검증할 수 있는 데이터가 필요하다. 그러나 제조기업이 공정 데이터를 수기로 관리할 경우 외부 인증기관이 요구하는 증빙자료를…
 - [상장사 5곳 중 1곳 탄소크레딧 썼다…MSCI, 7800곳 분석](https://www.impacton.net/news/articleView.html?idxno=30711) — **임팩트온** · 11-17 15:00
@@ -348,8 +351,11 @@ modified: 2026-11-18T12:06+09:00
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 10건
+### 국내 · 12건
 
+- [발전공기업 통합 특별법, 조직개편에만 치중…에너지전환 실행력 담아야](http://www.e-platform.net/news/articleView.html?idxno=107090) — **에너지플랫폼뉴스** · 11-18 12:10
+  - 발전공기업 통합 특별법이 조직의 통합 측면에만 치중돼 정작 중요한 에너지전환 실행력에 대한 문제는 등한시 되고 있다는 지적이 제기됐다. 18일 5개 발전사(서부발전·동서발전·중부발전·남동발전·남부발…
+- [발전공기업 통합본사 유치전 가열…보령시 "발전 인프라·에너지전환 피해 고려해야"](https://news.google.com/rss/articles/CBMia0FVX3lxTE9PSkF2LV9sakk1eHdBWDRVMUhaTl9oeFpHWXlvSHN1Z1R0V3g5QWtDaVpobDhNT0Nvc0JGWElCOVNRa09jOTJlNFloekRuZFZPQ1BwWWRwUU5IWW9NUWxHbDgzYVN2Ymhxc24w?oc=5) — **충청시사신문** · 11-18 12:07
 - [동서발전, ‘갈등관리심의위원회’ 개최… 친환경 에너지 전환 속 선제적 소통](https://news.google.com/rss/articles/CBMicEFVX3lxTE9nV0o1dnJpcXR2NFlaZ195OEF0ZGtza2VzQW1xckE4WS1hLUwyZkxoRlU1WTVhVXpjbmZraHFiZXZTTWxncnRFdjJ6cE5hazduZWk1Q0RyUVYxOGdQVFVDYUVTQ2Q0amppLTVHc3ptN2o?oc=5) — **에너지코리아뉴스** · 11-18 10:20
 - [예천군, 전 행정리 이장 대상 ‘햇빛소득마을’ 교육…주민 주도 에너지 전환 기반 강화](https://news.google.com/rss/articles/CBMic0FVX3lxTFA5Qnh1ZFpoeEJIbXJ6Q1BBSDFhaHVvYnJ6Nno4SDNrckJIc3BNNGtmem9QUUdESGhxNXdCSnZxS2xwSHRVNXhzeUhSbEZYYUZRMG15ajY4ZThOd3BQN2o3RUNqSGdvU21haElfX1RuMXBqa0E?oc=5) — **대한경제** · 11-18 10:05
 - ['전력사용량 경남 2위' 김해시, "주차장 태양광으로 에너지 전환 속도 낸...](https://www.pointe.co.kr/news/articleView.html?idxno=87932) — **포인트경제** · 11-18 07:16
@@ -365,8 +371,10 @@ modified: 2026-11-18T12:06+09:00
   - 탄소중립 에너지전환 인력양성 교육 수료식(사진 / 선문대학교 제공) 선문대학교가 충남지역 자동차 정비업계 종사자를 대상으로 친환경차 전문정비인력 양성 교육을 운영해 43명의 수료생을 배출했다. 선문…
 - [탄소중립 에너지전환 인력양성사업 추진…자동차 정비업 종사자 43명 교육 이수](https://news.google.com/rss/articles/CBMidkFVX3lxTE5Nb0tEbDg1cUNfaTNwdmEyRGV0UGhxbUFjYlRGLUVwWEEwSWFUZkFURUxSTVhVN2VFckZpdk9pMmxxbnQxeVdUeDliYTNybUV6Q243M19RdmtkX2RhNjUzWkZNQ0YyYURSeVZ0YjBCTDhqTHpZQUE?oc=5) — **굿뉴스365** · 11-17 16:11
 
-### 해외 · 13건
+### 해외 · 14건
 
+- [Latest News In Energy Transition - Statkraft Boosts UK Grid Stability With First Battery System](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSmFDa0xEUm5wVm9KM0pNRWZFc3ZQUFpNdkU1czdjZC1fVTBnNnJpNThFeFF2QjJQczZxQjRlUHJORk1fX2FOOFNkOUFwS1FEZXRrcmRqMXdodG5fd0d1VnhiMW9fY3prQXdCNFQxdGNzUXl5SHoxbnNXemxNZFZ5ajRNNU5WZkhOYm1pWG93X0VvWTlrWVZyOUd1dkpaZk12MF9ETmE3eVJCOW15S2JyekdQLVhYOWx1V0NqZzZ6N1I?oc=5) — **Simply Wall St** · 11-17 20:07
+  - 관련 보도 1건: [Yahoo Finance UK](https://news.google.com/rss/articles/CBMikgFBVV95cUxQNXRQZ0x0eks0VGpTczhMV3k5ZG9jOER5b0wwQ29Bc0JtLUpjdlhEeXVneTBKbjA4VkxLWktMNEMyQ0V0N1JuTjl2YmFsM2dnLTYzUk9BbW5nOEEwRk5KczBaam5GdkNVVHBoRUt0VTNabHExdFhaSUNTX0hfMFd3TnJ0d3ZkaFdpaElodmtuZ3dsdw?oc=5)
 - [PTV. . WATCH: President Ferdinand R. Marcos Jr. underscored the Philippines’ commitment to strengthening energy security and advancing its transition to clean energy during the 4th Asia Zero-Emission Community (AZEC) Leaders’ Meeting held this Tuesda](https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVlNYanduRjJOZzJvMHdsbGVPNHgzcTR2cjdSc2R0dVFOMWNfUlhzbUxLN0lsc1ZuUEt6ald3YlI5dkh2bGM5ZVlDaFd3SVc5b3FjaHFmSy1xdjYzWEhxb3RfT29Vak9VSXdfdmV3cVZfWDlGZWgwOHVSQzFoWTlFX2k0VDFuZllxd3VhcFNRM2dzWHQ0T1hMQ2F6SmFpUUJYUWJOYlBnWnBpeWhMakc2c0JrbkVFVzJhS2tuNnBRbHVfVXNTWjZYQnl0QlNQaHFpckE?oc=5) — **Facebook** · 11-17 20:34
   - 관련 보도 1건: [Facebook](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdENzSGd6UjNJN3d6UDZ1Tjl4aURzMnlIeHlnTDlzSEtTZE8wZG01V3kwQTZQYW5jNjNCdERtYzdSODZqcEF5eXJPTmF5dnRlSWtjNnd0VnVlYjNsNzYyWkV2QWlJZUpzdHZLNUhiOEFmWDlOa3FXaXk5eDZxUVBCNnB6eXNTSXVfakpVZFQxYVVCZ1l0eU1WaGFyTnlMYjFJaG11RnhWVE94U2hiM3l3SFVvc3YyQ05Sa1p4YzkzSERTbXRoOFBiMEEwek5NSXZ2?oc=5)
 - [Australia's energy transition has an identity security problem](https://news.google.com/rss/articles/CBMilgFBVV95cUxNX0FjMGdKSGUyVklHSl84WTFaUjRYMXFGOXVyalNPcjcxLXhWdmpwU21lNDJ3dXFTaERxUThvSWppUXN0M2dTcFFhTFAyVmNLdG5VaV9Td0F4NEI1UzlhVGFmNTU1bGpYVzI3cm1kSnY4STJrWF81c3ZONEgwUThUSFFESUozU2M3NmFyOGFlM0ZCcjNoSEE?oc=5) — **IT Brief Australia** · 11-18 11:42
@@ -379,7 +387,6 @@ modified: 2026-11-18T12:06+09:00
 - [In final ASEAN speech, UN chief urges ‘just energy transition’ amid climate and cost crises](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdk5TLV9fN19rcnhUc3BWZnZYNWVENUVrMDlSTWxkMGd0MWFSMzRwZFNjaGRiZG1HQWtkZDRueHpMNjRRcGFDZTVqMFBSSWc4Sm1oblU2eVFCdjJwYUFFQmhFOXlteERSdGxmWWpKWnk5OHgtWk50V1ZWQVZudVdTQzFHQzZWaldxa3lzSkZ3czhhbnY4WnQ3VHVZV25OV0NScGtZSmxMMm9xbTV5WXBSa21FaktEelpZ?oc=5) — **Manila Bulletin** · 11-17 23:56
 - [German minister aims to boost hydrogen market amid energy transition](https://news.google.com/rss/articles/CBMinwFBVV95cUxQTE1SeWxwSU1LQkRkQkI5Q1hxaXlKWDgwOENQN3M1NzVrUk95VjBfNHFmeUwweGFJVThjUEdCcXJ4T2x0eWVEVkwyczNRMGJoZTZkRkYzdDFSby1LZDFySVhTMXd2MDZnNHk0S2FsYmVmRjV1U211aUlfNEZxWDRJbXhySXp0X3lBQUpTbDJLajBnQW15aVVYZ295R3pGNFU?oc=5) — **Hydrogen Central** · 11-17 23:55
 - [New LexisNexis expert practice note on the energy transition and sustainable shipping](https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVljY3dMNkM1VVg4UGZ6SUNtRHhKaHdpbC1Qa1NGTU05VGVJeENYM296V3V2djJGTGRHWktuWVllTGN4bjVqZVU5NWc5ZmhXSzZERXJfZ2lqMGpOUVVWSWVJQUlKVDdBUXFMNVJjbmNXZjVWeTZIdEFjWmJRNXZlUFJfQ0ZiTC1iRk9obGRGa3Rac2JnUWF5R0pQblN2RzZzRVBFM3pBZHdWMmFMTlpWT19acw?oc=5) — **4 Pump Court** · 11-17 22:51
-- [Latest News In Energy Transition - Statkraft Boosts UK Grid Stability With First Battery System](https://news.google.com/rss/articles/CBMikgFBVV95cUxQNXRQZ0x0eks0VGpTczhMV3k5ZG9jOER5b0wwQ29Bc0JtLUpjdlhEeXVneTBKbjA4VkxLWktMNEMyQ0V0N1JuTjl2YmFsM2dnLTYzUk9BbW5nOEEwRk5KczBaam5GdkNVVHBoRUt0VTNabHExdFhaSUNTX0hfMFd3TnJ0d3ZkaFdpaElodmtuZ3dsdw?oc=5) — **Yahoo Finance UK** · 11-17 20:37
 
 ---
 
