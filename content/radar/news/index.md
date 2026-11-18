@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-18
-modified: 2026-11-18T11:49+09:00
+modified: 2026-11-18T12:06+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-18 11:49 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-18 12:06 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-18|11-18 클리핑]] — 기사 **192건** (국내 113 · 해외 79)
+> [!example] [[radar/news/2026/11-18|11-18 클리핑]] — 기사 **194건** (국내 114 · 해외 80)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -66,11 +66,13 @@ modified: 2026-11-18T11:49+09:00
 
 ## 국제감축 / Article 6
 
-### 국내 · 7건
+### 국내 · 8건
 
 - [코이카, 캄보디아 친환경 교통사업으로 ‘ESG경영혁신대상’ 최우수상](https://www.viva100.com/article/20261118500462) — **브릿지경제** · 11-18 10:12
   - 이 사업은 파리기후변화협약(파리협정) 제6조 제2항에 근거해 지난해 7월 캄보디아 정부로부터 승인을 획득하며 한-캄보디아 간 첫 국제감축사업으로 기록됐다. 승인된 총 온실가스 감축량은 68만 톤 규…
   - 관련 보도 1건: [스마트경제](http://www.dailysmart.co.kr/news/articleView.html?idxno=132739)
+- ["탄소 팔아 돈 번다"…노르웨이 찜한 이곳 역대급 거래](https://www.hankyung.com/article/202611184408i) — **한국경제** · 11-18 11:55
+  - 2019년부터 개도국의 파리협정 6조 정책 설계를 지원해 온 GGGI는 지난 16일 노르웨이 기후환경부와 부대행사를 열고 개도국 재생에너지 확대에 탄소금융을 활용한 경험을 공유하기도 했다. 김상협…
 - [GGGI 지원으로 노르웨이와 개도국 3곳 간 '2천만톤 탄소배출권 거래' 성...](https://www.delighti.co.kr/news/articleView.html?idxno=125142) — **딜라이트닷넷** · 11-18 10:20 · 배출권거래제 / ETS
   - GGGI는 지난 16일 노르웨이 기후환경부와 COP31 부대행사로 '파리협정 제6조, 목표에서 투자로' 세미나를 공동 개최했다. 김상협 GGGI 사무총장은 "파리협정 제6조가 본격적인 이행 단계에…
 - [‘파리협정 6조’ 탄소거래 본격화...GGGI, 2000만t 규모 감축실적 거래...](https://www.m-economynews.com/news/article.html?no=73205) — **M이코노미뉴스** · 11-18 10:00 · NDC
@@ -168,16 +170,17 @@ modified: 2026-11-18T11:49+09:00
 - [충남, 전국 최초 ‘글로벌 탄소규제 대응 TF’ 가동…“수출기업 ‘CBAM 대응’ 선점 나선다”](https://news.google.com/rss/articles/CBMib0FVX3lxTE14QUNCb3hNTkZEMkZEVzZMV2Q4dWhiaEU5X0k2NU5UbTJPYjN5eDdfbHBjcTNHWUR6eDc0OTU5S1NvZGpJZFZNWlFXbTlFOWpmcHlocEpJeUpkbE95V21pY2JweUdfOEMyV3JLWnVPQdIBc0FVX3lxTE5MNjIxVkJyTEpEb1hhSkhMV1pPUjZKMFEzTlN2cmxYanpZTElJV3RrUE1GYkxENkVDNVZWSWx1MGxrZ1pBQ1RpNGdncmRrWnBYeUk3Zm5Td285VG50RGUxQTV5UDNsOVoxeDRGOTUyZ1JYVjQ?oc=5) — **대전투데이** · 11-17 14:34
 - [카자흐스탄, EU CBAM 배출 규정 대응 위해 금속 업계 지원 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMirgFBVV95cUxOMHZKUnFWNGZNVkFOVEJOTzZFNUk4OVl6NUQ5U1E5UzU1T2Y1dnhSclRxLV8tZjRJV0JweTg0bkZPQUhPa1RLbWpOaW9mNHpWcE8tNjVfQTlBZ0tWeDBfV3J2cERXZmE0SFZhMjNSdTJkSGlFVjAxcEY3N2FiZVlFVGloMlVNanNZXzNubF9hQUg1LXBhLU5MZ0t6VXlQU2EzV3V6dk91bmZHeGpiN3c?oc=5) — **IndexBox** · 11-16 21:00
 
-### 해외 · 10건
+### 해외 · 11건
 
 - [EU sets rules for deducting carbon prices paid in third countries under CBAM](https://news.google.com/rss/articles/CBMiswFBVV95cUxOVDFlMGFVenZxNy13a29sa19UQWN6elgySlhzRnFCUUxmbDNaSS02MEhfT3hFTVJra0RNaEpFaDhwWGMweGhuRWNOdkFfNUJfc2hjX0w2bVFudkI5RkpuVlNlcTQ4R3BydXZOMDJkSG9wRFQ4UWhaeHNDblJ1NVhPbjZ5NGdIVjZHNTRBNVBGWnM0V2oya3dCSS1rWHRIREV1TEp0NEJlR1hhRVprVmstUmFHYw?oc=5) — **SteelRadar** · 11-17 23:20
   - 관련 보도 1건: [EUROMETAL](https://news.google.com/rss/articles/CBMioAFBVV95cUxQcXdzRmRPc2l5Z19DWUVEQWQtdndKbG1VTnBFZ2Jrd0gtRjJxeVNRd201MkxxLWhxdk4wUVp0VVVUc3Q4elBZVDdTM2FYSTJwWVFWazNOTngyXzR0RnJXNjJRTlptN2Rlc2I0eGw3Z3BYRmlYTllJUkNta0lCWXVxeTBGNFRXMDlTekVOYnF2YU5qVzg3dnhTMkxieTBhUUhJ?oc=5)
+- [EU CBAM sees higher carbon cement diverted to UK](https://news.google.com/rss/articles/CBMingFBVV95cUxQcUNLNU5qQy1lQ05BNWpDVzhmcm9sekY4Z00yTGkzd21IOUZmdVNUN1RYMlpmNXQwTERkdXRRSHJHTWQtcndWZEtXVWtBbHhaNnItOXR2SjlYdTUxTkRzTEpuQTNiRjBvRG50VDd6QnlERWE0em9mREJhTmljeDg5eFFTcjR1WElqWWxSaFM4MW9IVHBCRnE3M1Jpc18zd9IBpgFBVV95cUxQa1ZyUDUyVXIzOHlzT1g1eFhEYlNvNFU5WFd6RlpnZkktdmQ0UDVJdnpGSTlWRkhUcGpBN3pBczRMbDVZUmZmb1BnV2hoMXZKd3c2eVBaTTlYSXk4emYxOExoT2xTWG9FUDlzTFJ6Z0k4cG90LXpRbUsxd3NaWnJTRFpuREhwYzgtYnlBcTBwdHNDVHBXMk82MXdwX1dqd2U3U2tzRlZB?oc=5) — **Construction Index** · 11-17 16:40
+  - 관련 보도 1건: [Trending Now Sustainable Construction](https://news.google.com/rss/articles/CBMipwJBVV95cUxOcjRzemVwYmF0TElsbUxfVjY3RUhqUThoU0ZPNENNLUpaUHdWSU1yQTZfWE1FMDBLYU14RVk2ek5SSERVZU0wSFl1YjFRRkkxQ1FiMXFjbjZidGxCMlpHUVRFMTk0Y2RBckkzNGZRbVVYQ3JYUUl6U2ctZHN0LXpzcnVxbmxzUWZ4SlF3SV9qOHoxTno4VUJzQ3ZkYmZQODk5SzBLR2xBcXJLdEFPdXNEYTd2VzFiV1dLTThBdlZJXzFxcHAyX3FHT2ZpR3dVNkxMNkN3T0NsdjF1Q3laU3BqcHB3RGhiMTJMQmUwSllHMzZocTZDanB2cG5LRDU0YmFjUHJQZnEyN2VTU2tsazl2RllnMVI5N0RFMW9KdzZiTUxuOFpnbXlJ?oc=5)
 - [Progress on CBAM concessions unlikely before end of year – Taras Kachka](https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmZHU1pGSWF6S1h5dV9VVGNnM2FoWWtkYUdkRTRRYWJwY1dxZFJKTlFXOTZLV05tazRTSHk2U2JOcGdnT09oakdkYnlNeFB0Q0hCNkVlSHVLN3pwWEdSWlUtWlQ3NmNJUW8taE81M3VkZnpURUdLRHdUS19mODJ0dUlqZ1dFOGtoY1JaVWtfUDI1Q2owWXgzLXlQMFVFWlBWRjV6RVp4bw?oc=5) — **ЭкоПолитика** · 11-18 00:07
 - [Ukraine, EU Discuss Steel Quotas, CBAM Relief and Industrial Visa-Free Regime - News and Statistics](https://news.google.com/rss/articles/CBMiswFBVV95cUxQMEtnbTVxcjFzS1c1Y2N1bjQ4SktsTmJnVlYxUFZtNy1maFdfMjhzSEtaZkgzQlVLTUVWaHJnTmplRzI2dUpTdWxpMmY1MWhoUzNoQVdjNnNaT2xTX1U1N0FqOWNnUlZFSU9PMjhBTE0yVHFlMWdzMU1sOG55dXp6N19MaV9nX05fMlNlYmFyckJmMm5ZM1VCTE03S1hyVTI5cFZlV3BGdEdGZXVOSUcyNzNaaw?oc=5) — **IndexBox** · 11-17 21:20
 - [EU CBAM cement diversion to UK: carbon and supply risks for project teams](https://news.google.com/rss/articles/CBMiswFBVV95cUxPUktTSUxtMU5VZUtOS0kyU0dpY0ZFc0UtWnV6T0ltclZQcVhUZEhURl9jUnNzWUJlb1lQZWh1bDlTaU5QRkxXaENIYjhxRkE3N2tsS1JQZ1NxWlRNQlJxYVludGk5VXZZYW5sZjVMem94X01GNl9sNmoyTE9ia3JCRExCbEhndmhpWUNQNmpzcGM0NVdrZkR1STE4VEl2di1sa0pldVJmZjNDMTBIZkU4MDhTMA?oc=5) — **Geomechanics.io** · 11-17 21:00
 - [Cement Importers Redirect Flows to UK After EU CBAM Launch - News and Statistics](https://news.google.com/rss/articles/CBMilgFBVV95cUxPcUtHQUNPX3p4WEhUVmI4RzNzdlpwQ0xDNjdsaEI2Sk1RX1c4OXlsOThtWUJ5Y0w3YWYwSUJwSlNpSDUxbnRaT3p1NXlMMkd5eWxBSHBibWV1WktZRjVHN0MxeVpOaVRHUmp0YVp5WGxveUJXTGducHZYR2Y5c0hhOUNnQkZFRGtYNHR0amhET2VqNlp6ZGc?oc=5) — **IndexBox** · 11-17 19:50
 - [Kazakhstan prepares exporters for EU CBAM compliance](https://news.google.com/rss/articles/CBMiygFBVV95cUxOQkRrNVI0d0NFTXMzaVlaZDhLOHZTWFhDRHA5c1pFMGJwN0d3RVlna25Ub3dmMHJNd1JrWWVMMHQyYV82YzVHUTd0MVlYMm9nR0o5TnJnVkFCalk3QV9pc1lwSWFZY3JaQWNLUVZCNVQ2Y2dCYVpxRElybW5xQTk2WDlXdm9USVNOZU9PMUg0cEhZZ2JoUjZTdmdDWTZqN2dMa2ZlZWdZQ0hpT3RMWmFRWDhLb0FVT2ZneU0zd0ZMOUVZbjY0X3ZmVEJR?oc=5) — **Shanghai Metals Market** · 11-17 18:48
-- [EU CBAM sees higher carbon cement diverted to UK](https://news.google.com/rss/articles/CBMipwJBVV95cUxOcjRzemVwYmF0TElsbUxfVjY3RUhqUThoU0ZPNENNLUpaUHdWSU1yQTZfWE1FMDBLYU14RVk2ek5SSERVZU0wSFl1YjFRRkkxQ1FiMXFjbjZidGxCMlpHUVRFMTk0Y2RBckkzNGZRbVVYQ3JYUUl6U2ctZHN0LXpzcnVxbmxzUWZ4SlF3SV9qOHoxTno4VUJzQ3ZkYmZQODk5SzBLR2xBcXJLdEFPdXNEYTd2VzFiV1dLTThBdlZJXzFxcHAyX3FHT2ZpR3dVNkxMNkN3T0NsdjF1Q3laU3BqcHB3RGhiMTJMQmUwSllHMzZocTZDanB2cG5LRDU0YmFjUHJQZnEyN2VTU2tsazl2RllnMVI5N0RFMW9KdzZiTUxuOFpnbXlJ?oc=5) — **Trending Now Sustainable Construction** · 11-17 18:14
 - [UK CBAM 2027: new rates and emissions guidance for calculating potential costs](https://news.google.com/rss/articles/CBMivAFBVV95cUxNT05RMXVvdU5NaUZHVUp4bXQ2eHBkV0lMbnE0eHhlNHQzWERjd2Vrb295NktfMXNtUndMNExFbjJfSDhFOWdvRGVNOGpiZUJteGNNdVltZXprS3NabGVkYUdfMWFBSTEzM18xYnVadUZzeGdGWTFQVHJzanotNTZZcVpiTE84RHpKSzVIQWtvaTdISmtZckYxY1FobzVoeGQ5c3dmRF9IR2lZZkRFdnJPVFN6SlNpTVk0Z1NRSw?oc=5) — **Saffery** · 11-17 18:13
 - [EU Commission sets rules to deduct foreign carbon prices under CBAM](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUS1hNjJoNUFIMmFtQ0xqYk5nVElkQVpBSHhQMjRrUF9ibV9aNTI5Sl9ET3F5V0hnMU80OC1vSUFhd2xHM1ppMTBNeTdMWEllTWppbXpaSjZfOFAxV1JHd0ZVa1pJTjluRGhPVGQ5d1JzdEx3cXdDTVV5dVFJWEhYRVRoYkNGZ1ZUcGVZNmtKMmVnQ1FHSERFbmZtOG13V2d1UWFoUy1IcUo0ZGVVQm4xR2xQSVVEdWlIS1dmZWtlQmZOMGlRMVoyRmRKX1N4M2toUGs3Ug?oc=5) — **Fibre2Fashion** · 11-17 16:01
 
@@ -248,6 +251,7 @@ modified: 2026-11-18T11:49+09:00
 - [ESS 잘나가니 '본진' 전기차는 중국산 차지…K배터리 전열 재정비](https://www.mt.co.kr/industry/2026/11/18/2026111714554620493) — **머니투데이** · 11-17 17:00
   - LG에너지솔루션·삼성SDI·SK온 등 국내 배터리 3사는 전기차 시장 위축 국면에 ESS(에너지저장장치)용 배터리 판매를 확대하면서 버텨 나간다는 전략을 세웠다. 하지만 LFP를 앞세운 중국 기업들…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTFBYc1NyTkVlTWU5SEJmSVBBRnNIY1hRbVhBcXJ5dkhmVDVIV1dSdWZBTWd6Q2R4MmdFS1FScUZrQ19fVnFZMUp3d3Y1bFRtUWFvOWNVRk01VEF6SUdJUFU0QlgxSElrWUlDQkdJMkg1S21SZ9IBckFVX3lxTFBYc1NyTkVlTWU5SEJmSVBBRnNIY1hRbVhBcXJ5dkhmVDVIV1dSdWZBTWd6Q2R4MmdFS1FScUZrQ19fVnFZMUp3d3Y1bFRtUWFvOWNVRk01VEF6SUdJUFU0QlgxSElrWUlDQkdJMkg1S21SZw?oc=5)
+- [LG에너지솔루션, 美 RE+서 차세대 ESS 공개…AI 전력시장 공략 가속](https://news.google.com/rss/articles/CBMicEFVX3lxTE5XWmRjUFpxM3pRRUxOeVRZRWpQeVNVNDNLeXB3Q2dUR2E2ZkZBbkJaa2RlZEVkWTQ1U01HMmEzbjcwc3NUalo4Yk9Gb3hDYnUza0V5UXBZSDZUZTB0aGFuQU85TlVhQ05MRHJyMkZLckTSAXRBVV95cUxQVWJhV2xfOG5fX3BRUFZVVGpFeEoyeVZnWWRJMTZlblNOWEl3bWlwY3RZOElaRnZ2ZmN3QXhJbXhuNHd5dHpzYnJkbVU0Snd2WUF3MDc3ekRvMXUzMXBvY1RWQllFT0owUzZvaTd5VnZBUjExeQ?oc=5) — **산경투데이** · 11-18 11:35
 - [북미 ESS 시장 '뭉칫돈'…삼성SDI, 16GWh 공급 계약](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1US2hKRGtzU2czaFFlSWRDYUFEWkJRS2RJSjl1Zkx0UDBpNXNDa0p2bmFGdjgyaXNfakhCc2tzaDJfM0U3M21LV2plLXBOTkh4Q1RvOEp0T2pfTEtrSVlwbmUwWGVHQQ?oc=5) — **데일리메이커** · 11-18 11:18
 - [LG엔솔, AI 데이터센터 통합 전력 인프라 · 차세대 ESS 공개](https://www.todayenergy.kr/news/articleView.html?idxno=305726) — **투데이에너지** · 11-18 11:04
   - 히어로 존에서는 무정전 전원 공급장치(UPS), 배터리 에너지 저장 시스템(BESS), 배터리 백업 유닛(BBU)... 미국산 리튬인산철(LFP) 배터리를 적용한 차세대 그리드용 ESS 'JF3 L…
@@ -260,8 +264,6 @@ modified: 2026-11-18T11:49+09:00
   - 경기 고양도시관리공사가 국내 최초 공유형 에너지저장장치(ESS) 실증사업을 추진한 성과를 인정받아 기후에너지환경부 장관 표창을 수상했다. 18일 공사에 따르면 지난 16일 열린 '2026 한국에너지…
 - [삼성SDI, 통합형 ESS 솔루션에 25년 장기 보증 제공](https://www.thelec.kr/news/articleView.html?idxno=65591) — **디일렉** · 11-18 10:16
   - 삼성SDI가 에너지저장장치(ESS)용 배터리와 전력변환장치, 운영시스템을 통합 공급하는 솔루션에 25년 장기 보증을 제공한다. 장기간 운영하는 ESS의 유지보수와 교체 비용 부담을 줄여 북미 시장…
-- [삼성SDI, 美서 통합 ESS 솔루션 공개…25년 장기 보증](https://www.etnews.com/20261118000112) — **전자신문** · 11-18 10:08
-  - 삼성SDI가 17일(현지시간) 미국 라스베이거스에서 개막한 에너지산업 전시회 'RE+ 2026'에서 에너지저장장치(ESS) 통합 솔루션 'AC Wrap'과 무정전전원장치(UPS), 배터리백업유닛(B…
 
 ### 해외 · 16건
 
@@ -368,6 +370,7 @@ modified: 2026-11-18T11:49+09:00
 - [PTV. . WATCH: President Ferdinand R. Marcos Jr. underscored the Philippines’ commitment to strengthening energy security and advancing its transition to clean energy during the 4th Asia Zero-Emission Community (AZEC) Leaders’ Meeting held this Tuesda](https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVlNYanduRjJOZzJvMHdsbGVPNHgzcTR2cjdSc2R0dVFOMWNfUlhzbUxLN0lsc1ZuUEt6ald3YlI5dkh2bGM5ZVlDaFd3SVc5b3FjaHFmSy1xdjYzWEhxb3RfT29Vak9VSXdfdmV3cVZfWDlGZWgwOHVSQzFoWTlFX2k0VDFuZllxd3VhcFNRM2dzWHQ0T1hMQ2F6SmFpUUJYUWJOYlBnWnBpeWhMakc2c0JrbkVFVzJhS2tuNnBRbHVfVXNTWjZYQnl0QlNQaHFpckE?oc=5) — **Facebook** · 11-17 20:34
   - 관련 보도 1건: [Facebook](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdENzSGd6UjNJN3d6UDZ1Tjl4aURzMnlIeHlnTDlzSEtTZE8wZG01V3kwQTZQYW5jNjNCdERtYzdSODZqcEF5eXJPTmF5dnRlSWtjNnd0VnVlYjNsNzYyWkV2QWlJZUpzdHZLNUhiOEFmWDlOa3FXaXk5eDZxUVBCNnB6eXNTSXVfakpVZFQxYVVCZ1l0eU1WaGFyTnlMYjFJaG11RnhWVE94U2hiM3l3SFVvc3YyQ05Sa1p4YzkzSERTbXRoOFBiMEEwek5NSXZ2?oc=5)
 - [Australia's energy transition has an identity security problem](https://news.google.com/rss/articles/CBMilgFBVV95cUxNX0FjMGdKSGUyVklHSl84WTFaUjRYMXFGOXVyalNPcjcxLXhWdmpwU21lNDJ3dXFTaERxUThvSWppUXN0M2dTcFFhTFAyVmNLdG5VaV9Td0F4NEI1UzlhVGFmNTU1bGpYVzI3cm1kSnY4STJrWF81c3ZONEgwUThUSFFESUozU2M3NmFyOGFlM0ZCcjNoSEE?oc=5) — **IT Brief Australia** · 11-18 11:42
+- [Indonesia’s energy transition is not just a global agenda](https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU0RxWnNVaFpBLVVLdVBxREREMnhNTXI4MFRIVVdjcExOSnRsbTdqcXRGRTlBS2lEN0tQV3BuVnB6SmJESFlmcGU3UWF5MHAtLUFpeTFseHhPbkZucUI4cVAzU1U0bmRJaFhzZ2ppdGpWMlZ1bjdIWm9SSWhPTEhpTjYzZVg2T1pkNWt0QW95emFPNXJHYkZjWVMzdVJLS0tWS0dSaVlCanR2OUFka3lndkdIeVB4clhETnE5Z3h3Vk9JeXM1TTdGbDY3T2VNZVVhLUdkNFQtRUl2VlB4OE5LTkFDNEk?oc=5) — **The Jakarta Post** · 11-18 11:36
 - [Grids package: Council and Parliament agree to streamline permitting for a faster clean energy transition](https://news.google.com/rss/articles/CBMiggJBVV95cUxQcGtNR3BZdnFENmVPWGtDTlNUQTBxemVQczVpbTljdG5hRnFhaGpyU3U2aGdhaWg2Y3BnLWdfTl83dkhTZDhLRVJtZ3BHTTloNVdBS2xrcVFvSWVSbEhpN1pQQVkxeXBtaVlweTFJeTBaZWhNUzNjSHBrai1pTGN4eDhLWWd2dG1TSjNuNVZkTU5maEc3R2hJZ1A5ejMyTnRqWE0zU3A5ajRiOWxHN0FMVndHUEk0QWZfVFZTUHRDSjV5Y1lCRnc2MjNYRVRFZS1tRTc3UjhYeTU1Z2x0LU9ORGo5QXBCb1N2TGxqbkV4VHlQdnBsNjFlUzIyUWJ2TzZBTVE?oc=5) — **Council, European Union** · 11-18 09:35
 - [Geopolitics Energy Transition: Climate & Security Nexus](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdHZoaVg1QmZXQ0VZcEp4d0RZLW1LU2h1Skxob044RU1POUpPY080MG5ydnFoVFdLVF90LVdFeFJ0MlhNNFZEaHVTUUVucmhScV92QUUxVUd4Ukd1cjI1QVdrVExqdFF1VENoMktZODRNSVpOQm9qVGtEMUstV1oxVkJoY25VY2tzR2FLcGdHMHZqejZVT3duSDhkLXFWeEh2WWtXTHFGSWQ?oc=5) — **World Economic Forum** · 11-18 06:44
 - [AMRs and the UK automotive sector's energy transition](https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ1pEbWp5dVJJaXdTNTlXVlBSRmZkNEs2OFF6dERwMDJldElnOG56b01MMFhmRmVzQlMzV2lJdE1GN3FOeU9HWXFZMEl5S2RWY25DQXBqeUY0N3gwQzdkTFlIdFg0MnV3UWJmM0cwRFl4V2Rqakd2VmxZbWl0UE5hQTlyd3pCUFpKaDFya2o4enBqQ29DN3RvckxhUHE?oc=5) — **Stephenson Harwood** · 11-18 06:33
@@ -377,7 +380,6 @@ modified: 2026-11-18T11:49+09:00
 - [German minister aims to boost hydrogen market amid energy transition](https://news.google.com/rss/articles/CBMinwFBVV95cUxQTE1SeWxwSU1LQkRkQkI5Q1hxaXlKWDgwOENQN3M1NzVrUk95VjBfNHFmeUwweGFJVThjUEdCcXJ4T2x0eWVEVkwyczNRMGJoZTZkRkYzdDFSby1LZDFySVhTMXd2MDZnNHk0S2FsYmVmRjV1U211aUlfNEZxWDRJbXhySXp0X3lBQUpTbDJLajBnQW15aVVYZ295R3pGNFU?oc=5) — **Hydrogen Central** · 11-17 23:55
 - [New LexisNexis expert practice note on the energy transition and sustainable shipping](https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVljY3dMNkM1VVg4UGZ6SUNtRHhKaHdpbC1Qa1NGTU05VGVJeENYM296V3V2djJGTGRHWktuWVllTGN4bjVqZVU5NWc5ZmhXSzZERXJfZ2lqMGpOUVVWSWVJQUlKVDdBUXFMNVJjbmNXZjVWeTZIdEFjWmJRNXZlUFJfQ0ZiTC1iRk9obGRGa3Rac2JnUWF5R0pQblN2RzZzRVBFM3pBZHdWMmFMTlpWT19acw?oc=5) — **4 Pump Court** · 11-17 22:51
 - [Latest News In Energy Transition - Statkraft Boosts UK Grid Stability With First Battery System](https://news.google.com/rss/articles/CBMikgFBVV95cUxQNXRQZ0x0eks0VGpTczhMV3k5ZG9jOER5b0wwQ29Bc0JtLUpjdlhEeXVneTBKbjA4VkxLWktMNEMyQ0V0N1JuTjl2YmFsM2dnLTYzUk9BbW5nOEEwRk5KczBaam5GdkNVVHBoRUt0VTNabHExdFhaSUNTX0hfMFd3TnJ0d3ZkaFdpaElodmtuZ3dsdw?oc=5) — **Yahoo Finance UK** · 11-17 20:37
-- [How financing can jump-start road transport’s energy transition](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVndPbzV3VmtOMGxpcHYwR2d2eVJHTzZidTlzZXBuXzM3WUlldndKclpmMGVkVE0yTDBCM3Rod2ZQbjlkdGpHMHFvRVVyNFg3UXJmUnU1WUNYR05KdWpYRGtKdndBUlBzTEdqZnZJSXpMcUNUZDlPS2JsMmpiNkRVRnNqQzZFdE9UZndqOERXVS1kQ2VHQTF6c0laVUI3Znd6U3RpZm5mX293UQ?oc=5) — **IRU \| World Road Transport Organisation** · 11-17 20:01
 
 ---
 
