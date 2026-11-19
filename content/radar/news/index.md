@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-19
-modified: 2026-11-19T10:55+09:00
+modified: 2026-11-19T11:28+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-19 10:55 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-19 11:28 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-19|11-19 클리핑]] — 기사 **202건** (국내 124 · 해외 78)
+> [!example] [[radar/news/2026/11-19|11-19 클리핑]] — 기사 **206건** (국내 127 · 해외 79)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -107,12 +107,13 @@ modified: 2026-11-19T10:55+09:00
 
 ## NDC
 
-### 국내 · 12건
+### 국내 · 13건
 
-- [충남도, 유엔기후총회서 탈석탄 해법 제시…국제협력 강화](https://www.ajunews.com/view/20261119100301308) — **아주경제** · 11-19 10:12 · 탈석탄
-  - 제31차 유엔기후변화협약 당사국총회는 지난 9일부터 오는 20일까지 튀르키예 안탈리아에서 진행되며, 각국의 온실가스 감축 목표를 구체적으로 이행하기 위한 방안 등을 논의한다.
 - [CAT "기후행동 5년째 제자리…현행 정책대로면 지구온도 2.7℃ 상승"](https://www.esgeconomy.com/news/articleView.html?idxno=17452) — **ESG경제** · 11-19 09:24
   - 한국은 2035년 국가 온실가스 감축목표(NDC)를 중심으로 발전과 산업, 수송, 건물 등 주요 부문의 감축경로를 구체화해야 하는 상황이다. 그러나 국제사회가 직면한 문제와 마찬가지로 한국에서도 감…
+  - 관련 보도 1건: [ESG경제](https://www.esgeconomy.com/news/articleView.html?idxno=17452)
+- [충남도, 유엔기후총회서 탈석탄 해법 제시…국제협력 강화](https://www.ajunews.com/view/20261119100301308) — **아주경제** · 11-19 10:12 · 탈석탄
+  - 제31차 유엔기후변화협약 당사국총회는 지난 9일부터 오는 20일까지 튀르키예 안탈리아에서 진행되며, 각국의 온실가스 감축 목표를 구체적으로 이행하기 위한 방안 등을 논의한다.
 - [연 4조원 지원 전기차, 탄소감축 효과 적고 충전 불량도 여전](https://www.dailian.co.kr/news/view/1716975/?sc=Naver) — **데일리안** · 11-19 09:02
   - 예산정책처는 “무공해차 보급만으로는 감축목표 달성이 어려우므로, 2035 국가 온실가스 감축목표(NDC)에서 제시한 내연기관차 연비 개선, 대중교통 이용 활성화 등도 실질적인 감축 성과로 이어지도록…
 - [\[환경용어\] 국경 넘는 탄소 협력의 핵심 통화… '국가 간 이전 감축실적(ITMO)'](https://news.google.com/rss/articles/CBMiakFVX3lxTE5VTGR3el9TOEpDQ0RZTzhzbERxOGxEZmdWc2tKaHBiMjRrRVJLcHhDWTJNdVFqV01CdGw2eTh2ZHlmZ011N0Z3cEdVN3QxcVdNWkU3QmhtaWNtdF9FdVRtUHZKYWJoRl81dlHSAWpBVV95cUxOVUxkd3pfUzhKQ0NEWU84c2xEcThsRGZnVnNrSmhwYjI0a0VSS3B4Q1kyTXVRaldNQnRsNnk4dmR5ZmdNdTdGd3BHVTd0MXFXTVpFN0JobWljbXRfRXVUbVB2SmFiaEZfNXZR?oc=5) — **파인드비** · 11-19 00:47
@@ -182,23 +183,26 @@ modified: 2026-11-19T10:55+09:00
 - [한국거래소, 탄소크레딧 거래 '부가세 면제' 검토](https://news.mtn.co.kr/article/2026111813484975948) — **MTN 머니투데이방송** · 11-18 14:10
   - 사진\=뉴스1한국거래소가 개설을 준비 중인 탄소크레딧시장의 거래 활성화를 위해 부가가치세 면제 방안을 검토하고 있다. 새 시장에 세제 지원이 필요한지 따져보는 것으로, 관련 연구용역도 발주했다.18일…
 
-### 해외 · 5건
+### 해외 · 6건
 
 - [Ghana secures 6.57 million forest carbon credits, becomes first African country to receive ART TREES credits](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVFdvR1IxMVd0OUdIanluZHVpUlM3YkRNTE9XY1Y5a2dmV2VpbFVxZXptZkN4R1g3dmg4ZXI0d2dBaHdTMGR6QTU4a3hwelFDeFBodUJjV3JLdW1KQ0Jvdjg4eXlaSTJtNnA4M0NwZ2dpTWNiZmJUdFRxdWhOV1NiNnJtTEJ5eUtEUm8xNDVjY0VkLTVtcUFMUVRvRFh1alVZTzg2TFVyb2FVMVB3VGc5d1Q2RWJSQkNBc3F4SUdfdnlsR1VhTlhNUFhuREdmZXl6NkE?oc=5) — **MyJoyOnline** · 11-19 04:20
 - [S’pore seals carbon trading pact with Zambia](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUmFFUlE0ZzI0ZFM2M09GQ0NhQXYxZ0V1UE1VWndYV01iQzA4ck1xRlp2ZGtEcDU0U1RvTUUtU2NkSm9vNkJHUUU5enh4MnJyYlN3RjY4R05USUNGci1NMXFpV2NiM0pTTXVPWUdtSmtKT1FscEtJRjgybk1GWEliSDljQ3FMTzh0RzJtZkZDQzU1Qjg3X1I1Rjd4ZktOWFRUa2Z6T3Rpc0dHSUE?oc=5) — **The Straits Times** · 11-18 21:00
 - [World’s First Vehicle Recycling Carbon Credits Launched](https://news.google.com/rss/articles/CBMipgFBVV95cUxOMlJpWmRwZkUwVUFfWHFpNHgtb3dLX2J0Z3BCS0toeWlsRXktSXZXQlB6SzVlQ3llejhkUmlvdG5icmpMaVJnRmFjUXJFd0Y0Z3FqX3o3a2w3TVVNNlE5azFnOTlxWnZVMTQ2THRJLVJUb3VpVjVNdkJMQ05kNVJFbk5DWEJ5eS15LWFtV05CNmZROGIwN0lvRjdmZ2FWeDl3c2Vub1ZR?oc=5) — **ESG News.earth** · 11-18 20:53
 - [African Civil Society Coalition ‌‌‍⁠⁠‍‍‍‌‌⁠‌opposes Plans To Turn Wildlife Into Carbon Credits At COP31](https://news.google.com/rss/articles/CBMiQkFVX3lxTE1XcWpJZWc5eUJqd0VzOG9WVTM3cE1iZzNqMnlscUEyX1ZZR2FiSUxGdnUxWThDbC15OXMycVp6NFA5dw?oc=5) — **News Agency of Nigeria** · 11-18 18:08
 - [MMCM, CerCarbono Issue 24,988 End-of-Life Vehicle Carbon Credits](https://news.google.com/rss/articles/CBMiogFBVV95cUxOLU9ScFZUWlNuSUdib0FrT2tUOTZydkxSSVZuTnMzeWFDdkY4SWNwR0Z5NjF2T1RnRlYxSzRxQWkyNnVTMk9rdnVMMDUtT3JqWmJnVC01b3FkSmJXcDVDMW9FbUVxem9yLTNWNGRKS3I1SmJqMzE2T3NXaHU1Nm9uT3NkazEyZnRDSndMZjlodGJmYzJ1VDNvcm1ORTk5Z1hvVWfSAaoBQVVfeXFMT3hFbHIyU2d1MV9SazdvWW81bTdwbTd3NHM4eURNVTVJeFZ4aU01ZGxXOUR1NUkyWjYtTHp1bUZSbXZNOXNLZ2pLbFRNRVRhRkZsU19EajVRckZ4MFBKT0xkejI4ZS1zTzZuTEZzQjREbEV5WFVWMmNSbjJYRWRWalIwOE1tXzQ3Tm43V1Y1V1F4YUR1X1djWVJ1S2JpaEx5N3dMQjdOcTVZUXc?oc=5) — **Autocar Professional** · 11-18 15:55
+- [COP31 launches platform to track cross-border carbon credits](https://news.google.com/rss/articles/CBMiywFBVV95cUxPWm1LUHg4R3dGQWtacnYyaFlqLXVHNERnaUhreWxGWHVldGd3VWdMUDg1bjZKQlFmanhzRTBkUERpZEVGaXl2Q1Z0LUU5UlAxdzlWZmhtREVRTDBvbzJmdkpSVHpTbXJtVHNFWWt1dG5NczNqUlZwRDFveXRsUWdoSWx2VzRkTzRNUVotYWlrc3FoZUhaMkpqNEE5Nk1vc21oUmN5M0QwelZlMWFzUmY1Qmc5ejhhQ2FwazV2S0VVN3JRR3hLYnNiZEVKSQ?oc=5) — **myRepublica** · 11-18 15:52
 
 ---
 
 ## AI 온실가스
 
-### 국내 · 12건
+### 국내 · 13건
 
 - [기후총회 'AI 서약', 미국 빅테크 참여 못 끌어내](https://www.yna.co.kr/view/AKR20261119002900099?input=1195m) — **연합뉴스** · 11-19 02:13
   - 튀르키예와 국제전기통신연합(ITU)이 최근 공개한 '안탈리아 AI 서약'은 AI가 온실가스 감축과 기후변화 대응에 기여할 수 있음을 인정하면서도 데이터센터 전력 소비량 급증 등을 고려해 지속 가능한…
   - 관련 보도 1건: [조세금융신문](https://www.tfmedia.co.kr/news/article.html?no=209016)
+- [솔루엠, 글로벌 스마트 리테일과 AI 시대 전력 인프라 잇는다](https://www.mk.co.kr/article/12213450) — **매일경제** · 11-19 11:25
+  - ◆2026 한국 경제를 빛낸 인물·경영◆ 솔루엠 글로벌 스마트 리테일과 AI 시대 전력 인프라를 잇는... 2025년 처음으로 Scope 3 온실가스 배출량을 산정했다. 1037건에 달하는 지적재산…
 - [물관리도 AI 시대…한국이콜랩, 산업용 수처리 혁신 이끈다](https://www.mk.co.kr/article/12212289) — **매일경제** · 11-19 10:05
   - 한국이콜랩은 인공지능(AI)과 디지털 기술을 산업용 수처리에 접목해 물관리 방식을 사후 대응에서 실시간... 이콜랩은 물과 에너지 절감, 온실가스 감축 효과를 경제적 가치로 환산하는 자체 도구 ‘e…
 - [포스코, AI데이터센터 철강시장 공략…글로벌 고객사와 26건 협약](https://www.ekn.kr/web/view.php?key=20261119020521841) — **에너지경제신문** · 11-19 09:14
@@ -238,6 +242,10 @@ modified: 2026-11-19T10:55+09:00
 - [SK온 대만 1.2GWh ESS 수주전 뛰어든다…12월 입찰](https://www.mt.co.kr/industry/2026/11/19/2026111813284883136) — **머니투데이** · 11-19 05:50
   - SK온이 오는 12월 대만전력공사가 발주하는 ESS(에너지저장장치) 프로젝트 입찰에 나선다. 미국 에너지 기업 GE버노바(GE Vernova), 대만 ESS 기업 씨텔(Seetel)과의 첫 공동 사…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMickFVX3lxTE15d3d4dXBtQWVZRndHNnJ2SldLMlF1VWNOMGNkVXpqUjl2NEloX0FuektObkNlTHduWnNQR25sWmZUdUI3Q09tVTZUWXkxczJFS0pCMUZGb0l2S2FVNTVza3gxMWV2QWMyUTh0Wm9sZ2k3Z9IBckFVX3lxTE15d3d4dXBtQWVZRndHNnJ2SldLMlF1VWNOMGNkVXpqUjl2NEloX0FuektObkNlTHduWnNQR25sWmZUdUI3Q09tVTZUWXkxczJFS0pCMUZGb0l2S2FVNTVza3gxMWV2QWMyUTh0Wm9sZ2k3Zw?oc=5)
+- [에너지노·스탠다드에너지, AI 에너지 설계 플랫폼 기반 VIB ESS 사업화 협...](https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065579712369884) — **메가경제** · 11-19 11:28
+  - 에너지노와 스탠다드에너지가 인공지능(AI) 기반 에너지 설계 플랫폼과 차세대 배터리 기술을 결합해 에너지저장장치(ESS) 사업화 및 시장 저변 확대에 나선다고 19일 밝혔다. ▲ 에너지노 제공 양사…
+- [\[LG엔솔 상장 5년\]③ESS 수주잔고 '껑충'…AI 전력시장 新성장축](https://www.bloter.net/news/articleView.html?idxno=679093) — **블로터** · 11-19 11:20
+  - LG에너지솔루션이 상장 이후 에너지저장장치(ESS) 사업을 새로운 성장축으로 키우며 글로벌 전력 인프라 시장에서 입지를 확대하고 있다. 상장 초기 전기차 배터리를 중심으로 성장했던 것과 달리 최근에…
 - [맥쿼리·EQT·아레스까지 뛰어들었다…전력망 ESS에 몰리는 글로벌 투자자금](https://www.impacton.net/news/articleView.html?idxno=30744) — **임팩트온** · 11-19 10:42 · 전력망
   - 캐나디안솔라(Canadian Solar)의 자회사 리커런트 에너지(Recurrent Energy)는 지난달 29일 프랑스의 배터리 저장 프로젝트 2곳을 BW ESS에 매각했다고 밝혔다. 각각 100…
 - [美 ESS 기업 ESS테크 파산…소듐이온 전환도 불발](https://www.etnews.com/20261119000123) — **전자신문** · 11-19 10:32
@@ -249,10 +257,6 @@ modified: 2026-11-19T10:55+09:00
   - 한양증권은 19일 파인엠텍이 폴더블 스마트폰 부품과 에너지저장장치(ESS) 사업의 동반 성장에 힘입어 실적 체질을 바꾸고 있다고 분석했다. 북미 신규 고객사향 폴더블 부품 공급이 본격화하면서 기존…
 - [中 빈자리 파고든 韓 배터리...LG엔솔·삼성SDI, 美 ESS 판 굳히기 경쟁](https://www.asiaa.co.kr/news/articleView.html?idxno=271802) — **아시아에이** · 11-19 09:28
   - 전기차 수요 둔화로 북미 배터리 공장 가동률이 떨어진 상황에서 미국 내 AIDC 확산과 대중국 관세 장벽으로 '빈집'이 된 북미 에너지저장장치(ESS) 시장 선점을 통해 수익성을 극대화하겠다는 전략…
-- [“화재 위험 최소 사흘 전 감지”…삼성SDI, ESS에 AI 기술 도입](https://www.sentv.co.kr/article/view/sentv202611190019) — **서울경제TV** · 11-19 09:16
-  - 삼성SDI가 배터리 화재 위험을 최소 사흘 전에 감지하는 인공지능(AI) 기반 소프트웨어를 국내 에너지저장장치(ESS)에 도입한다. 기존 하드웨어 중심의 안전 기술에 AI를 접목해 사전 예방 기능을…
-- [삼성SDI, ESS 화재 징후 AI로 사흘 전 감지⋯SBB 탑재 추진](https://www.autodaily.co.kr/news/articleView.html?idxno=602232) — **엠투데이** · 11-19 09:06
-  - 삼성SDI가 에너지저장장치(ESS)의 배터리 이상 징후를 인공지능(AI)으로 조기에 감지하는 화재 예방 소프트웨어의 적용을 확대한다. 국내외 약 1400곳의 ESS 운영 데이터를 학습한 AI를 활용…
 
 ### 해외 · 14건
 
@@ -375,6 +379,7 @@ modified: 2026-11-19T10:55+09:00
 ### 해외 · 12건
 
 - [Energy Transition Minerals Upgrades U.S. OTC Quotation to OTCID Basic Market Effective 18 November 2026](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPczI1UlVvSTZTakpTLXI2MHNGeVNHWlhYZkZQSWIxUThIVmI0Qml0cnRnLW9YZXZkS3VNNWtYdktqdjFEVE9URENrX0JEaXhMZXJyWnJxSjhKejV3QWl2V2YyQTY0eTNjZDlteFhacGd0U2RManRZM2dNaEY3d2x2ekRid2NnVFFjeXdESE9iRWd1STJHbEo5SUhaWjNuQ3NzQW9DYzVwa3Y0cVpOLXkxZHhFUUI1TUI3X3FrVDFmMVk4U0drQTJuVmJIZFlJNkFVRzM3dnNWUGJMNmM?oc=5) — **Kalkine** · 11-19 10:36
+- [Singapore Marine Energy Transition A Primer on Shipping's Fuel Change](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNFdycWtJbnlaMVBJYmp0UnRRWXJaSDRuVGpJc0s1cnc4TE5vd295SmdxOVRVLUJIRl9Xb1l5TkluTnk1WVc4OU1MRzlaNkhGZEhCTWN5SmVMOVRzTkJudklvMXN1OWo2Q20xd19hMlRUa2R0bDNOODJvLXZzV0F5VnhDUFpWYzVaV1Z1czBlZWs1VjYzVjZPMFdaUlZLZGU0S3JUNXUtWXlZTDAtTTlqS2FfWHhoQkhoNDM1SFlhNXdUWU10dTZBZUV4QnJ4Mm1mSUE?oc=5) — **Smartkarma** · 11-19 10:33
 - [‘Mineral Corridor’: Pakistan’s energy transition and critical minerals opportunity—V](https://news.google.com/rss/articles/CBMivAFBVV95cUxPczVGbFNSTjhMeDBLZ2NYckxjVFhHMjVQWlpvRTlsRFBRU0hFZ1NTVFhpSjJOVnVMd2pRN2VldHJIUFBZSUNsR2VBeWJ1VUlfdm1iOWViN3pTRl9RN3RxRjdCTEpzbXpkRGdMS1pjd1FHN25xM2E4b0hZR2dMVzh5SG4yMWJVNlV3aGNFeEpjdWVfMTN3RkVHNTVnTkExMk9rR1lxWmRyaFFYNUxIZWIxRzFBUTZKS2ZQamdCOdIBVkFVX3lxTFBOZDhYcDVjUUdnTEw0SDNsNkx6UHppbzRtZjhscjJJODFyQjdyYUl6YjJNbHdTa0xrTTBNZ3dXNzQtblNLcGR4Q05rYmlRcURSeEtCZHN3?oc=5) — **Business Recorder** · 11-19 08:55
 - [Kenya joins global push for fossil fuel treaty amid questions over readiness for energy transition](https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWGs3cE5NZzRPNVN5akladGtaTloxZkFPY0pSU2dPLWx1TkpCSHpUa0d3V0ZsMlZ0c2x2Q0oybGVTMGhfYkM1VUF2Nlpnd0psaFFZWmt5RTctSW1yNnRDM01fdkV0NGJibC1peTdwZEt6c09PekxEVi1ZM0tCVUJxRHVOZ0FPWDEzTl9aa2dIZTZBa1lmU2NlZm91WkQ2b1lLS1lvTU9YbjhiR1ZBMFVxR2dCOFdVLXJ6alQwX256NkgydGVtVms1LQ?oc=5) — **The Mt Kenya Times** · 11-19 07:04
 - [COP31: Fossil Fuel Treaty Coalition expands to 30 countries as Global South intensifies push for energy transition](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUTVUajJfVzNodXgxdC13dElWeHVOUGxhcEtXaHRMRDJzeDlMWUtvSHhtb2xyRnhIdC04QjJ4OUZhRWxKTWItQ0RqcmNwcUwwVzZyUHpOQ0c1QlFFR0VKNDJrX2ZLUW8wdDFsTVR5QkplR3VFU2dpb1RUNHVTQkdLM2tjYk11ZnhSQ0pFM1dPVllMSl85eTBuTWlGcUlQeTZ3ckhTd2FtZmUya3V0cnJuMFRHX3dyQlNJUi1LcXFLd1NQVkVqWlJ0R1ZweEs5YVJfU2RfQUFzcy14eWRLakY2Wm9n?oc=5) — **EnviroNews Nigeria** · 11-19 03:41
@@ -385,17 +390,18 @@ modified: 2026-11-19T10:55+09:00
 - [Delft researchers awarded NWO funding in KIC programme line to reduce critical raw materials in the energy transition](https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQU0xR01CaDVuN1lSblkydmwxSUtzR2hlb0toeWpoMzNBZVYxeU9wQ3RZU1paMmxpWWZ0c0d2QXA1SWplQ0hXOHk3UHFnMFBWMG1fLWdveUVycWFZUXUxT0E4a05FX2VJV3B5SEkxTm0yYk4xc01qNU5TeU42NjRDMDJtcUZYaVBoNEpveHVrRk02NkZMcHg1M0c2bTJxVms0a2Rqazg5elNXcF9xVmpRUDJORVphcjVIWkYybWdqZm9GQmZkMUhSbGFKbTROUmczY09rZXlpZEg0UzRkcG5jRm5nWkJCTDFuRWYyc0p3?oc=5) — **TU Delft** · 11-18 23:04
 - [Creating Cities for Tomorrow: Why Communities Sit at the Heart of the Energy Transition](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWtZYmtlWWJuME0weDYwSmlzTGxuZzFHOWhXUVRUOEdSMURHdXYzSEstQlVjWUNCTXl2LXJGZUFRRzExMGhrUWhaUFVfb3VTTjdEajNlNEJIcTlCVmh2eXp2STRaZzhMVU5qLThtUUR1aXZTNVhScjNsU3RFTzBILXpRRkdHZV9NUDRFOHRsQTFMN2NhSmQxc1lUUzNEZmdFTjUwcWNPdFFTZ3BkZGNDQWREZ3M4eENp?oc=5) — **Business News Wales** · 11-18 22:24
 - [EU wants ‘strong signal’ on energy transition but blocks finance to deliver it](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVHh6S0otVmtjOXJuYnR5ZThaWFlqTDZ2SkE3SUtGN0VzMkNQZW1tMlltanFjUlhUMXFRRl9Ic1E4Vnc5QUxHNDU1aWU4bnNPY3JiLUdKQkR6d2hvNzktLXhFbGdnQzhXbUtEdndjVXpYeVdOYW9mLTNMQmdSMnc3NFN6WmhhdVpvMlpJQk84aFIzcE1Sd3kzOThYR2ZXVkpVSEV6UzM3amo3emc?oc=5) — **350.org** · 11-18 21:48
-- [European Commission unveils climate measures for EU energy transition](https://news.google.com/rss/articles/CBMioAFBVV95cUxOOGptdnhpa1RLWlh3b2Z5M09lbllvODZCQUpDNDMyd3djVmJxWUVWUmZoMVpkN3V5emdsVnEybTRXSHBPWWRNLWlfNkNOekVvd1BkX3VlcENud3BoTE43NlhmN2x4LUp2bmExakFpZkNkYWc0ODdMSGpQYmh5MnIxVnYzbmJORTdFWWk2bTdaZUE0QUlPaUpkVTd5S1ZSNWhM?oc=5) — **Traders Union** · 11-18 21:27
 
 ---
 
 ## 냉매
 
-### 국내 · 5건
+### 국내 · 6건
 
 - [한온시스템, 통합 냉매 모듈로 PACE 어워드 2년 연속 수상](https://www.mt.co.kr/industry/2026/11/18/2026111814220846180) — **머니투데이** · 11-18 14:58
   - 한온시스템이 전기차용 초소형 통합 냉매 모듈로 글로벌 자동차 기술상을 2년 연속 받았다. 한온시스템은 '초소형 통합 냉매 모듈(HICE 모듈)'로 '2026 오토모티브 뉴스 PACE 어워드' 본상과…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMibEFVX3lxTE5zVElOWkhTV0VCSnpJMnFDcm5jX1o5QUstaFptdTBvcVhYTS1WcWlVR29jbXM0Uy1VdVpTUDN3Qkc4ZmppTHRWcWdkR1lfX2RRMUNZYmlreFAwN0tKZ3o4OXozOGJCSGRHUUxtLdIBckFVX3lxTFBGM09kaTk3MW5mVVNCeFBab2FfSWNldWI2aldVNTlZdjFOQjBMNkJobklya2JRN3pjbXZrRktObEZxQnlLRFZLRDlkLW9OZXlrYkJXNEE3VklXYWs2ZXY2aG45amFzampRZW5aY29zVG9Xdw?oc=5)
+- [COP31 냉방 장관회의, 폭염 대응과 전력·냉매 배출 감축 함께 추진](https://www.dailyt.co.kr/newsView/dlt202611190005) — **데일리환경** · 11-19 10:58
+  - 폭염으로부터 시민들을 보호할 냉방은 늘리면서 냉방에 드는 전력과 냉매에서 발생하는 온실가스 배출을... 냉방기의 배출을 줄이려면 전력 효율과 냉매를 함께 봐야 한다. 냉방기가 전기를 쓸 때 발전 과…
 - [한온시스템, 통합 냉매 모듈 ‘HICE’로 2026 PACE 어워드 수상](https://news.google.com/rss/articles/CBMidEFVX3lxTE1CcU9renhiTUEtLXN5VkxMUDZiWFRqWWVJSFJrSjltQk5Pa2gzbDIwT1BFWmh4MGUxY0NSLXNnSmMyM1dtT1RZN1NpUS1ycW5nUm1sUUw2TGNkT3A1ZmFHM1pTS1dsYl91MmVjQ2hxYmJwNXlY?oc=5) — **https://www.autoelectronics.co.kr/** · 11-18 22:18
 - [“16kg 모듈 하나에 냉매 부품 5종 통합”…한온시스템, 美 PACE 어워드 2관왕](https://news.google.com/rss/articles/CBMibEFVX3lxTE9MaGpKckIzZ19tZVcxSjI2SlBlbFlVOW03S0VwWlBabUhuSlRGUTFOSGtJQjI4QWpxTzBPOHk5WTBhRkRBbE5Db1FnZ2M1WkRxQ1Z1VE5ENktKazNKU2dCUWhCckRVWEdud284VNIBbEFVX3lxTE9MaGpKckIzZ19tZVcxSjI2SlBlbFlVOW03S0VwWlBabUhuSlRGUTFOSGtJQjI4QWpxTzBPOHk5WTBhRkRBbE5Db1FnZ2M1WkRxQ1Z1VE5ENktKazNKU2dCUWhCckRVWEdud284VA?oc=5) — **더게이트** · 11-18 19:07
 - [한온시스템 초소형 통합 냉매 모듈, 글로벌 기술 경쟁력 입증](https://news.tf.co.kr/read/economy/2390556.htm) — **더팩트** · 11-18 16:26
