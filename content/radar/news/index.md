@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-20
-modified: 2026-11-20T11:12+09:00
+modified: 2026-11-20T11:31+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-20 11:12 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-20 11:31 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-20|11-20 클리핑]] — 기사 **171건** (국내 84 · 해외 87)
+> [!example] [[radar/news/2026/11-20|11-20 클리핑]] — 기사 **176건** (국내 89 · 해외 87)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -21,7 +21,7 @@ modified: 2026-11-20T11:12+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 9건
+### 국내 · 10건
 
 - [글로벌녹색성장기구, 차기 유엔기후총회 '전략적 이행 파트너'](https://www.yna.co.kr/view/AKR20261120019200371?input=1195m) — **연합뉴스** · 11-20 09:00 · 국제감축 / Article 6
   - 이는 이달 튀르키예 안탈리아에서 진행된 제31차 당사국총회(COP31)를 통해 탄소시장 등 여러 분야에서 뚜렷한 결실을 보며, 관련 논의를 이끌 역량을 입증한 결과라고 GGGI 측은 설명했다. GG…
@@ -38,6 +38,7 @@ modified: 2026-11-20T11:12+09:00
   - EU·영국 탄소시장 통합 임박… 영국 배출권값 상승·CBAM 면제 전망 EU와 영국이 양측 배출권거래제(ETS)를 연계하는 방안을 협의하고 있다. 시장 연계가 성사되면 양측 간 탄소국경조정제도(CB…
 - [韓은 K-GX, 中은 탄소시장…COP31서 드러난 탄소중립 온도차 \[현장+\]](https://www.kukinews.com/article/view/kuk202611180236) — **쿠키뉴스** · 11-19 15:32
   - 中, 아시아 탄소시장 가능성 제시…加는 감축기술 사업화 중국은 탄소감축을 새로운 시장과 역내 협력으로 연결하는 데 관심을 보였다. COP31 중국관에서 만난 한 관계자는 “아시아의 연결이 더욱 긴밀…
+- [\[COP31\] 한국, EU·중국 참여 '국제 탄소시장연합' 공식 가입](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wa251YzZ6eF9EYm1YQ190VnRQaVRDel9GQl9tY1diR3p3MVM0LWFUdWNQZ192UTIwV25hUmxBTWlRMk9uRUZOZXZSLWFJZUtRMllWVEItazFpYWViSGxEYi1mN3pURG8?oc=5) — **SDG뉴스** · 11-18 15:49
 
 ### 해외 · 14건
 
@@ -97,6 +98,8 @@ modified: 2026-11-20T11:12+09:00
 
 ### 국내 · 12건
 
+- [83개국 기후정책 분석…아동 굶주림 우선과제 설정 국가는 17%뿐](https://www.yna.co.kr/view/AKR20261120075200371?input=1195m) — **연합뉴스** · 11-20 11:22
+  - 월드비전은 각국 정부와 국제사회에 국가온실가스감축목표(NDC) 및 국가적응계획(NAP)에 아동 영양 보호 목표를 반영하고, 발육부진·영양실조 등 구체적인 지표를 포함해야 한다고 촉구했다. 특히 유엔…
 - [월드비전, COP31 계기 기후정책 속 아동 기아·영양 문제 분석 결과 발표](https://kids.donga.com/news/articleView.html?idxno=170357) — **kids.donga.com** · 11-20 10:42
   - 월드비전은 각국 정부와 국제사회에 국가온실가스감축목표(NDC)와 국가적응계획(NAP)에 아동의 영양 보호 목표를 반영하고, 발육부진과 급성 영양실조 등 구체적인 영양 지표를 기후정책에 포함할 것을…
 - [월드비전 “아동의 굶주림도 기후위기 대응의 우선과제로”…COP31서 정...](https://www.ibabynews.com/news/articleView.html?idxno=157084) — **베이비뉴스** · 11-20 10:32
@@ -119,8 +122,6 @@ modified: 2026-11-20T11:12+09:00
   - 홍성준 국토교통부 녹색건축과장은 국가 온실가스 감축목표와 연계한 지역별·개별 건물의 에너지·온실가스 총량제 도입 방안과 추진 계획을 설명했다. 김범직 기후에너지환경부 열산업혁신과장은 재생열 이용 확…
 - [\[기고\] 도전적 R&D 산업화로 기후위기 극복을](https://www.dt.co.kr/article/12096251?ref=naver) — **www.dt.co.kr** · 11-19 18:16
   - 탄소 배출량은 무역과 투자의 기준이 되었고, 2035 국가 온실가스 감축목표(NDC)와 2050 탄소중립까지 남은 시간은 길지 않다. 기존 기술의 점진적 개선만으로는 이 간극을 메울 수 없다. 실패…
-- [농협금융, 기후금융 사업 본격 확대··· 122억 시범사업 넘어 기업금융...](https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308104) — **그린포스트코리아** · 11-19 16:36
-  - 전환금융은 당장 무탄소 기업이 아니더라도 온실가스 감축 목표와 실행 계획을 갖춘 기업의 공정 개선과 설비 전환에 자금을 공급한다. 농협금융이 농업·농식품 분야와 반도체 제조업을 시범사업 대상으로 선…
 
 ### 해외 · 6건
 
@@ -135,8 +136,10 @@ modified: 2026-11-20T11:12+09:00
 
 ## CBAM
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [전남광주통합특별시, '탄소국경조정제도 선제 대응'... 24일 국가 지원사...](https://www.newsworker.co.kr/news/articleView.html?idxno=515238) — **뉴스워커** · 11-20 11:30
+  - 탄소국경조정제도(CBAM)와 기후공시, 공급망 실사 등 강화된 탄소 관련 규제와 고객사 요구에 직면해 있는... 설명회에서 다뤄질 핵심 지원 내용은 탄소국경조정제도(CBAM) 대응을 위한 제품별 탄…
 - [무협, 브뤼셀서 韓-EU 정책포럼…“CBAM·IAA 취지 공감하지만 기업 부담 우려”](https://www.edaily.co.kr/News/Read?newsId=01974566645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-20 08:35
   - 윤 회장은 “한-EU 자유무역협정(FTA) 발효 15주년을 맞아 산업과 공급망 전반의 전략적 협력을 한층 강화해야 한다”며 “탄소국경조정제도(CBAM), 포장 및 포장폐기물 규정(PPWR), 산업가…
 
@@ -182,8 +185,10 @@ modified: 2026-11-20T11:12+09:00
 
 ## AI 온실가스
 
-### 국내 · 10건
+### 국내 · 11건
 
+- [미국인들이 데이터센터 결사반대한 진짜 이유…'전기요금 폭탄'의 실체...](https://news.sbs.co.kr/news/endPage.do?news_id=N1008851494&plink=ORI&cooper=NAVER) — **SBS 뉴스** · 11-20 11:23
+  - 민주당이 의회 다수당을 차지하면서 미국의 AI 데이터센터 규제가 한층 강해질 수 있다는 우려가 나오자... 실제로 트럼프 행정부는 석탄이나 천연가스 발전소의 온실가스 배출 기준 상당 부분을 폐지하기…
 - [메타, AI 설비투자 늘렸더니 탄소배출 45% 증가…넷제로 일정 재검토](https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZRmFjY3VVLWlrYzNZd0pnTmNJcXJZVFFXUk1EUTB5anhVN01BNzBVMk9KWHhCelloU0drTGE0XzNGMmctQjBFRVlwVzJrOUNNZFFBWTVnSEZVN0QydmlqQjczNG55NUJiOVE?oc=5) — **임팩트온** · 11-20 10:19
 - [美 데이터센터 자체 발전 확대…가스발전 의존·전력망 부담 논란](https://www.theguru.co.kr/news/article.html?no=109992) — **더구루** · 11-20 09:48 · 전력망
   - 미 환경단체 시에라클럽은 "2020년대 말까지 오프그리드 데이터센터로 인해 미국 전력 부문의 탄소 배출량이 크게 증가하면서 지난 20년간 이어져 온 감소 추세가 역전될 수 있다"고 밝혔다. BNEF…
@@ -255,11 +260,11 @@ modified: 2026-11-20T11:12+09:00
 
 ## 전력망
 
-### 국내 · 15건
+### 국내 · 17건
 
 - [LS전선·LS마린솔루션, 한전 해저케이블 사업 수주…국내 해저전력망 시...](https://www.ziksir.com/news/articleView.html?idxno=154113) — **직썰** · 11-20 10:02
   - \[LS\] LS전선과 LS마린솔루션이 국내 해저전력망 구축 사업에서 협력을 확대하며 서해안 에너지고속도로 등 국가 전력망 사업 수주를 위한 경쟁력 강화에 나선다. LS전선은 20일 한국전력이 발주한…
-  - 관련 보도 2건: [아주경제](https://www.ajunews.com/view/20261120101216315), [뉴스토마토](http://www.newstomato.com/ReadNews.aspx?no=1321222&inflow=N)
+  - 관련 보도 4건: [아주경제](https://www.ajunews.com/view/20261120101216315), [뉴스토마토](http://www.newstomato.com/ReadNews.aspx?no=1321222&inflow=N), [와이드경제](https://www.widedaily.com/news/articleView.html?idxno=304276), [한국정경신문](https://kpenews.com/View.aspx?No=4321751)
 - ["없어서 못 판다" 미국 전력망 슈퍼사이클… 효성중공업·LS ELECTRIC· HD현...](https://www.pinpointnews.co.kr/news/articleView.html?idxno=506132) — **핀포인트뉴스** · 11-20 07:28
   - 시가총액이 약 2002억달러인 GE 버노바는 전력 생산과 전력망 설비 분야에서 사업을 전개하는 대표 기업이다.... 이번 미국 전력주 약세가 국내 증시에 미칠 영향은 전력기기와 전력망 관련 기업을…
   - 관련 보도 1건: [핀포인트뉴스](https://news.google.com/rss/articles/CBMid0FVX3lxTE1MaFc2X1BCQTVjTDBzN25kTUNaRDFSejRGQ0J2OVFtMF9YMmt3am1XMUVlYkpzcDVKdDNlVEg0aU5GUzFGdWt3cy1WVHZrMnNLdHFxcjU5VjBNWC1XMTZTcmRZNG9xY2RfQkdPYUk2MGt2Zm92ZlEw?oc=5)
