@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-21
-modified: 2026-11-21T11:05+09:00
+modified: 2026-11-21T11:43+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-21 11:05 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-21 11:43 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-21|11-21 클리핑]] — 기사 **184건** (국내 93 · 해외 91)
+> [!example] [[radar/news/2026/11-21|11-21 클리핑]] — 기사 **185건** (국내 94 · 해외 91)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -87,8 +87,10 @@ modified: 2026-11-21T11:05+09:00
 
 - [UK and EU Agree to Link Emissions Trading Schemes](https://news.google.com/rss/articles/CBMilwFBVV95cUxOZW5DRHYwWFhvbWNhc2lvOVF2Q1ZYX21pTEpqSjZVMjktN3VBQzdVR29FbzE1VmhzT0VkYTdma3VRbktVbU1mUmNCZDlKc19DUzEzYzVHcEctR3ozNjRNTnNSVHQxb1AtdGFtdEJQbjlZaUpGZGx6RjNJQ01IN2ljc3lpdkZnWHkySzBYd0hQXy1OUDgzcEpr?oc=5) — **Ship & Bunker** · 11-21 08:48
   - 관련 보도 1건: [www.rivieramm.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXFZbF93RFhuZE5VQ3dydGhRNURKaFJfMVBRTFctU0ZBdmRoOUd2ZXVJbkVTZUNuYTBSNHk3VnBLMzBoczJRVEZFdW1QV2hMQUM2R29pS0gzVHJPRFNqOFdKcWNPOG1YU0dFU0RKa1JQZHE1QVJSVHFiTWpXX18wRWUxSGZZdDEyYzZYZVRiMF9yeFl4elhEMTN6R3Uyc0piZVJneTZlSDdOc1VMN0E?oc=5)
+- [Hybrid Machine Learning Framework Improves Carbon Price Forecasting Accuracy Across Chinese Markets](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeXdhMEtBbm1ldnRqYktid2dfQTZZdGpSeDRnS1IwNmpHQVZpQlB6cWdhMy1aa0ZWVzk4ZmpBSTUwZmFGZjgwSmg3cUlsTWZYalRIYlB4Y09DLXd4YnVyNDN6aW5FYTRWVmVwUjlydmlvUmFSRlRGT0xEcE9WRnlaYm9jLU1sUjFyWDg2bm93NHBySkpUM0VUM2NTR2Y1cjI2WlZaX0FRQ0RoU09YRm9kMFcxbDd6RDV5UEdEQ2FMMlhZUQ?oc=5) — **Bioengineer.org** · 11-21 11:01
 - [Middle East Countries Push Back Against EU Plan to Expand Aviation Carbon Charges at ICAO Global Conference](https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcmtFbDN5azNrTUFLZDYxVDBSaFYybXpwclp3VXRYOVdlNU1mUmIweFZzUkJGdG9BUzY2TkEyYU8yYmM4aXNxXzR4U29FZXpLRThBTUF1U0RUZWFoZGRjZnFCZzYtRlJGcUp2RmRCWGs4Z2JKamxESVFyX25NenNQRWlJMGdDMWtnRWNLUnF5Y0hobEtBcHd5a2hoc3QyeUgtT3hnRFp5N0Y2amluWEZzT2ZYWENkSUpkTDkwSkpMcy1ySmRKbE9ibE9hZnBJcGFnaVVsdDVjdXU?oc=5) — **FL360aero** · 11-21 05:33
 - [UK expansion of ETS to cover EfW will now follow EU ETS timeline](https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFlSdThQVF9zWW1pZkFBSjBCck1LNFpOT2pTOHVHVVVBTlZIQktfWnI1RXVudU9MTGVMejNUNVNVWmhSaThuV1A1OXB1Z3g3NFFVVFNWY0s5N194ZG1VcmJ5QzVicWtEZGNzMTlpSHU3YXNrc0NhYWtzZkJCTVpmMFhqU1k4eDNkczlIeUQwN2Fic3FVd2daS21CZ2xnTWJFRFYyZVRLaGtSZU1O?oc=5) — **ENDS Waste & Bioenergy** · 11-21 04:13
+- [EU-UK summit agrees ETS linking deal](https://news.google.com/rss/articles/CBMijwFBVV95cUxPR0Jza0VjUk5nd2tRZjdveU1DYk9IUHZuQjlIay1WOU9IX19CM1lyVm50aVRkN25SeldLR1c3SDNZWG1aNE9xbnJUV2dHM2k5TkFweWFBalQ5M2xsZDVxdndzZWktZVZ3VWFPOVVFcWNoZ1RlNk9FeW01LUhwc1lpOThVQzRyaTF3aEVtNnB0MA?oc=5) — **Quantum Commodity Intelligence** · 11-21 02:33
 - [Businesses says Labour should fix flaws in Emissions Trading Scheme](https://news.google.com/rss/articles/CBMirwFBVV95cUxQVklJLUFqcXJHNUxOaTMtSUU1djhkWko4U0xBaGswNTR2NTFFWE9CS01OdWJUZFllUDBYSEx1YXl2S2I0Z3VreXRhY1Q1UnZjRVBLTTFCbWpibUx6bDVuSzh1S2Nac1FGdjZvbjRIUlBMQXZYZ0VGYVRwazg5Rk1IQ0o0Rjd0SUlSOUZneDBtTjI2UHY5UHhmcFNIeEhtallfQ3R4MUFYc2Vvcm53b2xr?oc=5) — **Energy Live News** · 11-21 02:05
 - [North African Seaports Gain as EU ETS Shifts Maritime Traffic, West African Ports Face Decline](https://news.google.com/rss/articles/CBMimAFBVV95cUxOcDBRVW9aNkdQU1Nxa3I3dTlrM1VPeFFPRlk1LXhmZ0g1V0FHSGNwOVVwU3N4NEFva1Rla3R3SXZxZGE1bmN3bjh4bTRTbWJUQ3otNFkwenFzaWg2MW9jOThtTGxCb09VUWpwSVQ5cVV4Ty04UFFDcmVLaEVmdjVFd1BXUC1xWjdlUll3QTlVYk9wZ1REVktLdA?oc=5) — **Head Topics** · 11-21 01:41
 - [Cepi and industry groups urge EU Parliament to revise post-2030 ETS](https://news.google.com/rss/articles/CBMiggFBVV95cUxOVi1telQ2TDJMRS12bUk5THBMcGJIZ1JwcHRFQUJIckZSN2Q3dmNxOVdwS1RwWGdpYXN4RngtRTdPUDJiM2ZQWC1XOWFKZmdrc0lUb1BDanRIVFlNeXBnX1VyYWR5cU14YzM0REktUEJMbEVFNXJPRUozTDN1MW44OVl3?oc=5) — **Papnews** · 11-20 23:19
@@ -96,8 +98,6 @@ modified: 2026-11-21T11:05+09:00
 - [Comment: UK-EU ETS Linkage](https://news.google.com/rss/articles/CBMicEFVX3lxTE5aV3AyVk5ZNFhDODZQVm9OaEdlbVBHSDBXMFBJMFpQVjB4c1l1a1M0UWFLSU5PRXVUcF9FMTdIUWFEN1JMR3ZiUGhEekZMX0wtMXhEckdWVjRERHVRYW5RUWFwZFRGYlMwZWVPWU9QRXo?oc=5) — **Energy & Climate Intelligence Unit \| ECIU** · 11-20 22:24
 - [European industry calls on EU to maintain free carbon allowances](https://news.google.com/rss/articles/CBMiowFBVV95cUxNVnBJYXZSNzdEUi0yZUtBWXRZNEwyR2ZnMXU4dFo4UmpUdDVwMzNCSldVaGpNQ1hCRVBpR19wZjhGWG9jV2l1aTY3T0IzUFU3NDlHUHQtLUMteE83Wi05aG1Ldl83QVU0clZBVWFFV1p4cDBWUFp2U0xKd2NKaGVTdUZCM3ZkUmxnQUZEd0xjNjZ4UC0tUHdvMW00THI4aE5vd3dB?oc=5) — **SteelRadar** · 11-20 16:58
 - [Maharashtra Launches India’s First SO2 Emissions Trading Scheme](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNUVrM040OUkyeXhucl9KMlh2d2pscHF5dWVzVzBObU9KVmI4M1RDQ3pWaUZxZXJuWFloWERsUjc4akJPbDVsWERFODVwS0JMNEg5SWxZOVFkUlZsaTF0WlFPbDVQbVJaQ0hObEVocHU5QmRfTmk4MTAteHRaVmVOVXlVUGVHWjg4ZTR3eFdsbTdtZ2dmc1J2YTVXbGpLZlQ2Q3Y0U1hLcFFyT2R4alMyXzZVdFdkT2I3UzZzYzRScnFOMVJYUWFaaTl2djBIcElH?oc=5) — **Construction World** · 11-20 15:26
-- [Carbon forestry could leave \$12b hole in government revenue](https://news.google.com/rss/articles/CBMiogFBVV95cUxOZEMwUHZDNDZRcTRrRDdSb2I5elhVZVdtTGtGVC1fbl9yRDlCeEJtZjhmYWpSUlM5Skl6cGtmY0FTRVEtUWp6ZjlmR045X0dRczVSeFlXdExPUGQ1MGZWN2JUOHZuaGVtWHZYZUZqOWRGT3AyZzZIMFFrbmRXbjdveDk0MkNnSU81UlIyOUh3Yi1td0NPZGFDX2c4Wmp4NUZuOFE?oc=5) — **Farmers Weekly** · 11-20 12:45
-- [EU ETS revision: European Parliament’s industry committee rejects compromise](https://news.google.com/rss/articles/CBMipgFBVV95cUxQa0NTanhKYW9JZUJXRHhVNVBsOGo5WWUyUXZCcEtaX1RZS3BBZmhyei01ZUVONjluOU83ZjVCZlpZaE1CR2Q3MWtmT292c1lCdjN6QldNOFhrU2d2dlRVaTdzOWI1RVVlcDd5bDhjX1Z4QXU5bllGT0d4SVBJSEZWS2hqZG5jMzJMblBtWlVvamY0bkZnME92MS1TUjdtbnE4ZHpRam13?oc=5) — **Table.Briefings** · 11-20 12:05
 
 ---
 
@@ -165,8 +165,10 @@ modified: 2026-11-21T11:05+09:00
 
 ## 자발적 탄소시장 / VCM
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [한국핀테크지원센터, SFF 2026서 아세안 진출 시동](https://view.asiae.co.kr/article/2026112111180114757) — **아시아경제** · 11-21 11:18
+  - 참가 기업은 ▲뱅크웨어글로벌(뱅킹 SaaS·코어뱅킹 솔루션) ▲베리워즈(MRV 기반 탄소크레딧 금융 플랫폼) ▲베링랩(금융·법률 특화 AI 번역) ▲수호아이오(규제자산 결제·정산 인프라) ▲스위치원…
 - [너, 골칫거리 오히려 좋아…바다의 불청객 ‘불가사리’ 갱생 프로젝트](https://www.khan.co.kr/article/202611210600005) — **경향신문** · 11-21 06:00
   - 누적 5만6000t 이상의 자발적 탄소크레딧도 확보했으며, 2026년에는 탄소중립 콘서트 ‘서스테이너블웨이브 페스티벌’에 탄소크레딧 414t을 공급했다. 폐자원 활용 사업에서 나온 감축 실적이 다른…
 
