@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-21
-modified: 2026-11-21T10:36+09:00
+modified: 2026-11-21T11:05+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-21 10:36 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-21 11:05 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-21|11-21 클리핑]] — 기사 **182건** (국내 92 · 해외 90)
+> [!example] [[radar/news/2026/11-21|11-21 클리핑]] — 기사 **184건** (국내 93 · 해외 91)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -83,7 +83,7 @@ modified: 2026-11-21T10:36+09:00
 
 - [英·EU, 탄소배출권거래제 연계 합의](https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0clYwUmRseXZuQ3daNVBZYUVDRlBKUjZWZ2pNRE1Ec1lXdDNvNzRVd3RIQnAtckxadnhEZU14Z2Q5UDlSNGlvV0tra3k3aFdFdTY3Vk5KWTN2b2M4M1hpTg?oc=5) — **해양통신** · 11-21 08:34
 
-### 해외 · 12건
+### 해외 · 13건
 
 - [UK and EU Agree to Link Emissions Trading Schemes](https://news.google.com/rss/articles/CBMilwFBVV95cUxOZW5DRHYwWFhvbWNhc2lvOVF2Q1ZYX21pTEpqSjZVMjktN3VBQzdVR29FbzE1VmhzT0VkYTdma3VRbktVbU1mUmNCZDlKc19DUzEzYzVHcEctR3ozNjRNTnNSVHQxb1AtdGFtdEJQbjlZaUpGZGx6RjNJQ01IN2ljc3lpdkZnWHkySzBYd0hQXy1OUDgzcEpr?oc=5) — **Ship & Bunker** · 11-21 08:48
   - 관련 보도 1건: [www.rivieramm.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXFZbF93RFhuZE5VQ3dydGhRNURKaFJfMVBRTFctU0ZBdmRoOUd2ZXVJbkVTZUNuYTBSNHk3VnBLMzBoczJRVEZFdW1QV2hMQUM2R29pS0gzVHJPRFNqOFdKcWNPOG1YU0dFU0RKa1JQZHE1QVJSVHFiTWpXX18wRWUxSGZZdDEyYzZYZVRiMF9yeFl4elhEMTN6R3Uyc0piZVJneTZlSDdOc1VMN0E?oc=5)
@@ -94,6 +94,7 @@ modified: 2026-11-21T10:36+09:00
 - [Cepi and industry groups urge EU Parliament to revise post-2030 ETS](https://news.google.com/rss/articles/CBMiggFBVV95cUxOVi1telQ2TDJMRS12bUk5THBMcGJIZ1JwcHRFQUJIckZSN2Q3dmNxOVdwS1RwWGdpYXN4RngtRTdPUDJiM2ZQWC1XOWFKZmdrc0lUb1BDanRIVFlNeXBnX1VyYWR5cU14YzM0REktUEJMbEVFNXJPRUozTDN1MW44OVl3?oc=5) — **Papnews** · 11-20 23:19
 - [UK and EU agree deals on food trade, youth mobility and emissions trading](https://news.google.com/rss/articles/CBMimAFBVV95cUxOR0JpUmZFQ3BuLTY1cWlQdzRzaXRES0RSQ1RPSEtfSWE0elN4NUQxekhZYjlJM1hITXdLY2Z2OW5qR1FZU0ltOWFjRW9NZGYyZWZseEdYaTNzaTlpVTBTMWNObGk3N0hqU3FfM0VVRjdfcGVuWi1TVGZLdENHb3BJejc0V2xiYnh0U21BUkZ0SnFUcjV3aXUzdQ?oc=5) — **Latest news from Azerbaijan** · 11-20 22:56
 - [Comment: UK-EU ETS Linkage](https://news.google.com/rss/articles/CBMicEFVX3lxTE5aV3AyVk5ZNFhDODZQVm9OaEdlbVBHSDBXMFBJMFpQVjB4c1l1a1M0UWFLSU5PRXVUcF9FMTdIUWFEN1JMR3ZiUGhEekZMX0wtMXhEckdWVjRERHVRYW5RUWFwZFRGYlMwZWVPWU9QRXo?oc=5) — **Energy & Climate Intelligence Unit \| ECIU** · 11-20 22:24
+- [European industry calls on EU to maintain free carbon allowances](https://news.google.com/rss/articles/CBMiowFBVV95cUxNVnBJYXZSNzdEUi0yZUtBWXRZNEwyR2ZnMXU4dFo4UmpUdDVwMzNCSldVaGpNQ1hCRVBpR19wZjhGWG9jV2l1aTY3T0IzUFU3NDlHUHQtLUMteE83Wi05aG1Ldl83QVU0clZBVWFFV1p4cDBWUFp2U0xKd2NKaGVTdUZCM3ZkUmxnQUZEd0xjNjZ4UC0tUHdvMW00THI4aE5vd3dB?oc=5) — **SteelRadar** · 11-20 16:58
 - [Maharashtra Launches India’s First SO2 Emissions Trading Scheme](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNUVrM040OUkyeXhucl9KMlh2d2pscHF5dWVzVzBObU9KVmI4M1RDQ3pWaUZxZXJuWFloWERsUjc4akJPbDVsWERFODVwS0JMNEg5SWxZOVFkUlZsaTF0WlFPbDVQbVJaQ0hObEVocHU5QmRfTmk4MTAteHRaVmVOVXlVUGVHWjg4ZTR3eFdsbTdtZ2dmc1J2YTVXbGpLZlQ2Q3Y0U1hLcFFyT2R4alMyXzZVdFdkT2I3UzZzYzRScnFOMVJYUWFaaTl2djBIcElH?oc=5) — **Construction World** · 11-20 15:26
 - [Carbon forestry could leave \$12b hole in government revenue](https://news.google.com/rss/articles/CBMiogFBVV95cUxOZEMwUHZDNDZRcTRrRDdSb2I5elhVZVdtTGtGVC1fbl9yRDlCeEJtZjhmYWpSUlM5Skl6cGtmY0FTRVEtUWp6ZjlmR045X0dRczVSeFlXdExPUGQ1MGZWN2JUOHZuaGVtWHZYZUZqOWRGT3AyZzZIMFFrbmRXbjdveDk0MkNnSU81UlIyOUh3Yi1td0NPZGFDX2c4Wmp4NUZuOFE?oc=5) — **Farmers Weekly** · 11-20 12:45
 - [EU ETS revision: European Parliament’s industry committee rejects compromise](https://news.google.com/rss/articles/CBMipgFBVV95cUxQa0NTanhKYW9JZUJXRHhVNVBsOGo5WWUyUXZCcEtaX1RZS3BBZmhyei01ZUVONjluOU83ZjVCZlpZaE1CR2Q3MWtmT292c1lCdjN6QldNOFhrU2d2dlRVaTdzOWI1RVVlcDd5bDhjX1Z4QXU5bllGT0d4SVBJSEZWS2hqZG5jMzJMblBtWlVvamY0bkZnME92MS1TUjdtbnE4ZHpRam13?oc=5) — **Table.Briefings** · 11-20 12:05
@@ -102,8 +103,10 @@ modified: 2026-11-21T10:36+09:00
 
 ## NDC
 
-### 국내 · 9건
+### 국내 · 10건
 
+- ['기후위기 속 굶주리는 아이들'…국가 정책에 영양·식량 대책은 '뒷전...](https://www.ngonews.kr/news/articleView.html?idxno=243709) — **한국NGO신문** · 11-21 10:38
+  - 선언보다 실행…아동 중심 기후정책 필요 월드비전은 기후정책에 아동 영양과 식량안보 목표를 구체적으로 반영해야 한다고 강조했다. 온실가스 감축과 기후 적응 정책에 아동 보호 기준을 포함하고 영양실조와…
 - [COP31, 기후공약서 ‘에너지 실행’으로…국회, 수소·탈석탄·전력망 해법 모색](https://www.energydaily.co.kr/news/articleView.html?idxno=205326) — **에너지데일리** · 11-21 08:54 · 전력망 · 탈석탄
   - 글로벌 기후대응의 무게중심이 온실가스 감축목표 설정에서 에너지 시스템의 실질적인 전환으로 이동하고 있다. 바이오가스를 활용한 수소 생산과 메탄 감축, 석탄발전 폐지에 따른 지역·고용 대책, 재생에너…
 - [아동 기아, 기후위기 정책의 ‘우선순위 밖’…83개국 중 17%만 최우선 과제로 규정](http://www.newsroad.co.kr/news/articleView.html?idxno=68160) — **뉴스로드** · 11-21 08:00
@@ -281,6 +284,7 @@ modified: 2026-11-21T10:36+09:00
   - 미국 민주당이 2026년 중간선거에서 차기 연방 상·하원 다수당 지위를 확보했다. 데이터센터에 필요한 발전·송전 인프라 비용을 누가 부담할지는 연방의회와 주정부에서 이어질 에너지 정책 논의의...
 - [글로벌 전력기업 연합, 전력망 신설 역대 최대...투자규모 연 1560억달러로 상향](https://www.electimes.com/news/articleView.html?idxno=374992) — **전기신문** · 11-21 07:06
   - 세계 주요 발전사와 송배전사업자, 재생에너지 개발사, 전력기자재 기업이 참여하는 넷제로 전력기업 연합(UNEZA)의 회원사들이 지난해 2만1000km가 넘는 전력망을 새로 구축한 것으로 나타났다.…
+- [서강대 김홍석 교수팀 대규모 전력망 경제 운영 돕는 AI 최적화 기술 ‘AltOPF’ 개발.. '기존 대비 계산속도 약 70배 향상'](https://news.google.com/rss/articles/CBMibEFVX3lxTE5GeFMwampKNWlUV0Iwb2hiYkhnRHk1M0JUQ2tRa0RvYzI5eUtZOUxGRzNncnhrcnVzNlN3ZjRvRERVaTc0YkJhOXREd3dPRnVFMjdYdUhBLUo2bjJmMlhIWmhrT0FHeEVlNnNKeQ?oc=5) — **베리타스알파** · 11-20 18:35
 - [전력망 무력화·폭발물 지시까지…테러 계획도 몇 시간 만에 ‘딸깍’](https://www.sedaily.com/article/20117128?ref=naver) — **서울경제** · 11-20 18:27
   - 이 가운데 두 서비스는 전력망 일부를 무력화하는 계획을, 나머지 두 서비스는 대규모 인명 피해를 낼 수 있는 폭발물 관련 지시를 내놓았다. 조사관들은 AI가 제공한 내용을 전문가에게 검토받고 실제…
 - [정부 비수도권 AI 데이터센터 전력망 심사 50MW 이하 면제 추진 : 메가프...](https://www.huffingtonpost.kr/article/262277) — **허프포스트코리아** · 11-20 17:56
@@ -288,8 +292,6 @@ modified: 2026-11-21T10:36+09:00
 - [전력거래소, '제22회 계통보호 기술교류회 개최'... 재생e 100GW 시대 사전...](https://www.newsworker.co.kr/news/articleView.html?idxno=515331) — **뉴스워커** · 11-20 17:00
   - 이를 통해 최근 국내 전력망에서 빠르게 확대되고 있는 재생에너지와 BESS 설비 등 전력전자설비의 고유한 특성을 면밀히 반영해, 계통 내 잠재적 위험을 사전에 예방할 수 있는 실질적인 기술 개선방안…
 - [통신3사, AI인프라 투자 확대…전력망 선점경쟁 가속](https://news.google.com/rss/articles/CBMibEFVX3lxTE9PR1g2bklaTllCQU1oZXNtb2dGRTJtaW9IZktKVS1NRjFPa2htU3pCWkFGTHF2ekVXeXE0aHNCZHpFQWVOYXlXSFpRLUQzSi1lcEJqUHI3dTBTNzNpazV4RXRwdjQ4ZDBtbTE5WNIBbEFVX3lxTE9PR1g2bklaTllCQU1oZXNtb2dGRTJtaW9IZktKVS1NRjFPa2htU3pCWkFGTHF2ekVXeXE0aHNCZHpFQWVOYXlXSFpRLUQzSi1lcEJqUHI3dTBTNzNpazV4RXRwdjQ4ZDBtbTE5WA?oc=5) — **정보통신신문** · 11-20 17:00
-- [철강사 생존법 바꾼 AI 전력망…공급사 넘어 설계 파트너로](https://www.newsworks.co.kr/news/articleView.html?idxno=903886) — **뉴스웍스** · 11-20 16:48
-  - 인공지능 데이터센터(AIDC, AI 연산 특화 데이터센터)와 전력망, 에너지저장장치(ESS, 전력 저장 설비)... 전통적인 철강 거래가 규격품 납품 중심이었다면 고전력·고발열 설비가 집적되는 AI…
 
 ---
 
