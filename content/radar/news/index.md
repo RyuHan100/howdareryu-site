@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-22
-modified: 2026-11-22T11:18+09:00
+modified: 2026-11-22T12:30+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-22 11:18 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-22 12:30 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-22|11-22 클리핑]] — 기사 **121건** (국내 56 · 해외 65)
+> [!example] [[radar/news/2026/11-22|11-22 클리핑]] — 기사 **129건** (국내 62 · 해외 67)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 탄소시장 / carbon market
@@ -29,8 +29,9 @@ modified: 2026-11-22T11:18+09:00
   - 또 정상회의에서 합의된 탄소시장 연계의 예상효과 38억파운드 등과 식품 협정 전망을 합산해 식품 부문의 성과로 표시해서는 안 된다. 식품 부문의 무역 흐름은 이미 브렉시트 이후 달라졌다. 영국 농민…
 - [영·EU, 식품검사 폐지·탄소시장 연계·청년 3년 체류 합의](https://news.google.com/rss/articles/CBMickFVX3lxTE5TY0F2aFg3ak9icUJzZnBTQ1RxbC1FZlBmdlRjLXpmRGlhSWtTOEs4andqa04zMDQ3cUpjRElnaEQ3eHVKaU1GQVBEMFhDT1FXNHRvY0s3TG1WU2pwQmN1eG50bnYzRHFmTXNvS1NGMGtHUQ?oc=5) — **https://www.newscenterkorea.com/** · 11-21 07:11
 
-### 해외 · 6건
+### 해외 · 7건
 
+- [The UK and EU Are Linking Carbon Markets. The Factory Power Bill Came First](https://news.google.com/rss/articles/CBMitgFBVV95cUxQaTFXS0EwZWZCdzlxNkk0VXJCOXczSTR5MkU4b2hjcVFJQWVLbm85NTUzTk1PWlZkbVBIbE5BalB5aWdtcDlHdTNheVFHWDdLYW1sa1J4ZXlsbTZ2N2d6SEMwaEdqN2xkVEctRkdjVU5QZlZsaDAxUHFjdHU2c3VEVW4tVWplYThxc3drMmUyV1JzUUtqSklJWnMxU0liYkN1ZGdIOENJclBCdFBrSFJ4SlJVVFhyZw?oc=5) — **Energy News Beat** · 11-22 12:01
 - [Granular Activated Carbon Market To 2035: Water Treatment Rules Support Growth - News and Statistics](https://news.google.com/rss/articles/CBMiugFBVV95cUxPTmhLY0lIdS1aQ3JkbWVPU2ZzVEFBZC03Zk1qeVFzRkk1NEt4RkREallYQVRnX3lKTFNYdHNXYkJOWEswWjZYaHdvR0VYQlF3d2lvb3FEaHpNYm82ZHlFbTRJTkVsTXpleW1nYzFhQ081TWludHM1SklKYUdHMk94ZlgwMjNPN0Q1emkxMWJhaFRmM2VKbkY5Z0d5djVPWVZzcnBpaGtDd09EUHVBNWJNZEdyVG4ydzNOeGc?oc=5) — **IndexBox** · 11-22 03:56
 - [Activated Carbon Market to Reach US\$5.39 Billion by 2033 \| Which](https://news.google.com/rss/articles/CBMinwFBVV95cUxNMjFKNHRBY2duZEdtYUd2dDNPTHZOUWtNZzdaejR0T3lMdXhNdlB2QloybU1PdHk1Z2JYNERZaHl5cGhhVU9kM1IyaDJ4MlhCVjJoaU9IcnFjWHZLSi1HQlRVVWQ4cFpRMTR3VmpZRHViZWxYcVZoN2lLWlZRTUI4ZEN5S2JPeWJtZ3J1LUdDdnVrTjZkWEFHU0ZKaFdPNXc?oc=5) — **openPR.com** · 11-21 23:01
 - [UK and EU agree post-Brexit deals on food trade, young people and carbon markets](https://news.google.com/rss/articles/CBMivgFBVV95cUxNR25lcVQ1UzNlS1A3d2diSkRJVFJVM0ZkSTlGbnJhZVRVVUt2WThFakYyS1JNVUtpUEhPR3htMFFJQ1ZFeHRaSzlSNE93NTVWMkRjTmxIclUxSlpFbXIxRWZQU3Y3amVzblJEWjJ4UmQzcDVSV2twVzdlckpqYXBsS3lhdmhCcW5uWE5IUm9NU1BadUFTVzlPYXp1dDA2aXZNXzg1Y2x6WFM3WW5nWFJ0UUYwdzJZMXVXcTRQS2Z3?oc=5) — **NetNewsLedger** · 11-21 20:09
@@ -69,11 +70,15 @@ modified: 2026-11-22T11:18+09:00
 
 ## NDC
 
-### 국내 · 9건
+### 국내 · 12건
 
 - [TS, 교통부문 온실가스 감축 지원…기업 실무역량 강화](https://news.tf.co.kr/read/economy/2391829.htm) — **더팩트** · 11-22 10:50
   - 행사에서는 교통부문 온실가스 감축과 목표관리제 이행에서 우수한 성과를 거둔 기업에 대한 시상식도 진행됐다. TS는 내년부터 시행되는 목표관리제 유연성제도의 주요 내용과 신청 절차를 안내했다. 이월·…
   - 관련 보도 1건: [BBS불교방송](https://news.bbsi.co.kr/news/articleView.html?idxno=4120061)
+- [COP31 막판 협상…화석연료 줄이고 기후재난 대응 지원 논의](https://www.dailyt.co.kr/newsView/dlt202611220016) — **데일리환경** · 11-22 12:10
+  - 그러나 전기를 만드는 과정에서 석탄과 가스에 계속 의존한다면 기대했던 온실가스 감축 효과가 제한될 수... 그러나 로이터에 따르면 앞서 논의됐던 연간 1천200억달러 규모의 구체적인 지원 목표는 수…
+- [TS, 교통부문 온실가스 목표관리제 설명회·워크숍 개최](https://www.newsis.com/view/NISX20261122_0003878019) — **뉴시스** · 11-22 11:52
+  - 한국교통안전공단(TS)은 지난 20일 '2026년 교통부문 목표관리제 설명회 및 역량강화 워크숍'을 개최했다고 22일 밝혔다. 이번 행사는 온실가스 감축 우수 사례를 공유하고 제도 이해와 실무 역량…
 - [군산시, 온실가스 감축 '사후관리⤍사전예방'… 탄소중립 정책 전환](http://www.jeonmin.co.kr/news/articleView.html?idxno=450901) — **전민일보** · 11-22 11:06
   - 이에 군산시는 '군산시 탄소중립·녹색성장 기본계획(2025\~2034)'에 따라 2030년까지 2018년 대비 온실가스 40.5% 감축을 목표로 8개 부문 41개 이행사업을 추진 중이다. 특히, 지난…
 - [IEA "에너지 안보 넘어 기후 목표 우선해야"](https://www.todayenergy.kr/news/articleView.html?idxno=305888) — **투데이에너지** · 11-22 10:58
@@ -88,6 +93,7 @@ modified: 2026-11-22T11:18+09:00
   - 파리협정 1.5℃ 목표 달성을 위한 연간 온실가스 6% 이상 감축도 중요한 과제다. 강찬수 기후환경 전문기자 kcs25@ekn.kr 빙권의 과거와 현재 모습, 전망을 목격한 세계 전문가 “지구 한계…
 - [친환경차 보급 2배 늘린 여수시…온실가스 2600톤 감축 효과 분석](https://www.betanews.net/article/view/beta202611210011) — **베타뉴스** · 11-21 14:06
   - 여수시가 올해 친환경자동차 보급 물량을 전년 대비 2배 이상 확대하면서 수송부문 온실가스 감축 효과가... 시는 수송부문 탄소 감축정책을 지속하는 한편, 2050년 탄소중립 목표와 제33차 유엔기후…
+- [기후부, 국제에너지기구(IEA) ′세계에너지전망 2026′ 발표](https://news.google.com/rss/articles/CBMifEFVX3lxTFBMcE93LXMxWGNhX0F1UzdqeTl4enZCUWx2aWNhUC1ZbjZmbG5zSkkwREF4VHRqa1M0bGJ0akt5aU5YYW9WS2JTY1dXYTc1VWZ0aHVXakxGWGl0YUx4TDBFWV9hbG01VTQycUFYVzdsVDhGQlpzRGpkY0xTTlg?oc=5) — **코리아 이슈저널** · 11-20 13:55
 
 ### 해외 · 12건
 
@@ -108,17 +114,19 @@ modified: 2026-11-22T11:18+09:00
 
 ## CBAM
 
-### 해외 · 2건
+### 해외 · 3건
 
 - [Carbon Costs from 2026: An EU CBAM China Compliance Playbook for Buyers and Suppliers](https://news.google.com/rss/articles/CBMilwFBVV95cUxQd1BKcTNBcjRGM3duUWFyaTdZdE5KQmJsV0Zqb3dwbVNvS0VQM1lkZnNXN08xbDhFX3FBeWRoNzM1S3owVnhFYkdBYUR5cXVSSjRnNl94NWtlOTRxclVwNm1WcG04Q2RwYmpTWGNrSTNGUy1LY0pRRDk0MFYzYks3TnNDQ25tWVp3LXdYSmtoZDc2UzlURVlr?oc=5) — **Global Advisory Experts** · 11-22 10:07
+- [EU steel imports surged 65% ahead of CBAM launch, then fell 27%](https://news.google.com/rss/articles/CBMisgFBVV95cUxOckxoajJXazhzZ0Njc0h5S2pwSFpyNXJkTjk1QjhlZjZaWU9MLVktMThaV3JZM0VVdGswb1B1RkVmZnBpVDEtTjdWRUJncXpvLUJPV3c4SzVqSXRIV0hFaDdNMThueGtkSS16eERYSG52UGJJcHJZSU5qTTI4emxraW0wN3JuZUFueTJZUVdoMG13eW15UHF5a3RwaTJJaHQ2V3I3UUpqYUhpSlRGVG1pRFRB0gHDAUFVX3lxTE1kYkEtUFkySTF2Zm01RG1WX0F6VUJ2WkJpNE9CNkFVQ1lXcXJKaGs1OWk0YVhIakh1bTBVTUxFQVJEOENBWnpCM3Q4QmNGQlZ1NS1wX3lmV1JZT2tqZWUwdlY3c2o4c25QdjFUMGljS0VITTFocUhCcjlRdGtWVGw4czdFUFpOQVpZX3ZqVXFjdU9CV3FsTnliWHRuZXdmYTZXbW5IRklFWldwekJCMDhhYlYteHpDSUp2NXNzalhtelY0aw?oc=5) — **Металлургпром** · 11-22 06:41
 - [Free allocation alignment underpins UK-EU mutual CBAM accord: UK government](https://news.google.com/rss/articles/CBMingFBVV95cUxPcW1pa29kb2tvdTdaNE9raWJVQm9NRUpCcG1UZDhCdjVsbWFPeGo2dmc1MmNaYkpaMEVPUmttazh4OXhGQWM2b3JZRVdvbUZnMnN0emc5d3dRZFF4SndpQ2JiY1N0SU10NXU3eThCVDRsVnBubHhib2N3YTc1ejRWN0pPTThZTEs0QVdFa1dzVVpSUDJpV2o4cV90NGtPQQ?oc=5) — **EUROMETAL** · 11-21 19:58
 
 ---
 
 ## 자발적 탄소시장 / VCM
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [서스캐처원 메도우레이크, 노스 스타가 연방 정부 탄소 크레딧 연간 구매 적격 공급업체로 선정](https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUUVWS1ZRc0ZUZVE0Y0Ntc2tOTTBHSVBvTEJrYW9QZEIwRkp6dkZNWXZETWp0bldTTW4yUGhEUzlnUEpaOXBIUVZBSkJYQXY2LXJKNGRDWEVHaHJNaGRuR3NOX0l2TkZjWm92NUJfVk5GRnc?oc=5) — **스페셜타임스** · 11-22 11:59
 - ["더이상 해변의 불청객으로 살기 싫다"···제설제·비료·화장품으로 ...](https://www.khan.co.kr/article/202611210600005) — **경향신문** · 11-21 06:00
   - 누적 5만6000t 이상의 자발적 탄소크레딧도 확보했으며, 2026년에는 탄소중립 콘서트 ‘서스테이너블웨이브 페스티벌’에 탄소크레딧 414t을 공급했다. 폐자원 활용 사업에서 나온 감축 실적이 다른…
 
@@ -139,8 +147,9 @@ modified: 2026-11-22T11:18+09:00
 
 ## AI 온실가스
 
-### 국내 · 7건
+### 국내 · 8건
 
+- [AI 칩 지각변동·EU 규제 쇼크···연말 공급망 ‘초비상’](https://news.google.com/rss/articles/CBMid0FVX3lxTE9yckRWTGxGRkw3cjkwM050MnZ3YXJIUGtodTlYOHVqdFFsdERmc1hXd1Ffa2RyRGtFMUtfUmM2VWVtWldydmZ6eVRhWV9TeWgybnR4Q2hQd1NuaFRudFFUck02ZDhJM1A5aGZxdDhqTkFUX3RLYzlN0gF3QVVfeXFMT3JyRFZMbEZGTDdyOTAzTnQydndhckhQa2h1OVg4dWp0UWx0RGZzWFd3UV9rZHJEa0UxS19SYzZVZW1aV3J2Znp5VGFZX1N5aDJudHhDaFB3U25oVG50UVRyTTZkOEkzUDloZnF0OGpOQVRfdEtjOU0?oc=5) — **뉴스프리존** · 11-22 08:21
 - [AWS 이어 엔비디아·오픈AI까지 손잡나…SK, 신설법인 앞세워 GW급 AI 공...](https://www.financialpost.co.kr/news/articleView.html?idxno=302342) — **파이낸셜포스트** · 11-21 20:08
   - SK그룹이 신설 법인을 앞세워 전국 15GW 규모의 초대형 AI 데이터센터 구축 구상에 본격 시동을 걸며... 또 기존 LNG 발전 기반 전력 공급 체계를 확장하는 과정에서 전력 조달 비용과 탄소배…
 - [울산 AI 데이터센터 찾은 李대통령… SK, 전국 15GW 청사진 속도](https://www.newscj.com/news/articleView.html?idxno=3450899) — **천지일보** · 11-21 17:02
@@ -238,8 +247,10 @@ modified: 2026-11-22T11:18+09:00
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 2건
+### 국내 · 3건
 
+- [\[에너지전환2050\] 강원랜드, 리조트에 태양광 늘리고 풍력 들인다](http://www.enewstoday.co.kr/news/articleView.html?idxno=2495460) — **이뉴스투데이** · 11-22 12:05
+  - 강원랜드가 호텔과 주차장에 태양광 설비를 늘리고 풍력발전단지 조성을 추진하며 리조트에서 쓰는 에너지를 재생에너지로 바꿔 나가고 있다. 22일 업계에 따르면 강원랜드는 2030년 'RE60' 달성과…
 - [남구, ‘햇빛 소득’으로 에너지전환 도시 조성](https://news.google.com/rss/articles/CBMia0FVX3lxTE9KYXRMZXBLMHFCWG5mNXhNb3hEUnFwRElwQ3M2MFpjSkN2bFdSS0x1VlRra01xT0VkQ1RjMzdzeDdPb2ktTUVFWGF2ekJROWJNLTh5eHJjcnJfSWUybUZTV1V6Z0tzeU5oOFNB?oc=5) — **대로미디어** · 11-22 10:43
 - [한국, 에너지 수입의존 탈피→전기화·재생에너지 전환 가속 시급](https://news.google.com/rss/articles/CBMiakFVX3lxTE9VTTFDRFFncV9qUjUyX0hZaGg0a2ttUFVYb0FvbHF2blJhOTlMdy1HVXlJeUFsVDVSVWdBU0VBNHNhYTdxVXN6Rk5DeDF1TG1kU2R0YnMyazNILTladGxUaG1tQjVYYWl0c1HSAW5BVV95cUxQV01qdnZOMk5aRXRXWmNYQ0hpb3hORXhnYl9TVnBDVnExdi1yaXpHVW5IMlEzNmVTeGNkZl8wTlQtSzUwR29ZN1pleGxCYWZlRnZvOHNKZU9FSWppdnRQWFRJTy1vQXVpUGwyV3RxUQ?oc=5) — **넷제로뉴스** · 11-21 10:51
 
