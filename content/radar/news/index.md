@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-22
-modified: 2026-11-22T10:08+09:00
+modified: 2026-11-22T10:31+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-22 10:08 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-22 10:31 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-22|11-22 클리핑]] — 기사 **97건** (국내 47 · 해외 50)
+> [!example] [[radar/news/2026/11-22|11-22 클리핑]] — 기사 **110건** (국내 48 · 해외 62)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 탄소시장 / carbon market
@@ -40,6 +40,14 @@ modified: 2026-11-22T10:08+09:00
 
 ---
 
+## 국제감축 / Article 6
+
+### 해외 · 1건
+
+- [EU carbon farming CRCF rules to be published next week](https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1lKVHRHa1QyZHRQR0FIU2E3MWw4VnR5eWZJSHRHRXY2R1FJbUdtNUtSYm85ZTl0ZG9uWGVaLTlYWGhDeF9yZVRvTVhIOVNCN25GbXdYbEZzeUdRTmo1Uy0taHlBUVVma3Q1OFVaaVF4VENoRmZBM1plcEFPb0lGLWo4Rnd4d0RWZ3JrLUU4WUswX1JfQ2lGalM1d2JTVVBnd2NmM0FmNA?oc=5) — **Quantum Commodity Intelligence** · 11-21 03:09
+
+---
+
 ## 배출권거래제 / ETS
 
 ### 국내 · 2건
@@ -60,8 +68,10 @@ modified: 2026-11-22T10:08+09:00
 
 ## NDC
 
-### 국내 · 3건
+### 국내 · 4건
 
+- [교토의정서 데자뷔… 기후협상, 후퇴냐 진화냐 \[페트로-일렉트로\]](https://www.sedaily.com/article/20117303?ref=naver) — **서울경제** · 11-22 10:12
+  - 우리가 NDC라고 부르는, 국가별 온실가스 감축 목표의 도입 배경입니다. 이번 회의도 마찬가지입니다. 에너지 안보 강화와 경제 성장은 어느 나라도 양보할 수 없는 의제이죠. 지구 온난화라는 현실과…
 - [기후부 내년 예산 25.7조원 '역대 최대'…국회 심사서도 에너지대전환 ...](https://www.dailyt.co.kr/newsView/dlt202611220009) — **데일리환경** · 11-22 09:02 · 에너지 전환 / energy transition
   - 이 같은 예산 확대는 지난달 기후에너지환경부가 국무회의에서 밝힌 '2035년 국가온실가스감축목표(NDC)'의 국제사회 공표, 유엔기후변화협약 당사국총회(COP31)에서의 탈석탄동맹 가입 공식화 등…
 - [지구 ‘얼음왕국’이 무너진다…더불어 인류 미래도 위험하다 \[기후 신...](https://www.ekn.kr/web/view.php?key=20261120020121997) — **에너지경제신문** · 11-22 06:30
@@ -69,13 +79,20 @@ modified: 2026-11-22T10:08+09:00
 - [친환경차 보급 2배 늘린 여수시…온실가스 2600톤 감축 효과 분석](https://www.betanews.net/article/view/beta202611210011) — **베타뉴스** · 11-21 14:06
   - 여수시가 올해 친환경자동차 보급 물량을 전년 대비 2배 이상 확대하면서 수송부문 온실가스 감축 효과가... 시는 수송부문 탄소 감축정책을 지속하는 한편, 2050년 탄소중립 목표와 제33차 유엔기후…
 
-### 해외 · 5건
+### 해외 · 12건
 
+- [Joint Statement of the Organisation of African, Caribbean and Pacific States and the European Union and its Member States in view of the 31st Conference of the Parties (COP31) of the United Nations Framework Convention on Climate Change (UNFCCC)](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMjBtZENnSjBHdGF3TmNVWUVoSm1GamhyV0xiUVhmUUE0SVFmekdVOXNOb2c0NFBTR1RxbFdWN3pxNk9lTjlLakVOcHFWUU9yQXRYWXZ4cmhocDRIUkZZMEVTWE5VRXphTzRjeWlHbEtlRncyVVdfWWRncnZiMzdOVzVXTzd1STZiZXA4TG84dzhoUlBDVlBlb1hOYVFzRDRhbVhTQWlmaGRyVHZmbEYwY05VY05VZllpTVlrTG5FT185dGRDT0t3cl91ejdIYTdfc1QtVHhkYw?oc=5) — **European External Action Service (EEAS)** · 11-22 06:17
 - [COP31: Developing Countries Reject New Climate Rules, Demand Fairness in Paris Agreement Implementation](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaC05aURPNTU4MUdrVEhtNkl6NVl3ZDVOaTFqa1BrUXRYRTFpQ2labnVYeW5Za2p2UkFjNUZ6Uk90WU9RRDhHT3ctRzhPS0I1SlN3ZHFkQnlkdnBGRFJVdW5wNHRBUmVuWFhaYk9qZnRVZHhVaXMxVEFaTWFiVEluWnhXY2J3SnQ0d2Qxd3B5a3k4aDVqaTIxNXhTN3RqS3dvRHNvWUhxSFR3Z3lOOVBVa0ZUdmc5bzVkWklSQndndUZBb0VQbHZuUUJoczEteTZjenhGV2VR?oc=5) — **Per Second News** · 11-21 21:02
 - [Indian environmental group calls for Citizen-Determined Contributions alongside NDCs at COP31](https://news.google.com/rss/articles/CBMizwFBVV95cUxQeTEtN1RPdk1wWWJIZ0pfNlVyZURnSWNHZGZNRUJWY0lzZXFrYURCQ1FiS1ZMSVB6c05jZTFxeVJDYXdVYXN0M2JYY0p5c1p6aVJSNzI0NjR0X2pYS0ZlcXFRaC1na1lSTUYycFpaNHhUOEs3cEJNTzJicFFmd2dPTHRIY3M3ME9FT3JDd240NF94UnY4Vmt0XzhVQ3dNUi0wWklYS0p5c2pVRFdsRUxEYlhpeGo4dFJXcXZ3T2hTcUQ1Y1hfSThXYVJlUGgyTTjSAdMBQVVfeXFMUFgwVWFIdHZETTBCckJJMU90QUZNRU9LejVKbUhaM05aNnRaZVhNVWxUem1JV1Q2Z3ExQ01ob3duNl95OVlVNGJOZ2xXV3dSQUFXNENkSnQtMWFIX0o1Rkg3TEw4ZW9aSVZ2Y25CbnB6dEJtWU1lU2w5MEYtbGdUS3AtWS15WUNnZTBTR2VLV2tMZE1NNWU5MWRWdW9RZmtRU3JUUDRLVm93MlFnRUU2Zm4wUXR5azBGUFJ2M2FJY1F2M1NjZlhhNnNtUERXdXp5QUVNRQ?oc=5) — **The Tribune** · 11-21 20:59
+- [Indonesia urges balanced climate action, stronger financial support](https://news.google.com/rss/articles/CBMipwFBVV95cUxObm9IRC1VeVJUYk5DZEY0T2VSU2JqcloyYkhhc29BbHAtU3E4MWFuWWNvRURwYTJMazVEaWFmUWFrZ2k3MWdEd3JNSi05ZUlUTG1uRXNGU3RxYTZKN2g4Vk95UDhXT1FHU3V0OC12WWFRdW81VHpoeUVFZmNJNklNY2tUTDQ2RjFkbTdJOE1lclVmR3l5TkV0bVU1eWp6eF96VlRraWxZY9IBrAFBVV95cUxPRmQ3MlU2aWVReDFIaEg5ZlNaS1J2Z3hHbDdaeWVpQ2duUzUwMmlibHE0Wkk1alBOVXBEZG5GMWtXWlVvUXk0ZkxRdjBtTjI5aEdQci05cmZfZnRPOHU2b3hLdEVIR2kwU0xhVGJLOHlfX0FwUVBIdGpoMkxpYTRQLUNoWkZvd3hidkJmM19pY1pId1VOM1VmbUJBQkxNc3RqRzVWWDkzdXpuZEhV?oc=5) — **ANTARA News** · 11-21 18:28
+- [Kuwait reaffirms climate commitments at COP31](https://news.google.com/rss/articles/CBMilgFBVV95cUxNZW4wUVZ2cDF4V2lYdnFqQlZnQnFiUnNjWmw2T0Raa011TjRob3RoRWo5Qi1paVRxSWVDcVljQWJrWml0YkRKOHV4SlN1Z0M2aUhsUHBqejY3S3BKVFJMMVA0SHY3dk5sYWZuRnctZEx4U1NNWXNicVMyTlJaVWFVNUlfbUh0T2cwamp0UF90UXBiemZ2OHfSAZoBQVVfeXFMTzBhYk9XbnMyanA2ekNfUEw1SFJGQUJHTkR0eF9nRGVSTkc2Q0F4Vm1nNzFMa2tvTnc2ZXVqakl6OFAzTVJYaHgzRjI0NzB0TjBlSklWcXUwakpWRGNodXVKcFRCRzFjZXlBZXdmeG01a2ppM2g2bl85MHN5S2xVek9qbm1SZlJMN2dMX1BMX3NZN3YwWW5aYmxhdw?oc=5) — **Kuwait Times** · 11-21 18:25
+- [African Ministers Reject Draft Outcome, Demand Action on Climate Finance as COP31 Talks Enter Final Hours](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNW9OYVJBNXFtNHdMZEJNeDMtZHFPVmJ2ZFVMX19SaXlQLXR1MU1MVlZGY1N1TXJSY1V6ak1ULV8yeVU1M3RLTW9HRmN5ZW5aN2FRN0JrbzEtZmdIbzVISmVoZDBoeV9Ubkloc0M3aFp3ZGZNRWNUZ042Y25zMFBuNGdSZzVvcndZcDR3VFpWZkNWZjdKYWhnTmxGMFdOTUlObklVek1ZazF3c1N1MHV0djY1Z3BaTlVkYk1kclk3X0w4c0FrVEdEVnF1YUNIN1NaWHk5ZmZ5YUwwRVZVYXc?oc=5) — **Africa Science News** · 11-21 17:28
+- [From Climate Justice to Climate PEACE: India's COP31 Vision and the HARIT Pathway of Citizen-Determined Contributions](https://news.google.com/rss/articles/CBMiogFBVV95cUxQY3RHQkRTaV81ZmJpXzJZM1lySWp1d3dQRjlpbExzZnFHM2xacVkxQUNsTHJpX3ZpamNzNzFDSmVoak1hYnNjMUVqUzlTU1BrZ0JRXy12aGF1enEzckh5YU94allrRmdUTENWRDBqb0U2UU9MSHNRSnJQa0xRdThMSFFLQzZKMFZHSldHVnE4anhaMkQyZWpRTmd1QVFwLW80T3c?oc=5) — **PressNote** · 11-21 13:44
+- [India calls for Equity, Climate Justice and Fulfilment of climate finance obligations at UN Climate Conference COP31](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaEV5MG9oYVpGRG5TQVJzRnoxUUFVRmlTQkpHSlNGLWtvWldUN3YtenRkQl80QjJqNEtrOXBZR3JqXzZjZmt3TXlrMm9fR1R6alk3WWtTVTVhMXV1ajJzYmlrZE5LNVprRkJaNnRuUXdZMTl6M01YMExqekR3ekxwZjNCMGlFQ1VzSlVKNVg3Z2NZTnlMdkNyYU9hMWxsMzV5QlE1b2dqR091Njd6cHdoNG1OX21hMU82RVVOQXQzSWpLcGt6NXZEd1V2TzVBbkpoa0tBeWJqUXk?oc=5) — **News On AIR** · 11-21 07:11
 - [COP31: NUPRC pledges timely delivery of Nigeria’s climate commitments](https://news.google.com/rss/articles/CBMitAFBVV95cUxPejJRbEhJcGtKLUZkeGxIbEdHdnZwOFpoc3RaOFFnenFuTlRoNzhiV0JuaFNGNUpydmdoY2Y4QXNBS21fV0ZfM2tsb2lTWnJIMUlDX05ZUFlxdU1NdkQwaFRqS0RzeWpNOFVRc1dvOF9tQVVfWU52a2M5SldSZW91MTc5LWR2c29BUzZpQWJweXBJSDh2UDNuOE5JeFQ2MGJvWkZqamxsb0hFOFo0RVVJcmJQeEs?oc=5) — **Galaxy Television** · 11-21 04:18
 - [Global Stock Take 2 at COP31: Battle over fairness, science and funds in climate reality check](https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX1Rmc0lrMllwajV5NFFEemY5R0lQd0x4alFkMkpGc2lkc29lNlpkaS1MNTVxV21kTmFIX29UbHJlVmRuM1ZPVkhTX3ZpUUwtbmh6aEdNRV8zcDBOZzVSTjZWWFpkQXNrUW8xVGp5TU1MRUFLUVFYLWphQjRVS0hVQ2Y2S2pDOXVMWGFzZUd6bXU5cnI2V0ptZEM3SHpSYXhmdW9kbGdfYXkwTm5lam1FQWZHRjB4Tl9Fa3RWNmRuRjRIVlpmVzFsaTd6STQ4Tmx0elplNtIB4gFBVV95cUxONm9IbVZJU1B4QTdxR0pFdnRkQ0g1czhER0NwNFd0ZVJuV2g4VlB2b1JSNGY3Ni1hT0JBSU9nSjhhQUpzVEpYbnBobGpIX1k5UkRoeVZhY3J0dDRwR2xNSkRXeUU2ZVRWbWp5OE12TVhyVHV6SUQ1R25FaWdKNi1RLVpTcmpJNmtfQXdtU1FJRG96ZW8yRktXVU9CVndadkNZY2hOM0FxR0hHMXg0TkFITVAyWnVJUHJ3QW05S0hHU0VZWGtXb1JiZ2VJQVZrTkN6M25YYU83UDFTM0c1b0E1MXln?oc=5) — **Down To Earth** · 11-21 02:26
 - [We need more, not less, ODA to implement our climate ambitions](https://news.google.com/rss/articles/CBMimgFBVV95cUxNYUJrWElJOHk3Rml3WlNIaEJvRlc3cXBVWm8yNFhKSDBITlF5WjBwcG1SNEdURkFkeUgxbG9mT2RTalBCcFZFbk16ZW4tWHhQQXE1QnVCOXFPTUdDVDdoRmdIYnZiNHlHUzVfRFk2dWF0UmVRbVhONkJobFJWQVlwSUxpb256eTFUWDZ5cjl3R1hnVUhQN1d2NExn?oc=5) — **Devex** · 11-21 01:38
+- [Operationalizing Antalya’s climate pledges for Asean](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNmNGWDZLZ0lSaHlkOE11OUFkbVZoVWJVU3g4bmsxMThXU3RJN0FVVmQ0Ym9UclVzS2NOSktGeXo1Y0dpSXQ5Y3c1dnpCTWpUelhPZTlZdlp5dV9sLXc3bi1DSTdhVG5KZTU4b0prdWtHcmxmMFV3RXJMejRWRTI4SEc4MVlPNXZIb25Rc3RTcVZtejAyQWEzUmdBdF9WNE42NUJpdlp0UmZvOUgtU2F6QnFRQkpBVVVXQUsxWHAzVVBwUdIBxwFBVV95cUxQU0o2Vi1aNm5JeTRsR3VHaDhHVFZtMzh0MEd1Qlp0SUVlX0RmU3RfMXZKU0xMYzN1aFB2QTEzUzNUVDNMU2l6MGlobW53T2RFUUV5ZVNDQzhwNDk1Umo3RWpucmNldTMxM1JNdFE4aWVfdjl3OXJXTHM5c0tVbGk3VTQxT2k4X255eXN4V3BPTTFyYmYzclRDVGNYbHZrWmRHa1QzQVk5WTlpcF9zelhFcXlqUzVVcVFkWkxZdDBlb3gyS1E1RDRB?oc=5) — **The Manila Times** · 11-21 01:01
 
 ---
 
@@ -94,12 +111,16 @@ modified: 2026-11-22T10:08+09:00
 - ["더이상 해변의 불청객으로 살기 싫다"···제설제·비료·화장품으로 ...](https://www.khan.co.kr/article/202611210600005) — **경향신문** · 11-21 06:00
   - 누적 5만6000t 이상의 자발적 탄소크레딧도 확보했으며, 2026년에는 탄소중립 콘서트 ‘서스테이너블웨이브 페스티벌’에 탄소크레딧 414t을 공급했다. 폐자원 활용 사업에서 나온 감축 실적이 다른…
 
-### 해외 · 5건
+### 해외 · 9건
 
+- ['Game changing' 30,000-hectare carbon forestry project takes off on Tiwi Islands](https://news.google.com/rss/articles/CBMiswFBVV95cUxNdGhBZmY5OXdsSjBHNzFkVHZHa3d6UjBGcUNqVHVxcEJ5MkxYZC1ja0tuTUhkQjNxYlExcjVMVklPNkxtTG9fampJeENVLTdDUXdlUjJsRWUwbzRSMlgzM1ZOLUlsc0Jqam1SazNKMnVZMTJpZkVCV29ISjhhOXFERU4weUJFNUxHbnE2NndMckxJd0EzMXlSMWh1Zmg1bFRyVzVoTVVwdHd4ZGc5V1h4djE1bw?oc=5) — **ABC News & Headlines – Australian Broadcasting Corporation** · 11-22 10:28
 - [Ghana becomes 1st African country, 3rd globally, to earn carbon credits, set to raise \$43m from sales](https://news.google.com/rss/articles/CBMi6gFBVV95cUxPS3pMM1lHWDNoYWxaWFo3bFYtaVo2NFJOQzBnemVwVk1ySTI4WDdPZmJxYmI2ZDVfeTlicjRBbTQ1SzlyWG8yem85R0t6dWlmREtlRlBfSXZjYnltMGp0UVJKX3R2VVZrT3ZkcE8xMzZqcjVpMUQybFotUkRiTkFoM0VRRmJOekoxU3hrUFhNRlZUZHdTdnh4VzRZSFdrMlRFbHdoUC1iajJua0xBbHhxcFd4ZDBCaUFmNUtoWDVpbDZpNC1aUmNJcnNYRTg4N1l3VkZWamZOMV9DQTRpMzhGajFOa2NCZFJnNWc?oc=5) — **Pulse Ghana** · 11-22 06:01
 - ['I'm not the same person'. How one farmer went from £10,000 tups to carbon credits](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVDVhdGtqNTg3ckx0TjhYWFpUeEZ3N3pKamM3WVNCMW9Ba0Y0UTNhbm0yUklPemZ2czd6N0VFam9DMjlXOEdnSWVYbHpra1NZdmxreGdHX2xFamx1aUR6a3BCLXhnTnpaNWFjYUlDLThwX1p4TllHdFZNVFlocVFpdHo3d2w0QWlWLUIxbVNCQjZ4Um4zMEc3WlA0eGVhQ1dVVjYzaG00SWxwV0k?oc=5) — **The Herald** · 11-21 21:52
 - [Indonesia advances forest carbon program in nine provinces](https://news.google.com/rss/articles/CBMiogFBVV95cUxNaVJwY2hpenl0ZG0zV0k5M3VZZVhDMXBCQ1gxem8yeVpkOXItZDlKbEJsd3RrMW9MVEV4TkRBemhDdDl2UGxuc3EtcDFyVVk5TGdTNmoxOHlTVFJKS2tsbXRMTUpHTk5wbTh4WUc4OVFnc3N2eWZqNHY2N1JmV2VJVXo1ZDU1YnRyVXpIb0hESjRodkR6QlFiMDlCS2ZlTE1EenfSAaIBQVVfeXFMTWlScGNoaXp5dGRtM1dJOTN1WWVYQzFwQkNYMXpvMnlaZDlyLWQ5SmxCbHd0azFvTFRFeE5EQXpoQ3Q5dlBsbnNxLXAxclVZOUxnUzZqMTh5U1RSSktrbG10TE1KR05OcG04eFlHODlRZ3NzdnlmajR2NjdSZldlSVV6NWQ1NWJ0clV6SG9IREo0aHZEekJRYjA5QktmZUxNRHp3?oc=5) — **ANTARA News** · 11-21 20:16
+- [Carney to Visit Calgary on Friday to Announce Industrial Carbon Pricing Deal](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRTlxTHJVT0J6WHNOY0s0a0oyLThfV1V2NFFlZU43cUpIVGMzY3JRbHdQVndXZ1dXNzVUUXljWHZDalZnbkRxeXZZY0JYSENqNGVzTzRLMnNKUnF5dFQxOU5wSXJLMHBYaTZYeldhaXJ6dFJ5VE1uc3p3VGdWcFprcmFXTENmT3Q1UmFwbk5WN2NEVk83X3pPTWh6Wl9NRUxmSlBYejlKdTdBdw?oc=5) — **EnergyNow** · 11-21 07:21
 - [Morocco strikes 10-year carbon credit deal with Norway to fund renewable energy through 2036](https://news.google.com/rss/articles/CBMixwFBVV95cUxPandHWlI0X01fUFV3RHowb0xtOFZrUDZKZTVKZWJ0aW1qVmlXcld2MXN6MlpXTEpCcXhld2Y5OEJFN2d1Slg1b3laNm5TcDJ0aHlRajB4aXYtN29zQW5wc3JjSVFhZ3NacnJjYTVmdlhTei05V3doVE5ONDhrcjJaSVA1NjZpVW1pTHRrMFVCYTdQRGdqMGtLMGM1czZ1WHhzQzNlM2haWmxja3ZqQ0w4N0xrWHZkYWM0djYtUEl1QURHekxFWW1j?oc=5) — **HESPRESS English - Morocco News** · 11-21 05:33
+- [Uganda launches digital carbon register to track projects, credits](https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTBzaWtmbGhiUHhwaUQ1c3pBMWFvb240MXhCYndGODhmc2FXeVB0RmRVWXdSZXhSb0xZRzhhSm0zQnJlMUhaNlJ2SjBCNFB4TjA1U2pMQjBzZjJFTlZDT1ZxMDdBUWpwa2VQcWhQRkItYjQtT1JEdC1FR2xGS28welU1X2t0ekdQWUdWSGJ0Q1BFeWpBYUdwWDhQYTBYNXQ0SllZX2hiNA?oc=5) — **PML Daily** · 11-21 00:39
+- [Norway Signs Carbon Credit Deals With Indonesia and Morocco](https://news.google.com/rss/articles/CBMikwFBVV95cUxQWml0ZjJNM3NYSlkyYnhha0t6NUU3N1RNcHZzLW1KOGF3WlVUa1JIclVBZFZoamlNWW1CVjZ2LWpqTGhCSlJwajRRb2gtLWRqeVZWOHF1elRXYVdmajh3aTgtWDVoQWpZUWZ5VWV5VG5kV1U3VVdvN0Y3X0R1c1RoX00xZXhSb2NSMjJrV3VKM1IzTVU?oc=5) — **IndexBox** · 11-20 23:40
 - [Indonesia’s 138,000-hectare blue carbon projects target climate investment](https://news.google.com/rss/articles/CBMizwFBVV95cUxNUHZ2aWxBS21ONzF5eVFudmt0ZnhNbUppcFpIZUdwQjAxVlhPTTVJVXVBcS1OaGpKVlpGaHZjTjUteHExWnkzX2lKSk1PM0cxWUNwLWZ0dzFTWUZnRU9YUHk0TFl4bzNnZUpTSjdrYnk1ckhYZWhUNjY3RTZmNkNmOFUxMVpiakVUbW16b1owY0FTbnY1b0tyOGI4UjBzMDlhV1V3ZDFUWUNjN2hSbEYwNDJFNjZ5OGhXdnN4YzlQOWxVZFpSRW1BUVFrT01OSlE?oc=5) — **Indonesia Business Post** · 11-20 21:46
 
 ---
@@ -214,13 +235,13 @@ modified: 2026-11-22T10:08+09:00
 - [Pakistan's energy transition should be built around adaptive social protection, legal and social security cover for informal workers: Experts](https://news.google.com/rss/articles/CBMihAJBVV95cUxQUGNKcjFMWmt5cG01OXhjTmV4MjFuNzdxcTBmaE1rZUR1NXQwOG0zOEpMSmpPNFhVMzlLSFk3MVBLYkNkQng3dHZVb3c3X2RjTEhEWUN3UXhxbEFIYzRDQ051NTNTbE5wTEdwYUcxTGVsRmlXV0tIREhMZkg0TU45RzZfd3NLRlg2akNDZHhOX2lYb3N5Nlh6dTgxdGE2WWpTajFTaE1sSkYxUnMzUzRFTElZOWU3VmQ1dUpaNTBnZXpzcC1DUGJ2cDR1MWJicTNkSGtjdzVPSGZRWFRxNzZqUUFpZTBQWVdtQU1oTGJkV29MajAyNTM3M3h4M1dJSWZERjQtNQ?oc=5) — **sabahnews.net** · 11-22 00:00
 - [COP31: Energy transition dominates talks as countries weigh how to quit fossil fuels](https://news.google.com/rss/articles/CBMitgFBVV95cUxPaXlVcXpPMlRlNk9KeTJLUVoxcTdTMkNsa2lEaGpqcWd5bUIzRWduR3lITkZ6ZWlhWGVUOTRtVjNtekdBaDdoNkVyczluakttSFlCWlJidFlMbzR2SUdENnlna29OSmQxOFJHVEl2Q1FLNlpicWd1b0x3U0VYYWh4dDRKNmpzSWVKQXZWU3B1Nlg5ZGVTUldyYWo5OWN0QTI1cW5mTVVnM0JYRDNTd2hSdTc5QzlZZw?oc=5) — **Vatican News** · 11-21 23:11
 - [India doubles down on critical minerals amid global energy transition](https://news.google.com/rss/articles/CBMirwFBVV95cUxPNG45Wm9vZ2JKUG14TmRmMjdkcW8xQ2lfd3ZrY1Z1eUQ5SlBKdWhFeTdaYm9TWGt0ekdZaGhKZy1aYWxQclVMZXAyYzNPTTNaUkdNVFd0OGZ4c3ZkUGFod2laTjNpNGNGekJvRFg2TkFfb3M3NG4ySVdZdUppOHVJTVJqeGpQWWlkYW5sUXd3WVo0Y1AxcHFYT0NHTjhWRFpNcFdCZGNoY2sxXzNkWFdN?oc=5) — **The Shillong Times** · 11-21 22:54
+- [Experts urge worker protections in Pakistan’s energy transition](https://news.google.com/rss/articles/CBMimwFBVV95cUxNOVFiVmJqbnNRb1Rfc3RETnI0b3BZV01qX1ZyTU5UQnUweVRuTG5taWd2OW1nb1hJTElWRE5XeS1Mb2p1Sy1Mc051SHFNUXlHOUZNQ0ZrOUxmSl96N3RUdnhRRWhQcnBLWkxyMENNSldxZHJxYV8xR0Rya2pWb3pSaUtPc2JHcjBYQjhUUVdOWEthRTFOeGFpS2VMbw?oc=5) — **UrduPoint** · 11-21 22:05
 - [Southeast Asian climate groups push renewables-based energy transition at COP31 and ASEAN Summit](https://news.google.com/rss/articles/CBMioAFBVV95cUxQTDE2b0RxOE0yeTFXd1o0VUlDcEZtSmU0X3YzRC1kQXNYWHVkSm9WOEtZQ0pjTXJJMmd4QnpkaENnd19QVWp2S1d3LUZnS3ZwWV93MldmQVFsT2ZXLUhFTF9KMHp4bE1LRzlub0w2eDN2S0tuZF9HZDlVSThoSVNQbHJUU1dneTN6Y2lyZDdBTmpqWmlRT1JzQTVpT3g5WDA5?oc=5) — **Traders Union** · 11-21 21:09
 - [Policy dialogue on 'People's Ownership of Energy, Just Transition' held in Rajshahi](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oMEhfTkJPM29QaHZ6SzYzR2IxVi1IRF9qbUU4LVhPcHVzejhUckVPYW9hTVhWWlBEZXFCSEVobTJsZ3B4X0NlYWJfbi1qZw?oc=5) — **Bangladesh Sangbad Sangstha (BSS)** · 11-21 17:43
 - [Rural Communities Left Behind in Sindh’s Renewable Energy Transition, Dialogue Highlights](https://news.google.com/rss/articles/CBMivAFBVV95cUxOdjJZb2ZxVE4zd2J6VGhLeEstZ0Zyckp1OUlEcDlMcnh3RE5OOENjd1Vsb3dURTlZa1E4RXVjY1R1OUstS3NhY2JOQlhrbGdTb2phOVN2WG5tYi1qZnZiOEhKVjlsMFJtWmVncjNXaHhvZ2JfMU1YZVFEZm9QN3JYQU5IckpWSjVJYzRIUllwRXJtNmQ5U2pGREphX0ViMG1IRUJpcTNpV3RzaW1nLU1DcnNYVHNoR2hGVGY2cQ?oc=5) — **Energy Update** · 11-21 17:02
 - [FG, UNILAG Commission CNG Station, Conversion Centre to Cut Transport Costs, Advance Clean Energy Transition](https://news.google.com/rss/articles/CBMixwFBVV95cUxOWk9VSDVsNFl5NHZITElKU21ya2MwTEotVEJBXzdOVWNmSC1mWDNqMTZocmEyaURjYm9HSm1sN3dzdF9MME1XZXN4QnVwbXo2QUpwS0d1eUM0Ry1EZ29pRjRtWXhmMkdTNGRGTUc5SjhqNmZSbHdHak5qSElLYW1rb1JKSDBVeEZKYmprbFVNUHI4eFdBOGVGZ0Z0TWdSRzh3MloxN0w5SGNsZjNMVU4ycnJMa1JYa3poNEhBZkJtQkctYlEyOHU4?oc=5) — **University Of Lagos** · 11-21 16:06
 - [IIT Delhi Abu Dhabi graduates first batch of 17 students, all placed in energy and engineering jobs; 11 join ADNOC, M.Tech in Energy Transition and Sustainability](https://news.google.com/rss/articles/CBMiwwJBVV95cUxNYXpBYjluUWR0Q2F3Z1Nab0VoYU5sM3laUnFsU3pqM05OOUg4ZkxkSlVjVjVrUHhJNDl1a3EtZ19oZnZOUVh1MTJQS3RVbUVDY1MyMGZWYUcybGRQd2ZuTUV6Y25tZ1Q3bnAxS18xYjFVc0ZiVmg4czB6cHp5VjFQVXdMN2RzUVlOYXVEYlZLMGxHVFFVY09tS2c1Qmx2NkhLM0FHTXRjTHhRdjR4cW9VR3VvdFNEOC13ZGtNYjZSaGFyZ1BvOEtZM2NlbTZkYXpzb3VUWXRkb3MzU200aWNwajZHdkpFREYxeHF5SDl0ZWZEai11LVhJRVIwS3ljQ2VNXzJyaXZnYVppekRlSFRVSG5jOEN5VVZoYUNQMEN3UjV3NE05cjA4QjF0YmJBelgwT0tveTVmY1FBY1ZnTVlmMXBBWQ?oc=5) — **Education Times** · 11-21 14:57
-- [Pictet - Clean Energy Transition B USD (0P0001TBW4) Seasonal Returns Chart - Yahoo Finance](https://news.google.com/rss/articles/CBMiakFVX3lxTFBZMXY0SUQ2bWFIa3dtcmtwU25vVUhOSUtqMHZDVjFDQ01wV2JWQUd5WmJpQk9DcEhHLTA3WDl0RTl6eE02dngxd0tDQUhWY2g2RHJnc1pZbndlUmIwVnZfc2lJaW5CV0ZkUlE?oc=5) — **Yahoo! Finance Canada** · 11-21 05:10
-- [Transition Skills: Energy & Resource Workforce Needs](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOUJBTlg4OFZ5Yk5MSV9vbEx5ZVliWmxmSlBGOGZQdjZibGdTZmFQUUk2OWNyQ25xSC01bTdvRWE4M01DbVhhWC0zVkJMcDhwQ0I3enlaYi1BVThZMEtqNUZfUFBzWjV3VzVuWEZTYXlxVGc0WGkzeEFOTnVmeXBwZ2s5S2ZYb1FoQ3RSWll1Q01wRXRueXo2b09vZGlaRFpRdmRqbzZOOWM?oc=5) — **World Economic Forum** · 11-20 21:38
+- [PERSPECTIVE: Fossil Fuels Still Provide Vast Majority of Energy Despite Global ‘Energy Transition’](https://news.google.com/rss/articles/CBMiswFBVV95cUxObGFfT3ZDNnNfaElsWFNTdElmNW1KWDM1VzRJdG1XYm9CZzc1TXU5OGVVWHhYdTk1d1d3M2trSGNfTUR5TE4yOVJjcE43bU1GaFRqZVc3akhlYk1ZdTQ3VUFaNXZvRWZoQkZ4VGhYRDg2Q3ZkV2lxbWJfUml5MGw4ekZUSzhXX1NwOHlIb0xyUzZIRl9kblNtVEt3Q2d5YXBQVDdlWHJOcW42R0J6Uzh2aVpzNA?oc=5) — **EnergyNow** · 11-21 07:06
 
 ---
 
