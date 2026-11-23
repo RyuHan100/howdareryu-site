@@ -2,69 +2,70 @@
 title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
-date: 2026-11-22
-modified: 2026-11-22T12:30+09:00
+date: 2026-11-23
+modified: 2026-11-23T09:57+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-22 12:30 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-23 09:57 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-22|11-22 클리핑]] — 기사 **129건** (국내 62 · 해외 67)
+> [!example] [[radar/news/2026/11-23|11-23 클리핑]] — 기사 **123건** (국내 90 · 해외 33)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
+
+## 📄 리포트·보고서
+
+- [UN Climate Change Reports 2026](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtQ2dibE1ZR3ZNNmM2Tl9NVHFhblBQY3RDUktSTEFiMkpIcEMtVnVua29QMVB0OV9qLUFMZ1hnN1NuQkI5d0ptTUsyWHo0dlVranNlLUk3V0U0ZS1admFCRTVDWnRpTms?oc=5) — **ClearIAS** · 11-22 23:35 · NDC
+
+---
 
 ## 탄소시장 / carbon market
 
-### 국내 · 7건
+### 국내 · 4건
 
-- [포스코·현대제철, 英 EU산 철강 탄소국경 선면제 추진…한국산은 공제](http://sateconomy.co.kr/news/view/1065619671056152) — **토요경제** · 11-21 22:32 · CBAM
-  - EU·영국 20일 탄소시장 연계 협상 타결…2028년 시행 목표 영국, 내년 EU산 먼저 면제 추진…한국산은 CBAM 적용 한국 배출권 납부액 공제 가능…수출기업 검증 부담은 지속 ▲ 벨기에 브뤼셀…
-- [한국, '의무탄소시장연합' 가입…농업 실질소득 연계 노력 필요](https://www.youngnong.co.kr/news/articleView.html?idxno=72062) — **한국영농신문** · 11-21 21:56 · 국제감축 / Article 6 · 자발적 탄소시장 / VCM
-  - 탄소시장이라는 게 있다. 기본적으로는 온실가스 배출권을 거래하는 시장을 뜻한다. 더 넓게는 온실가스 관련사업 전반을 포괄하는 용어로도 쓰인다. 짐작하다시피 탄소시장은 온실가스 배출 주체(국가,기업)…
-- [\[2026 서울시립대학교 서울 앵커 캠퍼스타운 스타트업 CEO\] 유기성 폐자...](https://magazine.hankyung.com/job-joy/article/202611211526d) — **한경매거진** · 11-21 18:36 · 자발적 탄소시장 / VCM
-  - 세이브더팜즈는 가축분뇨, 농업 부산물, 식품 부산물 등 버려지는 유기성 자원을 바이오차와 친환경 에너지로 전환하고, 그 성과를 데이터로 측정·검증해 저탄소 농업과 탄소시장으로 연결하는 기후테크·그린…
-- [영국·EU, 브렉시트 장벽 낮춘다…탄소·무역·청년교류 72개 항목 합의](https://www.the-today.com/news/articleView.html?idxno=93904) — **the-today.com** · 11-21 15:06
-  - 탄소시장 통합도 추진한다. 양측은 2028년부터 배출권거래제를 연계해 탄소배출권을 상호 인정하고 상대 지역에 대한 탄소국경세 부담을 없앨 수 있는 제도적 기반을 마련할 계획이다. 이는 유럽에 제품을…
-- [월드 뉴스 브리프 (기준일시: 2026년 11월 21일 토요일 10:00)](http://www.ifs.or.kr/bbs/board.php?bo_table=globalnewsfocus&wr_id=536) — **ifs.or.kr** · 11-21 14:26
-  - 영국·EU, 식품 무역장벽 완화와 탄소시장 연계 합의…브렉시트 이후 경제협력 확대 영국과 유럽연합(EU)이 식품 무역장벽 완화와 탄소배출권 거래시장 연계 등에 합의하면서 브렉시트 이후 경제협력을 강…
-- [EU·영국, 식품 검역 협상 타결…2028년 3월 적용 목표](https://www.dailyt.co.kr/newsView/dlt202611210013) — **데일리환경** · 11-21 13:52
-  - 또 정상회의에서 합의된 탄소시장 연계의 예상효과 38억파운드 등과 식품 협정 전망을 합산해 식품 부문의 성과로 표시해서는 안 된다. 식품 부문의 무역 흐름은 이미 브렉시트 이후 달라졌다. 영국 농민…
-- [영·EU, 식품검사 폐지·탄소시장 연계·청년 3년 체류 합의](https://news.google.com/rss/articles/CBMickFVX3lxTE5TY0F2aFg3ak9icUJzZnBTQ1RxbC1FZlBmdlRjLXpmRGlhSWtTOEs4andqa04zMDQ3cUpjRElnaEQ3eHVKaU1GQVBEMFhDT1FXNHRvY0s3TG1WU2pwQmN1eG50bnYzRHFmTXNvS1NGMGtHUQ?oc=5) — **https://www.newscenterkorea.com/** · 11-21 07:11
+- [\[해외브리핑\] COP31, 화석연료 감축 최종합의 무산…EU 등 초안 거부](https://www.esgeconomy.com/news/articleView.html?idxno=17498) — **ESG경제** · 11-23 09:16 · 국제감축 / Article 6 · NDC
+  - 파리협정 제6조에 따른 국제 탄소시장 참여를 촉진하기 위한 조치로, 산림 보전과 재조림, 토양 탄소 흡수 등 농업·산림 분야의 사업 확대가 기대된다. 파라과이는 탄소배출권의 해외 판매를 늘리기...
+- [기후총회 '화석연료 퇴출' 결국 불발 … 현실 외면한 탈탄소 압박 한계](https://biz.newdaily.co.kr/site/data/html/2026/11/23/2026112350023.html) — **뉴데일리 경제** · 11-23 08:34
+  - 한편 한국은 이번 총회를 계기로 탄소시장과 AI 분야의 자발적 국제협력에는 참여했다. 기후에너지환경부는 의무탄소시장 개방연합(OCCCM)에 가입해 배출권거래제 설계·운영, 온실가스 산정·보고·검증(…
+- [COP31 합의문 불발…‘안탈리아 팩트’서 화석연료 빠져](https://www.tokenpost.kr/news/policy/442605) — **토큰포스트** · 11-23 08:14
+  - COP31 기간 유엔무역개발회의(UNCTAD)는 기존 탄소시장과 자본시장의 연결을 강화하는 ‘글로벌 탄소시장 네트워크’ 출범 계획을 발표했다. UNCTAD는 이 구상을 개발도상국의 탄소금융을 확대하…
+- ['이행의 COP' 내걸었던 31차 기후총회…당사국 간 이견에 끝내 합의 불발](https://www.electimes.com/news/articleView.html?idxno=375111) — **전기신문** · 11-23 07:22 · NDC
+  - ◆韓, 탄소시장연합·AI 서약 등에 참여…COP33 유치 '검토' 한국은 이번 COP31을 계기로 국제 탄소시장과 인공지능(AI)의 기후 대응 협력에 참여하는 등 국제사회와의 협력 범위를 넓혔다.…
 
-### 해외 · 7건
+### 해외 · 4건
 
-- [The UK and EU Are Linking Carbon Markets. The Factory Power Bill Came First](https://news.google.com/rss/articles/CBMitgFBVV95cUxQaTFXS0EwZWZCdzlxNkk0VXJCOXczSTR5MkU4b2hjcVFJQWVLbm85NTUzTk1PWlZkbVBIbE5BalB5aWdtcDlHdTNheVFHWDdLYW1sa1J4ZXlsbTZ2N2d6SEMwaEdqN2xkVEctRkdjVU5QZlZsaDAxUHFjdHU2c3VEVW4tVWplYThxc3drMmUyV1JzUUtqSklJWnMxU0liYkN1ZGdIOENJclBCdFBrSFJ4SlJVVFhyZw?oc=5) — **Energy News Beat** · 11-22 12:01
-- [Granular Activated Carbon Market To 2035: Water Treatment Rules Support Growth - News and Statistics](https://news.google.com/rss/articles/CBMiugFBVV95cUxPTmhLY0lIdS1aQ3JkbWVPU2ZzVEFBZC03Zk1qeVFzRkk1NEt4RkREallYQVRnX3lKTFNYdHNXYkJOWEswWjZYaHdvR0VYQlF3d2lvb3FEaHpNYm82ZHlFbTRJTkVsTXpleW1nYzFhQ081TWludHM1SklKYUdHMk94ZlgwMjNPN0Q1emkxMWJhaFRmM2VKbkY5Z0d5djVPWVZzcnBpaGtDd09EUHVBNWJNZEdyVG4ydzNOeGc?oc=5) — **IndexBox** · 11-22 03:56
-- [Activated Carbon Market to Reach US\$5.39 Billion by 2033 \| Which](https://news.google.com/rss/articles/CBMinwFBVV95cUxNMjFKNHRBY2duZEdtYUd2dDNPTHZOUWtNZzdaejR0T3lMdXhNdlB2QloybU1PdHk1Z2JYNERZaHl5cGhhVU9kM1IyaDJ4MlhCVjJoaU9IcnFjWHZLSi1HQlRVVWQ4cFpRMTR3VmpZRHViZWxYcVZoN2lLWlZRTUI4ZEN5S2JPeWJtZ3J1LUdDdnVrTjZkWEFHU0ZKaFdPNXc?oc=5) — **openPR.com** · 11-21 23:01
-- [UK and EU agree post-Brexit deals on food trade, young people and carbon markets](https://news.google.com/rss/articles/CBMivgFBVV95cUxNR25lcVQ1UzNlS1A3d2diSkRJVFJVM0ZkSTlGbnJhZVRVVUt2WThFakYyS1JNVUtpUEhPR3htMFFJQ1ZFeHRaSzlSNE93NTVWMkRjTmxIclUxSlpFbXIxRWZQU3Y3amVzblJEWjJ4UmQzcDVSV2twVzdlckpqYXBsS3lhdmhCcW5uWE5IUm9NU1BadUFTVzlPYXp1dDA2aXZNXzg1Y2x6WFM3WW5nWFJ0UUYwdzJZMXVXcTRQS2Z3?oc=5) — **NetNewsLedger** · 11-21 20:09
-- [RI targets global carbon trade, from Japans market to CORSIA](https://news.google.com/rss/articles/CBMiowFBVV95cUxQemJNQ0RGMGxXTXF4bm83MjBELU1OakNjZ3NjVDdyWlR4WlVsSmN5V2RSYjI5eFBCM1lrOUtVRHkzeXZTWmdSWE44ZFdrcFE0ZWF5V25tMzdKRmFwcWVOYTZRLUJ1WUxZRGVISXdkb2Z1N2I1X1k2ME1tS05EQ000RllpMjBpSFZDdWRER0lnUEthN09xNDVjWFpQaktkYjJoTTlF0gGjAUFVX3lxTFB6Yk1DREYwbFdNcXhubzcyMEQtTU5qQ2Nnc2NUN3JaVHhaVWxKY3lXZFJiMjl4UEIzWWs5S1VEeTN5dlNaZ1JYTjhkV2twUTRlYXlXbm0zN0pGYXBxZU5hNlEtQnVZTFlEZUhJd2RvZnU3YjVfWTYwTW1LTkRDTTRGWWkyMGlIVkN1ZERHSWdQS2E3T3E0NWNYWlBqS2RiMmhNOUU?oc=5) — **ANTARA News** · 11-21 20:01 · 국제감축 / Article 6 · 자발적 탄소시장 / VCM
-- [British Ambassador to Spain welcomes agreements between the UK and the EU on agri-food trade, youth mobility, and carbon markets](https://news.google.com/rss/articles/CBMiggJBVV95cUxQcFo3ZUh4QTNLY3JoemJ5ZzdicTJzcGxHSUM4N01kall1Umw1MDFSLXprTDdON0wwYU95Ty0xZHhzTjZqa2RrTW9xOUQ4WlJlR0tkZlVmZlBobGs0N1pRNHRPamZsdFpaNFA0ZmZ5U3dRYjJEb3lodDlNNEVWNTJ3RzNvT3RJUVZ4MkhuZmtMQ1hCenRqQ3daZ3RFbnhaZW5IZ0lRbUY1eC1JSUxMb2kyTnE2V09GZG1IdDBZT0t2bHVSRjUxOHByT2hYTlhHc01McEtVRUh6LWtoZE8wLUg1WWJpbThRTXhrS3NvVlNXX2VtZzN5RlBmVzNlalNqU1g0MHc?oc=5) — **thediplomatinspain.com** · 11-21 01:28
-- [Aodhán Ó Ríordáin's call for EU-UK progress answered as summit agrees youth scheme, farm trade and carbon market deals](https://news.google.com/rss/articles/CBMi3gFBVV95cUxORnNVZkRRODdRNl81enBpQ0xKenU1MEY3Q3A3OF9FX2NpUGRpSDV6Ukhfcno1R0N2cGFRa3p2VS1aVWUyNzVYOER4dGRsR1M2SHNWN3Z5MHljQmJfaXhocGd0R1MxX1NpVWs2ajRuYnZvWEx6akV2NjBrd2p1M1hWajJFTThGV1diVE9iMWF2Q2lESlRkYVNoLUhRZ1lqc2RPVUN6Z0tBOHRSNGV6NExYaHE2bmlwRkF0X3h3dGpzLXZhN2NXcU5ZYXo5WlNybHVxT2F1a3U4NUp4cUN6UUE?oc=5) — **www.labourhome.co.uk** · 11-21 00:31
+- [Indonesia Secures First Paris Agreement Carbon Deal Targeting 12 Million Tons of Emission Cuts at COP31](https://news.google.com/rss/articles/CBMi9gFBVV95cUxPT1E1cDJLRnRoZEpHQWJLckJKcFpDSXlVTG9XYzZ4X2VmX0lhNzNMUmxUWHZ6QkJXdUJRQWJsSlpOMVJiVklIMFM1NVpna3ZDa3hQTkZnRTZLR2RDMThBSmMxRTBTVnhPRGw2ZmRyb0dfY0JaVW5QeTdFU0xpelprWDctYUdQRlJVa05vREthRlZDN3ZZZ3F1X3JNYWQzMnBNS1dhamNPU3l5WElScmY4X2hwVElPc3RqRm5XYVlMeGJsVHpXSmM2YXZUUnFNTHY5NnZSM2pqYlBnOGI2UmVWY0lxMEdMNlV5cUtfWS1nbDEwOUlSalE?oc=5) — **InvestorTrust** · 11-22 21:58
+- [Indonesia targets 12 million tons in carbon cuts in COP31](https://news.google.com/rss/articles/CBMioAFBVV95cUxNbkZNNFdEOTU0WlpYdXpVWUN2NmtiTE9oWnJqOHNHcUphdWpfSkdsS185Vk1xWUl0QWtkdVFKX01RT25ydjUyX0kxTHhZbzNzV1NJQU9TSWZMVURZVDAwdkVQTTBYYnZKNGJfMkRCMjVjdndWWmluT1hXcktDRlJHTzBTVnU3TVl5TjdFTUlXTm9oSFRuN0Rwa09KUmc3eHJt0gGgAUFVX3lxTE1uRk00V0Q5NTRaWlh1elVZQ3Y2a2JMT2hacmo4c0dxSmF1al9KR2xLXzlWTXFZSXRBa2R1UUpfTVFPbnJ2NTJfSTFMeFlvM3NXU0lBT1NJZkxVRFlUMDB2RVBNMFhidko0Yl8yREIyNWN2d1ZaaW5PWFdyS0NGUkdPMFNWdTdNWXlON0VNSVdOb2hIVG43RHBrT0pSZzd4cm0?oc=5) — **ANTARA News** · 11-22 19:38
+- [Indonesia backs safe harbour mechanism to boost forest carbon market](https://news.google.com/rss/articles/CBMirwFBVV95cUxNenR0ZFRoZ0hTNE1BaEJmZlZNVHlMY0VKNl9KOGtHZzA0eEQ1RUVieFUxVi13MGpCQ2JXSUc1SlZnQV9QWndwaU1sbHczMjFLZVlvR051cWxMRlhnblFFVXlzNlVfQVpub0VlUXhPQ09aZ2JrdXZtT3RSMXdHSGMyRWJfMEk5LUVIYUNTYzFHQVR6YmFIWEpJVGstMktrYzVLWTMwNnJTUWZBVmJkeTBv0gGvAUFVX3lxTE16dHRkVGhnSFM0TUFoQmZmVk1UeUxjRUo2X0o4a0dnMDR4RDVFRWJ4VTFWLXcwakJDYldJRzVKVmdBX1Bad3BpTWxsdzMyMUtlWW9HTnVxbExGWGduUUVVeXM2VV9BWm5vRWVReE9DT1pnYmt1dm1PdFIxd0dIYzJFYl8wSTktRUhhQ1NjMUdBVHpiYUhYSklUay0yS2tjNUtZMzA2clNRZkFWYmR5MG8?oc=5) — **ANTARA News** · 11-22 18:56 · 자발적 탄소시장 / VCM
+- [China Carbon and Financial Markets Display Asymmetric Bidirectional Risk Spillovers](https://news.google.com/rss/articles/CBMirAFBVV95cUxPRjlZbVR3U202MEY5NW41b2JWN0Z6T0FBeU5oaUdIOThGRTdqem9QMXJ6MU1FR1YtanNIX1prNDNVdGluQnRxNU1mbFRJQmw3ZTN6R0JYaW9qZXZxUVdLdm95LVlRUkVpal8tel9ZUmJnX3pabUlmdnlLamFpc09iTm5GTTU1NDFqSk1XV1g0b01NQVRacGJ4U0Iza0lHUG9qeVBnQXlzX2lwcE5r?oc=5) — **Bioengineer.org** · 11-21 13:22
 
 ---
 
 ## 국제감축 / Article 6
 
-### 해외 · 2건
+### 국내 · 3건
 
-- [Indonesia Eyes Carbon Credit Markets in Singapore, Japan and CORSIA](https://news.google.com/rss/articles/CBMioAFBVV95cUxOV3QydkY0MU5EamVoTW9NVlp0bHAyMFBGUEhWYmZpWlhkbnYxbHhZeVZhQm1URkNGWkxFaXZiYzNSeUs2X3c4ckNTdmN5QTdRcmZteVBPMEpRZjZla2p4S0dTYldBaUpfY1hkbGlEMjEtczRXS3JTR3haVFJsN3hSSHJBS2psTTJjakNEbnlWUUVNN2F5UmtzeDVNT2ZQQmNh?oc=5) — **Tempo.co English** · 11-22 11:15
-- [EU carbon farming CRCF rules to be published next week](https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1lKVHRHa1QyZHRQR0FIU2E3MWw4VnR5eWZJSHRHRXY2R1FJbUdtNUtSYm85ZTl0ZG9uWGVaLTlYWGhDeF9yZVRvTVhIOVNCN25GbXdYbEZzeUdRTmo1Uy0taHlBUVVma3Q1OFVaaVF4VENoRmZBM1plcEFPb0lGLWo4Rnd4d0RWZ3JrLUU4WUswX1JfQ2lGalM1d2JTVVBnd2NmM0FmNA?oc=5) — **Quantum Commodity Intelligence** · 11-21 03:09
+- [COP31 ‘안탈리아 합의문’ 채택 불발…제로웨이스트 문구도 초안에 그...](https://www.vegannews.co.kr/news/article.html?no=409597) — **비건뉴스** · 11-23 02:00
+  - 총회에서 진행된 모든 협상이 무산된 것은 아니다. 파리협정 제6조에 따른 국제 협력 등 일부 안건에서는 별도 결정이 채택됐다. 체코 올로모우츠의 재활용품 분리수거함 자료 사진. (사진\=Selixsh…
+- [\[COP31\] 핵심 합의문 채택 불발…'화석연료 전환' 빠지자 EU 반대](https://www.etnews.com/20261122000104) — **전자신문** · 11-22 22:27
+  - 앞서 20일 총회에서는 파리협정 제6조에 따른 국제협력과 최빈개도국 지원 등 일부 안건이 채택됐다. 22일 폐막 총회에서는 의장의 합의문 미채택 선언 이후에도 당사국 발언이 이어졌다.
+- [온실가스 국제감축 프로젝트 투자설명회 개최](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMzNZZzR4MFRrQ0pSTTlBOVljSS1rbk5uY1RyT0JGQVpWQjBjcUluN2FwcTk2ZVNFd2xHa1pTQXJHa2t0ek1sMHN1cjc2eHFLTDdLazFtTXJjU01zWkZrRVFVYnlfb3NRbVpzY3FpdHhjSWFaOHFzVEJMYnZwdTM3MnJvZUFMSld0MmEzT1IzVURIc3MxbUtENzBJdGdXdWNhTWNxNDZyUkZMU2xWRTdzYkxEYks4a0pQRmlsWVFsLXlVWU15SEZpeENlRDdKNUtUSU5GV09SOEI?oc=5) — **국가기후위기대응위원회** · 11-21 22:48 · NDC
+
+### 해외 · 4건
+
+- [CMW COP31 reaction: Climate focus of Article 6 survives fossil-fueled market lobby - for now](https://news.google.com/rss/articles/CBMiywFBVV95cUxQNXBVMlVvcG5FRVdZelhkUHhpZ2cwb3FobnBHMnp2aE1kaHp3d3JmRFhWLURKM2VXU2JXNzUxUjQyRHNUZkJFVHNtUEZITVpjYTJCWGhWbGRGblk4NFh0V3A0V0VLckpYeUoxekQtVk5TcGJNbG1rR0VJbWRZVHZYZk9Pa0sxRVdSc282MVFqV0VfLWFmOXI5OXpCU1FtaE5fekhHM28yQ3pORmxIRDZiOUlkaDN2b2xBZ0JIcjhaTW9wQTRNM1JTWEJmOA?oc=5) — **Carbon Market Watch** · 11-22 22:39
+- [Indonesia's COP31 Carbon Deal Targets 12mn Tons in Emissions Cuts](https://news.google.com/rss/articles/CBMingFBVV95cUxNaFlPV0xqLWYteUdjOXNuR19uZ1RmeWFGU3psTUh2SWFvM0NQNEN6eGs3Vmh5alB0SXU2eEpNRlA1RVpnTzFyNGpRcHRlQlJxQy1FeDd3UGhYc2RMTk1YZVk5ZWlrUlM4NTR5NENHdmt4blhTNjhTSjNGeXVNUlhXa2phUnFxLXNxMy0tdEJUU0o4WTRyYkRDSG5waHc4UQ?oc=5) — **Tempo.co English** · 11-22 16:31
+- [Fossil fuel wins at COP31–on the bright side it could …it might…spur use by oil companies of Article 6 as rules eased](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOC04Z3VEU3RyTzA1TWNpS0dRcHEzdU1UODIxOXRuV2VXeTRvQ3dsRTVkaWpaRllGOFhDaWZhLVZBNVY2VlJNYXRZR044SFY5S0tzRmtubVpRaU1OLTVBNEktb2JiZDIwMGhEUUhqZXBSSXkxWjIwM29RbVhTa2VaNU50STNTd1c3SFZhbUhLa0FxTjRYZFNQYWk0eTBBSm5MdDhELVhDWG9Lc3pHd3VxR3UwSWt2ZUJldkxJM0NLSlB3MWRpMTc3NnkxMHB3WURZbW9KejdB?oc=5) — **https://carrzee.org/** · 11-22 15:18
+- [Green Cooling Projects in Southern Africa Advance Toward Carbon Credits](https://news.google.com/rss/articles/CBMiowFBVV95cUxPTkg1MlhCZHg2cGhmUlcydFFWalU1U2l5RXYxWXFIMDYxUWVMVlMxWkI1S3pZMUhyRVMyOW5rNzVaY2ppVXNQRjJCRUpBV2N5Zk92Z3pzSXZ3UHpEZURJbm4yZDhQZGtyX19KRGtBMGM3RlF5V2trYW5oUnhhdXJFcDFOb2FYODdDdUxWZU5pUGpDSjdQUEprcWNzU1lJZ1gtZnNv?oc=5) — **Refindustry** · 11-22 08:30 · 자발적 탄소시장 / VCM
 
 ---
 
 ## 배출권거래제 / ETS
 
-### 국내 · 2건
+### 해외 · 4건
 
-- [노르웨이, 인도네시아·모로코와 탄소배출권 협약 체결](https://news.google.com/rss/articles/CBMilwFBVV95cUxPa3lKNzVXakpPS0tScnNQaU80c1FtRW9pZHBaUzBEaXVKbnY4RmdiaVRkMDFvWG1WcmhvTnVycEJ3b0hxT2JsZWxFMGtoVjBOU3dSUElva3daZUZVZ2FFOXk5WncyZG0wbUZCc2pDRXE1NW5RRTVwaHdZMU5wVzJ0bURTQ3lZY0RIVkd6TEtId0tiMXNWQ1Rv?oc=5) — **IndexBox** · 11-20 23:40
-- [시멘트 업계, 영국-EU ETS 연계 환영 \| MPA - 뉴스 및 통계](https://news.google.com/rss/articles/CBMioAFBVV95cUxOMEhMRE5hNkJoeXJndHYtWWZsYnhzejhYQXVDUUI5Y09VemJjU2tiYXRPbHpCQmVFcE8zR0djOVlCUDgtU0JlM3BYSHBzSzdoQy0ydzB3UHFWUnhLc2pxMFZjbzV2ZkRad0FDeW9sU0NsekFadlZtQXJhSlFuX1R3Q2FuLWYxWFNTZkowYjF2S29jTF85YkVoLVJqaTdkeUtR?oc=5) — **IndexBox** · 11-20 23:32
-
-### 해외 · 6건
-
-- [Aligning UK and EU ETS may impact steel, aluminium, and ammonia import costs, Catherine McBride notes](https://news.google.com/rss/articles/CBMihwFBVV95cUxPbUJ6M256clozRkJBOWxvSWJ1NFQ3dmhRZFRfYUdlcVZkSlktUFVYYXJOSUJWeDE1NlF3dm01Mkk0LVNaRlZCSDhUcThPbk1NUmxDWndtV0tZbGk2YW03UE0xbHQ2aDRMRnBTc2NuaVVGV1k4NlJhdEFiYnRLWTJzS3BiTHZieDg?oc=5) — **Traders Union** · 11-22 06:35
-- [Voestalpine stock faces Brussels setback on carbon allowances](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYlk2ZUhtWEktcHNnYVlYX1ByZFFoNlRQSkROQmI4eTRvZWloS1lXWno2V190ZEFDYTZSRDFHcDFqTDNWYkNwdy12eVZIdEFxcnJydVBkVDlBNWpMRl9JWVZGZ1JUNWtDT0JRbHpBamc5dzdMc1VJNl9pYVdsSDZLU3loRFBvTk1JZzNwRThTcVdkZHJjUmRCcC0tckVMeUpSMVBQZzBBWnBmUXlEOFhZNENwMHlDLVl1alUxM3k3N2VGQQ?oc=5) — **ad-hoc-news.de** · 11-21 19:51
-- [Middle Eastern Countries Challenge EU Plans To Expand Aviation Carbon Pricing](https://news.google.com/rss/articles/CBMiywFBVV95cUxPNU5POWJfYng5V09TZFp2NUMyNVhvRWlqUHVEZS1DaThzQmJjdGdvME5RWjZ3Z2FFX0Y2aXZ4X1dzRS1oa0F4R3JraHJiWkRSdVJ1dC1SMU5CcFoyUU04MnduWWtrUHRHWjR2Y1FLSzJfdUNkNU9YWFJucW5WdE5vZnJrcDd2V1BQbWNYSFlPNmRxTWh2RG5CWjBxc3RGZkpVWm9qY2NLZWFaSXQxRnlkUUhiRU9nMW0xbjBTczVoZGhNMlNoZmlVRGhCRQ?oc=5) — **aviationtoday.in** · 11-21 16:05
-- [EU-UK summit: Emissions trading systems to be linked again](https://news.google.com/rss/articles/CBMimAFBVV95cUxPSm5tZjAxSHp0ZnVzaW1RZ0diOG5uTVdHYmNsUHRoaHM0VTE0QTMxMVVFd0RGS0FYRklRbU5GeG92cllobS1JcVZXWVBCXzczcEd1ZlFRVU1kaGMwOEVOV1d5OTRndWMxZ3Vpel9GMzg3elhYcC10ZnJUalMwOVMyR3hfQVg5cUtnY0puZGk3ajhmdXB6cG9ScQ?oc=5) — **Table.Briefings** · 11-21 12:28
-- [UK-EU ETS Link Welcomed by Cement Sector \| MPA - News and Statistics](https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmcwNHpjc1NwTE1aYk5xUTlBNElaUkc2dXVxNFJlQ0JEVHdOLWpFSHRLR1ZBT1ZXeWpIb0RvZ3hya08tQXZ3TlNaQmdTQzdPSFI0bElZSzlEMzNjS0ljMktYcExtaE0zLTdyWFFHbENSSGZBSXdTcVVIQU9WZjVzOV9FSnVYZDV5cDlMVXBPZ1dzRXN3Q19MREZzYXg?oc=5) — **IndexBox** · 11-20 23:32
-- [Emissions trading debate puts affordable EU mobility in focus](https://news.google.com/rss/articles/CBMipAFBVV95cUxPZm4yYWVRbGNvTDM1OEhRWWNPWWpRQ25NOEYwU19vWFg5bUU5dC0tMS0tVHBSQTNiV29YQklNb05NWGc1WWhkc3YxU2Y0aEkydHR4clhXMFBlX3NhbEV4ODFwZTUyYlJoTEN0bGRiMmVhUl9fSVRyMmFNcGRCNmFGSHVMSmp4Qy0wcTBjUU50VUlxeTFMR2o0QlZmdFpDUjU4bEh3cw?oc=5) — **IRU \| World Road Transport Organisation** · 11-20 23:07
+- [Ten EU countries support ETS2 discussions](https://news.google.com/rss/articles/CBMingFBVV95cUxPM1dweXRvR1FMTU13TUVhMVJkS3JPUEhiTlNpZVA4TXBZdEhaV044WHFhN09hV2FDcFRuMjV0OEVIY3NuNkJILWIzaEZRRmZfTzZWRmYyWUpfLTRGbjJxamU3VnoyWjIycG1ydTJwRXY0cV9sTk5COEYzdENtTm9IcllZOHYyRWFRMklUQmE1V2k1WGtpZzVrQkpXeTFWQQ?oc=5) — **The Portugal News** · 11-23 09:19
+- [Middle Eastern Countries Oppose European Union's Emissions Trading System Change](https://news.google.com/rss/articles/CBMizgFBVV95cUxNNm53a3o4Q0FSWnNpaFlUYlFlREhmaUFBeFFhbHlRdFBrRG9KRV9tRTROSmw0eDhmUDRHdUtmclM0VFE3dEhycXd5dDFpeEdlVEdIRDYtNkNDZXA5N09FdjdkWU9DMEYwUlF0Y2pvRlpXU0pXWm5zQkFlRXV0NkJZYWZGaFR5YW1SQlVaMm9sNDdoQ043OU96YlpKT0VfcnEzU3VIaFcwVlAtaFlvWUNsbjNaUm1nZ0JiNmZld3VjLXVWMVQ5bXVuMWd3RVJGUQ?oc=5) — **www.marketscreener.com** · 11-22 16:21
+- [EU ETS Aviation Austria 2026: A Compliance Guide for Airlines](https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09PemRHNTlfT1V3LVl6TzdJeUxId2dVdzRUVU11R19oSlpDSW9sMVpBSkpKdlEwZnpGYVlhUG9naVFDUTdzNFhQN3hncVczX0tydEhWM3ljOERMZGEyeGhickM2Wk5aMHVqQ2lhNUxPcVJkMDBmVklWS1o4YkdVdkxUNEJCc1lTS00zVQ?oc=5) — **Global Advisory Experts** · 11-22 12:42
+- [INEOS warns UK-EU carbon deal could hit British industry with fresh costs](https://news.google.com/rss/articles/CBMixAFBVV95cUxQazUzYlVYTFpZMU5vRGQ5ZGVaOGVIV0hHWE1iamFfQWEtdFduQnJtUDMyLTVDeGw5WVdhcHJTWnpPdE9zMFh6SXV2WmQ4SXo3WjdhSDhKRUtaVFJmYWVOSTlsQUY3VkljT210WlVFZFQ3RUVnV01SSlhCM29WLUU5dnNIa0JXTG80em9ZS0VQeVRDX05GYVF6dnQwdHNSaUxIanRXQlBYV0xBVEtPYk55LWZ0RVM1NmJnc3JORGxCOEltOENi0gHEAUFVX3lxTFBrNTNiVVhMWlkxTm9EZDlkZVo4ZUhXSEdYTWJqYV9BYS10V25Ccm1QMzItNUN4bDlZV2FwclNaek90T3MwWHpJdXZaZDhJejdaN2FIOEpFS1pUUmZhZU5JOWxBRjdWSWNPbXRaVUVkVDdFRWdXTVJKWEIzb1YtRTl2c0hrQldMbzR6b1lLRVB5VENfTkZhUXp2dDB0c1JpTEhqdFdCUFhXTEFUS09iTnktZnRFUzU2Ymdzck5EbEI4SW04Q2I?oc=5) — **Indian Chemical News** · 11-21 22:00
 
 ---
 
@@ -72,218 +73,174 @@ modified: 2026-11-22T12:30+09:00
 
 ### 국내 · 12건
 
-- [TS, 교통부문 온실가스 감축 지원…기업 실무역량 강화](https://news.tf.co.kr/read/economy/2391829.htm) — **더팩트** · 11-22 10:50
-  - 행사에서는 교통부문 온실가스 감축과 목표관리제 이행에서 우수한 성과를 거둔 기업에 대한 시상식도 진행됐다. TS는 내년부터 시행되는 목표관리제 유연성제도의 주요 내용과 신청 절차를 안내했다. 이월·…
-  - 관련 보도 1건: [BBS불교방송](https://news.bbsi.co.kr/news/articleView.html?idxno=4120061)
-- [COP31 막판 협상…화석연료 줄이고 기후재난 대응 지원 논의](https://www.dailyt.co.kr/newsView/dlt202611220016) — **데일리환경** · 11-22 12:10
-  - 그러나 전기를 만드는 과정에서 석탄과 가스에 계속 의존한다면 기대했던 온실가스 감축 효과가 제한될 수... 그러나 로이터에 따르면 앞서 논의됐던 연간 1천200억달러 규모의 구체적인 지원 목표는 수…
-- [TS, 교통부문 온실가스 목표관리제 설명회·워크숍 개최](https://www.newsis.com/view/NISX20261122_0003878019) — **뉴시스** · 11-22 11:52
-  - 한국교통안전공단(TS)은 지난 20일 '2026년 교통부문 목표관리제 설명회 및 역량강화 워크숍'을 개최했다고 22일 밝혔다. 이번 행사는 온실가스 감축 우수 사례를 공유하고 제도 이해와 실무 역량…
-- [군산시, 온실가스 감축 '사후관리⤍사전예방'… 탄소중립 정책 전환](http://www.jeonmin.co.kr/news/articleView.html?idxno=450901) — **전민일보** · 11-22 11:06
-  - 이에 군산시는 '군산시 탄소중립·녹색성장 기본계획(2025\~2034)'에 따라 2030년까지 2018년 대비 온실가스 40.5% 감축을 목표로 8개 부문 41개 이행사업을 추진 중이다. 특히, 지난…
-- [IEA "에너지 안보 넘어 기후 목표 우선해야"](https://www.todayenergy.kr/news/articleView.html?idxno=305888) — **투데이에너지** · 11-22 10:58
-  - 전환' 목표가 하나로 수렴하고 있다고 분석했다. 특히 태양광이 재생에너지 사상 처음으로 전체 에너지... 인해 온실가스 감축 효과가 상쇄되는 만큼, 탄소 감축을 별도의 최우선 정책 순위로 두어야 한…
-- [따릉이에서 안탈리아까지…자전거, 기후위기 해법을 묻다 \[COP31 현장\]](https://www.news1.kr/economy/env-policy/6361765) — **뉴스1** · 11-22 10:40
-  - 보행·자전거·건강 증진을 위한 국제 협력체 PATH가 1월까지 제출된 새 국가온실가스감축목표(NDC)를 분석한 결과, 133개국 중 66개국이 걷기나 자전거를 기후 해법으로 명시했다. 다만 명시적인…
-- [교토의정서 데자뷔… 기후협상, 후퇴냐 진화냐 \[페트로-일렉트로\]](https://www.sedaily.com/article/20117303?ref=naver) — **서울경제** · 11-22 10:12
-  - 우리가 NDC라고 부르는, 국가별 온실가스 감축 목표의 도입 배경입니다. 이번 회의도 마찬가지입니다. 에너지 안보 강화와 경제 성장은 어느 나라도 양보할 수 없는 의제이죠. 지구 온난화라는 현실과…
-- [기후부 내년 예산 25.7조원 '역대 최대'…국회 심사서도 에너지대전환 ...](https://www.dailyt.co.kr/newsView/dlt202611220009) — **데일리환경** · 11-22 09:02 · 에너지 전환 / energy transition
-  - 이 같은 예산 확대는 지난달 기후에너지환경부가 국무회의에서 밝힌 '2035년 국가온실가스감축목표(NDC)'의 국제사회 공표, 유엔기후변화협약 당사국총회(COP31)에서의 탈석탄동맹 가입 공식화 등…
-- [지구 ‘얼음왕국’이 무너진다…더불어 인류 미래도 위험하다 \[기후 신...](https://www.ekn.kr/web/view.php?key=20261120020121997) — **에너지경제신문** · 11-22 06:30
-  - 파리협정 1.5℃ 목표 달성을 위한 연간 온실가스 6% 이상 감축도 중요한 과제다. 강찬수 기후환경 전문기자 kcs25@ekn.kr 빙권의 과거와 현재 모습, 전망을 목격한 세계 전문가 “지구 한계…
-- [친환경차 보급 2배 늘린 여수시…온실가스 2600톤 감축 효과 분석](https://www.betanews.net/article/view/beta202611210011) — **베타뉴스** · 11-21 14:06
-  - 여수시가 올해 친환경자동차 보급 물량을 전년 대비 2배 이상 확대하면서 수송부문 온실가스 감축 효과가... 시는 수송부문 탄소 감축정책을 지속하는 한편, 2050년 탄소중립 목표와 제33차 유엔기후…
-- [기후부, 국제에너지기구(IEA) ′세계에너지전망 2026′ 발표](https://news.google.com/rss/articles/CBMifEFVX3lxTFBMcE93LXMxWGNhX0F1UzdqeTl4enZCUWx2aWNhUC1ZbjZmbG5zSkkwREF4VHRqa1M0bGJ0akt5aU5YYW9WS2JTY1dXYTc1VWZ0aHVXakxGWGl0YUx4TDBFWV9hbG01VTQycUFYVzdsVDhGQlpzRGpkY0xTTlg?oc=5) — **코리아 이슈저널** · 11-20 13:55
-
-### 해외 · 12건
-
-- [Joint Statement of the Organisation of African, Caribbean and Pacific States and the European Union and its Member States in view of the 31st Conference of the Parties (COP31) of the United Nations Framework Convention on Climate Change (UNFCCC)](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMjBtZENnSjBHdGF3TmNVWUVoSm1GamhyV0xiUVhmUUE0SVFmekdVOXNOb2c0NFBTR1RxbFdWN3pxNk9lTjlLakVOcHFWUU9yQXRYWXZ4cmhocDRIUkZZMEVTWE5VRXphTzRjeWlHbEtlRncyVVdfWWRncnZiMzdOVzVXTzd1STZiZXA4TG84dzhoUlBDVlBlb1hOYVFzRDRhbVhTQWlmaGRyVHZmbEYwY05VY05VZllpTVlrTG5FT185dGRDT0t3cl91ejdIYTdfc1QtVHhkYw?oc=5) — **European External Action Service (EEAS)** · 11-22 06:17
-- [COP31: Developing Countries Reject New Climate Rules, Demand Fairness in Paris Agreement Implementation](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaC05aURPNTU4MUdrVEhtNkl6NVl3ZDVOaTFqa1BrUXRYRTFpQ2labnVYeW5Za2p2UkFjNUZ6Uk90WU9RRDhHT3ctRzhPS0I1SlN3ZHFkQnlkdnBGRFJVdW5wNHRBUmVuWFhaYk9qZnRVZHhVaXMxVEFaTWFiVEluWnhXY2J3SnQ0d2Qxd3B5a3k4aDVqaTIxNXhTN3RqS3dvRHNvWUhxSFR3Z3lOOVBVa0ZUdmc5bzVkWklSQndndUZBb0VQbHZuUUJoczEteTZjenhGV2VR?oc=5) — **Per Second News** · 11-21 21:02
-- [Indian environmental group calls for Citizen-Determined Contributions alongside NDCs at COP31](https://news.google.com/rss/articles/CBMizwFBVV95cUxQeTEtN1RPdk1wWWJIZ0pfNlVyZURnSWNHZGZNRUJWY0lzZXFrYURCQ1FiS1ZMSVB6c05jZTFxeVJDYXdVYXN0M2JYY0p5c1p6aVJSNzI0NjR0X2pYS0ZlcXFRaC1na1lSTUYycFpaNHhUOEs3cEJNTzJicFFmd2dPTHRIY3M3ME9FT3JDd240NF94UnY4Vmt0XzhVQ3dNUi0wWklYS0p5c2pVRFdsRUxEYlhpeGo4dFJXcXZ3T2hTcUQ1Y1hfSThXYVJlUGgyTTjSAdMBQVVfeXFMUFgwVWFIdHZETTBCckJJMU90QUZNRU9LejVKbUhaM05aNnRaZVhNVWxUem1JV1Q2Z3ExQ01ob3duNl95OVlVNGJOZ2xXV3dSQUFXNENkSnQtMWFIX0o1Rkg3TEw4ZW9aSVZ2Y25CbnB6dEJtWU1lU2w5MEYtbGdUS3AtWS15WUNnZTBTR2VLV2tMZE1NNWU5MWRWdW9RZmtRU3JUUDRLVm93MlFnRUU2Zm4wUXR5azBGUFJ2M2FJY1F2M1NjZlhhNnNtUERXdXp5QUVNRQ?oc=5) — **The Tribune** · 11-21 20:59
-- [Indonesia urges balanced climate action, stronger financial support](https://news.google.com/rss/articles/CBMipwFBVV95cUxObm9IRC1VeVJUYk5DZEY0T2VSU2JqcloyYkhhc29BbHAtU3E4MWFuWWNvRURwYTJMazVEaWFmUWFrZ2k3MWdEd3JNSi05ZUlUTG1uRXNGU3RxYTZKN2g4Vk95UDhXT1FHU3V0OC12WWFRdW81VHpoeUVFZmNJNklNY2tUTDQ2RjFkbTdJOE1lclVmR3l5TkV0bVU1eWp6eF96VlRraWxZY9IBrAFBVV95cUxPRmQ3MlU2aWVReDFIaEg5ZlNaS1J2Z3hHbDdaeWVpQ2duUzUwMmlibHE0Wkk1alBOVXBEZG5GMWtXWlVvUXk0ZkxRdjBtTjI5aEdQci05cmZfZnRPOHU2b3hLdEVIR2kwU0xhVGJLOHlfX0FwUVBIdGpoMkxpYTRQLUNoWkZvd3hidkJmM19pY1pId1VOM1VmbUJBQkxNc3RqRzVWWDkzdXpuZEhV?oc=5) — **ANTARA News** · 11-21 18:28
-- [Kuwait reaffirms climate commitments at COP31](https://news.google.com/rss/articles/CBMilgFBVV95cUxNZW4wUVZ2cDF4V2lYdnFqQlZnQnFiUnNjWmw2T0Raa011TjRob3RoRWo5Qi1paVRxSWVDcVljQWJrWml0YkRKOHV4SlN1Z0M2aUhsUHBqejY3S3BKVFJMMVA0SHY3dk5sYWZuRnctZEx4U1NNWXNicVMyTlJaVWFVNUlfbUh0T2cwamp0UF90UXBiemZ2OHfSAZoBQVVfeXFMTzBhYk9XbnMyanA2ekNfUEw1SFJGQUJHTkR0eF9nRGVSTkc2Q0F4Vm1nNzFMa2tvTnc2ZXVqakl6OFAzTVJYaHgzRjI0NzB0TjBlSklWcXUwakpWRGNodXVKcFRCRzFjZXlBZXdmeG01a2ppM2g2bl85MHN5S2xVek9qbm1SZlJMN2dMX1BMX3NZN3YwWW5aYmxhdw?oc=5) — **Kuwait Times** · 11-21 18:25
-- [African Ministers Reject Draft Outcome, Demand Action on Climate Finance as COP31 Talks Enter Final Hours](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNW9OYVJBNXFtNHdMZEJNeDMtZHFPVmJ2ZFVMX19SaXlQLXR1MU1MVlZGY1N1TXJSY1V6ak1ULV8yeVU1M3RLTW9HRmN5ZW5aN2FRN0JrbzEtZmdIbzVISmVoZDBoeV9Ubkloc0M3aFp3ZGZNRWNUZ042Y25zMFBuNGdSZzVvcndZcDR3VFpWZkNWZjdKYWhnTmxGMFdOTUlObklVek1ZazF3c1N1MHV0djY1Z3BaTlVkYk1kclk3X0w4c0FrVEdEVnF1YUNIN1NaWHk5ZmZ5YUwwRVZVYXc?oc=5) — **Africa Science News** · 11-21 17:28
-- [From Climate Justice to Climate PEACE: India's COP31 Vision and the HARIT Pathway of Citizen-Determined Contributions](https://news.google.com/rss/articles/CBMiogFBVV95cUxQY3RHQkRTaV81ZmJpXzJZM1lySWp1d3dQRjlpbExzZnFHM2xacVkxQUNsTHJpX3ZpamNzNzFDSmVoak1hYnNjMUVqUzlTU1BrZ0JRXy12aGF1enEzckh5YU94allrRmdUTENWRDBqb0U2UU9MSHNRSnJQa0xRdThMSFFLQzZKMFZHSldHVnE4anhaMkQyZWpRTmd1QVFwLW80T3c?oc=5) — **PressNote** · 11-21 13:44
-- [India calls for Equity, Climate Justice and Fulfilment of climate finance obligations at UN Climate Conference COP31](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaEV5MG9oYVpGRG5TQVJzRnoxUUFVRmlTQkpHSlNGLWtvWldUN3YtenRkQl80QjJqNEtrOXBZR3JqXzZjZmt3TXlrMm9fR1R6alk3WWtTVTVhMXV1ajJzYmlrZE5LNVprRkJaNnRuUXdZMTl6M01YMExqekR3ekxwZjNCMGlFQ1VzSlVKNVg3Z2NZTnlMdkNyYU9hMWxsMzV5QlE1b2dqR091Njd6cHdoNG1OX21hMU82RVVOQXQzSWpLcGt6NXZEd1V2TzVBbkpoa0tBeWJqUXk?oc=5) — **News On AIR** · 11-21 07:11
-- [COP31: NUPRC pledges timely delivery of Nigeria’s climate commitments](https://news.google.com/rss/articles/CBMitAFBVV95cUxPejJRbEhJcGtKLUZkeGxIbEdHdnZwOFpoc3RaOFFnenFuTlRoNzhiV0JuaFNGNUpydmdoY2Y4QXNBS21fV0ZfM2tsb2lTWnJIMUlDX05ZUFlxdU1NdkQwaFRqS0RzeWpNOFVRc1dvOF9tQVVfWU52a2M5SldSZW91MTc5LWR2c29BUzZpQWJweXBJSDh2UDNuOE5JeFQ2MGJvWkZqamxsb0hFOFo0RVVJcmJQeEs?oc=5) — **Galaxy Television** · 11-21 04:18
-- [Global Stock Take 2 at COP31: Battle over fairness, science and funds in climate reality check](https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX1Rmc0lrMllwajV5NFFEemY5R0lQd0x4alFkMkpGc2lkc29lNlpkaS1MNTVxV21kTmFIX29UbHJlVmRuM1ZPVkhTX3ZpUUwtbmh6aEdNRV8zcDBOZzVSTjZWWFpkQXNrUW8xVGp5TU1MRUFLUVFYLWphQjRVS0hVQ2Y2S2pDOXVMWGFzZUd6bXU5cnI2V0ptZEM3SHpSYXhmdW9kbGdfYXkwTm5lam1FQWZHRjB4Tl9Fa3RWNmRuRjRIVlpmVzFsaTd6STQ4Tmx0elplNtIB4gFBVV95cUxONm9IbVZJU1B4QTdxR0pFdnRkQ0g1czhER0NwNFd0ZVJuV2g4VlB2b1JSNGY3Ni1hT0JBSU9nSjhhQUpzVEpYbnBobGpIX1k5UkRoeVZhY3J0dDRwR2xNSkRXeUU2ZVRWbWp5OE12TVhyVHV6SUQ1R25FaWdKNi1RLVpTcmpJNmtfQXdtU1FJRG96ZW8yRktXVU9CVndadkNZY2hOM0FxR0hHMXg0TkFITVAyWnVJUHJ3QW05S0hHU0VZWGtXb1JiZ2VJQVZrTkN6M25YYU83UDFTM0c1b0E1MXln?oc=5) — **Down To Earth** · 11-21 02:26
-- [We need more, not less, ODA to implement our climate ambitions](https://news.google.com/rss/articles/CBMimgFBVV95cUxNYUJrWElJOHk3Rml3WlNIaEJvRlc3cXBVWm8yNFhKSDBITlF5WjBwcG1SNEdURkFkeUgxbG9mT2RTalBCcFZFbk16ZW4tWHhQQXE1QnVCOXFPTUdDVDdoRmdIYnZiNHlHUzVfRFk2dWF0UmVRbVhONkJobFJWQVlwSUxpb256eTFUWDZ5cjl3R1hnVUhQN1d2NExn?oc=5) — **Devex** · 11-21 01:38
-- [Operationalizing Antalya’s climate pledges for Asean](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNmNGWDZLZ0lSaHlkOE11OUFkbVZoVWJVU3g4bmsxMThXU3RJN0FVVmQ0Ym9UclVzS2NOSktGeXo1Y0dpSXQ5Y3c1dnpCTWpUelhPZTlZdlp5dV9sLXc3bi1DSTdhVG5KZTU4b0prdWtHcmxmMFV3RXJMejRWRTI4SEc4MVlPNXZIb25Rc3RTcVZtejAyQWEzUmdBdF9WNE42NUJpdlp0UmZvOUgtU2F6QnFRQkpBVVVXQUsxWHAzVVBwUdIBxwFBVV95cUxQU0o2Vi1aNm5JeTRsR3VHaDhHVFZtMzh0MEd1Qlp0SUVlX0RmU3RfMXZKU0xMYzN1aFB2QTEzUzNUVDNMU2l6MGlobW53T2RFUUV5ZVNDQzhwNDk1Umo3RWpucmNldTMxM1JNdFE4aWVfdjl3OXJXTHM5c0tVbGk3VTQxT2k4X255eXN4V3BPTTFyYmYzclRDVGNYbHZrWmRHa1QzQVk5WTlpcF9zelhFcXlqUzVVcVFkWkxZdDBlb3gyS1E1RDRB?oc=5) — **The Manila Times** · 11-21 01:01
-
----
-
-## CBAM
+- [유엔기후총회 17년 만에 합의 불발…역대 최장 회의 끝 '빈손'](http://www.joseilbo.com/news/news_read.php?uid=580192&class=42&grp=) — **조세일보** · 11-23 09:18
+  - 근본적인 온실가스 감축 정책으로부터 주의를 분산시킬 수 있다는 비판을 받고 있다. 기후 싱크탱크 E3G의... 최근 발표된 유엔 보고서에 따르면 지구 온난화를 산업화 이전 대비 1.5°C로 제한하겠…
+- [빈손으로 종료된 COP31…합의 결렬, 기후위기 대응 '시계제로'](https://www.womentimes.co.kr/news/articleView.html?idxno=108138) — **우먼타임스** · 11-23 09:04
+  - 특히 의장단이 제시한 초안에서조차 '산업화 이전 대비 지구 평균기온 상승폭 1.5도 제한' 목표 달성이 사실상 어렵다는 것을 처음 공식 인정했다. 이에 따라 당장 구체적인 온실가스 감축 이행 경로를…
+- [COP31, 화석연료 감축 합의 끝내 불발...공동 선언 채택 없이 폐막](https://www.newspim.com/news/view/20261123000160) — **뉴스핌** · 11-23 08:59
+  - 하지만 온실가스 감축 속도는 여전히 목표에 미치지 못하고 있다. 유엔은 지구 온난화가 앞으로 수년 안에 1.5도 기준을 넘어설 가능성이 있다고 경고해 왔다. 안토니우 구테흐스 유엔 사무총장은 이번…
+- [화석연료 감축 합의 끝내 무산…COP31, 17년 만의 결렬\[과학을읽다\]](https://view.asiae.co.kr/article/2026112308501903552) — **아시아경제** · 11-23 08:50
+  - 조 전 원장은 "2015년 파리협정 이전에는 지구 평균기온이 산업화 이전보다 4도 이상 오를 수 있다는 전망도 있었지만, 현재 각국이 약속한 온실가스 감축 목표를 모두 지키면 상승폭을 약 2.6도로…
+- [여수시 "올해 친환경차 1,244대 보급…온실가스 2,600tCO₂eq 감축 효과"](http://www.breaknews.com/1252915) — **브레이크뉴스** · 11-23 08:38
+  - 앞서 지난 7일에는 제31차 유엔기후변화협약 당사국총회(COP31)가 열린 튀르키예 안탈리아를 방문해 현지 국제포럼인 '국가 온실가스 감축목표(NDC) 이행을 위한 지역...
+- [기후변화...11월 23일 경기기후동행퀴즈 정답](https://www.wikitree.co.kr/articles/1176813) — **위키트리** · 11-23 08:28
+  - 이를 국가 온실가스 감축목표(NDC)라고 부른다.우리나라도 2030년까지 온실가스 배출량을 2018년 대비 40% 줄이겠다는 목표를 내놓았다. 2050년 탄소중립 목표를 법으로 정한 탄소중립기본법도…
+- [동티모르 산불 연기에 휴교… 기후위기에 영유아 배움도 멈췄다](https://www.ibabynews.com/news/articleView.html?idxno=157099) — **베이비뉴스** · 11-23 07:52
+  - 해수면 상승 위협에 직면한 태평양 마셜제도는 2025년 유엔에 제출한 국가 온실가스 감축 목표(NDC)에 영유아 발달의 중요성을 명시하고 이를 정부 정책과 사업 전반에 통합하겠다고 했다. 영유아교육…
+- [유엔기후총회 합의 무산...산유국·EU 화석연료 대립](http://www.inews24.com/view/2029021) — **아이뉴스24** · 11-23 07:18
+  - 산유국들은 이산화탄소 10억t을 포집·활용·저장하는 목표를 요구했다. 탄소 포집은 공장이나 발전소에서... 현재 각국이 내놓은 온실가스 감축 계획만으로는 기온 상승을 1.5도 이내로 억제하기 어려운…
+- [\[1년전 오늘\] 李 대통령, G20 정상회의서 기후위기 대응 국제협력 강조](https://www.jeonmae.co.kr/news/articleView.html?idxno=1314130) — **전국매일신문** · 11-23 06:00
+  - 특히 최근 한국 정부가 국가온실가스 감축목표(NDC)를 확정한 사실을 소개하며 국제사회의 책임 있는 구성원으로서 기후변화 대응에 적극 동참하겠다는 의지를 피력했다. 에너지 전환과 관련해서는 안정적인…
+- [유엔 기후총회 합의 결렬…화석연료 퇴출 놓고 EU·사우디 충돌](https://www.news1.kr/world/international-organization/6362180) — **뉴스1** · 11-23 05:01
+  - 과학자들은 현재 각국의 온실가스 감축 목표가 충분하지 않아 앞으로 수년 안에 지구 평균기온 상승폭이 1.5도를 넘어설 것으로 예상하고 있다. 영국의 케이트 휴스 기후협상 대표는 "최종 결정문의 내용…
+- [25년도 온실가스 감축목표.국가기본계획 이행점검 결과](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVDVoMkRXNmx4R3BEMVhFNm9KVmg2X1ZYLU1Od3l4X1JzLUNmcmMwM0djODVmTmJIeG5SNXMwV21OdDV2cmQwX3IwNXFRNWFOSlpjU2UzZzVxZ21Bb3NUSERQVk1zZG9maFFkM1ZPVzFEMThvanB3SzFrdXdtdHRyVHVFV2pBajVRQ2VCZ2t5SDhjaTJ6LXMwN0J4dTNnaU9wV09xMDRSYmFvUmp4ODU5WHRwZ0JIZVFSUkVHaDhyX25YSjFvaHpDS0FPWGFHc2t3ek1Zd3Zn?oc=5) — **국가기후위기대응위원회** · 11-23 03:31
+- [교통안전공단, '교통부문 온실가스 목표관리제 설명회·역량 강화 워크...](https://www.cstimes.com/news/articleView.html?idxno=728881) — **컨슈머타임스** · 11-22 22:50
+  - 세부 교육 과정은 △교통부문 온실가스 목표관리제도의 이해 △온실가스 감축방안 및 활용 △온실가스 검증 및 품질관리 △국가온실가스종합관리시스템(NGMS) 작성방법 △목표관리제 유연성제도 등으로 구성됐…
 
 ### 해외 · 3건
 
-- [Carbon Costs from 2026: An EU CBAM China Compliance Playbook for Buyers and Suppliers](https://news.google.com/rss/articles/CBMilwFBVV95cUxQd1BKcTNBcjRGM3duUWFyaTdZdE5KQmJsV0Zqb3dwbVNvS0VQM1lkZnNXN08xbDhFX3FBeWRoNzM1S3owVnhFYkdBYUR5cXVSSjRnNl94NWtlOTRxclVwNm1WcG04Q2RwYmpTWGNrSTNGUy1LY0pRRDk0MFYzYks3TnNDQ25tWVp3LXdYSmtoZDc2UzlURVlr?oc=5) — **Global Advisory Experts** · 11-22 10:07
-- [EU steel imports surged 65% ahead of CBAM launch, then fell 27%](https://news.google.com/rss/articles/CBMisgFBVV95cUxOckxoajJXazhzZ0Njc0h5S2pwSFpyNXJkTjk1QjhlZjZaWU9MLVktMThaV3JZM0VVdGswb1B1RkVmZnBpVDEtTjdWRUJncXpvLUJPV3c4SzVqSXRIV0hFaDdNMThueGtkSS16eERYSG52UGJJcHJZSU5qTTI4emxraW0wN3JuZUFueTJZUVdoMG13eW15UHF5a3RwaTJJaHQ2V3I3UUpqYUhpSlRGVG1pRFRB0gHDAUFVX3lxTE1kYkEtUFkySTF2Zm01RG1WX0F6VUJ2WkJpNE9CNkFVQ1lXcXJKaGs1OWk0YVhIakh1bTBVTUxFQVJEOENBWnpCM3Q4QmNGQlZ1NS1wX3lmV1JZT2tqZWUwdlY3c2o4c25QdjFUMGljS0VITTFocUhCcjlRdGtWVGw4czdFUFpOQVpZX3ZqVXFjdU9CV3FsTnliWHRuZXdmYTZXbW5IRklFWldwekJCMDhhYlYteHpDSUp2NXNzalhtelY0aw?oc=5) — **Металлургпром** · 11-22 06:41
-- [Free allocation alignment underpins UK-EU mutual CBAM accord: UK government](https://news.google.com/rss/articles/CBMingFBVV95cUxPcW1pa29kb2tvdTdaNE9raWJVQm9NRUpCcG1UZDhCdjVsbWFPeGo2dmc1MmNaYkpaMEVPUmttazh4OXhGQWM2b3JZRVdvbUZnMnN0emc5d3dRZFF4SndpQ2JiY1N0SU10NXU3eThCVDRsVnBubHhib2N3YTc1ejRWN0pPTThZTEs0QVdFa1dzVVpSUDJpV2o4cV90NGtPQQ?oc=5) — **EUROMETAL** · 11-21 19:58
+- [Tajikistan targets 15% cut in greenhouse gas emissions](https://news.google.com/rss/articles/CBMikAFBVV95cUxNZHlwMFEweGpxLTg5Zk5LdHFmeXV4RzlHLVg1R1FueW5ZQW53YjNXRmd2UllWek5pam5UdlBwaUJOSVBzVUZ0NzhXVTdZdkVvcWlmUkk2QXZXbHM3UTlhRWszMEI3cTlUVUlPU2s3WU1CLWRTZnNYVUl3T2tCd2VIQUVlQVZHdFBtSWlFNW5MRXjSAZABQVVfeXFMTWR5cDBRMHhqcS04OWZOS3RxZnl1eEc5Ry1YNUdRbnluWUFud2IzV0ZndlJZVnpOaWpuVHZQcGlCTklQc1VGdDc4V1U3WXZFb3FpZlJJNkF2V2xzN1E5YUVrMzBCN3E5VFVJT1NrN1lNQi1kU2ZzWFVJd09rQndlSEFFZUFWR3RQbUlpRTVuTEV4?oc=5) — **Qazinform** · 11-23 07:41
+- [Kazakhstan unveils priority climate technologies at COP31](https://news.google.com/rss/articles/CBMilgFBVV95cUxNZGwtWHRHc2NFb3pUZkVSNjJlVjVIbVBWSVlaQTNhU2hlS1NWdVIxaEV2NTkxWVJmVlpTSHN5cjZtZ0dKTFZ5T0QyU0dJcDAxMFpjZ3pYaTI1SHd2Uk9LZ3RTSmx6bmRLLVJfbHFxQjhiUldmXzNpdlA4dEJmNEZYa3J3SGl5SjdQbkVKSFhHZ2MzZWV2eFHSAZYBQVVfeXFMTWRsLVh0R3NjRW96VGZFUjYyZVY1SG1QVklZWkEzYVNoZUtTVnVSMWhFdjU5MVlSZlZaU0hzeXI2bWdHSkxWeU9EMlNHSXAwMTBaY2d6WGkyNUh3dlJPS2d0U0psem5kSy1SX2xxcUI4YlJXZl8zaXZQOHRCZjRGWGtyd0hpeUo3UG5FSkhYR2djM2VldnhR?oc=5) — **Qazinform** · 11-22 22:32
+- [NDC chair: Obi is Nigeria’s only hope to rebuild the country](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMjdlajZwNTB3cHJTaVN4Zzk4VHRDb25kUDFJNE5rTlRycGd6TF9MZVVSeEpKTnItLUxreVZqbmtKTWtXZkEyd2dqaXJaYzhjbXMzUUFoaEZnakJFMFB3VWZidFJmdGJYWHBKbDVGMG1za05ZdWdyc2c3NmNoYkJwbkMtVE9QZHNnUWxv?oc=5) — **TheCable** · 11-22 19:30
 
 ---
 
 ## 자발적 탄소시장 / VCM
 
-### 국내 · 2건
+### 해외 · 6건
 
-- [서스캐처원 메도우레이크, 노스 스타가 연방 정부 탄소 크레딧 연간 구매 적격 공급업체로 선정](https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUUVWS1ZRc0ZUZVE0Y0Ntc2tOTTBHSVBvTEJrYW9QZEIwRkp6dkZNWXZETWp0bldTTW4yUGhEUzlnUEpaOXBIUVZBSkJYQXY2LXJKNGRDWEVHaHJNaGRuR3NOX0l2TkZjWm92NUJfVk5GRnc?oc=5) — **스페셜타임스** · 11-22 11:59
-- ["더이상 해변의 불청객으로 살기 싫다"···제설제·비료·화장품으로 ...](https://www.khan.co.kr/article/202611210600005) — **경향신문** · 11-21 06:00
-  - 누적 5만6000t 이상의 자발적 탄소크레딧도 확보했으며, 2026년에는 탄소중립 콘서트 ‘서스테이너블웨이브 페스티벌’에 탄소크레딧 414t을 공급했다. 폐자원 활용 사업에서 나온 감축 실적이 다른…
-
-### 해외 · 10건
-
-- ['Game changing' 30,000-hectare carbon forestry project takes off on Tiwi Islands](https://news.google.com/rss/articles/CBMiswFBVV95cUxNdGhBZmY5OXdsSjBHNzFkVHZHa3d6UjBGcUNqVHVxcEJ5MkxYZC1ja0tuTUhkQjNxYlExcjVMVklPNkxtTG9fampJeENVLTdDUXdlUjJsRWUwbzRSMlgzM1ZOLUlsc0Jqam1SazNKMnVZMTJpZkVCV29ISjhhOXFERU4weUJFNUxHbnE2NndMckxJd0EzMXlSMWh1Zmg1bFRyVzVoTVVwdHd4ZGc5V1h4djE1bw?oc=5) — **ABC News & Headlines – Australian Broadcasting Corporation** · 11-22 10:28
-- [Ghana becomes 1st African country, 3rd globally, to earn carbon credits, set to raise \$43m from sales](https://news.google.com/rss/articles/CBMi6gFBVV95cUxPS3pMM1lHWDNoYWxaWFo3bFYtaVo2NFJOQzBnemVwVk1ySTI4WDdPZmJxYmI2ZDVfeTlicjRBbTQ1SzlyWG8yem85R0t6dWlmREtlRlBfSXZjYnltMGp0UVJKX3R2VVZrT3ZkcE8xMzZqcjVpMUQybFotUkRiTkFoM0VRRmJOekoxU3hrUFhNRlZUZHdTdnh4VzRZSFdrMlRFbHdoUC1iajJua0xBbHhxcFd4ZDBCaUFmNUtoWDVpbDZpNC1aUmNJcnNYRTg4N1l3VkZWamZOMV9DQTRpMzhGajFOa2NCZFJnNWc?oc=5) — **Pulse Ghana** · 11-22 06:01
-- ['I'm not the same person'. How one farmer went from £10,000 tups to carbon credits](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVDVhdGtqNTg3ckx0TjhYWFpUeEZ3N3pKamM3WVNCMW9Ba0Y0UTNhbm0yUklPemZ2czd6N0VFam9DMjlXOEdnSWVYbHpra1NZdmxreGdHX2xFamx1aUR6a3BCLXhnTnpaNWFjYUlDLThwX1p4TllHdFZNVFlocVFpdHo3d2w0QWlWLUIxbVNCQjZ4Um4zMEc3WlA0eGVhQ1dVVjYzaG00SWxwV0k?oc=5) — **The Herald** · 11-21 21:52
-- [Indonesia advances forest carbon program in nine provinces](https://news.google.com/rss/articles/CBMiogFBVV95cUxNaVJwY2hpenl0ZG0zV0k5M3VZZVhDMXBCQ1gxem8yeVpkOXItZDlKbEJsd3RrMW9MVEV4TkRBemhDdDl2UGxuc3EtcDFyVVk5TGdTNmoxOHlTVFJKS2tsbXRMTUpHTk5wbTh4WUc4OVFnc3N2eWZqNHY2N1JmV2VJVXo1ZDU1YnRyVXpIb0hESjRodkR6QlFiMDlCS2ZlTE1EenfSAaIBQVVfeXFMTWlScGNoaXp5dGRtM1dJOTN1WWVYQzFwQkNYMXpvMnlaZDlyLWQ5SmxCbHd0azFvTFRFeE5EQXpoQ3Q5dlBsbnNxLXAxclVZOUxnUzZqMTh5U1RSSktrbG10TE1KR05OcG04eFlHODlRZ3NzdnlmajR2NjdSZldlSVV6NWQ1NWJ0clV6SG9IREo0aHZEekJRYjA5QktmZUxNRHp3?oc=5) — **ANTARA News** · 11-21 20:16
-- [Carney to Visit Calgary on Friday to Announce Industrial Carbon Pricing Deal](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRTlxTHJVT0J6WHNOY0s0a0oyLThfV1V2NFFlZU43cUpIVGMzY3JRbHdQVndXZ1dXNzVUUXljWHZDalZnbkRxeXZZY0JYSENqNGVzTzRLMnNKUnF5dFQxOU5wSXJLMHBYaTZYeldhaXJ6dFJ5VE1uc3p3VGdWcFprcmFXTENmT3Q1UmFwbk5WN2NEVk83X3pPTWh6Wl9NRUxmSlBYejlKdTdBdw?oc=5) — **EnergyNow** · 11-21 07:21
-- [Morocco strikes 10-year carbon credit deal with Norway to fund renewable energy through 2036](https://news.google.com/rss/articles/CBMixwFBVV95cUxPandHWlI0X01fUFV3RHowb0xtOFZrUDZKZTVKZWJ0aW1qVmlXcld2MXN6MlpXTEpCcXhld2Y5OEJFN2d1Slg1b3laNm5TcDJ0aHlRajB4aXYtN29zQW5wc3JjSVFhZ3NacnJjYTVmdlhTei05V3doVE5ONDhrcjJaSVA1NjZpVW1pTHRrMFVCYTdQRGdqMGtLMGM1czZ1WHhzQzNlM2haWmxja3ZqQ0w4N0xrWHZkYWM0djYtUEl1QURHekxFWW1j?oc=5) — **HESPRESS English - Morocco News** · 11-21 05:33
-- [Uganda launches digital carbon register to track projects, credits](https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTBzaWtmbGhiUHhwaUQ1c3pBMWFvb240MXhCYndGODhmc2FXeVB0RmRVWXdSZXhSb0xZRzhhSm0zQnJlMUhaNlJ2SjBCNFB4TjA1U2pMQjBzZjJFTlZDT1ZxMDdBUWpwa2VQcWhQRkItYjQtT1JEdC1FR2xGS28welU1X2t0ekdQWUdWSGJ0Q1BFeWpBYUdwWDhQYTBYNXQ0SllZX2hiNA?oc=5) — **PML Daily** · 11-21 00:39
-- [Norway Signs Carbon Credit Deals With Indonesia and Morocco](https://news.google.com/rss/articles/CBMikwFBVV95cUxQWml0ZjJNM3NYSlkyYnhha0t6NUU3N1RNcHZzLW1KOGF3WlVUa1JIclVBZFZoamlNWW1CVjZ2LWpqTGhCSlJwajRRb2gtLWRqeVZWOHF1elRXYVdmajh3aTgtWDVoQWpZUWZ5VWV5VG5kV1U3VVdvN0Y3X0R1c1RoX00xZXhSb2NSMjJrV3VKM1IzTVU?oc=5) — **IndexBox** · 11-20 23:40
-- [Indonesia’s 138,000-hectare blue carbon projects target climate investment](https://news.google.com/rss/articles/CBMizwFBVV95cUxNUHZ2aWxBS21ONzF5eVFudmt0ZnhNbUppcFpIZUdwQjAxVlhPTTVJVXVBcS1OaGpKVlpGaHZjTjUteHExWnkzX2lKSk1PM0cxWUNwLWZ0dzFTWUZnRU9YUHk0TFl4bzNnZUpTSjdrYnk1ckhYZWhUNjY3RTZmNkNmOFUxMVpiakVUbW16b1owY0FTbnY1b0tyOGI4UjBzMDlhV1V3ZDFUWUNjN2hSbEYwNDJFNjZ5OGhXdnN4YzlQOWxVZFpSRW1BUVFrT01OSlE?oc=5) — **Indonesia Business Post** · 11-20 21:46
-- [INTERVIEW: Airlines may be unable to buy Corsia credits - IATA](https://news.google.com/rss/articles/CBMisAFBVV95cUxQWlRndUtYbmJ2T3FwN29vR1lmc3ZyT21yR3lkallyTk1tRDVzYXF1aDRvOTdRWjlGajZLbC15QjFrdkpVUWVmamdpN2toZTk5cVRnTGVZaTJYeDVpbEo4YTUtSmpRMlpzcVRET0JpMUtYdjg5X2JhQ0R2SVJyV2dwSi1BZEM5M1pKcG9GUUxtYTE3TlJlWGtrSTQ5OXdUek4tbUwtbkpjTzM3a2NpVU96Vg?oc=5) — **Quantum Commodity Intelligence** · 11-20 19:37
+- [What Makes a Carbon Credit Buyable?](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX1RubEZGMVJBNndLSHdRM1kwN0ZzWGRkODY4Z1BFQUFVdS13LVh2NEpPT0RKVm14Qjlibl8wWFYtY3hoYzlJYzI3dHhCb3I4YU5Bb1M0eHVWSkNLQ2J3bnJPN2JlVE8xRWo0OTQ1VlNLaWlkRElxUk9oTzlaMVM3M09BRkxQSG56?oc=5) — **Ecosystem Marketplace** · 11-23 06:59
+- [Datavault AI Targets Carbon Credit Revenue With Biochar Deal](https://news.google.com/rss/articles/CBMipAFBVV95cUxQRnlQZG40Wm1wY2RjMVVPQU9SUEQyVk9zZk82UVIydm9Qbl92MkJRR09McWIyX1phbFdWM3piVVVTeUVyUHdzWjktX18wYmlzb2UzamNzTEVJN1B2WFlXR25oUWFqYkktUlpjVEtZY2k0YmFVSU12U1hiY0VoODRfNVktRzJMQjZFanB3NzlmYXJWMkZoRWt5WXlKc1NWUUZXZktDZg?oc=5) — **MyChesCo** · 11-23 06:22
+- [‘Gamble’: NSW attacks Bowen on carbon credits](https://news.google.com/rss/articles/CBMihwJBVV95cUxNSWhobWpoQjExYXJUQ09lbFhJUlVaVXlPbjdKQUNEelBwMkdlVUpCUVZESFlIcnplQmtqaXdOSlJ3c3oxMGVaQ3k3TG9rVWVYNG5KazRyM1pQbXNPZGFoOV9EUVZOdTNNVVhvTGNXV29WVVVTbUttTUhBV1RkMG9VenJsUDlKb3JkNW96RTFVTFBZZDQyZ0w0U08zNmNhOWNOWkRTTkxTNVNMeURtOXlLdGN5V3VYZXotQVdxVE90OXEtcXpKNVUzdnBpaFFjRmtOX2VsX0UyYzBWU1NkdHAyZ2lhbFFMZ1JERHF5LU5HQm4zX3dtVW82TVhZaUFNby1aWlNPR1NyOA?oc=5) — **The Daily Telegraph** · 11-23 04:25
+- [Datavault Partners With Biochar Now on Carbon Credits](https://news.google.com/rss/articles/CBMikAFBVV95cUxQbVFGT0dxc2FVVzVwRnZzZ3dWQWJZMklEWVlrM055SHNMQ21WTEQ1ZGpSMEk5RjQyRW5mbDUyUExSdlJIazFPcGFZM0kyZ18yNUVhZ1ROLWMxVTNrQmUxYkxvVVV2ODE4VkNkOVg0c0FRQm40eDRnSnlvaUpPdmhKTTRLNU5ldDQ5aXZ4cEh0TmE?oc=5) — **Wisevoter** · 11-23 02:30
+- [Indonesia taps Japans demand for 100 million tons of carbon credits](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWldwZ3lDVWxLOEFPVGFGSDdfcG5GTmxnRU82STU2SHRVT0RlTGtndlg0NGFuY1UxTGpncU5jUXAxWEw5YmhNdkdhWm5JQ1dzSUdSWXJ4ZlowVFItRVNKYXN5eURoOF9lNTI2eVBmazA0bFJnLW9oWklsd3RNMGVvTEl1X1dZTERmY0tTeG1jZXNRbVhxbWhSdDJTd3RLUVVxeDNFQmUxQ2rSAa4BQVVfeXFMT3BTcWhiOGd0Y016bmc4ZEZraTRIY09UV002SHVpVFkxNV92R0FwVGVzYXlYeDZOaGtWT3N0a2xIVFhHTGgwVzJSWHZsSmhlTWFxYWV5dnhlSDg5UTR0MDdfelZySW1PQTNMVm0wdlo5dnQzb01MV0tvd1ZzWjA0cmlNZm1VNW80Zkx1b2NpNHpsZTFId3lHcWhpZ3cwMkhCZzg2dlFra0t1ZVdPYVhB?oc=5) — **ANTARA News** · 11-22 18:01
+- [ICA discusses Carbon Credit benefits for Farmers Thru’ Co-ops](https://news.google.com/rss/articles/CBMitgFBVV95cUxNcy1VX3VLc0hlUXcySVowcUNOR0JVUXp4RDdrRDYwdTRXVnhxMlc0TnVTY1NiU0JUclg4UENsSDV1a21iUU9STjJtODhLRkxZVTMzUWYxOXlDdzZSNE9fZmRzT3QzbzhISTFjb0h5Wk4yTEhpRlBrT0NRQmlnWTdZNmE0ZDNaaF9mQUhPaDlSaUZzMTl2WUtjZmg4Smk2d1h2clU0WmNyT1lMa2VjSS1tWHpuaElKQQ?oc=5) — **Indian Cooperative** · 11-22 16:48
 
 ---
 
 ## AI 온실가스
 
-### 국내 · 8건
+### 국내 · 6건
 
-- [AI 칩 지각변동·EU 규제 쇼크···연말 공급망 ‘초비상’](https://news.google.com/rss/articles/CBMid0FVX3lxTE9yckRWTGxGRkw3cjkwM050MnZ3YXJIUGtodTlYOHVqdFFsdERmc1hXd1Ffa2RyRGtFMUtfUmM2VWVtWldydmZ6eVRhWV9TeWgybnR4Q2hQd1NuaFRudFFUck02ZDhJM1A5aGZxdDhqTkFUX3RLYzlN0gF3QVVfeXFMT3JyRFZMbEZGTDdyOTAzTnQydndhckhQa2h1OVg4dWp0UWx0RGZzWFd3UV9rZHJEa0UxS19SYzZVZW1aV3J2Znp5VGFZX1N5aDJudHhDaFB3U25oVG50UVRyTTZkOEkzUDloZnF0OGpOQVRfdEtjOU0?oc=5) — **뉴스프리존** · 11-22 08:21
-- [AWS 이어 엔비디아·오픈AI까지 손잡나…SK, 신설법인 앞세워 GW급 AI 공...](https://www.financialpost.co.kr/news/articleView.html?idxno=302342) — **파이낸셜포스트** · 11-21 20:08
-  - SK그룹이 신설 법인을 앞세워 전국 15GW 규모의 초대형 AI 데이터센터 구축 구상에 본격 시동을 걸며... 또 기존 LNG 발전 기반 전력 공급 체계를 확장하는 과정에서 전력 조달 비용과 탄소배…
-- [울산 AI 데이터센터 찾은 李대통령… SK, 전국 15GW 청사진 속도](https://www.newscj.com/news/articleView.html?idxno=3450899) — **천지일보** · 11-21 17:02
-  - LNG 발전을 중심으로 전력을 공급할 경우 조달 비용과 탄소배출 문제도 함께 고려해야 한다. 수익성을 뒷받침할 글로벌 고객 확보도 중요하다. 데이터센터는 대규모 선투자가 필요한 만큼 실제 컴퓨팅 수…
-- [울산에 AI 데이터센터 짓는 SK그룹… 2035년 전국 15GW 확대 구상](https://www.dt.co.kr/article/12096405?ref=naver) — **www.dt.co.kr** · 11-21 14:43
-  - - 울산 AI 데이터센터 AWS와 100MW 건설 중…2 027년 첫 가동 목표 - 전력·빅테크 고객 확보 관건 이재명... 기존 LNG 발전 기반의 전력 공급 체계를 확장하는 과정에서는 전력 조달…
-- [SK, 2035년까지 AI 데이터센터 15GW 구축…울산서 전국으로 확장](https://biz.sbs.co.kr/article_hub/20000347972?division=NAVER) — **SBS Biz** · 11-21 14:37
-  - LNG 발전 확대에 따른 전력 조달 비용과 탄소배출 문제도 고려해야 합니다. 무엇보다 안정적인 수익을 뒷받침할 고객 확보가 중요합니다. 데이터센터 가동률을 유지하려면 글로벌 빅테크 기업과 장기적인…
-- [SK, 울산서 AI 데이터센터 15GW 구상 첫발…성패 가를 변수는](https://www.yna.co.kr/view/AKR20261121034900017?input=1195m) — **연합뉴스** · 11-21 14:24
-  - (AI) 데이터센터 건설 현장을 방문하면서 SK그룹이 추진하는 전국 15기가와트(GW) 규모의 초대형 AI... 기존 LNG 발전 기반의 전력 공급 체계를 확장하는 과정에서는 전력 조달 비용과 탄소…
-- [넷스카우트, AI 전력난 대응…에너지 효율 높여 운영비 절감](http://www.hansbiz.co.kr/news/articleView.html?idxno=885766) — **한스경제** · 11-21 14:00
-  - 기반 온실가스 배출 감축 목표를 달성하기 위한 노력의 핵심 부분이다. 회사 측은 설계 단계부터 에너지 효율성을 반영해 고객이 인프라 현대화 과정에서 운영 비용을 줄이고 환경 영향을 낮추며 AI 수요…
-- [SAP, 지속가능성·제조 AI 통합으로 기업 경영 혁신 지원](https://news.google.com/rss/articles/CBMiREFVX3lxTFBYcUZkYm92aW1tejVqSHdSM3ZHaEVMNVJlcl9GR29CaGVZZl9kV19mdTF4R2dWR2lHOHIxOW4wb05SZkcz?oc=5) — **산업일보** · 11-20 14:20
+- [IEA "데이터센터 탄소배출 2030년까지 70% 증가"](http://www.hansbiz.co.kr/news/articleView.html?idxno=885996) — **한스경제** · 11-23 09:28
+  - 따라서 데이터센터 시설 자체에서 직접 배출하는 온실가스와는 구분된다. IEA는 "AI 기술이 에너지 효율 개선과 온실가스 감축에도 활용될 수 있지만, 데이터센터 전력 수요 증가에 대응하기 위해서는…
+- [【데일리 ESG 정책 브리핑】대기업 내부거래 841조원·AI 데이터센터 50...](https://www.impacton.net/news/articleView.html?idxno=30766) — **임팩트온** · 11-23 09:02
+  - 비수도권 AI 데이터센터 50MW 이하 전력계통영향평가 면제 추진…특구에는 별도 특례... 추가적인 온실가스 감축이 필요하다고 평가했다. 한국에 대해서는 재생에너지 설비 100GW 확대 등을 포함한…
+- [AI가 기후에 재앙이 되어가고 있다](https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ3lHZDFicXRtbTg3ZGk3Q3hGZU5OT0xfLXJlS2xBMzN5YWprV1NsS1N4YTA5RFZjUTJrQjNxMlhnNGliekl5VTFXSnA5MTJkSkFNcnVuUFVMYkFtRmRRYUNGbmRRNmxQTk9xT2VUdkF0QVNkclJuNlBnVFktSTlzTzM3UmtOWk1DY0FwOXJDRGpuZw?oc=5) — **GeekNews** · 11-23 07:35
+- [AI 데이터센터 50MW까지 전력망 평가 면제…정부, 지방 AI 인프라 구축에 속도](https://news.google.com/rss/articles/CBMibEFVX3lxTE51WUZzRUw3dUJxbHN1VUpZeER1OFptV0NQeGo5bnh6RlFkQkE2aXl0NTlDSFpGd2Ixb2FYUlpDcnJUMzQ5eHFYVGg4RUh3bm55SndkVDhBckctdXZLVUt4Y1p5R3dmV29PTEJycQ?oc=5) — **https://www.climatepol.com/** · 11-22 23:08 · 전력망
+- [\[청년 창업가 심층 인터뷰\] “ESG는 쉽고 편리하게 해야 한다는 생각을 했습니다” AI 기반 ESG 플랫폼 ‘봄(BOM)’ 개발하는 이승헌 대표](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TeFhVTDI4am9CNU5oWGI4UFhITTdzYUJuVHNKZl9maGdnX0o3NFV5WEJLcFFQbzFrZGpockhvc21EcmxlMTRwdDFvYURRTkZ3a0N2cTNCbDRWeHA5Y3dRN1RRWU00UQ?oc=5) — **한국미디어뉴스** · 11-22 17:45
+- [\[초점\] AI 데이터센터 ‘전력망 문턱’ 낮춘다…비수도권 50MW 이하 계통평가 면제](https://www.energydaily.co.kr/news/articleView.html?idxno=205329) — **에너지데일리** · 11-22 15:16 · 전력망
+  - AI 데이터센터(AIDC) 구축의 주요 관문인 전력계통영향평가가 대폭 간소화된다. 비수도권 계약전력 50MW 이하... 성장과 탄소배출 관리의 접점을 넓힐 수 있다. 제도 시행 이후에는 평가·착공기…
 
 ---
 
 ## ESS
 
-### 국내 · 11건
+### 국내 · 10건
 
-- ['블루 쓰나미'에 '데이터센터 빨간불'…"ESS 그래도 간다" \[ESS 대전환 ②...](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611210021&t=NN) — **한국경제TV** · 11-21 21:00
-  - 미국에서 인공지능(AI) 데이터센터와 에너지저장장치(ESS)를 짓는 일이 갈수록 어려워지고 있다. 전력 수요는 폭증하는데 대응할 수 있는 설비 확충에 대한 주민 반발이 커지고 있어서다. 특히 지난…
-  - 관련 보도 1건: [한국경제TV](https://news.google.com/rss/articles/CBMid0FVX3lxTE1sS2l1TXVkZEk5YjlQaDBScVhocGFmTGVHRzQtTG9ucnpoWWpUY0RibjgydEVkeFFNOFJ3Ylo4LWRIRk96REo0SU5lYnNHQzkwdUVWaV84QXJISVNuZ1FybWt3YmhHUXcteVJwdjFWc0FmbWJiZXdB?oc=5)
-- [\[주末머니\]2027년, EV 아닌 ESS에 주목하라](https://view.asiae.co.kr/article/2026111916543407375) — **아시아경제** · 11-22 07:58
-  - 내년 2차전지 투자자는 전기차(EV)와 에너지저장장치(ESS) 두 축 중 어느 쪽을 택해야 할까. 증권가에서는 중국이 장악한 EV 부문보다 미국 에너지저장장치(ESS) 시장의 성장을 노려볼 만하다고…
-- [09화 ESS, 선두 셀 회사의 두 번째 주력](https://news.google.com/rss/articles/CBMiREFVX3lxTE9TbFc4T0Jzc0tXQWFJNWJwMU5uZzY4UjJwcF8xeXJSaUQxZDFaeEdwd2lLbHdQd2RUSHpHendLX2Z4R181?oc=5) — **브런치** · 11-22 07:02
-- [에코프로비엠도 LFP 양극재 경쟁 참전, 송호준 탈중국 ESS 수요 증가에 삼원계 '올인' 철회](https://www.businesspost.co.kr/BP?command=article_view&num=452416) — **비즈니스포스트** · 11-22 06:02
-  - 에코프로비엠이 국내 포스코퓨처엠, 엘앤에프 등 경쟁사에 비해 뒤늦게 LFP 양극재 시장에 뛰어든 것은 세계 에너지저장장치(ESS) 수요가 시장의 예상을 뛰어넘는 수준으로 빠르게 증가하고 있는 데다,…
-- [전력망 막혀 늦어졌던 '농촌 태양광'…ESS로 활로 뚫는다](https://www.newsis.com/view/NISX20261120_0003876545) — **뉴시스** · 11-22 06:00 · 전력망
-  - 전력망 부족으로 사업이 지연됐던 농촌 마을 태양광발전소가 에너지저장장치(ESS)를 활용해 전력망 연결 문제를 해결하는 방안을 추진한다. 충북 괴산과 경북 봉화, 경남 산청 등 3개 지역에 총 950…
-- [햇빛소득마을, 착공 전 '금융추천서'...포화 배전선로 ESS 지원](https://www.energy-news.co.kr/news/articleView.html?idxno=229965) — **에너지신문** · 11-21 23:04
-  - 배전선로에 여유가 없어 태양광발전소를 연결하기 어려운 곳에는 에너지저장장치(ESS) 설치를 지원하는 '커뮤니티솔라' 사업이 추진된다. 전남광주통합특별시는 지난 19일 나주 동신대학교 혁신융합캠퍼스에…
-- [전기차 둔화 맞선 LG에너지솔루션, 폴란드 배터리 거점 ESS 라인 전환 추진](https://www.g-enews.com/view.php?ud=2026112122495160902bd56fbc3c_1) — **글로벌이코노믹** · 11-21 23:02
-  - LG에너지솔루션이 폴란드 브로츠와프 생산 거점의 전기차용 파우치 라인 일부를 에너지저장장치(ESS)용으로 전환한다. 동아시아 산업·정책 전문매체 이스트아시아브리프는 11월 20일(현지시각) 유럽 완…
-- [JA ESS, EU 규제 준수 지원하기 위해 자체 배터리 여권 플랫폼 출시](https://news.google.com/rss/articles/CBMiYEFVX3lxTE04SUdPWFZ6N1Bvcjd1Z29Cbk53YWIxNUdUZ1hpOFJ3QUJJcXdSQzVZRFo4ZXR4djVKT1lrU3FWM2dKbXFDTmNMeFNaaG1yZEplaTdUWnowRHQwS095TE42Qw?oc=5) — **뉴시스** · 11-21 22:11
-- [EV 배터리 사용량 ‘30% 감소’…삼성SDI, 美 생산라인 ESS 전환 ‘분수령’](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CTlp3QWx1UkowSldLZXpBYTYzbGFxTkNCRk9RdWhoeEIyWUJrNGp4dDF0RW1pc0tnVkJEMHUyZ0U5dm5aeFl3Y2xIMEhKUHZSbXpGdVVsMDRYRXJJcGx5WnI2QQ?oc=5) — **쿠키뉴스** · 11-21 18:57
-- [배터리 3사 ‘동반 흑자’ 무너지나…ESS 훈풍에도 엇갈린 실적 전망](https://news.google.com/rss/articles/CBMiY0FVX3lxTE85MUhCb21hM2VRcTB4SDR4RlhNYzBkVTlPYjdnTmkxaUdKcmFWdzB4US1nRk9lV0hzY0ozQTEyUDlFX2w0cjNKSFh4ZjBJZ3FBMWp1ZERjMUZxeVpLeUJzaUpZUQ?oc=5) — **쿠키뉴스** · 11-21 18:05
+- [전력 병목이 키운 ESS·냉각설비…삼성·LG, K-배터리·전자 '신성장축'](https://www.financialpost.co.kr/news/articleView.html?idxno=302375) — **파이낸셜포스트** · 11-23 07:36
+  - 미국 전력망 확충 지연에 따른 설비 병목과 글로벌 AI 소프트웨어·서비스 투자 폭증이 맞물리면서 에너지저장장치(ESS), AI 데이터센터(AIDC) 냉각솔루션, AI 전환(AX) 분야가 대한민국 기…
+  - 관련 보도 1건: [Investing.com 한국어](https://news.google.com/rss/articles/CBMicEFVX3lxTE5Qc2hXS2ZfRDdnWjdyRi1PRWNuQmJCaVFjTFEyVXludG9tUnhuNHJETzhTeV9OeFpUMHVXbnNZMndoa1N6aEptb0MyMHZMcjlCYWlKRnp4Vnh2OHZtYUk2Wkc3S1pzeWtnUDE2SzRMNWU?oc=5)
+- [포스코, AI 데이터센터 소재 시장 공략…차폐강판부터 ESS까지](https://www.pointdaily.co.kr/news/articleView.html?idxno=326939) — **포인트데일리** · 11-23 09:04
+  - 데이터센터 설계 초기부터 참여해 구조물과 전력설비에 필요한 강재를 고객사와 함께 선정하고, 지중 송전선로용 차폐강판과 에너지저장장치(ESS)용 배터리 소재로 적용 범위를 넓힐 계획이다. 이희근 포스…
+- [유진證 “AI가 바꾸는 ESS 시장⋯LG엔솔·삼성SDI, 전력망 제어로 사업 확대”](https://www.etoday.co.kr/news/view/2651421) — **이투데이** · 11-23 08:06 · 전력망
+  - 이투데이\=정수천 기자 \| 인공지능(AI) 데이터센터 확산으로 에너지저장장치(ESS) 산업의 경쟁 기준이 배터리 저장용량에서 전력망 안정화와 제어 기술로 이동하고 있다는 분석이 나왔다. 유진투자증권은…
+- [中 폭스 ESS, 체코 트루트노프 ‘전력망 차익거래용 BESS’ 납품](https://www.g-enews.com/view.php?ud=2026112221331513660c8c1c064d_1) — **글로벌이코노믹** · 11-23 06:26 · 전력망
+  - 글로벌 인버터와 에너지저장장치(BESS) 전문 제조사인 중국 폭스 ESS(Fox ESS)가 체코 트루트노프(Trutnov) 지역에 구축되는 6MW/14.21MWh 규모의 상업용 전력망 BESS 프로…
+- [\[이넷뉴스 브랜드평판\] 삼성SDI, 전력저장장치 ESS 상장기업 11월 1위... LG에너지솔루션, SK이노베이션 뒤이어](https://www.enetnews.co.kr/news/articleView.html?idxno=56672) — **이넷뉴스** · 11-23 06:24
+  - 이넷뉴스 에너지 톱 브랜드위원회는 23일 전력저장장치 ESS 관련 상장기업 '2026년 11월 빅데이터 분석결과'를 발표했다. 발표에 따르면, 1위 삼성SDI 2위 LG에너지솔루션 3위 SK이노베이…
+- [전원 꺼도 불났다…ESS 성장의 조건 '안전' 또 '안전' \[ESS 대전환 ③\]](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611210022&t=NN) — **한국경제TV** · 11-22 21:00
+  - 전원이 꺼진 에너지저장장치(ESS)에서 다시 불이 났다. 지난해 대형 화재가 발생한 미국 캘리포니아주 모스랜딩 ESS 시설에서 올해 9월 불길이 재차 치솟은 거다. 반복되는 사고로 ESS 안전성에…
+- [\[특징주\] 삼성SDI(006400), 美 ESS 수주 확대…배터리 성장엔진 점화](https://www.incheonilbo.com/news/articleView.html?idxno=1337453) — **인천일보** · 11-22 17:36
+  - 글로벌 AI 데이터센터 시장 성장으로 에너지솔루션 부문의 에너지저장장치(ESS)와 배터리백업유닛(BBU) 판매가 크게 늘었고, 전자재료 부문도 견조한 실적을 이어갔기 때문이다. 첫 번째 투자 포인트…
+- [중국 ESS 배터리 계획 생산능력, 세계 출하량 두 배 육박](https://www.etnews.com/20261120000236) — **전자신문** · 11-22 17:01
+  - 중국의 에너지저장장치(ESS)용 배터리 계획 생산능력이 올해 세계 출하량의 두 배에 육박하는 것으로 나타났다. 대규모 설비 증설에 따른 공급과잉 우려 속에 중국 기업들이 해외시장 공략을 확대하면서…
+- [\[기획\]전력망 깔고 ESS 늘리고…배터리·전선업계 '기회'](https://www.m-i.kr/news/articleView.html?idxno=2021408) — **매일일보** · 11-22 13:00 · 전력망
+  - 발전량 변동에 대응하는 에너지저장장치(ESS)와 전력을 수요지로 보내는 송전망 투자가 확대되면서 관련 기업들도 공급 역량을 강화하고 있다. 정부는 2030년까지 재생에너지 설비를 100기가와트(GW…
 
-### 해외 · 13건
+### 해외 · 5건
 
-- [ACME Solar Commissions 51.87 MW BESS Capacity In Rajasthan](https://news.google.com/rss/articles/CBMimwFBVV95cUxPMlBGRnR0X3VjcE5wRjM4X0NreW1HcHYyb3czNWtUNEJwcmRoRGg3b2N5NGQ3MHQ2S0FUSTROR3VJczBHVDVhbHhiRlNUUG5sdlVDVDVkMzhMSHZyN2p0STN6QkprNkYzeWd1QjdMekJzcnRjN2lpVlplVWl5T3hmeUN1bUxsQ3NTVGdHZUxibG5pXzM0UGRFNzR2Yw?oc=5) — **SolarQuarter** · 11-21 13:38
-  - 관련 보도 1건: [PSU Connect](https://news.google.com/rss/articles/CBMisAFBVV95cUxPQXlicUx6b3RaenNTVUx2YTlpLTVOelNfS1o0TUxSd3ViWmpVb3lPNzRCMVgyTmlkSVl2LWV3bnFSUFN6OWgybnk1MEU0TklKRDJaeU5EcXRkX3BxWWFaWmVONjVXR1BFQ19naHZIRTBCbnRMSG5ZUWM1SzNBSkNCaUVYLXRYUGNqeDlxUDJZcVZ4MWZLVTRaWURoWUowVE5meVJtQk1XOHVOU2Nma2JONQ?oc=5)
-- [Angola begins construction of 90 MWp solar/BESS plant to ease power shortages in Cabinda](https://news.google.com/rss/articles/CBMixgFBVV95cUxOcl8xMHV2VDJLWFhZV1E2ZG9uVVFDUGxSTFdQdE9ocHNzelJDMlg5VnJQUm5BeU93LXdncHVaaHM3SE54WlFGNmVyTTJQZ04wMHVYODFaRkh3Y0hJMmhzMkVXWFRUUGFQcVMwTGNWdTFWcTk0Qm1ncExrNlpDN25LVWlBTUFKR3R3MzZLeE9FLUFkUXQwSWQ5WjJsV0VYS0hDTGR3UzFXU0dxdFlxTm55LW5UV1JJd3FUalV6UmZ5NXotLVRPRkE?oc=5) — **Green Building Africa** · 11-22 09:35
-- [AMPYR Solar Europe signs 10-year PPA and BESS deal with Statkraft](https://news.google.com/rss/articles/CBMivAFBVV95cUxNWXRoc0Z4SjUwb3dzNXdFNFdyNzlwN1A2aTJUR2kzYmFQZ19SSzBjWEJ0YmR1WF9sOFVfcFhQeUNmTWJzSUpQbTJaempFRGxtTHhiY0NsQ0hjaHJ5UVBLSEVWQ0ZVd2F5NndoY0twTC12VXJkdVpwVW9JV21neC1COThnOWJRN0xFaHh4T0lGYlN3QzNmQWFXYTBEOUNaR3pKSGk3X3g5TTBhQi1ZcEoxZWV5aUJUMjI3c3hMbg?oc=5) — **Solarbytes** · 11-22 00:22
-- [KULR receives \$14.8 million order for KULR ONE Max BESS in Japan](https://news.google.com/rss/articles/CBMiygFBVV95cUxOMlVzWVVGamszTHhmb1EzRDVBejJzMGlpRGxYZG9hNDgzdmVteDVTZnhWcUhhN2JfQVBWdUxheTZERUtnRjFLR0lic3V3LUZTSWltZGZmcWJlOFNfSzYzampMdU5VaWxidzZHd2t5U0lEN3FHcGd1WU00QnkxbFdEc3dBM19NS3NrR3QwbnVRRVFwcFp0dHFvU0lrNkhVT3hpNHVfbHFZT0JIM21PQVJzRDV2blMwLVRuLVVJSjV4dF9GY3o1eFZnNlZR?oc=5) — **Solarbytes** · 11-21 23:52
-- [Swedish battery storage maker Polarium is declared bankrupt](https://news.google.com/rss/articles/CBMi7wFBVV95cUxPaC1NRFdIOEExZ1pRMHJXM2E2eUNDXzZlWHB1eWp1WmdyeVJhaUF1bzJac2xxTkFKNVI4Z3pGQ0RybUhkMFRNN3o5Q2xNZkRqVmJiZVVOV0tOaE10c1lZNDNKTXd0N1pnNUt4RGRObWV4Qm1nQWRnTUctQ1Z2VWNtZzA4SkJSX3Qtb3FsV2F1bjNrZmRLSVdnNkRwZGNKaGs0TmtsTHNxR0Nhd0ZVNnhXeGpWNVZuVUR3Nk9acGNLOHduMll5cnNuaUJfRk9VM3JjbFB5VkItU0c2M3V2YVp3ZGQ0NXZ3LUFkR2tlZElCaw?oc=5) — **Solarbytes** · 11-21 22:48
-- [PowerX & Averroes partner for BESS sales in Gulf region](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUFNhaEpOeEctTzNyU2s2dU9xdEdaWU1GRjlvSXhQLVItcWluQlA1OS0xTzFIWnpHVjVlcTVvbTlYMVFYczB3aWViWVlaaXQ5bWItWTZQay1EUFliS1Uwa0Q3ZXM0SXhQOW1IWVlBaEdITk1aUjNLTlllVUxKd29IN0JSZXhyRVJubE9ldENQa1o2NzVueGlUR1BkVjM0YzRzcmV5bmxHY1VXbkhUV3VMWlEwT3VkUjU5NEVCRFJFd3FDX1RvY0pzdllRZDg4MkhqQnE2YUdJeVRqb3NoTjNV?oc=5) — **Solarbytes** · 11-21 21:53
-- [Supporters of battery energy storage systems tout environmental benefits](https://news.google.com/rss/articles/CBMi_gFBVV95cUxPbHF0TTR0SDRSWmpwSFdKdW4tZVB2Y0ZfNGw4Q1JpVlRnY0tsT3JfeDRVdHVIV1lCS0dfMTZaajJBR0tIVW5mdVlxREJMdk5oWkJzdFFJQjdlSWFlMlpSUWR0RjVIajNYNExXUzBaaHp6bDE3Z2FuSWFyU25hUnE5cWk1RmhodU5DNndTNkFnTXo3Mzl6UXNKZGxaakVYZFlVMFVueTZCaUdmZGg3Mk0yTXliemNjSi1qX1VEeEkxR2d5MkpDTngxam51UFp5NjRBaEpaakpxb19jNk9BNnJKUnRHeUV2MHhaSnp6MjRKbjRNYlVPcDR0ajR2S2lKUQ?oc=5) — **Herald Bulletin** · 11-21 20:55
-- [Waaree Transpower wins Rs 100 crore NTPC order for energy storage project](https://news.google.com/rss/articles/CBMigAFBVV95cUxONmpjVWJoWDIydzFmMDVVY3RFeGQyMU1OQkJjSzZnWUhtQVI2RXdKS0l0Y2U4YlA0Rkhwc1ZtMTNFM2JWbEFPc2JxSmN0SFFGT3lIR2VwZE9uaDl2ZjhDRzBzSko2ODQ4S01OX1lZRkRmYjNiRXpGOFJUX2s1UzRvRg?oc=5) — **Manufacturing Today India** · 11-21 20:47
-- [Mukimbah Bess](https://news.google.com/rss/articles/CBMifEFVX3lxTFBOa2gwSWFSbF9hTFhYX3p4anYwSTZqOVpHV0todVprRlZmRGNJZ3VPbnVCRjliQmh6X0dEUTZDc1d4U3hHZ2JmbWhYRTZUSEhjUmczZ3Q4NUNpQXZYeURUa0tuUGtzTkdiLV9xQ1pvb1hlOGVjYldPb2lZc2E?oc=5) — **FloWrestling** · 11-21 19:35
-- [Fluence and Linxon pair up for BESS after a 200 MWh award in ERCOT](https://news.google.com/rss/articles/CBMizgFBVV95cUxNbUdpZDl0VUpxZi1oYldFWnVNcHZrLTR5aHJyVGJJVkNRXzh3dERSaU12Q0p6V2ViM0ZwaTMxR3VpY0lWNzFTTGpoVXRvb0xsVUFpTnJYMmhZako5MF9YMll0cURER3F0ekUzMzliUU5venFxd3ZwLWtSMGVXRWRKYmlMd1pYRlFPSndCR1RlVk9Ud1BwNTdJX2k2WEhEN19KbW5TOUk0OXBBS090R2t3YVdiSWRwS1VVUjdialhxMEF0ZTdvQnZCUksxd1RrZw?oc=5) — **Solarbytes** · 11-21 18:02
-- [Waaree Transpower wins INR 100 crore-plus BESS order from NTPC](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZk4zeEpsNkxBWW1HUHdMZlhmRUxVc1hndmVNbGw4bHlLRlZ2QmlWOU1WelFDZFc5dDZJbG8xYmEyOFI2VnVlbnhmWUlvbjFuQzFCTVdsTmhRc3JMUmw2c1ZWZHk3U2w3bTVkS3BJaUpqcmRYVzhIZUpCOTBISE1XekUyemx1eURiZHM3R2xfNWRUelRmbEg2cGJENGR6bmxkbVU5WnZTWC1NdHc?oc=5) — **Solarbytes** · 11-21 17:33
-- [Non-Lithium BESS of 100 MWh capacity in California by CMBLU and IID](https://news.google.com/rss/articles/CBMizwFBVV95cUxPNmY1b2lBWHl6NkpXSTRoZ0FHRXRYTTdMRlBoOUh4Ukx4UDBxVlNueV92bTlWVEhWa05Qc1FnaWNuLUZaMkdfNmZKMlNwS1kyTkNtOENFTXk4TU5PSGptTnZvZEdVbk9oa1R5T3B0Ym1qc18xNFBIaWQ4Nzg1a3ljaFBQZTRld3dmdmg1YjVCMHVETkg5eHVfbmtmcThERjdIRmFJa09PRVBGQUNmb0V4VzN0ZGZPNmxNMjZUUERVandxWHoxMmZ2XzBpOE01eEk?oc=5) — **Solarbytes** · 11-21 16:09
+- [Bioenergy, Bess to power BM Greentech’s earnings](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSjhubFZObnJVNjZwY25kOFNNcDNmUDlrTWE2ZEE4YmdDYTRDV2l3OTNVQ1hwOFZvV0tsMlVLVWxseGhWQ0d6QjFndnlXYnB5UVBrd2lMMk93RzJFVFd3cDNvSWRHZk9CT3V0RjBHeW1XYmx1MmNKdGVlSkFHUWhhZ0ZRQkZKSEs0cmEwb0s3QjhadG0yX3FpRzBONlhPQzlWZ0s2WHgza1FSWWM?oc=5) — **The Star** · 11-23 08:45
+  - 관련 보도 1건: [KLSE Screener](https://news.google.com/rss/articles/CBMingFBVV95cUxPRFJYYTJYRFR6dE5RMGZsM2tmT05rTmR0ZkQwRUZSckVXTVJSVmZoSmdlSFBIYXRoVTE3QW5TWHd2WG80UFhZMUwwRjk4dndfOFdPOEVsaExRNXk5OXhralMzbElUTEJSREhIbmt5TmlmWWlERTJEZDNPTXJ0NzlTR2txQkhSU0ltTEJvWEk3eXBuQTdjc2dkRlhmV3Fudw?oc=5)
+- [EDF Australia acquires 250MW Holloway BESS in NSW](https://news.google.com/rss/articles/CBMifkFVX3lxTFA4NGFCaUJzSjJERExuOWVwT1Z1bjVyZ2N6b3Q5eXE1ZTBtcFc4d0NOSU1jY0xiN3NKQ3hXa2NwZGZPb3p5NlFINF9LZkptOWJ0MDRpMXJwWVUzZDZfRkY3UVN6ZWdGRDJaNVpfQnBiRjJDU1JmNWFWdGlDTHJHQQ?oc=5) — **Energy Source & Distribution** · 11-23 09:42
+- [Mulilo reaches financial close on Leeuwpoort battery storage project in Gauteng](https://news.google.com/rss/articles/CBMiugFBVV95cUxOVUZlbHJsZXFqeGVJS2g3RGliZGl1Qno1dEVlS3Q2MlQ0UTR6U0hTTnRwNEViUGZWUVhQN2lNd1dfMlBEZVBIMnNvWUwwMFoyUnFicTdUTDc1bHBBQm5uSE1CZGZuV2xVXzhQLVFHSWdpeS1qbTRzU3lINVJvNFJKT1U3R0VHUmMwN3puZWsyOXBOUDk2VmJnXzRKUk1WQ3ZMTTZyNmhuTUQwNnFNRFBoX1Q2VFFxNkpoU1E?oc=5) — **Green Building Africa** · 11-23 09:33
+- [JEM Energy secures BESS MoUs, targets INR 200 Crore orderbook in FY 2026-27](https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZHh2UEpOb0tlYm1IUFpMOWpkb2pLTGE5Nlk4Rlc0OHhXOGhRV2lQM1gzZlRVZVB1TmNOcGNUVnRkSGRlU2dEZXc0UGhwQUFnYVY4MThSQVpzckFXMlRCa3A5U1pQdkdSQnVXemIyNzhFRjZGQ0hzcU1kbW0zZEhmR2FGZTlubW5nSHR0aExBb0RwNW13UTkwTEFCZloyNVdHaUFod3BwODVLaWdiOUxXWmc1UGdzWENUc0xBYnZlcDFheG5QamtlcmdOWFJyUS1QUDh0UEQ2WGhHUXhk?oc=5) — **scanx.trade** · 11-22 22:46
 
 ---
 
 ## 전력망
 
-### 국내 · 12건
+### 국내 · 45건
 
-- [미국 전력망 인허가법 상원 통과…AI 시대 송전 병목 해소](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lM0E0eHZsU2Q1YklvRHFPY01EWG9VX3lBYWgxSjZGNm9TZ05YcUJUMW1IeTAyR29ZNDJrSTBFa1Znb1hIeFhvRDNWX3V6TWZtT3JMQ0htMmtsOFBqZHJ0T3p6bng?oc=5) — **에너지안전신문** · 11-22 11:11
-- [전력망 투자 확대는 계속되는데…포스코DX·LS ELECTRIC 주가 '흔들'](https://www.pinpointnews.co.kr/news/articleView.html?idxno=506684) — **핀포인트뉴스** · 11-22 10:50
-  - 사진\=연합뉴스 전력망에 정보기술(IT)을 접목해 양방향 전력 관리를 구현하는 스마트그리드(지능형 전력망) 관련주가 20일 일제히 하락했다. 전력망 확충과 인공지능(AI) 데이터센터 전력 수요 확대…
-- [\[COP31\] 글로벌 전력기업, 전력망·재생e·저장에 연 1560억달러 투자한...](https://www.etnews.com/20261122000016) — **전자신문** · 11-22 08:40
-  - 전력기업 넷제로연합, 지난해 전력망 2만1000㎞ 신설…전년比 50%↑ 국내도 재생에너지 보급 속도 맞춰 전력망·저장설비 확충 과제 세계 주요 전력기업이 전력망과 재생에너지, 에너지저장 설비에 연간…
-- [미국은 AI 전력망에 ESG 자금 쏟는데…한국 기업은 여전히 관망](https://www.pinpointnews.co.kr/news/articleView.html?idxno=506644) — **핀포인트뉴스** · 11-22 07:30
-  - 전력망 보강과 인공지능(AI) 데이터센터 확산에 따른 신규 전력 수요가 커지면서 관련 인프라 투자 자금 조달이 늘어난 영향으로 풀이된다. ESG 채권 발행이 단순한 친환경 경영 구호보다 실질적인 설…
-- [스페인, 2030 전력망에 25조원 투입…변압기·전선 대란 속 초대형 발주](https://www.g-enews.com/view.php?ud=2026112207190671832bd56fbc3c_1) — **글로벌이코노믹** · 11-22 07:26
-  - 2030 전력망 계획을 승인했다고 보도했다. 이번 투자는 현행 계획보다 예산을 146% 늘린 규모로, 산업... 2030 전력망 계획은 '2023\~2030년 통합 국가 에너지·기후 계획'에 바탕을…
-- [LS전선·대한전선, 美 4.5조 '프로펠 NY' 전력망 케이블 공급](https://news.google.com/rss/articles/CBMia0FVX3lxTE5CczdfTXhWdTlWNzRXMWxlcEpxcGRLLWg4WFVkc0dLYVRLZU1oQkRtUEJNLUFSajh1V0FzNWEzdEplQXpUaXIwLWRldUhqdHBWdGFsM3NubXF4Q0hUWmJ3MVRFVXUyUHJBRTd3?oc=5) — **한국신용신문** · 11-22 06:41
-- [화원-안좌 해저전력망 2차 증설...LS전선, 한전 사업 수주](https://www.energy-news.co.kr/news/articleView.html?idxno=229964) — **에너지신문** · 11-21 21:02
-  - 전남 해남군 화원면과 신안군 안좌도를 잇는 해저전력망에 154kV 해저케이블 14km가 추가된다. 한전은... 화원–안좌 해저전력망은 2010년 구축됐다. LS전선은 2009년 초고압 해저케이블을…
-- [효성 60돌, 美 전력망서 새 성장축…계열사 실적은 ‘명암’](https://news.google.com/rss/articles/CBMiY0FVX3lxTE02b1kzbmdXaDQ1cVp0U254OVVoOEpXVTI0Ri1hODk4bExhXzR5RlRZT05rd2cyTlQwSFBGQmg5SlFnQlFIX0s1d3F0Q0pfb1pYYTExN1R5dkoxd1JkZ1ZJanlhMA?oc=5) — **쿠키뉴스** · 11-21 20:04
-- [SK AI 데이터센터 15GW 구상…전력망·고객 확보가 관건 : 테크/과학](https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtU1hPZERRbklheWVtU1IweEIzdjBieVZfczhFc1ZsTDJOVngtc29pV1RFYnJJMGxvVmI4b2lqQUhQOVFZTzJWemE3NA?oc=5) — **재경일보** · 11-21 18:00
-- [한·IEA, ‘라이즈 아시아’ 가동…AI 시대 아시아 전력망·에너지 안보 잡는다](https://news.google.com/rss/articles/CBMiakFVX3lxTE9UWUxfVXFocUhNczhDWEZvcENCUFk2eUFXRmZpT0hQNU4wWl9uSUY4alMtOUwzMEZCNkFuRXJEb2xoQnN3TkFjaXdac0hLZ09PT3h1cjdPU3hfOXNGdjMySEY2VEtEM1luYVE?oc=5) — **https://www.sisaworld.kr/** · 11-21 17:04
-- [IEA, 한국 재생에너지 확대에 송전망·저장설비 제시](https://www.vegannews.co.kr/news/article.html?no=408798) — **비건뉴스** · 11-21 17:00
-  - 보고서는 배터리 저장이 계통 안정과 피크 수요 대응, 변동성 재생에너지의 전력망 통합에 기여한다고... 보고서는 전력망 투자와 함께 배터리 저장, 수요반응 등 전력계통의 유연성을 높이는 수단도 강조…
-- [LS전선, 한전 해저케이블 14km 증설 수주… 해남\~신안 전력망 2028년 완공](https://news.google.com/rss/articles/CBMifkFVX3lxTFBHS0JIR3M2cm4xd0djM21PUXVOb1RGQk1odndodXlBb2ZmU3BaMjFjeVcwSWFzbGJZRGRxYkhUYjg0VGdrQk5TVi1Jc2pReDBBTDJFQ1N1MlZ0dUxxMkNESmtlck04dVdNSHhIS2lkRXdVQ09sMEZpajBMQkhvUQ?oc=5) — **미디어원** · 11-21 13:26
+- [LS전선, 美 뉴욕 전력망 사업에 7000억원 케이블 공급…대미 수출 최대](https://www.ajunews.com/view/20261123083436716) — **아주경제** · 11-23 08:38
+  - \[사진\=LS전선\] LS전선이 미국 뉴욕의 대규모 전력망 구축사업에 약 7000억원 규모의 초고압 케이블을... 롱아일랜드와 뉴욕시 퀸스·브롱크스 및 웨스트체스터 카운티를 연결하는 약 145㎞ 규모의…
+  - 관련 보도 26건: [더트래커](https://thetracker.co.kr/View.aspx?No=4324245), [더팩트](https://news.tf.co.kr/read/economy/2391942.htm), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1427701), [포쓰저널](http://www.4th.kr/news/articleView.html?idxno=2122416), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=565696), [헤럴드경제](https://biz.heraldcorp.com/article/10945498?ref=naver), [한국아이닷컴](https://news.google.com/rss/articles/CBMia0FVX3lxTE9USTlyRnZGQ2FIN09QNGJjYW1UN3RQODZjWmwxa1JIeDBqTUpJVFFJamFVOUdGYkZJUDNTaW82Q0RIYzJCQTRDVGFkSF8zTTlWRVBHZTRpMWNBUVhoUjFhZWpnNFhDd3RQQW9n0gFvQVVfeXFMUGtNVmEyZ0FLZ3hWa1hOQ2dOekhrUkdkaThnTVJtenQ1dV9CdjBybGNkdDFsYlJTamhOdktONUVEVTlmdTlrN3Z3SEM4ZnNoR3FrcVBvdkhiVm9kZEphMzBjT2s3SkVXRVRrM0Y2R3Jz?oc=5), [에너지데일리](https://news.google.com/rss/articles/CBMickFVX3lxTE50Z0dIZkhTN0hNRVAzdUdJdFJnWF9xLVUzbXVpNFVkNUFqS3plcWdjTGRvSFF5WGhSYnQ0Y1pDb1NoSjIzQ3plZU5VRkhVSmFkdU9ndkdXTk9QdnZqSTE3emdBa0lQVWN6U2pFeUtLLWRodw?oc=5), [뉴스드림](http://www.newsdream.kr/news/articleView.html?idxno=122729), [브릿지경제](https://www.viva100.com/article/20261123500126), [동행미디어 시대](https://www.sidae.com/article/2026112308500457016), [파이낸셜뉴스](https://www.fnnews.com/news/202611230901297996), [직썰](https://www.ziksir.com/news/articleView.html?idxno=154260), [뉴스핌](https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xMGg1NlRoalNPX2VnSzljczF5MzVJcUtBcFd1SXBnNEdyWmI0Tldob0Y5cVN3cDgtMEp4TXk5Wms4RUFlU1Vjdm05YVBZbDV2aFE2S0czNUx1S2Nl?oc=5), [서울경제](https://www.sedaily.com/article/20117562?ref=naver), [뉴스웨이](https://www.newsway.co.kr/news/view?ud=2026112308442840436), [아시아경제](https://view.asiae.co.kr/article/2026112309183008770), [FETV](https://www.fetv.co.kr/news/articleView.html?idxno=314100), [뉴스인사이드](https://www.newsinside.kr/news/articleView.html?idxno=5054502), [생생비즈플러스](https://www.livebiz.today/news/articleView.html?idxno=206777), [비즈니스플러스](https://www.businessplus.kr/news/articleView.html?idxno=120275), [나눔경제뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTFByUGZmT1lMVjc2LVFiNzU2alR4SzhHV0R6X2FGckc2M2hjc1lvTm53XzFLNDhIc0l0R3ZLMmJHSkVJTHR3NW5CcE5od2o0MDlfemN5eWFTczdfWVhWOXg5X0FSV1BWTUhURVhtcA?oc=5), [Chosunbiz](https://biz.chosun.com/industry/company/2026/11/23/4M6VU7SBC5DJJA4O4KYE6CYU6A/?utm_source=naver&utm_medium=original&utm_campaign=biz), [SBS Biz](https://biz.sbs.co.kr/article_hub/20000348103?division=NAVER), [인더뉴스](https://www.inthenews.co.kr/news/article.html?no=94822), [ER 이코노믹리뷰](https://www.econovill.com/news/articleView.html?idxno=758128)
+- [LS전선, 美 뉴욕 초고압 전력망 사업 본격화…업계 최대 수출](https://www.dailian.co.kr/news/view/1718228/?sc=Naver) — **데일리안** · 11-23 08:41
+  - LS전선이 약 7000억원 규모의 미국 뉴욕 초고압 전력망 사업에 속도를 낸다. 지난 2월 계약에 이어 최근 현지... 규모의 전력망 구축 프로젝트다. 송전 용량 확대와 전력 공급 안정화, 해상풍력…
+  - 관련 보도 4건: [핀포인트뉴스](https://www.pinpointnews.co.kr/news/articleView.html?idxno=506844), [머니투데이](https://www.mt.co.kr/industry/2026/11/23/2026112309264056389), [머니투데이](https://news.google.com/rss/articles/CBMiekFVX3lxTE12RHc2ZmdRZ3FmakZJUnNZSVVIdzhRUnRHN0NFSjFvTFJSckRjcThtaWpGZDdZTHJPUzZVMDlSRzRsaThNRk9xMjF1NXh2b1hyS3BEUnRQNmFWR2dCODV3Q19LWVJ3X09BSzFtVmpVQVNUQTZ0aEFiVEpB0gF_QVVfeXFMTlpaSXR1MklPRllUVUIxMDJ1NVZWM0VZMnNJZUU5WHRvbDNhcDJVRWRmZ3dHTE85cWtrVzlhS214ekpHRXFjalo4NlFOTUtUUk1JaGt0aWRzN3k1S2pCNU51emswT3E2RkQ4ZXhpNWFYX1N0Y1hzd3ZHUDVKTzhSUQ?oc=5), [디일렉](https://www.thelec.kr/news/articleView.html?idxno=65746)
+- [인허가 지연 롯데에너지머티리얼즈, 스페인 공장 전력망 포기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBtX1g5MXYwUW1MNGxDQVBaaXhYZkthSG9WbUNTeVpLZjVNZHYzVnd2TTdPSjFhRGJaZ3BHNjBZMEducXp1Ym5lQXhYUkxfUHJuT2hsUENpUVhWQnBGR3B5NlpkR0hzN2JHU3Vr?oc=5) — **한국신용신문** · 11-23 06:16
+  - 관련 보도 1건: [KPI뉴스](https://www.kpinews.kr/newsView/1065565012143334)
+- [공장 적용부터 고객 선정까지…국내외 SST 사업화 경쟁 \[차세대 전력망戰\]](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PVzlKTmU0RlpNRTIxMXE4d1d0NVg0NF9BU3FhSmNENTE0eFUwazk5NUJqSHFuNFVCbW5uMVFvRWdvMTZkNWpKbXdKR2hHeFk3QTRIaw?oc=5) — **이투데이** · 11-23 05:00
+  - 관련 보도 1건: [이투데이](https://www.etoday.co.kr/news/view/2650526)
+- [주민·카드번호까지 152만건 털려…한전, 전력망도 위태](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKNE9TS2ZtcTZ6aXplNmhMamlrZGFMZk5NWFJ2eUhxODVkZ2VYQVZUaEE0MWNvZEJfVkVJTjBQNWp1MWpWUXdLaTlUYU5pM285bkHSAVNBVV95cUxQN1NWeFEtOXlqMnVGTkZxczhJam14RXhSd1RidDdONW1HY2FFZnlwT2FCRGtVSndCN3JKZTZjZ0tvd0NMNURDcjZ6aEh6dGxZckRRdw?oc=5) — **서울경제** · 11-22 19:16
+  - 관련 보도 1건: [서울경제](https://www.sedaily.com/article/20117477?ref=naver)
+- [LS전선, 미국 전력망 '7천억 잭팟'…역대 최대 대미 수출](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611230017&t=NN) — **한국경제TV** · 11-23 09:53
+  - LS전선이 미국 초고압 전력망 사업에 7,000억원 규모의 케이블을 공급한다. 국내 전선 업계 역대 최대... 규모 전력망 구축 프로젝트다. 송전 용량 확대와 전력 공급 안정화, 해상풍력 등 재생에…
+- [LS전선, 뉴욕 145km 전력망 잇는다…초고압 케이블 공급](https://news.google.com/rss/articles/CBMiVkFVX3lxTE01Q3ZMcmdvbS13UTJZTm5CYXlKbXZHRDVULWdneUozM2xlQXV2dXFDNjk4cVhnTzdPQUdpWkRqRnA3cHZKRHJILVpSd0Z0MGxTUUthRlhn?oc=5) — **지디넷코리아** · 11-23 09:49
+- [LS전선, 뉴욕 145㎞ 전력망 깐다…국내 전선업계 최대 대미 수출](https://www.asiatime.co.kr/article/20261123500095) — **아시아타임즈** · 11-23 09:38
+  - 전력망 사업에 345kV급 지중·해저케이블 수주 국내 전선업계 역대 최대 대미 수출 프로젝트 성과 LS그린링크·가온전선 중심 북미 송·배전 사업 강화 \[아시아타임즈\=조광현 기자\] LS전선이 미국 뉴…
+- [LS전선, 뉴욕 초고압 전력망 사업 본격화… 북미 전력 인프라 공략 속도](https://www.koreaittimes.com/news/articleView.html?idxno=159355) — **Korea IT Times** · 11-23 09:28
+  - 초고압 전력망 사업을 본격화하며 북미 전력 인프라 시장 공략에 속도를 내고 있다. 미국 내 전력 수요... 롱아일랜드와 뉴욕시 퀸스·브롱크스, 웨스트체스터 카운티를 연결하는 약 145km 규모의 전…
+- [\[단독\] LS전선·대한전선, '4.5조' 美뉴욕주 전력망 프로젝트 공급업체 선정](https://www.theguru.co.kr/news/article.html?no=110062) — **더구루** · 11-23 09:28
+  - 대형 전력망 구축 사업에 나란히 'K-케이블'을 공급한다. 양사는 미국의 노후 송전망 교체와 전력 인프라... 대한전선은 미국에서 초고압 전력망 사업을 잇달아 수주하며 현지 사업 기반을 넓히고 있다…
+- [LS전선, 미국 송전망에 7천억원 규모 초고압 케이블 공급](http://www.yonhapnewstv.co.kr/news/AKR20261123091636wle) — **연합뉴스TV** · 11-23 09:17
+  - 롱아일랜드부터 뉴욕시 퀸스·브롱크스, 웨스트체스터 카운티까지 이어지는 약 145km 규모의 전력망을 구축합니다. LS전선은 국내 전선업체 중 해외 초고압 해저 케이블 공급 실적을 보유한 기업이기도…
+- [LS전선, 7000억원 규모 美 초고압 전력망 공사 ‘시동’](https://news.google.com/rss/articles/CBMibkFVX3lxTFB3ZGdpYW5PNkQzM3gzeG1TNlVHbEV5VXRvQ1ZZaUxOYkVJYTR1TFUyV1BGMzZZNVFFX2dKNmpsVUZxbl9VMTN1QWRuWXdxQ255YXdrTzZHWXZ0TWZtME5LemJlU3RJbzVqbmdfbVB3?oc=5) — **아시아투데이** · 11-23 09:05
 
 ---
 
 ## 메가특구특별법
 
-### 국내 · 4건
+### 국내 · 1건
 
-- [초광역특구법 폐기 촉구 외침](https://www.news1.kr/photos/8226282) — **뉴스1** · 11-21 16:29
-  - 노동농민시민사회 143개 단체가 참여한 메가특구법 저지와 3대 메가프로젝트 규탄을 위한 공동행동 활동가 등이 21일 오후 서울 여의도 국회의사당 앞에서 가진 '우리 권리와 삶터 파괴하는 법은 필요없…
-  - 관련 보도 1건: [뉴스1](https://www.news1.kr/photos/8226287)
-- [\[포토\] 민주당에 도로 던져넣은 초광역특구법](https://newscham.net/130204/) — **참세상** · 11-21 17:44
-  - ‘메가특구법 저지와 3대 메가프로젝트 규탄을 위한 공동행동’은 21일 오후 서울 여의도 국회의사당역 2번 출구 앞에서 집회를 열고 초광역특구법 철회를 요구하며 더불어민주당 중앙당사 앞까지 행진했다.…
-- [초광역특구법 철회 요구하는 집회 참가자들](https://www.news1.kr/photos/8226279) — **뉴스1** · 11-21 16:29
-  - 노동농민시민사회 143개 단체가 참여한 메가특구법 저지와 3대 메가프로젝트 규탄을 위한 공동행동 활동가 등이 21일 오후 서울 여의도 국회의사당 앞에서 가진 '우리 권리와 삶터 파괴하는 법은 필요없…
+- ["초광역특구법 철회" 143개 사회단체 민주당사로](https://www.labortoday.co.kr/news/articleView.html?idxno=237859) — **매일노동뉴스** · 11-23 06:34
+  - ▲ '메가특구법 저지와 메가프로젝트 규탄을 위한 공동행동'이 21일 국회 앞에서 '초광역특구법저지행진'을 열었다. 143개 노동·시민사회단체가 초광역특구법안 철회를 요구하며 국회 앞에서 집회를 연…
 
 ---
 
 ## 에너지 전환 / energy transition
 
-### 국내 · 3건
+### 국내 · 9건
 
-- [\[에너지전환2050\] 강원랜드, 리조트에 태양광 늘리고 풍력 들인다](http://www.enewstoday.co.kr/news/articleView.html?idxno=2495460) — **이뉴스투데이** · 11-22 12:05
-  - 강원랜드가 호텔과 주차장에 태양광 설비를 늘리고 풍력발전단지 조성을 추진하며 리조트에서 쓰는 에너지를 재생에너지로 바꿔 나가고 있다. 22일 업계에 따르면 강원랜드는 2030년 'RE60' 달성과…
-- [남구, ‘햇빛 소득’으로 에너지전환 도시 조성](https://news.google.com/rss/articles/CBMia0FVX3lxTE9KYXRMZXBLMHFCWG5mNXhNb3hEUnFwRElwQ3M2MFpjSkN2bFdSS0x1VlRra01xT0VkQ1RjMzdzeDdPb2ktTUVFWGF2ekJROWJNLTh5eHJjcnJfSWUybUZTV1V6Z0tzeU5oOFNB?oc=5) — **대로미디어** · 11-22 10:43
-- [한국, 에너지 수입의존 탈피→전기화·재생에너지 전환 가속 시급](https://news.google.com/rss/articles/CBMiakFVX3lxTE9VTTFDRFFncV9qUjUyX0hZaGg0a2ttUFVYb0FvbHF2blJhOTlMdy1HVXlJeUFsVDVSVWdBU0VBNHNhYTdxVXN6Rk5DeDF1TG1kU2R0YnMyazNILTladGxUaG1tQjVYYWl0c1HSAW5BVV95cUxQV01qdnZOMk5aRXRXWmNYQ0hpb3hORXhnYl9TVnBDVnExdi1yaXpHVW5IMlEzNmVTeGNkZl8wTlQtSzUwR29ZN1pleGxCYWZlRnZvOHNKZU9FSWppdnRQWFRJTy1vQXVpUGwyV3RxUQ?oc=5) — **넷제로뉴스** · 11-21 10:51
+- [발전공기업 통합, 에너지전환 실행력 담은 특별법으로 완성해야](http://www.epj.co.kr/news/articleView.html?idxno=39832) — **일렉트릭파워** · 11-23 08:40
+  - 이번 토론회는 정부가 내년 10월 발전공기업 통합을 목표로 관련 입법을 추진하는 상황에서, 통합 발전공기업이 국가 에너지전환의 실질적인 이행주체로 자리 잡기 위한 재정전략과 노동자 참여 방안을 구체…
+- [\[Issue+\] 가축분뇨 바이오에너지 전환 어디까지 왔나](https://www.aflnews.co.kr/news/articleView.html?idxno=332182) — **농수축산신문** · 11-23 07:00
+  - 이에 가축분뇨 바이오에너지 전환과 관련된 최근 정책 동향과 현장을 살펴봤다. \# 정부, 바이오매스 고체연료 개발 추진 그동안 대부분 퇴비화됐던 가축분뇨를 고체연료로 제조하고 이를 발전소 연료로 사용…
+- [\[총수 신년공약 성적표⑦끝\] 허태수 GS그룹 회장, 'AX·에너지 전환' 결실…본업 날고 신사업 뛰고](http://www.consumernews.co.kr/news/articleView.html?idxno=768750) — **소비자가 만드는 신문** · 11-23 06:10
+  - 허 회장은 올해 신년사에서 에너지·화학 등 본업의 수익성을 지키는 한편 AI 확산에 따른 전력 수요 증가와 에너지 전환에서 새 사업 기회를 찾자고 강조했다. 특히 현장 직원들이 쌓은 경험에 외부 기…
+- [COP31 합의 없이 종료…GWEC 백웰 "재생에너지 전환은 멈출 수 없어" - 뉴스 및 통계](https://news.google.com/rss/articles/CBMimAFBVV95cUxPR1BXR05OcHZqbU1rUUVEWmlPbnBPRl92cEtFZnJTNzBDTU9rd214R1FYekFWZkVPX05JSFlLNER4Y19oXzg5OEJzb2JiVnc3Z2RKczRxeVRhU1VaQ0dLaER3RUszNEU5UFc3R0hRMEtRRF9fekx0enNCUHlqaXduUVVtOFJ5SXZ3TGQ3cE9sQVBrTzJnZ2JiOA?oc=5) — **IndexBox** · 11-23 04:50
+- [울산의 에너지 전환, 산업이 되는 조건을 묻자](https://www.ulsanpress.net/news/articleView.html?idxno=587259) — **울산신문** · 11-22 21:42
+  - 울산의 에너지 전환에는 기대만큼 구체적인 계산이 필요하다. 큰 계획을 제시하는 데서 나아가 그 계획이 성립하는 조건을 밝혀야 한다. 누가 사용하고, 얼마에 공급하며, 비용과 위험을 누가 부담할 것인…
+- [\[로터리\] 친환경 교통 넘어 에너지 전환으로](https://www.sedaily.com/article/20117449?ref=naver) — **서울경제** · 11-22 18:05
+  - 그러나 태양광 설비를 늘리는 것만으로 에너지 전환이 완성되지는 않는다. 생산한 전력을 얼마나 효율적으로 활용하느냐가 중요하다. 철도 시설에서 생산한 전기를 인근에서 소비하고 에너지저장장치(ESS)로…
+- [양자 컴퓨팅, 신약보다 '에너지 전환'서 첫 상용화 결실 맺는다](https://www.g-enews.com/view.php?ud=20261122171619306e250e8e188_1) — **글로벌이코노믹** · 11-22 17:22
+  - 경제방송 CNBC는 21일(현지시각) 분자 시뮬레이션을 통한 신약 발굴이나 항공 스케줄 최적화는 상용화까지 수년에서 수십 년이 걸릴 전망이지만, 양자 소프트웨어 알고리즘은 이미 시급한 과제인 에너지…
+- [전남광주 남구, 햇빛 소득 에너지전환 기본계획 추진](https://news.google.com/rss/articles/CBMia0FVX3lxTE5KbGN5TVZfWXd1X1BLLXhEQkpxbm5fNkVBUjdNdVBpMUZGRUVnVzNrSXFMTzJLdzJBNlRUNEMxSXlkeDZpb0RwR0tIVzBtQU5feDZab3d0bV82bVpUX1pOOUEwMVNYZnNxdEdj0gFvQVVfeXFMT0o5YWE1a3p5YTZoWUxoLWlfZ3Y3SmdUVk9qMHJreVFTM3pQRGYxdElKSWljem82ekFfXzBhQnV3MVlMMTljVElwaFFlbXdLUWx1TnQ2TzlQcGRPRmtpYjd6ZTVpdG11Sk00WjNHbXNr?oc=5) — **서울일보** · 11-22 17:14
+- [이현빈 남동발전 사장, 에너지공대서 소비·효율 중심 에너지 전환 강조](https://www.shinailbo.co.kr/news/articleView.html?idxno=5086281) — **신아일보** · 11-22 13:50
+  - 한국남동발전은 앞으로 한국에너지공대와 연구·실증 및 산학협력 범위를 넓히고 에너지 전환을 이끌 신기술 개발과 미래 핵심인재 양성을 추진할 계획이다. \[신아일보\] 창원
 
-### 해외 · 12건
+### 해외 · 6건
 
-- [Việt Nam’s Pivot to Beijing in its Green Energy Transition](https://news.google.com/rss/articles/CBMilwFBVV95cUxOMEhrWnQwcmIwbTN2V1ZZTUktS1h5RWk4Rl9uanlCcUtEMnNoQTc3LXJRc3prdjdXZWctbmFEZVdweGlJdlRsNExscVJ2N1dKbktuNjhpQUlpZUkzOFBJQ2FXa292dDNwcWdVQUpBX0I2NDBXRUZrM0tCOFdhbkNHZlhMcFh2M0pLYVpXZVR1RVAwc0xwWUhB?oc=5) — **The Vietnamese Magazine** · 11-22 09:04
-- [President Tinubu hails UNIZIK for demonstrating visionary leadership in sustainable energy transition](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMWkwSE12Szk2SDJqYVl4M0tKQWI2ZU5jTEZDZVBaMTVRR0ZpUE5UMjMzaHZhLU90YWlBcWR1WW1DZzlmTFI0OWpOX0s3THl1UVB6R2stMGhqVHhXZUZYQkotaXFOdG9hSTJ1VWpfQ25WM2laalZCeHJtYzh4VUx0SDlUbUtBcE80MHJTX2N0SHA3eFVnTkQySkhDWWpZVUhrTXpFaGpuSUtkTTZBRTI3b0x1SFl1S2VSU1NMRm9PQVhxOTRRWGZjVUFqQjRudUlhaGpwNkFGOA?oc=5) — **Apex News Exclusive** · 11-22 03:58
-- [Pakistan's energy transition should be built around adaptive social protection, legal and social security cover for informal workers: Experts](https://news.google.com/rss/articles/CBMihAJBVV95cUxQUGNKcjFMWmt5cG01OXhjTmV4MjFuNzdxcTBmaE1rZUR1NXQwOG0zOEpMSmpPNFhVMzlLSFk3MVBLYkNkQng3dHZVb3c3X2RjTEhEWUN3UXhxbEFIYzRDQ051NTNTbE5wTEdwYUcxTGVsRmlXV0tIREhMZkg0TU45RzZfd3NLRlg2akNDZHhOX2lYb3N5Nlh6dTgxdGE2WWpTajFTaE1sSkYxUnMzUzRFTElZOWU3VmQ1dUpaNTBnZXpzcC1DUGJ2cDR1MWJicTNkSGtjdzVPSGZRWFRxNzZqUUFpZTBQWVdtQU1oTGJkV29MajAyNTM3M3h4M1dJSWZERjQtNQ?oc=5) — **sabahnews.net** · 11-22 00:00
-- [COP31: Energy transition dominates talks as countries weigh how to quit fossil fuels](https://news.google.com/rss/articles/CBMitgFBVV95cUxPaXlVcXpPMlRlNk9KeTJLUVoxcTdTMkNsa2lEaGpqcWd5bUIzRWduR3lITkZ6ZWlhWGVUOTRtVjNtekdBaDdoNkVyczluakttSFlCWlJidFlMbzR2SUdENnlna29OSmQxOFJHVEl2Q1FLNlpicWd1b0x3U0VYYWh4dDRKNmpzSWVKQXZWU3B1Nlg5ZGVTUldyYWo5OWN0QTI1cW5mTVVnM0JYRDNTd2hSdTc5QzlZZw?oc=5) — **Vatican News** · 11-21 23:11
-- [India doubles down on critical minerals amid global energy transition](https://news.google.com/rss/articles/CBMirwFBVV95cUxPNG45Wm9vZ2JKUG14TmRmMjdkcW8xQ2lfd3ZrY1Z1eUQ5SlBKdWhFeTdaYm9TWGt0ekdZaGhKZy1aYWxQclVMZXAyYzNPTTNaUkdNVFd0OGZ4c3ZkUGFod2laTjNpNGNGekJvRFg2TkFfb3M3NG4ySVdZdUppOHVJTVJqeGpQWWlkYW5sUXd3WVo0Y1AxcHFYT0NHTjhWRFpNcFdCZGNoY2sxXzNkWFdN?oc=5) — **The Shillong Times** · 11-21 22:54
-- [Experts urge worker protections in Pakistan’s energy transition](https://news.google.com/rss/articles/CBMimwFBVV95cUxNOVFiVmJqbnNRb1Rfc3RETnI0b3BZV01qX1ZyTU5UQnUweVRuTG5taWd2OW1nb1hJTElWRE5XeS1Mb2p1Sy1Mc051SHFNUXlHOUZNQ0ZrOUxmSl96N3RUdnhRRWhQcnBLWkxyMENNSldxZHJxYV8xR0Rya2pWb3pSaUtPc2JHcjBYQjhUUVdOWEthRTFOeGFpS2VMbw?oc=5) — **UrduPoint** · 11-21 22:05
-- [Southeast Asian climate groups push renewables-based energy transition at COP31 and ASEAN Summit](https://news.google.com/rss/articles/CBMioAFBVV95cUxQTDE2b0RxOE0yeTFXd1o0VUlDcEZtSmU0X3YzRC1kQXNYWHVkSm9WOEtZQ0pjTXJJMmd4QnpkaENnd19QVWp2S1d3LUZnS3ZwWV93MldmQVFsT2ZXLUhFTF9KMHp4bE1LRzlub0w2eDN2S0tuZF9HZDlVSThoSVNQbHJUU1dneTN6Y2lyZDdBTmpqWmlRT1JzQTVpT3g5WDA5?oc=5) — **Traders Union** · 11-21 21:09
-- [Policy dialogue on 'People's Ownership of Energy, Just Transition' held in Rajshahi](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oMEhfTkJPM29QaHZ6SzYzR2IxVi1IRF9qbUU4LVhPcHVzejhUckVPYW9hTVhWWlBEZXFCSEVobTJsZ3B4X0NlYWJfbi1qZw?oc=5) — **Bangladesh Sangbad Sangstha (BSS)** · 11-21 17:43
-- [Rural Communities Left Behind in Sindh’s Renewable Energy Transition, Dialogue Highlights](https://news.google.com/rss/articles/CBMivAFBVV95cUxOdjJZb2ZxVE4zd2J6VGhLeEstZ0Zyckp1OUlEcDlMcnh3RE5OOENjd1Vsb3dURTlZa1E4RXVjY1R1OUstS3NhY2JOQlhrbGdTb2phOVN2WG5tYi1qZnZiOEhKVjlsMFJtWmVncjNXaHhvZ2JfMU1YZVFEZm9QN3JYQU5IckpWSjVJYzRIUllwRXJtNmQ5U2pGREphX0ViMG1IRUJpcTNpV3RzaW1nLU1DcnNYVHNoR2hGVGY2cQ?oc=5) — **Energy Update** · 11-21 17:02
-- [FG, UNILAG Commission CNG Station, Conversion Centre to Cut Transport Costs, Advance Clean Energy Transition](https://news.google.com/rss/articles/CBMixwFBVV95cUxOWk9VSDVsNFl5NHZITElKU21ya2MwTEotVEJBXzdOVWNmSC1mWDNqMTZocmEyaURjYm9HSm1sN3dzdF9MME1XZXN4QnVwbXo2QUpwS0d1eUM0Ry1EZ29pRjRtWXhmMkdTNGRGTUc5SjhqNmZSbHdHak5qSElLYW1rb1JKSDBVeEZKYmprbFVNUHI4eFdBOGVGZ0Z0TWdSRzh3MloxN0w5SGNsZjNMVU4ycnJMa1JYa3poNEhBZkJtQkctYlEyOHU4?oc=5) — **University Of Lagos** · 11-21 16:06
-- [IIT Delhi Abu Dhabi graduates first batch of 17 students, all placed in energy and engineering jobs; 11 join ADNOC, M.Tech in Energy Transition and Sustainability](https://news.google.com/rss/articles/CBMiwwJBVV95cUxNYXpBYjluUWR0Q2F3Z1Nab0VoYU5sM3laUnFsU3pqM05OOUg4ZkxkSlVjVjVrUHhJNDl1a3EtZ19oZnZOUVh1MTJQS3RVbUVDY1MyMGZWYUcybGRQd2ZuTUV6Y25tZ1Q3bnAxS18xYjFVc0ZiVmg4czB6cHp5VjFQVXdMN2RzUVlOYXVEYlZLMGxHVFFVY09tS2c1Qmx2NkhLM0FHTXRjTHhRdjR4cW9VR3VvdFNEOC13ZGtNYjZSaGFyZ1BvOEtZM2NlbTZkYXpzb3VUWXRkb3MzU200aWNwajZHdkpFREYxeHF5SDl0ZWZEai11LVhJRVIwS3ljQ2VNXzJyaXZnYVppekRlSFRVSG5jOEN5VVZoYUNQMEN3UjV3NE05cjA4QjF0YmJBelgwT0tveTVmY1FBY1ZnTVlmMXBBWQ?oc=5) — **Education Times** · 11-21 14:57
-- [PERSPECTIVE: Fossil Fuels Still Provide Vast Majority of Energy Despite Global ‘Energy Transition’](https://news.google.com/rss/articles/CBMiswFBVV95cUxObGFfT3ZDNnNfaElsWFNTdElmNW1KWDM1VzRJdG1XYm9CZzc1TXU5OGVVWHhYdTk1d1d3M2trSGNfTUR5TE4yOVJjcE43bU1GaFRqZVc3akhlYk1ZdTQ3VUFaNXZvRWZoQkZ4VGhYRDg2Q3ZkV2lxbWJfUml5MGw4ekZUSzhXX1NwOHlIb0xyUzZIRl9kblNtVEt3Q2d5YXBQVDdlWHJOcW42R0J6Uzh2aVpzNA?oc=5) — **EnergyNow** · 11-21 07:06
-
----
-
-## 냉매
-
-### 국내 · 1건
-
-- [세계 냉방 수요와 HFC 감축에 힘입어 2035년까지 성장하는 냉매 가스 시장](https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdjktdjJhSlNaSFFFck03dFg4Z1Vrc2RaWE41LTkzMzcwYmRmQ3FNMGNfcjJrVDlCQ3pHSVJDelhXUFQ5T1N3VTlkQi1lOEJUNkx5c1l0a05RTHVHVlo3TzllWTNkT3lxVGw2Zk9KT1R6bFZvaHNIODl1emt1eVdzZGVIaDJrbHl2clAweHBXWE9aZ2VUOEROaThxak5OZ253VS1jMExPbWVTYjR5UUlibkJOczJMTURTTnFoUHNCYXFMUXVibnZiRHljS3dMY0N5?oc=5) — **IndexBox** · 11-21 09:36
-
-### 해외 · 2건
-
-- [Refrigerant Gases Market Forecast to Expand by 2035, Driven by Global Cooling Demand and HFC Phase-Down](https://news.google.com/rss/articles/CBMizAFBVV95cUxPdmU4OWFtakdYVnROU1hHZk9NQzl6ZngycG5wRUxHZUZEeml0US1PcmtVUjJKM1pCQy1yUGxwYmZJWXhYSFhHMHhEM3EwZ1hlcy1PWGdtZjA3YXRuS05tSmZQTGIxbU94Q01uNXlXZ2JTdEhGMy01eENCTkppVzZZN0RxWEswbnJ1RVp2SFRKQ3ppcTNaSkg1OVI4dGJrWmxfbUo2TlJ2TVFFc1hfRXlMU3NDUVJfQnpkUU5Nel9wNjhSWVVjdzE1UEg3RjE?oc=5) — **IndexBox** · 11-21 09:36
-- [COP31 in Türkiye Advances Sustainable Cooling and HFC Phase-Down Efforts](https://news.google.com/rss/articles/CBMipAFBVV95cUxQUWlIUEFfc2NnaEo2NlA2QUFwZ0t1cElFb3NwSXFRNFowRDlCdVZXRGN6NTVMb1NiRklpZDNwUGgteEt4d1NzUG5lZE1aSUxvZFdFa1VoTl9mNGxQQklzZzlQZFNTdUZlMTVUdDEyNTBkZkVZRHdPVlg3RFFyOW8yaVlOQXpDTk54T3laUVdobHBISTJnUFI2bVhKa1g5MURTY0syMg?oc=5) — **Refindustry** · 11-21 08:03
+- [Energy transition fallout? Major ‘cracks’ emerging in the Philippines](https://news.google.com/rss/articles/CBMimwFBVV95cUxQcS1Qb2ttM0dVd3N5VjJLTnR5aG5rUC14cThFM09iQVR1RkdqMjd2aVc1ZlpVQjVYaGk4MWxicnN6UVhqQ1Jpa3JJSnlJR1VQbi1MTlZ2WnItczlvc2lIYTVrXzIyNzBDN2lDTTZfOHpfZXU3c2hMUG1XOVZ1eVdBRktZU1NucUFLT2R1VTBJT2EyaV9xN1JQRFBydw?oc=5) — **Manila Bulletin** · 11-23 01:03
+- [China expands nuclear heating as clean energy transition speeds up](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lbkh5LWRMN1pucl9XdFRTQTJwaTdFNDA3cnUwNk9OcER5amhFVFBDRGVEQklFRG9nUnpQZFJiQ3h1ejdCUWtsUUdNY1hxNzNJdl9zQWJKMWtDWktlQXFnU0JR?oc=5) — **Global Times** · 11-23 00:37
+- [COP31-26, Türkiye: Kenya seeks GEF funding partnership to accelerate Africa's renewable energy transition](https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZ3lTS0IyWF8yNUJqSEJpOHJKeUdFMENWNDl2SkhRd3ZvTkxqTVk4bTFLMUFzSHZ1cGlaOFV3NGYyTVRBRmNERzFMZ1FibWpjSzRGMUxHa3pDdkpLelJQME1Wc0VnTllFRjJnMl9lQ1dLZE1SVmNxMVBMZzVGenJlMGlsZWVDVy1SWUlLenFoOEZBeElJQ09PbEtPOUItOF9JZS1wcFJrT0N6b1R2T2wtRTBOSFJZUy13ZkpoQ3Azb1VtWkdnMS1wbi1mZ2otZjNFQUNWdXE5YW4?oc=5) — **Tech Review Africa** · 11-22 23:18
+- [Korean Railways Must Move Beyond Green Transport to Energy Transition](https://news.google.com/rss/articles/CBMiogFBVV95cUxOU29Ba216eUtyaUNwak42Y1NVakVQQmNtbWhsUEVaTlRoVkVVdzdicVJ5TlpITUx2U2JHblFZOC1MYjhmWjlvWE4tMVJuLXBFREVmTEwtdFhrRzlLYnM2cTA0ZTZnY3YtaGs3Y2ppRlpOWFJnWkR1dEI0WnF6UnNiU3FaX1U1WGtPU1RJaXg0SU1MaEJLZG5PN283SE91X1JuNFE?oc=5) — **Seoul Economic Daily** · 11-22 18:04
+- [Germany speeds up energy transition with photovoltaic power application](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQU0NjQW9iamJQNmNoa2JQUGZVWjBEdy00OWZkSmJZQWl2dDY2aG9nQ2JxaFZpZ09KTkhGQkh6dndhYV9zOFQ2UldoMmJkcnQ3UkM1b3hrQVJ4TkxYbEVvN0dXM2I1MFFYV1JGeXhRSDEyYTBmcnpzemNMZExNejdRTWZvSk9od3N6cDBUU2podmZ3Mng2dDE1dDduU04yeUxOVHV0QzZrTGRQUnFmVmp6WXFDMjZKUlE2VnhOTjBMc2Q?oc=5) — **巴士的報** · 11-22 16:14
+- [HEC Paris Doha equips executive leaders to navigate global energy transition complexities \| Gulf Times](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ2FJeGNkREJEMjNKQngxMHVjUUdCdjBFS1ppNWdPVHZkejJyamg2b0ZuSWNOYTZLb1lTdWE2VExBZmJZOTM4TUZMVjdKbzZENkVaeUp0OXdpbGNQaFVxX2w5b3NqVzZlVzVhSnlMU2pzc21pZ1BoekhSSFo5el9FMWF5eldDMmlvOFhnZFd1bjJrNExyZ1dhMUJUdG40UFkyNlRkQWlPUlRCYk80S015cTBZcE9FT0luZlRadDVIMTdrMUZkb0dUREZOblVqWTIxWk1v0gHYAUFVX3lxTE1XVnBPcHZTbXRDWFZValF6YkhRNG51SnpiV0xBYUs5MG5oakR5WHZoNDJvaGtnU3lYeXhqTkd3bXhkc1lCUVJ2ZDV5NjNDMXV1Wks5dFhwcHdIa3c0ejBEXzZsTDYwVGlWbGJXSHgwNm1uX2NJUWNuM1lCZUtKcFNJMjBkc01IQTdKLTJoOVVXWGF4d0VVNTk2eENSZ3lNOWFxb19DQTFxbkR3SW9sbnRGbGdzM2hvNEw5RDhtSG52cDhsVEhXdHVpazAwQjZLOFk1ZDJVbEZhRQ?oc=5) — **Gulf Times** · 11-22 06:00
 
 ## 지난 클리핑
 
+- [[radar/news/2026/11-22|11-22]] — 129건
 - [[radar/news/2026/11-21|11-21]] — 191건
 - [[radar/news/2026/11-20|11-20]] — 187건
 - [[radar/news/2026/11-19|11-19]] — 218건
@@ -313,6 +270,5 @@ modified: 2026-11-22T12:30+09:00
 - [[radar/news/2026/10-26|10-26]] — 203건
 - [[radar/news/2026/10-25|10-25]] — 90건
 - [[radar/news/2026/10-24|10-24]] — 262건
-- [[radar/news/2026/10-23|10-23]] — 273건
 
 이전 기록은 왼쪽 Explorer 의 연도 폴더에서 볼 수 있습니다.
