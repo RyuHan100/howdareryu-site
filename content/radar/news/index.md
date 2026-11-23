@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-23
-modified: 2026-11-23T10:31+09:00
+modified: 2026-11-23T10:55+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-23 10:31 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-23 10:55 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-23|11-23 클리핑]] — 기사 **138건** (국내 102 · 해외 36)
+> [!example] [[radar/news/2026/11-23|11-23 클리핑]] — 기사 **147건** (국내 108 · 해외 39)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -19,8 +19,12 @@ modified: 2026-11-23T10:31+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 6건
+### 국내 · 8건
 
+- [유엔기후총회 17년 만에 합의 실패…한국 주도 국제협력 기반 확대는 성...](https://biz.heraldcorp.com/article/10945909?ref=naver) — **헤럴드경제** · 11-23 10:54 · NDC
+  - 또 국제에너지기구(IEA)와 함께 추진 중인 아시아 에너지 안보 구상(RISE ASIA) 관련 부대행사와 글로벌 고신뢰 탄소시장(GVCM) 공동협력의향서 서명식 등을 개최해 국제협력을 위한 한국의…
+- [화석연료 전환 합의 끝내 무산…COP31, 17년 만의 포괄합의 실패(종합)\[...](https://view.asiae.co.kr/article/2026112310503517665) — **아시아경제** · 11-23 10:50 · 국제감축 / Article 6
+  - 다만 기후변화 적응과 정의로운 전환, 국제탄소시장 등 일부 분야에서는 합의가 이뤄졌다. 23일 기후에너지환경부에 따르면 지난 9일 튀르키예 안탈리아에서 개막한 COP31은 당초 폐막 예정일인 20일…
 - [31차 기후총회, 17년 만에 포괄적 합의 실패…적응·재원 일부 진전](https://www.news1.kr/economy/trend/6362526) — **뉴스1** · 11-23 10:25 · NDC
   - 국제 탄소시장에서는 온실가스 감축실적을 국가 간 거래할 때 필요한 보고·검토 체계와 감축량 산정 방법의 운영을 개선하기로 했다. 기후정책이 무역과 경제에 미치는 영향을 다루는 협상은 선진국과 개발도…
 - [COP31, 17년 만에 기후합의 불발…화석연료 전환 이견](https://www.ajunews.com/view/20261123100819300) — **아주경제** · 11-23 10:24 · NDC
@@ -78,6 +82,10 @@ modified: 2026-11-23T10:31+09:00
 
 ### 국내 · 12건
 
+- [\[에너지논단\] COP31 결렬과 글로벌 기후거버넌스의 재편](https://www.energy-news.co.kr/news/articleView.html?idxno=229989) — **에너지신문** · 11-23 10:48
+  - 오히려 이 기회에 한국이 과감한 재생에너지 확대와 국가 온실가스 감축 목표(NDC) 이행을 발판 삼아, '기후 무역 연합'의 출범을 제안하고 초기 규칙을 함께 설계하는 '룰 메이커(Rule-make…
+- ['온실가스 감축 강화' 국제사회 합의 실패…선진국 VS 개도국 이견 지속](https://www.mt.co.kr/economy/2026/11/23/2026112310381748329) — **머니투데이** · 11-23 10:41
+  - 2016년11월 발효된 파리협정은 전 지구의 평균 기온 상승을 산업화 이전 대비 1.5℃ 이하로 제한하는 것을 목표로 국제사회가 온실가스 감축에 협력해야 한다는 것이 주요 내용이다. 올해 총회에서는…
 - [유엔기후총회 17년 만에 합의 불발…역대 최장 회의 끝 '빈손'](http://www.joseilbo.com/news/news_read.php?uid=580192&class=42&grp=) — **조세일보** · 11-23 09:18
   - 근본적인 온실가스 감축 정책으로부터 주의를 분산시킬 수 있다는 비판을 받고 있다. 기후 싱크탱크 E3G의... 최근 발표된 유엔 보고서에 따르면 지구 온난화를 산업화 이전 대비 1.5°C로 제한하겠…
 - [빈손으로 종료된 COP31…합의 결렬, 기후위기 대응 '시계제로'](https://www.womentimes.co.kr/news/articleView.html?idxno=108138) — **우먼타임스** · 11-23 09:04
@@ -98,14 +106,12 @@ modified: 2026-11-23T10:31+09:00
   - 특히 최근 한국 정부가 국가온실가스 감축목표(NDC)를 확정한 사실을 소개하며 국제사회의 책임 있는 구성원으로서 기후변화 대응에 적극 동참하겠다는 의지를 피력했다. 에너지 전환과 관련해서는 안정적인…
 - [유엔 기후총회 합의 결렬…화석연료 퇴출 놓고 EU·사우디 충돌](https://www.news1.kr/world/international-organization/6362180) — **뉴스1** · 11-23 05:01
   - 과학자들은 현재 각국의 온실가스 감축 목표가 충분하지 않아 앞으로 수년 안에 지구 평균기온 상승폭이 1.5도를 넘어설 것으로 예상하고 있다. 영국의 케이트 휴스 기후협상 대표는 "최종 결정문의 내용…
-- [25년도 온실가스 감축목표.국가기본계획 이행점검 결과](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVDVoMkRXNmx4R3BEMVhFNm9KVmg2X1ZYLU1Od3l4X1JzLUNmcmMwM0djODVmTmJIeG5SNXMwV21OdDV2cmQwX3IwNXFRNWFOSlpjU2UzZzVxZ21Bb3NUSERQVk1zZG9maFFkM1ZPVzFEMThvanB3SzFrdXdtdHRyVHVFV2pBajVRQ2VCZ2t5SDhjaTJ6LXMwN0J4dTNnaU9wV09xMDRSYmFvUmp4ODU5WHRwZ0JIZVFSUkVHaDhyX25YSjFvaHpDS0FPWGFHc2t3ek1Zd3Zn?oc=5) — **국가기후위기대응위원회** · 11-23 03:31
-- [교통안전공단, '교통부문 온실가스 목표관리제 설명회·역량 강화 워크...](https://www.cstimes.com/news/articleView.html?idxno=728881) — **컨슈머타임스** · 11-22 22:50
-  - 세부 교육 과정은 △교통부문 온실가스 목표관리제도의 이해 △온실가스 감축방안 및 활용 △온실가스 검증 및 품질관리 △국가온실가스종합관리시스템(NGMS) 작성방법 △목표관리제 유연성제도 등으로 구성됐…
 
-### 해외 · 3건
+### 해외 · 4건
 
-- [Tajikistan targets 15% cut in greenhouse gas emissions](https://news.google.com/rss/articles/CBMikAFBVV95cUxNZHlwMFEweGpxLTg5Zk5LdHFmeXV4RzlHLVg1R1FueW5ZQW53YjNXRmd2UllWek5pam5UdlBwaUJOSVBzVUZ0NzhXVTdZdkVvcWlmUkk2QXZXbHM3UTlhRWszMEI3cTlUVUlPU2s3WU1CLWRTZnNYVUl3T2tCd2VIQUVlQVZHdFBtSWlFNW5MRXjSAZABQVVfeXFMTWR5cDBRMHhqcS04OWZOS3RxZnl1eEc5Ry1YNUdRbnluWUFud2IzV0ZndlJZVnpOaWpuVHZQcGlCTklQc1VGdDc4V1U3WXZFb3FpZlJJNkF2V2xzN1E5YUVrMzBCN3E5VFVJT1NrN1lNQi1kU2ZzWFVJd09rQndlSEFFZUFWR3RQbUlpRTVuTEV4?oc=5) — **Qazinform** · 11-23 07:41
 - [Kazakhstan unveils priority climate technologies at COP31](https://news.google.com/rss/articles/CBMilgFBVV95cUxNZGwtWHRHc2NFb3pUZkVSNjJlVjVIbVBWSVlaQTNhU2hlS1NWdVIxaEV2NTkxWVJmVlpTSHN5cjZtZ0dKTFZ5T0QyU0dJcDAxMFpjZ3pYaTI1SHd2Uk9LZ3RTSmx6bmRLLVJfbHFxQjhiUldmXzNpdlA4dEJmNEZYa3J3SGl5SjdQbkVKSFhHZ2MzZWV2eFHSAZYBQVVfeXFMTWRsLVh0R3NjRW96VGZFUjYyZVY1SG1QVklZWkEzYVNoZUtTVnVSMWhFdjU5MVlSZlZaU0hzeXI2bWdHSkxWeU9EMlNHSXAwMTBaY2d6WGkyNUh3dlJPS2d0U0psem5kSy1SX2xxcUI4YlJXZl8zaXZQOHRCZjRGWGtyd0hpeUo3UG5FSkhYR2djM2VldnhR?oc=5) — **Qazinform** · 11-22 22:32
+  - 관련 보도 1건: [jiji press](https://news.google.com/rss/articles/CBMifkFVX3lxTFA0cHM4Q0hKYzktYVB3NjI1bGpBR3U2V1Z3b2FTTkdBLVZ4UXdpSVBzUU9SVC1NNUpMNE0yaG0zTFFPczFXUUVTM25tWUdRV0l0TTJaNmRLLXh3N2J1NTdlSC1LYTd6WUlaVTFYaU14R2JudjlIZTkxYkNMNWpYQQ?oc=5)
+- [Tajikistan targets 15% cut in greenhouse gas emissions](https://news.google.com/rss/articles/CBMikAFBVV95cUxNZHlwMFEweGpxLTg5Zk5LdHFmeXV4RzlHLVg1R1FueW5ZQW53YjNXRmd2UllWek5pam5UdlBwaUJOSVBzVUZ0NzhXVTdZdkVvcWlmUkk2QXZXbHM3UTlhRWszMEI3cTlUVUlPU2s3WU1CLWRTZnNYVUl3T2tCd2VIQUVlQVZHdFBtSWlFNW5MRXjSAZABQVVfeXFMTWR5cDBRMHhqcS04OWZOS3RxZnl1eEc5Ry1YNUdRbnluWUFud2IzV0ZndlJZVnpOaWpuVHZQcGlCTklQc1VGdDc4V1U3WXZFb3FpZlJJNkF2V2xzN1E5YUVrMzBCN3E5VFVJT1NrN1lNQi1kU2ZzWFVJd09rQndlSEFFZUFWR3RQbUlpRTVuTEV4?oc=5) — **Qazinform** · 11-23 07:41
 - [NDC chair: Obi is Nigeria’s only hope to rebuild the country](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMjdlajZwNTB3cHJTaVN4Zzk4VHRDb25kUDFJNE5rTlRycGd6TF9MZVVSeEpKTnItLUxreVZqbmtKTWtXZkEyd2dqaXJaYzhjbXMzUUFoaEZnakJFMFB3VWZidFJmdGJYWHBKbDVGMG1za05ZdWdyc2c3NmNoYkJwbkMtVE9QZHNnUWxv?oc=5) — **TheCable** · 11-22 19:30
 
 ---
@@ -180,11 +186,11 @@ modified: 2026-11-23T10:31+09:00
 
 ## 전력망
 
-### 국내 · 53건
+### 국내 · 57건
 
 - [LS전선, 美 뉴욕 전력망 사업에 7000억원 케이블 공급…대미 수출 최대](https://www.ajunews.com/view/20261123083436716) — **아주경제** · 11-23 08:38
   - \[사진\=LS전선\] LS전선이 미국 뉴욕의 대규모 전력망 구축사업에 약 7000억원 규모의 초고압 케이블을... 롱아일랜드와 뉴욕시 퀸스·브롱크스 및 웨스트체스터 카운티를 연결하는 약 145㎞ 규모의…
-  - 관련 보도 33건: [더트래커](https://thetracker.co.kr/View.aspx?No=4324245), [더팩트](https://news.tf.co.kr/read/economy/2391942.htm), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1427701), [포쓰저널](http://www.4th.kr/news/articleView.html?idxno=2122416), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=565696), [헤럴드경제](https://biz.heraldcorp.com/article/10945498?ref=naver), [한국아이닷컴](https://news.google.com/rss/articles/CBMia0FVX3lxTE9USTlyRnZGQ2FIN09QNGJjYW1UN3RQODZjWmwxa1JIeDBqTUpJVFFJamFVOUdGYkZJUDNTaW82Q0RIYzJCQTRDVGFkSF8zTTlWRVBHZTRpMWNBUVhoUjFhZWpnNFhDd3RQQW9n0gFvQVVfeXFMUGtNVmEyZ0FLZ3hWa1hOQ2dOekhrUkdkaThnTVJtenQ1dV9CdjBybGNkdDFsYlJTamhOdktONUVEVTlmdTlrN3Z3SEM4ZnNoR3FrcVBvdkhiVm9kZEphMzBjT2s3SkVXRVRrM0Y2R3Jz?oc=5), [에너지데일리](https://news.google.com/rss/articles/CBMickFVX3lxTE50Z0dIZkhTN0hNRVAzdUdJdFJnWF9xLVUzbXVpNFVkNUFqS3plcWdjTGRvSFF5WGhSYnQ0Y1pDb1NoSjIzQ3plZU5VRkhVSmFkdU9ndkdXTk9QdnZqSTE3emdBa0lQVWN6U2pFeUtLLWRodw?oc=5), [뉴스드림](http://www.newsdream.kr/news/articleView.html?idxno=122729), [브릿지경제](https://www.viva100.com/article/20261123500126), [동행미디어 시대](https://www.sidae.com/article/2026112308500457016), [파이낸셜뉴스](https://www.fnnews.com/news/202611230901297996), [직썰](https://www.ziksir.com/news/articleView.html?idxno=154260), [뉴스핌](https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xMGg1NlRoalNPX2VnSzljczF5MzVJcUtBcFd1SXBnNEdyWmI0Tldob0Y5cVN3cDgtMEp4TXk5Wms4RUFlU1Vjdm05YVBZbDV2aFE2S0czNUx1S2Nl?oc=5), [서울경제](https://www.sedaily.com/article/20117562?ref=naver), [뉴스웨이](https://www.newsway.co.kr/news/view?ud=2026112308442840436), [아시아경제](https://view.asiae.co.kr/article/2026112309183008770), [FETV](https://www.fetv.co.kr/news/articleView.html?idxno=314100), [뉴스인사이드](https://www.newsinside.kr/news/articleView.html?idxno=5054502), [생생비즈플러스](https://www.livebiz.today/news/articleView.html?idxno=206777), [비즈니스플러스](https://www.businessplus.kr/news/articleView.html?idxno=120275), [나눔경제뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTFByUGZmT1lMVjc2LVFiNzU2alR4SzhHV0R6X2FGckc2M2hjc1lvTm53XzFLNDhIc0l0R3ZLMmJHSkVJTHR3NW5CcE5od2o0MDlfemN5eWFTczdfWVhWOXg5X0FSV1BWTUhURVhtcA?oc=5), [Chosunbiz](https://biz.chosun.com/industry/company/2026/11/23/4M6VU7SBC5DJJA4O4KYE6CYU6A/?utm_source=naver&utm_medium=original&utm_campaign=biz), [SBS Biz](https://biz.sbs.co.kr/article_hub/20000348103?division=NAVER), [인더뉴스](https://www.inthenews.co.kr/news/article.html?no=94822), [ER 이코노믹리뷰](https://www.econovill.com/news/articleView.html?idxno=758128), [인더스트리뉴스](https://www.industrynews.co.kr/news/articleView.html?idxno=90011), [팝콘뉴스](http://www.popcornnews.net/news/articleView.html?idxno=141065), [매일일보](https://www.m-i.kr/news/articleView.html?idxno=2021955), [딜사이트](https://dealsite.co.kr/articles/173290), [소셜밸류](https://www.socialvalue.kr/news/view/1065576138586600), [서울경제TV](https://www.sentv.co.kr/article/view/sentv202611230082), [전자신문](https://www.etnews.com/20261123000170)
+  - 관련 보도 37건: [더트래커](https://thetracker.co.kr/View.aspx?No=4324245), [더팩트](https://news.tf.co.kr/read/economy/2391942.htm), [데일리한국](https://daily.hankooki.com/news/articleView.html?idxno=1427701), [포쓰저널](http://www.4th.kr/news/articleView.html?idxno=2122416), [중앙이코노미뉴스](https://www.joongangenews.com/news/articleView.html?idxno=565696), [헤럴드경제](https://biz.heraldcorp.com/article/10945498?ref=naver), [한국아이닷컴](https://news.google.com/rss/articles/CBMia0FVX3lxTE9USTlyRnZGQ2FIN09QNGJjYW1UN3RQODZjWmwxa1JIeDBqTUpJVFFJamFVOUdGYkZJUDNTaW82Q0RIYzJCQTRDVGFkSF8zTTlWRVBHZTRpMWNBUVhoUjFhZWpnNFhDd3RQQW9n0gFvQVVfeXFMUGtNVmEyZ0FLZ3hWa1hOQ2dOekhrUkdkaThnTVJtenQ1dV9CdjBybGNkdDFsYlJTamhOdktONUVEVTlmdTlrN3Z3SEM4ZnNoR3FrcVBvdkhiVm9kZEphMzBjT2s3SkVXRVRrM0Y2R3Jz?oc=5), [에너지데일리](https://news.google.com/rss/articles/CBMickFVX3lxTE50Z0dIZkhTN0hNRVAzdUdJdFJnWF9xLVUzbXVpNFVkNUFqS3plcWdjTGRvSFF5WGhSYnQ0Y1pDb1NoSjIzQ3plZU5VRkhVSmFkdU9ndkdXTk9QdnZqSTE3emdBa0lQVWN6U2pFeUtLLWRodw?oc=5), [뉴스드림](http://www.newsdream.kr/news/articleView.html?idxno=122729), [브릿지경제](https://www.viva100.com/article/20261123500126), [동행미디어 시대](https://www.sidae.com/article/2026112308500457016), [파이낸셜뉴스](https://www.fnnews.com/news/202611230901297996), [직썰](https://www.ziksir.com/news/articleView.html?idxno=154260), [뉴스핌](https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xMGg1NlRoalNPX2VnSzljczF5MzVJcUtBcFd1SXBnNEdyWmI0Tldob0Y5cVN3cDgtMEp4TXk5Wms4RUFlU1Vjdm05YVBZbDV2aFE2S0czNUx1S2Nl?oc=5), [서울경제](https://www.sedaily.com/article/20117562?ref=naver), [뉴스웨이](https://www.newsway.co.kr/news/view?ud=2026112308442840436), [아시아경제](https://view.asiae.co.kr/article/2026112309183008770), [FETV](https://www.fetv.co.kr/news/articleView.html?idxno=314100), [뉴스인사이드](https://www.newsinside.kr/news/articleView.html?idxno=5054502), [생생비즈플러스](https://www.livebiz.today/news/articleView.html?idxno=206777), [비즈니스플러스](https://www.businessplus.kr/news/articleView.html?idxno=120275), [나눔경제뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTFByUGZmT1lMVjc2LVFiNzU2alR4SzhHV0R6X2FGckc2M2hjc1lvTm53XzFLNDhIc0l0R3ZLMmJHSkVJTHR3NW5CcE5od2o0MDlfemN5eWFTczdfWVhWOXg5X0FSV1BWTUhURVhtcA?oc=5), [Chosunbiz](https://biz.chosun.com/industry/company/2026/11/23/4M6VU7SBC5DJJA4O4KYE6CYU6A/?utm_source=naver&utm_medium=original&utm_campaign=biz), [SBS Biz](https://biz.sbs.co.kr/article_hub/20000348103?division=NAVER), [인더뉴스](https://www.inthenews.co.kr/news/article.html?no=94822), [ER 이코노믹리뷰](https://www.econovill.com/news/articleView.html?idxno=758128), [인더스트리뉴스](https://www.industrynews.co.kr/news/articleView.html?idxno=90011), [팝콘뉴스](http://www.popcornnews.net/news/articleView.html?idxno=141065), [매일일보](https://www.m-i.kr/news/articleView.html?idxno=2021955), [이머니뉴스](https://news.google.com/rss/articles/CBMib0FVX3lxTFBKVWNDbXJGUVJWSjRNVzNfTzhGTldMRXVSZzUzMG16MXpDU25JYkpEdXh0UXFpS3VfMXFZdDVIRnRQbmtGSXNpSzhpbF9DbnFEdEFrR0JWOGpFb2JkRHU0Rk5yZ3ByUi15c0JRdENpaw?oc=5), [딜사이트](https://dealsite.co.kr/articles/173290), [소셜밸류](https://www.socialvalue.kr/news/view/1065576138586600), [서울경제TV](https://www.sentv.co.kr/article/view/sentv202611230082), [전자신문](https://www.etnews.com/20261123000170), [Queen 이코노미퀸](http://www.queen.co.kr/news/articleView.html?idxno=466730), [뉴스웍스](https://www.newsworks.co.kr/news/articleView.html?idxno=903990), [테크월드](https://www.epnc.co.kr/news/articleView.html?idxno=410145)
 - [LS전선, 美 뉴욕 초고압 전력망 사업 본격화…업계 최대 수출](https://www.dailian.co.kr/news/view/1718228/?sc=Naver) — **데일리안** · 11-23 08:41
   - LS전선이 약 7000억원 규모의 미국 뉴욕 초고압 전력망 사업에 속도를 낸다. 지난 2월 계약에 이어 최근 현지... 규모의 전력망 구축 프로젝트다. 송전 용량 확대와 전력 공급 안정화, 해상풍력…
   - 관련 보도 5건: [핀포인트뉴스](https://www.pinpointnews.co.kr/news/articleView.html?idxno=506844), [머니투데이](https://www.mt.co.kr/industry/2026/11/23/2026112309264056389), [머니투데이](https://news.google.com/rss/articles/CBMiekFVX3lxTE12RHc2ZmdRZ3FmakZJUnNZSVVIdzhRUnRHN0NFSjFvTFJSckRjcThtaWpGZDdZTHJPUzZVMDlSRzRsaThNRk9xMjF1NXh2b1hyS3BEUnRQNmFWR2dCODV3Q19LWVJ3X09BSzFtVmpVQVNUQTZ0aEFiVEpB0gF_QVVfeXFMTlpaSXR1MklPRllUVUIxMDJ1NVZWM0VZMnNJZUU5WHRvbDNhcDJVRWRmZ3dHTE85cWtrVzlhS214ekpHRXFjalo4NlFOTUtUUk1JaGt0aWRzN3k1S2pCNU51emswT3E2RkQ4ZXhpNWFYX1N0Y1hzd3ZHUDVKTzhSUQ?oc=5), [디일렉](https://www.thelec.kr/news/articleView.html?idxno=65746), [뉴스타운](http://www.newstown.co.kr/news/articleView.html?idxno=722928)
@@ -194,6 +200,8 @@ modified: 2026-11-23T10:31+09:00
   - 관련 보도 1건: [이투데이](https://www.etoday.co.kr/news/view/2650526)
 - [주민·카드번호까지 152만건 털려…한전, 전력망도 위태](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKNE9TS2ZtcTZ6aXplNmhMamlrZGFMZk5NWFJ2eUhxODVkZ2VYQVZUaEE0MWNvZEJfVkVJTjBQNWp1MWpWUXdLaTlUYU5pM285bkHSAVNBVV95cUxQN1NWeFEtOXlqMnVGTkZxczhJam14RXhSd1RidDdONW1HY2FFZnlwT2FCRGtVSndCN3JKZTZjZ0tvd0NMNURDcjZ6aEh6dGxZckRRdw?oc=5) — **서울경제** · 11-22 19:16
   - 관련 보도 1건: [서울경제](https://www.sedaily.com/article/20117477?ref=naver)
+- [뉴욕 일대 145㎞ 전력망에 韓 초고압 케이블 깔린다 … LS전선, 7000억 규...](https://biz.newdaily.co.kr/site/data/html/2026/11/23/2026112350107.html) — **뉴데일리 경제** · 11-23 10:48
+  - 뉴데일리 최유경 \= LS전선이 미국 뉴욕의 대규모 전력망 구축 사업에 약 7000억원 규모의 초고압 케이블을... 해상풍력 등 재생에너지로 생산한 전력을 주요 소비지역으로 운송하고 노후 전력망의 공…
 - [美 '데이터센터 전력망 비용 부담법' 통과 충격…삼성SDS 등 관련주 일제...](https://www.widedaily.com/news/articleView.html?idxno=304382) — **와이드경제** · 11-23 10:30
   - 미국 상원이 데이터센터 운영 기업에 신규 전력망 확충 비용을 직접 물리는 법안을 통과시키면서 국내... 조달과 전력망 증설에 드는 비용을 부담하도록 의무화한 것이 핵심이다. 인공지능(AI) 산업 확…
 - [美 전력망 비용 부담 우려에 AI데이터센터株 '와르르'…삼성SDS 16%↓](https://www.newsis.com/view/NISX20261123_0003878838) — **뉴시스** · 11-23 10:26
@@ -204,8 +212,6 @@ modified: 2026-11-23T10:31+09:00
   - 울산시와 한국동서발전이 23일 오후 2시 시청 본관 7층에서 지역의 분산된 에너지 자원을 통합 관리하는 가상발전소(VPP)와 차세대 전력망 구축을 위한 업무협약을 체결한다. 가상발전소(VPP)는 태…
 - [양자컴퓨팅, 신약 개발보다 에너지 산업서 먼저 상용화되나…전력망 최적화·신소재 개발 주목](https://www.hellot.net/news/article.html?no=116493) — **헬로티** · 11-23 10:02
   - 전력망 운영 효율 높이고 태양전지·수소 촉매 개발에 활용…기존 컴퓨팅 대비 최대 1000배 처리 속도... 전력망 운영 최적화부터 태양전지 소재 개발, 수소 생산용 촉매 연구까지 양자컴퓨팅의 활용…
-- [LS전선, 미국 전력망 '7천억 잭팟'…역대 최대 대미 수출](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611230017&t=NN) — **한국경제TV** · 11-23 09:53
-  - LS전선이 미국 초고압 전력망 사업에 7,000억원 규모의 케이블을 공급한다. 국내 전선 업계 역대 최대... 규모 전력망 구축 프로젝트다. 송전 용량 확대와 전력 공급 안정화, 해상풍력 등 재생에…
 
 ---
 
@@ -239,11 +245,13 @@ modified: 2026-11-23T10:31+09:00
 - [이현빈 남동발전 사장, 에너지공대서 소비·효율 중심 에너지 전환 강조](https://www.shinailbo.co.kr/news/articleView.html?idxno=5086281) — **신아일보** · 11-22 13:50
   - 한국남동발전은 앞으로 한국에너지공대와 연구·실증 및 산학협력 범위를 넓히고 에너지 전환을 이끌 신기술 개발과 미래 핵심인재 양성을 추진할 계획이다. \[신아일보\] 창원
 
-### 해외 · 6건
+### 해외 · 8건
 
+- [COP31: Fossil Fuels & the Challenges of Energy Transition](https://news.google.com/rss/articles/CBMiekFVX3lxTE13SENXT0RDQ0xYUGUxa0tYVTBrSUpPSXQ0VDRLc1FWYnFpbTZTLUJpQndTMEtZZDNGamtoUHJrZm1Iei1XeWgySkxzVGJMMG1XdjFWZDZsMWI2dlpkUVNUaENMUUE5eUZVNUFOdkNQMkZQZTM3QWZQVkZ3?oc=5) — **Inspenet** · 11-23 01:04
 - [Energy transition fallout? Major ‘cracks’ emerging in the Philippines](https://news.google.com/rss/articles/CBMimwFBVV95cUxQcS1Qb2ttM0dVd3N5VjJLTnR5aG5rUC14cThFM09iQVR1RkdqMjd2aVc1ZlpVQjVYaGk4MWxicnN6UVhqQ1Jpa3JJSnlJR1VQbi1MTlZ2WnItczlvc2lIYTVrXzIyNzBDN2lDTTZfOHpfZXU3c2hMUG1XOVZ1eVdBRktZU1NucUFLT2R1VTBJT2EyaV9xN1JQRFBydw?oc=5) — **Manila Bulletin** · 11-23 01:03
 - [China expands nuclear heating as clean energy transition speeds up](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lbkh5LWRMN1pucl9XdFRTQTJwaTdFNDA3cnUwNk9OcER5amhFVFBDRGVEQklFRG9nUnpQZFJiQ3h1ejdCUWtsUUdNY1hxNzNJdl9zQWJKMWtDWktlQXFnU0JR?oc=5) — **Global Times** · 11-23 00:37
 - [COP31-26, Türkiye: Kenya seeks GEF funding partnership to accelerate Africa's renewable energy transition](https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZ3lTS0IyWF8yNUJqSEJpOHJKeUdFMENWNDl2SkhRd3ZvTkxqTVk4bTFLMUFzSHZ1cGlaOFV3NGYyTVRBRmNERzFMZ1FibWpjSzRGMUxHa3pDdkpLelJQME1Wc0VnTllFRjJnMl9lQ1dLZE1SVmNxMVBMZzVGenJlMGlsZWVDVy1SWUlLenFoOEZBeElJQ09PbEtPOUItOF9JZS1wcFJrT0N6b1R2T2wtRTBOSFJZUy13ZkpoQ3Azb1VtWkdnMS1wbi1mZ2otZjNFQUNWdXE5YW4?oc=5) — **Tech Review Africa** · 11-22 23:18
+- [Triodos Energy Transition Europe Q Cap (0P0001J0A1.F) Seasonal returns chart](https://news.google.com/rss/articles/CBMibEFVX3lxTE1ITlNJek5HSlpDbHVRTnMxTF9hZC1Db0NBX29ocDJudDRIMmpCeEUxUjFTYlZGbjk0ZEhhZzVvNlRPLWxJYjlZb3JERkpqbTUzakluQXFOamJOVFpxTVRpMGFCSmlTUDNVZFVBNQ?oc=5) — **Yahoo Finance UK** · 11-22 20:02
 - [Korean Railways Must Move Beyond Green Transport to Energy Transition](https://news.google.com/rss/articles/CBMiogFBVV95cUxOU29Ba216eUtyaUNwak42Y1NVakVQQmNtbWhsUEVaTlRoVkVVdzdicVJ5TlpITUx2U2JHblFZOC1MYjhmWjlvWE4tMVJuLXBFREVmTEwtdFhrRzlLYnM2cTA0ZTZnY3YtaGs3Y2ppRlpOWFJnWkR1dEI0WnF6UnNiU3FaX1U1WGtPU1RJaXg0SU1MaEJLZG5PN283SE91X1JuNFE?oc=5) — **Seoul Economic Daily** · 11-22 18:04
 - [Germany speeds up energy transition with photovoltaic power application](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQU0NjQW9iamJQNmNoa2JQUGZVWjBEdy00OWZkSmJZQWl2dDY2aG9nQ2JxaFZpZ09KTkhGQkh6dndhYV9zOFQ2UldoMmJkcnQ3UkM1b3hrQVJ4TkxYbEVvN0dXM2I1MFFYV1JGeXhRSDEyYTBmcnpzemNMZExNejdRTWZvSk9od3N6cDBUU2podmZ3Mng2dDE1dDduU04yeUxOVHV0QzZrTGRQUnFmVmp6WXFDMjZKUlE2VnhOTjBMc2Q?oc=5) — **巴士的報** · 11-22 16:14
 - [HEC Paris Doha equips executive leaders to navigate global energy transition complexities \| Gulf Times](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ2FJeGNkREJEMjNKQngxMHVjUUdCdjBFS1ppNWdPVHZkejJyamg2b0ZuSWNOYTZLb1lTdWE2VExBZmJZOTM4TUZMVjdKbzZENkVaeUp0OXdpbGNQaFVxX2w5b3NqVzZlVzVhSnlMU2pzc21pZ1BoekhSSFo5el9FMWF5eldDMmlvOFhnZFd1bjJrNExyZ1dhMUJUdG40UFkyNlRkQWlPUlRCYk80S015cTBZcE9FT0luZlRadDVIMTdrMUZkb0dUREZOblVqWTIxWk1v0gHYAUFVX3lxTE1XVnBPcHZTbXRDWFZValF6YkhRNG51SnpiV0xBYUs5MG5oakR5WHZoNDJvaGtnU3lYeXhqTkd3bXhkc1lCUVJ2ZDV5NjNDMXV1Wks5dFhwcHdIa3c0ejBEXzZsTDYwVGlWbGJXSHgwNm1uX2NJUWNuM1lCZUtKcFNJMjBkc01IQTdKLTJoOVVXWGF4d0VVNTk2eENSZ3lNOWFxb19DQTFxbkR3SW9sbnRGbGdzM2hvNEw5RDhtSG52cDhsVEhXdHVpazAwQjZLOFk1ZDJVbEZhRQ?oc=5) — **Gulf Times** · 11-22 06:00
