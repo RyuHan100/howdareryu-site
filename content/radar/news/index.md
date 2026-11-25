@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-25
-modified: 2026-11-25T13:31+09:00
+modified: 2026-11-25T13:56+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-25 13:31 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-25 13:56 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-25|11-25 클리핑]] — 기사 **199건** (국내 112 · 해외 87)
+> [!example] [[radar/news/2026/11-25|11-25 클리핑]] — 기사 **206건** (국내 118 · 해외 88)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -29,19 +29,22 @@ modified: 2026-11-25T13:31+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 17건
+### 국내 · 18건
 
 - [제주도, '기후경제수도' 실현 본격화…정책자문단 출범](https://www.yna.co.kr/view/AKR20261124157100056?input=1195m) — **연합뉴스** · 11-24 16:58
   - 정책자문단은 에너지, 탄소시장, 기후 혁신 기술(기후테크), 금융, 녹색전환, 기후시민사회 등 6개 분야 전문가 22명으로 구성됐으며 단장은 자문단에서 자체 선출한다. 자문단은 그동안 분야별로 추진…
   - 관련 보도 5건: [헤드라인제주](https://www.headlinejeju.co.kr/news/articleView.html?idxno=602645), [제민일보](https://www.jemin.com/news/articleView.html?idxno=848356), [삼다일보](http://www.samdailbo.com/news/articleView.html?idxno=273131), [제주MBC](https://jejumbc.com/NewsArticle/875186), [KBS 뉴스](https://news.kbs.co.kr/news/pc/view/view.do?ncd=8721553&ref=A)
+- [후시파트너스, 가스공사·버스연합회와 수소버스 온실가스 감축 방법론...](https://www.seoul.co.kr/news/economy/2026/11/25/20261125500136?wlog_tag3=naver) — **서울신문** · 11-25 12:37
+  - 지난 10월에는 글로벌 탄소시장 전문기업 ACT그룹과 협약을 맺고, 2027년 CBAM 인증서 구매 의무화를 앞둔 수출기업의 배출량 산정·검증 및 인증서 비용 관리를 연계 지원하고 있다. 이 같은…
+  - 관련 보도 1건: [전자신문](https://www.etnews.com/20261125000309)
+- [산림청, 기후위기 극복위한 ‘글로벌 산림 리더십’ 공고히](https://biz.heraldcorp.com/article/10948959?ref=naver) — **헤럴드경제** · 11-25 13:44 · 국제감축 / Article 6 · NDC
+  - 산림청은 제주 세미 맹그로브 적응성·탄소시장 연구 및 실증 경험과 베트남 홍강 삼각주 지역 맹그로브 복원 국제협력사업 성과를 소개해 한국의 맹그로브 연구·복원 역량을 알리고 글로벌 산림협력 기반을…
 - [산림청, 산림분야 국제협력 성과 거둬…온두라스와 REDD+ 합의](https://www.news1.kr/local/daejeon-chungnam/6365551) — **뉴스1** · 11-25 13:20 · 국제감축 / Article 6
   - 산림청은 제주 세미 맹그로브 적응성·탄소시장 연구 및 실증 경험과 베트남 홍강 삼각주 맹그로브 복원 국제협력사업 성과를 소개했다. 해당 사업은 330ha 복원, 산림환경서비스지불제(PES) 해안 최…
 - [산림청, COP31서 온두라스와 REDD+ 합의…글로벌 산불 대응 주도](https://www.newsis.com/view/NISX20261125_0003882459) — **뉴시스** · 11-25 13:16 · 국제감축 / Article 6
   - 맹그로브 기후동맹(MAC) 제4차 장관급 회의에서는 제주 세미 맹그로브의 적응성과 탄소시장 연구·실증 경험, 베트남 홍강 삼각주 일대 330ha 맹그로브 복원사업 성과를 공유했다. 이현주 산림청 국…
 - [\[이슈 포커스\] “탄소배출량 계산만으로는 부족”…글로벌 환경규제, 공...](https://www.hellot.net/news/article.html?no=116592) — **헬로티** · 11-25 12:46 · 자발적 탄소시장 / VCM
   - 향후 기업이 실제 탄소감축 실적을 바탕으로 탄소크레딧을 확보하고 탄소시장에 참여하는 과정에서도 1차 데이터의 중요성이 더욱 커질 것으로 전망했다. 다만 국내 제조 현장의 데이터 확보 여건은 여전히…
-- [후시파트너스, 가스공사·버스연합회와 수소버스 온실가스 감축 방법론...](https://www.seoul.co.kr/news/economy/2026/11/25/20261125500136?wlog_tag3=naver) — **서울신문** · 11-25 12:37
-  - 지난 10월에는 글로벌 탄소시장 전문기업 ACT그룹과 협약을 맺고, 2027년 CBAM 인증서 구매 의무화를 앞둔 수출기업의 배출량 산정·검증 및 인증서 비용 관리를 연계 지원하고 있다. 이 같은…
 - [한국, 온두라스와 REDD+ 사업 펼친다](https://www.sedaily.com/article/20118691?ref=naver) — **서울경제** · 11-25 11:01 · 국제감축 / Article 6
   - 산림청은 제주 세미 맹그로브 적응성·탄소시장 연구 및 실증 경험과 베트남 홍강 삼각주 지역 맹그로브 복원 국제협력사업 성과를 소개해 한국의 맹그로브 연구·복원 역량을 알리고 글로벌 산림협력 기반을.…
 - [\[우리품의 아프리카인\](62) "낯선 한국서 수술…따뜻한 배려에 감동"](https://www.yna.co.kr/view/AKR20261120149400898?input=1195m) — **연합뉴스** · 11-25 07:00 · 국제감축 / Article 6
@@ -54,8 +57,6 @@ modified: 2026-11-25T13:31+09:00
   - 한화투자증권 김예인·박세연 연구원은 24일 보고서에서 유럽연합(EU) 배출권거래제 개편 논의와 EU·영국 간 배출권거래제 연계 불확실성이 시장 변동성을 키우고 있다며 국제 탄소시장 제도의 변화에 주…
 - [탄소시장연합](https://www.danbinews.com/news/articleView.html?idxno=34150) — **단비뉴스** · 11-24 18:14
   - 온실가스 배출권거래제와 탄소세 등 의무 탄소시장에 관한 국제 협력을 촉진하는 자발적 협의체다. 온실가스 감축과 파리협정 목표 달성을 지원하는 것이 목적이다. 회원국들은 온실가스 배출량의 산정·보고·…
-- [제주 '기후경제수도' 시동…전문가 22명 자문단 출범](https://www.newsjeju.net/news/articleView.html?idxno=428870) — **뉴스제주** · 11-24 17:22
-  - 자문단은 에너지와 탄소시장, 기후혁신기술(기후테크), 금융, 녹색전환, 기후시민사회 등 6개 분야 전문가 22명으로 구성됐다. 에너지 기업과 금융·투자기관, 대학, 연구기관, 시민사회 등의 전문가들…
 
 ### 해외 · 12건
 
@@ -76,8 +77,10 @@ modified: 2026-11-25T13:31+09:00
 
 ## 국제감축 / Article 6
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [산림청, COP31서 온두라스와 탄소감축 협력 체결](https://www.businesskorea.co.kr/news/articleView.html?idxno=282151) — **Businesskorea** · 11-25 13:54 · NDC
+  - 양국은 기존 산림협력 양해각서와 파리협정 제6조 이행 협정을 바탕으로 '한-온두라스 REDD+ 사업' 추진에 대한 공감대를 재확인했다. 사업 이행 창구 역할을 수행할 '한-온두라스 REDD+ 협력센…
 - ['노스 스타' 탄소 제거 프로젝트, 캐나다 정부 조달 공급업체 선정](https://www.todayenergy.kr/news/articleView.html?idxno=306019) — **투데이에너지** · 11-25 09:04
   - 클로드 레투르노 스반테 CEO는 "이번 선정은 캐나다 탄소 제거 산업의 중요한 진전"이라며 "탄소 제거 크레딧의 안정적인 수요 창출은 투자 유치와 프로젝트 가속화를 이끌고, 장기적으로 파리 협정 제…
 
@@ -95,10 +98,10 @@ modified: 2026-11-25T13:31+09:00
 
 - [서울시, 수도요금 감면과 탄소배출권 문제 해결 촉구](https://news.google.com/rss/articles/CBMickFVX3lxTE5uendLZUVOaGU0SktLR3NMXzVuZjV2dERFeUxQc01OTzM5bG9BdWZRajlZNTRscHJmVVB0YkxIQktkTjBIU3FhUlA3a2F3VFQ4SlR1aEJCaGU5Z3NoQ291S2pYVUR4NlNRSlphSzlRTS1jdw?oc=5) — **미디어시시비비** · 11-25 13:03
 
-### 해외 · 11건
+### 해외 · 12건
 
-- [EU and UK agree to link Emissions Trading Schemes](https://news.google.com/rss/articles/CBMikgFBVV95cUxPdHFLUFJPZ3Qtd3pwQWppSk5ON2g5X0ptTkMzVDR5Y0lZNm1DTE5HQjlrS1hTbWhRZWF1NkVaSTJIRktpcXNEckk4WkRqODc4VXJxYkd0Wi1INmVFRi16b3V0YTVicHR6aGoxUUZXWWZtX1JMQ0tsbm9KSXZ6NGxZdWdBSDhqa3lOX21nWmpsZkdxZw?oc=5) — **Circular Online** · 11-24 18:12
-  - 관련 보도 2건: [Rigzone](https://news.google.com/rss/articles/CBMipAFBVV95cUxQOS0wMFcyRERXa3g1QVFfUVhVcGNJaldJX0xVZmxvTklWclRVYTZTVzllb2J2c2NPanJWbHFRc3FKZUdXZVc0M3pnUWNIR1NUNDk0Y243OUxEdS01ald4ck12RlI4c0hQVmIyTEJtaVJLX01qTEVoR0d5dkNsUlZaR0Z6Q1FnTS1Nc1JLYjF0MzNfZnhkdFJJbHFuSTEzaERPUDdDMQ?oc=5), [https://www.engine.online/](https://news.google.com/rss/articles/CBMioAFBVV95cUxNSU1JYnNtUDNvQnpxUGxIcmFySWtwMjBrUGJCMlg0QUZwcjVvZlBwa3NxZjI2OUVrTWlBZlhMenhseWR4LW55Z1A4OHg5Y252dkZmVG1fM1YxSHUzd0UwblNBNng0Z1h3bkZ2OERrWU1qcjI1YU1Gd1U0OThmM3M4RDh5OHl4ekgyV3VCQXFXeHVmVEw2Y1Nja1RmMXdiZUY3?oc=5)
+- [EU and UK agree to link their emissions trading systems](https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzZHSW5TOFJtSWs5M1BfbGtpbjIzeExNc0hYWkd1Y0g0NWcwUGl1UFp5TlBXbk1FNjR0R0RMTzRCcElQNkZvQkU2dnRVTjFIMEFOVlFfTTVReWJXZkczblp1UEMxb2xJV3BrRnFSYS1oUTl4UFc5QjNtY01WcjlaS2RKS2pZanhfOFRIcTBOQnI1bDl3WDE4?oc=5) — **SteelRadar** · 11-23 23:33
+  - 관련 보도 3건: [Circular Online](https://news.google.com/rss/articles/CBMikgFBVV95cUxPdHFLUFJPZ3Qtd3pwQWppSk5ON2g5X0ptTkMzVDR5Y0lZNm1DTE5HQjlrS1hTbWhRZWF1NkVaSTJIRktpcXNEckk4WkRqODc4VXJxYkd0Wi1INmVFRi16b3V0YTVicHR6aGoxUUZXWWZtX1JMQ0tsbm9KSXZ6NGxZdWdBSDhqa3lOX21nWmpsZkdxZw?oc=5), [Rigzone](https://news.google.com/rss/articles/CBMipAFBVV95cUxQOS0wMFcyRERXa3g1QVFfUVhVcGNJaldJX0xVZmxvTklWclRVYTZTVzllb2J2c2NPanJWbHFRc3FKZUdXZVc0M3pnUWNIR1NUNDk0Y243OUxEdS01ald4ck12RlI4c0hQVmIyTEJtaVJLX01qTEVoR0d5dkNsUlZaR0Z6Q1FnTS1Nc1JLYjF0MzNfZnhkdFJJbHFuSTEzaERPUDdDMQ?oc=5), [https://www.engine.online/](https://news.google.com/rss/articles/CBMioAFBVV95cUxNSU1JYnNtUDNvQnpxUGxIcmFySWtwMjBrUGJCMlg0QUZwcjVvZlBwa3NxZjI2OUVrTWlBZlhMenhseWR4LW55Z1A4OHg5Y252dkZmVG1fM1YxSHUzd0UwblNBNng0Z1h3bkZ2OERrWU1qcjI1YU1Gd1U0OThmM3M4RDh5OHl4ekgyV3VCQXFXeHVmVEw2Y1Nja1RmMXdiZUY3?oc=5)
 - [UK-EU ETS linking: a new pathway for cross-border CO₂ transport and storage](https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGVkS3NhNW5JZWEwazAyeFBIWC01Y2UzOU9MM0VzNjBUUWRiVC03UmV0dEFOX2JhakJXQlVsODU2Wi1tRnlNRWF3RU9ycm9vQVJwaEFuS1lKWTcwU0lTZkxrc1lvMjZHQ2ltRnQyY0pfd2xEN3lKcjFLZ2RvemFTVDg0Z0syS0FfWW1STzRVMHBzcm4tR3NYMTVQd2F5dkxSOEFITVRtN1ltRWtPN3dF?oc=5) — **CMS.law** · 11-25 07:20
 - [Spain incorporates the maritime ETS into its legislation and establishes the penalty regime applicable to shipping companies](https://news.google.com/rss/articles/CBMiggJBVV95cUxPNjhVSmMwS253S3N5d25ic1JJRVM2NUpROENqRFF1ZU1aNnp6QXl1bWtrcHp4OVh6ZnNjX2VMWkJrOFR1OEdGQk1saUsyU1Z3bFhISm5OWDA1eGFsWENRRm41d3oxTERnRGVmZmJ5X0J0R2tEbUppOTZ1N0FQQ25YV1lvaFBNSS1ONXRqVW95TzJLMUF1cW5xSjE4UWc5Rzh0ME1zTndoMjRfVG9EbXpwT0YtN25qd1RTSFkyeF9PSExGdEJla3ZsNG1xOUlfa3IwOGJJM1VYMWpaSDNickN2TkwtSmE0WndJQjZwUWEzYkc5cms1RXR0OVk4VTlIVC1zcnc?oc=5) — **El Estrecho Digital** · 11-25 03:00
 - [EU Parliament backs 'quick-fix' supply balancing reform for ETS](https://news.google.com/rss/articles/CBMisAFBVV95cUxQdFpfYWMtNkNYZkZibGJlbE5kazZBQmlHakU1UkdNVlNPZlpza1ltT3NqZkNWajd2bDFlV1Q2YlMxOFN1V3l6V2JJamZVNGczbWtOSTlLeDdSUEZrdU1DSXZfTHE3S3hBdzFDVjRkM2RRcGZjYTdrRzEtcDU1WXg2Vng3ZVEzZjFoc1ZRRU9pN3pWdEJ4RU1LZTcyc1MwcnpMR2RBdW1ZR2VTVkZwZFNLWQ?oc=5) — **Quantum Commodity Intelligence** · 11-24 23:15
@@ -117,6 +120,8 @@ modified: 2026-11-25T13:31+09:00
 - [제31차 유엔기후변화협약 당사국총회 결과…“안탈리아 합의안 채택 불...](https://www.catholictimes.org/article/20261123500088) — **가톨릭신문** · 11-24 17:38
   - 높이자는 목표다. 그러나 늘어나는 전력 수요를 재생에너지 등 청정에너지로 충당하도록 하는 명확한 조건이 없어, 전기화 확대가 실질적인 온실가스 감축으로 이어질 수 있을지 우려가 제기됐다. 일부 산유…
   - 관련 보도 1건: [단비뉴스](https://www.danbinews.com/news/articleView.html?idxno=34200)
+- [\[기자의 눈\] AI 위기론의 최전선에 선 기후에너지환경](https://www.ekn.kr/web/view.php?key=20261125024254384) — **에너지경제신문** · 11-25 13:32 · AI 온실가스
+  - 급증하는 전력수요는 국가온실가스감축목표(NDC)와 전력수급기본계획의 전제 자체를 뒤흔든다. 반도체 공장과 데이터센터의 막대한 용수 수요 역시 지역의 수자원 부족과 생태계 훼손 문제로 이어질 가능성이…
 - [COP31 대표결정문 채택 불발…정부, 후속 감축과제 논의](https://www.dailian.co.kr/news/view/1719198/?sc=Naver) — **데일리안** · 11-25 12:02
   - 두 번째 주제에서는 탄소예산과 국가 감축경로를 토대로 국가 온실가스 감축목표(NDC)의 과학적 이행방안을 모색한다. 오일영 기후부 기후에너지정책실장은 “이번 토론회가 국제 기후협력과 우리나라의 감축…
 - [기후부, COP31 후속 대응 논의…국민과 온실가스 감축 해법 모색](https://www.ajunews.com/view/20261125090840168) — **아주경제** · 11-25 12:02
@@ -136,8 +141,6 @@ modified: 2026-11-25T13:31+09:00
   - 수송부문 온실가스 감축을 위한 지원방안을 다각화한다. 기후에너지환경부와 국토교통부는 택시업계와 협력해 2035년까지 신규 도입하는 모든 택시를 전기차로 보급하는 것을 목표로 전동화를 추진한다. 올해…
 - [\[경남수소컨퍼런스\] “수소경제 활성화 전용기금 마련해야…탄소감축 ...](https://www.ekn.kr/web/view.php?key=20261124024034077) — **에너지경제신문** · 11-24 21:30
   - 국내 수소산업의 지속적인 성장과 국가 온실가스 감축목표 달성을 위해 수소경제 활성화 전용기금을 마련해야 한다는 제언이 나왔다. 개별 기업의 기술개발 지원을 넘어 수소 생산부터 저장·운송, 활용에 이…
-- [기후적응 재원 3050억달러 필요한데…국제사회 지원은 10분의 1](https://www.esgeconomy.com/news/articleView.html?idxno=17513) — **ESG경제** · 11-24 20:28
-  - UNEP는 155개 개발도상국의 국가온실가스감축목표(NDC)와 국가적응계획(NAP)을 분석한 결과 연간 2550억\~3280억달러의 적응 재원이 필요하다고 추산했다. 별도 모형 분석에서는 연간 320…
 
 ### 해외 · 13건
 
@@ -218,8 +221,15 @@ modified: 2026-11-25T13:31+09:00
 
 ## ESS
 
-### 국내 · 16건
+### 국내 · 20건
 
+- [솔리스, 태평양 도서국 태양광·ESS 사업 본입찰 참여](https://www.edaily.co.kr/News/Read?newsId=02607606645649328&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-25 11:57
+  - 한화플러스제5호스팩(498390)과 합병 상장을 추진 중인 공정 유틸리티 설비 전문기업 솔리스가 태평양 도서국의 태양광·에너지저장장치(ESS) 구축 사업 본입찰에 참여하며 신재생에너지 분야로 사업…
+  - 관련 보도 2건: [뉴시스](https://www.newsis.com/view/NISX20261125_0003882708), [뉴스핌](https://www.newspim.com/news/view/20261125000816)
+- [경기도의회 임유진 의원, “고양 공유형 ESS 준공 후 가동 지연… 경기도가 적극 나서야”](https://news.google.com/rss/articles/CBMiSkFVX3lxTFBzcUw2dGhPNkVvZGxTczNSVl9kQUNObEkxak1lNC1QRV94VWtTaEl6Qk13YTZhUzlCU20ycWJEbmp4clBGNHNrRXN3?oc=5) — **미디어투데이** · 11-24 20:29
+  - 관련 보도 2건: [더최고신문](https://news.google.com/rss/articles/CBMicEFVX3lxTE5SSVhYb05CcTJ6WTZpNkRmdEdiQWxjVEdBOEl0dTY3SDU4Z3lLZ0luUTJsS0otSkpDWXE5TGZoajNrTHZ6OE12dUZEYW9XUTNMRzN1WUptY3lvbnhGbG5NUTFsY3p6WVRkbnR4aFFnS0_SAXBBVV95cUxOUklYWG9OQnEyelk2aTZEZnRHYkFsY1RHQThJdHU2N0g1OGd5S2dJblEybEtKLUpKQ1lxOUxmaGoza0x2ejhNdnVGRGFvV1EzTEczdVlKbWN5b254RmxuTVExbGN6ellUZG50eGhRZ0tP?oc=5), [문화일보](https://www.munhwa.com/article/11633862?ref=naver)
+- [\[더벨\]아이씨에이치, 난연 PU폼으로 미국 ESS 시장 공략 - 머니투데이](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VUnZJakN2VUtzNVdYb25zVGdoX05SYVB0bVQxMWJHckpkZDNVMzQyQmhiRzJlQjNWdmxXNXJRS0pIQkw5N0hwWVVnaTRZcEMzLWE1LXhHOGgzQWxVNnJmeUctRzlxN2pn0gFuQVVfeXFMT3dRWHhHMWc1ZjlrYmpTQ1JmbmFuX0J5SzFCbl9oeE11TkowN1FGTlZ6bEZpckFkbTBCeEFrR3JCQUhXQWRhNEpZYmNzUHZhVF8tZ2FheXRQUWJ5M3N2S2ZlSVQwb2xqWHJuZWdNd1E?oc=5) — **머니투데이** · 11-25 13:15
+  - 관련 보도 1건: [thebell.co.kr](https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611251215586840108762)
 - [아이씨에이치, 美 ESS 배터리용 소재 공급 확대 전망](https://view.asiae.co.kr/article/2026112509423337808) — **아시아경제** · 11-25 09:42
   - 아이씨에이치는 미국의 친환경 에너지 정책 강화 기대감으로 에너지저장장치(ESS) 배터리용 소재 공급을 확대될 전망이라고 밝혔다. 25일 아이씨에이치에 따르면 국내 배터리 기업 SK온은 지난 8월 미…
   - 관련 보도 1건: [뉴시스](https://www.newsis.com/view/NISX20261125_0003882444)
@@ -229,10 +239,10 @@ modified: 2026-11-25T13:31+09:00
 - [아이씨에이치, 열폭주 늦추고 완충력 높였다…난연 PU폼 美 ESS 공략](https://www.mt.co.kr/stock/2026/11/25/2026112509440988304) — **머니투데이** · 11-25 09:48
   - 첨단 전자소재 전문기업 아이씨에이치가 난연 폴리우레탄(PU)폼을 앞세워 미국 에너지저장장치(ESS) 시장 공략에 나선다. 아이씨에이치는 미국의 친환경 에너지 정책 강화에 따른 ESS 투자 확대가 예…
   - 관련 보도 1건: [머니투데이](https://news.google.com/rss/articles/CBMibkFVX3lxTE1xNTh2SHJFWXljQm04Mmg5UjFUM1JUNE9GbzNJYmNweW5EQXV2WFFuMlRZY0VVWktZdlF4MkJKZms0Rm55c2VLYU01TUMyclozaGlQMjFtZDBoZFlaajkyYWQwTlFXbE9zQkdpWlZR0gFuQVVfeXFMTXE1OHZIckVZeWNCbTgyaDlSMVQzUlQ0T0ZvM0liY3B5bkRBdXZYUW4yVFljRVVaS1l2UXgyQkpmazRGbnlzZUthTTVNQzJyWjNoaVAyMW1kMGhkWVpqOTJhZDBOUVdsT3NCR2laVlE?oc=5)
-- [경기도의회 임유진 의원, “고양 공유형 ESS 준공 후 가동 지연… 경기도가 적극 나서야”](https://news.google.com/rss/articles/CBMiSkFVX3lxTFBzcUw2dGhPNkVvZGxTczNSVl9kQUNObEkxak1lNC1QRV94VWtTaEl6Qk13YTZhUzlCU20ycWJEbmp4clBGNHNrRXN3?oc=5) — **미디어투데이** · 11-24 20:29
-  - 관련 보도 1건: [문화일보](https://www.munhwa.com/article/11633862?ref=naver)
-- [솔리스, 태평양 도서국 태양광·ESS 사업 본입찰 참여](https://www.edaily.co.kr/News/Read?newsId=02607606645649328&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article) — **이데일리** · 11-25 11:57
-  - 한화플러스제5호스팩(498390)과 합병 상장을 추진 중인 공정 유틸리티 설비 전문기업 솔리스가 태평양 도서국의 태양광·에너지저장장치(ESS) 구축 사업 본입찰에 참여하며 신재생에너지 분야로 사업…
+- [삼성에 애플, 여기에 ESS까지…파인엠텍, 실적 터졌는데 주가는 5000원대](https://www.newsquest.co.kr/news/articleView.html?idxno=305815) — **뉴스퀘스트** · 11-25 13:34
+  - 코스닥 상장 IT 부품 기업 파인엠텍이 폴더블 스마트폰 부품과 에너지저장장치(ESS) 부품의 동반 성장에 힘입어 사상 최대 분기 매출을 기록했다. 북미 고객사향 폴더블 부품 공급까지 본격화되면서 기…
+- [포스코, AI 인프라로 철강 영토 넓힌다…데이터센터·ESS 공략](http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005969763) — **매일경제TV** · 11-25 13:32
+  - 포스코는 포셀뿐 아니라 배터리 랙용 포스맥, 컨테이너용 특수 강재 등 ESS 구성 요소에 필요한 소재를 종합적으로 제공하고 있습니다. 한편, 포스코는 AI 데이터센터, 전력 인프라, ESS, 휴머노…
 - [\[CEO 리더십\] 김동명의 LG엔솔 '체질 개선'…폴란드 공장, ESS 전진기지로](https://www.financialpost.co.kr/news/articleView.html?idxno=303050) — **파이낸셜포스트** · 11-25 11:32
   - 전기차(이하 EV) 수요 둔화(이하 캐즘)에 대응해 기존 EV용 파우치형 배터리 라인 일부를 에너지저장장치(이하 ESS)용 리튬인산철(이하 LFP) 라인으로 전환하며, 브로츠와프 공장을 유럽 ESS…
 - [아이씨에이치, 美 친환경 정책 수혜 기대…ESS용 고기능 소재 공급 박차](https://www.widedaily.com/news/articleView.html?idxno=304720) — **와이드경제** · 11-25 11:18
@@ -240,11 +250,6 @@ modified: 2026-11-25T13:31+09:00
 - [주가 조정에도 'ESS'는 달린다…배터리 셀 이익 231%↑](https://news.google.com/rss/articles/CBMia0FVX3lxTE9wUnZvSlVPNDhEWWZfclY5SnllSWNZQUxHRkxreUxseVR2LS12NHNwRFh6cDRjc3UwNW85clFLSWtCMlhTS1RFclFtTzV2WlE1Ym5rZEZkbnQtMUt0NU5zLTh2X0RmY3k4aXFn0gFrQVVfeXFMT3BSdm9KVU80OERZZl9yVjlKeWVJY1lBTEdGTGt5TGx5VHYtLXY0c3BEWHpwNGNzdTA1bzlyUUtJa0IyWFNLVEVyUW1PNXZaUTVibmtkRmRudC0xS3Q1TnMtOHZfRGZjeThpcWc?oc=5) — **경제투데이** · 11-25 10:49
 - [K배터리 엇갈린 실적…다음 과제는 'ESS 납품'](http://www.hansbiz.co.kr/news/articleView.html?idxno=887040) — **한스경제** · 11-25 10:44
   - 게티이미지뱅크 \| 서울\=한스경제 김창수 기자 \| 북미 에너지저장장치(ESS) 수요가 국내 배터리업계 3분기 실적을 떠받쳤지만 회복 속도는 각기 달랐다. LG에너지솔루션과 삼성SDI는 전분기보다 영업…
-- [티로보틱스, 북미 ESS 수주 확대에 휴머노이드까지…내년 흑자전환 전망](https://www.greened.kr/news/articleView.html?idxno=355494) — **녹색경제신문** · 11-25 10:27
-  - 티로보틱스가 북미 에너지저장장치(ESS) 공장향 물류 자동화 수주를 확대하는 한편 산업용 휴머노이드로 사업 영역을 넓히고 있다. 기존 주력 사업인 진공로봇의 출하 회복에 더해 자율이동로봇(AMR)의…
-- [아이씨에이치, 美 ESS 시장 공략 확대…SK온 배터리 소재 품질검증 통과](http://www.popcornnews.net/news/articleView.html?idxno=141423) — **팝콘뉴스** · 11-25 10:20
-  - 첨단 전자소재 전문기업 아이씨에이치가 미국 에너지저장장치(ESS) 시장 공략에 나선다. 배터리 안전성과 내구성을 높이는 고기능성 소재를 앞세워 기존 모바일 기기 중심의 사업영역을 확대한다는 계획이다…
-- [김동명 LG에너지솔루션 사장, 中 ESS 1위 하이퍼스트롱과 전략협력…美 애리조나 거점도 증설](https://news.google.com/rss/articles/CBMia0FVX3lxTE9idWd2MnVCTU9OeEhFRmxER2hrMkdicUFWZ3lsbUY4d1pnQUFoQWZWemk3OFR5aHc1V0RtWTNrcUhvbmxIdlREYVF5QkJqenNhZ3JHTkpFejQwcy1ZRDRmTjZ1Ykhod0p3VWhF0gFrQVVfeXFMT2J1Z3YydUJNT054SEVGbERHaGsyR2JxQVZneWxtRjh3WmdBQWhBZlZ6aTc4VHlodzVXRG1ZM2txSG9ubEh2VERhUXlCQmp6c2FnckdOSkV6NDBzLVlENGZONnViSGh3SndVaEU?oc=5) — **CEO저널** · 11-25 10:14
 
 ### 해외 · 14건
 
@@ -335,6 +340,8 @@ modified: 2026-11-25T13:31+09:00
   - 관련 보도 2건: [경남도민뉴스](https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0MFBjdUJWSkstd0NXQ2xHNVBfbktDamFXOHdzTkh3ZkZSaXJzVC1adlUxWVVBdGdNLUMxSXdxd0loZ0V6S3FVNzFWMDlQUWplSHA2QzcyOE1YR3g5VXp4RHlzcw?oc=5), [뉴스경남](https://www.newsgn.com/news/articleView.html?idxno=587751)
 - [경기도 31개 시군 재생에너지 전환 실행계획 마련…지역 맞춤형 전략 필요](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfb1c0bXAwSFBVVVBvX1NKNFlsSUVvNGlIZi1uc3ZadFI2RkdiVUdrd2ZMVUZ3bDlKSHktYkxUclFuYlFtOExNLQ?oc=5) — **ibs뉴스** · 11-24 14:44
   - 관련 보도 1건: [웹이코노미](https://news.google.com/rss/articles/CBMickFVX3lxTE9NNjhlOWpLSi1OaWdlMERzb0xhaWRoZmdtRjA2R2xra2RkTkt3M2JVU1QxM21zYjZIcFU2QjFPd2ZBRWdRRGN6MXFxX2I4ZUQxY3ZFbkpVVGdMS0lMMHhQcnc5clY5WkdHUTJteGltVjBJQQ?oc=5)
+- [수력산업계, 에너지 전환 시대 수력발전 역할 재조명](https://www.energydaily.co.kr/news/articleView.html?idxno=205452) — **에너지데일리** · 11-25 13:42
+  - 올해로 세 번째를 맞은 이번 행사는 글로벌 에너지 전환과 전력산업 환경 변화 속에서 수력발전의 역할을 재조명하고 국내 수력산업의 경쟁력 강화 방안을 모색하기 위해 마련됐다. 행사에서는 수력산업 발전…
 - [광주 에너지전환마을 6년 성과 한자리에…참여 시민 2.1배 늘어](https://www.namdonews.com/news/articleView.html?idxno=930391) — **남도일보** · 11-25 13:18
   - 6년간 광주 시민들이 마을에서 직접 이뤄낸 에너지전환의 성과가 한자리에 모였다. 광주기후에너지진흥원은 지난 24일 오후 2시 김대중컨벤션센터에서 에너지전환마을 주민과 활동가, 관계기관 등 150여명…
 - [울산항만공사, ESG 경영전략 전면 개편…"청정에너지 항만 전환 가속"](https://www.klnews.co.kr/news/articleView.html?idxno=323710) — **물류신문** · 11-25 12:32
@@ -342,14 +349,11 @@ modified: 2026-11-25T13:31+09:00
 - [광주기후에너지진흥원, '2026년 에너지전환마을 성과공유회' 개최](https://www.etnews.com/20261125000240) — **전자신문** · 11-25 11:23
   - 광주기후에너지진흥원은 24일 오후 2시 김대중컨벤션센터에서 '2026년 전남광주통합특별시 에너지전환마을 성과공유회'를 개최했다. 이번 행사는 전남광주통합특별시 출범에 따른 지역 간 연계·협력 확대를…
 - [성복임 경기도의원, 재생에너지 전환 31개 시군 정책토론회 개최](https://news.google.com/rss/articles/CBMidEFVX3lxTFBEcFEySmhwSk5ranNuOWZfQWVxZlZVVFFkRnQzUlJhcExQM3Nuci1ZVlRiQkVDakE3YUtSMk5zcDUtWG5QUUJEVlEzQS1kcWxIczFqVlBWSDFtUGFNYWtNWkZnSUpyYU9yalBnZlNQQUl4YXFE?oc=5) — **글로벌뉴스통신GNA** · 11-25 08:50
+- [오늘날의 에너지 전환 - 기술 발전에 힘입어 재생에너지 시장 성장 중](https://news.google.com/rss/articles/CBMiigFBVV95cUxNTUQxSE5tN0hJRzVMTlJBRzJZb1pXWXBTU0E2VS15RTlhSWpjTWhXelU4WTdGcVEtbXdaUm9mYWMxT0ZPaU4ydnpSWDRQRjZHWEJDOFVUTmI1NzNMaDVwbXV0bkZraVF0endVc0RRRHJCWmxPQnZUVUl1U0dtWEtZcFQ3Q3llbTVuUFHSAY8BQVVfeXFMT1lNM3lRdk0ydmdNWF9JLWJMeG82TUZZaWJPdVJSRDlYZTNZZktINjVDVmI0N18wZDgwc0JoeG9aYWd5MTQ5cU53X1pVTmlVZmZNeGNjNWZVNjJzRnBmeVFBZWFQUlIxMWxCdk9TVXRSektZcXNnamViTXBDQ3dXak8wVUpQbHZ3QVF5WDlMZWM?oc=5) — **Simply Wall St** · 11-24 20:07
 - [서부발전, 글로벌 해상풍력 기업과 손잡고 에너지전환 본격화](https://news.google.com/rss/articles/CBMibkFVX3lxTE1Vdm10em1hbDgyWGtIZGRGZDhBZEZjTXR4Nk1yb29KTkdzdVRJQkNmV2hnTUZMOWlubk9icFJZNl9hd3BhMzNuZHR2eThqdTRpM0s5b1pTOFVkQ0w0cDc5M0QwUG5mNy1vV21kRzln?oc=5) — **월드투데이** · 11-24 18:37
 - [서부발전, 글로벌 해상풍력 2社와 에너지전환 이끈다](https://news.google.com/rss/articles/CBMibEFVX3lxTE5DNGxDOXhVeWJjem1lM20xcmhjcHhRM2UzaV9zcEJFdFJBaHcxLWlCUldxeF9VcGFyRVBLOWNIVTBJR3ZIX2xWX0RnTWJfWnVOX0U0OGswSWxCZnBiZlZaTUpFQ1dUWmw1UUh2ctIBcEFVX3lxTE16N25pd1h0MHlZX0Raa3hIVDZBS0U3RVB5QUk5azNEYTVIQ1dNMFJoa0VoWWx3bGh2cnpmQW1OaUpvZE1uS2JGXzMwXzY5QlNBNml3cHFBdk5SaHdSWTUyYXg5cGw0WTNhN01SUEhSWkU?oc=5) — **전기신문** · 11-24 18:05
 - [결정문 채택 못한 COP31, 에너지 전환 촉구한 교회](https://news.cpbc.co.kr/article/1177233?division=NAVER) — **cpbc News** · 11-24 18:04
   - 신속한 에너지 전환을 촉구했다. 현재 전 세계에서 화석 연료 기업에 대한 투자 철회를 약속한 기관은 1750여 곳으로 이들이 회수를 약속한 자산 총액은 40조 달러에 이를 것으로 추산된다. 이 가운…
-- [석탄화력 설비를 해상풍력에··· 서부발전, 태안 에너지전환 속도](https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308155) — **그린포스트코리아** · 11-24 17:44
-  - 이정복 서부발전 사장은 "태안해상풍력은 기존 석탄화력 발전시설을 활용하고 지역경제에 새 활력을 불어넣는 에너지전환 사업"이라며 "세계적 해상풍력 기업들과 협력해 사업을 안정적으로 추진하겠다"고 말했…
-- [서부발전, 세계적 해상풍력 기업과 에너지전환 앞장](https://www.naeil.com/news/read/609953?ref=naver) — **naeil.com** · 11-24 16:56
-  - 이정복 사장은 “태안해상풍력은 기존 석탄화력 발전시설을 활용하고 지역경제에 새로운 활력을 불어넣는 에너지전환 사업”이라며 “세계적인 해상풍력 기업들과 협력해 주요 현안을 해결하고 사업을 안정적으로.…
 
 ### 해외 · 13건
 
