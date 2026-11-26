@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-26
-modified: 2026-11-26T12:43+09:00
+modified: 2026-11-26T13:12+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-26 12:43 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-26 13:12 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-26|11-26 클리핑]] — 기사 **200건** (국내 114 · 해외 86)
+> [!example] [[radar/news/2026/11-26|11-26 클리핑]] — 기사 **205건** (국내 117 · 해외 88)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -20,11 +20,13 @@ modified: 2026-11-26T12:43+09:00
 
 ## 탄소시장 / carbon market
 
-### 국내 · 12건
+### 국내 · 13건
 
 - [11월 3주차 국내 ESG 핫클립](https://www.impacton.net/news/articleView.html?idxno=30831) — **임팩트온** · 11-26 11:14 · 국제감축 / Article 6
   - 한·싱가포르 등 9개국, 고신뢰 탄소시장 공동 추진… 내년 발행기구 구축 한국과 싱가포르 등 9개국이 다자간 탄소시장 구상인 '글로벌 고신뢰 탄소시장(GVCM)'을 공동 추진하기 위한 의향서에 서명…
   - 관련 보도 1건: [임팩트온](https://www.impacton.net/news/articleView.html?idxno=30833)
+- ["기후위기 대응, 국경없다"…한중일 청년·석학 머리 맞대](https://www.newsis.com/view/NISX20261126_0003884444) — **뉴시스** · 11-26 12:48 · NDC
+  - 세션별로는 주요 산업별 넷제로 로드맵과 기후금융을 다루는 '산업 탈탄소화 경로'를 비롯해 배출권거래제와 탄소라벨링 연계를 모색하는 '역내 탄소시장 협력', 정지궤도 환경위성과 안정동위원소 기술을 활…
 - [\[GEYK의 COP31 탐방기 in 안탈리아 ⑦\] 기후 프로젝트의 실행 조건… 참...](https://www.ntoday.co.kr/news/articleView.html?idxno=131138) — **투데이신문** · 11-26 10:40 · 국제감축 / Article 6 · NDC · 자발적 탄소시장 / VCM
   - 지원 범위는 탄소시장을 활용하는 감축 프로젝트에 한정되지 않습니다. 유엔개발계획(UNDP)은 BRIDGE가 개발도상국의 국가 온실가스 감축목표(NDC)와 국가적응계획(NAP)에 담긴 우선과제를 투자…
 - [\[ESG 리더 증권사①\] SK증권, ESG로 ‘금융의 판’ 넓힌다…탄소시장 넘...](https://www.news2day.co.kr/article/20261122500050) — **뉴스투데이** · 11-26 04:32
@@ -46,7 +48,7 @@ modified: 2026-11-26T12:43+09:00
 - [후시파트너스, 수소버스 운행 성과를 탄소자산으로…가스공사·버스연합...](https://www.venturesquare.net/1131384/) — **벤처스퀘어** · 11-25 15:10
   - 지난 10월에는 글로벌 탄소시장 전문기업 ACT그룹과 업무협약을 체결하고 2027년 CBAM 인증서 구매를 앞둔 수출기업을 대상으로 배출량 산정·검증과 인증서 비용 관리를 연계한 서비스를 제공하고…
 
-### 해외 · 12건
+### 해외 · 14건
 
 - [BoG urges financial institutions to invest in carbon markets](https://news.google.com/rss/articles/CBMikwFBVV95cUxNbHB6VjVWM28wR0ltSG9fYjBXdEV2T2E3S3VVTUhrbWxvdmNMeVlSeS1pVUwxQ2hCNE1aclVmZ3NEclRpb1o5WnRDME1nMEYzWVQzbWNKSkkwVHF3RTJaalVJWmtZYktDVkp6YU1VRzlJVloxM0swSGkzM3JiLXRON3V2TGpENlB4Zjl4aER4LURVYms?oc=5) — **MyJoyOnline** · 11-25 18:28
   - 관련 보도 1건: [Modern Ghana](https://news.google.com/rss/articles/CBMiZEFVX3lxTE00SDVwMTJGblVqUVBncHEzMDVSMFBlTUlHN3gzNEFndV9nMnBrNWF5NDNJUm8xQ3lJblZfTnBlbWpMODh3NkRSckI3ZHFQUUp6ei1NenMxT2RqUGp0MnhNWG1SaU3SAVxBVV95cUxPQkNSbDlIYXRGV2hpMmFRa0hXaVBBaHd6ZEdWZHFyc3Q3LWJDX1lON3RyU09hQ3pLXy1XT1R2T18zYUlZclJBdW5WSTE1WjlrMkRBUjFYb2pHa29SQw?oc=5)
@@ -55,10 +57,12 @@ modified: 2026-11-26T12:43+09:00
 - [Can carbon markets help finance Pakistan’s climate resilience?](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9iWG1faXdVWmZsdmsyYklCdUhaRGZwaXFxeE5LTHdUbjYwbE90dEU1dE92WFVSaHlON2FrTUN3MFk1Z0VvbDZKOTdROENEUzli0gFWQVVfeXFMTlVFWUtnSm1SZ1RyNzAxcjJJNncxY0dZSkdBQXZ0MjJmUE5qZ2tmaEs2dmtRODdNUjFMaklkZ0ZoQV9uR2hWbWdjbklWQ2EzQ0lVbDRtMnc?oc=5) — **Business Recorder** · 11-26 09:16
 - [From unspoken to standard: Artio eyes Asia Pacific expansion as compliance carbon markets develop](https://news.google.com/rss/articles/CBMitgFBVV95cUxOWlJGZHV6UXEyYU1oanN1WXZ6ZmpmYm5sWUQyQzZGdGpLV1JzMm14RGZxcEtsNTQ4cHJhMDVpeGw5SnNiQWVVdzdmUTgzUGZrSFdhWno2VFdKcnFqYm5LUWgwUFIxeTBIUWI2Q3E3Ym9oUEhCZUl4RjZGZjRscDJyZUtCTGVkd0pvX1E5VlpwaUZZTGRZanNobjV4SUU5TENnV19YUmdRV1FrLTdDRVY0Wk5oSDVFUQ?oc=5) — **InsuranceAsia News** · 11-26 08:32
 - [Carbon markets offer new revenue streams for Ghanaian businesses](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSnh4YzV5RkZ2WUozWlRqMzhzeWJDdDUtRFZZMTNRanFScmFIUEZEdUNlRi1GbEZRUzlENjdjcmlVdnFnYnJrdWRoczhqUmFPTG0wLWpublp5MHZJSTNGX1YwRU1pNUd4djktZlpWOEdlSldXVVU3aEViemVxb1hCMDFISzdsdVAzSzQtZUEyMFZzRll5SDNiNldwZm9NclNlRlBOeDYySzBtUW9SSUpzeE9RWmtJamRnZTRz?oc=5) — **Graphic Online** · 11-26 06:38
+- [COP31: Lagos Unveils Carbon Standards, Targets Transport Emissions](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeFhMaldmUkhsNHRBdU1abENsQUJvNG0weTZlUzlycGtBNm9zdU9KdHI4THRtdWVZd1BwMDFLMWFBLUxXTmFWUjAxeXpsemJseXQ4RUJDY3NUVUkxRmc0YnVsdjRfQS1ub2FNM0NOSDhFUkx2bUFpRF9sa29kZkpISVNROGpyZ3Y3U0lJODhncl9CZlRUUnhfVVlHMTc2MjVraVI1Rmh1Q3M3QQ?oc=5) — **THISDAYLIVE** · 11-26 04:32
 - [UK and EU Agree to Link Carbon Markets from 2028: Another Step Towards a Closer Relationship After Brexit](https://news.google.com/rss/articles/CBMizAFBVV95cUxQa2tzc3d4ZFc3Y3hxY3ktTWV2Mno4VzRGMDQ0dWNxbUgzcDRqX3RpSGJwd09sV0JWb3A2cHRVOHJZQ1pnZ29HRHJoTWo4dE4tTjZNZ09hTXJtYzBMOTNwWEQxUTJWTkh5eHdDTTZvTlJhUm5nZE1hZU15YnFiQll0S1FzS1AyWHRoV1FIY29FalhsNmdZWVRIVm1Ua0d5NW5TTzdtNW9LVVBhSmFuSDVOQThkOVU1eUdCcThVb3VvbEJiV0dNNGJJaHgxVks?oc=5) — **AeroMorning.com** · 11-26 03:00
 - [EU’s carbon market: The price signal works, but Member States and the grid must catch up](https://news.google.com/rss/articles/CBMiygFBVV95cUxPenVKbldkdzFrS3NTM202OERHWU5ncEdPYTlmV05xYUVHdVpxNWR3OWNmeXdyLTZHNnk1SEpWNzdYdFlNMWhYbDYxc0YxbTJJZXR2RFMtSjFieWlNU2I3bno1Q2E0aDhUWmRxVzZBTGY2NEVLQ2MyVDJTSVdpbGpCdjA3TDRFMmpqSnZiUTJtUlkyQ01oVDByQWVWblVNR1lLNUdKUi1YeUNHV2pXMDZiSmRZU2FtaXRKcHBMcmt0V0FIVDV5RHFDOGdn?oc=5) — **Open Access Government** · 11-25 23:17
 - [Building the Workforce for Carbon Markets: Opportunities for the next generation](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSnVEd191aUV4RjdlYVhLYTBwelg4Y0p5TUtaXzdKZ3NKcG5wNGM2aHZIN2ExNnFodE5fV3hDdDJ4a2VsTGM3Q3pmRWtFSVFoRjI0M0cweDYwWm1NQUdFT3JwalBleUJhWmxxdXZmRWU0bld1LWJDMGs1bTBKNUQ4cXkwZzA4T3dvdndaQUYtVllCal81cllkaVhmSVcyN0xrLTN6bFhqa1BWZTUxeDRNQ2ViUy04MHhiV196WUxMV3lnTVRydWhfN04yUFU1aUllQllmaU4yRElRU21Fa2c?oc=5) — **GhanaWeb** · 11-25 22:31
 - [ASEAN Carbon Markets: 4 Steps to Interoperability](https://news.google.com/rss/articles/CBMiugFBVV95cUxQRmNOMFAzZWYzanE1bHA1cUFUOGIxaTVycXEtaXkxTXYzWUwwRzVyR0tyQzZzZ25aLVFjV0JJcmpDaHJSMGUwd0xFU25xYVp4UnFNZVB6bngxZFRHQjVxdVRHLWJaRUp4MXFPLUtLWXJ0XzVtTGhrcGV4d3NlMkFReWNaVlVXWDUxU0dIYS1nTkNFUUVNNnNxZEY3eVNVamFZZXMzdGZqbUhtOFdFUE9fMGw5aFNObGVZcEE?oc=5) — **World Economic Forum** · 11-25 20:30 · 국제감축 / Article 6
+- [Linking the UK and EU carbon market: an opportunity for climate action](https://news.google.com/rss/articles/CBMizgFBVV95cUxPWm13VEVzd2JQazA4dTZTa0FyUFRRQTJxTWx0TjRTeUtJVkRONzY3WjZzc3A5SjBDQVNkU1ZGRkFXR0U1Z1NxRTJGcHFGTTVldjJ6Um5lOU5QVElFYndSd3dMbG9rZkRZMkduMkJPMFV5U1pTaVZWSEVreFJVaTUyUE1uTzh2UUdpb2UzRHJHRWpONkxPaG96TG1qS3dRYkt5MXRDM0JZVy16SDg1TDBqd2twV2RybjlZVm51M01Vc3FLSDEwMUxVUzV4eE8yUQ?oc=5) — **www.transportenvironment.org** · 11-25 20:23 · 배출권거래제 / ETS
 - [Philippines’ post-COP31 carbon market plans draw calls for stronger safeguards](https://news.google.com/rss/articles/CBMisgFBVV95cUxQaUpkRVBLMkFUdnFwbzhXUTR4MmFyNE0zWTVqMFh1a0VFTm1oYXVYc0syUHdYOXM0VXFDVnpJWlBaSjRsWnJGRE51YlpnWmxiVGhDd0k2SjNzVzVsYU9ldHQyd0J2NW5tdWRKdjBCS1JFTEQ2Qm9UZ3ZMZ1ktOWpEMm9Wc3VlNlRzbnJUbWwwV0I4YlNvY2hsQjd0TVh0elhvVnNwclNlZzBsN3I4enZ4RUVn?oc=5) — **Eco-Business** · 11-25 16:01
 
 ---
@@ -83,8 +87,10 @@ modified: 2026-11-26T12:43+09:00
 
 ## 배출권거래제 / ETS
 
-### 국내 · 1건
+### 국내 · 2건
 
+- [국제유가 급등 속 탄소배출권 혼조…기업 저탄소 전환 지원 본격화](https://www.financialpost.co.kr/news/articleView.html?idxno=303257) — **파이낸셜포스트** · 11-26 13:02
+  - 글로벌 탄소배출권 가격이 지역별로 혼조세를 보였다. 중동 지역의 지정학적 긴장이 고조되면서 국제유가는 상승했지만 유럽 천연가스와 탄소배출권 가격은 하락했다. 국내에서는 탄소 다배출 기업의 저탄소..…
 - [수소버스 감축 실적, 탄소배출권으로…후시파트너스 표준화 나서](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWSE1mODY0UmhtYWNfeUlxQms4b1RZSGtpTHJRZzZVMzJWWFZ5Z3JLWWZtd19VcUVJU3JWdndydFREUTBWMGNFMGZBNXJwTGluTG1kazE0NUVGbE9sWXJJQV9xb1NBLTMx?oc=5) — **동행일보** · 11-25 15:42
 
 ### 해외 · 14건
@@ -153,10 +159,10 @@ modified: 2026-11-26T12:43+09:00
 
 ## CBAM
 
-### 국내 · 14건
+### 국내 · 15건
 
 - [KTL, 경남 수출기업 대상 CBAM 대응 교육…탄소배출량 산정 역량 강화 지원](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqNGJKbGd6QUpvcFlXRFA4cS1Idm1qVmxiX1RiZC1XUUZUOHpucmU5cVhsR2xFTHI2UzFJbmxjUWxuWF9QZTVGSktuMWxDV1p1SHRtT25mUEJCUFJ6Q05RbzhPVl9nSkhxZFNGNTNnZm5hMknSAXdBVV95cUxPYWZDNVBaR2xjX2ZrUkQ1LXdBX2JLR1BCR0xHNE9jWTlMZFRKSVRNZU5tcXVvUHFVNDdfVXp5aXZPc1lPU2JIVXF2cUpmVEt0S1MxckpTdXBqcVA4YnNCQ3JZa2dHZFNDRzVCazVwRWI1a1k5QU5zTQ?oc=5) — **뉴스프리존** · 11-26 10:08
-  - 관련 보도 2건: [CNB뉴스](https://www.cnbnews.com/news/articleView.html?idxno=1025425), [이뉴스투데이](http://www.enewstoday.co.kr/news/articleView.html?idxno=2497454)
+  - 관련 보도 3건: [CNB뉴스](https://www.cnbnews.com/news/articleView.html?idxno=1025425), [이뉴스투데이](http://www.enewstoday.co.kr/news/articleView.html?idxno=2497454), [지디넷코리아](https://zdnet.co.kr/view/?no=20261126125552)
 - [KTL, 경남 수출기업 탄소국경조정제도 대응역량 강화 지원](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VSjJTTU5BdWVUMXFYRTZCUjU2Z3JzaENUUjR1Y3ZEcG9rZlRTYTVkVVZqTF9YeEZWaHo4RmJpRWZ2bU5vLTQ4MFluLTJteGlpYUhDZFVRdHRoQU90YXhvSzhqR1hwbFnSAWtBVV95cUxNV1lXYXFRRXh4RG01alBKRmhCR0p2dUdGX3JrblhfNEFhYkprMU4yRnFLYkJOS3V0TDZaelY4QWpCU2pOaWd6WElYVVRKMERfa2ExaDZJd2tzM0M2aWJCaDFMWFd6YlFZbVM2aw?oc=5) — **인사이트에너지뉴스** · 11-26 10:14
   - 관련 보도 1건: [신아일보](https://www.shinailbo.co.kr/news/articleView.html?idxno=5088073)
 - [충남경제진흥원, ‘트렌드 코리아 2027·EU CBAM 설명회’ 개최](https://news.google.com/rss/articles/CBMibEFVX3lxTE1XS09xdmFpd2VCb1pqNkdnSmhTeWtWSjU2NEZPQ0RpLXprMG9ZbTJUYk1oZi1fTWI2SXpHRHNMLU5VdEpFR2VwWVVSQ0w2RmJLRURFNEo1Y3VsZ3NkWGZkOGdkdmtOTHBTd1dmZg?oc=5) — **메가충청뉴스** · 11-25 14:54
@@ -311,6 +317,7 @@ modified: 2026-11-26T12:43+09:00
   - 관련 보도 1건: [와이드경제](https://www.widedaily.com/news/articleView.html?idxno=304757)
 - [농어업위, 햇빛소득마을 자부담·전력망 접속 개선 논의](https://www.youngnong.co.kr/news/articleView.html?idxno=72261) — **한국영농신문** · 11-26 12:30
   - 대통령직속 농어업·농어촌특별위원회가 햇빛소득마을의 안정적인 확산을 위해 자부담 완화와 전력망 우선접속의 실효성 확보, 공동자산 사유화 방지 등을 논의했다. 제도개선안을 보완해 12월 본회의 상정을…
+- [“전력망, 기존 송전선로 효율화시 연간 최대 6,000억원 절감”](https://news.google.com/rss/articles/CBMia0FVX3lxTFBJYXF2cWtOQXk3SmoxLUUtaU12Nl9LSXBpTGZkaTJYMkE2LVJDcVYyN2NTR1ByYUhsN3NjUk50ZURhNUQ0bVY5aXBCaDlSNXh2SEk3V2Z1ZVlLUEJ5ckFOOVJIYnlKT213OEc00gFrQVVfeXFMUElhcXZxa05BeTdKajEtRS1pTXY2X0tJcGlMZmRpMlgyQTYtUkNxVjI3Y1NHUHJhSGw3c2NSTnRlRGE1RDRtVjlpcEJoOVI1eHZISTdXZnVlWUtQQnlyQU45UkhieUpPbXc4RzQ?oc=5) — **인사이트에너지뉴스** · 11-26 11:01
 - [정부, 5극 3특 중심 국토공간 재편…광역 전력망 확충 추진](https://www.yna.co.kr/view/AKR20261125161800003?input=1195m) — **연합뉴스** · 11-26 11:00
   - 광역 전력망 확충을 추진한다. 국토교통부와 기후에너지환경부는 오는 27일 서울에서 제3차... 광역 전력망을 확충해 지역 간 전력 수급 불균형을 해소한다. 주요 생태축을 연결·복원하고 도시 생태공간…
 - [한전, '적극행정 경진대회 인사혁신처장상 수상'... 전력망 통합구축 성과 인정](https://www.newsworker.co.kr/news/articleView.html?idxno=516310) — **뉴스워커** · 11-26 10:52
@@ -319,8 +326,6 @@ modified: 2026-11-26T12:43+09:00
   - 기존 송전선로를 활용한 전력망 통합구축으로 주민 갈등을 줄이려는 노력을 인정받았다. 반도체와 인공지능(AI) 등 첨단산업이 성장하면서 전력망 확충의 중요성이 커지고 있다. 재생에너지 확대에 따른 전…
 - [강원특별자치도, 전력계통 해소방안 모색 간담회 개최](https://news.bbsi.co.kr/news/articleView.html?idxno=4121008) — **BBS불교방송** · 11-26 10:48
   - 간담회에서는 송전망과 변전소 부족으로 발전량이 제한되고 재생에너지 발전설비의 전력망 접속에도... 도는 간담회에서 나온 의견을 토대로 정부에 건의하고, 한국전력과 시·군 등 관계기관과 함께 전력망을…
-- [유럽 전력기술협회 "한국 기존 전력망 효율화하면 비용 절감 효과, 연간 최대 6천억 원"](https://www.businesspost.co.kr/BP?command=article_view&num=452984) — **비즈니스포스트** · 11-26 10:48
-  - 현재 송전 병목 문제를 겪고 있는 국내 전력망에 4가지 혁신 기술을 도입하면 연간 전력망 운영비를 최대 6천억 원 줄일 수 있는 것으로 분석됐다. 사진은 기술 도입 1\~3년 차까지의 변화를 나타낸…
 
 ---
 
