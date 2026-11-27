@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-27
-modified: 2026-11-27T12:35+09:00
+modified: 2026-11-27T12:44+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-27 12:35 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-27 12:44 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-27|11-27 클리핑]] — 기사 **251건** (국내 157 · 해외 94)
+> [!example] [[radar/news/2026/11-27|11-27 클리핑]] — 기사 **260건** (국내 160 · 해외 100)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 📄 리포트·보고서
@@ -85,7 +85,7 @@ modified: 2026-11-27T12:35+09:00
 - [수도권매립지공사, 중미 폐기물 관리·온실가스 감축 협력](https://www.newscj.com/news/articleView.html?idxno=3452600) — **천지일보** · 11-27 10:58
   - 수도권매립지관리공사가 중미 국가들과 폐기물 관리 기술을 공유하고 온실가스 국제감축사업을 통한 자원순환 분야 협력 확대에 나섰다. 공사는 지난 25\~26일 '제6회 한-중미 통상·투자 포럼'과 수도권…
 
-### 해외 · 8건
+### 해외 · 9건
 
 - [Tanzania's \$1 billion carbon ambition faces test as global rules tighten](https://news.google.com/rss/articles/CBMiywFBVV95cUxOVE80RGpmdmFwbGdHdy03U005djdIYTFtdF9HZ0FoQ2ZoZW91ZUJ1MDFkS2N4NWMxNlZFcm5RZUk1Ukk4cDI3VDRoZUZnMHFPM2xxR2xHME1JbV9Iem1YSFJzRGdzRFVnWVR2bFMtOG9rNVhoWWdWVnZBQXRDM01MVFFhSV8zdDBFZXppN0FVbTJPRlFCcXppV21nOGZMdWVETlJ3RGtHeWRrQTBPX3U1azJEY0UxTHFKcFllNzZ2RzZNVU5jOXRmZEt0TQ?oc=5) — **thecitizen.co.tz** · 11-26 22:57
 - [Baseline and Additionality under Article 6](https://news.google.com/rss/articles/CBMidkFVX3lxTE9KQjB6MmtJZUpGcHBySHFxeWNxdHR1MGlrQWRoVTNkMmhzOWZoTGVNb19UNTNvOFF0QWxmUmxWalZMay1DYktGM0s5WmQta0JPcmNNdFpXV0dPMUZlemFlVlhCb2dFR0llV255azZQNWRCU1JpY1E?oc=5) — **Global Green Growth Institute** · 11-26 18:22
@@ -95,6 +95,7 @@ modified: 2026-11-27T12:35+09:00
 - [Choice of Crediting Standards under Article 6](https://news.google.com/rss/articles/CBMiekFVX3lxTFBmYm5UWFEzcDZ0TUY5M3E5Nk95VHNPTFdrcmhYNGxSLWNFRHBtRGtDWWtMUW1GTF9hU0JnQzNacC1qQ0NZTUFsSmhhMFpMNTNrNktQam0wOUo4Nl9KR1JkTlVUVXFoSjBpZERvVzJ1dENPNTNGRV9HZXFB?oc=5) — **Global Green Growth Institute** · 11-26 18:22
 - [Gold Standard seeks feedback on food waste carbon methodology](https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHJUS0hmdEtseXNENHN3c0xiVkFJc2xGSHdVR00zVzFMTjZZOWhJY0RWMjNQQy1IS2hIOVNhc3lndW5BeEFvR284MEV1bUdUaWFRYmlnRnFuTklPZUFRNFg3OEJoVDJ2RWZxUWlPdFlnbGdXSDF0cmt1RUpMQTFkSzBrWWtYN2toUF9VNkFzTjhsYnQ5aHlPSUo3ajVLRXFYaEpHM3JjYUoxdUZjZWRkdQ?oc=5) — **Quantum Commodity Intelligence** · 11-26 00:58 · 자발적 탄소시장 / VCM
 - [Uzbekistan secures grant to support Article 6 deal with S. Korea](https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlNqTUpodlh4ZFFuZXBreWotLVZfbm1uV2haTUxWcm5hMnZIRUlwSDF4YjZzXzYyaGNNNEN6S3JDN1hkcU1RMlljNndHdzlrYXZCeEt0UHltSEZBc25KZzVNYlFLMUJhVUxtWk1YV0NYRU1Nd1Y3d2xmRVlhWXZLc3ltVUFwTlpVZWlIdlVoYXFRa25RdG5sNHRmTGZITndRXzgzdVVYdjdyVFZEZ3E0RDdyMA?oc=5) — **Quantum Commodity Intelligence** · 11-25 17:00
+- [myclimate expands Article 6 project development to Singapore](https://news.google.com/rss/articles/CBMipgFBVV95cUxPczI3dlpsS3l3QUN3T2pZUmVUdWdEN0FiTVc2cHlOUE9RaGxHSEdQTHQ1NDhjQUxycHUxUTVBX3pFM20xeFZRQlFSZ0FodjlKbGNTZjVXVk9XOXR3ZFpycnU5V3FhZFhFNExNOTd6YnBDblZyY1A4YWcyanNPTTdaSXdFbkRScEdTM2pJTDVkS2Fvb055eGFhSWVOd1FWU2M0QjJDVTBR?oc=5) — **Singapore Economic Development Board (EDB)** · 11-25 17:00
 
 ---
 
@@ -157,6 +158,7 @@ modified: 2026-11-27T12:35+09:00
 ### 해외 · 12건
 
 - [Cambodia, UN look to accelerate finance strategy to meet climate goals](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDlNR2d6cTl3TnRWY1U2WWNRWG51SFdlTEJNY1lVcmtSdXZMX0RGZzhBRHJZMGlkaHM2LTdSbHpNdFZfc3hLU290TDBjRDgxMlpYcmdSQ2tkM0xENDNsbEhRTzlBOHNaOXZ5YjBxaVVqWUFZX284Wkh0MjB5UUpZOWhsOER3a3VHcG44VDZPUzN2VE9jY19SVlN3NVBLQmFZd05kOUhzZlA?oc=5) — **Phnom Penh Post** · 11-27 11:32
+- [COP31: Climate Action Can Ease Global Economic Pressures, Stiell Tells World Leaders](https://news.google.com/rss/articles/CBMivwFBVV95cUxQVFVxMUd3a0dpYjRnenJiWVZ5R2VoLU9BeGlza2JrYWhWNzFHTnFScy1qMzRSc1Uta2ZRdlRfZ2ZmMkxEbjNhYmxvNlEzcWg0Q0xqSEhwTmxWcmlSUjJGUEpyNjBvdlZrMFNacW9oejBIbm1VcmxnejV6Rm5ic0NiNnN6MTI5dFNCdFVJOTJQR3lUN0dEdTVHWkNOa1pjRDBndTdCS29kUHMtRVJFM0RxZklhMEZNdlluWU5Hb1hNTQ?oc=5) — **THISDAYLIVE** · 11-27 04:05
 - [‘They Shot Me At Close Range’ — NDC Supporter Speaks From Hospital Bed](https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWVfanNFQjVFN1R1V3JZQWM5RnpyWTlYakJCellCNExIcXQyTWQwOVZ1a0lGZ3drcjlJd3JwMlVEX2pGNkQ0WEJUeFY1YnFIYzlhelBpcUhkbVZUWW5Rd0hGVmJDLWsyeUJPOFR3d1V2d0dJbHNIdzBacGMtZUwtbnRILWRnakp5VUF3SC1wUDhPX25SNG1Rbg?oc=5) — **Head Topics** · 11-27 02:53
 - [Beyond COP31: Turning Climate Investment into Economic Growth in Nigeria](https://news.google.com/rss/articles/CBMiowFBVV95cUxQaTB3Q200ejZuNmdJd0F4UTVNcFNQZk95STlacGFxZzhXdzZOU1ZDM3FBMGNzbVNOMUJYTUlKOFpYLU5ZWkxFSmRKWjlicGYtVERZMk45dUgtajB5VXVhUlRsYjM3Q1VYcWhGMXQ1OW00MGxZQmRkZHRubjI1YzhZdTd6MTd4cTJISmE2REpOczRBbllNTmMyYVlUcE9jMGRfMUM0?oc=5) — **Realnews Magazine** · 11-27 02:38
 - [Global Emissions Hit 54.1 Gt CO₂e: Why the Road to Net Zero Is Getting Harder](https://news.google.com/rss/articles/CBMisAFBVV95cUxOQXQzQy1jUWNqckhJa3h4aUxSM2wwWG1CYWVHa3BpS1VJRTRPLTlWMXk1d05GUWVxNll5TEYybkxEekctRnZUSGN2WllHemVlY010d1hJVlA4OU5ENkJHeWZMYmVmelVjTzdVZ1prRDgyanNOUm0zYUZSc3NIQ05uRmpTQ01Ub05LVTlsVEJBYmM2T3Y0aUZCanNTQjZzel9MTmhzQVc2RjRoWVl0eVpMMg?oc=5) — **CarbonCredits.com** · 11-27 02:08
@@ -167,7 +169,6 @@ modified: 2026-11-27T12:35+09:00
 - [‘COP of Truth’: Setbacks in the fight against climate disinformation](https://news.google.com/rss/articles/CBMipwFBVV95cUxQWEF2V05Hdm1ncWhmU2s5WTJyckZoeFBxNk5Rd2x3OWN1eEFteEQ2SWR0a3Z4SWh4dUxydmx0R3kxaWtrWjlaZHhzLU5FaGdwbXpQZHBYQzJtTVljQklVaXFNNHFkSFluRjlZc28zZ1YwZTJiQnBNNVRROVJUNFdVLW93NzBpd2NaSloyQ3lTLXVuQlB0YXJ4b2Jfb19DOHV5amdwdXMtNA?oc=5) — **Table.Briefings** · 11-26 13:19
 - [Omo-Agege Heads To Appeal Court Over Nullification Of NDC Ticket](https://news.google.com/rss/articles/CBMimAFBVV95cUxPXzN5dVB3bVVPWkw4LXM2S183dDVjaktiVXZXQWtpdjlKeDM5elRnSnNldFdvREpvdnp4RldQLUdvN2pQZlN0UWZQbkN6bFZiQlB0WHdTMjE3Q04wRmJ4cWNMb2VnOTZDM3RMZ2RqR1pZdGJQM09Jbjl6aFJTbmZoWno1ZlRQRVJjUlppRTNvS00xVHd6V0U5VQ?oc=5) — **New National Star** · 11-26 12:46
 - [Campaign: Gunmen Attack NDC Supporters In Benin](https://news.google.com/rss/articles/CBMigAFBVV95cUxPd2Y1U2FUaDktRmhBVlJpWXNxZkl2NUJuNVVUSFp1ZFlTR2xxMGNQN3E4M3FNems2YU5BY0VueEJ6NGcxY1FuUG1qU1VpamZFcEZCVXIwc2R3SWZrQ291Nk40OTh3Q01IY2hmVlE4UE1XamZpSWJDSFdialdtdW9VWA?oc=5) — **New National Star** · 11-26 12:07
-- [Facing Climate Realities After COP31](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10T1hfZG9CWWtnbHNfNlVINy1LV0IxeWlsVmhReGZaTWtUcEcySE4wbFBiMmNLOXlTWnBtc25DWWZkNDBOSGZQc2NucGZxbU0tcG41bHduUU1NYkw0eDk2WXNUUmd3QzA?oc=5) — **New Politics** · 11-25 16:49
 
 ---
 
@@ -223,24 +224,33 @@ modified: 2026-11-27T12:35+09:00
 - [제주도, 2030년 신차 100% 전기차 등록…2035년 탄소중립 비전 선포](https://www.livebiz.today/news/articleView.html?idxno=206951) — **생생비즈플러스** · 11-26 18:32
   - 첫걸음"이라며, "그동안 재생에너지 보급을 선도해 온 경험을 바탕으로 이제는 재생에너지가 도민의 소득으로 이어지도록 하고, 더 나아가 탄소크레딧 등 탄소중립의 혜택까지 도민께 돌아가도록 하겠다"라고…
 
-### 해외 · 5건
+### 해외 · 10건
 
+- [“Cargo Drones to Transport Solar Panels”... Bentley Motors Limited Verifies Carbon-Neutral Operations at Crewe Factory](https://news.google.com/rss/articles/CBMiU0FVX3lxTE56c08tRndBVUtLb1Rfd185eU4yXzBhRVF2bEJTYmRPQV82SGxVNVUtWWg0N3MxSmZGS0t5b2ZGRHhJR2ZlX0FPaVoxYmJKaVNBUFlj?oc=5) — **매일경제** · 11-27 10:59
 - [COP31 Side Event: Can transition carbon credits accelerate decarbonization in Southeast Asia?](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQb2ZBNnFTdjVRUWJJMHh0cXN6amxIUHM5Q0FncjVnalkzNFkteW1aQXBDT19qTTlBMzJzdmxIQWRMejltN2JHb0tRTVIxeW9adnBtblMzQ25hUGNVTW1aRTZvcWpFRzNjaWpkV1psSHJSa2JaNi1tWjU3RFBTMWtPdkpXMjl0azRlRzY4eTFlc0gwdlQ4S3kzVnJrQktHQTg0X0htN0RINF94SU53bXV2TGRGU0lObHRCTFdj?oc=5) — **ESCAP** · 11-27 08:56
 - [CIP: Carbon Credits at The Core Of Climate Strategy](https://news.google.com/rss/articles/CBMijgFBVV95cUxQdkpfbldXLUxJT3h4bXU2S0UtRmNHMFZxUUdrWUlsM2hyTWZrUE9iVnhIbWpGYTh5T3o3cnU0bnhlR3YzdWxYRmRsWUdrTHV1NTBnOXgtUE5Ha3Y5TWRtWmdMaUk3RVNBLVZ4RHBFYWxXLUhVa3EyTmNXTkV1THhRSHlqTTNsNjRxYkxoVkhR?oc=5) — **Sustainability Magazine** · 11-27 02:49
+- [CarbonTarget Inc. Announces New Platform That Lets Anyone Carbon Offset Emissions by the Tonne, With Certificates Linked to Retirement Evidence](https://news.google.com/rss/articles/CBMiqgJBVV95cUxORzBuZE92YlpWMGhxRklwZm1BNURiUUJ4TEVUUkphRDg4MVNITkdBTHlqZWFYTlkzYUdzQ3NINmV4bi1oc3ZCTXdNZkFVd19qajkxUTdWQmFOUWRMbDJSazdkV1kyRlQxbUVWOUtEakZqMmRYV0tkUTdFT0otSnBad0VKZFZWNWtub3VNTlk0X1FEbDE0NGdteHpXcWZDbmlEM1FkS0JUZURHS2pQLTdjMk1ONkhPYWRFNnBnSEF6U29KaWd1VFdTS04xWVh4SEtFaW9RQUQwZUxBX1RyNGR0eGpwZWZmU0hJdXFfMW5XX3VtUkV2RWtweDBWOWdpWDdlZEc0QWMyNDExMG0tUUxEZ2VwSkVCeTdXQm9LNVZjVlI5U012SGhHMmJ3?oc=5) — **FinancialContent** · 11-27 02:27
 - [Ghana targets US\$68m from forest carbon credits as buyers commit initial US\$43m](https://news.google.com/rss/articles/CBMidEFVX3lxTE5pNXZ1b2lyUjBVS2NtYWFVMWMwTnQ3QVN2N1VOQkpTdEFVVE1SLXRrcVN4dXFnUzFhYWVNd3p5SzAyWnZkOFRVMUJBbE1OMmVXOW9FY1RlNkpXcHJ4VE90T01NTWZ1R1E3Q0lxYXl5RDRDQ2x5?oc=5) — **3News** · 11-27 01:10
 - [How MMCM’s Cercarbono-Approved Methodology Turns Scrapped Vehicles into Carbon Credits](https://news.google.com/rss/articles/CBMizgFBVV95cUxPdTNtSUVJS0tnbDdwSHRpX2tvWkMtOFc0MEF0LUw0VTliaVJyOFNBbHgwWmJkLXI5RFgtSzFndWdLbUdDSUl6Vzh1Rks1cGtIYi0wWnRRN25WbDBJdFFYZTIySzk5cDJyenFOcGVUR1ZyN0l5YTdOeDg0Nk85eEp5QXQwM1hWYU5Ld1cyT1hIMmxCX2pKM05KUUhNMXBBVThjSTlENGxuRGVSWTZKdVZHaWZPN3RqcURNOHdJMjRrQTQ3ZWt2aVZHM2JiRVBuUdIB0wFBVV95cUxPRGtSaU5UaUowRmNkYzQtNTIycl9SS2xBcGtkN3hqYWU0LWpjY29hVjh6eVdieG9EeW40c0ZoUUlHTW9VaS14bDFPVWtneXJVeE5WZUtLdjVGMndDWXdnTXktaDI2Z2JTYzExUFI5V2thSkp0bFJ0bVp3Z0p3NmhEQWRuOE1iT045blBFQ3lWSnJqdnR0U3hqOVM3U1BCNHYxU2Jyc1hsMkd1NDFpdjJMaWNoWkFpTU9NcmVMTnlQblo2bm5DcjlsX1dIY2E4SVQ5a3Vj?oc=5) — **ThePrint** · 11-26 21:32
 - [Ghana to receive \$68m for forest carbon credits - Initial \$43m revenue expected in Jan.](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT0ozVl9sSWxVdFVPOHdqaFN2VkxhWnp1VmtKampjOGVDWjEtdW1HNmdzMXI5dVBkVF9Sd19scWJHR2ZEQmdUZThtOGp3QkxaNnhuam5PNTlXVW9BR0tmRjROTndSbV9MaHM5MS1NTzd0ZVVPdm0zSzl4aTNoVWlQcTdQdXVsaXEtdkZaTWJXZm5LYlJfWjRFa2p0RlppWmhOMlFyZHFKWUZDb2xGenljR0VtM1A1eEJEWGtLN3BpMHk4Ujgzb0FhcHN2d29WZFZkaGZVU0RMQ0ZETHM?oc=5) — **Graphic Online** · 11-26 21:30
+- [MFF launches forest carbon crediting programme to boost conservation funding](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfWWRkYzdwa0xaMEtYa1BEdzVIV1hnS0hKN0hHeVF1ZEZWcmc5eUtDdFRRdGRuR2N6YVpEc1VvSFVaSzgxTTIxTkFEYk12ekgz?oc=5) — **The Edge Malaysia** · 11-26 16:52
+- [What does ‘carbon-neutral beauty’ actually mean and why does it matter?](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNldGSU5ZMnc5d3VMbTVGNDlXUDNRejMxSkt3SDlPbnpoSGpuQWxCTlhGMGNVaGhRSEVZZDZUOHJ2V3N2ZGxXb3Izck1NOThDcnpNWkFxNEl5N2FSOThkTGdFbWpIdFpoX19xQUYwYmZBNHNkc0tOeW9hVmFGNDFJN2ZCXzNkelpjNFBPbEg1LU1qZS1JV203SmZhQ1BQekNDenpfZDlnenEtbThnWmx1b1dHdGVfZkdWdTZJbzZyWjhuaVVqTUNrM9IBzgFBVV95cUxNbmpfOUQwVkRFcG9KcmxPcW91YXpMN1p5SnJsYXlqcE5QM0VucWdxVkoxSXNTUnlPaDhjTmhtTC1fd1BwUW1WZkJRamFIWTRnWE5EWTdPaUFuZHc2ZzhRVjdUd1VscEdNY3prRWlJQVlrcTJvSWhnTzF2Y0hWN2Fnd0ZFZ2JrQUt0TjJocWlhOU05OEVyVmRPYW9NNmVVRFlIUGFlOExkUnNwclZkdTdOYko3dFJzQk9FYnBxZE9uMndxdi1mRWxuUTBLRDRrdw?oc=5) — **Harper's Bazaar India** · 11-26 15:18
+- [NH Investment & Securities Partners with InnoCSR on Carbon Finance](https://news.google.com/rss/articles/CBMickFVX3lxTE5lTUhsMEJEcTA3SGZSZnFNcWg1RzJ3UFp5OWJKUGdjVFZWV2hWU2hFbUE1RDRhQ1lYU0xiMDNrb2F0djBlZ1BJcldPTmUxVUd2SUZpeTd1R1R2bVM4MFJsLVBSVXdxRDZ1U2hwcjRFMmthUQ?oc=5) — **아시아경제** · 11-26 14:50
 
 ---
 
 ## AI 온실가스
 
-### 국내 · 11건
+### 국내 · 13건
 
+- [국가시험 AI 부정행위 막는다…기후부, 시험장 관리·감독 강화](https://www.newsis.com/view/NISX20261126_0003884888) — **뉴시스** · 11-27 06:00
+  - 기후에너지환경부가 생성형 인공지능(AI)을 활용한 시험 부정행위를 막기 위해 소관 국가시험의 관리·감독을 강화한다. 환경측정분석사와 온실가스 검증심사원 등 기후·에너지·환경 분야 국가시험의 운영 실…
+  - 관련 보도 1건: [부산파이낸셜뉴스](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIdGV6TkEzSm9Hel9HT1JOSFFaaFNSTjhtamlLQ0Vrb25NYkQ4NjJiQkd5MkJmb0M0RlRvR0pRSHIwOHhzSU1LaDYwb3RUcEEzVURGeENKZllaTjIt?oc=5)
 - [기후부, 자격시험 'AI 부정행위' 차단 나선다 … 적발 시 제재 강화 검토](https://biz.newdaily.co.kr/site/data/html/2026/11/27/2026112750097.html) — **뉴데일리 경제** · 11-27 10:50
   - 뉴데일리 박철호 \= 기후에너지환경부가 생성형 인공지능(AI)을 악용한 자격시험 부정행위를 차단하기 위해... 점검 대상은 환경측정분석사, 온실가스 검증심사원, 환경교육사, 건축물에너지평가사, 송전전…
 - [EU, 데이터센터 용량 3배 확대 추진…재생에너지 의무화 안해](https://www.newstree.kr/newsView/ntr202611270001) — **뉴스;트리** · 11-27 10:46
   - 유럽연합(EU)이 인공지능(AI) 산업의 경쟁력을 강화하기 위해 향후 5\~7년 안에 역내 데이터센터 설치 용량을... 이어 "데이터센터 확대가 화석연료 사용과 온실가스 배출 증가로 이어지지 않도록…
+- ['환경 에너지 지격시험' AI 부정 차단 골몰](https://news.google.com/rss/articles/CBMiakFVX3lxTE1Fd3I2ckw4b1hVTjlHdFMwQ1h4Y0hDWl9ua2k1V1FhNi1SNzFueHhfZURkaElOQ0hmSEhlZEh4ZndMUy1XTndwcHBVNGlZMHlvRUt1Q2lqZXpjamIydnhTLUxwSjVBN1BrMEE?oc=5) — **의학신문** · 11-27 10:41
 - [“생성형 AI 악용한 시험 부정행위 막는다”…기후부, 자체 대응책 마련](https://news.google.com/rss/articles/CBMibEFVX3lxTE9ka1ZWdE45cHJ6amJheEppbE1fTExkYnpDaVE0b1FJNElRd3ozTExsNk9aQW5odFFSRlQxSTNkaElIZW53NlpnRHZPMUs5ODdhcC15dXhMZDQxTFJkcHoxM1RTVXVkMmFYUDF4ctIBcEFVX3lxTE1sSlFsRVVkLVlHdjdsY3d5QWZxWTBfeEpGYnNrNjI5aC12WGlmLWF3WDJrMmJ4UnF5OHZuQmNrSnVudy1yU0VjMzROOWoycDI0bGZFME1NX3BHNGVjTnFucUpmYWE5OHJTb1F3emZLcko?oc=5) — **전기신문** · 11-27 10:23
 - [기후부, AI 부정행위 대비…소관 시험 취약점 점검](https://www.dailian.co.kr/news/view/1720459/?sc=Naver) — **데일리안** · 11-27 10:10
   - 점검 대상은 환경측정분석사와 온실가스 검증심사원, 환경교육사, 송전전기원, 수렵면허 등 부처와 소속·산하기관이 주관하는 시험이다. 회의에서는 시험별 AI 부정행위 가능성을 분석하고 대학수학능력시험…
@@ -254,8 +264,6 @@ modified: 2026-11-27T12:35+09:00
   - 주요 점검 대상은 환경측정분석사와 온실가스 검증심사원, 환경교육사, 송전전기원, 수렵면허 등이다. 회의에서는 기관별 시험 운영 현황과 AI를 활용한 부정행위 취약요인을 파악하고 대학수학능력시험 등…
 - ["AI 부정행위 꼼짝마"…기후부 소관 시험도 단속 채비](https://www.nocutnews.co.kr/news/6613360?utm_source=naver&utm_medium=article&utm_campaign=20261127062834) — **노컷뉴스** · 11-27 06:01
   - 기후에너지환경부가 생성형 인공지능(AI)을 이용한 시험 부정행위를 막기 위해 부처와 산하기관이 주관하는... 점검 대상은 환경측정분석사, 온실가스 검증심사원, 수렵면허 등 국가자격·면허 시험과 송전…
-- [국가시험 AI 부정행위 막는다…기후부, 시험장 관리·감독 강화](https://www.newsis.com/view/NISX20261126_0003884888) — **뉴시스** · 11-27 06:00
-  - 기후에너지환경부가 생성형 인공지능(AI)을 활용한 시험 부정행위를 막기 위해 소관 국가시험의 관리·감독을 강화한다. 환경측정분석사와 온실가스 검증심사원 등 기후·에너지·환경 분야 국가시험의 운영 실…
 - [한국환경공단, ESG·AI·글로벌 혁신 성과 공유…2027년 실행과제 모색](https://www.energydaily.co.kr/news/articleView.html?idxno=205517) — **에너지데일리** · 11-26 15:28
   - 이번 행사는 올해 미래혁신회의의 주요 활동과 우수사례를 공유하고, ESG·AI·글로벌 분야의 정책 환경... 이날 성과공유회에서는 ESG 경영 분야의 주요 성과로 공단의 구매와 출장 등에서 발생하는…
 
@@ -263,10 +271,10 @@ modified: 2026-11-27T12:35+09:00
 
 ## ESS
 
-### 국내 · 46건
+### 국내 · 47건
 
 - [‘2조원’ 역대 최대 ESS 입찰…삼성SDI 63%·SK온 37% 수주](https://news.google.com/rss/articles/CBMie0FVX3lxTE4xSWxWZnFMS0toTDNsWEZMRl9UNGdqTnl5aFJib3RYNm5wN3Raa1BHR2JZTVFQWUVIUmhNS212TUlMZUZSLUZYMFZySzR2bHQ5YTZOeHAxZWlSTjZLdHN0Vk85cEVqZDNjZ3VPYjRXSW9ZMEtDTDJpZ1FfOA?oc=5) — **이데일리TV** · 11-27 08:40
-  - 관련 보도 13건: [연합뉴스](https://www.yna.co.kr/view/AKR20261127043500003?input=1195m), [아주경제](https://www.ajunews.com/view/20261127100932837), [이데일리](https://www.edaily.co.kr/News/Read?newsId=01872886645649984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article), [천지일보](https://www.newscj.com/news/articleView.html?idxno=3452595), [이투데이](https://www.etoday.co.kr/news/view/2653866), [더팩트](https://news.tf.co.kr/read/economy/2394196.htm), [비즈니스포스트](https://www.businesspost.co.kr/BP?command=article_view&num=453103), [머니투데이](https://www.mt.co.kr/industry/2026/11/27/2026112710265780306), [머니투데이](https://news.google.com/rss/articles/CBMiekFVX3lxTE5YVEgyWVFtbXlEdlJvY2Q5WXNYTGs5OUhlX0YwdnEwMjNHUDdmQTlNZVpKYWtsdmRna05NRnptQ01TYTBrMFlWTkxzZzJ3YmJpbk1uUDVvaDQ4anpJa1ppVW92ZEdjakVEMDVNeUZ2RFZ3dU9WaVE5ckZ30gF_QVVfeXFMT2RyelpMaWYtLWdUZEV2dWVWNFhIS3otNlViTlRzVkhBOF9tWXp0OHZycThCcUQ2dEdnOTBxMDlnRDZ1ZXZrcVh1Z0M2Vlp1ZExqNlB1MHdDYXo3WEQ4LVlEcUVQa1RSb09xckVpNDgxblU5QmlTaDk4NWpvOXcxUQ?oc=5), [노컷뉴스](https://www.nocutnews.co.kr/news/6613632?utm_source=naver&utm_medium=article&utm_campaign=20261127112236), [뉴스웍스](https://www.newsworks.co.kr/news/articleView.html?idxno=904687), [국민일보](https://www.kmib.co.kr/article/20261127500224), [아시아경제](https://view.asiae.co.kr/article/2026112712131357159)
+  - 관련 보도 14건: [연합뉴스](https://www.yna.co.kr/view/AKR20261127043500003?input=1195m), [아주경제](https://www.ajunews.com/view/20261127100932837), [이데일리](https://www.edaily.co.kr/News/Read?newsId=01872886645649984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article), [천지일보](https://www.newscj.com/news/articleView.html?idxno=3452595), [이투데이](https://www.etoday.co.kr/news/view/2653866), [더팩트](https://news.tf.co.kr/read/economy/2394196.htm), [비즈니스포스트](https://www.businesspost.co.kr/BP?command=article_view&num=453103), [머니투데이](https://www.mt.co.kr/industry/2026/11/27/2026112710265780306), [머니투데이](https://news.google.com/rss/articles/CBMiekFVX3lxTE5YVEgyWVFtbXlEdlJvY2Q5WXNYTGs5OUhlX0YwdnEwMjNHUDdmQTlNZVpKYWtsdmRna05NRnptQ01TYTBrMFlWTkxzZzJ3YmJpbk1uUDVvaDQ4anpJa1ppVW92ZEdjakVEMDVNeUZ2RFZ3dU9WaVE5ckZ30gF_QVVfeXFMT2RyelpMaWYtLWdUZEV2dWVWNFhIS3otNlViTlRzVkhBOF9tWXp0OHZycThCcUQ2dEdnOTBxMDlnRDZ1ZXZrcVh1Z0M2Vlp1ZExqNlB1MHdDYXo3WEQ4LVlEcUVQa1RSb09xckVpNDgxblU5QmlTaDk4NWpvOXcxUQ?oc=5), [노컷뉴스](https://www.nocutnews.co.kr/news/6613632?utm_source=naver&utm_medium=article&utm_campaign=20261127112236), [뉴스웍스](https://www.newsworks.co.kr/news/articleView.html?idxno=904687), [국민일보](https://www.kmib.co.kr/article/20261127500224), [아시아경제](https://view.asiae.co.kr/article/2026112712131357159), [동행미디어 시대](https://www.sidae.com/article/2026112711065557559)
 - [3차 ESS 중앙계약시장 우선협상 대상자 선정…14곳 구축](https://www.yna.co.kr/view/AKR20261126190700530?input=1195m) — **연합뉴스** · 11-26 19:57
   - 제3차 에너지저장장치(ESS) 중앙계약시장 우선협상 대상자를 선정했다고 기후에너지환경부와 전력거래소가 26일 밝혔다. 이번 3차 중앙계약시장엔 60여개 업체가 도전한 것으로 알려졌는데, 선정된 사업…
   - 관련 보도 7건: [매일경제 마켓](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DU1RlSEtjd1ViXzdRY1VCbkgzVjJDNS1BQjNNcW1aT01zOFVTX0w3SC10ajJCTEFHVXJodXNwbFQxdmpKX2pYQTFwQ2JGbWdvb0E?oc=5), [KBS 뉴스](https://news.kbs.co.kr/news/pc/view/view.do?ncd=8723769&ref=A), [아이뉴스24](http://www.inews24.com/view/2031040), [연합뉴스TV](http://www.yonhapnewstv.co.kr/news/AKR20261127003633axY), [한스경제](http://www.hansbiz.co.kr/news/articleView.html?idxno=887886), [파이낸셜포스트](https://www.financialpost.co.kr/news/articleView.html?idxno=303555), [환경포커스](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wY2ZWYmZUc3djeTlFUGRMX1pNOEJTeGN4ckpkdW96U0U1RFR1aG0taGpncEQwQ3BaaGQ1aS0xWjF2SVRjYTJPSkZwYksxYTF5R3N0S1UwOUJhN2pnVTlzMFZndVpuUQ?oc=5)
@@ -311,12 +319,12 @@ modified: 2026-11-27T12:35+09:00
   - 관련 보도 1건: [Machine Maker](https://news.google.com/rss/articles/CBMisAFBVV95cUxOdHd2TFh5NU0zbUNEZzdzY2JHTnJjUEozWl9aZkxUS0RfaEMyR3J5VDF0dlBFcnpad0RvVURscEdqcjlGTmZQV2l6c01TN0Exa2w1Z2RZUXBXRmhvZW9zR3hjTEtXU2NwNUJGb1VMNVpDSHd6VDF2VjlqbHJxMk9VT3BnZ1lUTzVOM2pkaC1PVWdEeFBieXFUNEh5UDlFSHZYdEJzVVJxeGJuNzlOQm12eg?oc=5)
 - [Grid Instability Issues? Why Choose an Advanced Hydrogen Energy Storage System Manufacturer](https://news.google.com/rss/articles/CBMi0wFBVV95cUxObWRKdGUzci1NcmVYdFQtTnNPZGVJdlRNNlRTZ19qSWYwR0FOendPQ0VTM1c2a3Z4cm9qVW05QTFSVm5iWlRmTm1Db1JrVTMyN05uRTV3OVNnTHdQM2xvdlRranVmampoNHdnMm1PYzVPVjJSSmxvLUZiMy1ZcWtkTlI1YkVvLXFRdGVRMjRZSG5MRkcxSlJ4SFBTX0FGV0tOSmJCTXE0Ylp3TFlvWnJaMk4yVTgyWXRydmVncVgtMWVDelJXQkgwTWhpQzg2NEktNl8w?oc=5) — **EIN Presswire** · 11-26 18:50
   - 관련 보도 1건: [EIN Presswire](https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZVBVVHdZWi1NQnE0ek1VMm5jdnNxX0xOMTR3M3BGNWd2N3BmelRBMWdaYXpUWS1LUUUtQ3Q1YlA4YXduMm1rT245RTdPcnJnQ3NiSzhnYnFfRVpXenJHQXpSdlUteXppYzVTUFFlbDkwLTNaNjdqT2JvWUhnVUphRDFOMUtweDFQVU5KeWlJWXp5VVozb0xYV2dWR1g0WDZuQjN3U3hwMnF5MWJrWTQzSW9KNnEwdUg3QktDLXR5dVpxNVp0QlVCNWc3TnE3VTJVaFZWV1kxenpRZUxSancwLXNZakRycERPbFE?oc=5)
+- [Luno Solar Looks Beyond Modules, Focuses On Cells, Inverters & BESS](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN01PQmZlXzZNMGs5anA1TW9JeDVGQkZnMm9jRnJ1clBFazg1WWVZTXZnUXFGdnc4U2tQODBubElKaUtpTTBYcm1kZk9lb3NkbVhOanQ3bUI3WHY3aUF0a3Z3YTAzWlNKeWctZUlNZDBXd09fYkt1SHB1enZsc0lfNHJWUUx3MHJJN3FreU1VcGlFenBaUzgzVklYM1RndWpRaVJlVmNTdkdSTUpaNWJJYzlhMk5CX3R2?oc=5) — **Saur Energy** · 11-27 12:42
 - [Current Infraprojects targets BESS tenders above Rs 200 crore](https://news.google.com/rss/articles/CBMitgFBVV95cUxONkgxT0tWRHZCWXFjaldrWlNRcTJLdldqWFNxbHJNTkRmdHFMOWhoekpMWHpXRlQ5NmR6TFFNUjU5V1pCUHNCald6dFJaV0hqcHRaQnNOTWhob0pteV9YcGwta2xpWnBoWW42SzJMajRRM3RmcC1Lal9SdklWQVREZ1BWbWNCR2xUNkxrU04zZUQ3YnUxSDRpcjB2aXpfRm9oSUNXLUh1YXRnMU1zRjFZYlhDbHpyQQ?oc=5) — **Multibagg AI** · 11-27 07:32
 - [Brunsbüttel battery energy storage project, Germany](https://news.google.com/rss/articles/CBMipAFBVV95cUxQYWduc3Zsclcwc0RqcjZib2V0UjZRb3hVRGRGZVkzMEZYR0RTVmJYMnFud1QtSGI3cGRpRWhHWUtjWjJla2o1b1h1TjRhS0h1bl9IWjhYa0o1TjRuT1lkQ3NkVm5YcnMzbGI2RXZTWWJPNWV2dVAzODBadWdmZk1TbUdyWjM1MTl6MzRoSG1xbnRWVkx3QkE3c1VTdUZndTdpbjJhRw?oc=5) — **Engineering News** · 11-27 07:00
 - [Livingstone Solar Farm and BESS project in New South Wales, Australia seeks environmental approval](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTldVWjYtQXdjeWRaRzNGUWdkZnNNWmlTSklyQURFYVI3ck5yWHNtOUhkRmN5aEdWNkFNNFBySTNFcnllTldDcnJlenUtZ01fZEYxYjJlRHlqREpfYjJKV3ZjbE44d1EyQW9rc3dsb3QwZENhRGdqb1pfa0VobWVINEhlbWJib013UXN1RnVxbDhDY2pKVkxReWpNbTRRVGNQelFRbHNSZmpkV0ZfeFV5UkU0c3pzdlJrMmZpUTVvYlNGX2RYa0hCNlpRY2VZekRt?oc=5) — **Construction Review** · 11-27 05:29
 - [A One-of-Three Veyron ‘Black Bess’ Sold Quietly in Cologne. Its Lineage Has Never Been Priced in Public.](https://news.google.com/rss/articles/CBMingFBVV95cUxNVjRCMExOeGE4TV9aYmVwMzAwUVl2dEhUZ1JwX1MzRUZTZHByQ2tsZURVakZpOE00dU1BdnJPWVA3QnpHbDBTYkRFcjdrMF9obFlTRkFod05rQjdrQ2hnMVYyWGV2MmpvMXNkN29SZWpaYUhHTlpWeU1zNF80X1FhdktaTjJhLUZhaUU2Tnc2TVpSUUplb2VBVXNrd3l1dw?oc=5) — **Yahoo Autos** · 11-27 04:10
 - [Pan-European Battery Storage (BESS) Investor Series: Germany](https://news.google.com/rss/articles/CBMizwFBVV95cUxOelJqTVpqUjF0ajZlZGJJa0tqNkJTY3ptcjB3VHJ5UXlGa0h6WlNPRk43R1ZHWFA1UUZCS0c0SU9wLWxXOGpGQnBhU1p5bTFWRk5lTXRHRGJnQTJJTlhaUXA2aEFrV1VoUWtkQWdZUXlIdlBYb3JYQnVQbjBTUTZXNnkxWm9YekFhbi0yWFZxRzhndm9wdzdSVkJ0cXpyY3dES1V2aFlYenZoTFhLbGhOcURBeEtVN0ZjRkQ1VXJ2MXVtZjNDdFZ5SkRrOWEyd1k?oc=5) — **Addleshaw Goddard** · 11-27 03:11
-- [Battery Cell and Module Compression Fasteners Market Driven by EV and BESS Demand to Expand Through 2035](https://news.google.com/rss/articles/CBMizwFBVV95cUxNd3FSUjRSWkN0TGxZanlzM1pQd1pCSDVvNlJXODJMaVQ2YTBGYWhBTV9tdVJLX3V0NnkzRzl0cXhsLWhjazExX19BTGdKVUVuWHI4NkRfOV8zVjlCSDJ5MUd5a3phWFNibm11dzhfOVZwbTNnMk1lZGF5ZE9seE1tbG9nbGlwNUV6RVh2amIwN3cwaEpwNEdoMnlHa0gwRXAyQ0I5RUFLQ3BOaE02cjd2MVM2YWw1QXE2Yl93Z2ZhOGNjbGpLTjFEZGltb3RJX1k?oc=5) — **IndexBox** · 11-27 02:11
 
 ---
 
@@ -386,14 +394,13 @@ modified: 2026-11-27T12:35+09:00
 - [\[기후위기를 위해 뛰는 의원들 ①\] 이소영, 기후변호사에서 대한민국 에너지전환의 입법가로](https://news.google.com/rss/articles/CBMibEFVX3lxTE1YaGhya0Z3Z05mQ1Y5Y0FOaWtoV0NVU2xVN0VxWlkxZXYtR1J5a1kwVWpMalRVblFoc0prWEYtdThDWHU2emF5bDRiZ1B5Nk9UQy15Y09WMGxSME1Yb3owUmdsU0cwYkhIX2d0Sg?oc=5) — **https://www.climatepol.com/** · 11-26 19:50
 - [한수원, 대규모 청정수소 기술 개발 논의 … 탄소중립 에너지 전환 속도](http://www.worktoday.co.kr/news/articleView.html?idxno=92754) — **워크투데이** · 11-26 19:16
   - 국내 환경 여건을 반영한 탄소중립 실현 가능성과 에너지 전환 과정에서 수소가 담당할 역할에 관한 연구 내용도 공유됐다. 참석자들은 관련 기술의 연구개발 성과를 살펴보고 실제 산업 현장과의 연계 가능…
+- [한국남동발전, 평창 150MW급 태양광 발전사업 본격 추진···친환경 에너지전환과 지역 상생 도모](https://news.google.com/rss/articles/CBMibkFVX3lxTE9wbENycklKeWlUcHJlTEVWX05jTDQ5cWNNOGd0Qk5oekVTZXhHZzJTSnltWV91X0FOckU5MVlIdmJwSUVyM0tFbkNKWEpfa3dYQmNjOEdRdFJhSXBiSk5jc1JfcXZlbF9XeURBSDZn0gFuQVVfeXFMT3BsQ3JySUp5aVRwcmVMRVZfTmNMNDlxY004Z3RCTmh6RVNleEdnMlNKeW1ZX3VfQU5yRTkxWUh2YnBJRXIzS0VuQ0pYSl9rd1hCY2M4R1F0UmFJcGJKTmNzUl9xdmVsX1d5REFINmc?oc=5) — **경남탑뉴스** · 11-26 17:34
 - [군포시 한대희 시장, 소음 해결·에너지 전환으로 소비자친화행정 대상](http://www.newstown.co.kr/news/articleView.html?idxno=723498) — **뉴스타운** · 11-26 17:14
   - 군포시는 경기 희망에코마을 조성과 교통소음 민원 대응, 재생에너지 확대 등 생활환경 정책이 수상 배경이라고 밝혔다. /군포시 한대희 군포시장이 교통소음 민원 해결과 재생에너지 확대를 연계한 생활환경…
 - [제주 '녹색문명' 새길 연다…2035년 재생에너지 100% 전환](https://www.newsis.com/view/NISX20261126_0003885041) — **뉴시스** · 11-26 16:47
   - 제주는 국가 탄소중립과 에너지전환 모델을 구현하기 위한 축소판으로 주목받아 왔다. 재생에너지 비중이 높고(24%), 전기차(등록차량의 11%), 에너지저장장치(ESS, 68MW), 히트펌프 등이 보…
 - [추미애 "기후위기 대응 더는 늦출 수 없다"… 정부에 에너지 전환 협력...](https://gg.newdaily.co.kr/site/data/html/2026/11/26/2026112650345.html) — **뉴데일리 경기** · 11-26 16:44
   - 차성수 도 기후환경에너지국장은 기후경제 전환, 도민 기후복지, 기후 균형발전, 도민 기후역량 강화 등 4대 정책을 중심으로 기후안전망을 강화하겠다고 밝혔다. 도는 전국 최초로 지난해 7월 '경기도…
-- [2035년까지 재생에너지 100% 전환…화력발전 감축](https://www.jemin.com/news/articleView.html?idxno=848542) — **제민일보** · 11-26 16:40
-  - 위성곤 제주도지사는 "제주는 재생에너지 보급과 분산에너지 특화지역 지정 등 대한민국 에너지 전환의 길을 먼저 걸어왔다"며 "이제 그 성과가 기업에는 성장의 기회로, 도민에게는 혜택으로 돌아가는 '기…
 
 ### 해외 · 15건
 
