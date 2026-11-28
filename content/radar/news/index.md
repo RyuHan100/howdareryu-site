@@ -3,13 +3,19 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-28
-modified: 2026-11-28T12:28+09:00
+modified: 2026-11-28T12:58+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-28 12:28 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-28 12:58 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-28|11-28 클리핑]] — 기사 **184건** (국내 98 · 해외 86)
+> [!example] [[radar/news/2026/11-28|11-28 클리핑]] — 기사 **186건** (국내 99 · 해외 87)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
+
+## 📄 리포트·보고서
+
+- [Coal Markets Face a Complex Outlook as Power Demand Meets Energy Transition](https://news.google.com/rss/articles/CBMisgFBVV95cUxNS1M5dzdvYU02X2V1bUlSQjRwZ3RwX1lpcFE3YmpOOTJ2UjV0aThiUHFuUDFMXzZaZ19QLXBxVWtFR21tS3BfUlBwaXZkcXp2Z1dlQzAtemFwTDhVOEJzczdqQ2Z4RUpUSm1IXzZpcWRGaVhLRlU0U2xYUWdkUENrOGFmVkFUczFJQ2FHTl82R2dxVFdBRVRxLVRfSnEwanUzNTJPbUhOa1Q5eGh5bkNhaU1R?oc=5) — **kalkine.ca** · 11-26 23:53 · 에너지 전환 / energy transition
+
+---
 
 ## 탄소시장 / carbon market
 
@@ -118,6 +124,7 @@ modified: 2026-11-28T12:28+09:00
 
 ### 해외 · 12건
 
+- [Vizag Think Tank Proposes New Model to Reduce Industrial Coal Emissions](https://news.google.com/rss/articles/CBMitgFBVV95cUxNTW1pRW5pX1lHUThEa0d0SW0tQU5hUXYzSll5RGkyT3NDWHlpazliRmFVQ2ZQdVJsT2RvVng3TWNwUUtUdmtKMER0akhWaGk3SmpuN3RBT2ZVRGZtUFFCdEJLakNIRzlCRF91S2JXQzJsYWtGaVlvRUMybDBvTDI2cFJWTm9odkQxbFpvbVNZN2hBcVRtVGJGNG1wZ1h6SnIxWlZIM3NiVVR5czVYdlNSUWstRlBlZw?oc=5) — **Hello Vizag** · 11-28 11:55
 - [COP31 Leaves Cambodia Disappointed but Determined to Pursue Climate Finance](https://news.google.com/rss/articles/CBMipwFBVV95cUxQYnUzanlraFB3U2ZkdVlBREJ0SkFSNkp1NGN0TnIwQjVWajllSFNaWWM3YmlnX3VpUlZLWVNXWVR2S3RVV1RLTlpHdmZFVUJfMUdURExYVW00ZEkwRVk5aGpZUjJPUkZraXBvOFJIV1FoVWlSR25YS3NQc0VZZVdxYTVTN3QyVlFMMG9WZjNjV29Ic2dWVW9XRjktQ2lpakpaVTg0U2lZTQ?oc=5) — **Kiripost** · 11-28 10:53
 - [Climate Bill awaits President’s assent](https://news.google.com/rss/articles/CBMieEFVX3lxTE9QazEteDB6eTQxR3FfbnB0LVNIY2RaUWxVVVVjTDBaT0dneGhDeFd5dDNVWF9GRHllUUhQdFBKem9lb1g5OFRvenh4Z1hYRzRJRW9pSDFobU5fNzlFZmxNTzNTQWZKeTlsaUpaY3NtaWc1cHlYTHUxbg?oc=5) — **Herald.co.zw** · 11-28 07:08
 - [The World’s Food Supply Faces a Growing Climate Threat as Funding Shrinks](https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUTFEMFBCZHhvZHRudDBuWDRjTl96SGF2a2ZZLVQyc2VwbUdhaUUwM0RoVUZXUUhtSGM2NmFfSDVZSDJHRGJfb2pOWHdCQXBuRnNIMXNoYXJlWUNpUkZScDFjRFVrX2REeDkyei15M24yOGowcGJpd2ZRbGdoVzZYMjZlbjlZSXJMWkpJTjFwYnUwa0V3dmZNX0RwS25qakpkRU5BbkR5NTVoOWpYQzBibkdvR3ZQRWNDd0R6RGY2bVVVNklNc2FiUnBzRk83MUpBVGdF0gHYAUFVX3lxTE1ZbVN1T3k4MXJ5WDVTbDdvTW1rcXhCbGdWX0R4YmJleENGdVY5QTlmYzJCU1poZVVJQy1aN1RHN2Z2c0dwb0lSM0xMLU1Nc0VRM3oyVTh6ckhleHpnb1dEeHNRZ1NKbzhUSXIxbUcwR1Y2aHBSVHlvTE1UcmVHcWZNcmNwa21MeEhQS1pXRm45VGZkRDh2UUEyRDJORnBEa3h1T0lBczBNVTk3RVUydzlFSkIxZGVFVEgtekFmM0JtMmwtZk1JQ2FmUExJY2xtRXlEUFhfNDhTQQ?oc=5) — **Devdiscourse** · 11-28 02:22
@@ -129,7 +136,6 @@ modified: 2026-11-28T12:28+09:00
 - [ESWATINI PREPARES FOR NEXT CLIMATE REPORTING CYCLE](https://news.google.com/rss/articles/CBMikAFBVV95cUxNTEdUNU5xODh6ak5uZjhSQnd1ZUZMQ1g4ZWxEWWdlUjBvWDJXcGhKNmh5Y0hCQmpmMHZBYTczU0lqY0ZuekpBR2NtQUNTYTZqUGltSXprZ2R0bkN4MUNpbll3cFB4TjBJZF9RY2xTTnVDWnpGMkJ6bldhSHpxMWxMVDViNTZNTHN1TVJ4d2s4Ykg?oc=5) — **Eswatini Positive News** · 11-27 19:56
 - [Capitalism’s Contradictions Brush Climate Science Aside to Make COP31 a Failed Circus: The Deadlock over Phasing Out Fossil Fuels](https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdG84V1Z2ZFR5dlJpb19KRW1DdHRjYzF3N3dnY2p1LVV2eUczWjdYcmp0SjJQSWp6Y2dSVEN2NTh6WURRNC1SM1Q4OG5iM0plZ3NZWDdKYlJyV3ZuLXhsa3h4cF92UjVqNWJFTEhERWlBclc2RDNYWFR6cWxqZ2tLSVBGUXpubzlUQlJpYWVnLTFWRVY3akdyaTFsS1Brd1A0QlNzeDlOWVdEQ0g3TU1mbThhb3ozZGJodVJ0OERzZHItMnhsZzNtR21OQzVXbzY5ME5LMUhDRnIxNkE3Q1luWGJzQzBIcXZIU04xMlJTZ3IzbElWSzdB?oc=5) — **Countercurrents** · 11-27 18:35
 - [Fiji’s climate commitments ambitious but unguaranteed](https://news.google.com/rss/articles/CBMijgFBVV95cUxPakNEZFd3TkY4UG5mNDVOS2FZUmxZWWlJc2VnWlo2UFE0YWJKQVA4TnlfTjUxVmh2VmlianN5UTJ5TW5FZ1FiNmgwVHNTNEkxSjdWWjB0NFV6Z2NTckhZN1d1eThRWWxGb0JiMmNKOGJwYmM1b0xOaWxhM0hVWVJJZTl0Qmd6b29OT2d4T2d3?oc=5) — **FBC News** · 11-27 17:40
-- [African Tourism Climate Finance: ATTA’s COP32 Priorities](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQejl4MXBpSWhOTU9oUHVfZXZqNVJRLTBTVE5sel9OU19Ha0hPQjlfUUF2TnhCcmN1WFg0U0RnLU4xOTdqdlROekIwTGVLUUdSN2d6Unh3MmlEd1N6VG9ZRlRUOW9hUDFHaFlrRDFDMjFiNmxpSE16X1BtRjV0enhDYVgyai0xQk01NERz?oc=5) — **Travel Daily News International** · 11-27 15:57
 
 ---
 
@@ -182,10 +188,11 @@ modified: 2026-11-28T12:28+09:00
 
 ## AI 온실가스
 
-### 국내 · 10건
+### 국내 · 11건
 
 - [환경측정분석사·송전전기원 시험…기후부, AI 부정행위 방지대책 마련](https://news.cpbc.co.kr/article/1177320?division=NAVER) — **cpbc News** · 11-28 12:22
   - 뉴시스 환경측정분석사, 송전전기원 등 기후에너지환경부 소속·산하기관 소관 시험에서도 인공지능(AI)을... 점검 대상은 환경측정분석사, 온실가스 검증심사원, 환경교육사, 송전전기원, 수렵면허 등 국…
+- ['AI 강국' 대한민국, '기후 불평등 가해자' 되나](https://news.google.com/rss/articles/CBMia0FVX3lxTFBVdVRHLVhmS2J5cU8tNkVTbGtkMkNhSFFBWFYyNHJzeU4zaUlMaklXdURCUTZzM1NOOGdfQlpSR2dzMDdvWW01akRTY0hwbVJtaEFMS1F1S2Rqa3ZuaG9CT3REM2RTOHVoemtn?oc=5) — **프레시안** · 11-28 11:40
 - [서울, AI 시대 도시 미래 준비지수 세계 8위...인간 중심성·혁신 1위](https://www.m-economynews.com/news/article.html?no=73695) — **M이코노미뉴스** · 11-28 09:00
   - 지속가능성 개선은 과제 전 세계 112개 주요 도시 가운데 인공지능(AI) 시대의 미래 변화에 가장 잘... 다만 지속가능성 부문에서는 53위에 머물러 대기질 개선과 온실가스 감축, 개방형 공공공간…
 - [인도네시아, 한국 투자 유치 확대…철강서 데이터센터로 확장](https://www.g-enews.com/view.php?ud=2026112723165155768c1ed9d56c_1) — **글로벌이코노믹** · 11-28 08:36
@@ -317,6 +324,7 @@ modified: 2026-11-28T12:28+09:00
 - [Owens Corning Inc \$OC Shares Sold by Clean Energy Transition LLP](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdzdVTVdZRmhXbUZrVTJ1bTdEazBubjVxXzBKTjFBNXpZZ2w1SEoyaHdHenBEeGExcXNFS05VUTZaUEdIZUFwWF9ScTFmdmhLbnBSaGxBSmJYeWVQdTV2N3FWTnlGWEpQdk8xRThaRzBUQlpYVG1RS0xpRV9QTnZtWkF2VjdBV2h5S05McXJJNi0ybWxuR3BiVGpVSTFDbXFpaHdwbnRVak44WUlXTEFfa2NNcjhWSlZzMEtESXYxMHJWdw?oc=5) — **MarketBeat** · 11-27 19:01
   - 관련 보도 1건: [MarketBeat](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRU5vWGlFcE4wQzZjS1N2RXZQLUE3dXNqLTJ0bHM2MjBneXhNYmk2YVNmeTk3Q1dyTTh2dEVKMFVkTTFLdHZQRmNibFBydUc3NUhvX09yQnhoT0JHMk44TExmYVF6ZzhZTW9fMk9JYjA3cVI3bW5zMXhQdzkyZUxpVjBpMnF0c1hxYmdFaktrNVhmMVdJY3prTmxJbjctaVJxS1hXS0dQMlZCcEVQU2FqU1dTLXE0WHJJQUNZSjFTMmR5a1JpbmF5SGIzUjdNUnhn?oc=5)
 - [China's Zhongnan Culture to Buy Jiangyin Tianli Gas for CNY 4.3 Billion in Energy Transition Push](https://news.google.com/rss/articles/CBMidkFVX3lxTE9VR0daS2ZucEREeURUTTBjZW5FRmZBM1BTdUtLb2s5N1pocGx0TFBUNHZHSGd1aW51bXhpak9BSVJ2RUM0d21iYThLVHczMGs0enROWHFnaG9MODVoQXhWUW1pZzlKb2w3ZEJleU9tR3VpYmxVV0E?oc=5) — **BigGo Finance** · 11-28 10:05
+- [Betashares Energy Transition Metals Etf (XMET.XA) Seasonal returns chart](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRUlZ6ZHpxUVFtd3Job3hOTktyNERlaUY2OUwtX29SVUc4ZTJxX0FCdDdaYS11MlNmWmxBTkdRWmx2eER5dmJldUhqMEl2enFYSDNqSlFvT1QtbGItenZUal9aZ0ZfZw?oc=5) — **Yahoo Finance UK** · 11-28 08:31
 - [Navigating Energy Transition: Insurers increasingly play a key role](https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2SENldnpOdVV6cEhLbWtwZWVrcC1sMjk3cExkeWhYaDNTTER1S3JLUmJ6Tnl0elV0dDVzclExb3NRTkNqZGRDbXpJUS0wV2g5ZEdGRE1Vbw?oc=5) — **Asia Insurance Post** · 11-28 06:17
 - [Plugging in: How electrification can help South-east Asia’s energy transition](https://news.google.com/rss/articles/CBMixAFBVV95cUxNb09Bck1TQmZlUHZ3bUNUaTJCbHRVejE4VHBPZFl0S29qYkw1LXlOM1BMM0I0dng3RVdPWEJmWEJXR0gtTFB1WGEzZ2luM0dfczNKX2xVS3dabEJzYnRGdXlEVzNnZzg0MGJfbnJYWXFDTG9jOVY3c1dpMk1Ca1hSSFlJNnViUU9ud0hRNjVYNHB0WlY4VDVoMy1tbUMwVjRKaXFaUFNQY04ycHd4aXRUeVZWQVFzbEhOT0pueHM2dGRWQVNQ?oc=5) — **The Straits Times** · 11-28 06:00
 - [Decommissioning of Coal Power Stations Must Happen Within the Just Energy Transition Framework, Says Electricity and Energy Committee](https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVkRiNXd3SGVMeHc2dmVQRWlkT3Q1X1U1Vk9SajVQUTBhUFhvZDBuRGZHdXlGZEcxVW5PRGxIQlVoN2ZyOWQ4NGRQLXVZV1NtRVBzZE9Sa256QWRid21Nd0VoZW4wRXVDYlFFMGRjLS1NR2V3eUlFbkdiT3pxUExlVFBjeDNMUWlSUmRDRmZQS0gtc0FhY3FhQTFoU3YwbzNFYXR3MkR0UHBIMzVzQnowdXZ5MDVFRUtxbjY5WVpJWXM2ZGoyaEV0MFVqZk5WRUh4aHgxVVJQWnQtb3RpeUdFdHhBd1NfS1hZZ0F3bmZ1MUF2QQ?oc=5) — **Parliament of South Africa** · 11-28 03:00
@@ -324,7 +332,6 @@ modified: 2026-11-28T12:28+09:00
 - [President Tharman: AI and energy transition require maritime professionals to learn new skills](https://news.google.com/rss/articles/CBMizwFBVV95cUxQX0diM0YzMnNoTzhaWnJNVXdyWE9zUFpqck1oTHRZV2xnTF9EWEpaZHdHSDZBbjcwUXFOdkhTY1JmeUlFdmdqR1NfUWVoQmgtbC1OSThmbFZVTExzNE1pLXY3Rm4xWEMxQ2d0R1RDTDFXaU82bHZDeTdBUjFjb0xjT2I2bjhTWDRsOVFQSEZibzNmOWgxdHppdzZUak1tS0ZLNVpnU0YtNVJPM09DSnktejJGcy04Zk5Gak1TWDFoemp6UnhxQmhDYnBhOV90Q00?oc=5) — **联合早报** · 11-27 23:58
 - [Bills soar as targets slip in Labor’s energy transition](https://news.google.com/rss/articles/CBMihwJBVV95cUxOZDBvaFBpZjF2X0tQQm1oRzhkRFlIUlpldTJERzF0Qk1PajBzNGVEX1VTZXVPTG10R0ZCZEdtLXFZakV3WUlkT3dyckY2Yk9YUVRvcmRmSHFmNFdWY2pEYm13RHl4OXM5aGtveGdzZGM4ODBZT3BGM2hVYzV4dUxINzlZci05LU13ck15UFF2aURTSVhpd1UyTW5ycEpEalpMWThxWFpoU3g0ZzJhT3FDbXV6ME9EMEZxQW5XRERFSHN4VDlZWDIwclZQRmJvOGcyTjcxRDJ2WVcxY3lWdWJsMF94Q1lzbktESldhY0xfSllOODk3TzN2TFdXWlEwNUwyV3FqMFQydw?oc=5) — **The Australian** · 11-27 23:47
 - [Logan Energy prepares investors for a corporate transition as board additions land (TSXV:LGN)](https://news.google.com/rss/articles/CBMivgFBVV95cUxPTzVFd25MdFQwbmJBVDd3Qk9LTW9EWXItNFVVMG1zaU8xYWJIUkZjMnFCSFJyenRZMGlkOWk4SmdCZF9lTFRrMU1NZy1xb1lWZ2ZxY2lKWmVnbXdRMDU3UE8xZXR4NklfTlhOLWFuaEo5Ujl1aHN2bGg3NVNEWkRDTnZxY3ZDT1Bud2hvYVVZd3hNdlhvU1hyLTU2T0lyZUg0ZmtIYXcxalNSUkZ0MFhOWkRxRnVMQVpVelJyV1ZR?oc=5) — **kalkine.ca** · 11-27 23:35
-- [Renewable energy transition risks deepening technological divide](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV2dyMGVuMjg0NzBTQVJMckZJaGlRUXFCUGlsRG9YaG5FZ3VaZXJEOHBOajdndFlmajRqTzYxUnRPOV9YNlJfU1QwWEx1NTBTYkw3RVBMRldEMVZkcmJYVHBoWTBnRy1lRk4xeEc2STVpZVJfeW0wb3ItaWVsTy1iQzRzektBcTBGQk5heG1jT3JfUmVtclpqTk4zSEVXQkNXaWZTcExJYWtndw?oc=5) — **Envirotec Magazine** · 11-27 23:17
 
 ---
 
