@@ -3,12 +3,12 @@ title: "News"
 description: "키워드 기반 국내외 주요 기사·리포트 클리핑. 매일 자동 갱신."
 tags: [뉴스클리핑]
 date: 2026-11-28
-modified: 2026-11-28T12:12+09:00
+modified: 2026-11-28T12:28+09:00
 ---
-> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-28 12:12 KST**  
+> 출처: 네이버 뉴스 검색 · Google News 검색(국내 ko-KR · 해외 en-US) · 마지막 확인: **11-28 12:28 KST**  
 > 키워드: 탄소시장 / carbon market · 국제감축 / Article 6 · 배출권거래제 / ETS · NDC · CBAM · 자발적 탄소시장 / VCM · AI 온실가스 · ESS · 전력망 · 메가특구특별법 · 탈석탄 · 에너지 전환 / energy transition · 냉매
 
-> [!example] [[radar/news/2026/11-28|11-28 클리핑]] — 기사 **182건** (국내 96 · 해외 86)
+> [!example] [[radar/news/2026/11-28|11-28 클리핑]] — 기사 **184건** (국내 98 · 해외 86)
 > 비슷한 제목의 보도는 하나로 묶고 나머지는 '관련 보도'로 접었습니다. 한 번 실린 기사나 같은 제목의 기사는 다음 날 다시 나오지 않습니다.
 
 ## 탄소시장 / carbon market
@@ -182,8 +182,10 @@ modified: 2026-11-28T12:12+09:00
 
 ## AI 온실가스
 
-### 국내 · 9건
+### 국내 · 10건
 
+- [환경측정분석사·송전전기원 시험…기후부, AI 부정행위 방지대책 마련](https://news.cpbc.co.kr/article/1177320?division=NAVER) — **cpbc News** · 11-28 12:22
+  - 뉴시스 환경측정분석사, 송전전기원 등 기후에너지환경부 소속·산하기관 소관 시험에서도 인공지능(AI)을... 점검 대상은 환경측정분석사, 온실가스 검증심사원, 환경교육사, 송전전기원, 수렵면허 등 국…
 - [서울, AI 시대 도시 미래 준비지수 세계 8위...인간 중심성·혁신 1위](https://www.m-economynews.com/news/article.html?no=73695) — **M이코노미뉴스** · 11-28 09:00
   - 지속가능성 개선은 과제 전 세계 112개 주요 도시 가운데 인공지능(AI) 시대의 미래 변화에 가장 잘... 다만 지속가능성 부문에서는 53위에 머물러 대기질 개선과 온실가스 감축, 개방형 공공공간…
 - [인도네시아, 한국 투자 유치 확대…철강서 데이터센터로 확장](https://www.g-enews.com/view.php?ud=2026112723165155768c1ed9d56c_1) — **글로벌이코노믹** · 11-28 08:36
@@ -205,14 +207,14 @@ modified: 2026-11-28T12:12+09:00
 
 ## ESS
 
-### 국내 · 27건
+### 국내 · 28건
 
 - [동서발전, ESS 입찰 672MW 확보···누적 용량 국내 1위](https://www.todayenergy.kr/news/articleView.html?idxno=306193) — **투데이에너지** · 11-27 15:46
   - 한국동서발전(사장 권명호)은 '2026년 에너지저장장치(ESS) 중앙계약시장 입찰'에서 강진 등 7개 사업 총 672메가와트(MW) 규모의 물량을 대거 확보하며, 국내 최대 배터리에너지저장장치 용량…
   - 관련 보도 8건: [매일경제](https://www.mk.co.kr/article/12220225), [산경e뉴스](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NbGNoRUNkdnUzR3BOOXRxUHdGdUsyVHdKVmFkZ3ZFM3l2Szl4M2k1SWNjaTN3UmxWMU01eS0tSGJyN3ZkZ3NHSnFfeVFLdk9VNFJ3RTZ6MEZsUkhpZVI2QmlmRmF4S2c?oc=5), [핀포인트뉴스](https://www.pinpointnews.co.kr/news/articleView.html?idxno=508961), [울산종합일보](https://news.google.com/rss/articles/CBMibkFVX3lxTE52emdZeTRFT0NOOURvUk1CbjA4NjRNemNFZWJZb0VMdFlIMkpBR2U5QkNUZ0dSdEw3V2VyemtUblEwaTVpTVFRWDhESHMwVzFEamJ0eDIxNUxadG4yV0pTSHNtMGdfZDA2YVpMUi1B?oc=5), [CNB뉴스](https://www.cnbnews.com/news/articleView.html?idxno=1025718), [naeil.com](https://www.naeil.com/news/read/610393?ref=naver), [스포츠한국](https://sports.hankooki.com/news/articleView.html?idxno=6944348), [부산일보](https://www.busan.com/view/busan/view.php?code=2026112804444710810)
 - [역대 최대 3차 ESS 입찰…삼성SDI 63%·SK온 37% 확보](https://www.dailian.co.kr/news/view/1720659/?sc=Naver) — **데일리안** · 11-27 16:00
   - 삼성SDI가 역대 최대 규모로 열린 제3차 에너지저장장치(ESS) 중앙계약시장에서 배터리 공급 물량의 60% 이상을 확보했다. LG에너지솔루션이 불참한 가운데 SK온이 나머지 물량을 가져갔다. 27…
-  - 관련 보도 2건: [SR타임스](http://www.srtimes.kr/news/articleView.html?idxno=218880), [MTN 머니투데이방송](https://news.mtn.co.kr/article/2026112716535619772)
+  - 관련 보도 3건: [SR타임스](http://www.srtimes.kr/news/articleView.html?idxno=218880), [투데이코리아](https://news.google.com/rss/articles/CBMicEFVX3lxTE1vVGpGYUtvcmpybHJoR2xKXzNNeFlKcFhfQ1ktTkxwSzFhUjFfd2thRDVhRTVaT1FHeF83eFVuWThhdkVvUDRwVUk2eUMyZmJGeTJzd2x3WEVZZ3poTDZKX0pCNmZOa1gwalA1UV9OWXU?oc=5), [MTN 머니투데이방송](https://news.mtn.co.kr/article/2026112716535619772)
 - ["외국은 ESS로 돈 버는데"…'배터리 강국' 한국은 언제쯤 \[ESS 대전환 ⑤...](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611270130&t=NN) — **한국경제TV** · 11-27 21:00
   - 에너지저장장치(ESS)가 전력 공급을 뒷받침하는 설비를 넘어 새로운 수익을 창출원으로 자리잡은 거다. 그런데 세계적인 배터리 제조사들을 보유한 한국은 정작 국내 ESS 시장을 여는 데 어려움을 겪고…
   - 관련 보도 1건: [한국경제TV](https://news.google.com/rss/articles/CBMid0FVX3lxTE4xN2lIWS1hXzNVTW9jMmVocW9Fbl9IZ3JDNWRhUmFFNWVqUktsSU02N0psb1dZNVhWcF9LZXdDS005UWlPUnNtMlpobHgycXJBa2xYUUlVME1oNHdLeVhPZG83MzVweXpHWGN2Z3JkMURjaUhHSXNn?oc=5)
@@ -246,6 +248,7 @@ modified: 2026-11-28T12:12+09:00
   - 관련 보도 1건: [pv magazine India](https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVlfOGk2MWkxRVZZbEhWVWRkOHpmSXNjYXZxbmtzOHdIdU5BWXNPQ3Bhek8yM0k4NDFiLUh3YWkzWEU0eHFEVVF1SjRxTGI0V2JPWEE0YmlRMGh3VjJCRXJibGJfcklVZkFqUW05dmdOWEFTM1c4QUtNTFB0QXlrb2ZkM1dZZzlSNFlaRkxaZXNjZjdyY3JyMnB4VUhjMlcwQnZQZW1XMl9EVkVfS3l3?oc=5)
 - [Zelestra and Statkraft sign 700 MWh BESS agreement](https://news.google.com/rss/articles/CBMilAFBVV95cUxQSlVfeERYTnZncmlsenVxRWV2TnhLMTRkaTVPYXMtSEhBblJEdzd5VzdfZFdESUh5Q0Q0U0NnYzJrdnQ2YUUwVDl3YjJsVzN6OUZ2UHh5UE5QWjA0b1BzVGdBNzZTT3ExTmhObDlldjJUcGpZM21PU0RlNm0zcU40S1BmSlN5UWxNUTdDVXJCNHdtMzl3?oc=5) — **Renewable Watch** · 11-27 16:00
   - 관련 보도 1건: [Solarbytes](https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT3pNd2M0WFdZNk04U2dlZFdCNWtkTFRaY29JUURmc2J3YndxZ3hTa3RQMklZcDc3WUxCcmtoalpoVmpRSUhCX2pXWFBxQlg3OFpiS0VFWHNjeTliSENVRXJPMEJ5Z1M0Vmlhc0JDdVpXN1pqYVk1dnpCRklsdG9KZEFCbktPUDVVMW5ZQTNMUDM3VzN3cUVaMy1Pd2Y2LWVDR1hpUXFmcUo2azZUTl9GNGdUWlNDVkhLZlBXWnRNZjFHZkM3WE8xNG5vZHlaNEpObGFCU0NERVJrUXoy?oc=5)
+- [Odisha eyes battery energy storage for power supply during disasters](https://news.google.com/rss/articles/CBMixgFBVV95cUxPV2VKbFFMQVZrZlgwMkwtdUZSYXRKSVBTbG5rLXdqMHZ5YXUyS3pzTW9iWjZ0UE9TTGVWRUplVTFJSS1DUU5OVTRaWi0xTThPQV95cUZqWHFCWEswclZtOVYxenJPRlFsQTdrRy04UEhDZUxHWEd2Vk9CNlZuVk9mSDdneW90MVVVT25DVndHVlF6SHRkdEZLcHo1ZGM4cmtBTHNKbHFPcExiY2xVQ2R5d1diSDFtaDFzVkZKMldSNEFhNmNxalHSAdMBQVVfeXFMUGVlLWJKSFRMWk1lRHNlWldmT2FfTDMxLTBYclU3SlpEOFplMWJQalk1UHdnOWxWNmY0OGlMOW12M1VKNjZsT3JQUTFGSlJweWNXdFBZMHFScWhUVmxlMmtKY3Y4YThyRlBBTzJ1Ui0teFlPSmc5cmc1bzh1OWhmNS0yVzgtb3VRaExJRjlZT1dIT1pLam00aldUcHdIeEV1TEdJRWpQNzNwckdhOXdIby1qZHB3YjZBczlhc0JjSWRrUDF1blI0Uk5neG1JeWdxWDJ5cw?oc=5) — **The New Indian Express** · 11-28 12:08
 - [Sahaj Solar Wins ₹389.52 Crore Mauritius Solar-BESS Award](https://news.google.com/rss/articles/CBMirAFBVV95cUxOMENEUGZBWk1tWFladUFQcGktMTI1RjYxbnllV09pdkgzUlNOU3BlZ1dHczZ0YmliZEUyVWhad0tNMDgtRHFUc2RjeXJCU2JKSFgtZUNrYVdjcjFYb3NyVnFkX0lPVU1OcTBsTGhaX0NNTEp3SzJwaC01c3hTRllDWGNjNzBtMzhPajg4Uk1rLWdXaVFLZF8tb0MwNEU2NnRRTDlOTWNzRFFUU3Rp?oc=5) — **Multibagg AI** · 11-28 07:57
 - [Who bears the burden? Justifying pumped storage in sensitive landscapes](https://news.google.com/rss/articles/CBMigAFBVV95cUxOVGkyd2ZQREV0UW15ejJjMms3Wmc3YzJIb0Z5Tjg3YjM1ai12anZ4aHdTNE1pYWw5Q2JmY0xYUGd3NTQ0cXlXMjhEYVVzZlpMWTN6OE9Oc2pZY0J3ZzRvN3FDYXY0anNzZmVVb3BJaDR0RVh0OERLUlRnbjlTNlBEQQ?oc=5) — **Counterview** · 11-28 07:50
 - [ACME Solar commissions 70.19 MW BESS component in Rajasthan projects](https://news.google.com/rss/articles/CBMivwFBVV95cUxQNUI5Q2EtTzdPQ2JoRlJSSHF5QkZ1Snl3Z1BodlMxSU93TkV0VGEzN1NXUy1HYnQyY01CTll6YWtFcm9YbGhIZndSdjBJWTd0ZjJ4SFN5TTB5YW5yd2RoSFNUNnFacHdZZThvNkg1TU53WFBsVHV1VzZkeENtdFdwb05pZk45YTZzbThMYy1JNFZLeVRFTVQ4QmlmYWxFWnRWS0l0VFR1OGxfMXl1QVN5VW1pNnpjLV9hQUxrcEhrWQ?oc=5) — **scanx.trade** · 11-28 03:25
@@ -254,7 +257,6 @@ modified: 2026-11-28T12:12+09:00
 - [Zelestra gets full Statkraft BESS toll](https://news.google.com/rss/articles/CBMifEFVX3lxTFB5NHo1VjVkckR2bW55ZEh4WjA4TThyamxEUkRhNDFta2JDV2VBb1p4UXFOel84SGxQeGhnNGRIbUdiejU3Si15OXAxLW1Da3pxbm5WR3BsLXU1Q2U5RmpNS1A0dDJXR19hT054NnhDb1ZKZ3lKQTZzZncwM2E?oc=5) — **Project Finance International** · 11-28 02:14
 - [Bihar Strengthens Energy Storage Readiness with Two-Day BESS Capacity-Building Programme for Bihar Power Utilities Officials](https://news.google.com/rss/articles/CBMivAFBVV95cUxOcG9wVEtJXzgyQ29acTlhWTFob3JiNHgyTWpLU0J6b241OG9QekNSMjNaU0x3aTFKOXJGRkZqekdKUFRRMWJmTUgyeUZ6bmhmTXJEYTFiVUxXaklyaWhxanZVWjAxVjB4dmV1dmtZZFN3Tl8ySjNaSWZ5b0U5UG5fSmhRYk5kU0xjb2Jhck9mejJ2QnN4WWEyaHpudTlaaHdlalZ2bUdBN3huOFphZi04TDMwY0gxYnJoWEZfag?oc=5) — **TERI** · 11-28 02:11
 - [South Korea names preferred bidders for 1.194 GW of BESS at 14 sites](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMWFxVEJsRDNsWldZbzYtMlBTaVcxVS1UVWdoTU5CNWx4cThYQWdwSWtWMXJuSXlMbFRMRk5UVnNTOV9OaHdxc1d3Vl9LTEhYNVlKNnV5VGJDNF9Cb1pmNENSUmVYR1plV1NJdkNYaXhpUzdQaFpiTTRaUDlmdEdRU1E5U3NiM0hVLXRHTHBtel9wSjFDR01YdlUwTWoxeE9nbjlHemxhcWdGakowXzAtOXozemI0c05jcExPZmFacHlhS25oejFCd2JvNEFFOTc2?oc=5) — **Solarbytes** · 11-28 00:56
-- [EnerVenue secures UL cybersecurity certifications for BESS](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaGVzcFV4bGdxX1RUdHhjVERNZGtGb2tuNXpHaV9fcGg4LUl2ZDJNZVRTSWhvX3dBaGE4TG81b1FGNjFkbDF3TTJEVGVEdmVGOExQOVk2SXIzVDY1QXVuc1dsTmE3MjNRbDdqMmsyZmVobVlIU1pQcF9kcFNWdl84TUEzMEtVVWxHaE1oalBFRnY2aTlKZjR4LXhqTUxyMmllOHZVV2JRbGs4WElwTkQtMXVCNTdQZ25mdmF0S3FDOERzTFVEdUVRRnpRRXZ5MWpqUEFhbHRn?oc=5) — **Solarbytes** · 11-28 00:32
 
 ---
 
@@ -318,11 +320,11 @@ modified: 2026-11-28T12:12+09:00
 - [Navigating Energy Transition: Insurers increasingly play a key role](https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2SENldnpOdVV6cEhLbWtwZWVrcC1sMjk3cExkeWhYaDNTTER1S3JLUmJ6Tnl0elV0dDVzclExb3NRTkNqZGRDbXpJUS0wV2g5ZEdGRE1Vbw?oc=5) — **Asia Insurance Post** · 11-28 06:17
 - [Plugging in: How electrification can help South-east Asia’s energy transition](https://news.google.com/rss/articles/CBMixAFBVV95cUxNb09Bck1TQmZlUHZ3bUNUaTJCbHRVejE4VHBPZFl0S29qYkw1LXlOM1BMM0I0dng3RVdPWEJmWEJXR0gtTFB1WGEzZ2luM0dfczNKX2xVS3dabEJzYnRGdXlEVzNnZzg0MGJfbnJYWXFDTG9jOVY3c1dpMk1Ca1hSSFlJNnViUU9ud0hRNjVYNHB0WlY4VDVoMy1tbUMwVjRKaXFaUFNQY04ycHd4aXRUeVZWQVFzbEhOT0pueHM2dGRWQVNQ?oc=5) — **The Straits Times** · 11-28 06:00
 - [Decommissioning of Coal Power Stations Must Happen Within the Just Energy Transition Framework, Says Electricity and Energy Committee](https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVkRiNXd3SGVMeHc2dmVQRWlkT3Q1X1U1Vk9SajVQUTBhUFhvZDBuRGZHdXlGZEcxVW5PRGxIQlVoN2ZyOWQ4NGRQLXVZV1NtRVBzZE9Sa256QWRid21Nd0VoZW4wRXVDYlFFMGRjLS1NR2V3eUlFbkdiT3pxUExlVFBjeDNMUWlSUmRDRmZQS0gtc0FhY3FhQTFoU3YwbzNFYXR3MkR0UHBIMzVzQnowdXZ5MDVFRUtxbjY5WVpJWXM2ZGoyaEV0MFVqZk5WRUh4aHgxVVJQWnQtb3RpeUdFdHhBd1NfS1hZZ0F3bmZ1MUF2QQ?oc=5) — **Parliament of South Africa** · 11-28 03:00
+- [How direct current technology will power the energy transition](https://news.google.com/rss/articles/CBMiogFBVV95cUxOa0xTVXo4amZoWWdTRl80blBqTXo1NVFxLVBCU0VaQ0ZJWkFiRzlETThTSUNVUFBKcmZHbWNnaFpUUFN2Y01JRGZId3E4bG1PaGR5UVpZbjhzVTNVM1hQSXdNUHNVRzVBRi1CcGZrOFc0OUxpc0NJM0xRY2hlRkZ3QmNjd1Z1V0d1NVdHOXljQ2NlbEF1RWdWYzg2V0l0eHdKY0E?oc=5) — **ABB** · 11-28 00:46
 - [President Tharman: AI and energy transition require maritime professionals to learn new skills](https://news.google.com/rss/articles/CBMizwFBVV95cUxQX0diM0YzMnNoTzhaWnJNVXdyWE9zUFpqck1oTHRZV2xnTF9EWEpaZHdHSDZBbjcwUXFOdkhTY1JmeUlFdmdqR1NfUWVoQmgtbC1OSThmbFZVTExzNE1pLXY3Rm4xWEMxQ2d0R1RDTDFXaU82bHZDeTdBUjFjb0xjT2I2bjhTWDRsOVFQSEZibzNmOWgxdHppdzZUak1tS0ZLNVpnU0YtNVJPM09DSnktejJGcy04Zk5Gak1TWDFoemp6UnhxQmhDYnBhOV90Q00?oc=5) — **联合早报** · 11-27 23:58
 - [Bills soar as targets slip in Labor’s energy transition](https://news.google.com/rss/articles/CBMihwJBVV95cUxOZDBvaFBpZjF2X0tQQm1oRzhkRFlIUlpldTJERzF0Qk1PajBzNGVEX1VTZXVPTG10R0ZCZEdtLXFZakV3WUlkT3dyckY2Yk9YUVRvcmRmSHFmNFdWY2pEYm13RHl4OXM5aGtveGdzZGM4ODBZT3BGM2hVYzV4dUxINzlZci05LU13ck15UFF2aURTSVhpd1UyTW5ycEpEalpMWThxWFpoU3g0ZzJhT3FDbXV6ME9EMEZxQW5XRERFSHN4VDlZWDIwclZQRmJvOGcyTjcxRDJ2WVcxY3lWdWJsMF94Q1lzbktESldhY0xfSllOODk3TzN2TFdXWlEwNUwyV3FqMFQydw?oc=5) — **The Australian** · 11-27 23:47
 - [Logan Energy prepares investors for a corporate transition as board additions land (TSXV:LGN)](https://news.google.com/rss/articles/CBMivgFBVV95cUxPTzVFd25MdFQwbmJBVDd3Qk9LTW9EWXItNFVVMG1zaU8xYWJIUkZjMnFCSFJyenRZMGlkOWk4SmdCZF9lTFRrMU1NZy1xb1lWZ2ZxY2lKWmVnbXdRMDU3UE8xZXR4NklfTlhOLWFuaEo5Ujl1aHN2bGg3NVNEWkRDTnZxY3ZDT1Bud2hvYVVZd3hNdlhvU1hyLTU2T0lyZUg0ZmtIYXcxalNSUkZ0MFhOWkRxRnVMQVpVelJyV1ZR?oc=5) — **kalkine.ca** · 11-27 23:35
 - [Renewable energy transition risks deepening technological divide](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV2dyMGVuMjg0NzBTQVJMckZJaGlRUXFCUGlsRG9YaG5FZ3VaZXJEOHBOajdndFlmajRqTzYxUnRPOV9YNlJfU1QwWEx1NTBTYkw3RVBMRldEMVZkcmJYVHBoWTBnRy1lRk4xeEc2STVpZVJfeW0wb3ItaWVsTy1iQzRzektBcTBGQk5heG1jT3JfUmVtclpqTk4zSEVXQkNXaWZTcExJYWtndw?oc=5) — **Envirotec Magazine** · 11-27 23:17
-- [BP p.l.c. (LSE:BP.) Edges Higher as Oil, Gas and Energy Transition Strategy Remain in Investor Focus](https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3lfbFVYRjhNN2k5V0s0RXRCa2IwcHA0N2ZiRlFXSVNSUC1mdnVnZGVSbnpVSHBQRXlYbDVDX3dMaUwxRHNQQm1RVlFSanNHbzc4THpqV0tFRmY3aVFkb2RzOFUyNTR6MUtwaERyVTcyYUl0cURncVVtQXpzbllxamVKOFRNOFdkM25JVUhNM21EYTZrbVdiSUtJVjJUczREQldPZk52bjJjNmJQZjlWS05SSDFWTTFGc1JHOVpuQlRIMks1?oc=5) — **kalkine.co.uk** · 11-27 23:16
 
 ---
 
